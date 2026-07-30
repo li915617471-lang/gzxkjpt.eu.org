@@ -7,172 +7,100 @@
   "language": "zh-CN",
   "items": [
     {
-      "id": "https://gzxkjpt.eu.org/article.html?id=1",
-      "url": "https://gzxkjpt.eu.org/article.html?id=1",
-      "title": "先进封装扩产提速，Chiplet 进入规模化验证阶段",
-      "summary": "从算力芯片到车规器件，封装环节正在成为提升系统性能与供应链韧性的关键变量。",
-      "content_text": "从算力芯片到车规器件，封装环节正在成为提升系统性能与供应链韧性的关键变量。",
+      "id": "https://gzxkjpt.eu.org/article.html?id=12",
+      "url": "https://gzxkjpt.eu.org/article.html?id=12",
+      "title": "欧洲央行推进数字欧元应用无障碍标准，公共支付强调普惠设计",
+      "summary": "欧洲央行宣布数字欧元应用将采用高标准无障碍设计，显示公共数字支付基础设施开始把不同用户的可访问性纳入核心产品要求。",
+      "content_text": "欧洲央行在2026年7月30日发布的公开信息中表示，数字欧元应用将纳入高标准无障碍要求。该信息反映出数字货币基础设施的设计重点不仅包括支付功能、安全与隐私，也包括视听、操作和认知层面的可访问性。\n\n平台观察：无障碍标准进入基础产品设计阶段，有助于减少老年人、残障人士及数字技能较弱群体使用公共支付工具的门槛。具体功能、发行安排与适用范围仍应以欧洲央行后续正式文件为准。",
       "date_published": "2026-07-30T08:00:00+08:00",
       "tags": [
-        "先进封装",
-        "Chiplet",
-        "供应链"
-      ],
-      "_category": "科技",
-      "_source": "芯片观察"
-    },
-    {
-      "id": "https://gzxkjpt.eu.org/article.html?id=2",
-      "url": "https://gzxkjpt.eu.org/article.html?id=2",
-      "title": "固态电池中试线密集落地，材料体系仍是成本分水岭",
-      "summary": "硫化物与氧化物路线同步推进，产业关注点从实验室能量密度转向良率和制造一致性。",
-      "content_text": "硫化物与氧化物路线同步推进，产业关注点从实验室能量密度转向良率和制造一致性。",
-      "date_published": "2026-07-30T08:00:00+08:00",
-      "tags": [
-        "固态电池",
-        "材料体系",
-        "中试线"
-      ],
-      "_category": "能源",
-      "_source": "能源前沿"
-    },
-    {
-      "id": "https://gzxkjpt.eu.org/article.html?id=3",
-      "url": "https://gzxkjpt.eu.org/article.html?id=3",
-      "title": "边缘智能加速进入设备端，低功耗推理芯片需求上升",
-      "summary": "工业相机、移动机器人和智能传感器开始部署更小的多模态模型，推理成本持续下降。",
-      "content_text": "工业相机、移动机器人和智能传感器开始部署更小的多模态模型，推理成本持续下降。",
-      "date_published": "2026-07-30T08:00:00+08:00",
-      "tags": [
-        "边缘智能",
-        "推理芯片",
-        "工业设备"
-      ],
-      "_category": "科技",
-      "_source": "算力简报"
-    },
-    {
-      "id": "https://gzxkjpt.eu.org/article.html?id=4",
-      "url": "https://gzxkjpt.eu.org/article.html?id=4",
-      "title": "数字孪生从展示系统转向生产决策，工厂数据底座重构",
-      "summary": "实时工艺数据、设备健康模型与排产系统打通，数字孪生开始直接参与质量控制。",
-      "content_text": "实时工艺数据、设备健康模型与排产系统打通，数字孪生开始直接参与质量控制。",
-      "date_published": "2026-07-30T08:00:00+08:00",
-      "tags": [
-        "数字孪生",
-        "质量控制",
-        "数据底座"
-      ],
-      "_category": "工业",
-      "_source": "智造纵深"
-    },
-    {
-      "id": "https://gzxkjpt.eu.org/article.html?id=5",
-      "url": "https://gzxkjpt.eu.org/article.html?id=5",
-      "title": "新型电力系统扩容，储能调度进入精细化运营阶段",
-      "summary": "新能源渗透率提高后，储能收益不再只依赖峰谷价差，辅助服务成为新的能力要求。",
-      "content_text": "新能源渗透率提高后，储能收益不再只依赖峰谷价差，辅助服务成为新的能力要求。",
-      "date_published": "2026-07-30T08:00:00+08:00",
-      "tags": [
-        "新型电力系统",
-        "储能调度",
-        "辅助服务"
-      ],
-      "_category": "能源",
-      "_source": "电力系统周刊"
-    },
-    {
-      "id": "https://gzxkjpt.eu.org/article.html?id=6",
-      "url": "https://gzxkjpt.eu.org/article.html?id=6",
-      "title": "工业网络升级：确定性通信成为柔性产线的连接基础",
-      "summary": "面向复杂运动控制与多设备协同，TSN、5G 专网和边缘网关正在形成互补组合。",
-      "content_text": "面向复杂运动控制与多设备协同，TSN、5G 专网和边缘网关正在形成互补组合。",
-      "date_published": "2026-07-30T08:00:00+08:00",
-      "tags": [
-        "工业网络",
-        "TSN",
-        "5G 专网"
-      ],
-      "_category": "工业",
-      "_source": "工业连接"
-    },
-    {
-      "id": "https://gzxkjpt.eu.org/article.html?id=9",
-      "url": "https://gzxkjpt.eu.org/article.html?id=9",
-      "title": "实时支付与数字身份加速融合，金融基础设施进入云原生升级周期",
-      "summary": "银行、支付机构与产业平台开始打通可信身份和实时结算能力，风控模型从事后识别转向交易链路实时判断。",
-      "content_text": "银行、支付机构与产业平台开始打通可信身份和实时结算能力，风控模型从事后识别转向交易链路实时判断。",
-      "date_published": "2026-07-30T08:00:00+08:00",
-      "tags": [
-        "实时支付",
-        "数字身份",
-        "云原生",
+        "数字欧元",
+        "无障碍设计",
+        "公共支付",
         "金融科技"
       ],
       "_category": "金融",
-      "_source": "金融科技观察"
+      "_source": "European Central Bank"
     },
     {
-      "id": "https://gzxkjpt.eu.org/article.html?id=10",
-      "url": "https://gzxkjpt.eu.org/article.html?id=10",
-      "title": "多光谱遥感与田间机器人协同，精准农业从监测走向自主作业",
-      "summary": "作物长势识别、变量施肥和自主巡检正在形成闭环，农业数据平台开始连接农机、气象与供应链信息。",
-      "content_text": "作物长势识别、变量施肥和自主巡检正在形成闭环，农业数据平台开始连接农机、气象与供应链信息。",
+      "id": "https://gzxkjpt.eu.org/article.html?id=13",
+      "url": "https://gzxkjpt.eu.org/article.html?id=13",
+      "title": "计算集群走出国家实验室，人工智能基础设施继续向规模化扩展",
+      "summary": "面向计算密集型应用，多节点协同形成的计算集群正在成为扩展人工智能性能和资源容量的重要基础设施路径。",
+      "content_text": "Semiconductor Engineering的公开资料指出，对于计算密集型应用，由多个节点组成并作为单一计算系统运行的集群，可以扩展性能与资源容量。随着人工智能训练和推理负载增加，集群技术正从大型科研设施进一步进入产业部署讨论。\n\n平台观察：规模扩大并不只意味着增加芯片数量，还涉及互连带宽、存储、能耗、调度软件和故障恢复。实际效率需要结合具体工作负载、总拥有成本及能源约束持续核验。",
       "date_published": "2026-07-30T08:00:00+08:00",
       "tags": [
-        "精准农业",
-        "农业机器人",
-        "多光谱遥感",
-        "智慧农机"
+        "计算集群",
+        "人工智能",
+        "算力基础设施",
+        "半导体"
       ],
-      "_category": "农业",
-      "_source": "智慧农业前沿"
+      "_category": "科技",
+      "_source": "Semiconductor Engineering"
     },
     {
-      "id": "https://gzxkjpt.eu.org/article.html?id=11",
-      "url": "https://gzxkjpt.eu.org/article.html?id=11",
-      "title": "数字人文平台连接档案、博物馆与公共知识服务",
-      "summary": "语义检索、知识图谱与三维采集让文化资源形成可计算的数据体系，公共文化服务正在从数字展示走向知识关联。",
-      "content_text": "语义检索、知识图谱与三维采集让文化资源形成可计算的数据体系，公共文化服务正在从数字展示走向知识关联。",
+      "id": "https://gzxkjpt.eu.org/article.html?id=17",
+      "url": "https://gzxkjpt.eu.org/article.html?id=17",
+      "title": "荣格《红书》插图进入公共视野，心理学文本同时呈现视觉叙事价值",
+      "summary": "Open Culture整理荣格《红书》的插图页面与出版背景，这部作品让心理学思想、个人书写和视觉艺术形成可共同研究的材料。",
+      "content_text": "Open Culture介绍了荣格Liber Novus，也就是通常所称的《红书》，并展示其插图页面及完整英文译本的出版背景。作品中的书写、图像和象征体系，使它不仅是心理学史材料，也成为视觉文化研究对象。\n\n平台观察：面向历史手稿与艺术图像的网络传播，需要区分作品本身、研究解读与数字复制版本。阅读和引用时应回到出版信息、馆藏说明及原始资料核验版权和上下文。",
       "date_published": "2026-07-30T08:00:00+08:00",
       "tags": [
-        "数字人文",
-        "知识图谱",
-        "文化遗产",
-        "公共知识"
+        "荣格",
+        "红书",
+        "视觉文化",
+        "心理学史"
       ],
       "_category": "人文",
-      "_source": "数字人文观察"
+      "_source": "Open Culture"
     },
     {
-      "id": "https://gzxkjpt.eu.org/article.html?id=7",
-      "url": "https://gzxkjpt.eu.org/article.html?id=7",
-      "title": "工业大模型落地路径分化，知识工程重新受到重视",
-      "summary": "通用能力需要与设备手册、工艺规则和历史故障数据结合，模型评测转向任务完成率。",
-      "content_text": "通用能力需要与设备手册、工艺规则和历史故障数据结合，模型评测转向任务完成率。",
+      "id": "https://gzxkjpt.eu.org/article.html?id=15",
+      "url": "https://gzxkjpt.eu.org/article.html?id=15",
+      "title": "油价回落压低美加能源贸易额，跨境能源结构仍需结合数量观察",
+      "summary": "美国能源信息署数据显示，2025年美加能源贸易额受原油价格下降影响减少，价格变化与实际贸易数量需要分开理解。",
+      "content_text": "美国能源信息署在2026年7月29日发布的数据中表示，2025年美国与加拿大之间的能源贸易额下降约11%，估算为1370亿美元，原油价格下降是影响名义贸易额的重要因素。\n\n平台观察：贸易金额下降不等于能源流量按相同比例减少。判断跨境能源关系仍需同时查看原油、天然气、电力等品类的数量、价格、运输能力和季节变化，详细口径以EIA原始数据为准。",
       "date_published": "2026-07-29T08:00:00+08:00",
       "tags": [
-        "工业大模型",
-        "知识工程",
-        "模型评测"
+        "能源贸易",
+        "原油价格",
+        "美国",
+        "加拿大"
       ],
-      "_category": "科技",
-      "_source": "模型与产业"
+      "_category": "能源",
+      "_source": "U.S. Energy Information Administration"
     },
     {
-      "id": "https://gzxkjpt.eu.org/article.html?id=8",
-      "url": "https://gzxkjpt.eu.org/article.html?id=8",
-      "title": "第三代半导体产线向高良率爬坡，车规认证周期仍长",
-      "summary": "碳化硅器件需求稳定增长，衬底缺陷控制、模块封装与可靠性测试决定量产节奏。",
-      "content_text": "碳化硅器件需求稳定增长，衬底缺陷控制、模块封装与可靠性测试决定量产节奏。",
+      "id": "https://gzxkjpt.eu.org/article.html?id=16",
+      "url": "https://gzxkjpt.eu.org/article.html?id=16",
+      "title": "水资源、成本与韧性重塑灌溉投资，种植者需求成为技术落地关键",
+      "summary": "Global Ag Tech Initiative公布的调查显示，水资源利用、投入成本和生产韧性正在共同影响种植者对灌溉技术的投资判断。",
+      "content_text": "Global Ag Tech Initiative在公开调查资料中指出，种植者对于水、成本和韧性的优先级变化，正在重塑灌溉行业的投资决策。灌溉设备不再只比较单点效率，也需要考虑维护、数据接入和不同种植条件下的长期可用性。\n\n平台观察：农业技术能否落地取决于区域水资源、作物类型、农场规模和回收周期。调查结果反映的是受访样本，应结合当地气候、政策和实际生产数据判断。",
       "date_published": "2026-07-29T08:00:00+08:00",
       "tags": [
-        "碳化硅",
-        "第三代半导体",
-        "车规认证"
+        "农业灌溉",
+        "水资源",
+        "农业投资",
+        "生产韧性"
       ],
-      "_category": "科技",
-      "_source": "器件产业链"
+      "_category": "农业",
+      "_source": "Global Ag Tech Initiative"
+    },
+    {
+      "id": "https://gzxkjpt.eu.org/article.html?id=14",
+      "url": "https://gzxkjpt.eu.org/article.html?id=14",
+      "title": "钢铁出货量与定价同步变化，制造业需求成为产能观察窗口",
+      "summary": "Manufacturing Dive报道Nucor第二季度钢铁出货量创下纪录，定价与需求变化为观察北美基础制造业景气提供了新的公开样本。",
+      "content_text": "Manufacturing Dive在2026年7月28日的报道中提到，Nucor钢铁出货量创下纪录，价格与需求表现支持了季度业绩。该信息可作为观察建筑、汽车及设备制造等下游需求变化的一个企业样本。\n\n平台观察：单一企业数据不能直接代表整个工业周期，还需要结合行业产能利用率、订单、库存、原材料价格和区域需求交叉判断。相关财务数字和业务口径应以企业公告及原报道为准。",
+      "date_published": "2026-07-28T08:00:00+08:00",
+      "tags": [
+        "钢铁",
+        "制造业",
+        "工业需求",
+        "产能"
+      ],
+      "_category": "工业",
+      "_source": "Manufacturing Dive"
     }
   ]
 }

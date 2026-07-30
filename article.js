@@ -98,7 +98,7 @@ function renderArticle(story) {
   document.querySelector('meta[name="description"]').setAttribute("content", story.excerpt || story.title);
   applyArticleSeo(story, site);
   document.querySelector(".brand-copy strong").textContent = site.name || "信息分享平台";
-  document.querySelector(".brand-copy small").textContent = site.subtitle || "TECH & INDUSTRY INDEX";
+  document.querySelector(".brand-copy small").textContent = site.subtitle || "GLOBAL KNOWLEDGE INDEX";
   document.querySelector("#articleCategory").textContent = story.category;
   document.querySelector("#articleCategory").style.color = categoryColor;
   document.querySelector("#categoryLink").textContent = story.category;

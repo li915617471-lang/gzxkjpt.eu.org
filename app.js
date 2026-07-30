@@ -9,8 +9,8 @@ let chartSeries = {};
 const fallbackContent = {
   site: {
     name: "信息分享平台",
-    subtitle: "TECH & INDUSTRY INDEX",
-    heroTitle: "科技与工业观察台",
+    subtitle: "GLOBAL KNOWLEDGE INDEX",
+    heroTitle: "全球前沿知识观察台",
     heroSubtitle: "聚合关键技术、制造趋势与产业链信号",
     footer: "聚合公开产业信息，建立可追踪的科技观察坐标。",
     briefing: { title: "每日产业简报", subtitle: "工作日 08:30 更新" }
@@ -109,8 +109,8 @@ function applySiteContent() {
     publicNotice: "公益性科技与产业知识聚合平台",
     searchEnabled: true
   }, content.operations || {});
-  document.title = `${site.name} | 科技与工业内容聚合平台`;
-  const description = site.heroSubtitle || `${site.name} - 科技与工业内容聚合平台`;
+  document.title = `${site.name} | 全球前沿知识聚合平台`;
+  const description = site.heroSubtitle || `${site.name} - 全球前沿知识聚合平台`;
   document.querySelector('meta[name="description"]')?.setAttribute("content", description);
   document.querySelector(".brand-copy strong").textContent = site.name;
   document.querySelector(".brand-copy small").textContent = site.subtitle;

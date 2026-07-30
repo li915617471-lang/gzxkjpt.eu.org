@@ -285,7 +285,7 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
     if fallback not in rules:
         fallback = next(iter(rules), "科技")
     category = categorize(combined, fallback, rules)
-    excerpt = clean_text(entry.get("summary", ""))[:130] or "来自公开来源的科技与工业信息，等待后台进一步编辑摘要。"
+    excerpt = clean_text(entry.get("summary", ""))[:130] or "来自公开来源的前沿信息，等待后台进一步编辑摘要。"
     confidence = max(0, min(100, int(source.get("confidence", 75))))
     trust_level = source.get("trustLevel", "standard")
     status = "review" if confidence >= 80 and trust_level in {"authoritative", "professional"} else "draft"
