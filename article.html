@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="信息分享平台文章详情">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="信息分享平台">
+  <meta property="og:title" content="文章详情 | 信息分享平台">
+  <meta property="og:description" content="信息分享平台文章详情">
+  <meta property="og:url" content="https://gzxkjpt.eu.org/article.html">
+  <meta property="og:image" content="https://gzxkjpt.eu.org/assets/factory.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#090d10">
+  <link rel="canonical" href="https://gzxkjpt.eu.org/article.html">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <title>文章详情 | 信息分享平台</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="article.css">
+  <script src="cloud-config.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="cloud.js" defer></script>
+  <script src="content-service.js" defer></script>
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="pwa.js?v=2" defer></script>
+  <script src="article.js" defer></script>
+  <script id="articleStructuredData" type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"信息分享平台文章详情"}</script>
+</head>
+<body class="article-page">
+  <div class="scanline" aria-hidden="true"></div>
+  <div class="reading-progress" aria-hidden="true"><span id="readingProgress"></span></div>
+  <header class="article-topbar">
+    <a class="brand" href="index.html" aria-label="返回信息分享平台首页">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="brand-copy"><strong>信息分享平台</strong><small>TECH &amp; INDUSTRY INDEX</small></span>
+    </a>
+    <nav class="article-actions" aria-label="文章工具">
+      <a class="article-icon-link" href="index.html" title="返回首页"><i data-lucide="arrow-left"></i><span>返回首页</span></a>
+      <button id="copyLink" class="article-icon-button" type="button" title="复制文章链接"><i data-lucide="link"></i></button>
+      <button id="articleBookmark" class="article-icon-button" type="button" title="收藏文章"><i data-lucide="bookmark"></i></button>
+      <a class="article-icon-link admin-shortcut" href="admin.html" title="进入后台"><i data-lucide="settings"></i><span>后台</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <div id="articleLoading" class="article-state">正在加载内容...</div>
+    <div id="articleMissing" class="article-state" hidden>
+      <strong>没有找到这篇内容</strong>
+      <a href="index.html">返回内容首页</a>
+    </div>
+
+    <article id="articleContent" hidden>
+      <header class="article-hero">
+        <div class="article-breadcrumb"><a href="index.html">首页</a><span>/</span><a id="categoryLink" href="index.html"></a></div>
+        <div class="article-meta">
+          <span id="articleCategory" class="category-tag"></span>
+          <time id="articleDate"></time>
+          <span id="articleRead"></span>
+        </div>
+        <h1 id="articleTitle"></h1>
+        <p id="articleExcerpt" class="article-lead"></p>
+        <figure class="article-cover"><img id="articleImage" alt=""></figure>
+      </header>
+
+      <div class="article-layout">
+        <div class="article-body">
+          <div id="articleBody"></div>
+          <div id="articleTags" class="article-tags"></div>
+        </div>
+
+        <aside class="article-rail" aria-label="文章信息">
+          <section class="source-verification">
+            <div class="source-verification-title"><i data-lucide="shield-check"></i><span>来源核验</span></div>
+            <strong id="articleSource"></strong>
+            <a id="sourceLink" target="_blank" rel="noopener noreferrer">查看原始来源 <i data-lucide="external-link"></i></a>
+            <span id="sourceTrustNote" class="source-trust-note"></span>
+          </section>
+          <section>
+            <span>内容坐标</span>
+            <dl>
+              <div><dt>板块</dt><dd id="railCategory"></dd></div>
+              <div><dt>发布时间</dt><dd id="railDate"></dd></div>
+              <div><dt>内容热度</dt><dd id="railHeat"></dd></div>
+              <div><dt>可信度</dt><dd id="railConfidence"></dd></div>
+            </dl>
+          </section>
+          <section class="article-governance">
+            <div><i data-lucide="scale"></i><span>引用与纠错</span></div>
+            <p>摘要不替代原文，版权归原作者或发布机构所有。</p>
+            <a id="correctionLink" href="governance.html#correction">查看规则与提交纠错 <i data-lucide="arrow-up-right"></i></a>
+          </section>
+        </aside>
+      </div>
+    </article>
+
+    <section id="relatedSection" class="related-section" hidden>
+      <div class="related-head"><span>RELATED SIGNALS</span><h2>相关内容</h2></div>
+      <div id="relatedStories" class="related-grid"></div>
+    </section>
+  </main>
+
+  <div id="articleToast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

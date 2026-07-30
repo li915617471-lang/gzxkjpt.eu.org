@@ -1,0 +1,28 @@
+{
+  "id": "./",
+  "name": "信息分享平台",
+  "short_name": "信息分享",
+  "description": "聚合金融、科技、工业、能源、农业与人文领域公开前沿信息。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#090d10",
+  "theme_color": "#090d10",
+  "categories": ["news", "education", "productivity"],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

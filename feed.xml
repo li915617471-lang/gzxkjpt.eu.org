@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>信息分享平台</title>
+    <link>https://gzxkjpt.eu.org/</link>
+    <description>聚合公开产业信息，建立可追踪的科技观察坐标。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 30 Jul 2026 22:57:57 +0800</lastBuildDate>
+    <atom:link href="https://gzxkjpt.eu.org/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>先进封装扩产提速，Chiplet 进入规模化验证阶段</title>
+      <link>https://gzxkjpt.eu.org/article.html?id=1</link>
+      <guid isPermaLink="true">https://gzxkjpt.eu.org/article.html?id=1</guid>
+      <description>从算力芯片到车规器件，封装环节正在成为提升系统性能与供应链韧性的关键变量。</description>
+      <category>科技</category>
+      <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>固态电池中试线密集落地，材料体系仍是成本分水岭</title>
+      <link>https://gzxkjpt.eu.org/article.html?id=2</link>
+      <guid isPermaLink="true">https://gzxkjpt.eu.org/article.html?id=2</guid>
+      <description>硫化物与氧化物路线同步推进，产业关注点从实验室能量密度转向良率和制造一致性。</description>
+      <category>能源</category>
+      <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>边缘智能加速进入设备端，低功耗推理芯片需求上升</title>
+      <link>https://gzxkjpt.eu.org/article.html?id=3</link>
+      <guid isPermaLink="true">https://gzxkjpt.eu.org/article.html?id=3</guid>
+      <description>工业相机、移动机器人和智能传感器开始部署更小的多模态模型，推理成本持续下降。</description>
+      <category>科技</category>
+      <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>数字孪生从展示系统转向生产决策，工厂数据底座重构</title>
+      <link>https://gzxkjpt.eu.org/article.html?id=4</link>
+      <guid isPermaLink="true">https://gzxkjpt.eu.org/article.html?id=4</guid>
+      <description>实时工艺数据、设备健康模型与排产系统打通，数字孪生开始直接参与质量控制。</description>
+      <category>工业</category>
+      <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>新型电力系统扩容，储能调度进入精细化运营阶段</title>
+      <link>https://gzxkjpt.eu.org/article.html?id=5</link>
+      <guid isPermaLink="true">https://gzxkjpt.eu.org/article.html?id=5</guid>
+      <description>新能源渗透率提高后，储能收益不再只依赖峰谷价差，辅助服务成为新的能力要求。</description>
+      <category>能源</category>
+      <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>工业网络升级：确定性通信成为柔性产线的连接基础</title>
+      <link>https://gzxkjpt.eu.org/article.html?id=6</link>
+      <guid isPermaLink="true">https://gzxkjpt.eu.org/article.html?id=6</guid>
+      <description>面向复杂运动控制与多设备协同，TSN、5G 专网和边缘网关正在形成互补组合。</description>
+      <category>工业</category>
+      <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>实时支付与数字身份加速融合，金融基础设施进入云原生升级周期</title>
+      <link>https://gzxkjpt.eu.org/article.html?id=9</link>
+      <guid isPermaLink="true">https://gzxkjpt.eu.org/article.html?id=9</guid>
+      <description>银行、支付机构与产业平台开始打通可信身份和实时结算能力，风控模型从事后识别转向交易链路实时判断。</description>
+      <category>金融</category>
+      <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>多光谱遥感与田间机器人协同，精准农业从监测走向自主作业</title>
+      <link>https://gzxkjpt.eu.org/article.html?id=10</link>
+      <guid isPermaLink="true">https://gzxkjpt.eu.org/article.html?id=10</guid>
+      <description>作物长势识别、变量施肥和自主巡检正在形成闭环，农业数据平台开始连接农机、气象与供应链信息。</description>
+      <category>农业</category>
+      <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>数字人文平台连接档案、博物馆与公共知识服务</title>
+      <link>https://gzxkjpt.eu.org/article.html?id=11</link>
+      <guid isPermaLink="true">https://gzxkjpt.eu.org/article.html?id=11</guid>
+      <description>语义检索、知识图谱与三维采集让文化资源形成可计算的数据体系，公共文化服务正在从数字展示走向知识关联。</description>
+      <category>人文</category>
+      <pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>工业大模型落地路径分化，知识工程重新受到重视</title>
+      <link>https://gzxkjpt.eu.org/article.html?id=7</link>
+      <guid isPermaLink="true">https://gzxkjpt.eu.org/article.html?id=7</guid>
+      <description>通用能力需要与设备手册、工艺规则和历史故障数据结合，模型评测转向任务完成率。</description>
+      <category>科技</category>
+      <pubDate>Wed, 29 Jul 2026 08:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>第三代半导体产线向高良率爬坡，车规认证周期仍长</title>
+      <link>https://gzxkjpt.eu.org/article.html?id=8</link>
+      <guid isPermaLink="true">https://gzxkjpt.eu.org/article.html?id=8</guid>
+      <description>碳化硅器件需求稳定增长，衬底缺陷控制、模块封装与可靠性测试决定量产节奏。</description>
+      <category>科技</category>
+      <pubDate>Wed, 29 Jul 2026 08:00:00 +0800</pubDate>
+    </item>
+  </channel>
+</rss>

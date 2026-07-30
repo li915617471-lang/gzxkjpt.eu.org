@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="信息分享平台管理后台">
+  <title>信息分享平台 | 平台管理后台</title>
+  <link rel="stylesheet" href="admin.css">
+  <script src="cloud-config.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="cloud.js" defer></script>
+  <script src="content-service.js" defer></script>
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="admin.js" defer></script>
+</head>
+<body>
+  <section id="authGate" class="auth-gate" hidden>
+    <form id="loginForm" class="login-panel">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <p>SECURE ADMIN</p>
+      <h1>管理员登录</h1>
+      <span class="login-note">登录后才能修改云端内容和上传文件。</span>
+      <label>管理员邮箱<input id="loginEmail" type="email" required autocomplete="username" placeholder="admin@example.com"></label>
+      <label>密码<input id="loginPassword" type="password" required autocomplete="current-password" placeholder="输入管理员密码"></label>
+      <button class="primary-button" type="submit"><i data-lucide="log-in"></i> 登录后台</button>
+      <button id="useLocalMode" class="ghost-button" type="button"><i data-lucide="hard-drive"></i> 返回本地模式</button>
+      <span id="loginMessage" class="login-message"></span>
+    </form>
+  </section>
+
+  <aside class="admin-sidebar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span><strong>信息分享平台</strong><small>ADMIN CONSOLE</small></span>
+    </a>
+    <nav aria-label="后台工作区">
+      <span class="nav-group-label">总览</span>
+      <a href="#dashboard" class="is-active"><i data-lucide="layout-dashboard"></i> 控制台</a>
+      <span class="nav-group-label">内容运营</span>
+      <a href="#sections"><i data-lucide="panels-top-left"></i> 板块设置</a>
+      <a href="#content"><i data-lucide="newspaper"></i> 内容管理</a>
+      <a href="#reports"><i data-lucide="message-square-warning"></i> 反馈与下架</a>
+      <a href="#files"><i data-lucide="upload-cloud"></i> 上传资料</a>
+      <span class="nav-group-label">自动化</span>
+      <a href="#smart"><i data-lucide="sparkles"></i> 智能更新</a>
+      <span class="nav-group-label">站点与系统</span>
+      <a href="#appearance"><i data-lucide="palette"></i> 站点外观</a>
+      <a href="#advanced"><i data-lucide="braces"></i> 高级配置</a>
+      <a href="#publish"><i data-lucide="rocket"></i> 发布上线</a>
+    </nav>
+    <div class="side-note">
+      <strong>部署已就绪</strong>
+      <span>GitHub Pages 免费部署和 Supabase 云端接口已经准备完成；填写账号参数后即可上线。</span>
+    </div>
+  </aside>
+
+  <main class="admin-main">
+    <header class="admin-top">
+      <div>
+        <p id="currentWorkspace">总览工作台</p>
+        <h1>内容、资料与智能更新中心</h1>
+      </div>
+      <div class="top-actions">
+        <span id="cloudStatus" class="cloud-status">本地模式</span>
+        <a href="index.html" class="ghost-button">查看前台</a>
+        <button id="signOut" class="ghost-button" type="button" hidden><i data-lucide="log-out"></i> 退出</button>
+        <button id="saveAll" class="primary-button" type="button"><i data-lucide="save"></i> 保存到本地</button>
+      </div>
+    </header>
+
+    <nav class="workflow-strip" aria-label="平台运营流程">
+      <a class="workflow-step" href="#sections"><span>01</span><strong>配置板块</strong></a>
+      <i data-lucide="chevron-right" aria-hidden="true"></i>
+      <a class="workflow-step" href="#smart"><span>02</span><strong>采集资料</strong></a>
+      <i data-lucide="chevron-right" aria-hidden="true"></i>
+      <a class="workflow-step" href="#content"><span>03</span><strong>审核内容</strong></a>
+      <i data-lucide="chevron-right" aria-hidden="true"></i>
+      <a class="workflow-step" href="#publish"><span>04</span><strong>发布上线</strong></a>
+    </nav>
+
+    <section id="dashboard" class="panel stat-grid">
+      <article><span>内容总数</span><strong id="statStories">0</strong><small>条科技/工业信息</small></article>
+      <article><span>内容频道</span><strong id="statCategories">0</strong><small>可扩展分类</small></article>
+      <article><span>待发布草稿</span><strong id="statDrafts">0</strong><small>从智能更新导入</small></article>
+      <article><span>待处理反馈</span><strong id="statReports">0</strong><small>纠错、版权与下架请求</small></article>
+      <article><span>资料文件</span><strong id="statFiles">0</strong><small>本地上传记录</small></article>
+    </section>
+
+    <section id="sections" class="panel">
+      <div class="panel-head">
+        <div>
+          <p>SECTION BUILDER</p>
+          <h2>板块设置</h2>
+        </div>
+        <button id="newCategory" class="ghost-button" type="button"><i data-lucide="plus"></i> 新增板块</button>
+      </div>
+      <p class="muted">可以新增、重命名、删除、排序或停用板块。自动分类会按照每个板块设置的关键词综合评分。</p>
+      <div class="category-workbench">
+        <div id="categoryList" class="category-list"></div>
+        <form id="categoryForm" class="editor-form">
+          <input id="categoryOriginalName" type="hidden">
+          <label>板块名称<input id="categoryName" required maxlength="12" placeholder="例如：医疗"></label>
+          <div class="form-row">
+            <label>识别颜色<input id="categoryColor" type="color" value="#6ee7a8"></label>
+            <label>Lucide 图标<input id="categoryIcon" placeholder="例如：heart-pulse" value="folder"></label>
+            <label class="check-label">启用板块<input id="categoryEnabled" type="checkbox" checked></label>
+          </div>
+          <label>自动分类关键词<textarea id="categoryKeywords" rows="5" placeholder="用逗号分隔，中英文均可。例如：医疗, 医院, medicine, health"></textarea></label>
+          <div class="form-actions">
+            <button class="primary-button" type="submit"><i data-lucide="check"></i> 保存板块</button>
+            <button id="deleteCategory" class="danger-button" type="button"><i data-lucide="trash-2"></i> 删除板块</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="content" class="panel split-panel">
+      <div class="panel-head">
+        <div>
+          <p>CONTENT OPS</p>
+          <h2>内容管理</h2>
+        </div>
+        <button id="newStory" class="ghost-button" type="button"><i data-lucide="plus"></i> 新建内容</button>
+      </div>
+
+      <div class="content-workbench">
+        <div class="story-list-wrap">
+          <div class="story-filter-row">
+            <input id="storySearch" class="admin-input" type="search" placeholder="搜索标题、分类、来源">
+            <select id="storyStatusFilter" aria-label="按发布状态筛选">
+              <option value="all">全部状态</option>
+              <option value="pending">全部待处理</option>
+              <option value="draft">草稿</option>
+              <option value="review">待审核</option>
+              <option value="scheduled">定时发布</option>
+              <option value="published">已发布</option>
+              <option value="archived">已下架</option>
+            </select>
+          </div>
+          <div id="storyList" class="story-list"></div>
+        </div>
+
+        <form id="storyForm" class="editor-form">
+          <input type="hidden" id="storyId">
+          <div id="storyReviewGuidance" class="review-guidance" hidden></div>
+          <section class="quality-gate" aria-labelledby="qualityGateTitle">
+            <div class="quality-gate-head">
+              <div><span>发布质量</span><strong id="qualityGateTitle">内容完整度检查</strong></div>
+              <output id="storyQualityScore">0 / 100</output>
+            </div>
+            <div class="quality-meter" aria-hidden="true"><span id="storyQualityBar"></span></div>
+            <div id="storyQualityChecks" class="quality-checks"></div>
+            <p id="storyQualityNote">草稿可保存；所有必检项通过后才能公开发布。</p>
+          </section>
+          <label>标题<input id="storyTitle" required placeholder="例如：工业大模型在制造现场加速落地"></label>
+          <div class="form-row">
+            <label>分类
+              <select id="storyCategory">
+                <option>人工智能</option>
+                <option>先进制造</option>
+                <option>半导体</option>
+                <option>新能源</option>
+              </select>
+            </label>
+            <label>来源<input id="storySource" placeholder="来源名称"></label>
+          </div>
+          <div class="form-row">
+            <label>发布状态
+              <select id="storyStatus">
+                <option value="draft">草稿</option>
+                <option value="review">待审核</option>
+                <option value="scheduled">定时发布</option>
+                <option value="published">已发布</option>
+                <option value="archived">已下架</option>
+              </select>
+            </label>
+            <label>定时发布时间<input id="storyScheduledAt" type="datetime-local"></label>
+            <label>可信度<input id="storyConfidence" type="number" min="0" max="100" value="80"></label>
+          </div>
+          <label>摘要<textarea id="storyExcerpt" rows="4" placeholder="一句话说明这条信息的价值"></textarea></label>
+          <label>正文<textarea id="storyBody" rows="9" placeholder="段落之间空一行。没有正文时详情页会使用摘要生成观察内容。"></textarea></label>
+          <div class="form-row">
+            <label>阅读分钟<input id="storyRead" type="number" min="1" max="60" value="8"></label>
+            <label>热度<input id="storyHeat" type="number" min="0" max="100" value="80"></label>
+            <label>日期<input id="storyDate" type="date"></label>
+          </div>
+          <div class="form-row">
+            <label>作者<input id="storyAuthor" placeholder="作者或编辑"></label>
+            <label>内容语言<input id="storyLanguage" placeholder="zh-CN" value="zh-CN"></label>
+            <label>原始来源链接<input id="storySourceUrl" type="url" placeholder="https://..."></label>
+          </div>
+          <label>图片地址或上传后的图片数据<input id="storyImage" placeholder="assets/factory.jpg 或上传图片自动填入"></label>
+          <label>标签<input id="storyTags" placeholder="用逗号分隔，例如：工业大模型, 数字孪生"></label>
+          <div class="form-actions">
+            <button class="primary-button" type="submit"><i data-lucide="check"></i> 保存内容</button>
+            <button id="publishStory" class="ghost-button publish-button" type="button"><i data-lucide="send"></i> 审核并发布</button>
+            <button id="archiveStory" class="ghost-button" type="button"><i data-lucide="archive"></i> 下架</button>
+            <button id="deleteStory" class="danger-button" type="button"><i data-lucide="trash-2"></i> 删除</button>
+          </div>
+          <section class="story-history" aria-labelledby="storyHistoryTitle">
+            <div class="story-history-head">
+              <div><span>CHANGE HISTORY</span><h3 id="storyHistoryTitle">内容版本记录</h3></div>
+              <select id="storyHistoryFilter" aria-label="版本记录范围">
+                <option value="current">当前内容</option>
+                <option value="all">全部记录</option>
+              </select>
+            </div>
+            <div id="storyHistoryList" class="story-history-list"></div>
+            <p>版本记录保存在当前浏览器；载入旧版本后会转为草稿，确认无误再保存。</p>
+          </section>
+        </form>
+      </div>
+    </section>
+
+    <section id="reports" class="panel">
+      <div class="panel-head">
+        <div>
+          <p>TRUST &amp; SAFETY</p>
+          <h2>反馈与下架</h2>
+        </div>
+        <button id="refreshReports" class="ghost-button" type="button"><i data-lucide="refresh-cw"></i> 刷新反馈</button>
+      </div>
+      <div class="report-toolbar">
+        <div class="report-queue-summary">
+          <i data-lucide="inbox"></i>
+          <div><strong id="reportQueueCount">0 条待处理</strong><span id="reportModeNote">本地反馈仅保存在当前浏览器</span></div>
+        </div>
+        <label>处理状态
+          <select id="reportStatusFilter">
+            <option value="active">全部待处理</option>
+            <option value="new">新反馈</option>
+            <option value="processing">处理中</option>
+            <option value="resolved">已解决</option>
+            <option value="rejected">不予处理</option>
+            <option value="all">全部记录</option>
+          </select>
+        </label>
+      </div>
+      <div id="reportList" class="report-list"></div>
+    </section>
+
+    <section id="smart" class="panel split-panel">
+      <div class="panel-head">
+        <div>
+          <p>SMART UPDATE</p>
+          <h2>智能更新与资料提取</h2>
+        </div>
+        <button id="generateFromText" class="primary-button" type="button"><i data-lucide="sparkles"></i> 智能生成草稿</button>
+      </div>
+      <div class="review-queue-banner">
+        <i data-lucide="clipboard-check"></i>
+        <div><strong id="reviewQueueCount">0 条内容等待处理</strong><span>自动采集只进入草稿或待审核状态，核验来源后才能发布。</span></div>
+        <button id="openReviewQueue" class="ghost-button" type="button">打开审核队列</button>
+      </div>
+      <div class="smart-grid">
+        <label>粘贴新闻、报告、公告或链接文本
+          <textarea id="smartInput" rows="10" placeholder="把科技、工业、信息化相关资料粘贴到这里，后台会自动识别标题、分类、摘要、标签和热度。"></textarea>
+        </label>
+        <div class="smart-card">
+          <h3>自动更新方案</h3>
+          <p>GitHub Actions 已配置为每天北京时间 08:00 读取公开 RSS，完成去重和自动分类后生成待审核草稿。自动内容不会绕过人工审核直接发布。</p>
+          <code>python scripts/auto_update.py</code>
+          <button id="syncDraft" class="primary-button" type="button">同步最新自动草稿</button>
+          <button id="importDraft" class="ghost-button" type="button">导入智能草稿 JSON</button>
+          <input id="draftFile" type="file" accept=".json,application/json" hidden>
+        </div>
+      </div>
+      <div class="source-ops">
+        <div class="source-section-head">
+          <div>
+            <p>FEED SOURCES</p>
+            <h3>采集来源管理</h3>
+          </div>
+          <button id="newSource" class="ghost-button" type="button"><i data-lucide="plus"></i> 新增来源</button>
+        </div>
+        <div id="sourceHealthSummary" class="source-health-summary" aria-label="来源健康概况"></div>
+        <div class="source-workbench">
+          <div id="sourceList" class="source-list"></div>
+          <form id="sourceForm" class="editor-form">
+            <input id="sourceId" type="hidden">
+            <div class="form-row two">
+              <label>来源名称<input id="sourceName" required placeholder="例如：行业协会资讯"></label>
+              <label>默认板块<select id="sourceCategory"></select></label>
+            </div>
+            <label>RSS / Atom 地址<input id="sourceUrl" type="url" required placeholder="https://example.com/feed.xml"></label>
+            <div class="form-row two">
+              <label>来源类型
+                <select id="sourceType">
+                  <option value="official">政府 / 官方机构</option>
+                  <option value="research">科研 / 学术机构</option>
+                  <option value="professional">专业媒体</option>
+                  <option value="industry">行业平台</option>
+                  <option value="company">企业发布</option>
+                  <option value="community">社区 / 个人</option>
+                </select>
+              </label>
+              <label>可信等级
+                <select id="sourceTrustLevel">
+                  <option value="authoritative">权威来源</option>
+                  <option value="professional">专业来源</option>
+                  <option value="standard">一般来源</option>
+                  <option value="reference">仅供参考</option>
+                </select>
+              </label>
+            </div>
+            <div class="form-row two">
+              <label>来源地区<input id="sourceRegion" placeholder="例如：全球、中国、欧盟"></label>
+              <label>内容语言
+                <select id="sourceLanguage">
+                  <option value="zh-CN">中文</option>
+                  <option value="en">英文</option>
+                  <option value="multi">多语言</option>
+                </select>
+              </label>
+            </div>
+            <div class="form-row source-settings-row">
+              <label class="check-label">启用采集<input id="sourceEnabled" type="checkbox" checked></label>
+              <label>默认可信度<input id="sourceConfidence" type="number" min="0" max="100" value="75"></label>
+              <label>单次最多条数<input id="sourceMaxItems" type="number" min="1" max="20" value="5"></label>
+            </div>
+            <div class="form-actions">
+              <button class="primary-button" type="submit"><i data-lucide="check"></i> 保存来源</button>
+              <button id="deleteSource" class="danger-button" type="button"><i data-lucide="trash-2"></i> 删除来源</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="collection-ops">
+        <div class="source-section-head">
+          <div>
+            <p>COLLECTION LOG</p>
+            <h3>采集记录</h3>
+          </div>
+          <div id="collectionStats" class="collection-stats"></div>
+        </div>
+        <div id="collectionLogList" class="collection-log-list"></div>
+      </div>
+    </section>
+
+    <section id="files" class="panel">
+      <div class="panel-head">
+        <div>
+          <p>FILE CENTER</p>
+          <h2>上传图片和资料</h2>
+        </div>
+        <label class="upload-button">
+          <i data-lucide="upload"></i> 选择文件
+          <input id="fileUpload" type="file" multiple accept="image/*,.pdf,.doc,.docx,.xls,.xlsx,.txt,.md">
+        </label>
+      </div>
+      <p class="muted">图片会转换成本地预览数据，可直接用于文章封面；资料文件会记录名称和大小。上线后建议接 Supabase Storage 或 Cloudflare R2 做正式文件存储。</p>
+      <div id="fileList" class="file-list"></div>
+    </section>
+
+    <section id="appearance" class="panel">
+      <div class="panel-head">
+        <div>
+          <p>SITE DESIGN</p>
+          <h2>站点文字与科技主题</h2>
+        </div>
+      </div>
+      <form id="siteForm" class="editor-form">
+        <div class="form-row two">
+          <label>平台名称<input id="siteName" required></label>
+          <label>英文副标<input id="siteSubtitle"></label>
+        </div>
+        <label>首页主标题<input id="siteHeroTitle" required></label>
+        <label>首页说明<input id="siteHeroSubtitle"></label>
+        <label>页脚说明<textarea id="siteFooter" rows="3"></textarea></label>
+        <div class="theme-grid">
+          <label>页面背景<input id="themeBackground" type="color"></label>
+          <label>面板颜色<input id="themeSurface" type="color"></label>
+          <label>文字颜色<input id="themeText" type="color"></label>
+          <label>主科技色<input id="themePrimary" type="color"></label>
+          <label>辅助科技色<input id="themeSecondary" type="color"></label>
+        </div>
+        <div class="form-actions">
+          <button class="primary-button" type="submit"><i data-lucide="paintbrush"></i> 保存站点设置</button>
+          <button id="resetTheme" class="ghost-button" type="button"><i data-lucide="rotate-ccw"></i> 恢复科技主题</button>
+        </div>
+      </form>
+      <div class="operations-band">
+        <div class="source-section-head">
+          <div>
+            <p>PUBLIC INTEREST</p>
+            <h3>公益运营与站点信息</h3>
+          </div>
+        </div>
+        <form id="operationsForm" class="editor-form">
+          <div class="form-row two">
+            <label>正式站点地址<input id="operationSiteUrl" type="url" placeholder="https://gzxkjpt.eu.org"></label>
+            <label>联系邮箱<input id="operationContactEmail" type="email" placeholder="contact@example.com"></label>
+          </div>
+          <label>公益声明<input id="operationPublicNotice" placeholder="非营利知识聚合平台"></label>
+          <label>内容与版权说明<textarea id="operationLicense" rows="3"></textarea></label>
+          <div class="form-row operations-settings-row">
+            <label class="check-label">启用前台搜索<input id="operationSearchEnabled" type="checkbox" checked></label>
+            <label class="check-label">启用自动备份<input id="operationAutoBackup" type="checkbox" checked></label>
+            <label>最多保留快照<input id="operationBackupLimit" type="number" min="3" max="30" value="10"></label>
+          </div>
+          <div class="form-actions">
+            <button class="primary-button" type="submit"><i data-lucide="shield-check"></i> 保存公益设置</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="advanced" class="panel">
+      <div class="panel-head">
+        <div>
+          <p>EXPERT MODE</p>
+          <h2>高级 JSON 配置</h2>
+        </div>
+        <button id="refreshRawJson" class="ghost-button" type="button"><i data-lucide="refresh-cw"></i> 重新载入</button>
+      </div>
+      <p class="muted">这里可以编辑指标、趋势图、推荐内容、热词、活动日历和全部文章。应用前会自动校验 JSON。</p>
+      <textarea id="rawJson" class="raw-json" rows="22" spellcheck="false"></textarea>
+      <div class="form-actions">
+        <button id="applyRawJson" class="primary-button" type="button"><i data-lucide="check-check"></i> 校验并应用</button>
+      </div>
+    </section>
+
+    <section id="publish" class="panel publish-grid">
+      <section class="cloud-setup-panel">
+        <div class="source-section-head">
+          <div><p>CLOUD CONNECTION</p><h3>Supabase 云端连接</h3></div>
+          <span id="cloudSetupBadge" class="cloud-setup-badge">本地模式</span>
+        </div>
+        <form id="cloudSetupForm" class="editor-form">
+          <div class="form-row two">
+            <label>Project URL<input id="cloudProjectUrl" type="url" autocomplete="off" placeholder="https://your-project.supabase.co"></label>
+            <label>公开 anon / publishable key
+              <span class="secret-input"><input id="cloudAnonKey" type="password" autocomplete="off" placeholder="sb_publishable_... 或 eyJ..."><button id="toggleCloudKey" type="button" aria-label="显示或隐藏密钥" title="显示或隐藏密钥"><i data-lucide="eye"></i></button></span>
+            </label>
+          </div>
+          <div class="form-row two">
+            <label>内容空间 ID<input id="cloudContentId" value="main" maxlength="40"></label>
+            <label>文件存储桶<input id="cloudStorageBucket" value="media" maxlength="40"></label>
+          </div>
+          <label class="check-label">启用云端模式<input id="cloudEnabled" type="checkbox"></label>
+          <div class="cloud-security-note"><i data-lucide="shield-check"></i><span>只允许公开 anon/publishable key；系统会拒绝 service_role 和 secret key。</span></div>
+          <div id="cloudSetupStatus" class="cloud-setup-status" role="status"></div>
+          <div class="form-actions">
+            <button id="testCloudConnection" class="ghost-button" type="button"><i data-lucide="plug-zap"></i> 测试连接</button>
+            <button class="primary-button" type="submit"><i data-lucide="cloud-cog"></i> 保存云端配置</button>
+            <button id="clearCloudConfig" class="danger-button" type="button"><i data-lucide="unlink"></i> 清除配置</button>
+          </div>
+        </form>
+      </section>
+      <div>
+        <p>EXPORT / IMPORT</p>
+        <h2>发布上线</h2>
+        <p class="muted">本地保存只对当前浏览器有效。要让所有访客看到更新，请导出 JSON，把内容放到 <code>data/content.json</code>，或以后接入 GitHub/Supabase 自动写入。</p>
+      </div>
+      <div class="publish-actions">
+        <button id="exportJson" class="primary-button" type="button"><i data-lucide="download"></i> 导出 content.json</button>
+        <button id="importJson" class="ghost-button" type="button"><i data-lucide="file-up"></i> 导入 content.json</button>
+        <button id="resetLocal" class="danger-button" type="button"><i data-lucide="rotate-ccw"></i> 清除本地改动</button>
+        <input id="jsonFile" type="file" accept=".json,application/json" hidden>
+      </div>
+      <div class="backup-ops">
+        <div class="source-section-head">
+          <div>
+            <p>LOCAL SNAPSHOTS</p>
+            <h3>内容备份</h3>
+          </div>
+          <button id="createBackup" class="ghost-button" type="button"><i data-lucide="archive"></i> 创建快照</button>
+        </div>
+        <div id="backupList" class="backup-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

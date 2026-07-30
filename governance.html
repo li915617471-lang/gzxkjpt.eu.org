@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="信息分享平台的来源准入、内容审核、可信度、版权、隐私与纠错机制说明。">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#090d10">
+  <link rel="canonical" href="https://gzxkjpt.eu.org/governance.html">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <title>平台治理与内容规范 | 信息分享平台</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="governance.css">
+  <script src="cloud-config.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="cloud.js" defer></script>
+  <script src="content-service.js" defer></script>
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="pwa.js?v=2" defer></script>
+  <script src="governance.js" defer></script>
+</head>
+<body class="governance-page">
+  <div class="scanline" aria-hidden="true"></div>
+
+  <header class="governance-topbar">
+    <a class="brand" href="index.html" aria-label="返回信息分享平台首页">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="brand-copy"><strong id="governanceSiteName">信息分享平台</strong><small>PUBLIC KNOWLEDGE INDEX</small></span>
+    </a>
+    <nav class="governance-actions" aria-label="页面导航">
+      <a href="#sources">来源审核</a>
+      <a href="#copyright">版权隐私</a>
+      <a href="#correction">内容纠错</a>
+      <a class="governance-home" href="index.html"><i data-lucide="arrow-left"></i><span>返回首页</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="governance-hero" aria-labelledby="governanceTitle">
+      <div class="governance-hero-inner">
+        <div class="governance-kicker"><span></span>PLATFORM GOVERNANCE / 公开规则</div>
+        <h1 id="governanceTitle">让每条信息<br>有来源、有边界、可纠正</h1>
+        <p id="governanceNotice">公益性科技与产业知识聚合平台</p>
+        <div class="governance-summary" aria-label="治理原则">
+          <span><i data-lucide="scan-search"></i>来源可追踪</span>
+          <span><i data-lucide="user-check"></i>发布前审核</span>
+          <span><i data-lucide="refresh-cw"></i>错误可修正</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="governance-intro" aria-labelledby="positionTitle">
+      <div class="section-index">01 / 平台定位</div>
+      <div class="governance-copy">
+        <h2 id="positionTitle">聚合公开知识，不替代原始来源</h2>
+        <p>平台面向金融、科技、工业、能源、农业与人文领域，整理公开发布的前沿信息。自动采集内容只进入待审核区，经来源、重复、相关性与表达检查后才可公开。</p>
+        <p>平台内容用于知识分享和趋势观察，不构成投资、医疗、法律或其他专业建议。重要决定请回到原始发布机构核验。</p>
+      </div>
+    </section>
+
+    <section id="sources" class="governance-band" aria-labelledby="sourcesTitle">
+      <div class="governance-band-inner">
+        <div class="section-index">02 / 来源与审核</div>
+        <div class="governance-copy">
+          <h2 id="sourcesTitle">四阶段发布流程</h2>
+          <ol class="review-flow">
+            <li><span>01</span><div><strong>来源准入</strong><p>优先选择政府、科研机构、国际组织、企业官方渠道与具有公开编辑责任的媒体。</p></div></li>
+            <li><span>02</span><div><strong>自动整理</strong><p>提取标题、摘要、时间、语言和来源地址，执行链接及标题去重，并按关键词自动归类。</p></div></li>
+            <li><span>03</span><div><strong>人工审核</strong><p>检查来源一致性、摘要准确性、板块归属、版权边界与潜在误导，不合格内容不发布。</p></div></li>
+            <li><span>04</span><div><strong>持续修订</strong><p>保留来源入口和核验提示；发现错误、失效或权利争议时，修订或下架内容。</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="governance-section" aria-labelledby="confidenceTitle">
+      <div class="section-index">03 / 可信度标识</div>
+      <div class="governance-copy">
+        <h2 id="confidenceTitle">分数是核验提示，不是事实保证</h2>
+        <div class="confidence-scale">
+          <div class="confidence-row is-high"><strong>85+</strong><span>高可信</span><p>来源明确、链接可访问，且内容字段完整；仍建议阅读原文。</p></div>
+          <div class="confidence-row is-medium"><strong>70–84</strong><span>可核验</span><p>来源可追踪，但可能需要补充上下文、第二来源或发布时间确认。</p></div>
+          <div class="confidence-row is-low"><strong>&lt;70</strong><span>待复核</span><p>信息不完整或核验条件不足，默认留在审核区，不直接公开。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="copyright" class="governance-band governance-band-soft" aria-labelledby="rightsTitle">
+      <div class="governance-band-inner">
+        <div class="section-index">04 / 版权与隐私</div>
+        <div class="governance-copy governance-two-column">
+          <div>
+            <i data-lucide="copyright"></i>
+            <h2 id="rightsTitle">版权与引用</h2>
+            <p id="governanceLicense">仅聚合公开信息摘要，版权归原作者和原发布机构所有。</p>
+            <p>转载或引用时应标明作者、机构与原始链接。权利人提出有效请求后，平台将核实并修订或移除相关内容。</p>
+          </div>
+          <div>
+            <i data-lucide="shield"></i>
+            <h2>隐私与本地数据</h2>
+            <p>未接入云端时，后台编辑内容、偏好与收藏主要保存在当前浏览器。平台不主动公开管理员账号、私人邮箱或域名注册资料。</p>
+            <p>接入云端服务后，数据处理同时受所选服务商条款约束；公开页面只展示后台明确配置为公开的信息。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="correction" class="governance-section correction-section" aria-labelledby="correctionTitle">
+      <div class="section-index">05 / 内容纠错</div>
+      <div class="governance-copy">
+        <h2 id="correctionTitle">发现错误、侵权或失效来源</h2>
+        <p>请提供内容标题或页面地址、问题说明，以及能够支持修订的原始材料。平台核验后会进行补充、修订或下架。</p>
+        <div id="contactConfigured" class="contact-channel" hidden>
+          <span>公开联系邮箱</span>
+          <a id="governanceContact"></a>
+        </div>
+        <div id="contactMissing" class="contact-channel is-muted">
+          <span>联系渠道</span>
+          <p>后台尚未配置公开联系邮箱。管理员可在“平台设置 → 运营与合规”中添加。</p>
+        </div>
+        <form id="correctionForm" class="correction-form">
+          <div class="correction-form-head">
+            <div>
+              <span>SUBMIT A REPORT</span>
+              <h3>提交内容问题</h3>
+            </div>
+            <i data-lucide="message-square-warning" aria-hidden="true"></i>
+          </div>
+          <input id="reportArticleId" type="hidden">
+          <label class="report-honeypot" aria-hidden="true">请勿填写<input id="reportWebsite" tabindex="-1" autocomplete="off"></label>
+          <div class="correction-form-row">
+            <label>问题类型
+              <select id="reportType" required>
+                <option value="inaccuracy">事实或表述错误</option>
+                <option value="copyright">版权或授权问题</option>
+                <option value="source">来源失效或不匹配</option>
+                <option value="privacy">隐私或个人信息</option>
+                <option value="other">其他问题</option>
+              </select>
+            </label>
+            <label>相关页面地址
+              <input id="reportUrl" type="url" required maxlength="500" placeholder="https://...">
+            </label>
+          </div>
+          <label>问题说明
+            <textarea id="reportDetails" required minlength="10" maxlength="2000" rows="5" placeholder="请说明具体位置、问题原因和建议修改内容"></textarea>
+          </label>
+          <label>联系方式（选填）
+            <input id="reportContact" maxlength="120" autocomplete="email" placeholder="用于核实问题，不会公开显示">
+          </label>
+          <div class="correction-form-submit">
+            <p>提交即表示同意平台仅为核验和处理本次问题保存以上信息。</p>
+            <button id="reportSubmit" type="submit"><i data-lucide="send"></i> 提交反馈</button>
+          </div>
+          <div id="reportStatus" class="report-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="governance-footer">
+    <span id="governanceFooterName">信息分享平台</span>
+    <span>公开规则会随平台功能和审核流程持续更新</span>
+    <a href="index.html">返回内容首页</a>
+  </footer>
+</body>
+</html>

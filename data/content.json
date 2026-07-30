@@ -1,0 +1,323 @@
+{
+  "site": {
+    "name": "信息分享平台",
+    "subtitle": "TECH & INDUSTRY INDEX",
+    "heroTitle": "前沿产业与人文观察台",
+    "heroSubtitle": "聚合金融、科技、工业、能源、农业与人文信号",
+    "footer": "聚合公开产业信息，建立可追踪的科技观察坐标。",
+    "briefing": {
+      "title": "每日产业简报",
+      "subtitle": "工作日 08:30 更新"
+    }
+  },
+  "theme": {
+    "background": "#090d10",
+    "surface": "#10161a",
+    "text": "#edf4f2",
+    "primary": "#6ee7a8",
+    "secondary": "#63cfe3",
+    "gridOpacity": 0.04
+  },
+  "operations": {
+    "siteUrl": "https://gzxkjpt.eu.org",
+    "contactEmail": "",
+    "publicNotice": "公益性科技与产业知识聚合平台",
+    "contentLicense": "仅聚合公开信息摘要，版权归原作者和原发布机构所有。",
+    "searchEnabled": true,
+    "autoBackup": true,
+    "backupLimit": 10
+  },
+  "categories": ["金融", "科技", "工业", "能源", "农业", "人文"],
+  "categorySettings": [
+    {
+      "name": "金融",
+      "color": "#f4776b",
+      "icon": "landmark",
+      "enabled": true,
+      "keywords": ["金融", "银行", "证券", "支付", "保险", "基金", "数字货币", "fintech", "finance", "bank", "payment"]
+    },
+    {
+      "name": "科技",
+      "color": "#6ee7a8",
+      "icon": "cpu",
+      "enabled": true,
+      "keywords": ["人工智能", "大模型", "算力", "芯片", "半导体", "量子", "软件", "AI", "chip", "semiconductor", "quantum"]
+    },
+    {
+      "name": "工业",
+      "color": "#63cfe3",
+      "icon": "factory",
+      "enabled": true,
+      "keywords": ["制造", "工厂", "机器人", "产线", "工业互联网", "自动化", "manufacturing", "factory", "automation"]
+    },
+    {
+      "name": "能源",
+      "color": "#f0b85a",
+      "icon": "battery-charging",
+      "enabled": true,
+      "keywords": ["电池", "储能", "光伏", "新能源", "电力", "风电", "氢能", "energy", "battery", "solar", "grid"]
+    },
+    {
+      "name": "农业",
+      "color": "#9acb70",
+      "icon": "sprout",
+      "enabled": true,
+      "keywords": ["农业", "农机", "育种", "粮食", "种植", "养殖", "农田", "agriculture", "farming", "crop", "agritech"]
+    },
+    {
+      "name": "人文",
+      "color": "#b79ad8",
+      "icon": "book-open",
+      "enabled": true,
+      "keywords": ["人文", "文化", "教育", "社会", "历史", "博物馆", "艺术", "humanities", "culture", "education", "history"]
+    }
+  ],
+  "metrics": [
+    {
+      "label": "AI 算力需求",
+      "value": "128.6",
+      "trend": "8.4%",
+      "direction": "positive",
+      "caption": "指数 / 周同比",
+      "icon": "cpu"
+    },
+    {
+      "label": "制造景气度",
+      "value": "52.3",
+      "trend": "1.2",
+      "direction": "positive",
+      "caption": "PMI 扩张区间",
+      "icon": "factory"
+    },
+    {
+      "label": "金融数字化指数",
+      "value": "76.4",
+      "trend": "4.7%",
+      "direction": "positive",
+      "caption": "银行与产业支付样本",
+      "icon": "landmark"
+    },
+    {
+      "label": "储能装机",
+      "value": "41.7",
+      "trend": "12.1%",
+      "direction": "positive",
+      "caption": "GWh / 年内累计",
+      "icon": "battery-charging"
+    },
+    {
+      "label": "智慧农业指数",
+      "value": "67.8",
+      "trend": "5.9%",
+      "direction": "positive",
+      "caption": "农机与农业数据样本",
+      "icon": "sprout"
+    },
+    {
+      "label": "数字人文项目",
+      "value": "38",
+      "trend": "3.2%",
+      "direction": "positive",
+      "caption": "公共文化数字化样本",
+      "icon": "book-open"
+    }
+  ],
+  "chartSeries": {
+    "24h": {
+      "values": [48, 51, 50, 56, 54, 61, 65, 62, 69, 72, 77, 75, 81, 84],
+      "labels": ["00:00", "04:00", "08:00", "12:00", "16:00", "20:00", "现在"],
+      "value": "84.2",
+      "delta": "+6.8%"
+    },
+    "7d": {
+      "values": [42, 47, 45, 52, 50, 57, 61, 64, 60, 68, 73, 76, 79, 82],
+      "labels": ["周四", "周五", "周六", "周日", "周一", "周二", "周三"],
+      "value": "82.7",
+      "delta": "+12.4%"
+    },
+    "30d": {
+      "values": [36, 41, 39, 46, 50, 48, 55, 59, 57, 64, 68, 74, 78, 86],
+      "labels": ["07.01", "07.06", "07.11", "07.16", "07.21", "07.26", "07.30"],
+      "value": "86.1",
+      "delta": "+18.6%"
+    }
+  },
+  "featured": {
+    "storyId": 4,
+    "category": "工业",
+    "title": "具身智能进入工厂：机器人从单点自动化走向整线协同",
+    "excerpt": "视觉模型、力控传感与边缘算力正在重构生产线，柔性制造成为新一轮投资焦点。",
+    "image": "assets/robotics.jpg",
+    "label": "重点观察",
+    "readMinutes": 12
+  },
+  "stories": [
+    {
+      "id": 1,
+      "category": "科技",
+      "title": "先进封装扩产提速，Chiplet 进入规模化验证阶段",
+      "excerpt": "从算力芯片到车规器件，封装环节正在成为提升系统性能与供应链韧性的关键变量。",
+      "image": "assets/semiconductor.jpg",
+      "source": "芯片观察",
+      "time": "18 分钟前",
+      "readMinutes": 8,
+      "heat": 96,
+      "date": "2026-07-30",
+      "tags": ["先进封装", "Chiplet", "供应链"]
+    },
+    {
+      "id": 2,
+      "category": "能源",
+      "title": "固态电池中试线密集落地，材料体系仍是成本分水岭",
+      "excerpt": "硫化物与氧化物路线同步推进，产业关注点从实验室能量密度转向良率和制造一致性。",
+      "image": "assets/energy.jpg",
+      "source": "能源前沿",
+      "time": "42 分钟前",
+      "readMinutes": 11,
+      "heat": 89,
+      "date": "2026-07-30",
+      "tags": ["固态电池", "材料体系", "中试线"]
+    },
+    {
+      "id": 3,
+      "category": "科技",
+      "title": "边缘智能加速进入设备端，低功耗推理芯片需求上升",
+      "excerpt": "工业相机、移动机器人和智能传感器开始部署更小的多模态模型，推理成本持续下降。",
+      "image": "assets/datacenter.jpg",
+      "source": "算力简报",
+      "time": "1 小时前",
+      "readMinutes": 6,
+      "heat": 91,
+      "date": "2026-07-30",
+      "tags": ["边缘智能", "推理芯片", "工业设备"]
+    },
+    {
+      "id": 4,
+      "category": "工业",
+      "title": "数字孪生从展示系统转向生产决策，工厂数据底座重构",
+      "excerpt": "实时工艺数据、设备健康模型与排产系统打通，数字孪生开始直接参与质量控制。",
+      "image": "assets/factory.jpg",
+      "source": "智造纵深",
+      "time": "2 小时前",
+      "readMinutes": 14,
+      "heat": 84,
+      "date": "2026-07-30",
+      "tags": ["数字孪生", "质量控制", "数据底座"]
+    },
+    {
+      "id": 5,
+      "category": "能源",
+      "title": "新型电力系统扩容，储能调度进入精细化运营阶段",
+      "excerpt": "新能源渗透率提高后，储能收益不再只依赖峰谷价差，辅助服务成为新的能力要求。",
+      "image": "assets/solar.jpg",
+      "source": "电力系统周刊",
+      "time": "3 小时前",
+      "readMinutes": 9,
+      "heat": 79,
+      "date": "2026-07-30",
+      "tags": ["新型电力系统", "储能调度", "辅助服务"]
+    },
+    {
+      "id": 6,
+      "category": "工业",
+      "title": "工业网络升级：确定性通信成为柔性产线的连接基础",
+      "excerpt": "面向复杂运动控制与多设备协同，TSN、5G 专网和边缘网关正在形成互补组合。",
+      "image": "assets/network.jpg",
+      "source": "工业连接",
+      "time": "4 小时前",
+      "readMinutes": 7,
+      "heat": 74,
+      "date": "2026-07-30",
+      "tags": ["工业网络", "TSN", "5G 专网"]
+    },
+    {
+      "id": 7,
+      "category": "科技",
+      "title": "工业大模型落地路径分化，知识工程重新受到重视",
+      "excerpt": "通用能力需要与设备手册、工艺规则和历史故障数据结合，模型评测转向任务完成率。",
+      "image": "assets/robotics.jpg",
+      "source": "模型与产业",
+      "time": "昨天",
+      "readMinutes": 12,
+      "heat": 88,
+      "date": "2026-07-29",
+      "tags": ["工业大模型", "知识工程", "模型评测"]
+    },
+    {
+      "id": 8,
+      "category": "科技",
+      "title": "第三代半导体产线向高良率爬坡，车规认证周期仍长",
+      "excerpt": "碳化硅器件需求稳定增长，衬底缺陷控制、模块封装与可靠性测试决定量产节奏。",
+      "image": "assets/chipboard.jpg",
+      "source": "器件产业链",
+      "time": "昨天",
+      "readMinutes": 10,
+      "heat": 82,
+      "date": "2026-07-29",
+      "tags": ["碳化硅", "第三代半导体", "车规认证"]
+    },
+    {
+      "id": 9,
+      "category": "金融",
+      "title": "实时支付与数字身份加速融合，金融基础设施进入云原生升级周期",
+      "excerpt": "银行、支付机构与产业平台开始打通可信身份和实时结算能力，风控模型从事后识别转向交易链路实时判断。",
+      "image": "assets/datacenter.jpg",
+      "source": "金融科技观察",
+      "time": "5 小时前",
+      "readMinutes": 9,
+      "heat": 86,
+      "date": "2026-07-30",
+      "tags": ["实时支付", "数字身份", "云原生", "金融科技"]
+    },
+    {
+      "id": 10,
+      "category": "农业",
+      "title": "多光谱遥感与田间机器人协同，精准农业从监测走向自主作业",
+      "excerpt": "作物长势识别、变量施肥和自主巡检正在形成闭环，农业数据平台开始连接农机、气象与供应链信息。",
+      "image": "assets/solar.jpg",
+      "source": "智慧农业前沿",
+      "time": "今天",
+      "readMinutes": 10,
+      "heat": 81,
+      "date": "2026-07-30",
+      "tags": ["精准农业", "农业机器人", "多光谱遥感", "智慧农机"]
+    },
+    {
+      "id": 11,
+      "category": "人文",
+      "title": "数字人文平台连接档案、博物馆与公共知识服务",
+      "excerpt": "语义检索、知识图谱与三维采集让文化资源形成可计算的数据体系，公共文化服务正在从数字展示走向知识关联。",
+      "image": "assets/network.jpg",
+      "source": "数字人文观察",
+      "time": "今天",
+      "readMinutes": 8,
+      "heat": 76,
+      "date": "2026-07-30",
+      "tags": ["数字人文", "知识图谱", "文化遗产", "公共知识"]
+    }
+  ],
+  "signals": {
+    "score": 72,
+    "items": [
+      { "label": "科技", "value": 26, "className": "legend-tech" },
+      { "label": "工业", "value": 22, "className": "legend-industry" },
+      { "label": "能源", "value": 17, "className": "legend-energy" },
+      { "label": "金融", "value": 14, "className": "legend-finance" },
+      { "label": "农业", "value": 12, "className": "legend-agriculture" },
+      { "label": "人文", "value": 9, "className": "legend-humanity" }
+    ]
+  },
+  "topics": [
+    { "label": "人形机器人", "growth": "+46%", "score": 92 },
+    { "label": "先进封装", "growth": "+37%", "score": 78 },
+    { "label": "固态电池", "growth": "+29%", "score": 66 },
+    { "label": "金融智能体", "growth": "+26%", "score": 62 },
+    { "label": "农业机器人", "growth": "+23%", "score": 58 },
+    { "label": "数字人文", "growth": "+18%", "score": 49 }
+  ],
+  "events": [
+    { "date": "08.02", "title": "全球机器人产业峰会", "meta": "上海 · 09:00" },
+    { "date": "08.08", "title": "先进封装技术论坛", "meta": "深圳 · 13:30" },
+    { "date": "08.16", "title": "新型储能数据发布", "meta": "线上 · 10:00" }
+  ]
+}

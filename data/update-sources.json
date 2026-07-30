@@ -1,0 +1,109 @@
+{
+  "note": "公开 RSS 来源示例。正式上线前建议只保留你确认允许聚合展示的来源，并在前台显示来源链接。",
+  "sources": [
+    {
+      "id": "mit-technology-review",
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "categoryHint": "科技",
+      "type": "professional",
+      "trustLevel": "professional",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "confidence": 88,
+      "maxItems": 5
+    },
+    {
+      "id": "ieee-spectrum",
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/feeds/feed.rss",
+      "categoryHint": "科技",
+      "type": "research",
+      "trustLevel": "authoritative",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "confidence": 90,
+      "maxItems": 5
+    },
+    {
+      "id": "manufacturing-dive",
+      "name": "Manufacturing Dive",
+      "url": "https://www.manufacturingdive.com/feeds/news/",
+      "categoryHint": "工业",
+      "type": "professional",
+      "trustLevel": "professional",
+      "region": "北美",
+      "language": "en",
+      "enabled": true,
+      "confidence": 82,
+      "maxItems": 5
+    },
+    {
+      "id": "semiconductor-engineering",
+      "name": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/feed/",
+      "categoryHint": "科技",
+      "type": "industry",
+      "trustLevel": "professional",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "confidence": 86,
+      "maxItems": 5
+    },
+    {
+      "id": "global-ag-tech-initiative",
+      "name": "Global Ag Tech Initiative",
+      "url": "https://www.globalagtechinitiative.com/feed/",
+      "categoryHint": "农业",
+      "type": "industry",
+      "trustLevel": "standard",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "confidence": 80,
+      "maxItems": 5
+    },
+    {
+      "id": "open-culture",
+      "name": "Open Culture",
+      "url": "https://www.openculture.com/feed",
+      "categoryHint": "人文",
+      "type": "professional",
+      "trustLevel": "standard",
+      "region": "全球",
+      "language": "en",
+      "enabled": true,
+      "confidence": 78,
+      "maxItems": 5
+    },
+    {
+      "id": "european-central-bank",
+      "name": "European Central Bank",
+      "url": "https://www.ecb.europa.eu/rss/press.html",
+      "categoryHint": "金融",
+      "type": "official",
+      "trustLevel": "authoritative",
+      "region": "欧洲",
+      "language": "en",
+      "enabled": true,
+      "confidence": 94,
+      "maxItems": 5
+    },
+    {
+      "id": "us-energy-information-administration",
+      "name": "U.S. Energy Information Administration",
+      "url": "https://www.eia.gov/rss/todayinenergy.xml",
+      "categoryHint": "能源",
+      "type": "official",
+      "trustLevel": "authoritative",
+      "region": "北美",
+      "language": "en",
+      "enabled": true,
+      "confidence": 93,
+      "maxItems": 5
+    }
+  ]
+}

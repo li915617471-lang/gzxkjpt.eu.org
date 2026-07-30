@@ -1,0 +1,231 @@
+{
+  "logs": [
+    {
+      "id": "2026-07-30T14:57:03.712656+00:00",
+      "startedAt": "2026-07-30T14:56:35.599274+00:00",
+      "finishedAt": "2026-07-30T14:57:03.712656+00:00",
+      "status": "success",
+      "sourcesTotal": 8,
+      "sourcesSucceeded": 8,
+      "sourcesFailed": 0,
+      "fetched": 40,
+      "added": 15,
+      "duplicates": 25,
+      "errors": [],
+      "sourceResults": [
+        {
+          "sourceId": "mit-technology-review",
+          "source": "MIT Technology Review",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2896,
+          "fetched": 5,
+          "added": 1,
+          "duplicates": 4
+        },
+        {
+          "sourceId": "ieee-spectrum",
+          "source": "IEEE Spectrum",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 5120,
+          "fetched": 5,
+          "added": 2,
+          "duplicates": 3
+        },
+        {
+          "sourceId": "manufacturing-dive",
+          "source": "Manufacturing Dive",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2991,
+          "fetched": 5,
+          "added": 1,
+          "duplicates": 4
+        },
+        {
+          "sourceId": "semiconductor-engineering",
+          "source": "Semiconductor Engineering",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 4238,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "global-ag-tech-initiative",
+          "source": "Global Ag Tech Initiative",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 3130,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "open-culture",
+          "source": "Open Culture",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 4364,
+          "fetched": 5,
+          "added": 1,
+          "duplicates": 4
+        },
+        {
+          "sourceId": "european-central-bank",
+          "source": "European Central Bank",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2592,
+          "fetched": 5,
+          "added": 5,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "us-energy-information-administration",
+          "source": "U.S. Energy Information Administration",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2756,
+          "fetched": 5,
+          "added": 5,
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-07-30T12:19:54.413121+00:00",
+      "startedAt": "2026-07-30T12:19:32.528402+00:00",
+      "finishedAt": "2026-07-30T12:19:54.413121+00:00",
+      "status": "success",
+      "sourcesTotal": 6,
+      "sourcesSucceeded": 6,
+      "sourcesFailed": 0,
+      "fetched": 30,
+      "added": 1,
+      "duplicates": 29,
+      "errors": [],
+      "sourceResults": [
+        {
+          "sourceId": "mit-technology-review",
+          "source": "MIT Technology Review",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2841,
+          "fetched": 5,
+          "added": 1,
+          "duplicates": 4
+        },
+        {
+          "sourceId": "ieee-spectrum",
+          "source": "IEEE Spectrum",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 4677,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "manufacturing-dive",
+          "source": "Manufacturing Dive",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2878,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "semiconductor-engineering",
+          "source": "Semiconductor Engineering",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 3926,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "global-ag-tech-initiative",
+          "source": "Global Ag Tech Initiative",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 3330,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "open-culture",
+          "source": "Open Culture",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 4219,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        }
+      ]
+    },
+    {
+      "id": "2026-07-30T09:42:20.065476+00:00",
+      "startedAt": "2026-07-30T09:41:58.992241+00:00",
+      "finishedAt": "2026-07-30T09:42:20.065476+00:00",
+      "status": "success",
+      "sourcesTotal": 6,
+      "sourcesSucceeded": 6,
+      "sourcesFailed": 0,
+      "fetched": 30,
+      "added": 1,
+      "duplicates": 29,
+      "errors": [],
+      "sourceResults": [
+        {
+          "source": "MIT Technology Review",
+          "status": "success",
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "source": "IEEE Spectrum",
+          "status": "success",
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "source": "Manufacturing Dive",
+          "status": "success",
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "source": "Semiconductor Engineering",
+          "status": "success",
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "source": "Global Ag Tech Initiative",
+          "status": "success",
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "source": "Open Culture",
+          "status": "success",
+          "fetched": 5,
+          "added": 1,
+          "duplicates": 4
+        }
+      ]
+    }
+  ]
+}

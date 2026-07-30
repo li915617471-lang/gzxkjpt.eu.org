@@ -1,0 +1,43 @@
+name: Validate site
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check app.js
+          node --check article.js
+          node --check admin.js
+          node --check governance.js
+          node --check cloud.js
+          node --check pwa.js
+          node --check sw.js
+
+      - name: Regenerate indexes and icons
+        run: |
+          python scripts/generate_sitemap.py
+          python scripts/generate_feeds.py
+          python scripts/generate_pwa_icons.py
+
+      - name: Validate public site
+        run: python scripts/validate_site.py
+
+      - name: Build deployment package
+        run: python scripts/build_site.py

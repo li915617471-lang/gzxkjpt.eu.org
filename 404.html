@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#090d10">
+  <title>页面未找到 | 信息分享平台</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      display: grid;
+      min-width: 320px;
+      min-height: 100vh;
+      margin: 0;
+      place-items: center;
+      padding: 24px;
+      background:
+        linear-gradient(rgba(110,231,168,.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(110,231,168,.04) 1px, transparent 1px),
+        #090d10;
+      background-size: 42px 42px;
+      color: #edf4f2;
+      font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+    }
+    main { width: min(680px, 100%); }
+    small { color: #6ee7a8; font-weight: 700; }
+    h1 { margin: 16px 0; font-size: clamp(42px, 9vw, 80px); line-height: 1.05; }
+    p { max-width: 520px; color: #8d9b9c; line-height: 1.8; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+    a {
+      display: inline-flex;
+      min-height: 42px;
+      align-items: center;
+      padding: 0 16px;
+      border: 1px solid #263339;
+      background: #10161a;
+      color: #edf4f2;
+      text-decoration: none;
+    }
+    a:first-child { border-color: #1c8e5d; background: #143c2b; }
+  </style>
+</head>
+<body>
+  <main>
+    <small>404 / SIGNAL NOT FOUND</small>
+    <h1>没有找到<br>这个页面</h1>
+    <p>地址可能已变更、内容已经下架，或链接输入有误。可以返回首页继续浏览公开信息。</p>
+    <nav><a href="index.html">返回首页</a><a href="governance.html#correction">提交失效链接</a></nav>
+  </main>
+</body>
+</html>

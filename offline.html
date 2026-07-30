@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d10">
+  <title>暂时离线 | 信息分享平台</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      display: grid;
+      min-width: 320px;
+      min-height: 100vh;
+      margin: 0;
+      place-items: center;
+      padding: 24px;
+      background:
+        linear-gradient(rgba(110, 231, 168, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(110, 231, 168, 0.04) 1px, transparent 1px),
+        #090d10;
+      background-size: 42px 42px;
+      color: #edf4f2;
+      font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+    }
+    main { width: min(620px, 100%); }
+    .mark {
+      display: grid;
+      grid-template-columns: repeat(3, 5px);
+      align-items: end;
+      gap: 3px;
+      width: 42px;
+      height: 42px;
+      padding: 9px;
+      border: 1px solid #1c8e5d;
+      background: #0d1a15;
+    }
+    .mark span { background: #6ee7a8; }
+    .mark span:nth-child(1) { height: 9px; }
+    .mark span:nth-child(2) { height: 19px; }
+    .mark span:nth-child(3) { height: 14px; }
+    small { display: block; margin-top: 34px; color: #6ee7a8; font-weight: 700; }
+    h1 { margin: 12px 0 16px; font-size: clamp(38px, 8vw, 68px); line-height: 1.08; }
+    p { max-width: 520px; color: #8d9b9c; line-height: 1.8; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px; }
+    a, button {
+      min-height: 42px;
+      padding: 0 16px;
+      border: 1px solid #263339;
+      background: #10161a;
+      color: #edf4f2;
+      font: inherit;
+      text-decoration: none;
+    }
+    button { border-color: #1c8e5d; background: #143c2b; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true"><span></span><span></span><span></span></div>
+    <small>OFFLINE / 连接中断</small>
+    <h1>当前无法连接<br>信息服务</h1>
+    <p>已缓存的首页和文章仍可继续浏览。恢复网络后重新连接，即可获取最新公开内容。</p>
+    <nav>
+      <button type="button" onclick="location.reload()">重新连接</button>
+      <a href="index.html">返回已缓存首页</a>
+    </nav>
+  </main>
+</body>
+</html>
