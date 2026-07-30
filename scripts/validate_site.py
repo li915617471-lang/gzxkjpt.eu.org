@@ -182,6 +182,10 @@ def validate_automation(validator: Validator, categories: list[str]) -> None:
     validator.require(len(urls) == len(set(urls)), "自动采集来源 URL 不能重复")
     for source in sources:
         validator.require(str(source.get("url") or "").startswith("https://"), f"采集来源必须使用 HTTPS：{source.get('name')}")
+    draft_payload = load_json(ROOT / "data" / "intelligence-draft.json")
+    queued_categories = {str(story.get("category") or "") for story in draft_payload.get("stories", [])}
+    missing_queue = [category for category in categories if category not in queued_categories]
+    validator.warn(not missing_queue, "当前审核队列暂缺板块：" + "、".join(missing_queue))
 
 
 def validate_domain(validator: Validator, content: dict) -> None:

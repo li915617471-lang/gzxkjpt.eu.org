@@ -176,6 +176,26 @@ def pending_drafts() -> list[dict]:
     return retained
 
 
+def balanced_queue(new_stories: list[dict], retained_stories: list[dict], categories: list[str], limit: int = 30) -> list[dict]:
+    """Round-robin categories so early sources cannot crowd out later sections."""
+    buckets = {category: [] for category in categories}
+    overflow = []
+    for story in new_stories + retained_stories:
+        category = story.get("category")
+        if category in buckets:
+            buckets[category].append(story)
+        else:
+            overflow.append(story)
+    queue = []
+    while len(queue) < limit and any(buckets.values()):
+        for category in categories:
+            if buckets[category] and len(queue) < limit:
+                queue.append(buckets[category].pop(0))
+    if len(queue) < limit:
+        queue.extend(overflow[:limit - len(queue)])
+    return queue
+
+
 def fetch(url: str, max_attempts: int = 3) -> tuple[bytes, int, int]:
     started = time.perf_counter()
     last_error: Exception | None = None
@@ -397,16 +417,24 @@ def main() -> int:
         print("全部采集来源失败，已保留原有草稿队列", file=sys.stderr)
         return 1
 
+    queue = balanced_queue(stories, retained_drafts, list(rules), 30)
+    new_story_objects = {id(story) for story in stories}
+    new_in_queue = sum(1 for story in queue if id(story) in new_story_objects)
+    collection["queueCount"] = len(queue)
+    collection["categoryCounts"] = {
+        category: sum(1 for story in queue if story.get("category") == category)
+        for category in rules
+    }
     payload = {
         "generatedAt": finished_at,
-        "stories": (stories + retained_drafts)[:30],
+        "stories": queue,
         "errors": errors,
         "collection": collection,
     }
     OUTPUT_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"已生成：{OUTPUT_FILE}")
     print(
-        f"新增草稿：{collection['added']}，保留待审：{min(len(retained_drafts), 30 - min(len(stories), 30))}，重复跳过：{duplicates}，"
+        f"新增入队：{new_in_queue}，保留待审：{len(queue) - new_in_queue}，重复跳过：{duplicates}，"
         f"成功来源：{collection['sourcesSucceeded']}，失败来源：{len(errors)}"
     )
     return 0
