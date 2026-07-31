@@ -1,6 +1,101 @@
 {
   "logs": [
     {
+      "id": "2026-07-31T02:51:18.414384+00:00",
+      "startedAt": "2026-07-31T02:51:14.524048+00:00",
+      "finishedAt": "2026-07-31T02:51:18.414384+00:00",
+      "status": "success",
+      "sourcesTotal": 8,
+      "sourcesSucceeded": 8,
+      "sourcesFailed": 0,
+      "fetched": 40,
+      "added": 13,
+      "duplicates": 27,
+      "errors": [],
+      "sourceResults": [
+        {
+          "sourceId": "mit-technology-review",
+          "source": "MIT Technology Review",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 207,
+          "fetched": 5,
+          "added": 4,
+          "duplicates": 1
+        },
+        {
+          "sourceId": "ieee-spectrum",
+          "source": "IEEE Spectrum",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 200,
+          "fetched": 5,
+          "added": 3,
+          "duplicates": 2
+        },
+        {
+          "sourceId": "manufacturing-dive",
+          "source": "Manufacturing Dive",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 162,
+          "fetched": 5,
+          "added": 2,
+          "duplicates": 3
+        },
+        {
+          "sourceId": "semiconductor-engineering",
+          "source": "Semiconductor Engineering",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 934,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "global-ag-tech-initiative",
+          "source": "Global Ag Tech Initiative",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 305,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "open-culture",
+          "source": "Open Culture",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 959,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "european-central-bank",
+          "source": "European Central Bank",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 902,
+          "fetched": 5,
+          "added": 1,
+          "duplicates": 4
+        },
+        {
+          "sourceId": "us-energy-information-administration",
+          "source": "U.S. Energy Information Administration",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 204,
+          "fetched": 5,
+          "added": 3,
+          "duplicates": 2
+        }
+      ]
+    },
+    {
       "id": "2026-07-30T15:06:13.814542+00:00",
       "startedAt": "2026-07-30T15:05:46.904815+00:00",
       "finishedAt": "2026-07-30T15:06:13.814542+00:00",
