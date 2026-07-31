@@ -13,11 +13,12 @@
 - 每日自动采集，六板块 8 个来源，失败保护和重复过滤；
 - 正式内容基线已启用：六板块各有 1 篇可追溯来源的公开内容，历史演示稿与自动采集内容默认进入审核队列；
 - 已验证首页、文章来源链接、后台草稿状态及注册邮箱隐私迁移，站点校验为 0 个错误。
+- GitHub 公开仓库和 Pages 已上线：`https://github.com/li915617471-lang/gzxkjpt.eu.org`；
+- 当前可访问地址：`https://li915617471-lang.github.io/gzxkjpt.eu.org/`。
 
 ## 等待外部账号
 
 - EU.org 审批通过并在 deSEC 添加 GitHub Pages DNS 记录；
-- 在 GitHub 创建并发布公开仓库，启用 Pages；
 - 创建 Supabase 免费项目，运行 `supabase-schema.sql`；
 - 在后台填写 Project URL 和公开 anon/publishable key；
 - 配置一个可公开的运营联系邮箱。
