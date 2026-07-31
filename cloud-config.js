@@ -1,8 +1,8 @@
 (function () {
   const defaults = {
-    enabled: false,
-    supabaseUrl: "",
-    supabaseAnonKey: "",
+    enabled: true,
+    supabaseUrl: "https://zpwqkveymyfwgebpkemt.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inpwd3FrdmV5bXlmd2dlYnBrZW10Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0NjMyMjgsImV4cCI6MjEwMTAzOTIyOH0.yDgIn3zNvfbDFbOpmDlUtDF5U9__f_L10jamPA2bMVE",
     contentId: "main",
     storageBucket: "media"
   };

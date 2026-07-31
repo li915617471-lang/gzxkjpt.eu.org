@@ -98,6 +98,34 @@ alter table public.categories enable row level security;
 alter table public.articles enable row level security;
 alter table public.content_reports enable row level security;
 
+-- Keep table privileges explicit. RLS remains the final authorization layer.
+revoke all on table
+  public.admin_users,
+  public.site_content,
+  public.site_settings,
+  public.categories,
+  public.articles,
+  public.content_reports
+from anon, authenticated;
+
+grant select on table
+  public.site_settings,
+  public.categories,
+  public.articles
+to anon;
+grant insert on table public.content_reports to anon;
+
+grant select on table public.admin_users to authenticated;
+grant select, insert, update, delete on table
+  public.site_content,
+  public.site_settings,
+  public.categories,
+  public.articles,
+  public.content_reports
+to authenticated;
+
+grant usage, select on all sequences in schema public to anon, authenticated;
+
 drop policy if exists "users can read own admin record" on public.admin_users;
 create policy "users can read own admin record"
 on public.admin_users for select
