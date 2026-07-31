@@ -26,6 +26,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install build dependencies
+        run: python -m pip install Pillow
+
       - name: Generate public indexes
         run: |
           python scripts/generate_sitemap.py
