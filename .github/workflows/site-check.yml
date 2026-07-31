@@ -28,6 +28,7 @@ jobs:
           node --check app.js
           node --check article.js
           node --check admin.js
+          node --check auth.js
           node --check governance.js
           node --check cloud.js
           node --check pwa.js

@@ -16,6 +16,8 @@ PUBLIC_FILES = (
     "admin.html",
     "admin.js",
     "app.js",
+    "auth.html",
+    "auth.js",
     "article.css",
     "article.html",
     "article.js",
