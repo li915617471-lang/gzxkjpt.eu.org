@@ -33,6 +33,9 @@ jobs:
           node --check pwa.js
           node --check sw.js
 
+      - name: Test collection classifier
+        run: python -m unittest discover -s tests -v
+
       - name: Regenerate indexes and icons
         run: |
           python scripts/generate_sitemap.py

@@ -256,14 +256,51 @@ def parse_feed(raw: bytes) -> list[dict]:
     return parsed
 
 
-def categorize(text: str, fallback: str, rules: dict[str, list[str]]) -> str:
-    lower = text.lower()
+def keyword_hits(text: str, words: list[str]) -> int:
+    lower = (text or "").lower()
+    hits = 0
+    for word in words:
+        keyword = str(word).strip().lower()
+        if not keyword:
+            continue
+        if re.fullmatch(r"[a-z0-9][a-z0-9 .+#/-]*", keyword):
+            pattern = rf"(?<![a-z0-9]){re.escape(keyword)}(?![a-z0-9])"
+            hits += int(bool(re.search(pattern, lower)))
+        else:
+            hits += int(keyword in lower)
+    return hits
+
+
+def categorize(title: str, summary: str, fallback: str, rules: dict[str, list[str]]) -> str:
     scores = {
-        category: sum(1 for word in words if word.lower() in lower)
+        category: keyword_hits(title, words) * 3 + keyword_hits(summary, words)
         for category, words in rules.items()
     }
+    if fallback in scores:
+        scores[fallback] += 2
     category, score = max(scores.items(), key=lambda item: item[1])
     return category if score > 0 else (fallback or "科技")
+
+
+def refresh_retained_categories(
+    stories: list[dict], sources: list[dict], rules: dict[str, list[str]]
+) -> list[dict]:
+    source_by_id = {source.get("id"): source for source in sources if source.get("id")}
+    for story in stories:
+        source = source_by_id.get(story.get("collectionSourceId"))
+        if not source:
+            continue
+        story["category"] = categorize(
+            story.get("title", ""),
+            story.get("excerpt", ""),
+            source.get("categoryHint", ""),
+            rules,
+        )
+        story["tags"] = tags_for(
+            f"{story.get('title', '')} {story.get('excerpt', '')}",
+            story["category"],
+        )
+    return stories
 
 
 def tags_for(text: str, category: str) -> list[str]:
@@ -284,7 +321,7 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
     fallback = source.get("categoryHint", "")
     if fallback not in rules:
         fallback = next(iter(rules), "科技")
-    category = categorize(combined, fallback, rules)
+    category = categorize(entry.get("title", ""), entry.get("summary", ""), fallback, rules)
     excerpt = clean_text(entry.get("summary", ""))[:130] or "来自公开来源的前沿信息，等待后台进一步编辑摘要。"
     confidence = max(0, min(100, int(source.get("confidence", 75))))
     trust_level = source.get("trustLevel", "standard")
@@ -337,8 +374,8 @@ def main() -> int:
     if not sources:
         print("没有启用的采集来源，已停止更新", file=sys.stderr)
         return 1
-    retained_drafts = pending_drafts()
     rules = load_category_rules()
+    retained_drafts = refresh_retained_categories(pending_drafts(), sources, rules)
     stories = []
     errors = []
     source_results = []
