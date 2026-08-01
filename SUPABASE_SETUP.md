@@ -77,3 +77,16 @@ on conflict (user_id) do nothing;
 上传到 GitHub 后，`.github/workflows/smart-update.yml` 会每天北京时间 08:00 更新 `data/intelligence-draft.json`。
 
 后台点击“同步最新自动草稿”，审核、修改后再保存到云端。默认不自动公开未经审核的内容。
+
+### 自动写入 Supabase 待审核区
+
+项目还包含 `scripts/sync_supabase_drafts.py`。配置一次 GitHub 加密密钥后，每日任务会把新采集结果直接追加到 Supabase 的草稿/待审核区：
+
+1. 在 Supabase 项目打开 `Project Settings` -> `API`；
+2. 找到服务器端 `service_role` key（或新版 Secret key）；
+3. 打开 GitHub 仓库 `Settings` -> `Secrets and variables` -> `Actions`；
+4. 新建 Repository secret，名称必须是 `SUPABASE_SERVICE_ROLE_KEY`；
+5. 密钥只粘贴到 GitHub 加密输入框，不要发到聊天、写入源码或截图公开；
+6. 打开仓库 `Actions` -> `Smart industry update` -> `Run workflow` 做首次验证。
+
+自动入库有四层保护：只允许 `draft` / `review` 状态、相同来源链接和标题自动去重、不会更新已有文章、不会自动公开。没有配置密钥时，采集文件仍会正常更新，但云端同步步骤会明确显示为已跳过。

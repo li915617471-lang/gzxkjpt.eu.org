@@ -11,16 +11,16 @@
 - PWA 安装、品牌图标、离线缓存、404 页面；
 - GitHub Pages 免费部署、精简部署包和持续集成检查；
 - 每日自动采集，六板块 8 个来源，失败保护和重复过滤；
+- Supabase 草稿自动追加程序及 GitHub Actions 接口（配置仓库加密密钥后启用）；
 - 正式内容基线已启用：六板块各有 1 篇可追溯来源的公开内容，历史演示稿与自动采集内容默认进入审核队列；
 - 已验证首页、文章来源链接、后台草稿状态及注册邮箱隐私迁移，站点校验为 0 个错误。
 - GitHub 公开仓库和 Pages 已上线：`https://github.com/li915617471-lang/gzxkjpt.eu.org`；
 - 当前可访问地址：`https://li915617471-lang.github.io/gzxkjpt.eu.org/`。
 
-## 等待外部账号
+## 等待外部步骤
 
 - EU.org 审批通过并在 deSEC 添加 GitHub Pages DNS 记录；
-- 创建 Supabase 免费项目，运行 `supabase-schema.sql`；
-- 在后台填写 Project URL 和公开 anon/publishable key；
+- 在 GitHub Actions 添加 `SUPABASE_SERVICE_ROLE_KEY` 加密密钥，启用每日草稿自动入库；
 - 配置一个可公开的运营联系邮箱。
 
 除上述账号步骤外，之前制定的本地开发任务已经完成。

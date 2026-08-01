@@ -32,6 +32,18 @@ jobs:
           python scripts/generate_feeds.py
           python scripts/validate_site.py
 
+      - name: Sync collected drafts to Supabase
+        env:
+          SUPABASE_URL: https://zpwqkveymyfwgebpkemt.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_SITE_ID: main
+        run: |
+          if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
+            echo "Supabase sync skipped: repository secret SUPABASE_SERVICE_ROLE_KEY is not configured." | tee -a "$GITHUB_STEP_SUMMARY"
+          else
+            python scripts/sync_supabase_drafts.py | tee -a "$GITHUB_STEP_SUMMARY"
+          fi
+
       - name: Commit updated draft queue
         run: |
           git config user.name "information-share-bot"

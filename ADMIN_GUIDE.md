@@ -62,6 +62,8 @@ data/intelligence-draft.json
 
 项目已经包含 `.github/workflows/smart-update.yml`。上传到 GitHub 后，它会每天北京时间 08:00 自动执行采集脚本并更新草稿文件，也可以在 GitHub Actions 页面手动执行。
 
+配置 GitHub 加密密钥 `SUPABASE_SERVICE_ROLE_KEY` 后，每日任务还会自动把新增内容追加到 Supabase 待审核区。它不会覆盖已有文章，也不会绕过人工审核发布。详细配置见 `SUPABASE_SETUP.md` 的“自动写入 Supabase 待审核区”。
+
 ## 搜索、SEO 与备份
 
 - 前台搜索支持标题、摘要、正文、作者、来源和标签，可用空格组合多个关键词；搜索与板块会保留在网址参数中；
