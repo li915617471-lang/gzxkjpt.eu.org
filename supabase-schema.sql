@@ -124,6 +124,10 @@ grant select, insert, update, delete on table
   public.content_reports
 to authenticated;
 
+-- GitHub Actions can only inspect existing article fingerprints and append
+-- automatic review drafts. It cannot update/delete articles or access other tables.
+grant select, insert on table public.articles to service_role;
+
 grant usage, select on all sequences in schema public to anon, authenticated;
 
 drop policy if exists "users can read own admin record" on public.admin_users;
