@@ -227,6 +227,33 @@ class SupabaseDraftSyncTests(unittest.TestCase):
             sync.daily_automatic_counts(existing, [], "2026-08-02"), {}
         )
 
+    def test_daily_target_replaces_a_legacy_short_published_article(self):
+        story = self.rich_story()
+        fingerprint = sync.story_fingerprint(story)
+        legacy = {
+            "id": sync.automatic_article_id(fingerprint),
+            "title": story["title"],
+            "source_url": story["sourceUrl"],
+            "category": story["category"],
+            "status": "published",
+            "body": "旧版短正文\n\n来源与审核说明\n\n待补充。",
+            "extra": {"automaticImport": True, "automaticApproval": {"approved": True}},
+            "position": 2,
+        }
+        policy = {
+            "enabled": True,
+            "minConfidence": 85,
+            "fallbackMinConfidence": 78,
+            "dailyTargetPerCategory": 3,
+            "policyVersion": 2,
+        }
+        promotions, counts = sync.prepare_promotions(
+            [story], [legacy], [], policy, "2026-08-02T08:00:00+00:00"
+        )
+        self.assertEqual(len(promotions), 1)
+        self.assertEqual(promotions[0]["status"], "published")
+        self.assertEqual(counts["能源"], 1)
+
 
 if __name__ == "__main__":
     unittest.main()

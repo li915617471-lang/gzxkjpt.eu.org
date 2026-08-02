@@ -102,6 +102,15 @@ def has_unique_article_sections(value: Any) -> bool:
     return len(paragraphs) >= 6 and len(normalized) == len(set(normalized))
 
 
+def body_meets_publication_standard(value: Any) -> bool:
+    body = str(value or "")
+    return (
+        count_content_characters(body) >= MIN_ARTICLE_CHARS
+        and has_unique_article_sections(body)
+        and "来源与审核说明" in body
+    )
+
+
 def env_flag(name: str, fallback: bool = False) -> bool:
     value = os.environ.get(name)
     if value is None:
@@ -444,7 +453,12 @@ def daily_automatic_counts(
         if not isinstance(audit, dict):
             audit = {}
         reviewed_at = str(audit.get("reviewedAt") or "") if isinstance(audit, dict) else ""
-        if row.get("status") != "published" or not audit.get("approved") or not reviewed_at.startswith(day):
+        if (
+            row.get("status") != "published"
+            or not body_meets_publication_standard(row.get("body"))
+            or not audit.get("approved")
+            or not reviewed_at.startswith(day)
+        ):
             continue
         category = str(row.get("category") or "")
         if category:
@@ -475,7 +489,9 @@ def prepare_promotions(
     published_urls = {
         normalize_url(row.get("source_url") or "")
         for row in existing + inserted
-        if row.get("status") == "published" and row.get("source_url")
+        if row.get("status") == "published"
+        and row.get("source_url")
+        and body_meets_publication_standard(row.get("body"))
     }
     next_position = max(
         (int(row.get("position") or 0) for row in existing + inserted), default=-1
@@ -484,10 +500,12 @@ def prepare_promotions(
     for row in existing:
         extra = row.get("extra") if isinstance(row.get("extra"), dict) else {}
         if (
-            row.get("status") not in {"draft", "review"}
+            row.get("status") not in {"draft", "review", "published"}
             or int(row.get("id") or 0) < AUTOMATIC_ID_BASE
             or extra.get("automaticImport") is not True
         ):
+            continue
+        if row.get("status") == "published" and body_meets_publication_standard(row.get("body")):
             continue
         story = story_by_url.get(normalize_url(row.get("source_url") or ""))
         if not story or normalize_url(row.get("source_url") or "") in published_urls:
