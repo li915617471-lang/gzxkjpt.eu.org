@@ -505,6 +505,8 @@ def prepare_promotions(
                     "rightsVerified": bool(story.get("sourceUrl")) and "来源与审核说明" in str(body),
                 },
             })
+            original_source_url = str(story.get("sourceUrl") or story.get("url") or "")
+            promotion_source_url = original_source_url.split("#", 1)[0] + f"#information-share-{day}"
             promotions.append({
                 "site_id": site_id,
                 "id": automatic_promotion_id(story_fingerprint(story), day),
@@ -513,7 +515,7 @@ def prepare_promotions(
                 "excerpt": str(story.get("excerpt") or "")[:2000],
                 "image": str(story.get("image") or "")[:1000],
                 "source": str(story.get("source") or "公开来源")[:300],
-                "source_url": str(story.get("sourceUrl") or story.get("url") or "")[:2000],
+                "source_url": promotion_source_url[:2000],
                 "author": str(story.get("author") or "")[:300],
                 "language": str(story.get("language") or "zh-CN")[:30],
                 "status": "published",
@@ -635,6 +637,8 @@ def main() -> int:
         )
         promoted = promotions if args.dry_run else client.insert_articles(promotions)
     except (OSError, ValueError, RuntimeError, json.JSONDecodeError) as exc:
+        message = str(exc).replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")[:500]
+        print(f"::error title=Draft sync failed::{message}", file=sys.stderr)
         print(f"Draft sync failed: {exc}", file=sys.stderr)
         return 1
 

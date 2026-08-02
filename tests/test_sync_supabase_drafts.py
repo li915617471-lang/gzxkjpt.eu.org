@@ -193,6 +193,7 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         )
         self.assertEqual(promotions[0]["extra"]["automaticPromotionOf"], existing[0]["id"])
         self.assertGreaterEqual(promotions[0]["id"], sync.AUTOMATIC_PROMOTION_ID_BASE)
+        self.assertTrue(promotions[0]["source_url"].endswith("#information-share-2026-08-02"))
         self.assertEqual(counts["能源"], 1)
 
 
