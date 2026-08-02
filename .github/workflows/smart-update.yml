@@ -2,7 +2,8 @@ name: Smart industry update
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    # 北京时间 08:17，避开 GitHub Actions 整点调度高峰。
+    - cron: "17 0 * * *"
   workflow_dispatch:
 
 permissions:

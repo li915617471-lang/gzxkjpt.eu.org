@@ -74,7 +74,7 @@ on conflict (user_id) do nothing;
 
 ## 6. 自动更新
 
-上传到 GitHub 后，`.github/workflows/smart-update.yml` 会每天北京时间 08:00 更新 `data/intelligence-draft.json`。
+上传到 GitHub 后，`.github/workflows/smart-update.yml` 会每天北京时间 08:17 左右更新 `data/intelligence-draft.json`。非整点调度可降低 GitHub 任务拥堵，实际启动可能有少量延迟。
 
 后台点击“同步最新自动草稿”，审核、修改后再保存到云端。默认不自动公开未经审核的内容。
 

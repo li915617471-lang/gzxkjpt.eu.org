@@ -60,7 +60,7 @@ data/intelligence-draft.json
 - `data/collection-logs.json` 保留最近 50 次采集记录，后台会显示新增、重复、失败来源和错误原因；
 - 每次生成的新内容仍是草稿，必须在后台审核后发布。
 
-项目已经包含 `.github/workflows/smart-update.yml`。上传到 GitHub 后，它会每天北京时间 08:00 自动执行采集脚本并更新草稿文件，也可以在 GitHub Actions 页面手动执行。
+项目已经包含 `.github/workflows/smart-update.yml`。上传到 GitHub 后，它会每天北京时间 08:17 左右自动执行采集脚本并更新草稿文件，也可以在 GitHub Actions 页面手动执行。选择 08:17 是为了避开 GitHub 整点调度高峰，平台允许少量运行延迟。
 
 配置 GitHub 加密密钥 `SUPABASE_SERVICE_ROLE_KEY` 后，每日任务还会自动把新增内容追加到 Supabase 待审核区。它不会覆盖已有文章，也不会绕过人工审核发布。详细配置见 `SUPABASE_SETUP.md` 的“自动写入 Supabase 待审核区”。
 
