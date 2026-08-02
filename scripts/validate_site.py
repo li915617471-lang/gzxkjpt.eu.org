@@ -110,8 +110,24 @@ def validate_content(validator: Validator, content: dict) -> list[dict]:
             validator.warn(bool(source_url), f"公开文章 {story_id} 尚未设置原始来源链接")
             validator.warn(len(str(story.get("body") or "").strip()) >= 80, f"公开文章 {story_id} 正文不足 80 字")
             validator.warn(int(story.get("confidence", 80)) >= 70, f"公开文章 {story_id} 可信度低于 70")
-    validator.warn(bool(str(operations.get("contactEmail") or "").strip()), "尚未配置公开联系邮箱")
+    contact_email = str(operations.get("contactEmail") or "").strip()
+    if contact_email:
+        validator.require(
+            bool(re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", contact_email)),
+            "operations.contactEmail 格式无效",
+        )
     return [story for story in stories if public_story(story)]
+
+
+def validate_contact_channel(validator: Validator) -> None:
+    governance = (ROOT / "governance.html").read_text(encoding="utf-8")
+    governance_script = (ROOT / "governance.js").read_text(encoding="utf-8")
+    cloud_adapter = (ROOT / "cloud.js").read_text(encoding="utf-8")
+    schema = (ROOT / "supabase-schema.sql").read_text(encoding="utf-8")
+    validator.require('id="correctionForm"' in governance, "治理页缺少公开联系表单")
+    validator.require("submitReport" in governance_script, "治理页联系表单缺少提交逻辑")
+    validator.require("submitReport" in cloud_adapter, "云端适配器缺少反馈提交接口")
+    validator.require("public.content_reports" in schema, "数据库缺少公开反馈队列")
 
 
 def validate_references(validator: Validator) -> None:
@@ -204,6 +220,7 @@ def main() -> int:
         return 1
     public_stories = validate_content(validator, content)
     validate_references(validator)
+    validate_contact_channel(validator)
     validate_generated_files(validator, len(public_stories))
     validate_pwa(validator)
     validate_automation(validator, content.get("categories", []))

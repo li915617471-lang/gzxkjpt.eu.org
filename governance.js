@@ -48,16 +48,16 @@
     }
 
     const configured = document.getElementById("contactConfigured");
-    const missing = document.getElementById("contactMissing");
+    const formChannel = document.getElementById("contactFormChannel");
     const contact = document.getElementById("governanceContact");
     if (isPublicEmail(contactEmail)) {
       contact.textContent = contactEmail;
       contact.href = "mailto:" + contactEmail;
       configured.hidden = false;
-      missing.hidden = true;
+      formChannel.hidden = false;
     } else {
       configured.hidden = true;
-      missing.hidden = false;
+      formChannel.hidden = false;
       contact.removeAttribute("href");
       contact.textContent = "";
     }
