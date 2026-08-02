@@ -26,7 +26,7 @@
   <script src="content-service.js?v=4" defer></script>
   <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
   <script src="pwa.js?v=2" defer></script>
-  <script src="article.js?v=3" defer></script>
+  <script src="article.js?v=4" defer></script>
   <script id="articleStructuredData" type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"信息分享平台文章详情"}</script>
 </head>
 <body class="article-page">
@@ -77,6 +77,14 @@
             <strong id="articleSource"></strong>
             <a id="sourceLink" target="_blank" rel="noopener noreferrer">查看原始来源 <i data-lucide="external-link"></i></a>
             <span id="sourceTrustNote" class="source-trust-note"></span>
+            <dl class="source-facts">
+              <div><dt>机构类型</dt><dd id="sourceType"></dd></div>
+              <div><dt>来源地区</dt><dd id="sourceRegion"></dd></div>
+              <div><dt>可信等级</dt><dd id="sourceTrustLevel"></dd></div>
+              <div><dt>原文发布</dt><dd id="sourcePublishedAt"></dd></div>
+              <div><dt>平台采集</dt><dd id="sourceCollectedAt"></dd></div>
+              <div><dt>整理方式</dt><dd id="sourceGenerationMode"></dd></div>
+            </dl>
           </section>
           <section>
             <span>内容坐标</span>

@@ -87,6 +87,17 @@ class RichDraftTests(unittest.TestCase):
         parsed = auto_update.parse_feed(raw)
         self.assertEqual(parsed[0]["image"], "https://cdn.example.com/robot.jpg")
 
+    def test_namespaced_rss_item_is_parsed(self):
+        raw = b"""<?xml version='1.0'?>
+        <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+          xmlns='http://purl.org/rss/1.0/'><item>
+          <title>Central bank research update</title>
+          <link>https://example.com/research</link>
+          <description>Official research summary</description>
+        </item></rdf:RDF>"""
+        parsed = auto_update.parse_feed(raw)
+        self.assertEqual(parsed[0]["title"], "Central bank research update")
+
     def test_html_image_and_relative_url_are_parsed(self):
         raw = b"""<?xml version='1.0'?>
         <rss><channel><item>
@@ -124,6 +135,14 @@ class RichDraftTests(unittest.TestCase):
         shortened = auto_update.truncate_text(text, 80)
         self.assertLessEqual(len(shortened), 81)
         self.assertTrue(shortened.endswith("…"))
+
+    def test_publication_standard_requires_800_characters_and_unique_sections(self):
+        body = "\n\n".join(
+            f"第{index}节\n\n" + (f"这是第{index}节基于来源材料整理的独立内容。" * 12)
+            for index in range(6)
+        ) + "\n\n来源与审核说明\n\n请以原始来源为准。"
+        self.assertTrue(auto_update.body_meets_publication_standard(body))
+        self.assertFalse(auto_update.body_meets_publication_standard("短文\n\n来源与审核说明"))
 
 
 if __name__ == "__main__":

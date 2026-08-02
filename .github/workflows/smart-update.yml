@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 jobs:
   collect-drafts:
@@ -32,6 +33,10 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: Collect public RSS drafts
+        env:
+          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_MODELS_MODEL: openai/gpt-4.1-mini
+          ARTICLE_GENERATION_TARGET_PER_CATEGORY: "3"
         run: python scripts/auto_update.py
 
       - name: Validate updated site data

@@ -21,6 +21,7 @@ from __future__ import annotations
 import html
 import email.utils
 import json
+import os
 import re
 import sys
 import time
@@ -60,6 +61,9 @@ CATEGORY_COVERS = {
 DEFAULT_COVER = "assets/factory.jpg"
 QUEUE_PER_CATEGORY = 10
 TRACKING_IMAGE_MARKERS = ("pixel", "tracking", "tracker", "spacer", "1x1", "clear.gif", "beacon")
+MIN_ARTICLE_CHARS = 800
+GITHUB_MODELS_ENDPOINT = "https://models.github.ai/inference/chat/completions"
+DEFAULT_ARTICLE_MODEL = "openai/gpt-4.1-mini"
 
 
 def load_category_rules() -> dict[str, list[str]]:
@@ -339,6 +343,8 @@ def parse_feed(raw: bytes) -> list[dict]:
     items = root.findall(".//item")
     if not items:
         items = root.findall(".//{http://www.w3.org/2005/Atom}entry")
+    if not items:
+        items = [element for element in root.iter() if element.tag.split("}")[-1].lower() in {"item", "entry"}]
 
     parsed = []
     for item in items[:12]:
@@ -400,7 +406,7 @@ class PageMetadataParser(HTMLParser):
 
 
 def enrich_entry_from_page(entry: dict) -> dict:
-    """Fill a missing feed summary from the public source page's leading text."""
+    """Collect limited source-page evidence for summarization and fill missing metadata."""
     link = str(entry.get("link") or "").strip()
     if not normalize_url(link):
         return entry
@@ -411,9 +417,13 @@ def enrich_entry_from_page(entry: dict) -> dict:
     except (RuntimeError, ValueError, UnicodeError):
         return entry
     enriched = dict(entry)
+    leading = " ".join(parser.blocks[:10])
+    source_material = clean_text(" ".join(filter(None, [enriched.get("summary", ""), leading])))
+    if source_material:
+        enriched["sourceMaterial"] = truncate_text(source_material, 6000)
+        enriched["sourceMaterialType"] = "rss-and-source-page" if leading else "rss"
     if len(clean_text(enriched.get("summary", ""))) < 60:
-        leading = " ".join(parser.blocks[:4])
-        enriched["summary"] = truncate_text(leading or parser.description, 900)
+        enriched["summary"] = truncate_text(" ".join(parser.blocks[:4]) or parser.description, 900)
         if enriched["summary"]:
             enriched["summarySourceType"] = "source-page"
     if not str(enriched.get("image") or "").startswith(("http://", "https://")):
@@ -523,15 +533,181 @@ def tags_for(text: str, category: str) -> list[str]:
     return list(dict.fromkeys(tags))[:5]
 
 
-def build_review_body(summary: str, source_name: str) -> str:
+def count_content_characters(value: str) -> int:
+    return len(re.findall(r"[A-Za-z0-9\u3400-\u9fff]", str(value or "")))
+
+
+def body_meets_publication_standard(value: str) -> bool:
+    body = str(value or "").strip()
+    paragraphs = [item.strip() for item in re.split(r"\n{2,}", body) if item.strip()]
+    normalized = [re.sub(r"\s+", "", item) for item in paragraphs]
+    return (
+        count_content_characters(body) >= MIN_ARTICLE_CHARS
+        and len(paragraphs) >= 6
+        and len(normalized) == len(set(normalized))
+        and "来源与审核说明" in body
+    )
+
+
+def build_review_body(summary: str, source_name: str, category: str = "") -> str:
     summary = truncate_text(summary, 900) or "该条目来自公开订阅源，尚待编辑补充中文摘要。"
     return (
-        "自动采集摘要\n\n"
+        "核心信息\n\n"
         f"{summary}\n\n"
+        "编辑状态\n\n"
+        f"这是一条属于“{category or '待分类'}”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n"
         "来源与审核说明\n\n"
         f"本资料由“{source_name or '公开来源'}”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。"
         "平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     )
+
+
+def parse_model_json(value: str) -> dict:
+    candidate = str(value or "").strip()
+    candidate = re.sub(r"^```(?:json)?\s*", "", candidate, flags=re.I)
+    candidate = re.sub(r"\s*```$", "", candidate)
+    start, end = candidate.find("{"), candidate.rfind("}")
+    if start < 0 or end <= start:
+        raise ValueError("模型没有返回 JSON 对象")
+    payload = json.loads(candidate[start:end + 1])
+    if not isinstance(payload, dict):
+        raise ValueError("模型返回格式错误")
+    return payload
+
+
+def generate_ai_article(story: dict) -> dict:
+    token = os.environ.get("GITHUB_MODELS_TOKEN", "").strip()
+    if not token:
+        raise RuntimeError("未配置 GitHub Models 免费推理令牌")
+    material = truncate_text(story.get("sourceMaterial") or story.get("excerpt", ""), 4000)
+    if len(clean_text(material)) < 120:
+        raise ValueError("来源材料不足 120 字符，不能可靠扩写")
+    source_name = str(story.get("source") or "公开来源")
+    source_url = str(story.get("sourceUrl") or "")
+    prompt = f"""请把下面的公开来源材料整理成中文科普文章。只使用材料中明确出现的事实，不补造数字、人物、结论或因果关系。
+
+输出必须是一个 JSON 对象，字段只有 title、excerpt、body：
+- title：准确的中文标题，10-60字；
+- excerpt：中文导语，80-160字；
+- body：900-1300个中文字符，分为“事件概览、背景与原理、关键进展、应用与影响、局限与待观察、读者如何核验”六节，每节用“节标题\\n\\n正文”表示，各节之间空一行；不要使用 Markdown 符号；
+- 不要复制长句，专业名词和短引用除外；材料没说的内容明确写“来源材料未说明”；
+- 不写宣传语，不声称平台完成了独立事实核查。
+
+板块：{story.get('category', '')}
+来源机构：{source_name}
+原文地址：{source_url}
+来源材料：
+{material}"""
+    request_body = {
+        "model": os.environ.get("GITHUB_MODELS_MODEL", DEFAULT_ARTICLE_MODEL),
+        "messages": [
+            {
+                "role": "system",
+                "content": "你是严谨的中文科技编辑。你的首要规则是忠于来源、区分事实与分析、绝不编造。",
+            },
+            {"role": "user", "content": prompt},
+        ],
+        "temperature": 0.2,
+        "top_p": 0.9,
+        "max_tokens": 2200,
+        "response_format": {"type": "json_object"},
+    }
+    request = urllib.request.Request(
+        GITHUB_MODELS_ENDPOINT,
+        data=json.dumps(request_body, ensure_ascii=False).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "User-Agent": "information-share-editor/1.0",
+        },
+        method="POST",
+    )
+    result = None
+    for attempt in range(1, 4):
+        try:
+            with urllib.request.urlopen(request, timeout=90) as response:
+                result = json.loads(response.read().decode("utf-8"))
+            break
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode("utf-8", errors="replace")[:300]
+            if exc.code not in {429, 500, 502, 503, 504} or attempt == 3:
+                raise RuntimeError(f"GitHub Models HTTP {exc.code}: {detail}") from exc
+            retry_after = exc.headers.get("Retry-After", "")
+            delay = int(retry_after) if str(retry_after).isdigit() else attempt * 5
+            time.sleep(min(30, max(1, delay)))
+    if not isinstance(result, dict):
+        raise RuntimeError("GitHub Models 未返回有效响应")
+    content = result.get("choices", [{}])[0].get("message", {}).get("content", "")
+    article = parse_model_json(content)
+    title = clean_text(article.get("title", ""))
+    excerpt = clean_text(article.get("excerpt", ""))
+    body = str(article.get("body") or "").strip()
+    if not (10 <= count_content_characters(title) <= 80):
+        raise ValueError("生成标题长度不合格")
+    if count_content_characters(excerpt) < 60:
+        raise ValueError("生成导语长度不合格")
+    if count_content_characters(body) < MIN_ARTICLE_CHARS:
+        raise ValueError("生成正文不足 800 字")
+    body += (
+        "\n\n来源与审核说明\n\n"
+        f"本文由平台根据“{source_name}”公开页面提供的标题、摘要和有限正文片段进行 AI 辅助原创整理。"
+        "平台未复制来源全文，也不以自动整理替代专业判断；涉及数据、政策、研究结论和时效的信息，请点击原文链接复核。"
+    )
+    if not body_meets_publication_standard(body):
+        raise ValueError("生成正文未通过结构、长度或重复检查")
+    return {"title": title, "excerpt": excerpt, "body": body}
+
+
+def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
+    try:
+        target = int(os.environ.get("ARTICLE_GENERATION_TARGET_PER_CATEGORY", 3))
+    except ValueError:
+        target = 3
+    target = max(1, min(10, target))
+    stats = {"requested": 0, "generated": 0, "failed": 0, "minimumCharacters": MIN_ARTICLE_CHARS}
+    for category in categories:
+        candidates = [story for story in queue if story.get("category") == category]
+        candidates.sort(key=story_queue_priority, reverse=True)
+        for story in candidates[:target]:
+            if body_meets_publication_standard(story.get("body", "")):
+                continue
+            stats["requested"] += 1
+            if not os.environ.get("GITHUB_MODELS_TOKEN", "").strip():
+                story["contentGenerationMode"] = "pending-editorial-expansion"
+                story["contentGenerationError"] = "未配置 GitHub Models 免费推理令牌"
+                story["reviewNote"] = "正文未达到 800 字公开标准，仅保留在待审核区"
+                stats["failed"] += 1
+                continue
+            if len(clean_text(story.get("sourceMaterial", ""))) < 600:
+                enriched = enrich_entry_from_page({
+                    "link": story.get("sourceUrl", ""),
+                    "summary": story.get("sourceMaterial") or story.get("excerpt", ""),
+                    "image": story.get("image", ""),
+                })
+                story["sourceMaterial"] = enriched.get("sourceMaterial") or story.get("sourceMaterial") or story.get("excerpt", "")
+                remote_image = safe_image_url(enriched.get("image", ""), story.get("sourceUrl", ""))
+                if remote_image and story.get("imageSourceType") == "category-cover":
+                    story["image"] = remote_image
+                    story["imageSourceType"] = "source-page"
+                    story["imageAttribution"] = story.get("source", "来源页面")
+            try:
+                article = generate_ai_article(story)
+                story["originalTitle"] = story.get("originalTitle") or story.get("title", "")
+                story.update(article)
+                story["language"] = "zh-CN"
+                story["contentGenerationMode"] = "github-models-source-grounded"
+                story["contentCharacterCount"] = count_content_characters(story["body"])
+                story["readMinutes"] = max(4, min(12, round(story["contentCharacterCount"] / 400)))
+                story["reviewNote"] = "已通过 800 字、来源可追溯、段落去重和中文结构检查"
+                story.pop("contentGenerationError", None)
+                stats["generated"] += 1
+            except Exception as exc:  # noqa: BLE001
+                story["contentGenerationMode"] = "pending-editorial-expansion"
+                story["contentGenerationError"] = str(exc)[:300]
+                story["reviewNote"] = "正文未达到 800 字公开标准，仅保留在待审核区"
+                stats["failed"] += 1
+    return stats
 
 
 def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]]) -> dict:
@@ -558,7 +734,7 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
         "categoryEvidenceScore": evidence_score,
         "title": truncate_text(entry["title"], 160),
         "excerpt": excerpt,
-        "body": build_review_body(excerpt, source_name),
+        "body": build_review_body(excerpt, source_name, category),
         "image": image,
         "imageFallback": fallback_image,
         "imageSourceType": "rss" if source_image else "category-cover",
@@ -582,6 +758,8 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
         "originalPublishedAt": entry.get("published", ""),
         "collectedAt": datetime.now(timezone.utc).isoformat(),
         "reviewNote": review_note,
+        "sourceMaterial": truncate_text(entry.get("sourceMaterial") or entry.get("summary", ""), 6000),
+        "sourceMaterialType": entry.get("sourceMaterialType", "rss"),
     }
 
 
@@ -694,6 +872,7 @@ def main() -> int:
 
     queue_limit = max(30, len(rules) * QUEUE_PER_CATEGORY)
     queue = balanced_queue(stories, retained_drafts, list(rules), queue_limit)
+    generation = enhance_queue_bodies(queue, list(rules))
     new_story_objects = {id(story) for story in stories}
     new_in_queue = sum(1 for story in queue if id(story) in new_story_objects)
     collection["queueCount"] = len(queue)
@@ -701,6 +880,7 @@ def main() -> int:
         category: sum(1 for story in queue if story.get("category") == category)
         for category in rules
     }
+    collection["articleGeneration"] = generation
     payload = {
         "generatedAt": finished_at,
         "stories": queue,

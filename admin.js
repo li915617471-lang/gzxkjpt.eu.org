@@ -1251,7 +1251,7 @@ function evaluateStoryQuality(story) {
     { label: "中文标题与摘要已核对", pass: reviewChecks.localizationVerified === true, required: true, weight: 5 },
     { label: "版权边界与引用方式已核对", pass: reviewChecks.rightsVerified === true, required: true, weight: 5 },
     { label: "至少设置 2 个标签", pass: story.tags.length >= 2, required: false, weight: 0 },
-    { label: "正文不少于 80 个字", pass: story.body.length >= 80, required: false, weight: 0 }
+    { label: "正文不少于 800 字", pass: story.body.replace(/\s/g, "").length >= 800, required: true, weight: 0 }
   ];
   return {
     checks: checks,

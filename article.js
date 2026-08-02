@@ -128,6 +128,25 @@ function renderArticle(story) {
   document.querySelector("#sourceTrustNote").textContent = sourceUrl
     ? `${confidence >= 85 ? "高可信" : confidence >= 70 ? "可核验" : "需交叉核验"} · 已保留原始来源链接`
     : `${confidence >= 85 ? "高可信" : "待核验"} · 暂无原始来源链接`;
+  const sourceTypeLabels = {
+    official: "政府 / 官方机构", research: "科研 / 学术机构", professional: "专业媒体",
+    industry: "行业机构", company: "企业发布", community: "社区 / 个人"
+  };
+  const trustLevelLabels = {
+    authoritative: "权威来源", professional: "专业来源", standard: "一般来源", reference: "仅供参考"
+  };
+  const dateLabel = function (value) {
+    if (!value) return "未提供";
+    const parsed = new Date(value);
+    return Number.isNaN(parsed.getTime()) ? String(value) : parsed.toLocaleString("zh-CN", { hour12: false });
+  };
+  document.querySelector("#sourceType").textContent = sourceTypeLabels[story.sourceType] || "未标注";
+  document.querySelector("#sourceRegion").textContent = story.sourceRegion || "未标注";
+  document.querySelector("#sourceTrustLevel").textContent = trustLevelLabels[story.sourceTrustLevel] || "未标注";
+  document.querySelector("#sourcePublishedAt").textContent = dateLabel(story.originalPublishedAt);
+  document.querySelector("#sourceCollectedAt").textContent = dateLabel(story.collectedAt || story.automaticImportedAt);
+  document.querySelector("#sourceGenerationMode").textContent = story.contentGenerationMode === "github-models-source-grounded"
+    ? "AI 辅助原创整理" : "编辑整理 / 来源摘要";
   const correctionParams = new URLSearchParams({
     article: String(story.id),
     url: location.href

@@ -30,6 +30,7 @@ AUTOMATIC_ID_BASE = 4_000_000_000_000_000
 AUTOMATIC_PROMOTION_ID_BASE = 5_000_000_000_000_000
 MAX_SAFE_INTEGER = 9_007_199_254_740_991
 DEFAULT_MIN_CONFIDENCE = 85
+MIN_ARTICLE_CHARS = 800
 TRUSTED_LEVELS = {"authoritative", "professional"}
 QUOTA_TRUSTED_LEVELS = {"authoritative", "professional", "standard"}
 
@@ -91,6 +92,16 @@ def is_valid_image(value: Any) -> bool:
         return False
 
 
+def count_content_characters(value: Any) -> int:
+    return len(re.findall(r"[A-Za-z0-9\u3400-\u9fff]", str(value or "")))
+
+
+def has_unique_article_sections(value: Any) -> bool:
+    paragraphs = [item.strip() for item in re.split(r"\n{2,}", str(value or "")) if item.strip()]
+    normalized = [re.sub(r"\s+", "", item) for item in paragraphs]
+    return len(paragraphs) >= 6 and len(normalized) == len(set(normalized))
+
+
 def env_flag(name: str, fallback: bool = False) -> bool:
     value = os.environ.get(name)
     if value is None:
@@ -127,7 +138,7 @@ def auto_approval_policy(operations: dict[str, Any] | None = None) -> dict[str, 
         "minConfidence": max(70, min(100, threshold)),
         "fallbackMinConfidence": max(75, min(100, fallback_confidence)),
         "dailyTargetPerCategory": max(1, min(10, target)),
-        "policyVersion": 1,
+        "policyVersion": 2,
     }
 
 
@@ -155,7 +166,10 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
         "namedSource": len(str(story.get("source") or "").strip()) >= 2,
         "completeTitle": len(title) >= 10,
         "completeExcerpt": len(excerpt) >= 60,
-        "completeBody": len(str(body).strip()) >= 160,
+        "completeBody": count_content_characters(body) >= MIN_ARTICLE_CHARS,
+        "structuredBody": has_unique_article_sections(body),
+        "sourceDisclosure": "来源与审核说明" in str(body),
+        "groundedGeneration": story.get("contentGenerationMode") == "github-models-source-grounded",
         "validImage": is_valid_image(story.get("image")),
         "classified": bool(str(story.get("category") or "").strip()),
         "categoryEvidence": evidence_score >= 2,
@@ -310,6 +324,9 @@ def article_row(
         "date",
         "tags",
         "reviewChecks",
+        "sourceMaterial",
+        "sourceMaterialType",
+        "contentGenerationError",
     }
     extra = {key: value for key, value in story.items() if key not in core_keys}
     extra.update(

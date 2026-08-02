@@ -11,10 +11,19 @@ import sync_supabase_drafts as sync  # noqa: E402
 
 class SupabaseDraftSyncTests(unittest.TestCase):
     def rich_story(self):
+        sections = []
+        for index, heading in enumerate([
+            "Event overview", "Background", "Key progress",
+            "Applications", "Limitations", "Verification",
+        ]):
+            sections.append(
+                f"{heading}\n\n" +
+                ((f"Verified source context for section {index} explains the evidence and its boundaries. ") * 4)
+            )
         return {
             "title": "A major battery storage project reaches commercial operation",
             "excerpt": "A detailed public summary explains the technology, capacity, participants, and expected industry impact.",
-            "body": "Automatic collection summary\n\n" + ("Detailed verified source context. " * 8),
+            "body": "\n\n".join(sections) + "\n\n来源与审核说明\n\nDetails remain traceable to the named source.",
             "source": "Official Energy Agency",
             "sourceUrl": "https://example.com/energy/story",
             "image": "https://cdn.example.com/energy.jpg",
@@ -22,6 +31,7 @@ class SupabaseDraftSyncTests(unittest.TestCase):
             "categoryEvidenceScore": 4,
             "confidence": 93,
             "sourceTrustLevel": "authoritative",
+            "contentGenerationMode": "github-models-source-grounded",
             "status": "review",
         }
 
@@ -116,6 +126,16 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         )
         self.assertEqual(row["status"], "review")
         self.assertFalse(row["extra"]["automaticApproval"]["approved"])
+
+    def test_auto_review_rejects_body_shorter_than_800_characters(self):
+        story = self.rich_story()
+        story["body"] = "简短正文。\n\n来源与审核说明\n\n请查看原文。"
+        policy = {"enabled": True, "minConfidence": 85, "policyVersion": 2}
+        row = sync.article_row(
+            story, "main", 0, "2026-08-02T00:00:00+00:00", policy
+        )
+        self.assertEqual(row["status"], "review")
+        self.assertFalse(row["extra"]["automaticApproval"]["checks"]["completeBody"])
 
     def test_auto_review_can_be_disabled(self):
         policy = {"enabled": False, "minConfidence": 85, "policyVersion": 1}
