@@ -1,6 +1,13 @@
 name: Smart industry update
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/auto_update.py"
+      - "scripts/sync_supabase_drafts.py"
+      - "data/update-sources.json"
+      - ".github/workflows/smart-update.yml"
   schedule:
     # 北京时间 08:17，避开 GitHub Actions 整点调度高峰。
     - cron: "17 0 * * *"
