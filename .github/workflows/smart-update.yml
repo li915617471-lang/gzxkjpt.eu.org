@@ -64,6 +64,12 @@ jobs:
           git add data/intelligence-draft.json data/collection-logs.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh intelligence drafts"
-            git pull --rebase origin main
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push; then
+                exit 0
+              fi
+              sleep $((attempt * 3))
+            done
+            exit 1
           fi

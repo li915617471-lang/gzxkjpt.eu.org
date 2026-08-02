@@ -163,6 +163,36 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         ))
         self.assertEqual((duplicates, invalid), (0, 0))
 
+    def test_daily_target_backfills_an_existing_automatic_draft(self):
+        story = self.rich_story()
+        fingerprint = sync.story_fingerprint(story)
+        existing = [{
+            "id": sync.automatic_article_id(fingerprint),
+            "title": story["title"],
+            "source_url": story["sourceUrl"],
+            "category": story["category"],
+            "status": "review",
+            "extra": {"automaticImport": True},
+            "position": 2,
+        }]
+        policy = {
+            "enabled": True,
+            "minConfidence": 85,
+            "fallbackMinConfidence": 78,
+            "dailyTargetPerCategory": 3,
+            "policyVersion": 1,
+        }
+        promotions, counts = sync.prepare_promotions(
+            [story], existing, [], policy, "2026-08-02T08:00:00+00:00"
+        )
+        self.assertEqual(len(promotions), 1)
+        self.assertEqual(promotions[0][1]["status"], "published")
+        self.assertEqual(
+            promotions[0][1]["extra"]["automaticApproval"]["mode"],
+            "daily-target-backfill",
+        )
+        self.assertEqual(counts["能源"], 1)
+
 
 if __name__ == "__main__":
     unittest.main()

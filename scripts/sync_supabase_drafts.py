@@ -405,6 +405,108 @@ def prepare_rows(
     return rows, duplicates, invalid
 
 
+def daily_automatic_counts(
+    existing: list[dict[str, Any]], inserted: list[dict[str, Any]], day: str
+) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for row in existing + inserted:
+        extra = row.get("extra") if isinstance(row.get("extra"), dict) else {}
+        audit = extra.get("automaticApproval") if isinstance(extra, dict) else {}
+        reviewed_at = str(audit.get("reviewedAt") or "") if isinstance(audit, dict) else ""
+        if row.get("status") != "published" or not audit.get("approved") or not reviewed_at.startswith(day):
+            continue
+        category = str(row.get("category") or "")
+        if category:
+            counts[category] = counts.get(category, 0) + 1
+    return counts
+
+
+def prepare_promotions(
+    stories: list[dict[str, Any]],
+    existing: list[dict[str, Any]],
+    inserted: list[dict[str, Any]],
+    policy: dict[str, Any],
+    imported_at: str,
+) -> tuple[list[tuple[int, dict[str, Any]]], dict[str, int]]:
+    """Fill today's category gaps from recent, already-imported automatic drafts."""
+    day = imported_at[:10]
+    counts = daily_automatic_counts(existing, inserted, day)
+    target = int(policy.get("dailyTargetPerCategory", 3))
+    story_by_url = {
+        normalize_url(story.get("sourceUrl") or story.get("url") or ""): story
+        for story in stories
+        if normalize_url(story.get("sourceUrl") or story.get("url") or "")
+    }
+    relaxed_policy = dict(policy)
+    relaxed_policy["minConfidence"] = int(policy.get("fallbackMinConfidence", 78))
+    relaxed_policy["trustedLevels"] = sorted(QUOTA_TRUSTED_LEVELS)
+    grouped: dict[str, list[tuple[dict[str, Any], dict[str, Any], dict[str, Any]]]] = {}
+    for row in existing:
+        extra = row.get("extra") if isinstance(row.get("extra"), dict) else {}
+        if (
+            row.get("status") not in {"draft", "review"}
+            or int(row.get("id") or 0) < AUTOMATIC_ID_BASE
+            or extra.get("automaticImport") is not True
+        ):
+            continue
+        story = story_by_url.get(normalize_url(row.get("source_url") or ""))
+        if not story:
+            continue
+        audit = evaluate_auto_approval(story, relaxed_policy)
+        if not audit["approved"]:
+            continue
+        category = str(story.get("category") or "")
+        grouped.setdefault(category, []).append((story, row, audit))
+
+    promotions: list[tuple[int, dict[str, Any]]] = []
+    for category, candidates in grouped.items():
+        needed = max(0, target - counts.get(category, 0))
+        if not needed:
+            continue
+        candidates.sort(key=lambda item: story_priority(item[0]), reverse=True)
+        for story, row, audit in candidates[:needed]:
+            audit.update({
+                "mode": "daily-target-backfill",
+                "dailyTargetPerCategory": target,
+                "reviewedAt": imported_at,
+                "notice": "自动审核仅验证来源与内容结构，不代替人工事实核查。",
+            })
+            body = story.get("body") or ""
+            if isinstance(body, list):
+                body = "\n\n".join(str(item) for item in body)
+            merged_extra = dict(row.get("extra") or {})
+            merged_extra.update({
+                "automaticApproval": audit,
+                "reviewChecks": {
+                    "sourceVerified": True,
+                    "categoryVerified": True,
+                    "localizationVerified": False,
+                    "rightsVerified": bool(story.get("sourceUrl")) and "来源与审核说明" in str(body),
+                },
+            })
+            promotions.append((int(row["id"]), {
+                "category": category,
+                "title": str(story.get("title") or "")[:300],
+                "excerpt": str(story.get("excerpt") or "")[:2000],
+                "image": str(story.get("image") or "")[:1000],
+                "source": str(story.get("source") or "公开来源")[:300],
+                "author": str(story.get("author") or "")[:300],
+                "language": str(story.get("language") or "zh-CN")[:30],
+                "status": "published",
+                "confidence": max(0, min(100, int(story.get("confidence") or 0))),
+                "body": str(body),
+                "time_label": "自动审核通过",
+                "read_minutes": max(1, int(story.get("readMinutes") or 6)),
+                "heat": max(0, int(story.get("heat") or 0)),
+                "published_date": parse_date(story.get("date")) or day,
+                "tags": story.get("tags") if isinstance(story.get("tags"), list) else [],
+                "extra": merged_extra,
+                "updated_at": imported_at,
+            }))
+            counts[category] = counts.get(category, 0) + 1
+    return promotions, counts
+
+
 class SupabaseRest:
     def __init__(self, base_url: str, service_key: str) -> None:
         self.base_url = base_url.rstrip("/")
@@ -439,7 +541,7 @@ class SupabaseRest:
             "GET",
             "articles?site_id=eq."
             + encoded_site
-            + "&select=id,title,source_url,position&limit=10000",
+            + "&select=id,title,source_url,position,category,status,extra,updated_at&limit=10000",
         )
 
     def site_operations(self, site_id: str) -> dict[str, Any]:
@@ -457,6 +559,15 @@ class SupabaseRest:
         if not rows:
             return []
         result = self.request("POST", "articles?on_conflict=site_id,id", rows)
+        return result if isinstance(result, list) else []
+
+    def update_article(self, site_id: str, article_id: int, payload: dict[str, Any]) -> list[dict[str, Any]]:
+        encoded_site = urllib.parse.quote(site_id, safe="")
+        result = self.request(
+            "PATCH",
+            f"articles?site_id=eq.{encoded_site}&id=eq.{article_id}",
+            payload,
+        )
         return result if isinstance(result, list) else []
 
 
@@ -503,6 +614,15 @@ def main() -> int:
             stories, existing, site_id, imported_at, policy
         )
         inserted = rows if args.dry_run else client.insert_articles(rows)
+        promotions, daily_counts = prepare_promotions(
+            stories, existing, inserted, policy, imported_at
+        )
+        promoted = []
+        if args.dry_run:
+            promoted = [payload for _, payload in promotions]
+        else:
+            for article_id, payload in promotions:
+                promoted.extend(client.update_article(site_id, article_id, payload))
     except (OSError, ValueError, RuntimeError, json.JSONDecodeError) as exc:
         print(f"Draft sync failed: {exc}", file=sys.stderr)
         return 1
@@ -511,17 +631,12 @@ def main() -> int:
         "Supabase draft sync: "
         f"inserted={len(inserted)}, duplicates={duplicates}, invalid={invalid}, "
         f"auto_published={sum(1 for row in inserted if row.get('status') == 'published')}, "
+        f"promoted={len(promoted)}, "
         f"source={len(stories)}"
     )
     target = int(policy.get("dailyTargetPerCategory", 3))
     categories = sorted({str(story.get("category") or "") for story in stories if story.get("category")})
-    published_counts = {
-        category: sum(
-            1 for row in inserted
-            if row.get("status") == "published" and row.get("category") == category
-        )
-        for category in categories
-    }
+    published_counts = {category: daily_counts.get(category, 0) for category in categories}
     gaps = {category: max(0, target - count) for category, count in published_counts.items()}
     print("Auto-publish by category: " + json.dumps(published_counts, ensure_ascii=False, sort_keys=True))
     if any(gaps.values()):
