@@ -762,7 +762,7 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
                 try:
                     article = generate_ai_article(story)
                     generation_mode = "github-models-source-grounded"
-                except RuntimeError as exc:
+                except (RuntimeError, ValueError) as exc:
                     # GitHub Models can be rate-limited or temporarily retired. Keep
                     # the publication pipeline useful without inventing source facts.
                     article = build_structured_article(story)

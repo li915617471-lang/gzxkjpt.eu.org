@@ -159,6 +159,17 @@ class RichDraftTests(unittest.TestCase):
         self.assertGreaterEqual(auto_update.count_content_characters(article["body"]), 800)
         self.assertTrue(auto_update.body_meets_publication_standard(article["body"]))
 
+    def test_structured_fallback_handles_title_only_source_material(self):
+        article = auto_update.build_structured_article({
+            "category": "金融",
+            "source": "Federal Reserve",
+            "sourceUrl": "https://example.com/enforcement",
+            "originalTitle": "Federal Reserve Board enforcement action",
+            "title": "Federal Reserve Board enforcement action",
+            "sourceMaterial": "Federal Reserve Board enforcement action",
+        })
+        self.assertTrue(auto_update.body_meets_publication_standard(article["body"]))
+
 
 if __name__ == "__main__":
     unittest.main()
