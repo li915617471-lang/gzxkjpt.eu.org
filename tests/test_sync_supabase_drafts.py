@@ -134,6 +134,35 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(row["status"], "review")
         self.assertFalse(row["extra"]["automaticApproval"]["checks"]["categoryEvidence"])
 
+    def test_daily_target_uses_three_newest_safe_candidates_per_category(self):
+        stories = []
+        for index, date in enumerate(["2026-07-29", "2026-07-30", "2026-07-31", "2026-08-01"]):
+            story = self.rich_story()
+            story["title"] = f"Battery storage project update number {index}"
+            story["sourceUrl"] = f"https://example.com/energy/{index}"
+            story["confidence"] = 80
+            story["sourceTrustLevel"] = "standard"
+            story["date"] = date
+            stories.append(story)
+        policy = {
+            "enabled": True,
+            "minConfidence": 85,
+            "fallbackMinConfidence": 78,
+            "dailyTargetPerCategory": 3,
+            "policyVersion": 1,
+        }
+        rows, duplicates, invalid = sync.prepare_rows(
+            stories, [], "main", "2026-08-02T00:00:00+00:00", policy
+        )
+        published = [row for row in rows if row["status"] == "published"]
+        self.assertEqual(len(published), 3)
+        self.assertNotIn("number 0", " ".join(row["title"] for row in published))
+        self.assertTrue(all(
+            row["extra"]["automaticApproval"]["mode"] == "daily-target-fill"
+            for row in published
+        ))
+        self.assertEqual((duplicates, invalid), (0, 0))
+
 
 if __name__ == "__main__":
     unittest.main()

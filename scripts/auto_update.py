@@ -19,6 +19,7 @@
 from __future__ import annotations
 
 import html
+import email.utils
 import json
 import re
 import sys
@@ -28,6 +29,7 @@ import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 
 
@@ -39,12 +41,12 @@ LOG_FILE = ROOT / "data" / "collection-logs.json"
 
 
 CATEGORY_RULES = {
-    "金融": ["finance", "fintech", "bank", "payment", "insurance", "fund", "digital currency", "monetary", "inflation", "interest rate", "economy", "euro", "金融", "银行", "证券", "支付", "保险", "基金", "数字货币", "利率", "通胀", "货币政策"],
+    "金融": ["finance", "fintech", "bank", "central bank", "ecb", "payment", "insurance", "fund", "digital currency", "monetary", "inflation", "interest rate", "economy", "euro", "wage", "collateral", "governing council", "金融", "银行", "证券", "支付", "保险", "基金", "数字货币", "利率", "通胀", "货币政策"],
     "农业": ["agriculture", "farming", "farm", "crop", "food", "food tech", "agritech", "livestock", "irrigation", "农业", "农机", "育种", "粮食", "种植", "养殖", "农田", "农业科技"],
     "能源": ["battery", "energy", "solar", "storage", "geothermal", "renewable", "grid", "electricity", "oil", "crude", "natural gas", "lng", "电池", "储能", "光伏", "新能源", "电力", "地热", "石油", "天然气"],
-    "工业": ["robot", "factory", "manufacturing", "automation", "industrial", "production", "supply chain", "logistics", "plant", "机器人", "工厂", "制造", "自动化", "产线", "工业互联网", "供应链", "生产"],
-    "人文": ["humanities", "culture", "education", "history", "museum", "society", "art", "literature", "philosophy", "人文", "文化", "教育", "历史", "博物馆", "社会", "艺术", "文学"],
-    "科技": ["ai", "llm", "artificial intelligence", "technology", "model", "compute", "robot", "chip", "semiconductor", "wafer", "packaging", "chiplet", "quantum", "biotech", "人工智能", "大模型", "算力", "模型", "芯片", "半导体", "封装", "晶圆", "量子", "生物技术"]
+    "工业": ["robot", "factory", "manufacturing", "automation", "industrial", "production", "output", "supply chain", "logistics", "plant", "opening", "expansion", "industrial company", "tariff", "revenue", "机器人", "工厂", "制造", "自动化", "产线", "工业互联网", "供应链", "生产", "制造企业"],
+    "人文": ["humanities", "culture", "education", "history", "museum", "society", "art", "literature", "philosophy", "film", "music", "book", "manuscript", "ancient", "poetry", "map", "mythology", "人文", "文化", "教育", "历史", "博物馆", "社会", "艺术", "文学"],
+    "科技": ["ai", "llm", "llms", "artificial intelligence", "technology", "engineering", "science", "research", "network", "fiber", "dark matter", "model", "compute", "robot", "chip", "semiconductor", "wafer", "packaging", "chiplet", "quantum", "biotech", "人工智能", "大模型", "算力", "模型", "芯片", "半导体", "封装", "晶圆", "量子", "生物技术"]
 }
 
 CATEGORY_COVERS = {
@@ -56,6 +58,7 @@ CATEGORY_COVERS = {
     "人文": "assets/semiconductor.jpg",
 }
 DEFAULT_COVER = "assets/factory.jpg"
+QUEUE_PER_CATEGORY = 10
 TRACKING_IMAGE_MARKERS = ("pixel", "tracking", "tracker", "spacer", "1x1", "clear.gif", "beacon")
 
 
@@ -82,7 +85,7 @@ def load_category_rules() -> dict[str, list[str]]:
 def clean_text(value: str) -> str:
     value = re.sub(r"<[^>]+>", " ", value or "")
     value = html.unescape(value)
-    value = re.sub(r"\\s+", " ", value).strip()
+    value = re.sub(r"\s+", " ", value).strip()
     return value
 
 
@@ -234,6 +237,8 @@ def balanced_queue(new_stories: list[dict], retained_stories: list[dict], catego
             buckets[category].append(story)
         else:
             overflow.append(story)
+    for bucket in buckets.values():
+        bucket.sort(key=story_queue_priority, reverse=True)
     queue = []
     while len(queue) < limit and any(buckets.values()):
         for category in categories:
@@ -242,6 +247,31 @@ def balanced_queue(new_stories: list[dict], retained_stories: list[dict], catego
     if len(queue) < limit:
         queue.extend(overflow[:limit - len(queue)])
     return queue
+
+
+def story_queue_priority(story: dict) -> tuple[int, float, int, int]:
+    try:
+        evidence = int(story.get("categoryEvidenceScore") or 0)
+    except (TypeError, ValueError):
+        evidence = 0
+    published = str(story.get("originalPublishedAt") or story.get("date") or "").strip()
+    timestamp = 0.0
+    if published:
+        try:
+            parsed = email.utils.parsedate_to_datetime(published)
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(tzinfo=timezone.utc)
+            timestamp = parsed.timestamp()
+        except (TypeError, ValueError, OverflowError):
+            try:
+                timestamp = datetime.fromisoformat(published.replace("Z", "+00:00")).timestamp()
+            except (TypeError, ValueError, OverflowError):
+                timestamp = 0.0
+    try:
+        confidence = int(story.get("confidence") or 0)
+    except (TypeError, ValueError):
+        confidence = 0
+    return (int(evidence >= 2), timestamp, evidence, confidence)
 
 
 def fetch(url: str, max_attempts: int = 3) -> tuple[bytes, int, int]:
@@ -327,6 +357,70 @@ def parse_feed(raw: bytes) -> list[dict]:
     return parsed
 
 
+class PageMetadataParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.in_main = 0
+        self.capture_tag = ""
+        self.capture_parts: list[str] = []
+        self.blocks: list[str] = []
+        self.description = ""
+        self.image = ""
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attrs_map = {str(key).lower(): str(value or "") for key, value in attrs}
+        tag = tag.lower()
+        if tag == "main":
+            self.in_main += 1
+        if tag == "meta":
+            key = (attrs_map.get("property") or attrs_map.get("name") or "").lower()
+            content = attrs_map.get("content", "")
+            if key in {"description", "og:description", "twitter:description"} and not self.description:
+                self.description = clean_text(content)
+            if key in {"og:image", "og:image:secure_url", "twitter:image"} and not self.image:
+                self.image = content.strip()
+        if self.in_main and tag in {"p", "li"} and not self.capture_tag:
+            self.capture_tag = tag
+            self.capture_parts = []
+
+    def handle_data(self, data: str) -> None:
+        if self.capture_tag:
+            self.capture_parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.lower()
+        if self.capture_tag == tag:
+            block = clean_text(" ".join(self.capture_parts))
+            if len(block) >= 35:
+                self.blocks.append(block)
+            self.capture_tag = ""
+            self.capture_parts = []
+        if tag == "main" and self.in_main:
+            self.in_main -= 1
+
+
+def enrich_entry_from_page(entry: dict) -> dict:
+    """Fill a missing feed summary from the public source page's leading text."""
+    link = str(entry.get("link") or "").strip()
+    if not normalize_url(link):
+        return entry
+    try:
+        raw, _, _ = fetch(link, max_attempts=1)
+        parser = PageMetadataParser()
+        parser.feed(raw.decode("utf-8", errors="replace"))
+    except (RuntimeError, ValueError, UnicodeError):
+        return entry
+    enriched = dict(entry)
+    if len(clean_text(enriched.get("summary", ""))) < 60:
+        leading = " ".join(parser.blocks[:4])
+        enriched["summary"] = truncate_text(leading or parser.description, 900)
+        if enriched["summary"]:
+            enriched["summarySourceType"] = "source-page"
+    if not str(enriched.get("image") or "").startswith(("http://", "https://")):
+        enriched["image"] = safe_image_url(parser.image, link)
+    return enriched
+
+
 def keyword_hits(text: str, words: list[str]) -> int:
     lower = (text or "").lower()
     hits = 0
@@ -379,6 +473,27 @@ def refresh_retained_categories(
                 f"{story.get('title', '')} {story.get('excerpt', '')}",
                 story["category"],
             )
+            story["sourceTrustLevel"] = source.get("trustLevel", story.get("sourceTrustLevel", "standard"))
+            story["sourceType"] = source.get("type", story.get("sourceType", "professional"))
+            if not story.get("confidence"):
+                story["confidence"] = max(0, min(100, int(source.get("confidence", 75))))
+        if len(clean_text(story.get("excerpt", ""))) < 60 and story.get("sourceUrl"):
+            enriched = enrich_entry_from_page({
+                "link": story["sourceUrl"],
+                "summary": story.get("excerpt", ""),
+                "image": story.get("image", ""),
+            })
+            if len(clean_text(enriched.get("summary", ""))) >= 60:
+                story["excerpt"] = truncate_text(enriched["summary"], 280)
+                story["body"] = build_review_body(
+                    story["excerpt"], story.get("source", "公开来源")
+                )
+                story["summarySourceType"] = enriched.get("summarySourceType", "source-page")
+            remote_image = safe_image_url(enriched.get("image", ""), story["sourceUrl"])
+            if remote_image and not str(story.get("image", "")).startswith("http"):
+                story["image"] = remote_image
+                story["imageSourceType"] = "source-page"
+                story["imageAttribution"] = story.get("source", "来源页面")
         story["categoryEvidenceScore"] = category_evidence_score(
             story.get("title", ""), story.get("excerpt", ""), story["category"], rules
         )
@@ -522,6 +637,8 @@ def main() -> int:
                     duplicates += 1
                     source_duplicates += 1
                     continue
+                if len(clean_text(entry.get("summary", ""))) < 60:
+                    entry = enrich_entry_from_page(entry)
                 stories.append(make_story(entry, source, len(stories), rules))
                 source_added += 1
                 if url_key:
@@ -575,7 +692,8 @@ def main() -> int:
         print("全部采集来源失败，已保留原有草稿队列", file=sys.stderr)
         return 1
 
-    queue = balanced_queue(stories, retained_drafts, list(rules), 30)
+    queue_limit = max(30, len(rules) * QUEUE_PER_CATEGORY)
+    queue = balanced_queue(stories, retained_drafts, list(rules), queue_limit)
     new_story_objects = {id(story) for story in stories}
     new_in_queue = sum(1 for story in queue if id(story) in new_story_objects)
     collection["queueCount"] = len(queue)

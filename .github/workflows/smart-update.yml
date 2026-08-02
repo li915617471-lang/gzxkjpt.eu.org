@@ -47,6 +47,8 @@ jobs:
           SUPABASE_SITE_ID: main
           AUTO_APPROVAL_ENABLED: "true"
           AUTO_APPROVAL_MIN_CONFIDENCE: "85"
+          AUTO_APPROVAL_FALLBACK_CONFIDENCE: "78"
+          AUTO_APPROVAL_DAILY_TARGET: "3"
         run: |
           set -o pipefail
           if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then

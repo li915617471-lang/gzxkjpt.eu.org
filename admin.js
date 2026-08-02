@@ -146,6 +146,7 @@ const els = {
   operationBackupLimit: document.querySelector("#operationBackupLimit"),
   operationAutoApprovalEnabled: document.querySelector("#operationAutoApprovalEnabled"),
   operationAutoApprovalMinConfidence: document.querySelector("#operationAutoApprovalMinConfidence"),
+  operationDailyPublishTarget: document.querySelector("#operationDailyPublishTarget"),
   backupList: document.querySelector("#backupList"),
   jsonFile: document.querySelector("#jsonFile"),
   authGate: document.querySelector("#authGate"),
@@ -381,13 +382,15 @@ function normalizeContent() {
     autoBackup: true,
     backupLimit: 10,
     autoApprovalEnabled: true,
-    autoApprovalMinConfidence: 85
+    autoApprovalMinConfidence: 85,
+    dailyPublishTargetPerCategory: 3
   }, content.operations || {});
   content.operations.searchEnabled = content.operations.searchEnabled !== false;
   content.operations.autoBackup = content.operations.autoBackup !== false;
   content.operations.backupLimit = Math.max(3, Math.min(30, Number(content.operations.backupLimit) || 10));
   content.operations.autoApprovalEnabled = content.operations.autoApprovalEnabled !== false;
   content.operations.autoApprovalMinConfidence = Math.max(70, Math.min(100, Number(content.operations.autoApprovalMinConfidence) || 85));
+  content.operations.dailyPublishTargetPerCategory = Math.max(1, Math.min(10, Number(content.operations.dailyPublishTargetPerCategory) || 3));
 }
 
 async function hydrateAutomationData() {
@@ -1716,6 +1719,7 @@ function renderOperationsSettings() {
   els.operationBackupLimit.value = Number(operations.backupLimit || 10);
   els.operationAutoApprovalEnabled.checked = operations.autoApprovalEnabled !== false;
   els.operationAutoApprovalMinConfidence.value = Number(operations.autoApprovalMinConfidence || 85);
+  els.operationDailyPublishTarget.value = Number(operations.dailyPublishTargetPerCategory || 3);
 }
 
 function saveOperationsSettings(event) {
@@ -1729,7 +1733,8 @@ function saveOperationsSettings(event) {
     autoBackup: els.operationAutoBackup.checked,
     backupLimit: Math.max(3, Math.min(30, Number(els.operationBackupLimit.value) || 10)),
     autoApprovalEnabled: els.operationAutoApprovalEnabled.checked,
-    autoApprovalMinConfidence: Math.max(70, Math.min(100, Number(els.operationAutoApprovalMinConfidence.value) || 85))
+    autoApprovalMinConfidence: Math.max(70, Math.min(100, Number(els.operationAutoApprovalMinConfidence.value) || 85)),
+    dailyPublishTargetPerCategory: Math.max(1, Math.min(10, Number(els.operationDailyPublishTarget.value) || 3))
   };
   saveLocal();
   showToast("公益运营设置已保存");

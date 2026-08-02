@@ -28,7 +28,8 @@
     "autoBackup": true,
     "backupLimit": 10,
     "autoApprovalEnabled": true,
-    "autoApprovalMinConfidence": 85
+    "autoApprovalMinConfidence": 85,
+    "dailyPublishTargetPerCategory": 3
   },
   "categories": ["金融", "科技", "工业", "能源", "农业", "人文"],
   "categorySettings": [
@@ -37,21 +38,21 @@
       "color": "#f4776b",
       "icon": "landmark",
       "enabled": true,
-      "keywords": ["金融", "银行", "证券", "支付", "保险", "基金", "数字货币", "利率", "通胀", "货币政策", "fintech", "finance", "bank", "payment", "monetary", "inflation", "interest rate", "economy", "euro"]
+      "keywords": ["金融", "银行", "证券", "支付", "保险", "基金", "数字货币", "利率", "通胀", "货币政策", "fintech", "finance", "bank", "central bank", "ECB", "payment", "monetary", "inflation", "interest rate", "economy", "euro", "wage", "collateral", "governing council"]
     },
     {
       "name": "科技",
       "color": "#6ee7a8",
       "icon": "cpu",
       "enabled": true,
-      "keywords": ["人工智能", "大模型", "算力", "芯片", "半导体", "量子", "软件", "生物技术", "AI", "LLM", "technology", "robot", "chip", "semiconductor", "quantum", "biotech"]
+      "keywords": ["人工智能", "大模型", "算力", "芯片", "半导体", "量子", "软件", "生物技术", "AI", "LLM", "LLMs", "technology", "engineering", "science", "research", "network", "fiber", "dark matter", "robot", "chip", "semiconductor", "quantum", "biotech"]
     },
     {
       "name": "工业",
       "color": "#63cfe3",
       "icon": "factory",
       "enabled": true,
-      "keywords": ["制造", "工厂", "机器人", "产线", "工业互联网", "自动化", "供应链", "生产", "manufacturing", "factory", "automation", "production", "supply chain", "logistics", "plant"]
+      "keywords": ["制造", "工厂", "机器人", "产线", "工业互联网", "自动化", "供应链", "生产", "制造企业", "manufacturing", "factory", "automation", "production", "output", "supply chain", "logistics", "plant", "opening", "expansion", "industrial company", "tariff", "revenue"]
     },
     {
       "name": "能源",
@@ -72,7 +73,7 @@
       "color": "#b79ad8",
       "icon": "book-open",
       "enabled": true,
-      "keywords": ["人文", "文化", "教育", "社会", "历史", "博物馆", "艺术", "文学", "humanities", "culture", "education", "history", "museum", "society", "art", "literature", "philosophy"]
+      "keywords": ["人文", "文化", "教育", "社会", "历史", "博物馆", "艺术", "文学", "humanities", "culture", "education", "history", "museum", "society", "art", "literature", "philosophy", "film", "music", "book", "manuscript", "ancient", "poetry", "map", "mythology"]
     }
   ],
   "metrics": [

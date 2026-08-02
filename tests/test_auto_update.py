@@ -62,6 +62,20 @@ class CategoryTests(unittest.TestCase):
 
 
 class RichDraftTests(unittest.TestCase):
+    def test_source_page_parser_extracts_leading_text_and_image(self):
+        parser = auto_update.PageMetadataParser()
+        parser.feed("""
+          <html><head><meta property="og:image" content="https://cdn.example.com/page.jpg"></head>
+          <body><nav><p>Navigation text must be ignored.</p></nav><main>
+            <p>Published today</p>
+            <ul><li>This official update explains the first important development in enough detail.</li></ul>
+            <p>The opening paragraph provides useful context for a concise educational summary.</p>
+          </main></body></html>
+        """)
+        self.assertEqual(parser.image, "https://cdn.example.com/page.jpg")
+        self.assertEqual(len(parser.blocks), 2)
+        self.assertIn("official update", parser.blocks[0])
+
     def test_media_content_image_is_parsed(self):
         raw = b"""<?xml version='1.0'?>
         <rss xmlns:media='http://search.yahoo.com/mrss/'><channel><item>

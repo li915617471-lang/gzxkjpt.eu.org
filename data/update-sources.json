@@ -12,7 +12,7 @@
       "language": "en",
       "enabled": true,
       "confidence": 88,
-      "maxItems": 5
+      "maxItems": 10
     },
     {
       "id": "ieee-spectrum",
@@ -25,7 +25,7 @@
       "language": "en",
       "enabled": true,
       "confidence": 90,
-      "maxItems": 5
+      "maxItems": 10
     },
     {
       "id": "manufacturing-dive",
@@ -38,7 +38,7 @@
       "language": "en",
       "enabled": true,
       "confidence": 82,
-      "maxItems": 5
+      "maxItems": 10
     },
     {
       "id": "semiconductor-engineering",
@@ -51,7 +51,7 @@
       "language": "en",
       "enabled": true,
       "confidence": 86,
-      "maxItems": 5
+      "maxItems": 10
     },
     {
       "id": "global-ag-tech-initiative",
@@ -64,7 +64,7 @@
       "language": "en",
       "enabled": true,
       "confidence": 80,
-      "maxItems": 5
+      "maxItems": 10
     },
     {
       "id": "open-culture",
@@ -77,7 +77,7 @@
       "language": "en",
       "enabled": true,
       "confidence": 78,
-      "maxItems": 5
+      "maxItems": 10
     },
     {
       "id": "european-central-bank",
@@ -90,7 +90,7 @@
       "language": "en",
       "enabled": true,
       "confidence": 94,
-      "maxItems": 5
+      "maxItems": 10
     },
     {
       "id": "us-energy-information-administration",
@@ -103,7 +103,7 @@
       "language": "en",
       "enabled": true,
       "confidence": 93,
-      "maxItems": 5
+      "maxItems": 10
     }
   ]
 }

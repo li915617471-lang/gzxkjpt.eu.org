@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T07:29:00.985964+00:00",
+  "generatedAt": "2026-08-02T11:49:37.752805+00:00",
   "stories": [
     {
       "id": 12,
@@ -31,22 +31,22 @@
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
       "body": "自动采集摘要\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n来源与审核说明\n\n本资料由“European Central Bank”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "categoryEvidenceScore": 0
+      "categoryEvidenceScore": 6
     },
     {
       "id": 1,
       "category": "科技",
-      "categoryEvidenceScore": 2,
-      "title": "The Download: Montana’s new experimental drug rules",
-      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Montana’s plan to become an experimental medical hub just pushed forward  As of this week in Montana, biotech companies whose drugs have been…",
-      "body": "自动采集摘要\n\nThis is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Montana’s plan to become an experimental medical hub just pushed forward  As of this week in Montana, biotech companies whose drugs have been…\n\n来源与审核说明\n\n本资料由“MIT Technology Review”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/02/MA25-ota-01.jpg?w=840",
+      "categoryEvidenceScore": 1,
+      "title": "Montana’s plan to become an experimental medical hub just pushed forward",
+      "excerpt": "As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board…",
+      "body": "自动采集摘要\n\nAs of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board…\n\n来源与审核说明\n\n本资料由“MIT Technology Review”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
+      "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "MIT Technology Review",
-      "originalTitle": "The Download: Montana’s new experimental drug rules",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "Montana’s plan to become an experimental medical hub just pushed forward",
       "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/",
       "author": "",
       "language": "en",
       "confidence": 88,
@@ -62,8 +62,8 @@
       "sourceType": "professional",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 31 Jul 2026 12:16:00 +0000",
-      "collectedAt": "2026-08-02T07:28:58.606030+00:00",
+      "originalPublishedAt": "Thu, 30 Jul 2026 17:10:00 +0000",
+      "collectedAt": "2026-08-02T11:45:28.476582+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -96,7 +96,7 @@
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
       "body": "自动采集摘要\n\nThe plane maker expects to generate a cash flow between $1 billion and $3 billion and aims to deliver up to 600 commercial planes\n\n来源与审核说明\n\n本资料由“Manufacturing Dive”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "categoryEvidenceScore": 0
+      "categoryEvidenceScore": 3
     },
     {
       "id": 15,
@@ -229,17 +229,17 @@
     {
       "id": 2,
       "category": "科技",
-      "categoryEvidenceScore": 0,
-      "title": "Montana’s new “right to try” law can’t come soon enough for some",
-      "excerpt": "Kris DeVault is desperate. His son, Brody, was born in March 2023. It wasn’t long before he started to show signs of developmental delay, says DeVault. As time went on, Brody started missing key milestones in speech, movement, and coordination, he says. When Brody was around two…",
-      "body": "自动采集摘要\n\nKris DeVault is desperate. His son, Brody, was born in March 2023. It wasn’t long before he started to show signs of developmental delay, says DeVault. As time went on, Brody started missing key milestones in speech, movement, and coordination, he says. When Brody was around two…\n\n来源与审核说明\n\n本资料由“MIT Technology Review”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/07/family-inset.jpg?w=840",
+      "categoryEvidenceScore": 5,
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "excerpt": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge…",
+      "body": "自动采集摘要\n\nIt is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge…\n\n来源与审核说明\n\n本资料由“MIT Technology Review”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
+      "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "MIT Technology Review",
-      "originalTitle": "Montana’s new “right to try” law can’t come soon enough for some",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
       "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/07/31/1140945/montanas-new-right-to-try-law-cant-come-soon-enough-for-some/",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
       "author": "",
       "language": "en",
       "confidence": 88,
@@ -255,8 +255,8 @@
       "sourceType": "professional",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 31 Jul 2026 09:00:00 +0000",
-      "collectedAt": "2026-08-02T07:28:58.607288+00:00",
+      "originalPublishedAt": "Thu, 30 Jul 2026 10:15:19 +0000",
+      "collectedAt": "2026-08-02T11:45:28.480696+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -289,7 +289,7 @@
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
       "body": "自动采集摘要\n\nThe expansion will create 400 jobs dedicated to GLP-1 injectables production across Resilience’s contract manufacturing facilities\n\n来源与审核说明\n\n本资料由“Manufacturing Dive”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "categoryEvidenceScore": 2
+      "categoryEvidenceScore": 6
     },
     {
       "id": 14,
@@ -385,7 +385,7 @@
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
       "body": "自动采集摘要\n\nIn Jerusalem of the year 1229, there lived a Greek Orthodox monk named Johannes Myronas. Needing some parchment for a prayer book,\n\n来源与审核说明\n\n本资料由“Open Culture”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "categoryEvidenceScore": 0
+      "categoryEvidenceScore": 4
     },
     {
       "id": 7,
@@ -417,25 +417,25 @@
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
       "body": "自动采集摘要\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n来源与审核说明\n\n本资料由“European Central Bank”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "categoryEvidenceScore": 0
+      "categoryEvidenceScore": 6
     },
     {
       "id": 3,
       "category": "科技",
       "categoryEvidenceScore": 1,
-      "title": "The Download: tricking LLMs, and reviving geothermal plants",
-      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A fundamental flaw leaves LLMs strikingly vulnerable to attack  It is impossible to make large language models fully secure against hacks…",
-      "body": "自动采集摘要\n\nThis is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A fundamental flaw leaves LLMs strikingly vulnerable to attack  It is impossible to make large language models fully secure against hacks…\n\n来源与审核说明\n\n本资料由“MIT Technology Review”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/12/Helsing_CA-1_Europa_design_study_2.jpg?w=840",
+      "title": "Fridays With Bob",
+      "excerpt": "When I started at   Spectrum   25 years ago, a senior editor suggested that I find a “rabbi,” by which he meant someone who could mentor me in how EEs approach problems and evaluate potential solutions.   I didn’t find one right away. Then in 2005 we decided to do a special…",
+      "body": "自动采集摘要\n\nWhen I started at   Spectrum   25 years ago, a senior editor suggested that I find a “rabbi,” by which he meant someone who could mentor me in how EEs approach problems and evaluate potential solutions.   I didn’t find one right away. Then in 2005 we decided to do a special…\n\n来源与审核说明\n\n本资料由“IEEE Spectrum”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
+      "image": "https://spectrum.ieee.org/media-library/a-greenish-yellow-waxwing-bird-sitting-on-a-twig-eating-a-berry.jpg?id=67541842&width=980",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "MIT Technology Review",
-      "originalTitle": "The Download: tricking LLMs, and reviving geothermal plants",
-      "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
+      "imageAttribution": "IEEE Spectrum",
+      "originalTitle": "Fridays With Bob",
+      "source": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/risk",
       "author": "",
       "language": "en",
-      "confidence": 88,
+      "confidence": 90,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
@@ -444,12 +444,12 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "mit-technology-review",
-      "sourceType": "professional",
+      "collectionSourceId": "ieee-spectrum",
+      "sourceType": "research",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Thu, 30 Jul 2026 12:10:00 +0000",
-      "collectedAt": "2026-08-02T07:28:58.608554+00:00",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "Sat, 01 Aug 2026 12:00:01 +0000",
+      "collectedAt": "2026-08-02T11:47:14.434680+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -578,7 +578,7 @@
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
       "body": "自动采集摘要\n\nImage via Wikimedia Commons It’s been a humanist truism for some time to say that Shakespeare speaks to every age, transcending hi\n\n来源与审核说明\n\n本资料由“Open Culture”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "categoryEvidenceScore": 0
+      "categoryEvidenceScore": 3
     },
     {
       "id": 8,
@@ -615,17 +615,17 @@
     {
       "id": 4,
       "category": "科技",
-      "categoryEvidenceScore": 0,
-      "title": "Detect Dark Matter’s Mark From Your Backyard",
-      "excerpt": "If you’re wondering what dark matter is, you’re not alone. Astronomers don’t know. But they’ve determined that this invisible material must be far more abundant than the stars and nebulas that they can see. They’ve surmised as much from observing the gravitational effects of all…",
-      "body": "自动采集摘要\n\nIf you’re wondering what dark matter is, you’re not alone. Astronomers don’t know. But they’ve determined that this invisible material must be far more abundant than the stars and nebulas that they can see. They’ve surmised as much from observing the gravitational effects of all…\n\n来源与审核说明\n\n本资料由“IEEE Spectrum”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "image": "https://spectrum.ieee.org/media-library/an-inverted-pyramidal-antenna-sits-atop-a-metal-box-with-a-feed-running-to-a-nearby-laptop.png?id=67528383&width=980",
+      "categoryEvidenceScore": 6,
+      "title": "IEEE Publishing Ethics Team Upholds Research Integrity",
+      "excerpt": "Given a rising number of  publishing misconduct allegations ,  IEEE  in 2022 created the Publishing Ethics Team as a centralized department to assist in handling claims. The group also works to increase the organization’s visibility in the broader publishing ethics area and helps…",
+      "body": "自动采集摘要\n\nGiven a rising number of  publishing misconduct allegations ,  IEEE  in 2022 created the Publishing Ethics Team as a centralized department to assist in handling claims. The group also works to increase the organization’s visibility in the broader publishing ethics area and helps…\n\n来源与审核说明\n\n本资料由“IEEE Spectrum”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
+      "image": "https://spectrum.ieee.org/media-library/conceptual-illustration-of-a-stack-of-papers-impaled-onto-a-pencil-that-someone-is-using-to-mark-off-a-checkbox.jpg?id=67547233&width=980",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "IEEE Spectrum",
-      "originalTitle": "Detect Dark Matter’s Mark From Your Backyard",
+      "originalTitle": "IEEE Publishing Ethics Team Upholds Research Integrity",
       "source": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/dark-matter",
+      "sourceUrl": "https://spectrum.ieee.org/ieee-publishing-ethics-research-integrity",
       "author": "",
       "language": "en",
       "confidence": 90,
@@ -641,8 +641,8 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Thu, 30 Jul 2026 14:00:03 +0000",
-      "collectedAt": "2026-08-02T07:28:58.826370+00:00",
+      "originalPublishedAt": "Thu, 30 Jul 2026 18:00:03 +0000",
+      "collectedAt": "2026-08-02T11:47:14.468258+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -675,7 +675,7 @@
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
       "body": "自动采集摘要\n\nThe company’s earnings more than tripled to $351.3 million compared to last year, driven by increased power tool demand and a pret\n\n来源与审核说明\n\n本资料由“Manufacturing Dive”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "categoryEvidenceScore": 0
+      "categoryEvidenceScore": 3
     },
     {
       "id": 12,
@@ -771,7 +771,7 @@
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
       "body": "自动采集摘要\n\nOne of my favorite Brian Eno quotes, or rather one that became an Oblique Strategy, is “Honor Your Mistake as a Hidden Intention.”\n\n来源与审核说明\n\n本资料由“Open Culture”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "categoryEvidenceScore": 0
+      "categoryEvidenceScore": 3
     },
     {
       "id": 9,
@@ -803,22 +803,22 @@
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
       "body": "自动采集摘要\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n来源与审核说明\n\n本资料由“European Central Bank”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "categoryEvidenceScore": 0
+      "categoryEvidenceScore": 6
     },
     {
       "id": 5,
       "category": "科技",
-      "categoryEvidenceScore": 1,
-      "title": "A Remote Indigenous Community Built One of Canada’s Fastest Fiber Networks",
-      "excerpt": "In February 2024, a young  man lay somewhere on the frozen shore of James Bay, Canada, surrounded by snow and darkness, succumbing to hypothermia. When he failed to get home on time, his frantic mother sent a Facebook message to Elizabeth Kataquapit, then chief of the indigenous…",
-      "body": "自动采集摘要\n\nIn February 2024, a young  man lay somewhere on the frozen shore of James Bay, Canada, surrounded by snow and darkness, succumbing to hypothermia. When he failed to get home on time, his frantic mother sent a Facebook message to Elizabeth Kataquapit, then chief of the indigenous…\n\n来源与审核说明\n\n本资料由“IEEE Spectrum”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "image": "https://spectrum.ieee.org/media-library/an-aerial-photo-shows-utility-lines-stretching-across-a-river.jpg?id=67106655&width=980",
+      "categoryEvidenceScore": 3,
+      "title": "Negotiating Your Salary Is About More Than Money",
+      "excerpt": "This article is crossposted from  IEEE Spectrum ’s careers newsletter.   Sign up now    to get insider tips, expert advice, and practical strategies,   written i n partnership with tech career development company  Parsity  and    delivered to your inbox for free!         Scroll…",
+      "body": "自动采集摘要\n\nThis article is crossposted from  IEEE Spectrum ’s careers newsletter.   Sign up now    to get insider tips, expert advice, and practical strategies,   written i n partnership with tech career development company  Parsity  and    delivered to your inbox for free!         Scroll…\n\n来源与审核说明\n\n本资料由“IEEE Spectrum”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
+      "image": "https://spectrum.ieee.org/media-library/an-illustration-of-stylized-people-wearing-business-casual-clothing.jpg?id=59104110&width=980",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "IEEE Spectrum",
-      "originalTitle": "A Remote Indigenous Community Built One of Canada’s Fastest Fiber Networks",
+      "originalTitle": "Negotiating Your Salary Is About More Than Money",
       "source": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/indigenous-fiber-network",
+      "sourceUrl": "https://spectrum.ieee.org/how-to-negotiate-your-salary",
       "author": "",
       "language": "en",
       "confidence": 90,
@@ -834,8 +834,8 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Thu, 30 Jul 2026 13:00:01 +0000",
-      "collectedAt": "2026-08-02T07:28:58.847558+00:00",
+      "originalPublishedAt": "Wed, 29 Jul 2026 14:55:45 +0000",
+      "collectedAt": "2026-08-02T11:47:14.482838+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -948,50 +948,62 @@
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
       "body": "自动采集摘要\n\nIf you plan on shooting your own adaptation of Homer’s Odyssey, bear in mind how much rests on your choice of leading man. In orde\n\n来源与审核说明\n\n本资料由“Open Culture”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
-      "categoryEvidenceScore": 0
+      "categoryEvidenceScore": 3,
+      "sourceTrustLevel": "standard",
+      "sourceType": "professional"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "European Central Bank",
+      "error": "连续 3 次请求失败（4388ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+    }
+  ],
   "collection": {
-    "id": "2026-08-02T07:29:00.985964+00:00",
-    "startedAt": "2026-08-02T07:28:58.501555+00:00",
-    "finishedAt": "2026-08-02T07:29:00.985964+00:00",
-    "status": "success",
+    "id": "2026-08-02T11:49:37.752805+00:00",
+    "startedAt": "2026-08-02T11:45:26.889202+00:00",
+    "finishedAt": "2026-08-02T11:49:37.752805+00:00",
+    "status": "partial",
     "sourcesTotal": 8,
-    "sourcesSucceeded": 8,
-    "sourcesFailed": 0,
-    "fetched": 40,
+    "sourcesSucceeded": 7,
+    "sourcesFailed": 1,
+    "fetched": 35,
     "added": 10,
-    "duplicates": 30,
+    "duplicates": 25,
     "invalid": 0,
-    "errors": [],
+    "errors": [
+      {
+        "source": "European Central Bank",
+        "error": "连续 3 次请求失败（4388ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      }
+    ],
     "sourceResults": [
       {
         "sourceId": "mit-technology-review",
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 75,
+        "durationMs": 1503,
         "fetched": 5,
-        "added": 3,
-        "duplicates": 2
+        "added": 2,
+        "duplicates": 3
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 205,
+        "durationMs": 105931,
         "fetched": 5,
-        "added": 2,
-        "duplicates": 3
+        "added": 3,
+        "duplicates": 2
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 110,
+        "durationMs": 639,
         "fetched": 5,
         "added": 1,
         "duplicates": 4
@@ -1000,8 +1012,8 @@
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
-        "attempts": 1,
-        "durationMs": 900,
+        "attempts": 3,
+        "durationMs": 103901,
         "fetched": 5,
         "added": 4,
         "duplicates": 1
@@ -1011,7 +1023,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 63,
+        "durationMs": 790,
         "fetched": 5,
         "added": 0,
         "duplicates": 5
@@ -1021,7 +1033,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 460,
+        "durationMs": 1921,
         "fetched": 5,
         "added": 0,
         "duplicates": 5
@@ -1029,19 +1041,20 @@
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 533,
-        "fetched": 5,
+        "status": "failed",
+        "attempts": 3,
+        "durationMs": 0,
+        "fetched": 0,
         "added": 0,
-        "duplicates": 5
+        "duplicates": 0,
+        "error": "连续 3 次请求失败（4388ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
       },
       {
         "sourceId": "us-energy-information-administration",
         "source": "U.S. Energy Information Administration",
         "status": "success",
-        "attempts": 1,
-        "durationMs": 59,
+        "attempts": 2,
+        "durationMs": 31594,
         "fetched": 5,
         "added": 0,
         "duplicates": 5

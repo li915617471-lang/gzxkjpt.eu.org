@@ -10,6 +10,7 @@ written to disk or logs.
 from __future__ import annotations
 
 import argparse
+import email.utils
 import hashlib
 import json
 import os
@@ -29,6 +30,7 @@ AUTOMATIC_ID_BASE = 4_000_000_000_000_000
 MAX_SAFE_INTEGER = 9_007_199_254_740_991
 DEFAULT_MIN_CONFIDENCE = 85
 TRUSTED_LEVELS = {"authoritative", "professional"}
+QUOTA_TRUSTED_LEVELS = {"authoritative", "professional", "standard"}
 
 
 def normalize_url(value: str) -> str:
@@ -107,9 +109,23 @@ def auto_approval_policy(operations: dict[str, Any] | None = None) -> dict[str, 
         threshold = int(operations.get("autoApprovalMinConfidence", default_threshold))
     except (TypeError, ValueError):
         threshold = default_threshold
+    try:
+        default_target = int(os.environ.get("AUTO_APPROVAL_DAILY_TARGET", 3))
+    except ValueError:
+        default_target = 3
+    try:
+        target = int(operations.get("dailyPublishTargetPerCategory", default_target))
+    except (TypeError, ValueError):
+        target = default_target
+    try:
+        fallback_confidence = int(os.environ.get("AUTO_APPROVAL_FALLBACK_CONFIDENCE", 78))
+    except ValueError:
+        fallback_confidence = 78
     return {
         "enabled": enabled,
         "minConfidence": max(70, min(100, threshold)),
+        "fallbackMinConfidence": max(75, min(100, fallback_confidence)),
+        "dailyTargetPerCategory": max(1, min(10, target)),
         "policyVersion": 1,
     }
 
@@ -120,11 +136,19 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
     body = story.get("body") or ""
     if isinstance(body, list):
         body = "\n\n".join(str(item) for item in body)
-    confidence = max(0, min(100, int(story.get("confidence") or 0)))
+    try:
+        confidence = max(0, min(100, int(story.get("confidence") or 0)))
+    except (TypeError, ValueError):
+        confidence = 0
+    try:
+        evidence_score = int(story.get("categoryEvidenceScore") or 0)
+    except (TypeError, ValueError):
+        evidence_score = 0
     trust_level = str(story.get("sourceTrustLevel") or "").strip()
+    trusted_levels = set(policy.get("trustedLevels") or TRUSTED_LEVELS)
     checks = {
         "featureEnabled": policy.get("enabled") is True,
-        "trustedSource": trust_level in TRUSTED_LEVELS,
+        "trustedSource": trust_level in trusted_levels,
         "confidenceThreshold": confidence >= int(policy.get("minConfidence", DEFAULT_MIN_CONFIDENCE)),
         "validSourceUrl": is_valid_source_url(story.get("sourceUrl") or story.get("url")),
         "namedSource": len(str(story.get("source") or "").strip()) >= 2,
@@ -133,7 +157,7 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
         "completeBody": len(str(body).strip()) >= 160,
         "validImage": is_valid_image(story.get("image")),
         "classified": bool(str(story.get("category") or "").strip()),
-        "categoryEvidence": int(story.get("categoryEvidenceScore") or 0) >= 2,
+        "categoryEvidence": evidence_score >= 2,
     }
     return {
         "approved": all(checks.values()),
@@ -141,6 +165,79 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
         "minConfidence": int(policy.get("minConfidence", DEFAULT_MIN_CONFIDENCE)),
         "policyVersion": int(policy.get("policyVersion", 1)),
     }
+
+
+def published_timestamp(story: dict[str, Any]) -> float:
+    candidate = str(story.get("originalPublishedAt") or story.get("date") or "").strip()
+    if not candidate:
+        return 0
+    try:
+        parsed = email.utils.parsedate_to_datetime(candidate)
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed.timestamp()
+    except (TypeError, ValueError, OverflowError):
+        try:
+            return datetime.fromisoformat(candidate.replace("Z", "+00:00")).timestamp()
+        except (TypeError, ValueError, OverflowError):
+            return 0
+
+
+def story_priority(story: dict[str, Any]) -> tuple[float, int, int, int]:
+    try:
+        evidence = int(story.get("categoryEvidenceScore") or 0)
+    except (TypeError, ValueError):
+        evidence = 0
+    try:
+        confidence = int(story.get("confidence") or 0)
+    except (TypeError, ValueError):
+        confidence = 0
+    source_image = int(story.get("imageSourceType") == "rss")
+    return (published_timestamp(story), evidence, confidence, source_image)
+
+
+def select_auto_approval_audits(
+    stories: list[dict[str, Any]], policy: dict[str, Any]
+) -> dict[int, dict[str, Any]]:
+    """Select strict approvals first, then fill each category's daily target."""
+    audits = {id(story): evaluate_auto_approval(story, policy) for story in stories}
+    strict_eligible = {story_id: audit["approved"] for story_id, audit in audits.items()}
+    for story_id, audit in audits.items():
+        audit["eligible"] = strict_eligible[story_id]
+        audit["approved"] = False
+        audit["mode"] = "pending"
+        audit["dailyTargetPerCategory"] = int(policy.get("dailyTargetPerCategory", 3))
+    if policy.get("enabled") is not True:
+        return audits
+
+    target = int(policy.get("dailyTargetPerCategory", 3))
+    relaxed_policy = dict(policy)
+    relaxed_policy["minConfidence"] = int(policy.get("fallbackMinConfidence", 78))
+    relaxed_policy["trustedLevels"] = sorted(QUOTA_TRUSTED_LEVELS)
+    categories = {str(story.get("category") or "") for story in stories}
+    for category in categories:
+        category_stories = [story for story in stories if str(story.get("category") or "") == category]
+        strict_candidates = [story for story in category_stories if strict_eligible[id(story)]]
+        strict_candidates.sort(key=story_priority, reverse=True)
+        for story in strict_candidates[:target]:
+            audits[id(story)]["approved"] = True
+            audits[id(story)]["mode"] = "strict"
+        approved_count = min(len(strict_candidates), target)
+        if approved_count >= target:
+            continue
+        candidates = []
+        for story in category_stories:
+            if audits[id(story)]["approved"]:
+                continue
+            relaxed = evaluate_auto_approval(story, relaxed_policy)
+            if relaxed["approved"]:
+                candidates.append((story, relaxed))
+        candidates.sort(key=lambda item: story_priority(item[0]), reverse=True)
+        for story, relaxed in candidates[: target - approved_count]:
+            relaxed["mode"] = "daily-target-fill"
+            relaxed["dailyTargetPerCategory"] = target
+            audits[id(story)] = relaxed
+    return audits
 
 
 def story_fingerprint(story: dict[str, Any]) -> str:
@@ -164,6 +261,7 @@ def parse_date(value: Any) -> str | None:
 def article_row(
     story: dict[str, Any], site_id: str, position: int, imported_at: str,
     approval_policy: dict[str, Any] | None = None,
+    approval_audit: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     source_url = str(story.get("sourceUrl") or story.get("url") or "").strip()
     if not is_valid_source_url(source_url):
@@ -172,7 +270,9 @@ def article_row(
     if not normalize_title(story.get("title", "")):
         raise ValueError("Draft title is empty")
 
-    audit = evaluate_auto_approval(story, approval_policy or {"enabled": False})
+    audit = approval_audit or evaluate_auto_approval(
+        story, approval_policy or {"enabled": False}
+    )
     status = "published" if audit["approved"] else (
         story.get("status") if story.get("status") in {"draft", "review"} else "draft"
     )
@@ -264,6 +364,7 @@ def prepare_rows(
     existing_ids = {int(item["id"]) for item in existing if item.get("id") is not None}
     next_position = max((int(item.get("position") or 0) for item in existing), default=-1) + 1
     rows: list[dict[str, Any]] = []
+    candidates: list[dict[str, Any]] = []
     duplicates = 0
     invalid = 0
 
@@ -273,22 +374,33 @@ def prepare_rows(
         if (url_key and url_key in existing_urls) or (title_key and title_key in existing_titles):
             duplicates += 1
             continue
-        try:
-            row = article_row(
-                story, site_id, next_position + len(rows), imported_at, approval_policy
-            )
-        except (TypeError, ValueError):
+        if not url_key or not title_key or not is_valid_source_url(story.get("sourceUrl") or story.get("url")):
             invalid += 1
             continue
-        if row["id"] in existing_ids:
+        candidate_id = automatic_article_id(story_fingerprint(story))
+        if candidate_id in existing_ids:
             duplicates += 1
             continue
-        rows.append(row)
-        existing_ids.add(row["id"])
+        candidates.append(story)
+        existing_ids.add(candidate_id)
         if url_key:
             existing_urls.add(url_key)
         if title_key:
             existing_titles.add(title_key)
+
+    audits = select_auto_approval_audits(candidates, approval_policy or {"enabled": False})
+    for story in candidates:
+        try:
+            rows.append(article_row(
+                story,
+                site_id,
+                next_position + len(rows),
+                imported_at,
+                approval_policy,
+                audits[id(story)],
+            ))
+        except (TypeError, ValueError):
+            invalid += 1
 
     return rows, duplicates, invalid
 
@@ -401,6 +513,22 @@ def main() -> int:
         f"auto_published={sum(1 for row in inserted if row.get('status') == 'published')}, "
         f"source={len(stories)}"
     )
+    target = int(policy.get("dailyTargetPerCategory", 3))
+    categories = sorted({str(story.get("category") or "") for story in stories if story.get("category")})
+    published_counts = {
+        category: sum(
+            1 for row in inserted
+            if row.get("status") == "published" and row.get("category") == category
+        )
+        for category in categories
+    }
+    gaps = {category: max(0, target - count) for category, count in published_counts.items()}
+    print("Auto-publish by category: " + json.dumps(published_counts, ensure_ascii=False, sort_keys=True))
+    if any(gaps.values()):
+        print(
+            "Daily target gaps (no duplicate or low-quality filler was published): "
+            + json.dumps(gaps, ensure_ascii=False, sort_keys=True)
+        )
     return 0
 
 
