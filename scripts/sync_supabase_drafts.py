@@ -27,6 +27,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DRAFT_FILE = ROOT / "data" / "intelligence-draft.json"
 AUTOMATIC_ID_BASE = 4_000_000_000_000_000
+AUTOMATIC_PROMOTION_ID_BASE = 5_000_000_000_000_000
 MAX_SAFE_INTEGER = 9_007_199_254_740_991
 DEFAULT_MIN_CONFIDENCE = 85
 TRUSTED_LEVELS = {"authoritative", "professional"}
@@ -253,6 +254,14 @@ def automatic_article_id(fingerprint: str) -> int:
     return value
 
 
+def automatic_promotion_id(fingerprint: str, day: str) -> int:
+    digest = hashlib.sha256(f"{fingerprint}:{day}:promotion".encode("utf-8")).hexdigest()
+    value = AUTOMATIC_PROMOTION_ID_BASE + int(digest[:12], 16)
+    if value > MAX_SAFE_INTEGER:
+        raise ValueError("Automatic promotion ID exceeds the JavaScript safe integer range")
+    return value
+
+
 def parse_date(value: Any) -> str | None:
     candidate = str(value or "").strip()
     return candidate if re.fullmatch(r"\d{4}-\d{2}-\d{2}", candidate) else None
@@ -427,7 +436,8 @@ def prepare_promotions(
     inserted: list[dict[str, Any]],
     policy: dict[str, Any],
     imported_at: str,
-) -> tuple[list[tuple[int, dict[str, Any]]], dict[str, int]]:
+    site_id: str = "main",
+) -> tuple[list[dict[str, Any]], dict[str, int]]:
     """Fill today's category gaps from recent, already-imported automatic drafts."""
     day = imported_at[:10]
     counts = daily_automatic_counts(existing, inserted, day)
@@ -440,6 +450,14 @@ def prepare_promotions(
     relaxed_policy = dict(policy)
     relaxed_policy["minConfidence"] = int(policy.get("fallbackMinConfidence", 78))
     relaxed_policy["trustedLevels"] = sorted(QUOTA_TRUSTED_LEVELS)
+    published_urls = {
+        normalize_url(row.get("source_url") or "")
+        for row in existing + inserted
+        if row.get("status") == "published" and row.get("source_url")
+    }
+    next_position = max(
+        (int(row.get("position") or 0) for row in existing + inserted), default=-1
+    ) + 1
     grouped: dict[str, list[tuple[dict[str, Any], dict[str, Any], dict[str, Any]]]] = {}
     for row in existing:
         extra = row.get("extra") if isinstance(row.get("extra"), dict) else {}
@@ -450,7 +468,7 @@ def prepare_promotions(
         ):
             continue
         story = story_by_url.get(normalize_url(row.get("source_url") or ""))
-        if not story:
+        if not story or normalize_url(row.get("source_url") or "") in published_urls:
             continue
         audit = evaluate_auto_approval(story, relaxed_policy)
         if not audit["approved"]:
@@ -458,7 +476,7 @@ def prepare_promotions(
         category = str(story.get("category") or "")
         grouped.setdefault(category, []).append((story, row, audit))
 
-    promotions: list[tuple[int, dict[str, Any]]] = []
+    promotions: list[dict[str, Any]] = []
     for category, candidates in grouped.items():
         needed = max(0, target - counts.get(category, 0))
         if not needed:
@@ -476,6 +494,9 @@ def prepare_promotions(
                 body = "\n\n".join(str(item) for item in body)
             merged_extra = dict(row.get("extra") or {})
             merged_extra.update({
+                "automaticImport": True,
+                "automaticFingerprint": story_fingerprint(story),
+                "automaticPromotionOf": int(row["id"]),
                 "automaticApproval": audit,
                 "reviewChecks": {
                     "sourceVerified": True,
@@ -484,15 +505,19 @@ def prepare_promotions(
                     "rightsVerified": bool(story.get("sourceUrl")) and "来源与审核说明" in str(body),
                 },
             })
-            promotions.append((int(row["id"]), {
+            promotions.append({
+                "site_id": site_id,
+                "id": automatic_promotion_id(story_fingerprint(story), day),
                 "category": category,
                 "title": str(story.get("title") or "")[:300],
                 "excerpt": str(story.get("excerpt") or "")[:2000],
                 "image": str(story.get("image") or "")[:1000],
                 "source": str(story.get("source") or "公开来源")[:300],
+                "source_url": str(story.get("sourceUrl") or story.get("url") or "")[:2000],
                 "author": str(story.get("author") or "")[:300],
                 "language": str(story.get("language") or "zh-CN")[:30],
                 "status": "published",
+                "scheduled_at": None,
                 "confidence": max(0, min(100, int(story.get("confidence") or 0))),
                 "body": str(body),
                 "time_label": "自动审核通过",
@@ -501,8 +526,9 @@ def prepare_promotions(
                 "published_date": parse_date(story.get("date")) or day,
                 "tags": story.get("tags") if isinstance(story.get("tags"), list) else [],
                 "extra": merged_extra,
+                "position": next_position + len(promotions),
                 "updated_at": imported_at,
-            }))
+            })
             counts[category] = counts.get(category, 0) + 1
     return promotions, counts
 
@@ -561,16 +587,6 @@ class SupabaseRest:
         result = self.request("POST", "articles?on_conflict=site_id,id", rows)
         return result if isinstance(result, list) else []
 
-    def update_article(self, site_id: str, article_id: int, payload: dict[str, Any]) -> list[dict[str, Any]]:
-        encoded_site = urllib.parse.quote(site_id, safe="")
-        result = self.request(
-            "PATCH",
-            f"articles?site_id=eq.{encoded_site}&id=eq.{article_id}",
-            payload,
-        )
-        return result if isinstance(result, list) else []
-
-
 def load_stories(path: Path) -> list[dict[str, Any]]:
     payload = json.loads(path.read_text(encoding="utf-8"))
     stories = payload.get("stories", [])
@@ -615,14 +631,9 @@ def main() -> int:
         )
         inserted = rows if args.dry_run else client.insert_articles(rows)
         promotions, daily_counts = prepare_promotions(
-            stories, existing, inserted, policy, imported_at
+            stories, existing, inserted, policy, imported_at, site_id
         )
-        promoted = []
-        if args.dry_run:
-            promoted = [payload for _, payload in promotions]
-        else:
-            for article_id, payload in promotions:
-                promoted.extend(client.update_article(site_id, article_id, payload))
+        promoted = promotions if args.dry_run else client.insert_articles(promotions)
     except (OSError, ValueError, RuntimeError, json.JSONDecodeError) as exc:
         print(f"Draft sync failed: {exc}", file=sys.stderr)
         return 1

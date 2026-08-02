@@ -186,11 +186,13 @@ class SupabaseDraftSyncTests(unittest.TestCase):
             [story], existing, [], policy, "2026-08-02T08:00:00+00:00"
         )
         self.assertEqual(len(promotions), 1)
-        self.assertEqual(promotions[0][1]["status"], "published")
+        self.assertEqual(promotions[0]["status"], "published")
         self.assertEqual(
-            promotions[0][1]["extra"]["automaticApproval"]["mode"],
+            promotions[0]["extra"]["automaticApproval"]["mode"],
             "daily-target-backfill",
         )
+        self.assertEqual(promotions[0]["extra"]["automaticPromotionOf"], existing[0]["id"])
+        self.assertGreaterEqual(promotions[0]["id"], sync.AUTOMATIC_PROMOTION_ID_BASE)
         self.assertEqual(counts["能源"], 1)
 
 
