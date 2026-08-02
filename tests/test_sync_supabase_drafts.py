@@ -216,6 +216,17 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertTrue(promotions[0]["source_url"].endswith("#information-share-2026-08-02"))
         self.assertEqual(counts["能源"], 1)
 
+    def test_daily_counts_ignores_null_automatic_approval_metadata(self):
+        existing = [{
+            "id": sync.AUTOMATIC_ID_BASE + 1,
+            "category": "能源",
+            "status": "published",
+            "extra": {"automaticApproval": None},
+        }]
+        self.assertEqual(
+            sync.daily_automatic_counts(existing, [], "2026-08-02"), {}
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

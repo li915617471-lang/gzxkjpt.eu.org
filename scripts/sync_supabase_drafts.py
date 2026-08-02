@@ -438,6 +438,8 @@ def daily_automatic_counts(
     for row in existing + inserted:
         extra = row.get("extra") if isinstance(row.get("extra"), dict) else {}
         audit = extra.get("automaticApproval") if isinstance(extra, dict) else {}
+        if not isinstance(audit, dict):
+            audit = {}
         reviewed_at = str(audit.get("reviewedAt") or "") if isinstance(audit, dict) else ""
         if row.get("status") != "published" or not audit.get("approved") or not reviewed_at.startswith(day):
             continue

@@ -69,6 +69,12 @@ on public.articles (site_id, status, scheduled_at, position);
 create index if not exists articles_category_idx
 on public.articles (site_id, category, position);
 
+-- service_role is used only by the scheduled server-side draft sync. Explicit
+-- grants keep projects created with a restricted database owner compatible.
+grant select, insert, update, delete on public.articles to service_role;
+grant select, insert, update, delete on public.site_settings to service_role;
+grant usage, select on all sequences in schema public to service_role;
+
 create table if not exists public.content_reports (
   id uuid primary key default gen_random_uuid(),
   site_id text not null references public.site_settings(id) on delete cascade,
