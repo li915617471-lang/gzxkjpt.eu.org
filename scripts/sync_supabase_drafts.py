@@ -376,7 +376,16 @@ def main() -> int:
         stories = load_stories(args.file)
         client = SupabaseRest(supabase_url, service_key)
         existing = client.existing_articles(site_id)
-        policy = auto_approval_policy(client.site_operations(site_id))
+        try:
+            operations = client.site_operations(site_id)
+        except RuntimeError as exc:
+            operations = {}
+            print(
+                "Auto-approval settings could not be read; using protected workflow defaults: "
+                + str(exc),
+                file=sys.stderr,
+            )
+        policy = auto_approval_policy(operations)
         imported_at = datetime.now(timezone.utc).isoformat()
         rows, duplicates, invalid = prepare_rows(
             stories, existing, site_id, imported_at, policy
