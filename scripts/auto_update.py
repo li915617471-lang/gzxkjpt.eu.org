@@ -719,7 +719,7 @@ def build_structured_article(story: dict) -> dict:
         "\n\n来源与审核说明\n\n"
         f"本文由平台根据“{source_name}”公开页面提供的标题、RSS/Atom 摘要和有限正文片段进行结构化原创整理。"
         "由于免费推理服务当前不可用，本文未调用生成模型；平台未复制来源全文，也不以自动整理替代专业判断。"
-        "涉及数据、政策、研究结论和时效的信息，请点击原文链接复核。"
+        "涉及数据、政策、研究结论和时效的信息，请点击原文链接复核。资料中的板块背景用于帮助理解，不应被误读为来源机构的立场、预测或承诺。"
     )
     if not body_meets_publication_standard(body):
         raise ValueError("结构化整理正文未达到 800 字标准")
