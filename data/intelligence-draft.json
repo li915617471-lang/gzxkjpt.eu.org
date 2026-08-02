@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T14:23:30.039108+00:00",
+  "generatedAt": "2026-08-02T04:38:36.641921+00:00",
   "stories": [
     {
       "id": 12,
@@ -31,18 +31,18 @@
     {
       "id": 1,
       "category": "科技",
-      "title": "The Download: Montana’s new experimental drug rules",
-      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of tech",
+      "title": "Montana’s plan to become an experimental medical hub just pushed forward",
+      "excerpt": "As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies w",
       "image": "assets/factory.jpg",
       "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/",
       "author": "",
       "language": "en",
       "confidence": 88,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "tags": [
         "科技"
       ],
@@ -51,8 +51,8 @@
       "sourceType": "professional",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 31 Jul 2026 12:16:00 +0000",
-      "collectedAt": "2026-08-01T14:23:26.437392+00:00",
+      "originalPublishedAt": "Thu, 30 Jul 2026 17:10:00 +0000",
+      "collectedAt": "2026-08-02T04:38:32.864270+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -193,18 +193,18 @@
     {
       "id": 2,
       "category": "科技",
-      "title": "Montana’s new “right to try” law can’t come soon enough for some",
-      "excerpt": "Kris DeVault is desperate. His son, Brody, was born in March 2023. It wasn’t long before he started to show signs of developmental",
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "excerpt": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team o",
       "image": "assets/factory.jpg",
       "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/07/31/1140945/montanas-new-right-to-try-law-cant-come-soon-enough-for-some/",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
       "author": "",
       "language": "en",
       "confidence": 88,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "tags": [
         "科技"
       ],
@@ -213,8 +213,8 @@
       "sourceType": "professional",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 31 Jul 2026 09:00:00 +0000",
-      "collectedAt": "2026-08-01T14:23:26.438148+00:00",
+      "originalPublishedAt": "Thu, 30 Jul 2026 10:15:19 +0000",
+      "collectedAt": "2026-08-02T04:38:32.865073+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -355,28 +355,28 @@
     {
       "id": 3,
       "category": "科技",
-      "title": "The Download: tricking LLMs, and reviving geothermal plants",
-      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of tech",
+      "title": "Fridays With Bob",
+      "excerpt": "When I started at   Spectrum   25 years ago, a senior editor suggested that I find a “rabbi,” by which he meant someone who could ",
       "image": "assets/factory.jpg",
-      "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
+      "source": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/risk",
       "author": "",
       "language": "en",
-      "confidence": 88,
+      "confidence": 90,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "mit-technology-review",
-      "sourceType": "professional",
+      "collectionSourceId": "ieee-spectrum",
+      "sourceType": "research",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Thu, 30 Jul 2026 12:10:00 +0000",
-      "collectedAt": "2026-08-01T14:23:26.438923+00:00",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "Sat, 01 Aug 2026 12:00:01 +0000",
+      "collectedAt": "2026-08-02T04:38:33.254341+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -517,18 +517,18 @@
     {
       "id": 4,
       "category": "科技",
-      "title": "Detect Dark Matter’s Mark From Your Backyard",
-      "excerpt": "If you’re wondering what dark matter is, you’re not alone. Astronomers don’t know. But they’ve determined that this invisible mate",
+      "title": "IEEE Publishing Ethics Team Upholds Research Integrity",
+      "excerpt": "Given a rising number of  publishing misconduct allegations ,  IEEE  in 2022 created the Publishing Ethics Team as a centralized d",
       "image": "assets/factory.jpg",
       "source": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/dark-matter",
+      "sourceUrl": "https://spectrum.ieee.org/ieee-publishing-ethics-research-integrity",
       "author": "",
       "language": "en",
       "confidence": 90,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "tags": [
         "科技"
       ],
@@ -537,8 +537,8 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Thu, 30 Jul 2026 14:00:03 +0000",
-      "collectedAt": "2026-08-01T14:23:26.568819+00:00",
+      "originalPublishedAt": "Thu, 30 Jul 2026 18:00:03 +0000",
+      "collectedAt": "2026-08-02T04:38:33.258343+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -679,18 +679,18 @@
     {
       "id": 5,
       "category": "科技",
-      "title": "A Remote Indigenous Community Built One of Canada’s Fastest Fiber Networks",
-      "excerpt": "In February 2024, a young  man lay somewhere on the frozen shore of James Bay, Canada, surrounded by snow and darkness, succumbing",
+      "title": "Negotiating Your Salary Is About More Than Money",
+      "excerpt": "This article is crossposted from  IEEE Spectrum ’s careers newsletter.   Sign up now    to get insider tips, expert advice, and pr",
       "image": "assets/factory.jpg",
       "source": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/indigenous-fiber-network",
+      "sourceUrl": "https://spectrum.ieee.org/how-to-negotiate-your-salary",
       "author": "",
       "language": "en",
       "confidence": 90,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "tags": [
         "科技"
       ],
@@ -699,8 +699,8 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Thu, 30 Jul 2026 13:00:01 +0000",
-      "collectedAt": "2026-08-01T14:23:26.578079+00:00",
+      "originalPublishedAt": "Wed, 29 Jul 2026 14:55:45 +0000",
+      "collectedAt": "2026-08-02T04:38:33.261650+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -798,9 +798,9 @@
   ],
   "errors": [],
   "collection": {
-    "id": "2026-08-01T14:23:30.039108+00:00",
-    "startedAt": "2026-08-01T14:23:26.276847+00:00",
-    "finishedAt": "2026-08-01T14:23:30.039108+00:00",
+    "id": "2026-08-02T04:38:36.641921+00:00",
+    "startedAt": "2026-08-02T04:38:32.679734+00:00",
+    "finishedAt": "2026-08-02T04:38:36.641921+00:00",
     "status": "success",
     "sourcesTotal": 8,
     "sourcesSucceeded": 8,
@@ -815,27 +815,27 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 146,
+        "durationMs": 169,
         "fetched": 5,
-        "added": 3,
-        "duplicates": 2
+        "added": 2,
+        "duplicates": 3
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 123,
+        "durationMs": 384,
         "fetched": 5,
-        "added": 2,
-        "duplicates": 3
+        "added": 3,
+        "duplicates": 2
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 195,
+        "durationMs": 32,
         "fetched": 5,
         "added": 1,
         "duplicates": 4
@@ -845,7 +845,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1001,
+        "durationMs": 1013,
         "fetched": 5,
         "added": 4,
         "duplicates": 1
@@ -855,7 +855,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 205,
+        "durationMs": 192,
         "fetched": 5,
         "added": 0,
         "duplicates": 5
@@ -865,7 +865,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 942,
+        "durationMs": 975,
         "fetched": 5,
         "added": 0,
         "duplicates": 5
@@ -875,7 +875,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 878,
+        "durationMs": 882,
         "fetched": 5,
         "added": 0,
         "duplicates": 5
@@ -885,7 +885,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 229,
+        "durationMs": 277,
         "fetched": 5,
         "added": 0,
         "duplicates": 5
