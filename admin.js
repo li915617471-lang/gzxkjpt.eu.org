@@ -88,6 +88,10 @@ const els = {
   storyQualityBar: document.querySelector("#storyQualityBar"),
   storyQualityChecks: document.querySelector("#storyQualityChecks"),
   storyQualityNote: document.querySelector("#storyQualityNote"),
+  storySourceVerified: document.querySelector("#storySourceVerified"),
+  storyCategoryVerified: document.querySelector("#storyCategoryVerified"),
+  storyLocalizationVerified: document.querySelector("#storyLocalizationVerified"),
+  storyRightsVerified: document.querySelector("#storyRightsVerified"),
   storyHistoryFilter: document.querySelector("#storyHistoryFilter"),
   storyHistoryList: document.querySelector("#storyHistoryList"),
   storyId: document.querySelector("#storyId"),
@@ -1033,15 +1037,17 @@ function renderCollectionLogs() {
 }
 
 function normalizeSourceUrl(value) {
+  const rawValue = String(value || "").trim();
+  if (!rawValue) return "";
   try {
-    const url = new URL(String(value || ""), location.href);
+    const url = new URL(rawValue, location.href);
     url.hash = "";
     ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "fbclid", "gclid"].forEach(function (key) {
       url.searchParams.delete(key);
     });
     return (url.origin + url.pathname.replace(/\/$/, "") + (url.searchParams.toString() ? "?" + url.searchParams.toString() : "")).toLowerCase();
   } catch (error) {
-    return String(value || "").trim().toLowerCase();
+    return rawValue.toLowerCase();
   }
 }
 
@@ -1105,6 +1111,10 @@ function newStory() {
   els.storyAuthor.value = "";
   els.storyLanguage.value = "zh-CN";
   els.storySourceUrl.value = "";
+  els.storySourceVerified.checked = false;
+  els.storyCategoryVerified.checked = false;
+  els.storyLocalizationVerified.checked = false;
+  els.storyRightsVerified.checked = false;
   const image = uploadedFiles.find(function (file) { return file.kind === "image"; });
   els.storyImage.value = image ? image.dataUrl : "assets/factory.jpg";
   updateScheduleControl();
@@ -1140,6 +1150,11 @@ function loadStoryIntoForm(story) {
   els.storySourceUrl.value = story.sourceUrl || story.url || "";
   els.storyImage.value = story.image || "";
   els.storyTags.value = (story.tags || []).join(", ");
+  const reviewChecks = story.reviewChecks || {};
+  els.storySourceVerified.checked = reviewChecks.sourceVerified === true;
+  els.storyCategoryVerified.checked = reviewChecks.categoryVerified === true;
+  els.storyLocalizationVerified.checked = reviewChecks.localizationVerified === true;
+  els.storyRightsVerified.checked = reviewChecks.rightsVerified === true;
   els.storyReviewGuidance.hidden = !(story.reviewNote || story.collectionSourceId);
   els.storyReviewGuidance.textContent = story.reviewNote || "这是自动采集内容，请核对原始来源、标题、摘要和分类后再发布。";
   updateScheduleControl();
@@ -1169,7 +1184,13 @@ function formToStory() {
     readMinutes: Number(els.storyRead.value) || 8,
     heat: Number(els.storyHeat.value) || 80,
     date: date,
-    tags: els.storyTags.value.split(/[,，]/).map(function (tag) { return tag.trim(); }).filter(Boolean)
+    tags: els.storyTags.value.split(/[,，]/).map(function (tag) { return tag.trim(); }).filter(Boolean),
+    reviewChecks: {
+      sourceVerified: els.storySourceVerified.checked,
+      categoryVerified: els.storyCategoryVerified.checked,
+      localizationVerified: els.storyLocalizationVerified.checked,
+      rightsVerified: els.storyRightsVerified.checked
+    }
   });
 }
 
@@ -1184,18 +1205,31 @@ function isValidPublicUrl(value) {
 
 function evaluateStoryQuality(story) {
   const normalizedTitle = normalizeStoryTitle(story.title);
+  const normalizedSourceUrl = normalizeSourceUrl(story.sourceUrl || story.url || "");
   const duplicate = content.stories.some(function (item) {
-    return Number(item.id) !== Number(story.id) && normalizeStoryTitle(item.title) === normalizedTitle && normalizedTitle;
+    if (Number(item.id) === Number(story.id)) return false;
+    const itemKeys = storyDedupKeys(item);
+    return Boolean((normalizedTitle && itemKeys.title === normalizedTitle) ||
+      (normalizedSourceUrl && itemKeys.url === normalizedSourceUrl));
   });
+  const excerpt = String(story.excerpt || "").trim();
+  const hasChinese = function (value) { return /[\u3400-\u9fff]/.test(String(value || "")); };
+  const placeholderExcerpt = !excerpt || /^(来自公开来源|等待后台|待补充|暂无摘要)/.test(excerpt);
+  const reviewChecks = story.reviewChecks || {};
   const checks = [
-    { label: "标题不少于 10 个字", pass: story.title.length >= 10, required: true, weight: 15 },
+    { label: "标题不少于 10 个字", pass: story.title.length >= 10, required: true, weight: 10 },
     { label: "标题未与现有内容重复", pass: !duplicate && Boolean(normalizedTitle), required: true, weight: 10 },
-    { label: "摘要不少于 30 个字", pass: story.excerpt.length >= 30, required: true, weight: 15 },
-    { label: "来源或作者信息完整", pass: story.source !== "平台编辑" || story.author.length >= 2, required: true, weight: 10 },
-    { label: "原始来源链接有效", pass: isValidPublicUrl(story.sourceUrl), required: true, weight: 20 },
-    { label: "可信度不低于 70", pass: Number(story.confidence) >= 70, required: true, weight: 15 },
-    { label: "至少设置 2 个标签", pass: story.tags.length >= 2, required: false, weight: 5 },
-    { label: "正文不少于 80 个字", pass: story.body.length >= 80, required: false, weight: 10 }
+    { label: "摘要不少于 30 个字且不是占位内容", pass: excerpt.length >= 30 && !placeholderExcerpt, required: true, weight: 15 },
+    { label: "来源名称完整", pass: story.source.length >= 2 && story.source !== "公开来源" && story.source !== "平台编辑", required: true, weight: 10 },
+    { label: "原始来源链接有效", pass: isValidPublicUrl(story.sourceUrl), required: true, weight: 15 },
+    { label: "可信度不低于 70", pass: Number(story.confidence) >= 70, required: true, weight: 10 },
+    { label: "标题和摘要包含中文", pass: hasChinese(story.title) && hasChinese(excerpt), required: true, weight: 10 },
+    { label: "来源与原文一致", pass: reviewChecks.sourceVerified === true, required: true, weight: 5 },
+    { label: "板块归类准确", pass: reviewChecks.categoryVerified === true, required: true, weight: 5 },
+    { label: "中文标题与摘要已核对", pass: reviewChecks.localizationVerified === true, required: true, weight: 5 },
+    { label: "版权边界与引用方式已核对", pass: reviewChecks.rightsVerified === true, required: true, weight: 5 },
+    { label: "至少设置 2 个标签", pass: story.tags.length >= 2, required: false, weight: 0 },
+    { label: "正文不少于 80 个字", pass: story.body.length >= 80, required: false, weight: 0 }
   ];
   return {
     checks: checks,
@@ -1590,7 +1624,13 @@ function importDraftStories(imported) {
       id: nextStoryId(),
       sourceUrl: story.sourceUrl || story.url || "",
       time: story.time || "待审核",
-      status: ["draft", "review"].includes(story.status) ? story.status : "draft"
+      status: ["draft", "review"].includes(story.status) ? story.status : "draft",
+      reviewChecks: {
+        sourceVerified: false,
+        categoryVerified: false,
+        localizationVerified: false,
+        rightsVerified: false
+      }
     });
     delete next.url;
     content.stories.unshift(next);

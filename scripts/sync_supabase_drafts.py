@@ -116,6 +116,7 @@ def article_row(
         "heat",
         "date",
         "tags",
+        "reviewChecks",
     }
     extra = {key: value for key, value in story.items() if key not in core_keys}
     extra.update(
@@ -123,6 +124,12 @@ def article_row(
             "automaticImport": True,
             "automaticFingerprint": fingerprint,
             "automaticImportedAt": imported_at,
+            "reviewChecks": {
+                "sourceVerified": False,
+                "categoryVerified": False,
+                "localizationVerified": False,
+                "rightsVerified": False,
+            },
         }
     )
 

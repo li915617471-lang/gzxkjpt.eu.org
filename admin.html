@@ -152,6 +152,18 @@
             <div id="storyQualityChecks" class="quality-checks"></div>
             <p id="storyQualityNote">草稿可保存；所有必检项通过后才能公开发布。</p>
           </section>
+          <section class="review-confirmations" aria-labelledby="reviewConfirmationsTitle">
+            <div class="review-confirmations-head">
+              <div><span>人工审核</span><strong id="reviewConfirmationsTitle">发布前确认</strong></div>
+              <small>四项确认会随内容保存</small>
+            </div>
+            <div class="review-confirmations-grid">
+              <label class="check-label"><span>来源与原文一致</span><input id="storySourceVerified" type="checkbox"></label>
+              <label class="check-label"><span>板块归类准确</span><input id="storyCategoryVerified" type="checkbox"></label>
+              <label class="check-label"><span>中文标题与摘要已核对</span><input id="storyLocalizationVerified" type="checkbox"></label>
+              <label class="check-label"><span>版权边界与引用方式已核对</span><input id="storyRightsVerified" type="checkbox"></label>
+            </div>
+          </section>
           <label>标题<input id="storyTitle" required placeholder="例如：工业大模型在制造现场加速落地"></label>
           <div class="form-row">
             <label>分类
