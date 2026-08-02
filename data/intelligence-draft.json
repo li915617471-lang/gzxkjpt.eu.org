@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-02T06:17:52.951280+00:00",
+  "generatedAt": "2026-08-02T06:58:08.798483+00:00",
   "stories": [
     {
       "id": 12,
       "category": "金融",
       "title": "ECB to extend use of climate factors in Eurosystem collateral framework to non-financial c",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "image": "assets/factory.jpg",
+      "image": "assets/network.jpg",
       "source": "European Central Bank",
       "sourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_4~f082ce289d.en.html",
       "author": "",
@@ -26,14 +26,23 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Fri, 24 Jul 2026 12:00:00 +0200",
       "collectedAt": "2026-08-01T14:11:51.601438+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/network.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n来源与审核说明\n\n本资料由“European Central Bank”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 1,
       "category": "科技",
       "title": "Montana’s plan to become an experimental medical hub just pushed forward",
-      "excerpt": "As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies w",
-      "image": "assets/factory.jpg",
+      "excerpt": "As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board…",
+      "body": "自动采集摘要\n\nAs of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board…\n\n来源与审核说明\n\n本资料由“MIT Technology Review”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
+      "image": "assets/datacenter.jpg",
+      "imageFallback": "assets/datacenter.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "Montana’s plan to become an experimental medical hub just pushed forward",
       "source": "MIT Technology Review",
       "sourceUrl": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/",
       "author": "",
@@ -52,7 +61,7 @@
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
       "originalPublishedAt": "Thu, 30 Jul 2026 17:10:00 +0000",
-      "collectedAt": "2026-08-02T06:17:22.773376+00:00",
+      "collectedAt": "2026-08-02T06:57:39.524908+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -80,14 +89,18 @@
       "sourceTrustLevel": "professional",
       "originalPublishedAt": "Thu, 30 Jul 2026 12:35:51 -0400",
       "collectedAt": "2026-08-01T14:11:48.351586+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/factory.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nThe plane maker expects to generate a cash flow between $1 billion and $3 billion and aims to deliver up to 600 commercial planes\n\n来源与审核说明\n\n本资料由“Manufacturing Dive”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 15,
       "category": "能源",
       "title": "China's crude oil imports fell in the second quarter",
       "excerpt": "China, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher cr",
-      "image": "assets/factory.jpg",
+      "image": "assets/energy.jpg",
       "source": "U.S. Energy Information Administration",
       "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67905",
       "author": "",
@@ -107,14 +120,18 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Fri, 31 Jul 2026  09:00:00 EST",
       "collectedAt": "2026-08-01T07:54:07.374459+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/energy.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nChina, the world's largest importer of crude oil, imported less crude oil in the second quarter of 2026 (2Q26) following higher cr\n\n来源与审核说明\n\n本资料由“U.S. Energy Information Administration”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 13,
       "category": "农业",
       "title": "Digital Agriculture’s Role in the Future of Crop Protection",
       "excerpt": "The future of crop protection will rely on turning agricultural data into actionable insights that improve efficiency and sustaina",
-      "image": "assets/factory.jpg",
+      "image": "assets/solar.jpg",
       "source": "Global Ag Tech Initiative",
       "sourceUrl": "https://www.globalagtechinitiative.com/digital-farming/digital-agricultures-role-in-the-future-of-crop-protection/",
       "author": "",
@@ -134,14 +151,18 @@
       "sourceTrustLevel": "standard",
       "originalPublishedAt": "Fri, 31 Jul 2026 15:23:44 +0000",
       "collectedAt": "2026-08-01T07:54:05.582976+00:00",
-      "reviewNote": "需要编辑核验来源、摘要与分类后再发布"
+      "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
+      "imageFallback": "assets/solar.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nThe future of crop protection will rely on turning agricultural data into actionable insights that improve efficiency and sustaina\n\n来源与审核说明\n\n本资料由“Global Ag Tech Initiative”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 14,
       "category": "人文",
       "title": "Why Mapmakers Put Fake Towns on Their Maps in the 1920s — and the One That Became Real",
       "excerpt": "Open Culture readers may know John Green best for Crash Course, the YouTube channel that teaches everything you need to know about",
-      "image": "assets/factory.jpg",
+      "image": "assets/semiconductor.jpg",
       "source": "Open Culture",
       "sourceUrl": "https://www.openculture.com/2026/07/why-mapmakers-put-fake-towns-on-their-maps-in-the-1920s-and-the-one-that-became-real.html",
       "author": "",
@@ -161,14 +182,18 @@
       "sourceTrustLevel": "standard",
       "originalPublishedAt": "Fri, 31 Jul 2026 08:00:45 +0000",
       "collectedAt": "2026-08-01T07:54:06.248802+00:00",
-      "reviewNote": "需要编辑核验来源、摘要与分类后再发布"
+      "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nOpen Culture readers may know John Green best for Crash Course, the YouTube channel that teaches everything you need to know about\n\n来源与审核说明\n\n本资料由“Open Culture”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 6,
       "category": "金融",
       "title": "Digital euro app to incorporate highest accessibility standards",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "image": "assets/factory.jpg",
+      "image": "assets/network.jpg",
       "source": "European Central Bank",
       "sourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html",
       "author": "",
@@ -188,14 +213,23 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Thu, 30 Jul 2026 10:00:00 +0200",
       "collectedAt": "2026-07-30T14:57:00.949370+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/network.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n来源与审核说明\n\n本资料由“European Central Bank”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 2,
       "category": "科技",
       "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-      "excerpt": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team o",
-      "image": "assets/factory.jpg",
+      "excerpt": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge…",
+      "body": "自动采集摘要\n\nIt is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge…\n\n来源与审核说明\n\n本资料由“MIT Technology Review”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
+      "image": "assets/datacenter.jpg",
+      "imageFallback": "assets/datacenter.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
       "source": "MIT Technology Review",
       "sourceUrl": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
       "author": "",
@@ -214,7 +248,7 @@
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
       "originalPublishedAt": "Thu, 30 Jul 2026 10:15:19 +0000",
-      "collectedAt": "2026-08-02T06:17:22.774383+00:00",
+      "collectedAt": "2026-08-02T06:57:39.525665+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -242,14 +276,18 @@
       "sourceTrustLevel": "professional",
       "originalPublishedAt": "Fri, 31 Jul 2026 11:45:00 -0400",
       "collectedAt": "2026-08-01T07:54:04.180311+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/factory.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nThe expansion will create 400 jobs dedicated to GLP-1 injectables production across Resilience’s contract manufacturing facilities\n\n来源与审核说明\n\n本资料由“Manufacturing Dive”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 14,
       "category": "能源",
       "title": "Commercial crude oil inventories increased by 2.0 million barrels",
       "excerpt": "For the week ending July 17, 2026, commercial crude oil inventories (excluding the Strategic Petroleum Reserve) increased 2.0 mill",
-      "image": "assets/factory.jpg",
+      "image": "assets/energy.jpg",
       "source": "U.S. Energy Information Administration",
       "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
       "author": "",
@@ -269,14 +307,18 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Wed, 22 Jul 2026 09:00:00 EST",
       "collectedAt": "2026-07-30T14:57:03.712226+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/energy.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nFor the week ending July 17, 2026, commercial crude oil inventories (excluding the Strategic Petroleum Reserve) increased 2.0 mill\n\n来源与审核说明\n\n本资料由“U.S. Energy Information Administration”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 7,
       "category": "农业",
       "title": "The Last Mile of Agronomy: Turning Recommendations Into Field Reality",
       "excerpt": "Expert Reinder Prins explains how closing agriculture's \"last mile\" transforms recommendations into action, accountability, and me",
-      "image": "assets/factory.jpg",
+      "image": "assets/solar.jpg",
       "source": "Global Ag Tech Initiative",
       "sourceUrl": "https://www.globalagtechinitiative.com/digital-farming/data-management/the-last-mile-of-agronomy-turning-recommendations-into-field-reality/",
       "author": "",
@@ -296,14 +338,18 @@
       "sourceTrustLevel": "standard",
       "originalPublishedAt": "Fri, 24 Jul 2026 18:45:38 +0000",
       "collectedAt": "2026-07-31T02:58:02.365729+00:00",
-      "reviewNote": "需要编辑核验来源、摘要与分类后再发布"
+      "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
+      "imageFallback": "assets/solar.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nExpert Reinder Prins explains how closing agriculture's \"last mile\" transforms recommendations into action, accountability, and me\n\n来源与审核说明\n\n本资料由“Global Ag Tech Initiative”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 13,
       "category": "人文",
       "title": "How a 13th-Century Monk Created a Prayer Manuscript by Writing Over—and Accidentally Prese",
       "excerpt": "In Jerusalem of the year 1229, there lived a Greek Orthodox monk named Johannes Myronas. Needing some parchment for a prayer book,",
-      "image": "assets/factory.jpg",
+      "image": "assets/semiconductor.jpg",
       "source": "Open Culture",
       "sourceUrl": "https://www.openculture.com/2026/07/how-a-13th-century-monk-created-a-manuscript-that-erased-archimedes.html",
       "author": "",
@@ -323,14 +369,18 @@
       "sourceTrustLevel": "standard",
       "originalPublishedAt": "Wed, 29 Jul 2026 09:04:29 +0000",
       "collectedAt": "2026-07-30T15:06:08.400308+00:00",
-      "reviewNote": "需要编辑核验来源、摘要与分类后再发布"
+      "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nIn Jerusalem of the year 1229, there lived a Greek Orthodox monk named Johannes Myronas. Needing some parchment for a prayer book,\n\n来源与审核说明\n\n本资料由“Open Culture”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 7,
       "category": "金融",
       "title": "ECB wage tracker at 2.7% in Q1 2027, indicating stable negotiated wage pressures",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "image": "assets/factory.jpg",
+      "image": "assets/network.jpg",
       "source": "European Central Bank",
       "sourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260729~4ad7508d8a.en.html",
       "author": "",
@@ -350,14 +400,23 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Wed, 29 Jul 2026 10:00:00 +0200",
       "collectedAt": "2026-07-30T14:57:00.949794+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/network.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n来源与审核说明\n\n本资料由“European Central Bank”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 3,
       "category": "科技",
       "title": "Fridays With Bob",
-      "excerpt": "When I started at   Spectrum   25 years ago, a senior editor suggested that I find a “rabbi,” by which he meant someone who could ",
-      "image": "assets/factory.jpg",
+      "excerpt": "When I started at   Spectrum   25 years ago, a senior editor suggested that I find a “rabbi,” by which he meant someone who could mentor me in how EEs approach problems and evaluate potential solutions.   I didn’t find one right away. Then in 2005 we decided to do a special…",
+      "body": "自动采集摘要\n\nWhen I started at   Spectrum   25 years ago, a senior editor suggested that I find a “rabbi,” by which he meant someone who could mentor me in how EEs approach problems and evaluate potential solutions.   I didn’t find one right away. Then in 2005 we decided to do a special…\n\n来源与审核说明\n\n本资料由“IEEE Spectrum”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
+      "image": "https://spectrum.ieee.org/media-library/a-greenish-yellow-waxwing-bird-sitting-on-a-twig-eating-a-berry.jpg?id=67541842&width=980",
+      "imageFallback": "assets/datacenter.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "IEEE Spectrum",
+      "originalTitle": "Fridays With Bob",
       "source": "IEEE Spectrum",
       "sourceUrl": "https://spectrum.ieee.org/risk",
       "author": "",
@@ -376,7 +435,7 @@
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Sat, 01 Aug 2026 12:00:01 +0000",
-      "collectedAt": "2026-08-02T06:17:25.907963+00:00",
+      "collectedAt": "2026-08-02T06:57:42.544226+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -404,14 +463,18 @@
       "sourceTrustLevel": "professional",
       "originalPublishedAt": "Fri, 31 Jul 2026 11:07:17 -0400",
       "collectedAt": "2026-08-01T07:54:04.181407+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/factory.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nThe announcements in June and July span industries such as agriculture, automotive, oncology and electronics.\n\n来源与审核说明\n\n本资料由“Manufacturing Dive”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 11,
       "category": "能源",
       "title": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration",
       "excerpt": "In the second quarter of 2026 (2Q26), 24% of new light-duty vehicles sold in the United States were hybrid electric, battery elect",
-      "image": "assets/factory.jpg",
+      "image": "assets/energy.jpg",
       "source": "U.S. Energy Information Administration",
       "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67885",
       "author": "",
@@ -431,14 +494,18 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Mon, 27 Jul 2026  09:00:00 EST",
       "collectedAt": "2026-07-31T02:51:18.413534+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/energy.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nIn the second quarter of 2026 (2Q26), 24% of new light-duty vehicles sold in the United States were hybrid electric, battery elect\n\n来源与审核说明\n\n本资料由“U.S. Energy Information Administration”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 8,
       "category": "农业",
       "title": "Agriculture Doesn’t Just Need Data. It Needs AI-Ready Data.",
       "excerpt": "AI in agriculture depends not only on access to data, but on whether that data is timely, consistent, calibrated, and usable withi",
-      "image": "assets/factory.jpg",
+      "image": "assets/solar.jpg",
       "source": "Global Ag Tech Initiative",
       "sourceUrl": "https://www.globalagtechinitiative.com/digital-farming/analytics/agriculture-doesnt-just-need-data-it-needs-ai-ready-data/",
       "author": "",
@@ -458,14 +525,18 @@
       "sourceTrustLevel": "standard",
       "originalPublishedAt": "Fri, 17 Jul 2026 16:53:27 +0000",
       "collectedAt": "2026-07-31T02:58:02.366199+00:00",
-      "reviewNote": "需要编辑核验来源、摘要与分类后再发布"
+      "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
+      "imageFallback": "assets/solar.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nAI in agriculture depends not only on access to data, but on whether that data is timely, consistent, calibrated, and usable withi\n\n来源与审核说明\n\n本资料由“Global Ag Tech Initiative”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 14,
       "category": "人文",
       "title": "Hear What Homer’s Odyssey Sounded Like When Sung in the Original Ancient Greek",
       "excerpt": "Image via Wikimedia Commons It’s been a humanist truism for some time to say that Shakespeare speaks to every age, transcending hi",
-      "image": "assets/factory.jpg",
+      "image": "assets/semiconductor.jpg",
       "source": "Open Culture",
       "sourceUrl": "https://www.openculture.com/2026/07/homers-odyssey-sung-in-ancient-greek.html",
       "author": "",
@@ -485,14 +556,18 @@
       "sourceTrustLevel": "standard",
       "originalPublishedAt": "Wed, 29 Jul 2026 08:00:00 +0000",
       "collectedAt": "2026-07-30T15:06:08.400781+00:00",
-      "reviewNote": "需要编辑核验来源、摘要与分类后再发布"
+      "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nImage via Wikimedia Commons It’s been a humanist truism for some time to say that Shakespeare speaks to every age, transcending hi\n\n来源与审核说明\n\n本资料由“Open Culture”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 8,
       "category": "金融",
       "title": "Philip R. Lane: Outlook for the euro area economy",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "image": "assets/factory.jpg",
+      "image": "assets/network.jpg",
       "source": "European Central Bank",
       "sourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260724~d484b483b9.en.pdf",
       "author": "",
@@ -512,14 +587,23 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Fri, 24 Jul 2026 17:30:00 +0200",
       "collectedAt": "2026-07-30T14:57:00.950111+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/network.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n来源与审核说明\n\n本资料由“European Central Bank”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 4,
       "category": "科技",
       "title": "IEEE Publishing Ethics Team Upholds Research Integrity",
-      "excerpt": "Given a rising number of  publishing misconduct allegations ,  IEEE  in 2022 created the Publishing Ethics Team as a centralized d",
-      "image": "assets/factory.jpg",
+      "excerpt": "Given a rising number of  publishing misconduct allegations ,  IEEE  in 2022 created the Publishing Ethics Team as a centralized department to assist in handling claims. The group also works to increase the organization’s visibility in the broader publishing ethics area and helps…",
+      "body": "自动采集摘要\n\nGiven a rising number of  publishing misconduct allegations ,  IEEE  in 2022 created the Publishing Ethics Team as a centralized department to assist in handling claims. The group also works to increase the organization’s visibility in the broader publishing ethics area and helps…\n\n来源与审核说明\n\n本资料由“IEEE Spectrum”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
+      "image": "https://spectrum.ieee.org/media-library/conceptual-illustration-of-a-stack-of-papers-impaled-onto-a-pencil-that-someone-is-using-to-mark-off-a-checkbox.jpg?id=67547233&width=980",
+      "imageFallback": "assets/datacenter.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "IEEE Spectrum",
+      "originalTitle": "IEEE Publishing Ethics Team Upholds Research Integrity",
       "source": "IEEE Spectrum",
       "sourceUrl": "https://spectrum.ieee.org/ieee-publishing-ethics-research-integrity",
       "author": "",
@@ -538,7 +622,7 @@
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Thu, 30 Jul 2026 18:00:03 +0000",
-      "collectedAt": "2026-08-02T06:17:25.912482+00:00",
+      "collectedAt": "2026-08-02T06:57:42.547998+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -566,14 +650,18 @@
       "sourceTrustLevel": "professional",
       "originalPublishedAt": "Thu, 30 Jul 2026 11:50:00 -0400",
       "collectedAt": "2026-07-31T02:51:15.105799+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/factory.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nThe company’s earnings more than tripled to $351.3 million compared to last year, driven by increased power tool demand and a pret\n\n来源与审核说明\n\n本资料由“Manufacturing Dive”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 12,
       "category": "能源",
       "title": "Energia Costa Azul, Mexico's second LNG terminal, shipped first cargo",
       "excerpt": "Energia Costa Azul, the second liquefied natural gas (LNG) export facility in Mexico, shipped its initial cargo from Phase 1 of th",
-      "image": "assets/factory.jpg",
+      "image": "assets/energy.jpg",
       "source": "U.S. Energy Information Administration",
       "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67884",
       "author": "",
@@ -593,14 +681,18 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Fri, 24 Jul 2026  09:00:00 EST",
       "collectedAt": "2026-07-31T02:51:18.414002+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/energy.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nEnergia Costa Azul, the second liquefied natural gas (LNG) export facility in Mexico, shipped its initial cargo from Phase 1 of th\n\n来源与审核说明\n\n本资料由“U.S. Energy Information Administration”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 9,
       "category": "农业",
       "title": "Smart Crop Mobility: Farming’s Driverless Future",
       "excerpt": "See how autonomous machines are redefining fieldwork with smarter mobility, reduced labor demands, and practical solutions for far",
-      "image": "assets/factory.jpg",
+      "image": "assets/solar.jpg",
       "source": "Global Ag Tech Initiative",
       "sourceUrl": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/smart-crop-mobility-farmings-driverless-future/",
       "author": "",
@@ -620,14 +712,18 @@
       "sourceTrustLevel": "standard",
       "originalPublishedAt": "Fri, 24 Jul 2026 13:02:47 +0000",
       "collectedAt": "2026-07-30T15:06:04.182569+00:00",
-      "reviewNote": "需要编辑核验来源、摘要与分类后再发布"
+      "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
+      "imageFallback": "assets/solar.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nSee how autonomous machines are redefining fieldwork with smarter mobility, reduced labor demands, and practical solutions for far\n\n来源与审核说明\n\n本资料由“Global Ag Tech Initiative”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 5,
       "category": "人文",
       "title": "What Miles Davis Taught Herbie Hancock: In Music, as in Life, There Are No Mistakes, Just ",
       "excerpt": "One of my favorite Brian Eno quotes, or rather one that became an Oblique Strategy, is “Honor Your Mistake as a Hidden Intention.”",
-      "image": "assets/factory.jpg",
+      "image": "assets/semiconductor.jpg",
       "source": "Open Culture",
       "sourceUrl": "https://www.openculture.com/2026/07/what-miles-davis-taught-herbie-hancock-in-music-as-in-life-there-are-no-mistakes.html",
       "author": "",
@@ -647,14 +743,18 @@
       "sourceTrustLevel": "standard",
       "originalPublishedAt": "Tue, 28 Jul 2026 09:00:08 +0000",
       "collectedAt": "2026-07-30T14:56:58.356418+00:00",
-      "reviewNote": "需要编辑核验来源、摘要与分类后再发布"
+      "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nOne of my favorite Brian Eno quotes, or rather one that became an Oblique Strategy, is “Honor Your Mistake as a Hidden Intention.”\n\n来源与审核说明\n\n本资料由“Open Culture”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 9,
       "category": "金融",
       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting inte",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "image": "assets/factory.jpg",
+      "image": "assets/network.jpg",
       "source": "European Central Bank",
       "sourceUrl": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30622.en.html",
       "author": "",
@@ -674,14 +774,23 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Fri, 24 Jul 2026 15:00:00 +0200",
       "collectedAt": "2026-07-30T14:57:00.950401+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/network.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n来源与审核说明\n\n本资料由“European Central Bank”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 5,
       "category": "科技",
       "title": "Negotiating Your Salary Is About More Than Money",
-      "excerpt": "This article is crossposted from  IEEE Spectrum ’s careers newsletter.   Sign up now    to get insider tips, expert advice, and pr",
-      "image": "assets/factory.jpg",
+      "excerpt": "This article is crossposted from  IEEE Spectrum ’s careers newsletter.   Sign up now    to get insider tips, expert advice, and practical strategies,   written i n partnership with tech career development company  Parsity  and    delivered to your inbox for free!         Scroll…",
+      "body": "自动采集摘要\n\nThis article is crossposted from  IEEE Spectrum ’s careers newsletter.   Sign up now    to get insider tips, expert advice, and practical strategies,   written i n partnership with tech career development company  Parsity  and    delivered to your inbox for free!         Scroll…\n\n来源与审核说明\n\n本资料由“IEEE Spectrum”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。",
+      "image": "https://spectrum.ieee.org/media-library/an-illustration-of-stylized-people-wearing-business-casual-clothing.jpg?id=59104110&width=980",
+      "imageFallback": "assets/datacenter.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "IEEE Spectrum",
+      "originalTitle": "Negotiating Your Salary Is About More Than Money",
       "source": "IEEE Spectrum",
       "sourceUrl": "https://spectrum.ieee.org/how-to-negotiate-your-salary",
       "author": "",
@@ -700,7 +809,7 @@
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Wed, 29 Jul 2026 14:55:45 +0000",
-      "collectedAt": "2026-08-02T06:17:25.917250+00:00",
+      "collectedAt": "2026-08-02T06:57:42.551280+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -718,14 +827,18 @@
         "工业"
       ],
       "status": "draft",
-      "sourceUrl": "https://www.manufacturingdive.com/news/mit-wants-technologists-to-be-nurse-practitioners-manufacturing-engineering/826469/"
+      "sourceUrl": "https://www.manufacturingdive.com/news/mit-wants-technologists-to-be-nurse-practitioners-manufacturing-engineering/826469/",
+      "imageFallback": "assets/factory.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nJohn Liu, a principal investigator and research scientist at the institute, spoke about the TechAMP program and what feedback has\n\n来源与审核说明\n\n本资料由“Manufacturing Dive”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 13,
       "category": "能源",
       "title": "New York imports more electricity from Canada after high-voltage transmission line opens",
       "excerpt": "On July 3, 2026, the New York Independent System Operator (NYISO) imported 52 gigawatthours (GWh) of electricity from Canada, the ",
-      "image": "assets/factory.jpg",
+      "image": "assets/energy.jpg",
       "source": "U.S. Energy Information Administration",
       "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67867",
       "author": "",
@@ -745,14 +858,18 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Mon, 20 Jul 2026 09:00:00 EST",
       "collectedAt": "2026-07-31T02:51:18.414377+00:00",
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "imageFallback": "assets/energy.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nOn July 3, 2026, the New York Independent System Operator (NYISO) imported 52 gigawatthours (GWh) of electricity from Canada, the\n\n来源与审核说明\n\n本资料由“U.S. Energy Information Administration”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 10,
       "category": "农业",
       "title": "2026 Q2 AgTech Venture Capital Investment and Exit Round Up",
       "excerpt": "AgTech venture funding topped $2B in Q2 2026, led by mega-deals, while exits surged and market stability continued. \n The post  20",
-      "image": "assets/factory.jpg",
+      "image": "assets/solar.jpg",
       "source": "Global Ag Tech Initiative",
       "sourceUrl": "https://www.globalagtechinitiative.com/in-field-technologies/2026-q2-agtech-venture-capital-investment-and-exit-round-up/",
       "author": "",
@@ -772,14 +889,18 @@
       "sourceTrustLevel": "standard",
       "originalPublishedAt": "Tue, 21 Jul 2026 15:00:20 +0000",
       "collectedAt": "2026-07-30T15:06:04.182881+00:00",
-      "reviewNote": "需要编辑核验来源、摘要与分类后再发布"
+      "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
+      "imageFallback": "assets/solar.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nAgTech venture funding topped $2B in Q2 2026, led by mega-deals, while exits surged and market stability continued. \n The post  20\n\n来源与审核说明\n\n本资料由“Global Ag Tech Initiative”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     },
     {
       "id": 1,
       "category": "人文",
       "title": "A Guide to Every Major Film Adaptation of Homer’s Odyssey Before Christopher Nolan’s Movie",
       "excerpt": "If you plan on shooting your own adaptation of Homer’s Odyssey, bear in mind how much rests on your choice of leading man. In orde",
-      "image": "assets/factory.jpg",
+      "image": "assets/semiconductor.jpg",
       "source": "Open Culture",
       "sourceUrl": "https://www.openculture.com/2026/07/a-guide-to-every-major-film-adaptation-of-homers-odyssey-before-christopher-nolans-movie.html",
       "author": "",
@@ -793,19 +914,23 @@
         "人文"
       ],
       "status": "draft",
-      "collectionSourceId": "open-culture"
+      "collectionSourceId": "open-culture",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "body": "自动采集摘要\n\nIf you plan on shooting your own adaptation of Homer’s Odyssey, bear in mind how much rests on your choice of leading man. In orde\n\n来源与审核说明\n\n本资料由“Open Culture”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
     }
   ],
   "errors": [
     {
       "source": "European Central Bank",
-      "error": "连续 3 次请求失败（9870ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      "error": "连续 3 次请求失败（9762ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
     }
   ],
   "collection": {
-    "id": "2026-08-02T06:17:52.951280+00:00",
-    "startedAt": "2026-08-02T06:17:20.077095+00:00",
-    "finishedAt": "2026-08-02T06:17:52.951280+00:00",
+    "id": "2026-08-02T06:58:08.798483+00:00",
+    "startedAt": "2026-08-02T06:57:36.834182+00:00",
+    "finishedAt": "2026-08-02T06:58:08.798483+00:00",
     "status": "partial",
     "sourcesTotal": 8,
     "sourcesSucceeded": 7,
@@ -817,7 +942,7 @@
     "errors": [
       {
         "source": "European Central Bank",
-        "error": "连续 3 次请求失败（9870ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        "error": "连续 3 次请求失败（9762ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
       }
     ],
     "sourceResults": [
@@ -826,7 +951,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2681,
+        "durationMs": 2667,
         "fetched": 5,
         "added": 2,
         "duplicates": 3
@@ -836,7 +961,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3125,
+        "durationMs": 3013,
         "fetched": 5,
         "added": 3,
         "duplicates": 2
@@ -846,7 +971,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2441,
+        "durationMs": 2415,
         "fetched": 5,
         "added": 1,
         "duplicates": 4
@@ -856,7 +981,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4953,
+        "durationMs": 4288,
         "fetched": 5,
         "added": 4,
         "duplicates": 1
@@ -866,7 +991,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2996,
+        "durationMs": 2892,
         "fetched": 5,
         "added": 0,
         "duplicates": 5
@@ -876,7 +1001,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4141,
+        "durationMs": 4220,
         "fetched": 5,
         "added": 0,
         "duplicates": 5
@@ -890,14 +1015,14 @@
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 3 次请求失败（9870ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        "error": "连续 3 次请求失败（9762ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
       },
       {
         "sourceId": "us-energy-information-administration",
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2621,
+        "durationMs": 2658,
         "fetched": 5,
         "added": 0,
         "duplicates": 5

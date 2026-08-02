@@ -107,8 +107,14 @@ function renderArticle(story) {
   document.querySelector("#articleRead").textContent = Number(story.readMinutes || 6) + " 分钟阅读";
   document.querySelector("#articleTitle").textContent = story.title;
   document.querySelector("#articleExcerpt").textContent = story.excerpt || "";
-  document.querySelector("#articleImage").src = story.image || "assets/factory.jpg";
-  document.querySelector("#articleImage").alt = story.title;
+  const articleImage = document.querySelector("#articleImage");
+  const imageFallback = story.imageFallback || "assets/factory.jpg";
+  articleImage.referrerPolicy = "no-referrer";
+  articleImage.onerror = function () {
+    if (articleImage.getAttribute("src") !== imageFallback) articleImage.src = imageFallback;
+  };
+  articleImage.src = story.image || imageFallback;
+  articleImage.alt = story.title;
   document.querySelector("#articleSource").textContent = story.source || "平台内容";
   document.querySelector("#railCategory").textContent = story.category;
   document.querySelector("#railDate").textContent = story.date || "未设置";

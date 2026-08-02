@@ -61,5 +61,56 @@ class CategoryTests(unittest.TestCase):
         self.assertEqual(updated[0]["category"], "科技")
 
 
+class RichDraftTests(unittest.TestCase):
+    def test_media_content_image_is_parsed(self):
+        raw = b"""<?xml version='1.0'?>
+        <rss xmlns:media='http://search.yahoo.com/mrss/'><channel><item>
+          <title>New industrial robot</title>
+          <link>https://example.com/story</link>
+          <description>Useful public summary</description>
+          <media:content url='https://cdn.example.com/robot.jpg' type='image/jpeg'/>
+        </item></channel></rss>"""
+        parsed = auto_update.parse_feed(raw)
+        self.assertEqual(parsed[0]["image"], "https://cdn.example.com/robot.jpg")
+
+    def test_html_image_and_relative_url_are_parsed(self):
+        raw = b"""<?xml version='1.0'?>
+        <rss><channel><item>
+          <title>Energy storage update</title>
+          <link>https://example.com/news/item</link>
+          <description><![CDATA[<p>Summary</p><img src='/images/storage.webp'>]]></description>
+        </item></channel></rss>"""
+        parsed = auto_update.parse_feed(raw)
+        self.assertEqual(parsed[0]["image"], "https://example.com/images/storage.webp")
+
+    def test_tracking_image_is_rejected(self):
+        self.assertEqual(
+            auto_update.safe_image_url("https://example.com/tracking-pixel.gif"),
+            "",
+        )
+
+    def test_story_uses_category_cover_without_feed_image(self):
+        source = {
+            "name": "Test Source", "categoryHint": "能源", "confidence": 85,
+            "trustLevel": "professional", "language": "en",
+        }
+        entry = {
+            "title": "Battery storage reaches a new milestone",
+            "summary": "A sufficiently detailed public summary about a new storage project.",
+            "link": "https://example.com/storage", "published": "", "image": "",
+        }
+        story = auto_update.make_story(entry, source, 0, auto_update.CATEGORY_RULES)
+        self.assertEqual(story["image"], "assets/energy.jpg")
+        self.assertEqual(story["imageFallback"], "assets/energy.jpg")
+        self.assertIn("来源与审核说明", story["body"])
+        self.assertIn("Test Source", story["body"])
+
+    def test_long_summary_is_safely_truncated(self):
+        text = "renewable energy storage " * 30
+        shortened = auto_update.truncate_text(text, 80)
+        self.assertLessEqual(len(shortened), 81)
+        self.assertTrue(shortened.endswith("…"))
+
+
 if __name__ == "__main__":
     unittest.main()

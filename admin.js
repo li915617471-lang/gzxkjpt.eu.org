@@ -1208,6 +1208,13 @@ function isValidPublicUrl(value) {
   }
 }
 
+function isValidStoryImage(value) {
+  const image = String(value || "").trim();
+  return /^assets\/[a-z0-9._/-]+$/i.test(image) ||
+    /^data:image\/(?:png|jpe?g|webp|gif);base64,/i.test(image) ||
+    /^https:\/\/[^\s]+$/i.test(image);
+}
+
 function evaluateStoryQuality(story) {
   const normalizedTitle = normalizeStoryTitle(story.title);
   const normalizedSourceUrl = normalizeSourceUrl(story.sourceUrl || story.url || "");
@@ -1227,7 +1234,8 @@ function evaluateStoryQuality(story) {
     { label: "摘要不少于 30 个字且不是占位内容", pass: excerpt.length >= 30 && !placeholderExcerpt, required: true, weight: 15 },
     { label: "来源名称完整", pass: story.source.length >= 2 && story.source !== "公开来源" && story.source !== "平台编辑", required: true, weight: 10 },
     { label: "原始来源链接有效", pass: isValidPublicUrl(story.sourceUrl), required: true, weight: 15 },
-    { label: "可信度不低于 70", pass: Number(story.confidence) >= 70, required: true, weight: 10 },
+    { label: "可信度不低于 70", pass: Number(story.confidence) >= 70, required: true, weight: 5 },
+    { label: "封面图片地址有效", pass: isValidStoryImage(story.image), required: true, weight: 5 },
     { label: "标题和摘要包含中文", pass: hasChinese(story.title) && hasChinese(excerpt), required: true, weight: 10 },
     { label: "来源与原文一致", pass: reviewChecks.sourceVerified === true, required: true, weight: 5 },
     { label: "板块归类准确", pass: reviewChecks.categoryVerified === true, required: true, weight: 5 },

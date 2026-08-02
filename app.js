@@ -68,6 +68,18 @@ function safeColor(value, fallback = "#6ee7a8") {
   return /^#[0-9a-f]{6}$/i.test(String(value || "")) ? value : fallback;
 }
 
+function attachImageFallbacks(root = document) {
+  root.querySelectorAll("img[data-image-fallback]").forEach((img) => {
+    if (img.dataset.fallbackReady === "true") return;
+    img.dataset.fallbackReady = "true";
+    img.referrerPolicy = "no-referrer";
+    img.addEventListener("error", () => {
+      const fallback = img.dataset.imageFallback || "assets/factory.jpg";
+      if (img.getAttribute("src") !== fallback) img.src = fallback;
+    });
+  });
+}
+
 function getCategorySettings() {
   const settings = Array.isArray(content.categorySettings) && content.categorySettings.length
     ? content.categorySettings
@@ -252,8 +264,10 @@ function renderFeatured() {
   const featuredStory = stories.find((story) => Number(story.id) === Number(featured.storyId) && storyIsPublic(story))
     || stories.find((story) => story.category === featured.category && storyIsPublic(story))
     || stories.find(storyIsPublic);
+  const featuredImage = featured.image || featuredStory?.image || "assets/factory.jpg";
+  const featuredFallback = featuredStory?.imageFallback || "assets/factory.jpg";
   target.innerHTML = `
-    <img src="${escapeHtml(featured.image)}" alt="${escapeHtml(featured.title)}">
+    <img src="${escapeHtml(featuredImage)}" data-image-fallback="${escapeHtml(featuredFallback)}" referrerpolicy="no-referrer" alt="${escapeHtml(featured.title)}">
     <div class="featured-overlay">
       <div class="story-meta">
         <span class="category-tag" style="color:${safeColor(category.color)}">${escapeHtml(featured.category)}</span>
@@ -265,6 +279,7 @@ function renderFeatured() {
       <a href="article.html?id=${encodeURIComponent(featuredStory?.id || 1)}" class="featured-link">查看专题 <i data-lucide="arrow-up-right"></i></a>
     </div>
   `;
+  attachImageFallbacks(target);
 }
 
 function renderSignals() {
@@ -303,7 +318,7 @@ function storyTemplate(story, index) {
   return `
     <article class="story-card" data-story-id="${story.id}" data-category="${escapeHtml(story.category)}" style="--category-color:${safeColor(category.color)}">
       <div class="story-image">
-        <a href="${detailUrl}" aria-label="阅读：${escapeHtml(story.title)}"><img src="${escapeHtml(story.image)}" alt="${escapeHtml(story.title)}" loading="lazy"></a>
+        <a href="${detailUrl}" aria-label="阅读：${escapeHtml(story.title)}"><img src="${escapeHtml(story.image || story.imageFallback || "assets/factory.jpg")}" data-image-fallback="${escapeHtml(story.imageFallback || "assets/factory.jpg")}" referrerpolicy="no-referrer" alt="${escapeHtml(story.title)}" loading="lazy"></a>
         <span class="story-index">FX-${String(index + 1).padStart(2, "0")}</span>
       </div>
       <div class="story-body">
@@ -367,6 +382,7 @@ function renderStories() {
   document.querySelector("#feedTitle").textContent = state.category === "全部" ? "今日聚合" : `${state.category}前沿`;
   storyGrid.classList.toggle("is-list", state.view === "list");
   storyGrid.innerHTML = visibleStories.map(storyTemplate).join("");
+  attachImageFallbacks(storyGrid);
   resultCount.textContent = `${visibleStories.length} 条内容`;
   emptyState.hidden = visibleStories.length !== 0;
   updateFilterUi();

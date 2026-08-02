@@ -47,6 +47,17 @@ CATEGORY_RULES = {
     "科技": ["ai", "artificial intelligence", "model", "compute", "chip", "semiconductor", "wafer", "packaging", "chiplet", "quantum", "人工智能", "大模型", "算力", "模型", "芯片", "半导体", "封装", "晶圆", "量子"]
 }
 
+CATEGORY_COVERS = {
+    "金融": "assets/network.jpg",
+    "科技": "assets/datacenter.jpg",
+    "工业": "assets/factory.jpg",
+    "能源": "assets/energy.jpg",
+    "农业": "assets/solar.jpg",
+    "人文": "assets/semiconductor.jpg",
+}
+DEFAULT_COVER = "assets/factory.jpg"
+TRACKING_IMAGE_MARKERS = ("pixel", "tracking", "tracker", "spacer", "1x1", "clear.gif", "beacon")
+
 
 def load_category_rules() -> dict[str, list[str]]:
     if not CONTENT_FILE.exists():
@@ -73,6 +84,41 @@ def clean_text(value: str) -> str:
     value = html.unescape(value)
     value = re.sub(r"\\s+", " ", value).strip()
     return value
+
+
+def truncate_text(value: str, limit: int) -> str:
+    """Trim text without leaving a dangling word when practical."""
+    value = clean_text(value)
+    if len(value) <= limit:
+        return value
+    clipped = value[:limit + 1]
+    boundary = max(clipped.rfind(" "), clipped.rfind("。"), clipped.rfind("，"), clipped.rfind("；"))
+    if boundary >= int(limit * 0.65):
+        clipped = clipped[:boundary]
+    else:
+        clipped = clipped[:limit]
+    return clipped.rstrip(" ,，。;；:-") + "…"
+
+
+def category_cover(category: str) -> str:
+    return CATEGORY_COVERS.get(category, DEFAULT_COVER)
+
+
+def safe_image_url(value: str, base_url: str = "") -> str:
+    value = html.unescape((value or "").strip())
+    if not value:
+        return ""
+    try:
+        resolved = urllib.parse.urljoin(base_url, value)
+        parts = urllib.parse.urlsplit(resolved)
+    except ValueError:
+        return ""
+    if parts.scheme.lower() not in {"http", "https"} or not parts.netloc:
+        return ""
+    lowered = resolved.lower()
+    if any(marker in lowered for marker in TRACKING_IMAGE_MARKERS):
+        return ""
+    return resolved
 
 
 def normalize_url(value: str) -> str:
@@ -236,6 +282,28 @@ def find_text(item: ET.Element, names: list[str]) -> str:
     return ""
 
 
+def find_image(item: ET.Element, base_url: str = "") -> str:
+    """Extract a useful RSS/Atom image without fetching the article body."""
+    candidates = []
+    html_fields = []
+    for child in item.iter():
+        tag = child.tag.split("}")[-1].lower()
+        attrs = {key.split("}")[-1].lower(): value for key, value in child.attrib.items()}
+        if tag in {"content", "thumbnail"}:
+            candidates.append(attrs.get("url") or attrs.get("href") or attrs.get("src") or "")
+        elif tag == "enclosure" and str(attrs.get("type", "")).lower().startswith("image/"):
+            candidates.append(attrs.get("url") or attrs.get("href") or "")
+        if tag in {"description", "summary", "content", "encoded"} and child.text:
+            html_fields.append(child.text)
+    for markup in html_fields:
+        candidates.extend(re.findall(r"<img\b[^>]*?\bsrc\s*=\s*['\"]([^'\"]+)['\"]", markup, flags=re.I))
+    for candidate in candidates:
+        image = safe_image_url(candidate, base_url)
+        if image:
+            return image
+    return ""
+
+
 def parse_feed(raw: bytes) -> list[dict]:
     root = ET.fromstring(raw)
     items = root.findall(".//item")
@@ -253,8 +321,9 @@ def parse_feed(raw: bytes) -> list[dict]:
                 if child.tag.split("}")[-1] == "link":
                     link = child.attrib.get("href", "")
                     break
+        image = find_image(item, link)
         if title:
-            parsed.append({"title": title, "summary": summary, "link": link, "published": published})
+            parsed.append({"title": title, "summary": summary, "link": link, "published": published, "image": image})
     return parsed
 
 
@@ -292,18 +361,27 @@ def refresh_retained_categories(
         story["sourceUrl"] = story.get("sourceUrl") or story.get("url") or ""
         story.pop("url", None)
         source = source_by_id.get(story.get("collectionSourceId"))
-        if not source:
-            continue
-        story["category"] = categorize(
-            story.get("title", ""),
-            story.get("excerpt", ""),
-            source.get("categoryHint", ""),
-            rules,
-        )
-        story["tags"] = tags_for(
-            f"{story.get('title', '')} {story.get('excerpt', '')}",
-            story["category"],
-        )
+        if source:
+            story["category"] = categorize(
+                story.get("title", ""),
+                story.get("excerpt", ""),
+                source.get("categoryHint", ""),
+                rules,
+            )
+            story["tags"] = tags_for(
+                f"{story.get('title', '')} {story.get('excerpt', '')}",
+                story["category"],
+            )
+        fallback = category_cover(story["category"])
+        story["imageFallback"] = fallback
+        if not story.get("image") or story.get("image") == DEFAULT_COVER:
+            story["image"] = fallback
+            story["imageSourceType"] = "category-cover"
+            story["imageAttribution"] = "平台板块封面"
+        if not story.get("body"):
+            story["body"] = build_review_body(
+                story.get("excerpt", ""), story.get("source", "公开来源")
+            )
     return stories
 
 
@@ -320,24 +398,44 @@ def tags_for(text: str, category: str) -> list[str]:
     return list(dict.fromkeys(tags))[:5]
 
 
+def build_review_body(summary: str, source_name: str) -> str:
+    summary = truncate_text(summary, 900) or "该条目来自公开订阅源，尚待编辑补充中文摘要。"
+    return (
+        "自动采集摘要\n\n"
+        f"{summary}\n\n"
+        "来源与审核说明\n\n"
+        f"本资料由“{source_name or '公开来源'}”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。"
+        "平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
+    )
+
+
 def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]]) -> dict:
     combined = f"{entry.get('title', '')} {entry.get('summary', '')}"
     fallback = source.get("categoryHint", "")
     if fallback not in rules:
         fallback = next(iter(rules), "科技")
     category = categorize(entry.get("title", ""), entry.get("summary", ""), fallback, rules)
-    excerpt = clean_text(entry.get("summary", ""))[:130] or "来自公开来源的前沿信息，等待后台进一步编辑摘要。"
+    excerpt = truncate_text(entry.get("summary", ""), 280) or "来自公开来源的前沿信息，等待后台进一步编辑摘要。"
     confidence = max(0, min(100, int(source.get("confidence", 75))))
     trust_level = source.get("trustLevel", "standard")
     status = "review" if confidence >= 80 and trust_level in {"authoritative", "professional"} else "draft"
     review_note = "来源可信度较高，仍需核对标题、摘要和原始链接" if status == "review" else "需要编辑核验来源、摘要与分类后再发布"
+    fallback_image = category_cover(category)
+    source_image = safe_image_url(entry.get("image", ""), entry.get("link", ""))
+    image = source_image or fallback_image
+    source_name = source.get("name", "公开来源")
     return {
         "id": index + 1,
         "category": category,
-        "title": entry["title"][:90],
+        "title": truncate_text(entry["title"], 160),
         "excerpt": excerpt,
-        "image": "assets/factory.jpg",
-        "source": source.get("name", "公开来源"),
+        "body": build_review_body(excerpt, source_name),
+        "image": image,
+        "imageFallback": fallback_image,
+        "imageSourceType": "rss" if source_image else "category-cover",
+        "imageAttribution": source_name if source_image else "平台板块封面",
+        "originalTitle": clean_text(entry["title"]),
+        "source": source_name,
         "sourceUrl": entry.get("link", ""),
         "author": "",
         "language": source.get("language", "en"),
