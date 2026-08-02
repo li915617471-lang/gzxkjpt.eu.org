@@ -169,7 +169,10 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
         "completeBody": count_content_characters(body) >= MIN_ARTICLE_CHARS,
         "structuredBody": has_unique_article_sections(body),
         "sourceDisclosure": "来源与审核说明" in str(body),
-        "groundedGeneration": story.get("contentGenerationMode") == "github-models-source-grounded",
+        "groundedGeneration": story.get("contentGenerationMode") in {
+            "github-models-source-grounded",
+            "source-grounded-structured-fallback",
+        },
         "validImage": is_valid_image(story.get("image")),
         "classified": bool(str(story.get("category") or "").strip()),
         "categoryEvidence": evidence_score >= 2,

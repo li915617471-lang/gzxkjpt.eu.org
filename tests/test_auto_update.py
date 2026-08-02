@@ -144,6 +144,21 @@ class RichDraftTests(unittest.TestCase):
         self.assertTrue(auto_update.body_meets_publication_standard(body))
         self.assertFalse(auto_update.body_meets_publication_standard("短文\n\n来源与审核说明"))
 
+    def test_structured_fallback_is_long_and_source_transparent(self):
+        story = {
+            "category": "科技",
+            "source": "NIST",
+            "sourceUrl": "https://example.com/research",
+            "originalTitle": "A semiconductor research update",
+            "title": "A semiconductor research update",
+            "excerpt": "A public summary describes a semiconductor research project and its measurements.",
+            "sourceMaterial": "The source page provides context about the experiment, measurements, and limitations.",
+        }
+        article = auto_update.build_structured_article(story)
+        self.assertEqual(article["title"].startswith("科技前沿观察："), True)
+        self.assertGreaterEqual(auto_update.count_content_characters(article["body"]), 800)
+        self.assertTrue(auto_update.body_meets_publication_standard(article["body"]))
+
 
 if __name__ == "__main__":
     unittest.main()

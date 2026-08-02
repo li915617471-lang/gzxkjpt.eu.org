@@ -146,7 +146,8 @@ function renderArticle(story) {
   document.querySelector("#sourcePublishedAt").textContent = dateLabel(story.originalPublishedAt);
   document.querySelector("#sourceCollectedAt").textContent = dateLabel(story.collectedAt || story.automaticImportedAt);
   document.querySelector("#sourceGenerationMode").textContent = story.contentGenerationMode === "github-models-source-grounded"
-    ? "AI 辅助原创整理" : "编辑整理 / 来源摘要";
+    ? "AI 辅助原创整理" : story.contentGenerationMode === "source-grounded-structured-fallback"
+      ? "来源约束结构化整理" : "编辑整理 / 来源摘要";
   const correctionParams = new URLSearchParams({
     article: String(story.id),
     url: location.href
