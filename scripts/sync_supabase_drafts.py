@@ -1,9 +1,10 @@
-"""Append collected stories to the Supabase review queue.
+"""Append collected stories to Supabase with an optional strict auto-review.
 
-The script is intended for GitHub Actions. It only accepts ``draft`` and
-``review`` states, skips existing source URLs/titles, and never updates an
-existing article. The Supabase service key must be provided through an
-environment secret and is never written to disk or logs.
+The script is intended for GitHub Actions. It skips existing source
+URLs/titles and never updates an existing article. Automatic publication is
+limited to deterministic quality checks configured by the site. The Supabase
+service key must be provided through an environment secret and is never
+written to disk or logs.
 """
 
 from __future__ import annotations
@@ -26,6 +27,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DRAFT_FILE = ROOT / "data" / "intelligence-draft.json"
 AUTOMATIC_ID_BASE = 4_000_000_000_000_000
 MAX_SAFE_INTEGER = 9_007_199_254_740_991
+DEFAULT_MIN_CONFIDENCE = 85
+TRUSTED_LEVELS = {"authoritative", "professional"}
 
 
 def normalize_url(value: str) -> str:
@@ -74,6 +77,72 @@ def is_valid_source_url(value: Any) -> bool:
         return False
 
 
+def is_valid_image(value: Any) -> bool:
+    candidate = str(value or "").strip()
+    if re.fullmatch(r"assets/[a-zA-Z0-9._/-]+", candidate):
+        return True
+    try:
+        parts = urllib.parse.urlsplit(candidate)
+        return parts.scheme.lower() == "https" and bool(parts.netloc)
+    except ValueError:
+        return False
+
+
+def env_flag(name: str, fallback: bool = False) -> bool:
+    value = os.environ.get(name)
+    if value is None:
+        return fallback
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
+def auto_approval_policy(operations: dict[str, Any] | None = None) -> dict[str, Any]:
+    operations = operations or {}
+    default_enabled = env_flag("AUTO_APPROVAL_ENABLED", False)
+    try:
+        default_threshold = int(os.environ.get("AUTO_APPROVAL_MIN_CONFIDENCE", DEFAULT_MIN_CONFIDENCE))
+    except ValueError:
+        default_threshold = DEFAULT_MIN_CONFIDENCE
+    enabled = operations.get("autoApprovalEnabled", default_enabled) is True
+    try:
+        threshold = int(operations.get("autoApprovalMinConfidence", default_threshold))
+    except (TypeError, ValueError):
+        threshold = default_threshold
+    return {
+        "enabled": enabled,
+        "minConfidence": max(70, min(100, threshold)),
+        "policyVersion": 1,
+    }
+
+
+def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dict[str, Any]:
+    title = str(story.get("title") or "").strip()
+    excerpt = str(story.get("excerpt") or "").strip()
+    body = story.get("body") or ""
+    if isinstance(body, list):
+        body = "\n\n".join(str(item) for item in body)
+    confidence = max(0, min(100, int(story.get("confidence") or 0)))
+    trust_level = str(story.get("sourceTrustLevel") or "").strip()
+    checks = {
+        "featureEnabled": policy.get("enabled") is True,
+        "trustedSource": trust_level in TRUSTED_LEVELS,
+        "confidenceThreshold": confidence >= int(policy.get("minConfidence", DEFAULT_MIN_CONFIDENCE)),
+        "validSourceUrl": is_valid_source_url(story.get("sourceUrl") or story.get("url")),
+        "namedSource": len(str(story.get("source") or "").strip()) >= 2,
+        "completeTitle": len(title) >= 10,
+        "completeExcerpt": len(excerpt) >= 60,
+        "completeBody": len(str(body).strip()) >= 160,
+        "validImage": is_valid_image(story.get("image")),
+        "classified": bool(str(story.get("category") or "").strip()),
+        "categoryEvidence": int(story.get("categoryEvidenceScore") or 0) >= 2,
+    }
+    return {
+        "approved": all(checks.values()),
+        "checks": checks,
+        "minConfidence": int(policy.get("minConfidence", DEFAULT_MIN_CONFIDENCE)),
+        "policyVersion": int(policy.get("policyVersion", 1)),
+    }
+
+
 def story_fingerprint(story: dict[str, Any]) -> str:
     source_url = normalize_url(story.get("sourceUrl") or story.get("url") or "")
     identity = source_url or normalize_title(story.get("title", ""))
@@ -93,7 +162,8 @@ def parse_date(value: Any) -> str | None:
 
 
 def article_row(
-    story: dict[str, Any], site_id: str, position: int, imported_at: str
+    story: dict[str, Any], site_id: str, position: int, imported_at: str,
+    approval_policy: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     source_url = str(story.get("sourceUrl") or story.get("url") or "").strip()
     if not is_valid_source_url(source_url):
@@ -102,7 +172,10 @@ def article_row(
     if not normalize_title(story.get("title", "")):
         raise ValueError("Draft title is empty")
 
-    status = story.get("status") if story.get("status") in {"draft", "review"} else "draft"
+    audit = evaluate_auto_approval(story, approval_policy or {"enabled": False})
+    status = "published" if audit["approved"] else (
+        story.get("status") if story.get("status") in {"draft", "review"} else "draft"
+    )
     body = story.get("body", "")
     if isinstance(body, list):
         body = "\n\n".join(str(item) for item in body)
@@ -135,11 +208,16 @@ def article_row(
             "automaticImport": True,
             "automaticFingerprint": fingerprint,
             "automaticImportedAt": imported_at,
+            "automaticApproval": {
+                **audit,
+                "reviewedAt": imported_at,
+                "notice": "自动审核仅验证来源与内容结构，不代替人工事实核查。",
+            },
             "reviewChecks": {
-                "sourceVerified": False,
-                "categoryVerified": False,
+                "sourceVerified": audit["checks"]["validSourceUrl"] and audit["checks"]["trustedSource"],
+                "categoryVerified": audit["checks"]["classified"],
                 "localizationVerified": False,
-                "rightsVerified": False,
+                "rightsVerified": bool(story.get("sourceUrl")) and "来源与审核说明" in str(body),
             },
         }
     )
@@ -159,7 +237,7 @@ def article_row(
         "scheduled_at": None,
         "confidence": max(0, min(100, int(story.get("confidence") or 0))),
         "body": str(body or ""),
-        "time_label": "待审核",
+        "time_label": "自动审核通过" if status == "published" else "待审核",
         "read_minutes": max(1, int(story.get("readMinutes") or 6)),
         "heat": max(0, int(story.get("heat") or 0)),
         "published_date": parse_date(story.get("date")),
@@ -175,6 +253,7 @@ def prepare_rows(
     existing: list[dict[str, Any]],
     site_id: str,
     imported_at: str,
+    approval_policy: dict[str, Any] | None = None,
 ) -> tuple[list[dict[str, Any]], int, int]:
     existing_urls = {
         normalize_url(item.get("source_url", "")) for item in existing if item.get("source_url")
@@ -195,7 +274,9 @@ def prepare_rows(
             duplicates += 1
             continue
         try:
-            row = article_row(story, site_id, next_position + len(rows), imported_at)
+            row = article_row(
+                story, site_id, next_position + len(rows), imported_at, approval_policy
+            )
         except (TypeError, ValueError):
             invalid += 1
             continue
@@ -249,6 +330,17 @@ class SupabaseRest:
             + "&select=id,title,source_url,position&limit=10000",
         )
 
+    def site_operations(self, site_id: str) -> dict[str, Any]:
+        encoded_site = urllib.parse.quote(site_id, safe="")
+        result = self.request(
+            "GET", "site_settings?id=eq." + encoded_site + "&select=extra&limit=1"
+        )
+        if not isinstance(result, list) or not result:
+            return {}
+        extra = result[0].get("extra") if isinstance(result[0], dict) else {}
+        operations = extra.get("operations", {}) if isinstance(extra, dict) else {}
+        return operations if isinstance(operations, dict) else {}
+
     def insert_articles(self, rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
         if not rows:
             return []
@@ -284,8 +376,11 @@ def main() -> int:
         stories = load_stories(args.file)
         client = SupabaseRest(supabase_url, service_key)
         existing = client.existing_articles(site_id)
+        policy = auto_approval_policy(client.site_operations(site_id))
         imported_at = datetime.now(timezone.utc).isoformat()
-        rows, duplicates, invalid = prepare_rows(stories, existing, site_id, imported_at)
+        rows, duplicates, invalid = prepare_rows(
+            stories, existing, site_id, imported_at, policy
+        )
         inserted = rows if args.dry_run else client.insert_articles(rows)
     except (OSError, ValueError, RuntimeError, json.JSONDecodeError) as exc:
         print(f"Draft sync failed: {exc}", file=sys.stderr)
@@ -294,6 +389,7 @@ def main() -> int:
     print(
         "Supabase draft sync: "
         f"inserted={len(inserted)}, duplicates={duplicates}, invalid={invalid}, "
+        f"auto_published={sum(1 for row in inserted if row.get('status') == 'published')}, "
         f"source={len(stories)}"
     )
     return 0

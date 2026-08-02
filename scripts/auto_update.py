@@ -39,12 +39,12 @@ LOG_FILE = ROOT / "data" / "collection-logs.json"
 
 
 CATEGORY_RULES = {
-    "金融": ["finance", "fintech", "bank", "payment", "insurance", "fund", "digital currency", "金融", "银行", "证券", "支付", "保险", "基金", "数字货币"],
-    "农业": ["agriculture", "farming", "crop", "food tech", "agritech", "农业", "农机", "育种", "粮食", "种植", "养殖", "农田"],
-    "能源": ["battery", "energy", "solar", "storage", "geothermal", "renewable", "grid", "电池", "储能", "光伏", "新能源", "电力", "地热"],
-    "工业": ["robot", "factory", "manufacturing", "automation", "industrial", "机器人", "工厂", "制造", "自动化", "产线", "工业互联网"],
-    "人文": ["humanities", "culture", "education", "history", "museum", "society", "人文", "文化", "教育", "历史", "博物馆", "社会"],
-    "科技": ["ai", "artificial intelligence", "model", "compute", "chip", "semiconductor", "wafer", "packaging", "chiplet", "quantum", "人工智能", "大模型", "算力", "模型", "芯片", "半导体", "封装", "晶圆", "量子"]
+    "金融": ["finance", "fintech", "bank", "payment", "insurance", "fund", "digital currency", "monetary", "inflation", "interest rate", "economy", "euro", "金融", "银行", "证券", "支付", "保险", "基金", "数字货币", "利率", "通胀", "货币政策"],
+    "农业": ["agriculture", "farming", "farm", "crop", "food", "food tech", "agritech", "livestock", "irrigation", "农业", "农机", "育种", "粮食", "种植", "养殖", "农田", "农业科技"],
+    "能源": ["battery", "energy", "solar", "storage", "geothermal", "renewable", "grid", "electricity", "oil", "crude", "natural gas", "lng", "电池", "储能", "光伏", "新能源", "电力", "地热", "石油", "天然气"],
+    "工业": ["robot", "factory", "manufacturing", "automation", "industrial", "production", "supply chain", "logistics", "plant", "机器人", "工厂", "制造", "自动化", "产线", "工业互联网", "供应链", "生产"],
+    "人文": ["humanities", "culture", "education", "history", "museum", "society", "art", "literature", "philosophy", "人文", "文化", "教育", "历史", "博物馆", "社会", "艺术", "文学"],
+    "科技": ["ai", "llm", "artificial intelligence", "technology", "model", "compute", "robot", "chip", "semiconductor", "wafer", "packaging", "chiplet", "quantum", "biotech", "人工智能", "大模型", "算力", "模型", "芯片", "半导体", "封装", "晶圆", "量子", "生物技术"]
 }
 
 CATEGORY_COVERS = {
@@ -353,6 +353,13 @@ def categorize(title: str, summary: str, fallback: str, rules: dict[str, list[st
     return category if score > 0 else (fallback or "科技")
 
 
+def category_evidence_score(
+    title: str, summary: str, category: str, rules: dict[str, list[str]]
+) -> int:
+    words = rules.get(category, [])
+    return keyword_hits(title, words) * 3 + keyword_hits(summary, words)
+
+
 def refresh_retained_categories(
     stories: list[dict], sources: list[dict], rules: dict[str, list[str]]
 ) -> list[dict]:
@@ -372,6 +379,9 @@ def refresh_retained_categories(
                 f"{story.get('title', '')} {story.get('excerpt', '')}",
                 story["category"],
             )
+        story["categoryEvidenceScore"] = category_evidence_score(
+            story.get("title", ""), story.get("excerpt", ""), story["category"], rules
+        )
         fallback = category_cover(story["category"])
         story["imageFallback"] = fallback
         if not story.get("image") or story.get("image") == DEFAULT_COVER:
@@ -415,6 +425,9 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
     if fallback not in rules:
         fallback = next(iter(rules), "科技")
     category = categorize(entry.get("title", ""), entry.get("summary", ""), fallback, rules)
+    evidence_score = category_evidence_score(
+        entry.get("title", ""), entry.get("summary", ""), category, rules
+    )
     excerpt = truncate_text(entry.get("summary", ""), 280) or "来自公开来源的前沿信息，等待后台进一步编辑摘要。"
     confidence = max(0, min(100, int(source.get("confidence", 75))))
     trust_level = source.get("trustLevel", "standard")
@@ -427,6 +440,7 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
     return {
         "id": index + 1,
         "category": category,
+        "categoryEvidenceScore": evidence_score,
         "title": truncate_text(entry["title"], 160),
         "excerpt": excerpt,
         "body": build_review_body(excerpt, source_name),

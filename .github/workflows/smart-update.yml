@@ -38,6 +38,8 @@ jobs:
           SUPABASE_URL: https://zpwqkveymyfwgebpkemt.supabase.co
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           SUPABASE_SITE_ID: main
+          AUTO_APPROVAL_ENABLED: "true"
+          AUTO_APPROVAL_MIN_CONFIDENCE: "85"
         run: |
           set -o pipefail
           if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then

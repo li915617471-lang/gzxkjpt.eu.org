@@ -144,6 +144,8 @@ const els = {
   operationSearchEnabled: document.querySelector("#operationSearchEnabled"),
   operationAutoBackup: document.querySelector("#operationAutoBackup"),
   operationBackupLimit: document.querySelector("#operationBackupLimit"),
+  operationAutoApprovalEnabled: document.querySelector("#operationAutoApprovalEnabled"),
+  operationAutoApprovalMinConfidence: document.querySelector("#operationAutoApprovalMinConfidence"),
   backupList: document.querySelector("#backupList"),
   jsonFile: document.querySelector("#jsonFile"),
   authGate: document.querySelector("#authGate"),
@@ -377,11 +379,15 @@ function normalizeContent() {
     contentLicense: "仅聚合公开信息摘要，版权归原作者和原发布机构所有。",
     searchEnabled: true,
     autoBackup: true,
-    backupLimit: 10
+    backupLimit: 10,
+    autoApprovalEnabled: true,
+    autoApprovalMinConfidence: 85
   }, content.operations || {});
   content.operations.searchEnabled = content.operations.searchEnabled !== false;
   content.operations.autoBackup = content.operations.autoBackup !== false;
   content.operations.backupLimit = Math.max(3, Math.min(30, Number(content.operations.backupLimit) || 10));
+  content.operations.autoApprovalEnabled = content.operations.autoApprovalEnabled !== false;
+  content.operations.autoApprovalMinConfidence = Math.max(70, Math.min(100, Number(content.operations.autoApprovalMinConfidence) || 85));
 }
 
 async function hydrateAutomationData() {
@@ -1708,6 +1714,8 @@ function renderOperationsSettings() {
   els.operationSearchEnabled.checked = operations.searchEnabled !== false;
   els.operationAutoBackup.checked = operations.autoBackup !== false;
   els.operationBackupLimit.value = Number(operations.backupLimit || 10);
+  els.operationAutoApprovalEnabled.checked = operations.autoApprovalEnabled !== false;
+  els.operationAutoApprovalMinConfidence.value = Number(operations.autoApprovalMinConfidence || 85);
 }
 
 function saveOperationsSettings(event) {
@@ -1719,7 +1727,9 @@ function saveOperationsSettings(event) {
     contentLicense: els.operationLicense.value.trim(),
     searchEnabled: els.operationSearchEnabled.checked,
     autoBackup: els.operationAutoBackup.checked,
-    backupLimit: Math.max(3, Math.min(30, Number(els.operationBackupLimit.value) || 10))
+    backupLimit: Math.max(3, Math.min(30, Number(els.operationBackupLimit.value) || 10)),
+    autoApprovalEnabled: els.operationAutoApprovalEnabled.checked,
+    autoApprovalMinConfidence: Math.max(70, Math.min(100, Number(els.operationAutoApprovalMinConfidence.value) || 85))
   };
   saveLocal();
   showToast("公益运营设置已保存");

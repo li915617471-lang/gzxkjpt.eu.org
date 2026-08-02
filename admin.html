@@ -410,6 +410,11 @@
             <label class="check-label">启用自动备份<input id="operationAutoBackup" type="checkbox" checked></label>
             <label>最多保留快照<input id="operationBackupLimit" type="number" min="3" max="30" value="10"></label>
           </div>
+          <div class="form-row two">
+            <label class="check-label">启用严格自动审核并通过<input id="operationAutoApprovalEnabled" type="checkbox" checked></label>
+            <label>自动通过最低可信度<input id="operationAutoApprovalMinConfidence" type="number" min="70" max="100" value="85"></label>
+          </div>
+          <p class="muted">只有权威或专业来源、链接与图片有效、摘要正文完整且无重复的内容才会自动公开；审核记录会随文章保存。</p>
           <div class="form-actions">
             <button class="primary-button" type="submit"><i data-lucide="shield-check"></i> 保存公益设置</button>
           </div>

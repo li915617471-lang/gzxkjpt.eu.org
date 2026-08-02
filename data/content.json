@@ -26,7 +26,9 @@
     "contentLicense": "仅聚合公开信息摘要，版权归原作者和原发布机构所有。",
     "searchEnabled": true,
     "autoBackup": true,
-    "backupLimit": 10
+    "backupLimit": 10,
+    "autoApprovalEnabled": true,
+    "autoApprovalMinConfidence": 85
   },
   "categories": ["金融", "科技", "工业", "能源", "农业", "人文"],
   "categorySettings": [
@@ -35,42 +37,42 @@
       "color": "#f4776b",
       "icon": "landmark",
       "enabled": true,
-      "keywords": ["金融", "银行", "证券", "支付", "保险", "基金", "数字货币", "fintech", "finance", "bank", "payment"]
+      "keywords": ["金融", "银行", "证券", "支付", "保险", "基金", "数字货币", "利率", "通胀", "货币政策", "fintech", "finance", "bank", "payment", "monetary", "inflation", "interest rate", "economy", "euro"]
     },
     {
       "name": "科技",
       "color": "#6ee7a8",
       "icon": "cpu",
       "enabled": true,
-      "keywords": ["人工智能", "大模型", "算力", "芯片", "半导体", "量子", "软件", "AI", "chip", "semiconductor", "quantum"]
+      "keywords": ["人工智能", "大模型", "算力", "芯片", "半导体", "量子", "软件", "生物技术", "AI", "LLM", "technology", "robot", "chip", "semiconductor", "quantum", "biotech"]
     },
     {
       "name": "工业",
       "color": "#63cfe3",
       "icon": "factory",
       "enabled": true,
-      "keywords": ["制造", "工厂", "机器人", "产线", "工业互联网", "自动化", "manufacturing", "factory", "automation"]
+      "keywords": ["制造", "工厂", "机器人", "产线", "工业互联网", "自动化", "供应链", "生产", "manufacturing", "factory", "automation", "production", "supply chain", "logistics", "plant"]
     },
     {
       "name": "能源",
       "color": "#f0b85a",
       "icon": "battery-charging",
       "enabled": true,
-      "keywords": ["电池", "储能", "光伏", "新能源", "电力", "风电", "氢能", "energy", "battery", "solar", "grid"]
+      "keywords": ["电池", "储能", "光伏", "新能源", "电力", "风电", "氢能", "石油", "天然气", "energy", "battery", "solar", "grid", "electricity", "oil", "crude", "natural gas", "LNG", "renewable"]
     },
     {
       "name": "农业",
       "color": "#9acb70",
       "icon": "sprout",
       "enabled": true,
-      "keywords": ["农业", "农机", "育种", "粮食", "种植", "养殖", "农田", "agriculture", "farming", "crop", "agritech"]
+      "keywords": ["农业", "农机", "育种", "粮食", "种植", "养殖", "农田", "农业科技", "agriculture", "farming", "farm", "crop", "food", "agritech", "livestock", "irrigation"]
     },
     {
       "name": "人文",
       "color": "#b79ad8",
       "icon": "book-open",
       "enabled": true,
-      "keywords": ["人文", "文化", "教育", "社会", "历史", "博物馆", "艺术", "humanities", "culture", "education", "history"]
+      "keywords": ["人文", "文化", "教育", "社会", "历史", "博物馆", "艺术", "文学", "humanities", "culture", "education", "history", "museum", "society", "art", "literature", "philosophy"]
     }
   ],
   "metrics": [

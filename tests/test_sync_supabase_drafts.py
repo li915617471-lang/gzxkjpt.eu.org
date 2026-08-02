@@ -10,6 +10,21 @@ import sync_supabase_drafts as sync  # noqa: E402
 
 
 class SupabaseDraftSyncTests(unittest.TestCase):
+    def rich_story(self):
+        return {
+            "title": "A major battery storage project reaches commercial operation",
+            "excerpt": "A detailed public summary explains the technology, capacity, participants, and expected industry impact.",
+            "body": "Automatic collection summary\n\n" + ("Detailed verified source context. " * 8),
+            "source": "Official Energy Agency",
+            "sourceUrl": "https://example.com/energy/story",
+            "image": "https://cdn.example.com/energy.jpg",
+            "category": "能源",
+            "categoryEvidenceScore": 4,
+            "confidence": 93,
+            "sourceTrustLevel": "authoritative",
+            "status": "review",
+        }
+
     def test_normalize_url_removes_tracking_parameters(self):
         self.assertEqual(
             sync.normalize_url("HTTPS://Example.com/news/?utm_source=x&id=7#top"),
@@ -82,6 +97,42 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(rows, [])
         self.assertEqual(duplicates, 0)
         self.assertEqual(invalid, 1)
+
+    def test_strict_auto_review_publishes_complete_trusted_story(self):
+        policy = {"enabled": True, "minConfidence": 85, "policyVersion": 1}
+        row = sync.article_row(
+            self.rich_story(), "main", 0, "2026-08-02T00:00:00+00:00", policy
+        )
+        self.assertEqual(row["status"], "published")
+        self.assertEqual(row["time_label"], "自动审核通过")
+        self.assertTrue(row["extra"]["automaticApproval"]["approved"])
+
+    def test_auto_review_keeps_low_confidence_story_pending(self):
+        story = self.rich_story()
+        story["confidence"] = 79
+        policy = {"enabled": True, "minConfidence": 85, "policyVersion": 1}
+        row = sync.article_row(
+            story, "main", 0, "2026-08-02T00:00:00+00:00", policy
+        )
+        self.assertEqual(row["status"], "review")
+        self.assertFalse(row["extra"]["automaticApproval"]["approved"])
+
+    def test_auto_review_can_be_disabled(self):
+        policy = {"enabled": False, "minConfidence": 85, "policyVersion": 1}
+        row = sync.article_row(
+            self.rich_story(), "main", 0, "2026-08-02T00:00:00+00:00", policy
+        )
+        self.assertEqual(row["status"], "review")
+
+    def test_auto_review_rejects_weak_category_relevance(self):
+        story = self.rich_story()
+        story["categoryEvidenceScore"] = 0
+        policy = {"enabled": True, "minConfidence": 85, "policyVersion": 1}
+        row = sync.article_row(
+            story, "main", 0, "2026-08-02T00:00:00+00:00", policy
+        )
+        self.assertEqual(row["status"], "review")
+        self.assertFalse(row["extra"]["automaticApproval"]["checks"]["categoryEvidence"])
 
 
 if __name__ == "__main__":
