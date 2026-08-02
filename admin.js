@@ -1083,9 +1083,14 @@ function renderStoryList() {
   els.storyList.innerHTML = stories.map(function (story) {
     const active = story.id === activeStoryId ? " is-active" : "";
     const status = story.status || "published";
+    const pending = ["draft", "review", "scheduled"].includes(status);
+    const quality = pending ? evaluateStoryQuality(story) : null;
+    const blockingCount = quality ? quality.blocking.length : 0;
+    const qualityColor = quality?.ready ? "var(--green)" : quality?.score >= 70 ? "var(--amber)" : "var(--red)";
     return "<button class=\"story-item" + active + "\" type=\"button\" data-id=\"" + story.id + "\">" +
       "<strong>" + escapeHtml(story.title) + "</strong>" +
       "<span>" + escapeHtml(story.category) + " · " + escapeHtml(story.source || "未设置来源") + " · 热度 " + Number(story.heat || 0) + "</span>" +
+      (quality ? "<span class=\"story-item-quality\" style=\"--quality-color:" + qualityColor + "\">质量 " + quality.score + "/100 · 待补 " + blockingCount + " 项</span>" : "") +
       "<span class=\"story-item-status\" style=\"--status-color:" + STATUS_COLORS[status] + "\">" + STATUS_LABELS[status] + "</span>" +
       "</button>";
   }).join("");

@@ -165,6 +165,8 @@ def pending_drafts() -> list[dict]:
     for story in previous_stories:
         url_key = normalize_url(story.get("sourceUrl") or story.get("url") or "")
         title_key = normalize_title(story.get("title", ""))
+        if not url_key:
+            continue
         if ((url_key and (url_key in content_urls or url_key in retained_urls))
                 or (title_key and (title_key in content_titles or title_key in retained_titles))):
             continue
@@ -287,6 +289,8 @@ def refresh_retained_categories(
 ) -> list[dict]:
     source_by_id = {source.get("id"): source for source in sources if source.get("id")}
     for story in stories:
+        story["sourceUrl"] = story.get("sourceUrl") or story.get("url") or ""
+        story.pop("url", None)
         source = source_by_id.get(story.get("collectionSourceId"))
         if not source:
             continue
@@ -382,6 +386,7 @@ def main() -> int:
     seen_urls, seen_titles = existing_fingerprints()
     fetched = 0
     duplicates = 0
+    invalid_entries = 0
 
     for source in sources:
         source_added = 0
@@ -398,6 +403,9 @@ def main() -> int:
                 fetched += 1
                 url_key = normalize_url(entry.get("link", ""))
                 title_key = normalize_title(entry.get("title", ""))
+                if not url_key:
+                    invalid_entries += 1
+                    continue
                 if (url_key and url_key in seen_urls) or near_duplicate_title(title_key, seen_titles):
                     duplicates += 1
                     source_duplicates += 1
@@ -445,6 +453,7 @@ def main() -> int:
         "fetched": fetched,
         "added": min(len(stories), 30),
         "duplicates": duplicates,
+        "invalid": invalid_entries,
         "errors": errors,
         "sourceResults": source_results,
     }
@@ -472,7 +481,7 @@ def main() -> int:
     print(f"已生成：{OUTPUT_FILE}")
     print(
         f"新增入队：{new_in_queue}，保留待审：{len(queue) - new_in_queue}，重复跳过：{duplicates}，"
-        f"成功来源：{collection['sourcesSucceeded']}，失败来源：{len(errors)}"
+        f"无效条目：{invalid_entries}，成功来源：{collection['sourcesSucceeded']}，失败来源：{len(errors)}"
     )
     return 0
 

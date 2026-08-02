@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T04:38:36.641921+00:00",
+  "generatedAt": "2026-08-02T06:17:52.951280+00:00",
   "stories": [
     {
       "id": 12,
@@ -52,7 +52,7 @@
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
       "originalPublishedAt": "Thu, 30 Jul 2026 17:10:00 +0000",
-      "collectedAt": "2026-08-02T04:38:32.864270+00:00",
+      "collectedAt": "2026-08-02T06:17:22.773376+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -214,7 +214,7 @@
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
       "originalPublishedAt": "Thu, 30 Jul 2026 10:15:19 +0000",
-      "collectedAt": "2026-08-02T04:38:32.865073+00:00",
+      "collectedAt": "2026-08-02T06:17:22.774383+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -376,7 +376,7 @@
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Sat, 01 Aug 2026 12:00:01 +0000",
-      "collectedAt": "2026-08-02T04:38:33.254341+00:00",
+      "collectedAt": "2026-08-02T06:17:25.907963+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -538,7 +538,7 @@
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Thu, 30 Jul 2026 18:00:03 +0000",
-      "collectedAt": "2026-08-02T04:38:33.258343+00:00",
+      "collectedAt": "2026-08-02T06:17:25.912482+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -700,7 +700,7 @@
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Wed, 29 Jul 2026 14:55:45 +0000",
-      "collectedAt": "2026-08-02T04:38:33.261650+00:00",
+      "collectedAt": "2026-08-02T06:17:25.917250+00:00",
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接"
     },
     {
@@ -714,11 +714,11 @@
       "readMinutes": 6,
       "heat": 78,
       "date": "2026-07-30",
-      "url": "https://www.manufacturingdive.com/news/mit-wants-technologists-to-be-nurse-practitioners-manufacturing-engineering/826469/",
       "tags": [
         "工业"
       ],
-      "status": "draft"
+      "status": "draft",
+      "sourceUrl": "https://www.manufacturingdive.com/news/mit-wants-technologists-to-be-nurse-practitioners-manufacturing-engineering/826469/"
     },
     {
       "id": 13,
@@ -796,26 +796,37 @@
       "collectionSourceId": "open-culture"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "European Central Bank",
+      "error": "连续 3 次请求失败（9870ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+    }
+  ],
   "collection": {
-    "id": "2026-08-02T04:38:36.641921+00:00",
-    "startedAt": "2026-08-02T04:38:32.679734+00:00",
-    "finishedAt": "2026-08-02T04:38:36.641921+00:00",
-    "status": "success",
+    "id": "2026-08-02T06:17:52.951280+00:00",
+    "startedAt": "2026-08-02T06:17:20.077095+00:00",
+    "finishedAt": "2026-08-02T06:17:52.951280+00:00",
+    "status": "partial",
     "sourcesTotal": 8,
-    "sourcesSucceeded": 8,
-    "sourcesFailed": 0,
-    "fetched": 40,
+    "sourcesSucceeded": 7,
+    "sourcesFailed": 1,
+    "fetched": 35,
     "added": 10,
-    "duplicates": 30,
-    "errors": [],
+    "duplicates": 25,
+    "invalid": 0,
+    "errors": [
+      {
+        "source": "European Central Bank",
+        "error": "连续 3 次请求失败（9870ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      }
+    ],
     "sourceResults": [
       {
         "sourceId": "mit-technology-review",
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 169,
+        "durationMs": 2681,
         "fetched": 5,
         "added": 2,
         "duplicates": 3
@@ -825,7 +836,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 384,
+        "durationMs": 3125,
         "fetched": 5,
         "added": 3,
         "duplicates": 2
@@ -835,7 +846,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 32,
+        "durationMs": 2441,
         "fetched": 5,
         "added": 1,
         "duplicates": 4
@@ -845,7 +856,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1013,
+        "durationMs": 4953,
         "fetched": 5,
         "added": 4,
         "duplicates": 1
@@ -855,7 +866,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 192,
+        "durationMs": 2996,
         "fetched": 5,
         "added": 0,
         "duplicates": 5
@@ -865,7 +876,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 975,
+        "durationMs": 4141,
         "fetched": 5,
         "added": 0,
         "duplicates": 5
@@ -873,19 +884,20 @@
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 882,
-        "fetched": 5,
+        "status": "failed",
+        "attempts": 3,
+        "durationMs": 0,
+        "fetched": 0,
         "added": 0,
-        "duplicates": 5
+        "duplicates": 0,
+        "error": "连续 3 次请求失败（9870ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
       },
       {
         "sourceId": "us-energy-information-administration",
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 277,
+        "durationMs": 2621,
         "fetched": 5,
         "added": 0,
         "duplicates": 5

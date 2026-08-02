@@ -677,6 +677,11 @@ label {
   color: var(--status-color, var(--muted)) !important;
 }
 
+.story-item-quality {
+  color: var(--quality-color, var(--muted)) !important;
+  font: 700 11px Consolas, monospace;
+}
+
 .report-toolbar {
   display: flex;
   align-items: end;

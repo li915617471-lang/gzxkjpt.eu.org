@@ -72,6 +72,17 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(duplicates, 1)
         self.assertEqual(invalid, 0)
 
+    def test_prepare_rows_rejects_missing_source_url(self):
+        rows, duplicates, invalid = sync.prepare_rows(
+            [{"title": "Draft without a source link", "sourceUrl": ""}],
+            [],
+            "main",
+            "2026-08-02T00:00:00+00:00",
+        )
+        self.assertEqual(rows, [])
+        self.assertEqual(duplicates, 0)
+        self.assertEqual(invalid, 1)
+
 
 if __name__ == "__main__":
     unittest.main()

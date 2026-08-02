@@ -66,6 +66,14 @@ def normalize_title(value: str) -> str:
     return re.sub(r"[^\w\u4e00-\u9fff]+", "", str(value or "").lower())
 
 
+def is_valid_source_url(value: Any) -> bool:
+    try:
+        parts = urllib.parse.urlsplit(str(value or "").strip())
+        return parts.scheme.lower() in {"http", "https"} and bool(parts.netloc)
+    except ValueError:
+        return False
+
+
 def story_fingerprint(story: dict[str, Any]) -> str:
     source_url = normalize_url(story.get("sourceUrl") or story.get("url") or "")
     identity = source_url or normalize_title(story.get("title", ""))
@@ -87,6 +95,9 @@ def parse_date(value: Any) -> str | None:
 def article_row(
     story: dict[str, Any], site_id: str, position: int, imported_at: str
 ) -> dict[str, Any]:
+    source_url = str(story.get("sourceUrl") or story.get("url") or "").strip()
+    if not is_valid_source_url(source_url):
+        raise ValueError("Draft source URL is missing or invalid")
     fingerprint = story_fingerprint(story)
     if not normalize_title(story.get("title", "")):
         raise ValueError("Draft title is empty")
@@ -141,7 +152,7 @@ def article_row(
         "excerpt": str(story.get("excerpt") or "")[:2000],
         "image": str(story.get("image") or "")[:1000],
         "source": str(story.get("source") or "公开来源")[:300],
-        "source_url": str(story.get("sourceUrl") or story.get("url") or "")[:2000],
+        "source_url": source_url[:2000],
         "author": str(story.get("author") or "")[:300],
         "language": str(story.get("language") or "zh-CN")[:30],
         "status": status,

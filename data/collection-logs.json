@@ -1,6 +1,210 @@
 {
   "logs": [
     {
+      "id": "2026-08-02T06:17:52.951280+00:00",
+      "startedAt": "2026-08-02T06:17:20.077095+00:00",
+      "finishedAt": "2026-08-02T06:17:52.951280+00:00",
+      "status": "partial",
+      "sourcesTotal": 8,
+      "sourcesSucceeded": 7,
+      "sourcesFailed": 1,
+      "fetched": 35,
+      "added": 10,
+      "duplicates": 25,
+      "invalid": 0,
+      "errors": [
+        {
+          "source": "European Central Bank",
+          "error": "连续 3 次请求失败（9870ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        }
+      ],
+      "sourceResults": [
+        {
+          "sourceId": "mit-technology-review",
+          "source": "MIT Technology Review",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2681,
+          "fetched": 5,
+          "added": 2,
+          "duplicates": 3
+        },
+        {
+          "sourceId": "ieee-spectrum",
+          "source": "IEEE Spectrum",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 3125,
+          "fetched": 5,
+          "added": 3,
+          "duplicates": 2
+        },
+        {
+          "sourceId": "manufacturing-dive",
+          "source": "Manufacturing Dive",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2441,
+          "fetched": 5,
+          "added": 1,
+          "duplicates": 4
+        },
+        {
+          "sourceId": "semiconductor-engineering",
+          "source": "Semiconductor Engineering",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 4953,
+          "fetched": 5,
+          "added": 4,
+          "duplicates": 1
+        },
+        {
+          "sourceId": "global-ag-tech-initiative",
+          "source": "Global Ag Tech Initiative",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2996,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "open-culture",
+          "source": "Open Culture",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 4141,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "european-central-bank",
+          "source": "European Central Bank",
+          "status": "failed",
+          "attempts": 3,
+          "durationMs": 0,
+          "fetched": 0,
+          "added": 0,
+          "duplicates": 0,
+          "error": "连续 3 次请求失败（9870ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        },
+        {
+          "sourceId": "us-energy-information-administration",
+          "source": "U.S. Energy Information Administration",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2621,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        }
+      ]
+    },
+    {
+      "id": "2026-08-02T06:16:05.752654+00:00",
+      "startedAt": "2026-08-02T06:15:33.045901+00:00",
+      "finishedAt": "2026-08-02T06:16:05.752654+00:00",
+      "status": "partial",
+      "sourcesTotal": 8,
+      "sourcesSucceeded": 7,
+      "sourcesFailed": 1,
+      "fetched": 35,
+      "added": 10,
+      "duplicates": 25,
+      "invalid": 0,
+      "errors": [
+        {
+          "source": "European Central Bank",
+          "error": "连续 3 次请求失败（9906ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        }
+      ],
+      "sourceResults": [
+        {
+          "sourceId": "mit-technology-review",
+          "source": "MIT Technology Review",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2639,
+          "fetched": 5,
+          "added": 3,
+          "duplicates": 2
+        },
+        {
+          "sourceId": "ieee-spectrum",
+          "source": "IEEE Spectrum",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 3174,
+          "fetched": 5,
+          "added": 2,
+          "duplicates": 3
+        },
+        {
+          "sourceId": "manufacturing-dive",
+          "source": "Manufacturing Dive",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2457,
+          "fetched": 5,
+          "added": 1,
+          "duplicates": 4
+        },
+        {
+          "sourceId": "semiconductor-engineering",
+          "source": "Semiconductor Engineering",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 4620,
+          "fetched": 5,
+          "added": 4,
+          "duplicates": 1
+        },
+        {
+          "sourceId": "global-ag-tech-initiative",
+          "source": "Global Ag Tech Initiative",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 3078,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "open-culture",
+          "source": "Open Culture",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 4123,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "european-central-bank",
+          "source": "European Central Bank",
+          "status": "failed",
+          "attempts": 3,
+          "durationMs": 0,
+          "fetched": 0,
+          "added": 0,
+          "duplicates": 0,
+          "error": "连续 3 次请求失败（9906ms）：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+        },
+        {
+          "sourceId": "us-energy-information-administration",
+          "source": "U.S. Energy Information Administration",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2655,
+          "fetched": 5,
+          "added": 0,
+          "duplicates": 5
+        }
+      ]
+    },
+    {
       "id": "2026-08-02T04:38:36.641921+00:00",
       "startedAt": "2026-08-02T04:38:32.679734+00:00",
       "finishedAt": "2026-08-02T04:38:36.641921+00:00",
