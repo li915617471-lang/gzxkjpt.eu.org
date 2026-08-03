@@ -92,6 +92,8 @@ function getCategorySetting(name) {
 }
 
 function storyIsPublic(story) {
+  const body = Array.isArray(story.body) ? story.body.join("\n\n") : String(story.body || "");
+  if (body.replace(/\s/g, "").length < 800) return false;
   if (!story.status || story.status === "published") return true;
   if (story.status === "scheduled" && story.scheduledAt) {
     return new Date(story.scheduledAt).getTime() <= Date.now();
