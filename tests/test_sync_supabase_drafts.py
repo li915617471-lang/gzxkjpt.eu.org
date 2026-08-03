@@ -254,6 +254,32 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(promotions[0]["status"], "published")
         self.assertEqual(counts["能源"], 1)
 
+    def test_daily_target_can_replace_legacy_row_without_import_metadata(self):
+        story = self.rich_story()
+        legacy = {
+            "id": 42,
+            "title": story["title"],
+            "source_url": story["sourceUrl"],
+            "category": story["category"],
+            "status": "published",
+            "body": "旧版短正文",
+            "extra": {},
+            "position": 2,
+        }
+        policy = {
+            "enabled": True,
+            "minConfidence": 85,
+            "fallbackMinConfidence": 78,
+            "dailyTargetPerCategory": 3,
+            "policyVersion": 2,
+        }
+        promotions, counts = sync.prepare_promotions(
+            [story], [legacy], [], policy, "2026-08-03T08:00:00+00:00"
+        )
+        self.assertEqual(len(promotions), 1)
+        self.assertEqual(promotions[0]["extra"]["automaticPromotionOf"], 42)
+        self.assertEqual(counts["能源"], 1)
+
 
 if __name__ == "__main__":
     unittest.main()

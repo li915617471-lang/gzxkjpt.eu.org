@@ -516,6 +516,33 @@ def prepare_promotions(
         category = str(story.get("category") or "")
         grouped.setdefault(category, []).append((story, row, audit))
 
+    # Some legacy rows predate automaticImport metadata. A current story that
+    # passes every v2 gate can still create a dated replacement publication.
+    candidate_urls = {
+        normalize_url(story.get("sourceUrl") or story.get("url") or "")
+        for candidates in grouped.values()
+        for story, _, _ in candidates
+    }
+    existing_by_url = {
+        normalize_url(row.get("source_url") or ""): row
+        for row in existing
+        if normalize_url(row.get("source_url") or "")
+    }
+    for story in stories:
+        story_url = normalize_url(story.get("sourceUrl") or story.get("url") or "")
+        if not story_url or story_url in published_urls or story_url in candidate_urls:
+            continue
+        audit = evaluate_auto_approval(story, relaxed_policy)
+        if not audit["approved"]:
+            continue
+        reference = existing_by_url.get(story_url) or {
+            "id": automatic_article_id(story_fingerprint(story)),
+            "extra": {"automaticImport": True},
+        }
+        category = str(story.get("category") or "")
+        grouped.setdefault(category, []).append((story, reference, audit))
+        candidate_urls.add(story_url)
+
     promotions: list[dict[str, Any]] = []
     for category, candidates in grouped.items():
         needed = max(0, target - counts.get(category, 0))
@@ -609,7 +636,7 @@ class SupabaseRest:
             "GET",
             "articles?site_id=eq."
             + encoded_site
-            + "&select=id,title,source_url,position,category,status,extra,updated_at&limit=10000",
+            + "&select=id,title,source_url,body,position,category,status,extra,updated_at&limit=10000",
         )
 
     def site_operations(self, site_id: str) -> dict[str, Any]:
