@@ -94,6 +94,31 @@ def is_valid_image(value: Any) -> bool:
         return False
 
 
+def is_valid_automatic_video(story: dict[str, Any]) -> bool:
+    """Require automated videos to remain official external links only."""
+    if story.get("contentKind") != "video":
+        return True
+    video_url = str(story.get("videoUrl") or "").strip()
+    source_url = str(story.get("sourceUrl") or story.get("url") or "").strip()
+    return (
+        story.get("videoType") == "external"
+        and story.get("videoLinkOnly") is True
+        and story.get("videoRightsConfirmed") is True
+        and is_valid_source_url(video_url)
+        and urllib.parse.urlsplit(video_url).scheme.lower() == "https"
+        and normalize_url(video_url) == normalize_url(source_url)
+        and is_valid_image(story.get("videoPoster") or story.get("image"))
+    )
+
+
+def rights_are_verified(story: dict[str, Any], body: Any) -> bool:
+    return (
+        bool(story.get("sourceUrl") or story.get("url"))
+        and has_source_disclosure(body)
+        and is_valid_automatic_video(story)
+    )
+
+
 def count_content_characters(value: Any) -> int:
     return len(re.findall(r"[A-Za-z0-9\u3400-\u9fff]", str(value or "")))
 
@@ -199,6 +224,7 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
         "validImage": is_valid_image(story.get("image")),
         "classified": bool(str(story.get("category") or "").strip()),
         "categoryEvidence": evidence_score >= 2,
+        "videoSafety": is_valid_automatic_video(story),
     }
     return {
         "approved": all(checks.values()),
@@ -369,7 +395,7 @@ def article_row(
                 "sourceVerified": audit["checks"]["validSourceUrl"] and audit["checks"]["trustedSource"],
                 "categoryVerified": audit["checks"]["classified"],
                 "localizationVerified": False,
-                "rightsVerified": bool(story.get("sourceUrl")) and has_source_disclosure(body),
+                "rightsVerified": rights_are_verified(story, body),
             },
         }
     )
@@ -583,7 +609,7 @@ def prepare_promotions(
                     "sourceVerified": True,
                     "categoryVerified": True,
                     "localizationVerified": False,
-                    "rightsVerified": bool(story.get("sourceUrl")) and has_source_disclosure(body),
+                    "rightsVerified": rights_are_verified(story, body),
                 },
             })
             original_source_url = str(story.get("sourceUrl") or story.get("url") or "")

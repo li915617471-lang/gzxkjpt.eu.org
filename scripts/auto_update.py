@@ -519,7 +519,12 @@ def parse_html_list(raw: bytes, source: dict) -> list[dict]:
 
 def parse_json_list(raw: bytes, source: dict) -> list[dict]:
     payload = json.loads(decode_web_text(raw))
-    items = payload.get("datasource", []) if isinstance(payload, dict) else []
+    items = []
+    if isinstance(payload, dict):
+        if isinstance(payload.get("datasource"), list):
+            items = payload["datasource"]
+        elif isinstance(payload.get("data"), dict) and isinstance(payload["data"].get("list"), list):
+            items = payload["data"]["list"]
     parsed = []
     for item in items[:20]:
         if not isinstance(item, dict):
@@ -527,14 +532,16 @@ def parse_json_list(raw: bytes, source: dict) -> list[dict]:
         title = clean_text(item.get("showTitle") or item.get("title") or "")
         link = urllib.parse.urljoin(str(source.get("url") or ""), str(item.get("publishUrl") or item.get("url") or ""))
         images = item.get("titleImages") if isinstance(item.get("titleImages"), list) else []
-        image = images[0].get("imageUrl", "") if images and isinstance(images[0], dict) else ""
+        image = images[0].get("imageUrl", "") if images and isinstance(images[0], dict) else item.get("image", "")
         if title and normalize_url(link):
             parsed.append({
                 "title": title,
-                "summary": clean_text(item.get("description") or item.get("summary") or ""),
+                "summary": clean_text(item.get("description") or item.get("summary") or item.get("brief") or ""),
                 "link": link,
-                "published": clean_text(item.get("publishTime") or item.get("date") or ""),
+                "published": clean_text(item.get("publishTime") or item.get("date") or item.get("time") or ""),
                 "image": safe_image_url(image, link),
+                "duration": clean_text(item.get("length") or item.get("duration") or ""),
+                "externalId": clean_text(item.get("guid") or item.get("id") or ""),
             })
     return parsed
 
@@ -1000,6 +1007,14 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
     evidence_score = category_evidence_score(
         entry.get("title", ""), entry.get("summary", ""), category, rules
     )
+    if (
+        source.get("contentKind") == "video"
+        and source.get("trustLevel") == "authoritative"
+        and category == source.get("categoryHint")
+    ):
+        # A curated official science program is itself evidence for its
+        # configured fallback category when an episode uses a plain-language title.
+        evidence_score = max(2, evidence_score)
     excerpt = truncate_text(entry.get("summary", ""), 280) or "来自公开来源的前沿信息，等待后台进一步编辑摘要。"
     confidence = max(0, min(100, int(source.get("confidence", 75))))
     trust_level = source.get("trustLevel", "standard")
@@ -1009,7 +1024,7 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
     source_image = safe_image_url(entry.get("image", ""), entry.get("link", ""))
     image = source_image or fallback_image
     source_name = source.get("name", "公开来源")
-    return {
+    story = {
         "id": index + 1,
         "category": category,
         "categoryEvidenceScore": evidence_score,
@@ -1042,6 +1057,20 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
         "sourceMaterial": truncate_text(entry.get("sourceMaterial") or entry.get("summary", ""), 6000),
         "sourceMaterialType": entry.get("sourceMaterialType", "rss"),
     }
+    if source.get("contentKind") == "video":
+        story.update({
+            "contentKind": "video",
+            "videoType": source.get("videoType", "external"),
+            "videoUrl": entry.get("link", ""),
+            "videoPoster": source_image or fallback_image,
+            "videoRightsConfirmed": source.get("videoRightsConfirmed") is True,
+            "videoLinkOnly": source.get("videoLinkOnly") is True,
+            "homeVideoFeatured": source.get("homeVideoFeatured") is True,
+            "homeVideoPriority": max(0, min(100, int(source.get("homeVideoPriority", 50)))),
+            "videoDuration": entry.get("duration", ""),
+            "videoExternalId": entry.get("externalId", ""),
+        })
+    return story
 
 
 def save_collection_log(log: dict) -> None:

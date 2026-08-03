@@ -158,6 +158,39 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(row["status"], "review")
         self.assertFalse(row["extra"]["automaticApproval"]["checks"]["categoryEvidence"])
 
+    def test_auto_review_accepts_official_external_video_link(self):
+        story = self.rich_story()
+        story.update({
+            "contentKind": "video",
+            "videoType": "external",
+            "videoUrl": story["sourceUrl"],
+            "videoPoster": story["image"],
+            "videoLinkOnly": True,
+            "videoRightsConfirmed": True,
+            "homeVideoFeatured": True,
+        })
+        policy = {"enabled": True, "minConfidence": 85, "policyVersion": 2}
+        row = sync.article_row(story, "main", 0, "2026-08-03T00:00:00+00:00", policy)
+        self.assertEqual(row["status"], "published")
+        self.assertTrue(row["extra"]["automaticApproval"]["checks"]["videoSafety"])
+        self.assertEqual(row["extra"]["videoType"], "external")
+
+    def test_auto_review_rejects_video_without_link_only_permission(self):
+        story = self.rich_story()
+        story.update({
+            "contentKind": "video",
+            "videoType": "external",
+            "videoUrl": story["sourceUrl"],
+            "videoPoster": story["image"],
+            "videoLinkOnly": False,
+            "videoRightsConfirmed": False,
+        })
+        policy = {"enabled": True, "minConfidence": 85, "policyVersion": 2}
+        row = sync.article_row(story, "main", 0, "2026-08-03T00:00:00+00:00", policy)
+        self.assertEqual(row["status"], "review")
+        self.assertFalse(row["extra"]["automaticApproval"]["checks"]["videoSafety"])
+        self.assertFalse(row["extra"]["reviewChecks"]["rightsVerified"])
+
     def test_daily_target_uses_three_newest_safe_candidates_per_category(self):
         stories = []
         for index, date in enumerate(["2026-07-29", "2026-07-30", "2026-07-31", "2026-08-01"]):

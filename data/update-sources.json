@@ -32,6 +32,26 @@
       "maxItems": 10
     },
     {
+      "id": "china-cctv-innovation-video",
+      "name": "中央广播电视总台《创新进行时》",
+      "url": "https://api.cntv.cn/NewVideo/getVideoListByColumn?id=TOPC1570875218228998&n=10&sort=desc&p=1&d=&mode=0&serviceId=tvcctv",
+      "format": "json",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoLinkOnly": true,
+      "videoRightsConfirmed": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 80,
+      "categoryHint": "科技",
+      "type": "official",
+      "trustLevel": "authoritative",
+      "region": "中国",
+      "language": "zh-CN",
+      "enabled": true,
+      "confidence": 97,
+      "maxItems": 6
+    },
+    {
       "id": "china-stats-releases",
       "name": "中华人民共和国国家统计局",
       "url": "https://www.stats.gov.cn/sj/zxfb/",

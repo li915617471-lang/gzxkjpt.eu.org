@@ -122,6 +122,40 @@ class RichDraftTests(unittest.TestCase):
         self.assertEqual(parsed[0]["link"], "https://energy.example.cn/news/202608/item.html")
         self.assertEqual(parsed[0]["image"], "https://energy.example.cn/images/energy.jpg")
 
+    def test_cctv_video_json_list_is_parsed(self):
+        raw = """{"data":{"list":[{"guid":"video-guid","id":"VIDE123","time":"2026-08-03 09:00:00","title":"《创新进行时》 海中机器鱼","length":"00:18:52","image":"https://p3.img.cctvpic.com/video.jpg","brief":"本期节目介绍机器鱼的结构、控制方法和海洋应用。","url":"https://tv.cctv.com/2026/08/03/VIDE123.shtml"}]}}""".encode("utf-8")
+        source = {"url": "https://api.cntv.cn/video/list", "format": "json"}
+        parsed = auto_update.parse_source(raw, source)
+        self.assertEqual(parsed[0]["title"], "《创新进行时》 海中机器鱼")
+        self.assertEqual(parsed[0]["duration"], "00:18:52")
+        self.assertEqual(parsed[0]["externalId"], "video-guid")
+        self.assertEqual(parsed[0]["link"], "https://tv.cctv.com/2026/08/03/VIDE123.shtml")
+
+    def test_video_source_adds_safe_home_video_fields(self):
+        source = {
+            "id": "cctv-video", "name": "中央广播电视总台", "categoryHint": "科技",
+            "confidence": 97, "trustLevel": "authoritative", "language": "zh-CN",
+            "contentKind": "video", "videoType": "external", "videoLinkOnly": True,
+            "videoRightsConfirmed": True, "homeVideoFeatured": True, "homeVideoPriority": 80,
+        }
+        entry = {
+            "title": "机器鱼水下控制技术取得新进展",
+            "summary": "节目介绍机器鱼的结构设计、运动控制、测试过程和海洋应用方向。",
+            "link": "https://tv.cctv.com/video.shtml", "published": "2026-08-03",
+            "image": "https://p3.img.cctvpic.com/video.jpg", "duration": "00:18:52",
+            "externalId": "video-guid",
+        }
+        story = auto_update.make_story(entry, source, 0, auto_update.CATEGORY_RULES)
+        self.assertEqual(story["contentKind"], "video")
+        self.assertEqual(story["videoType"], "external")
+        self.assertEqual(story["videoUrl"], entry["link"])
+        self.assertEqual(story["videoPoster"], entry["image"])
+        self.assertTrue(story["videoRightsConfirmed"])
+        self.assertTrue(story["homeVideoFeatured"])
+        self.assertEqual(story["homeVideoPriority"], 80)
+        self.assertEqual(story["videoDuration"], "00:18:52")
+        self.assertGreaterEqual(story["categoryEvidenceScore"], 2)
+
     def test_html_image_and_relative_url_are_parsed(self):
         raw = b"""<?xml version='1.0'?>
         <rss><channel><item>
