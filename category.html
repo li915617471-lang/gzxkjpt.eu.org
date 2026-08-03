@@ -10,15 +10,15 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
   <link rel="apple-touch-icon" href="assets/icon-192.png">
   <title>板块内容 | 信息分享平台</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="category.css">
+  <link rel="stylesheet" href="styles.css?v=6">
+  <link rel="stylesheet" href="category.css?v=2">
   <script src="cloud-config.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="assets/vendor/supabase-2.111.0.min.js" defer></script>
   <script src="cloud.js" defer></script>
-  <script src="content-service.js?v=5" defer></script>
-  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="content-service.js?v=7" defer></script>
+  <script src="assets/vendor/lucide-0.468.0.min.js" defer></script>
   <script src="pwa.js?v=2" defer></script>
-  <script src="category.js?v=1" defer></script>
+  <script src="category.js?v=3" defer></script>
 </head>
 <body class="category-page">
   <div class="scanline" aria-hidden="true"></div>
@@ -38,6 +38,7 @@
         <span id="categoryEyebrow" class="category-eyebrow">板块观察</span>
         <h1 id="categoryTitle">正在加载板块</h1>
         <p id="categoryDescription"></p>
+        <div id="categoryTopics" class="category-topics" aria-label="板块关注方向"></div>
         <div id="categoryMetrics" class="category-metrics" aria-label="板块内容统计"></div>
       </div>
     </section>
@@ -46,6 +47,20 @@
       <div class="category-feed-head">
         <div><span class="section-label">精选资料</span><h2 id="categoryFeedTitle">最新内容</h2></div>
         <span id="categoryCount" class="result-count">正在同步内容</span>
+      </div>
+      <div class="category-tools">
+        <label class="category-search" aria-label="板块内搜索">
+          <i data-lucide="search" aria-hidden="true"></i>
+          <input id="categorySearch" type="search" placeholder="搜索本板块内容" autocomplete="off">
+        </label>
+        <label class="category-sort-label">
+          <span>排序</span>
+          <select id="categorySort" aria-label="板块内容排序">
+            <option value="latest">最新发布</option>
+            <option value="hot">热度优先</option>
+            <option value="depth">深度优先</option>
+          </select>
+        </label>
       </div>
       <div id="categoryStories" class="story-grid"></div>
       <div id="categoryEmpty" class="empty-state" hidden>

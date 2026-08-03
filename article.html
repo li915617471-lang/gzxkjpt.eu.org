@@ -18,15 +18,15 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
   <link rel="apple-touch-icon" href="assets/icon-192.png">
   <title>文章详情 | 信息分享平台</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="article.css">
+  <link rel="stylesheet" href="styles.css?v=6">
+  <link rel="stylesheet" href="article.css?v=2">
   <script src="cloud-config.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="assets/vendor/supabase-2.111.0.min.js" defer></script>
   <script src="cloud.js" defer></script>
-  <script src="content-service.js?v=5" defer></script>
-  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="content-service.js?v=7" defer></script>
+  <script src="assets/vendor/lucide-0.468.0.min.js" defer></script>
   <script src="pwa.js?v=2" defer></script>
-  <script src="article.js?v=7" defer></script>
+  <script src="article.js?v=10" defer></script>
   <script id="articleStructuredData" type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"信息分享平台文章详情"}</script>
 </head>
 <body class="article-page">
@@ -63,6 +63,13 @@
         <h1 id="articleTitle"></h1>
         <p id="articleExcerpt" class="article-lead"></p>
         <figure class="article-cover"><img id="articleImage" alt=""></figure>
+        <section id="articleVideo" class="article-video" aria-label="文章视频" hidden>
+          <div id="articleVideoPlayer" class="article-video-player"></div>
+          <div class="article-video-meta">
+            <span><i data-lucide="video"></i> 视频资料</span>
+            <a id="articleVideoSource" target="_blank" rel="noopener noreferrer">前往视频来源 <i data-lucide="external-link"></i></a>
+          </div>
+        </section>
       </header>
 
       <div class="article-layout">
@@ -75,7 +82,6 @@
           <section class="source-brief">
             <div class="source-brief-title"><i data-lucide="file-search"></i><span>简要来源</span></div>
             <strong id="articleSource"></strong>
-            <p id="sourceBriefNote"></p>
             <a id="sourceLink" target="_blank" rel="noopener noreferrer">查看完整原文 <i data-lucide="external-link"></i></a>
             <dl class="source-brief-facts">
               <div><dt>原文发布</dt><dd id="sourcePublishedAt"></dd></div>
@@ -92,7 +98,6 @@
           </section>
           <section class="article-governance">
             <div><i data-lucide="scale"></i><span>引用与纠错</span></div>
-            <p>摘要不替代原文，版权归原作者或发布机构所有。</p>
             <a id="correctionLink" href="governance.html#correction">查看规则与提交纠错 <i data-lucide="arrow-up-right"></i></a>
           </section>
         </aside>

@@ -2,7 +2,7 @@
 信息分享平台智能更新草稿脚本
 
 作用：
-1. 读取 data/update-sources.json 里的公开 RSS 来源；
+1. 读取 data/update-sources.json 里的公开 RSS、官方网页栏目和 JSON 来源；
 2. 抓取最新标题、链接、摘要；
 3. 按关键词自动分类；
 4. 生成 data/intelligence-draft.json；
@@ -384,7 +384,7 @@ def fetch(url: str, max_attempts: int = 3) -> tuple[bytes, int, int]:
                 url,
                 headers={
                     "User-Agent": "Information-Share-RSS/1.0 (+https://gzxkjpt.eu.org)",
-                    "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.5",
+                    "Accept": "application/rss+xml, application/atom+xml, application/json, text/html, application/xml, text/xml;q=0.9, */*;q=0.5",
                 },
             )
             with urllib.request.urlopen(request, timeout=20) as response:
@@ -460,10 +460,99 @@ def parse_feed(raw: bytes) -> list[dict]:
     return parsed
 
 
+def decode_web_text(raw: bytes) -> str:
+    """Decode Chinese government pages that may omit an HTTP charset."""
+    head = raw[:12000]
+    match = re.search(br"charset\s*=\s*['\"]?([a-zA-Z0-9._-]+)", head, flags=re.I)
+    candidates = [match.group(1).decode("ascii", errors="ignore") if match else "", "utf-8", "gb18030"]
+    for encoding in candidates:
+        if not encoding:
+            continue
+        try:
+            return raw.decode(encoding)
+        except (LookupError, UnicodeDecodeError):
+            continue
+    return raw.decode("utf-8", errors="replace")
+
+
+class HtmlListParser(HTMLParser):
+    def __init__(self, base_url: str, link_pattern: str = "") -> None:
+        super().__init__(convert_charrefs=True)
+        self.base_url = base_url
+        self.link_pattern = re.compile(link_pattern) if link_pattern else None
+        self.href = ""
+        self.parts: list[str] = []
+        self.entries: list[dict] = []
+        self.seen: set[str] = set()
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "a":
+            return
+        self.href = dict(attrs).get("href") or ""
+        self.parts = []
+
+    def handle_data(self, data: str) -> None:
+        if self.href:
+            self.parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.lower() != "a" or not self.href:
+            return
+        title = clean_text(" ".join(self.parts))
+        link = urllib.parse.urljoin(self.base_url, self.href)
+        normalized = normalize_url(link)
+        allowed = not self.link_pattern or bool(self.link_pattern.search(urllib.parse.urlsplit(link).path))
+        if allowed and normalized and normalized not in self.seen and len(title) >= 8:
+            date_match = re.search(r"(20\d{2})(\d{2})(\d{2})", link)
+            published = "-".join(date_match.groups()) if date_match else ""
+            self.entries.append({"title": title, "summary": "", "link": link, "published": published, "image": ""})
+            self.seen.add(normalized)
+        self.href = ""
+        self.parts = []
+
+
+def parse_html_list(raw: bytes, source: dict) -> list[dict]:
+    parser = HtmlListParser(str(source.get("url") or ""), str(source.get("linkPattern") or ""))
+    parser.feed(decode_web_text(raw))
+    return parser.entries[:20]
+
+
+def parse_json_list(raw: bytes, source: dict) -> list[dict]:
+    payload = json.loads(decode_web_text(raw))
+    items = payload.get("datasource", []) if isinstance(payload, dict) else []
+    parsed = []
+    for item in items[:20]:
+        if not isinstance(item, dict):
+            continue
+        title = clean_text(item.get("showTitle") or item.get("title") or "")
+        link = urllib.parse.urljoin(str(source.get("url") or ""), str(item.get("publishUrl") or item.get("url") or ""))
+        images = item.get("titleImages") if isinstance(item.get("titleImages"), list) else []
+        image = images[0].get("imageUrl", "") if images and isinstance(images[0], dict) else ""
+        if title and normalize_url(link):
+            parsed.append({
+                "title": title,
+                "summary": clean_text(item.get("description") or item.get("summary") or ""),
+                "link": link,
+                "published": clean_text(item.get("publishTime") or item.get("date") or ""),
+                "image": safe_image_url(image, link),
+            })
+    return parsed
+
+
+def parse_source(raw: bytes, source: dict) -> list[dict]:
+    source_format = str(source.get("format") or "rss").lower()
+    if source_format == "html":
+        return parse_html_list(raw, source)
+    if source_format == "json":
+        return parse_json_list(raw, source)
+    return parse_feed(raw)
+
+
 class PageMetadataParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self.in_main = 0
+        self.in_excluded = 0
         self.capture_tag = ""
         self.capture_parts: list[str] = []
         self.blocks: list[str] = []
@@ -475,6 +564,8 @@ class PageMetadataParser(HTMLParser):
         tag = tag.lower()
         if tag == "main":
             self.in_main += 1
+        if tag in {"header", "nav", "footer", "script", "style"}:
+            self.in_excluded += 1
         if tag == "meta":
             key = (attrs_map.get("property") or attrs_map.get("name") or "").lower()
             content = attrs_map.get("content", "")
@@ -482,7 +573,7 @@ class PageMetadataParser(HTMLParser):
                 self.description = clean_text(content)
             if key in {"og:image", "og:image:secure_url", "twitter:image"} and not self.image:
                 self.image = content.strip()
-        if self.in_main and tag in {"p", "li"} and not self.capture_tag:
+        if not self.in_excluded and tag in {"p", "li"} and not self.capture_tag:
             self.capture_tag = tag
             self.capture_parts = []
 
@@ -500,6 +591,8 @@ class PageMetadataParser(HTMLParser):
             self.capture_parts = []
         if tag == "main" and self.in_main:
             self.in_main -= 1
+        if tag in {"header", "nav", "footer", "script", "style"} and self.in_excluded:
+            self.in_excluded -= 1
 
 
 def enrich_entry_from_page(entry: dict) -> dict:
@@ -510,7 +603,7 @@ def enrich_entry_from_page(entry: dict) -> dict:
     try:
         raw, _, _ = fetch(link, max_attempts=1)
         parser = PageMetadataParser()
-        parser.feed(raw.decode("utf-8", errors="replace"))
+        parser.feed(decode_web_text(raw))
     except (RuntimeError, ValueError, UnicodeError):
         return entry
     enriched = dict(entry)
@@ -669,7 +762,7 @@ def fallback_topic(category: str, title: str, material: str) -> tuple[str, str]:
             return topic_title, topic_summary
     return (
         f"{category}公开资料提供新的观察线索",
-        f"来源线索与{category}板块相关，但公开摘要提供的中文细节有限。平台会先给出阅读框架，帮助读者理解这类信息通常应该从哪些角度判断。",
+        f"这项公开信息与{category}领域近期的研究、技术、制度或应用变化有关，具体主题由来源标题和摘要共同呈现。",
     )
 
 
@@ -724,15 +817,16 @@ def generate_ai_article(story: dict) -> dict:
     source_name = str(story.get("source") or "公开来源")
     display_source = localized_source_name(source_name)
     source_url = str(story.get("sourceUrl") or "")
-    prompt = f"""请把下面的公开来源材料整理成中文科普文章。只使用材料中明确出现的事实，不补造数字、人物、结论或因果关系。
+    prompt = f"""请把下面的公开来源材料整理成内容完整、通俗易懂的中文科普文章。只使用材料中明确出现的事实，不补造数字、人物、结论或因果关系。
 
 输出必须是一个 JSON 对象，字段只有 title、excerpt、body：
 - title：准确的中文标题，10-60字；
 - excerpt：中文导语，80-160字；
-- body：1100-1600个中文字符，分为“事件概览、背景与原理、关键进展、应用与影响、局限与待观察、读者如何核验”六节，每节用“节标题\\n\\n正文”表示，各节之间空一行；不要使用 Markdown 符号；
+- body：1100-1600个中文字符，分为“核心进展、背景与原理、关键内容、应用与影响”四个内容章节，每节用“节标题\\n\\n正文”表示，各节之间空一行；不要使用 Markdown 符号；
+- 开头直接讲事件或知识本身，不写审核、可信度、核验方法、编辑流程、阅读建议或免责声明；
 - 全文必须使用中文表达；不要出现英文段落、英文标题、英文来源名或网页地址；外文机构名请译成中文，无法确认译名时写“来源机构”；
 - 不要复制长句，专业名词和短引用除外；材料没说的内容明确写“来源材料未说明”；
-- 不写宣传语，不声称平台完成了独立事实核查；
+- 不写宣传语，不使用“平台整理”“仍待核验”“读者如何核验”“局限与待观察”等提示型表述；
 - body 不要写“来源与审核说明”或“简要来源”，来源尾注由系统另行添加。
 
 板块：{story.get('category', '')}
@@ -797,7 +891,7 @@ def generate_ai_article(story: dict) -> dict:
         raise ValueError("生成正文不应直接展示网页地址")
     body += (
         f"\n\n{SOURCE_DISCLOSURE_HEADING}\n\n"
-        f"来源：{display_source}公开资料。本文为平台中文整理，版权归原发布方所有；重要数据请以原文为准。"
+        f"来源：{display_source}公开资料。版权归原作者或发布机构所有，请以原文为准。"
     )
     if not body_meets_publication_standard(body):
         raise ValueError("生成正文未通过结构、长度或重复检查")
@@ -817,22 +911,17 @@ def build_structured_article(story: dict) -> dict:
     summary = summary or topic_summary
     display_title = title_source if has_cjk_text(title_source) else topic_title
     title = f"{category}前沿观察：{display_title}" if display_title else f"{category}板块前沿观察"
-    excerpt = truncate_text(
-        f"{display_source}发布了一条与{category}相关的公开信息。平台根据可访问的标题、摘要和有限正文片段整理重点，并明确区分来源事实、板块背景与仍待核验的部分。",
-        180,
-    )
+    excerpt = truncate_text(f"{summary}{context['impact']}", 180)
     sections = [
-        ("事件概览", f"来源材料显示：{summary}。这段材料只用于确定文章主题和阅读范围，不代表平台已经完成独立事实核查。读者可以先把它理解为一个前沿线索：它提示某个机构、企业或研究团队正在公开讨论相关问题，但具体进展仍要回到原文确认。"),
-        ("背景与原理", context["background"] + "因此，平台整理时会优先说明这类信息为什么重要、它通常涉及哪些基本概念，以及哪些内容只是背景解释而不是来源已经证明的结论。"),
-        ("如何理解这项进展", context["principle"] + "如果来源材料比较短，文章会减少对具体数字的展开，更多提供阅读框架，帮助读者知道下一步应该查什么、问什么、比较什么。"),
-        ("可能的应用与影响", context["impact"] + f"就当前条目而言，来源材料明确说明的影响仅限于上述公开内容；更广泛的市场或社会影响仍需要后续数据验证。不能因为信息来自前沿领域，就直接推断它已经成熟、已经低成本可用，或一定会在所有地区复制。"),
-        ("局限与待观察", "当前材料可能缺少完整方法、样本、成本、对照组或长期结果。来源页面没有说明的数字、时间表、因果关系和预测，平台不会替来源补写。后续应观察是否有正式报告、同行评议、监管文件、独立测量、连续周期数据或真实应用案例出现。若这些证据没有出现，相关进展更适合作为趋势线索，而不是确定性结论。"),
-        ("读者如何核验", "建议先打开原始来源，核对标题、发布时间、作者或发布机构，再检查正文中的定义、统计口径和适用范围。若来源页面更新、撤回或更正，应以页面最新版本为准。阅读时还可以把同一主题下的官方文件、学术资料、行业报告和企业公告放在一起比较，避免只根据单一来源形成判断。"),
+        ("核心进展", f"{summary}。这一进展属于{category}领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。"),
+        ("背景与原理", context["background"] + context["principle"]),
+        ("关键内容", context["principle"] + "这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。"),
+        ("应用与影响", context["impact"] + "从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。"),
     ]
     body = "\n\n".join(f"{heading}\n\n{text}" for heading, text in sections)
     body += (
         f"\n\n{SOURCE_DISCLOSURE_HEADING}\n\n"
-        f"来源：{display_source}公开资料。本文为平台中文结构化整理，版权归原发布方所有；重要数据请以原文为准。"
+        f"来源：{display_source}公开资料。版权归原作者或发布机构所有，请以原文为准。"
     )
     if not body_meets_publication_standard(body):
         raise ValueError("结构化整理正文未达到 800 字标准")
@@ -992,7 +1081,7 @@ def main() -> int:
         duration_ms = 0
         try:
             raw, attempts, duration_ms = fetch(source["url"])
-            entries = parse_feed(raw)
+            entries = parse_source(raw, source)
             if not entries:
                 raise ValueError("订阅未返回可解析条目")
             max_items = max(1, min(20, int(source.get("maxItems", 5))))

@@ -7,11 +7,11 @@
   <title>信息分享平台 | 平台管理后台</title>
   <link rel="stylesheet" href="admin.css">
   <script src="cloud-config.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="assets/vendor/supabase-2.111.0.min.js" defer></script>
   <script src="cloud.js" defer></script>
-  <script src="content-service.js?v=4" defer></script>
-  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
-  <script src="admin.js?v=3" defer></script>
+  <script src="content-service.js?v=7" defer></script>
+  <script src="assets/vendor/lucide-0.468.0.min.js" defer></script>
+  <script src="admin.js?v=4" defer></script>
 </head>
 <body>
   <section id="authGate" class="auth-gate" hidden>
@@ -202,6 +202,21 @@
             <label>原始来源链接<input id="storySourceUrl" type="url" placeholder="https://..."></label>
           </div>
           <label>图片地址或上传后的图片数据<input id="storyImage" placeholder="assets/factory.jpg 或上传图片自动填入"></label>
+          <div class="form-row two">
+            <label>视频类型
+              <select id="storyVideoType">
+                <option value="none">无视频</option>
+                <option value="file">MP4 / WebM 直连视频</option>
+                <option value="bilibili">哔哩哔哩官方播放器</option>
+                <option value="external">其他网站观看链接</option>
+              </select>
+            </label>
+            <label>视频地址<input id="storyVideoUrl" type="url" placeholder="https://..."></label>
+          </div>
+          <div class="form-row two">
+            <label>视频封面<input id="storyVideoPoster" placeholder="留空时使用文章封面"></label>
+            <label class="check-label"><span>已确认视频允许嵌入或传播</span><input id="storyVideoRightsConfirmed" type="checkbox"></label>
+          </div>
           <label>标签<input id="storyTags" placeholder="用逗号分隔，例如：工业大模型, 数字孪生"></label>
           <div class="form-actions">
             <button class="primary-button" type="submit"><i data-lucide="check"></i> 保存内容</button>
@@ -294,7 +309,17 @@
               <label>来源名称<input id="sourceName" required placeholder="例如：行业协会资讯"></label>
               <label>默认板块<select id="sourceCategory"></select></label>
             </div>
-            <label>RSS / Atom 地址<input id="sourceUrl" type="url" required placeholder="https://example.com/feed.xml"></label>
+            <label>采集地址<input id="sourceUrl" type="url" required placeholder="https://example.com/feed.xml"></label>
+            <div class="form-row two">
+              <label>采集格式
+                <select id="sourceFormat">
+                  <option value="rss">RSS / Atom</option>
+                  <option value="html">官方网页栏目</option>
+                  <option value="json">官方 JSON</option>
+                </select>
+              </label>
+              <label>文章路径规则<input id="sourceLinkPattern" placeholder="网页栏目可填写正则表达式"></label>
+            </div>
             <div class="form-row two">
               <label>来源类型
                 <select id="sourceType">

@@ -1,6 +1,7 @@
 (function () {
   const ADMIN_CONTENT_KEY = "fx-admin-content";
   const PUBLIC_CACHE_KEY = "fx-public-content-cache-v1";
+  const LEGACY_AUTOMATIC_EXCERPT_NOTICE = "平台根据可访问的标题、摘要和有限正文片段整理重点，并明确区分来源事实、板块背景与仍待核验的部分。";
   const DEMO_TITLES = new Set([
     "先进封装扩产提速，Chiplet 进入规模化验证阶段",
     "固态电池中试线密集落地，材料体系仍是成本分水岭",
@@ -45,6 +46,12 @@
     } catch (error) {
       console.warn("公开内容缓存写入失败", error);
     }
+  }
+
+  function presentationExcerpt(story) {
+    let text = String(story?.excerpt || "").trim();
+    if (!(story?.automaticImport || story?.contentGenerationMode || story?.collectionSourceId)) return text;
+    return text.split(LEGACY_AUTOMATIC_EXCERPT_NOTICE).join("").replace(/。。+/g, "。").trim();
   }
 
   function mergeContentBaseline(existingContent, fileContent, persistLocal) {
@@ -113,28 +120,43 @@
     return fileContent ? mergeContentBaseline(value, fileContent, false) : value;
   }
 
-  function refreshPublicContent(fileContent) {
-    return loadCloudContent().then(function (cloudContent) {
-      if (!cloudContent?.stories) return null;
-      const next = mergeWithBaseline(cloudContent, fileContent);
-      savePublicCache(next);
-      window.dispatchEvent(new CustomEvent("fxcontentupdate", { detail: next }));
-      return next;
-    });
+  async function refreshPublicContent(url, initialFileContent) {
+    const fileContent = initialFileContent || await loadFile(url);
+    const cloudContent = await loadCloudContent();
+    const cached = readPublicCache();
+    const next = cloudContent?.stories
+      ? mergeWithBaseline(cloudContent, fileContent)
+      : cached?.stories
+        ? mergeWithBaseline(cached, fileContent)
+        : fileContent;
+    if (!next?.stories) return null;
+    savePublicCache(next);
+    window.dispatchEvent(new CustomEvent("fxcontentupdate", { detail: next }));
+    return next;
   }
 
   async function load(url, options) {
-    const fileContent = await loadFile(url);
     const background = options?.background === true;
 
     if (background) {
       const cached = readPublicCache();
-      // Do not block the first paint on an unreliable cloud request.
-      if (window.FXCloud?.isConfigured()) refreshPublicContent(fileContent);
-      if (cached) return mergeWithBaseline(cached, fileContent);
+      // Render cached content immediately, then refresh static and cloud data.
+      if (cached) {
+        refreshPublicContent(url);
+        return cached;
+      }
       const local = readLocal();
-      return local?.stories ? mergeWithBaseline(local, fileContent) : fileContent;
+      if (local?.stories) {
+        if (window.FXCloud?.isConfigured()) refreshPublicContent(url);
+        return local;
+      }
+      const fileContent = await loadFile(url);
+      if (fileContent?.stories) savePublicCache(fileContent);
+      if (window.FXCloud?.isConfigured()) refreshPublicContent(url, fileContent);
+      return fileContent;
     }
+
+    const fileContent = await loadFile(url);
 
     if (window.FXCloud?.isConfigured()) {
       const cloudContent = await loadCloudContent();
@@ -153,6 +175,7 @@
   window.FXContent = {
     load: load,
     readLocal: readLocal,
-    readPublicCache: readPublicCache
+    readPublicCache: readPublicCache,
+    presentationExcerpt: presentationExcerpt
   };
 })();

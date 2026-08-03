@@ -114,11 +114,40 @@
     return result.data.session;
   }
 
+  function isAuthNetworkError(error) {
+    const message = String(error?.message || error || "");
+    return /failed to fetch|fetch failed|networkerror|network request failed|load failed/i.test(message);
+  }
+
+  function friendlyAuthError(error) {
+    const message = String(error?.message || error || "");
+    if (isAuthNetworkError(error)) {
+      return new Error("无法连接 Supabase。请刷新页面，并关闭本页的网页翻译或拦截扩展；仍失败时请到“高级配置”点击“测试连接”。");
+    }
+    if (/invalid login credentials/i.test(message)) {
+      return new Error("邮箱或密码不正确，请重新输入；如果尚未设置密码，请先使用 Supabase 邀请邮件中的链接完成设置。");
+    }
+    if (/email not confirmed/i.test(message)) {
+      return new Error("邮箱尚未验证，请先打开 Supabase 发送的确认邮件完成验证。");
+    }
+    return error instanceof Error ? error : new Error(message || "管理员登录失败");
+  }
+
   async function signIn(email, password) {
-    const active = await init();
+    let active = await init();
     if (!active) throw new Error("云端配置尚未启用");
-    const result = await active.auth.signInWithPassword({ email: email, password: password });
-    if (result.error) throw result.error;
+    let result;
+    try {
+      result = await active.auth.signInWithPassword({ email: email, password: password });
+      if (result.error && isAuthNetworkError(result.error)) {
+        client = null;
+        active = await init();
+        result = await active.auth.signInWithPassword({ email: email, password: password });
+      }
+    } catch (error) {
+      throw friendlyAuthError(error);
+    }
+    if (result.error) throw friendlyAuthError(result.error);
     return result.data.session;
   }
 

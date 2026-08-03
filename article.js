@@ -45,38 +45,11 @@ const SOURCE_NAME_ALIASES = {
   "Smithsonian Magazine": "史密森学会杂志"
 };
 
-const ARTICLE_TEXT_ALIASES = Object.assign({}, SOURCE_NAME_ALIASES, {
-  "Liber Novus": "《新书》",
-  "Nucor": "纽柯钢铁",
-  "Chiplet": "芯粒",
-  "Digital euro": "数字欧元",
-  "Federal Reserve Board": "美国联邦储备委员会",
-  "The Red Book": "《红书》",
-  "Carl Jung": "卡尔·荣格"
-});
-
 function sourceDisplayName(value) {
   const name = String(value || "").trim();
   if (!name) return "公开来源";
   if (SOURCE_NAME_ALIASES[name]) return SOURCE_NAME_ALIASES[name];
   return /^[\x00-\x7f\s.,&'()/-]+$/.test(name) ? "公开来源机构" : name;
-}
-
-function localizeArticleText(value, story) {
-  let text = String(value || "");
-  const rawSource = String(story?.source || "").trim();
-  const displaySource = sourceDisplayName(rawSource);
-  Object.entries(ARTICLE_TEXT_ALIASES).forEach(function ([raw, translated]) {
-    text = text.split(raw).join(translated);
-  });
-  if (rawSource && rawSource !== displaySource) {
-    text = text.split(rawSource).join(displaySource);
-  }
-  const sourceUrl = String(story?.sourceUrl || story?.url || "").trim();
-  if (sourceUrl) {
-    text = text.split(sourceUrl).join("原文链接");
-  }
-  return text.replace(/\b[A-Za-z][A-Za-z'-]*(?:\s+[A-Za-z][A-Za-z'-]*){2,}\b/g, "相关外文信息");
 }
 
 function dateLabel(value) {
@@ -141,19 +114,67 @@ function bodyParagraphs(story) {
 function sourceBriefText(story) {
   const sourceName = sourceDisplayName(story.source);
   const published = dateOnlyLabel(story.originalPublishedAt || story.date);
-  return "简要来源：" + sourceName + "公开资料" +
+  return "来源：" + sourceName +
     (published ? "，原文发布时间：" + published : "") +
-    "。本文为平台中文整理，版权归原发布方所有，重要数据请以原文为准。";
+    "。版权归原作者或发布机构所有，请以原文为准。";
+}
+
+const LEGACY_AUTOMATIC_SECTION_HEADINGS = new Set([
+  "编辑状态",
+  "局限与待观察",
+  "读者如何核验"
+]);
+
+const LEGACY_AUTOMATIC_NOTICES = [
+  "这段材料只用于确定文章主题和阅读范围，不代表平台已经完成独立事实核查。读者可以先把它理解为一个前沿线索：它提示某个机构、企业或研究团队正在公开讨论相关问题，但具体进展仍要回到原文确认。",
+  "因此，平台整理时会优先说明这类信息为什么重要、它通常涉及哪些基本概念，以及哪些内容只是背景解释而不是来源已经证明的结论。",
+  "如果来源材料比较短，文章会减少对具体数字的展开，更多提供阅读框架，帮助读者知道下一步应该查什么、问什么、比较什么。",
+  "就当前条目而言，来源材料明确说明的影响仅限于上述公开内容；更广泛的市场或社会影响仍需要后续数据验证。不能因为信息来自前沿领域，就直接推断它已经成熟、已经低成本可用，或一定会在所有地区复制。",
+  "平台根据可访问的标题、摘要和有限正文片段整理重点，并明确区分来源事实、板块背景与仍待核验的部分。"
+];
+
+const LEGACY_GENERIC_OPENING = /^来源线索与[^。]+板块相关，但公开摘要提供的中文细节有限。平台会先给出阅读框架，帮助读者理解这类信息通常应该从哪些角度判断。?/;
+
+function isAutomaticStory(story) {
+  return Boolean(story.automaticImport || story.contentGenerationMode || story.collectionSourceId);
+}
+
+function cleanLegacyAutomaticText(value, story) {
+  let text = String(value || "").trim();
+  if (!isAutomaticStory(story)) return text;
+  LEGACY_AUTOMATIC_NOTICES.forEach(function (notice) {
+    text = text.split(notice).join("");
+  });
+  text = text
+    .replace(/^来源材料显示[:：]\s*/, "")
+    .replace(LEGACY_GENERIC_OPENING, "")
+    .replace(/。。+/g, "。")
+    .trim();
+  return /^[。！？；，、,.!?;:：]+$/.test(text) ? "" : text;
 }
 
 function normalizeArticleParagraphs(story) {
-  let paragraphs = bodyParagraphs(story).map(function (paragraph) {
-    return localizeArticleText(paragraph, story).trim();
-  }).filter(Boolean);
-  const disclosureIndex = paragraphs.findIndex(function (paragraph) {
-    return /^(来源与审核说明|简要来源)$/.test(paragraph) || /^简要来源[:：]/.test(paragraph);
-  });
-  if (disclosureIndex >= 0) paragraphs = paragraphs.slice(0, disclosureIndex);
+  const rawParagraphs = bodyParagraphs(story);
+  const paragraphs = [];
+  let skipNextAutomaticParagraph = false;
+  for (const rawParagraph of rawParagraphs) {
+    const paragraph = String(rawParagraph || "").trim();
+    if (/^(来源与审核说明|简要来源)$/.test(paragraph) || /^(简要来源|来源)[:：]/.test(paragraph)) break;
+    if (isAutomaticStory(story) && LEGACY_AUTOMATIC_SECTION_HEADINGS.has(paragraph)) {
+      skipNextAutomaticParagraph = true;
+      continue;
+    }
+    if (skipNextAutomaticParagraph) {
+      skipNextAutomaticParagraph = false;
+      continue;
+    }
+    const cleaned = cleanLegacyAutomaticText(paragraph, story);
+    if (cleaned) {
+      paragraphs.push(cleaned);
+    } else if (paragraphs.length && /^[^。！？；，、,.!?;:：]{2,18}$/.test(paragraphs[paragraphs.length - 1])) {
+      paragraphs.pop();
+    }
+  }
   return paragraphs.concat(["简要来源", sourceBriefText(story)]);
 }
 
@@ -172,6 +193,89 @@ function renderBody(story) {
   document.querySelector("#articleBody").innerHTML = paragraphs
     .map(articleParagraphHtml)
     .join("");
+}
+
+function safeVideoUrl(value) {
+  try {
+    const url = new URL(String(value || ""), location.href);
+    return url.protocol === "https:" || url.origin === location.origin ? url.href : "";
+  } catch (error) {
+    return "";
+  }
+}
+
+function bilibiliPlayerUrl(value) {
+  try {
+    const url = new URL(String(value || ""));
+    if (!/(^|\.)bilibili\.com$/i.test(url.hostname)) return "";
+    const match = url.href.match(/\b(BV[0-9A-Za-z]{10})\b/);
+    return match ? "https://player.bilibili.com/player.html?bvid=" + encodeURIComponent(match[1]) + "&autoplay=0" : "";
+  } catch (error) {
+    return "";
+  }
+}
+
+function appendExternalVideoLink(container, href) {
+  const overlay = document.createElement("div");
+  overlay.className = "article-video-external";
+  const link = document.createElement("a");
+  link.href = href;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = "前往来源网站观看";
+  const icon = document.createElement("i");
+  icon.setAttribute("data-lucide", "external-link");
+  link.appendChild(icon);
+  overlay.appendChild(link);
+  container.appendChild(overlay);
+}
+
+function renderArticleVideo(story) {
+  const section = document.querySelector("#articleVideo");
+  const player = document.querySelector("#articleVideoPlayer");
+  const sourceLink = document.querySelector("#articleVideoSource");
+  const videoType = String(story.videoType || "none");
+  const videoUrl = safeVideoUrl(story.videoUrl);
+  section.hidden = true;
+  player.replaceChildren();
+  if (videoType === "none" || !videoUrl || story.videoRightsConfirmed !== true) return false;
+
+  if (videoType === "file") {
+    const pathname = new URL(videoUrl).pathname.toLowerCase();
+    if (!/\.(mp4|webm|ogg)$/.test(pathname)) return false;
+    const video = document.createElement("video");
+    video.src = videoUrl;
+    video.controls = true;
+    video.preload = "metadata";
+    video.playsInline = true;
+    video.setAttribute("controlsList", "nodownload");
+    const poster = safeVideoUrl(story.videoPoster || story.image);
+    if (poster) video.poster = poster;
+    player.appendChild(video);
+  } else if (videoType === "bilibili") {
+    const embedUrl = bilibiliPlayerUrl(videoUrl);
+    if (!embedUrl) return false;
+    const frame = document.createElement("iframe");
+    frame.src = embedUrl;
+    frame.title = story.title + " 视频";
+    frame.loading = "lazy";
+    frame.allow = "fullscreen; autoplay; encrypted-media; picture-in-picture";
+    frame.allowFullscreen = true;
+    frame.referrerPolicy = "strict-origin-when-cross-origin";
+    player.appendChild(frame);
+  } else if (videoType === "external") {
+    const poster = document.createElement("img");
+    poster.src = safeVideoUrl(story.videoPoster || story.image) || "assets/factory.jpg";
+    poster.alt = story.title + " 视频封面";
+    player.appendChild(poster);
+    appendExternalVideoLink(player, videoUrl);
+  } else {
+    return false;
+  }
+
+  sourceLink.href = videoUrl;
+  section.hidden = false;
+  return true;
 }
 
 function renderRelated(story) {
@@ -208,7 +312,7 @@ function renderArticle(story) {
   document.querySelector("#articleDate").textContent = story.date || story.time || "";
   document.querySelector("#articleRead").textContent = Number(story.readMinutes || 6) + " 分钟阅读";
   document.querySelector("#articleTitle").textContent = story.title;
-  document.querySelector("#articleExcerpt").textContent = story.excerpt || "";
+  document.querySelector("#articleExcerpt").textContent = window.FXContent.presentationExcerpt(story);
   const articleImage = document.querySelector("#articleImage");
   const imageFallback = story.imageFallback || "assets/factory.jpg";
   articleImage.referrerPolicy = "no-referrer";
@@ -217,6 +321,7 @@ function renderArticle(story) {
   };
   articleImage.src = story.image || imageFallback;
   articleImage.alt = story.title;
+  document.querySelector(".article-cover").hidden = renderArticleVideo(story);
   document.querySelector("#articleSource").textContent = sourceDisplayName(story.source);
   document.querySelector("#railCategory").textContent = story.category;
   document.querySelector("#railDate").textContent = story.date || "未设置";
@@ -225,7 +330,6 @@ function renderArticle(story) {
   const sourceUrl = story.sourceUrl || story.url;
   sourceLink.hidden = !sourceUrl;
   if (sourceUrl) sourceLink.href = sourceUrl;
-  document.querySelector("#sourceBriefNote").textContent = "点击下方可阅读原网站完整原文；平台仅发布中文整理与出处。";
   document.querySelector("#sourcePublishedAt").textContent = dateLabel(story.originalPublishedAt);
   document.querySelector("#sourceCollectedAt").textContent = dateLabel(story.collectedAt || story.automaticImportedAt);
   const correctionParams = new URLSearchParams({

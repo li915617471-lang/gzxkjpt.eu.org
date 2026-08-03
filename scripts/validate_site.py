@@ -16,6 +16,7 @@ from xml.etree import ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 HTML_FILES = ("index.html", "article.html", "category.html", "governance.html", "admin.html", "auth.html", "offline.html", "404.html")
 VALID_STATUSES = {"draft", "review", "scheduled", "published", "archived"}
+VALID_VIDEO_TYPES = {"none", "file", "bilibili", "external"}
 
 
 class ReferenceParser(HTMLParser):
@@ -105,6 +106,18 @@ def validate_content(validator: Validator, content: dict) -> list[dict]:
         source_url = str(story.get("sourceUrl") or story.get("url") or "").strip()
         if source_url:
             validator.require(source_url.startswith(("http://", "https://")), f"文章 {story_id} 来源链接无效")
+        video_type = str(story.get("videoType") or "none")
+        video_url = str(story.get("videoUrl") or "").strip()
+        validator.require(video_type in VALID_VIDEO_TYPES, f"文章 {story_id} 视频类型无效")
+        if video_type != "none":
+            validator.require(video_url.startswith("https://"), f"文章 {story_id} 视频必须使用 HTTPS")
+            validator.require(story.get("videoRightsConfirmed") is True, f"文章 {story_id} 尚未确认视频传播权限")
+            if video_type == "file":
+                validator.require(bool(re.search(r"\.(?:mp4|webm|ogg)(?:\?.*)?$", video_url, re.I)), f"文章 {story_id} 直连视频格式无效")
+            if video_type == "bilibili":
+                validator.require(bool(re.search(r"\bBV[0-9A-Za-z]{10}\b", video_url)), f"文章 {story_id} 哔哩哔哩地址缺少 BV 号")
+                video_host = urlparse(video_url).hostname or ""
+                validator.require(video_host == "bilibili.com" or video_host.endswith(".bilibili.com"), f"文章 {story_id} 哔哩哔哩视频域名无效")
         if public_story(story):
             validator.require(len(str(story.get("excerpt") or "").strip()) >= 20, f"公开文章 {story_id} 摘要过短")
             validator.warn(bool(source_url), f"公开文章 {story_id} 尚未设置原始来源链接")

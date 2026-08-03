@@ -110,6 +110,10 @@ const els = {
   storyLanguage: document.querySelector("#storyLanguage"),
   storySourceUrl: document.querySelector("#storySourceUrl"),
   storyImage: document.querySelector("#storyImage"),
+  storyVideoType: document.querySelector("#storyVideoType"),
+  storyVideoUrl: document.querySelector("#storyVideoUrl"),
+  storyVideoPoster: document.querySelector("#storyVideoPoster"),
+  storyVideoRightsConfirmed: document.querySelector("#storyVideoRightsConfirmed"),
   storyTags: document.querySelector("#storyTags"),
   reportList: document.querySelector("#reportList"),
   reportQueueCount: document.querySelector("#reportQueueCount"),
@@ -124,6 +128,8 @@ const els = {
   sourceId: document.querySelector("#sourceId"),
   sourceName: document.querySelector("#sourceName"),
   sourceUrl: document.querySelector("#sourceUrl"),
+  sourceFormat: document.querySelector("#sourceFormat"),
+  sourceLinkPattern: document.querySelector("#sourceLinkPattern"),
   sourceCategory: document.querySelector("#sourceCategory"),
   sourceType: document.querySelector("#sourceType"),
   sourceTrustLevel: document.querySelector("#sourceTrustLevel"),
@@ -330,6 +336,10 @@ function normalizeContent() {
     story.author = story.author || "";
     story.body = story.body || "";
     story.scheduledAt = story.scheduledAt || "";
+    story.videoType = ["none", "file", "bilibili", "external"].includes(story.videoType) ? story.videoType : "none";
+    story.videoUrl = story.videoUrl || "";
+    story.videoPoster = story.videoPoster || "";
+    story.videoRightsConfirmed = story.videoRightsConfirmed === true;
     return story;
   });
 
@@ -359,6 +369,8 @@ function normalizeContent() {
         id: String(source.id || "source-" + (index + 1)),
         name: String(source.name).trim(),
         url: String(source.url).trim(),
+        format: ["rss", "html", "json"].includes(source.format) ? source.format : "rss",
+        linkPattern: String(source.linkPattern || "").trim(),
         categoryHint: content.categories.includes(source.categoryHint) ? source.categoryHint : (content.categories[0] || "科技"),
         type: ["official", "research", "professional", "industry", "company", "community"].includes(source.type) ? source.type : "professional",
         trustLevel: ["authoritative", "professional", "standard", "reference"].includes(source.trustLevel) ? source.trustLevel : "standard",
@@ -404,6 +416,10 @@ async function hydrateAutomationData() {
         const defaultsById = new Map(defaults.map(function (source) { return [String(source.id), source]; }));
         content.sourceSettings = content.sourceSettings.map(function (source) {
           return Object.assign({}, defaultsById.get(String(source.id)) || {}, source);
+        });
+        const configuredIds = new Set(content.sourceSettings.map(function (source) { return String(source.id); }));
+        defaults.forEach(function (source) {
+          if (!configuredIds.has(String(source.id))) content.sourceSettings.push(source);
         });
       }
     }
@@ -898,6 +914,7 @@ function nextSourceId() {
 function renderSourceManager() {
   const trustLabels = { authoritative: "权威", professional: "专业", standard: "一般", reference: "参考" };
   const typeLabels = { official: "官方", research: "科研", professional: "专业媒体", industry: "行业平台", company: "企业", community: "社区" };
+  const formatLabels = { rss: "RSS", html: "网页栏目", json: "JSON" };
   const latestLog = content.collectionLogs[0] || {};
   const latestResults = Array.isArray(latestLog.sourceResults) ? latestLog.sourceResults : [];
   const resultFor = function (source) {
@@ -927,7 +944,7 @@ function renderSourceManager() {
     return "<button class=\"source-item" + active + "\" type=\"button\" data-source-id=\"" + escapeHtml(source.id) + "\">" +
       "<strong>" + escapeHtml(source.name) + "</strong>" +
       "<span class=\"source-state" + stateClass + "\">" + stateLabel + "</span>" +
-      "<small>" + escapeHtml(source.categoryHint + " · " + (typeLabels[source.type] || "专业媒体") + " · " + (trustLabels[source.trustLevel] || "一般") + " · " + source.region + " · 可信度 " + source.confidence) + "</small>" +
+      "<small>" + escapeHtml(source.categoryHint + " · " + (formatLabels[source.format || "rss"] || "RSS") + " · " + (typeLabels[source.type] || "专业媒体") + " · " + (trustLabels[source.trustLevel] || "一般") + " · " + source.region + " · 可信度 " + source.confidence) + "</small>" +
     "</button>";
   }).join("") || "<p class=\"muted\">暂无采集来源</p>";
   els.sourceList.querySelectorAll("[data-source-id]").forEach(function (button) {
@@ -944,9 +961,12 @@ function newSource() {
   els.sourceTrustLevel.value = "standard";
   els.sourceRegion.value = "全球";
   els.sourceLanguage.value = "en";
+  els.sourceFormat.value = "rss";
+  els.sourceLinkPattern.value = "";
   els.sourceConfidence.value = 75;
   els.sourceMaxItems.value = 5;
   els.sourceCategory.value = content.categories[0] || "";
+  updateSourceFormatControl();
   renderSourceManager();
   els.sourceName.focus();
 }
@@ -958,6 +978,8 @@ function editSource(id) {
   els.sourceId.value = source.id;
   els.sourceName.value = source.name;
   els.sourceUrl.value = source.url;
+  els.sourceFormat.value = source.format || "rss";
+  els.sourceLinkPattern.value = source.linkPattern || "";
   els.sourceCategory.value = source.categoryHint;
   els.sourceType.value = source.type;
   els.sourceTrustLevel.value = source.trustLevel;
@@ -966,7 +988,12 @@ function editSource(id) {
   els.sourceEnabled.checked = source.enabled;
   els.sourceConfidence.value = source.confidence;
   els.sourceMaxItems.value = source.maxItems;
+  updateSourceFormatControl();
   renderSourceManager();
+}
+
+function updateSourceFormatControl() {
+  els.sourceLinkPattern.disabled = els.sourceFormat.value !== "html";
 }
 
 function saveSourceForm(event) {
@@ -976,6 +1003,8 @@ function saveSourceForm(event) {
     id: id,
     name: els.sourceName.value.trim(),
     url: els.sourceUrl.value.trim(),
+    format: els.sourceFormat.value,
+    linkPattern: els.sourceLinkPattern.value.trim(),
     categoryHint: els.sourceCategory.value,
     type: els.sourceType.value,
     trustLevel: els.sourceTrustLevel.value,
@@ -986,14 +1015,22 @@ function saveSourceForm(event) {
     maxItems: Math.max(1, Math.min(20, Number(els.sourceMaxItems.value) || 5))
   };
   if (!source.name || !source.url) {
-    showToast("请填写来源名称和订阅地址");
+    showToast("请填写来源名称和采集地址");
     return;
+  }
+  if (source.format === "html" && source.linkPattern) {
+    try {
+      new RegExp(source.linkPattern);
+    } catch (error) {
+      showToast("文章路径规则不是有效的正则表达式");
+      return;
+    }
   }
   const duplicate = content.sourceSettings.some(function (item) {
     return item.id !== id && normalizeSourceUrl(item.url) === normalizeSourceUrl(source.url);
   });
   if (duplicate) {
-    showToast("这个订阅地址已经存在");
+    showToast("这个采集地址已经存在");
     return;
   }
   const index = content.sourceSettings.findIndex(function (item) { return item.id === id; });
@@ -1125,6 +1162,10 @@ function newStory() {
   els.storyAuthor.value = "";
   els.storyLanguage.value = "zh-CN";
   els.storySourceUrl.value = "";
+  els.storyVideoType.value = "none";
+  els.storyVideoUrl.value = "";
+  els.storyVideoPoster.value = "";
+  els.storyVideoRightsConfirmed.checked = false;
   els.storySourceVerified.checked = false;
   els.storyCategoryVerified.checked = false;
   els.storyLocalizationVerified.checked = false;
@@ -1132,6 +1173,7 @@ function newStory() {
   const image = uploadedFiles.find(function (file) { return file.kind === "image"; });
   els.storyImage.value = image ? image.dataUrl : "assets/factory.jpg";
   updateScheduleControl();
+  updateVideoControls();
   renderStoryQuality();
   renderStoryHistory();
   renderStoryList();
@@ -1163,6 +1205,10 @@ function loadStoryIntoForm(story) {
   els.storyLanguage.value = story.language || "zh-CN";
   els.storySourceUrl.value = story.sourceUrl || story.url || "";
   els.storyImage.value = story.image || "";
+  els.storyVideoType.value = story.videoType || "none";
+  els.storyVideoUrl.value = story.videoUrl || "";
+  els.storyVideoPoster.value = story.videoPoster || "";
+  els.storyVideoRightsConfirmed.checked = story.videoRightsConfirmed === true;
   els.storyTags.value = (story.tags || []).join(", ");
   const reviewChecks = story.reviewChecks || {};
   els.storySourceVerified.checked = reviewChecks.sourceVerified === true;
@@ -1172,6 +1218,7 @@ function loadStoryIntoForm(story) {
   els.storyReviewGuidance.hidden = !(story.reviewNote || story.collectionSourceId);
   els.storyReviewGuidance.textContent = story.reviewNote || "这是自动采集内容，请核对原始来源、标题、摘要和分类后再发布。";
   updateScheduleControl();
+  updateVideoControls();
   renderStoryQuality();
   renderStoryHistory();
 }
@@ -1186,6 +1233,10 @@ function formToStory() {
     title: els.storyTitle.value.trim(),
     excerpt: els.storyExcerpt.value.trim(),
     image: els.storyImage.value.trim() || "assets/factory.jpg",
+    videoType: els.storyVideoType.value,
+    videoUrl: els.storyVideoUrl.value.trim(),
+    videoPoster: els.storyVideoPoster.value.trim(),
+    videoRightsConfirmed: els.storyVideoRightsConfirmed.checked,
     source: els.storySource.value.trim() || "平台编辑",
     sourceUrl: els.storySourceUrl.value.trim(),
     author: els.storyAuthor.value.trim(),
@@ -1224,6 +1275,33 @@ function isValidStoryImage(value) {
     /^https:\/\/[^\s]+$/i.test(image);
 }
 
+function isValidStoryVideo(story) {
+  const type = String(story.videoType || "none");
+  if (type === "none") return true;
+  if (!isValidPublicUrl(story.videoUrl)) return false;
+  if (new URL(story.videoUrl).protocol !== "https:") return false;
+  if (type === "external") return true;
+  if (type === "bilibili") {
+    const url = new URL(story.videoUrl);
+    return /(^|\.)bilibili\.com$/i.test(url.hostname) && /\bBV[0-9A-Za-z]{10}\b/.test(url.href);
+  }
+  if (type === "file") {
+    try {
+      return /\.(mp4|webm|ogg)$/i.test(new URL(story.videoUrl).pathname);
+    } catch (error) {
+      return false;
+    }
+  }
+  return false;
+}
+
+function updateVideoControls() {
+  const enabled = els.storyVideoType.value !== "none";
+  els.storyVideoUrl.disabled = !enabled;
+  els.storyVideoPoster.disabled = !enabled;
+  els.storyVideoRightsConfirmed.disabled = !enabled;
+}
+
 function evaluateStoryQuality(story) {
   const normalizedTitle = normalizeStoryTitle(story.title);
   const normalizedSourceUrl = normalizeSourceUrl(story.sourceUrl || story.url || "");
@@ -1237,6 +1315,8 @@ function evaluateStoryQuality(story) {
   const hasChinese = function (value) { return /[\u3400-\u9fff]/.test(String(value || "")); };
   const placeholderExcerpt = !excerpt || /^(来自公开来源|等待后台|待补充|暂无摘要)/.test(excerpt);
   const reviewChecks = story.reviewChecks || {};
+  const hasVideo = story.videoType && story.videoType !== "none";
+  const validVideoUrl = !hasVideo || isValidStoryVideo(story);
   const checks = [
     { label: "标题不少于 10 个字", pass: story.title.length >= 10, required: true, weight: 10 },
     { label: "标题未与现有内容重复", pass: !duplicate && Boolean(normalizedTitle), required: true, weight: 10 },
@@ -1245,6 +1325,8 @@ function evaluateStoryQuality(story) {
     { label: "原始来源链接有效", pass: isValidPublicUrl(story.sourceUrl), required: true, weight: 15 },
     { label: "可信度不低于 70", pass: Number(story.confidence) >= 70, required: true, weight: 5 },
     { label: "封面图片地址有效", pass: isValidStoryImage(story.image), required: true, weight: 5 },
+    { label: "视频类型与地址匹配", pass: validVideoUrl, required: hasVideo, weight: 0 },
+    { label: "视频嵌入或传播权限已确认", pass: !hasVideo || story.videoRightsConfirmed === true, required: hasVideo, weight: 0 },
     { label: "标题和摘要包含中文", pass: hasChinese(story.title) && hasChinese(excerpt), required: true, weight: 10 },
     { label: "来源与原文一致", pass: reviewChecks.sourceVerified === true, required: true, weight: 5 },
     { label: "板块归类准确", pass: reviewChecks.categoryVerified === true, required: true, weight: 5 },
@@ -1896,6 +1978,7 @@ function bindEvents() {
   document.querySelector("#newSource").addEventListener("click", newSource);
   document.querySelector("#deleteSource").addEventListener("click", deleteSource);
   els.sourceForm.addEventListener("submit", saveSourceForm);
+  els.sourceFormat.addEventListener("change", updateSourceFormatControl);
   document.querySelector("#createBackup").addEventListener("click", createManualBackup);
   els.backupList.addEventListener("click", handleBackupAction);
   document.querySelector("#generateFromText").addEventListener("click", generateDraftFromText);
@@ -1917,6 +2000,7 @@ function bindEvents() {
   els.storySearch.addEventListener("input", renderStoryList);
   els.storyStatusFilter.addEventListener("change", renderStoryList);
   els.storyStatus.addEventListener("change", updateScheduleControl);
+  els.storyVideoType.addEventListener("change", updateVideoControls);
   els.storyForm.addEventListener("input", renderStoryQuality);
   els.storyForm.addEventListener("change", renderStoryQuality);
   els.storyHistoryFilter.addEventListener("change", renderStoryHistory);

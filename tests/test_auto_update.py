@@ -99,6 +99,29 @@ class RichDraftTests(unittest.TestCase):
         parsed = auto_update.parse_feed(raw)
         self.assertEqual(parsed[0]["title"], "Central bank research update")
 
+    def test_chinese_official_html_list_is_parsed_with_path_filter(self):
+        raw = """
+        <html><body><nav><a href='/index.html'>网站首页入口</a></nav>
+        <a href='/news/202608/t20260803_1001.html'>中国官方机构发布新一轮科技项目进展</a>
+        <a href='/other/202608/t20260803_1002.html'>不属于目标栏目的内容</a></body></html>
+        """.encode("utf-8")
+        source = {
+            "url": "https://example.cn/news/",
+            "format": "html",
+            "linkPattern": r"^/news/\d{6}/t\d+_\d+\.html$",
+        }
+        parsed = auto_update.parse_source(raw, source)
+        self.assertEqual(len(parsed), 1)
+        self.assertEqual(parsed[0]["published"], "2026-08-03")
+        self.assertEqual(parsed[0]["link"], "https://example.cn/news/202608/t20260803_1001.html")
+
+    def test_chinese_official_json_list_is_parsed(self):
+        raw = """{"datasource":[{"showTitle":"国家能源领域发布新的政策信息","publishUrl":"/news/202608/item.html","publishTime":"2026-08-03 09:00:00","titleImages":[{"imageUrl":"/images/energy.jpg"}]}]}""".encode("utf-8")
+        parsed = auto_update.parse_source(raw, {"url": "https://energy.example.cn/list.json", "format": "json"})
+        self.assertEqual(parsed[0]["title"], "国家能源领域发布新的政策信息")
+        self.assertEqual(parsed[0]["link"], "https://energy.example.cn/news/202608/item.html")
+        self.assertEqual(parsed[0]["image"], "https://energy.example.cn/images/energy.jpg")
+
     def test_html_image_and_relative_url_are_parsed(self):
         raw = b"""<?xml version='1.0'?>
         <rss><channel><item>
@@ -168,6 +191,11 @@ class RichDraftTests(unittest.TestCase):
         self.assertGreaterEqual(auto_update.count_content_characters(article["body"]), 800)
         self.assertTrue(auto_update.body_meets_publication_standard(article["body"]))
         self.assertNotIn("NIST", article["body"])
+        self.assertEqual(article["body"].count("简要来源"), 1)
+        self.assertNotIn("这段材料只用于", article["body"])
+        self.assertNotIn("平台整理时", article["body"])
+        self.assertNotIn("读者如何核验", article["body"])
+        self.assertNotIn("局限与待观察", article["body"])
 
     def test_structured_fallback_handles_title_only_source_material(self):
         article = auto_update.build_structured_article({

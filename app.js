@@ -271,7 +271,7 @@ function renderFeatured() {
         <span>${Number(featured.readMinutes || 8)} 分钟阅读</span>
       </div>
       <h2>${escapeHtml(featured.title)}</h2>
-      <p>${escapeHtml(featured.excerpt)}</p>
+      <p>${escapeHtml(window.FXContent.presentationExcerpt(featured))}</p>
       <a href="article.html?id=${encodeURIComponent(featuredStory?.id || 1)}" class="featured-link">查看专题 <i data-lucide="arrow-up-right"></i></a>
     </div>
   `;
@@ -324,7 +324,7 @@ function storyTemplate(story, index) {
           <span>热度 ${Number(story.heat || 60)}</span>
         </div>
         <h3><a href="${detailUrl}">${escapeHtml(story.title)}</a></h3>
-        <p>${escapeHtml(story.excerpt)}</p>
+        <p>${escapeHtml(window.FXContent.presentationExcerpt(story))}</p>
         <div class="story-foot">
           <div class="story-source">
             <i class="source-mark"></i>
@@ -572,7 +572,12 @@ async function init() {
   const requestedQuery = new URLSearchParams(location.search).get("q") || "";
   const params = new URLSearchParams(location.search);
   const visibleCategories = getCategorySettings().filter((item) => item.enabled !== false).map((item) => item.name);
-  if (requestedCategory && visibleCategories.includes(requestedCategory)) state.category = requestedCategory;
+  if (requestedCategory && visibleCategories.includes(requestedCategory)) {
+    const categoryParams = new URLSearchParams({ category: requestedCategory });
+    if (requestedQuery) categoryParams.set("q", requestedQuery);
+    location.replace("category.html?" + categoryParams.toString());
+    return;
+  }
   if (content.operations?.searchEnabled !== false && requestedQuery) {
     state.query = requestedQuery;
     searchInput.value = requestedQuery;
