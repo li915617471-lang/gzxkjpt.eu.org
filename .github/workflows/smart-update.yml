@@ -67,7 +67,9 @@ jobs:
         run: |
           git config user.name "information-share-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/intelligence-draft.json data/collection-logs.json sitemap.xml feed.xml feed.json opensearch.xml
+          # Public indexes are committed by build-indexes.yml. Keeping this
+          # workflow to its own draft data prevents concurrent commit conflicts.
+          git add data/intelligence-draft.json data/collection-logs.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh intelligence drafts"
             for attempt in 1 2 3; do
