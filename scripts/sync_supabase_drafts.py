@@ -158,7 +158,8 @@ def auto_approval_policy(operations: dict[str, Any] | None = None) -> dict[str, 
         "enabled": enabled,
         "minConfidence": max(70, min(100, threshold)),
         "fallbackMinConfidence": max(75, min(100, fallback_confidence)),
-        "dailyTargetPerCategory": max(1, min(10, target)),
+        # Keep the public automation promise even if an old admin export has 0 or 1.
+        "dailyTargetPerCategory": max(2, min(10, target)),
         "policyVersion": 2,
     }
 

@@ -37,7 +37,12 @@ const SOURCE_NAME_ALIASES = {
   "U.S. Department of Energy": "美国能源部",
   "USDA Agricultural Research Service": "美国农业部农业研究局",
   "National Association of Manufacturers": "美国制造商协会",
-  "Harvard Gazette Arts & Humanities": "哈佛大学人文艺术资讯"
+  "Harvard Gazette Arts & Humanities": "哈佛大学人文艺术资讯",
+  "NASA Breaking News": "美国国家航空航天局",
+  "European Space Agency Science & Exploration": "欧洲空间局科学探索",
+  "CGIAR": "国际农业研究磋商组织",
+  "Intergovernmental Panel on Climate Change": "联合国政府间气候变化专门委员会",
+  "Smithsonian Magazine": "史密森学会杂志"
 };
 
 const ARTICLE_TEXT_ALIASES = Object.assign({}, SOURCE_NAME_ALIASES, {
@@ -220,7 +225,7 @@ function renderArticle(story) {
   const sourceUrl = story.sourceUrl || story.url;
   sourceLink.hidden = !sourceUrl;
   if (sourceUrl) sourceLink.href = sourceUrl;
-  document.querySelector("#sourceBriefNote").textContent = "正文已转为中文科普整理，详细出处放在文末。";
+  document.querySelector("#sourceBriefNote").textContent = "点击下方可阅读原网站完整原文；平台仅发布中文整理与出处。";
   document.querySelector("#sourcePublishedAt").textContent = dateLabel(story.originalPublishedAt);
   document.querySelector("#sourceCollectedAt").textContent = dateLabel(story.collectedAt || story.automaticImportedAt);
   const correctionParams = new URLSearchParams({

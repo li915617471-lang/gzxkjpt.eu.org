@@ -222,6 +222,36 @@ class RichDraftTests(unittest.TestCase):
             else:
                 os.environ["GITHUB_MODELS_TOKEN"] = previous_token
 
+    def test_generation_target_keeps_two_article_daily_minimum(self):
+        previous_target = os.environ.get("ARTICLE_GENERATION_TARGET_PER_CATEGORY")
+        previous_force = os.environ.get("ARTICLE_FORCE_STRUCTURED_FALLBACK")
+        os.environ["ARTICLE_GENERATION_TARGET_PER_CATEGORY"] = "1"
+        os.environ["ARTICLE_FORCE_STRUCTURED_FALLBACK"] = "true"
+        try:
+            queue = []
+            for index in range(2):
+                queue.append({
+                    "category": "能源",
+                    "source": "公开机构",
+                    "sourceUrl": f"https://example.com/energy/{index}",
+                    "originalTitle": f"能源进展 {index}",
+                    "title": f"能源进展 {index}",
+                    "excerpt": "公开材料说明一项能源系统进展。",
+                    "sourceMaterial": "公开材料说明一项能源系统进展。",
+                    "image": "assets/energy.jpg",
+                })
+            stats = auto_update.enhance_queue_bodies(queue, ["能源"])
+            self.assertEqual(stats["generated"], 2)
+        finally:
+            if previous_target is None:
+                os.environ.pop("ARTICLE_GENERATION_TARGET_PER_CATEGORY", None)
+            else:
+                os.environ["ARTICLE_GENERATION_TARGET_PER_CATEGORY"] = previous_target
+            if previous_force is None:
+                os.environ.pop("ARTICLE_FORCE_STRUCTURED_FALLBACK", None)
+            else:
+                os.environ["ARTICLE_FORCE_STRUCTURED_FALLBACK"] = previous_force
+
 
 if __name__ == "__main__":
     unittest.main()

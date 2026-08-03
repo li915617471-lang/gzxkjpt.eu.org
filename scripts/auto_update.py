@@ -84,6 +84,11 @@ SOURCE_NAME_ALIASES = {
     "USDA Agricultural Research Service": "美国农业部农业研究局",
     "National Association of Manufacturers": "美国制造商协会",
     "Harvard Gazette Arts & Humanities": "哈佛大学人文艺术资讯",
+    "NASA Breaking News": "美国国家航空航天局",
+    "European Space Agency Science & Exploration": "欧洲空间局科学探索",
+    "CGIAR": "国际农业研究磋商组织",
+    "Intergovernmental Panel on Climate Change": "联合国政府间气候变化专门委员会",
+    "Smithsonian Magazine": "史密森学会杂志",
 }
 
 FALLBACK_TOPIC_RULES = {
@@ -839,7 +844,8 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
         target = int(os.environ.get("ARTICLE_GENERATION_TARGET_PER_CATEGORY", 3))
     except ValueError:
         target = 3
-    target = max(1, min(10, target))
+    # The public schedule promises at least two candidates per board each day.
+    target = max(2, min(10, target))
     stats = {"requested": 0, "generated": 0, "failed": 0, "minimumCharacters": MIN_ARTICLE_CHARS}
     force_structured_fallback = env_flag("ARTICLE_FORCE_STRUCTURED_FALLBACK", False)
     for category in categories:

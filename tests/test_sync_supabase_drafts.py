@@ -41,6 +41,10 @@ class SupabaseDraftSyncTests(unittest.TestCase):
             "https://example.com/news?id=7",
         )
 
+    def test_daily_publish_target_cannot_drop_below_two(self):
+        policy = sync.auto_approval_policy({"dailyPublishTargetPerCategory": 1})
+        self.assertEqual(policy["dailyTargetPerCategory"], 2)
+
     def test_published_input_is_forced_to_draft(self):
         row = sync.article_row(
             {"title": "New technology", "sourceUrl": "https://example.com/1", "status": "published"},
