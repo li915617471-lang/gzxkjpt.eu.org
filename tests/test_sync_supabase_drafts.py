@@ -253,6 +253,43 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertTrue(promotions[0]["source_url"].endswith("#information-share-2026-08-02"))
         self.assertEqual(counts["能源"], 1)
 
+    def test_video_backfill_is_independent_from_full_daily_category_target(self):
+        story = self.rich_story()
+        story.update({
+            "contentKind": "video", "videoType": "external",
+            "videoUrl": story["sourceUrl"], "videoPoster": story["image"],
+            "videoLinkOnly": True, "videoRightsConfirmed": True,
+            "homeVideoFeatured": True, "videoDuration": "00:18:52",
+        })
+        original = {
+            "id": sync.automatic_article_id(sync.story_fingerprint(story)),
+            "title": story["title"], "source_url": story["sourceUrl"],
+            "category": story["category"], "status": "review",
+            "extra": {"automaticImport": True, "contentKind": "video"}, "position": 2,
+        }
+        existing = [original]
+        for index in range(3):
+            existing.append({
+                "id": sync.AUTOMATIC_ID_BASE + 100 + index,
+                "title": f"Already published {index}",
+                "source_url": f"https://example.com/published/{index}",
+                "category": story["category"], "status": "published",
+                "body": story["body"], "position": 3 + index,
+                "extra": {"automaticApproval": {
+                    "approved": True, "reviewedAt": "2026-08-03T01:00:00+00:00",
+                }},
+            })
+        policy = {
+            "enabled": True, "minConfidence": 85, "fallbackMinConfidence": 78,
+            "dailyTargetPerCategory": 3, "policyVersion": 2,
+        }
+        promotions, counts = sync.prepare_promotions(
+            [story], existing, [], policy, "2026-08-03T08:00:00+00:00"
+        )
+        self.assertEqual(len(promotions), 1)
+        self.assertEqual(promotions[0]["extra"]["automaticApproval"]["mode"], "video-backfill")
+        self.assertEqual(counts[story["category"]], 4)
+
     def test_daily_counts_ignores_null_automatic_approval_metadata(self):
         existing = [{
             "id": sync.AUTOMATIC_ID_BASE + 1,

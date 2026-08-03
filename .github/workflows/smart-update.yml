@@ -56,6 +56,7 @@ jobs:
           AUTO_APPROVAL_MIN_CONFIDENCE: "85"
           AUTO_APPROVAL_FALLBACK_CONFIDENCE: "78"
           AUTO_APPROVAL_DAILY_TARGET: "3"
+          AUTO_APPROVAL_VIDEO_TARGET: "3"
         run: |
           set -o pipefail
           if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then

@@ -518,6 +518,11 @@ def prepare_promotions(
     day = imported_at[:10]
     counts = daily_automatic_counts(existing, inserted, day)
     target = int(policy.get("dailyTargetPerCategory", 3))
+    try:
+        video_target = int(os.environ.get("AUTO_APPROVAL_VIDEO_TARGET", 3))
+    except ValueError:
+        video_target = 3
+    video_target = max(1, min(6, video_target))
     story_by_url = {
         normalize_url(story.get("sourceUrl") or story.get("url") or ""): story
         for story in stories
@@ -583,15 +588,28 @@ def prepare_promotions(
         grouped.setdefault(category, []).append((story, reference, audit))
         candidate_urls.add(story_url)
 
+    video_candidates = [
+        item
+        for candidates in grouped.values()
+        for item in candidates
+        if item[0].get("contentKind") == "video"
+    ]
+    video_candidates.sort(key=lambda item: story_priority(item[0]), reverse=True)
+    priority_video_ids = {id(story) for story, _, _ in video_candidates[:video_target]}
+
     promotions: list[dict[str, Any]] = []
     for category, candidates in grouped.items():
         needed = max(0, target - counts.get(category, 0))
-        if not needed:
-            continue
         candidates.sort(key=lambda item: story_priority(item[0]), reverse=True)
-        for story, row, audit in candidates[:needed]:
+        selected = [item for item in candidates if id(item[0]) in priority_video_ids]
+        remaining_needed = max(0, needed - len(selected))
+        selected.extend([
+            item for item in candidates if id(item[0]) not in priority_video_ids
+        ][:remaining_needed])
+        for story, row, audit in selected:
+            promotion_mode = "video-backfill" if id(story) in priority_video_ids else "daily-target-backfill"
             audit.update({
-                "mode": "daily-target-backfill",
+                "mode": promotion_mode,
                 "dailyTargetPerCategory": target,
                 "reviewedAt": imported_at,
                 "notice": "自动审核检查中文正文、来源链接、分类和内容结构；详细来源在文章末尾简要标注。",
