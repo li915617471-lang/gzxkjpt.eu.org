@@ -314,6 +314,50 @@ class RichDraftTests(unittest.TestCase):
             else:
                 os.environ["ARTICLE_FORCE_STRUCTURED_FALLBACK"] = previous_force
 
+    def test_video_has_separate_generation_quota(self):
+        previous_article_target = os.environ.get("ARTICLE_GENERATION_TARGET_PER_CATEGORY")
+        previous_video_target = os.environ.get("VIDEO_GENERATION_TARGET")
+        previous_force = os.environ.get("ARTICLE_FORCE_STRUCTURED_FALLBACK")
+        os.environ["ARTICLE_GENERATION_TARGET_PER_CATEGORY"] = "2"
+        os.environ["VIDEO_GENERATION_TARGET"] = "1"
+        os.environ["ARTICLE_FORCE_STRUCTURED_FALLBACK"] = "true"
+        try:
+            queue = []
+            for index in range(3):
+                queue.append({
+                    "category": "科技", "title": f"人工智能最新进展 {index}",
+                    "originalTitle": f"人工智能最新进展 {index}",
+                    "excerpt": "公开资料介绍人工智能研究、测试方法、应用方向与限制条件。",
+                    "sourceMaterial": "公开资料介绍人工智能研究、测试方法、应用方向与限制条件。",
+                    "source": "官方科技机构", "sourceUrl": f"https://example.com/ai/{index}",
+                    "originalPublishedAt": f"2026-08-0{index + 1}", "image": "assets/datacenter.jpg",
+                })
+            video = {
+                "category": "科技", "contentKind": "video", "title": "仿生机器鱼科普视频",
+                "originalTitle": "仿生机器鱼科普视频",
+                "excerpt": "官方节目介绍仿生机器鱼的结构、控制方法、试验过程和海洋应用。",
+                "sourceMaterial": "官方节目介绍仿生机器鱼的结构、控制方法、试验过程和海洋应用。",
+                "source": "中央广播电视总台", "sourceUrl": "https://tv.cctv.com/video.shtml",
+                "originalPublishedAt": "2026-07-01", "image": "https://p3.img.cctvpic.com/video.jpg",
+            }
+            queue.append(video)
+            stats = auto_update.enhance_queue_bodies(queue, ["科技"])
+            self.assertEqual(stats["generated"], 3)
+            self.assertTrue(auto_update.body_meets_publication_standard(video["body"]))
+        finally:
+            if previous_article_target is None:
+                os.environ.pop("ARTICLE_GENERATION_TARGET_PER_CATEGORY", None)
+            else:
+                os.environ["ARTICLE_GENERATION_TARGET_PER_CATEGORY"] = previous_article_target
+            if previous_video_target is None:
+                os.environ.pop("VIDEO_GENERATION_TARGET", None)
+            else:
+                os.environ["VIDEO_GENERATION_TARGET"] = previous_video_target
+            if previous_force is None:
+                os.environ.pop("ARTICLE_FORCE_STRUCTURED_FALLBACK", None)
+            else:
+                os.environ["ARTICLE_FORCE_STRUCTURED_FALLBACK"] = previous_force
+
 
 if __name__ == "__main__":
     unittest.main()

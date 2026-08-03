@@ -942,12 +942,22 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
         target = 3
     # The public schedule promises at least two candidates per board each day.
     target = max(2, min(10, target))
+    try:
+        video_target = int(os.environ.get("VIDEO_GENERATION_TARGET", 3))
+    except ValueError:
+        video_target = 3
+    video_target = max(1, min(6, video_target))
+    video_candidates = [story for story in queue if story.get("contentKind") == "video"]
+    video_candidates.sort(key=story_queue_priority, reverse=True)
+    priority_video_ids = {id(story) for story in video_candidates[:video_target]}
     stats = {"requested": 0, "generated": 0, "failed": 0, "minimumCharacters": MIN_ARTICLE_CHARS}
     force_structured_fallback = env_flag("ARTICLE_FORCE_STRUCTURED_FALLBACK", False)
     for category in categories:
         candidates = [story for story in queue if story.get("category") == category]
         candidates.sort(key=story_queue_priority, reverse=True)
-        for story in candidates[:target]:
+        selected = candidates[:target]
+        selected.extend(story for story in candidates if id(story) in priority_video_ids and story not in selected)
+        for story in selected:
             if body_meets_publication_standard(story.get("body", "")):
                 continue
             stats["requested"] += 1
