@@ -1,3 +1,4 @@
+import os
 import sys
 import unittest
 from pathlib import Path
@@ -190,6 +191,36 @@ class RichDraftTests(unittest.TestCase):
         })
         self.assertIn("中国原油进口变化", article["title"])
         self.assertNotIn("crude oil", article["body"].lower())
+
+    def test_force_structured_fallback_enhances_queue_without_model_token(self):
+        previous_force = os.environ.get("ARTICLE_FORCE_STRUCTURED_FALLBACK")
+        previous_token = os.environ.get("GITHUB_MODELS_TOKEN")
+        os.environ["ARTICLE_FORCE_STRUCTURED_FALLBACK"] = "true"
+        os.environ.pop("GITHUB_MODELS_TOKEN", None)
+        try:
+            story = {
+                "category": "能源",
+                "source": "U.S. Energy Information Administration",
+                "sourceUrl": "https://example.com/oil",
+                "originalTitle": "China's crude oil imports fell in the second quarter",
+                "title": "China's crude oil imports fell in the second quarter",
+                "excerpt": "China's crude oil imports fell in the second quarter",
+                "sourceMaterial": "China's crude oil imports fell in the second quarter",
+                "image": "assets/energy.jpg",
+            }
+            stats = auto_update.enhance_queue_bodies([story], ["能源"])
+            self.assertEqual(stats["generated"], 1)
+            self.assertIn("中国原油进口变化", story["title"])
+            self.assertTrue(auto_update.body_meets_publication_standard(story["body"]))
+        finally:
+            if previous_force is None:
+                os.environ.pop("ARTICLE_FORCE_STRUCTURED_FALLBACK", None)
+            else:
+                os.environ["ARTICLE_FORCE_STRUCTURED_FALLBACK"] = previous_force
+            if previous_token is None:
+                os.environ.pop("GITHUB_MODELS_TOKEN", None)
+            else:
+                os.environ["GITHUB_MODELS_TOKEN"] = previous_token
 
 
 if __name__ == "__main__":

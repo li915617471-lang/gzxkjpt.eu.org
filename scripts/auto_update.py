@@ -650,6 +650,13 @@ def has_long_english_run(value: str) -> bool:
     return bool(re.search(r"(?:\b[A-Za-z][A-Za-z'-]*\b[\s,.;:!?()/-]*){8,}", str(value or "")))
 
 
+def env_flag(name: str, fallback: bool = False) -> bool:
+    value = os.environ.get(name)
+    if value is None:
+        return fallback
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
 def fallback_topic(category: str, title: str, material: str) -> tuple[str, str]:
     combined = f"{title} {material}".lower()
     for keywords, topic_title, topic_summary in FALLBACK_TOPIC_RULES.get(category, []):
