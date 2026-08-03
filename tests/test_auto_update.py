@@ -179,6 +179,18 @@ class RichDraftTests(unittest.TestCase):
         })
         self.assertTrue(auto_update.body_meets_publication_standard(article["body"]))
 
+    def test_structured_fallback_uses_specific_chinese_topic(self):
+        article = auto_update.build_structured_article({
+            "category": "能源",
+            "source": "U.S. Energy Information Administration",
+            "sourceUrl": "https://example.com/oil",
+            "originalTitle": "China's crude oil imports fell in the second quarter",
+            "title": "China's crude oil imports fell in the second quarter",
+            "sourceMaterial": "China's crude oil imports fell in the second quarter",
+        })
+        self.assertIn("中国原油进口变化", article["title"])
+        self.assertNotIn("crude oil", article["body"].lower())
+
 
 if __name__ == "__main__":
     unittest.main()

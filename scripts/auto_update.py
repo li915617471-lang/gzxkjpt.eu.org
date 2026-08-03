@@ -86,6 +86,44 @@ SOURCE_NAME_ALIASES = {
     "Harvard Gazette Arts & Humanities": "哈佛大学人文艺术资讯",
 }
 
+FALLBACK_TOPIC_RULES = {
+    "金融": [
+        (("federal reserve", "insiders", "credit"), "美联储拟更新银行内部人授信规则", "来源线索指向银行高管、董事和主要股东等内部关联人员的授信规则调整，核心问题是如何减少潜在利益冲突，并让银行信贷决策保持透明、审慎和可追溯。"),
+        (("federal reserve", "enforcement"), "美联储执法行动提示银行合规风险", "来源线索涉及金融监管机构发布的执法行动，通常用于提示银行治理、员工行为、内部控制和合规责任等问题。"),
+        (("central bank", "liquidity"), "央行流动性工具调整受到市场关注", "来源线索涉及央行流动性安排，理解重点在于工具目标、适用对象、抵押品要求、期限安排和对金融体系稳定性的影响。"),
+    ],
+    "科技": [
+        (("rtl", "isa", "verification"), "处理器验证方法关注硬件与软件边界", "来源线索涉及处理器设计验证，重点是如何用更模块化的方法检查硬件实现、软件接口和安全边界是否一致。"),
+        (("tape recorder", "radio"), "高保真录音设备改变广播制作方式", "来源线索关注音频设备与广播传播技术的历史影响，说明硬件工具也会改变内容生产流程和公共传播方式。"),
+        (("semiconductor", "workforce"), "半导体人才与研发合作成为产业建设重点", "来源线索涉及高校、企业和制造项目之间的合作，反映半导体产业不仅需要设备和资本，也需要长期人才培养与工程训练。"),
+        (("llm",), "大模型安全与部署边界继续受到关注", "来源线索涉及人工智能模型的安全、能力边界或应用条件，阅读时需要区分演示结果、测试环境和真实部署要求。"),
+    ],
+    "工业": [
+        (("lilly", "medicine", "output"), "药品产能扩建显示先进制造投资升温", "来源线索涉及药品生产能力扩建，核心看点包括产线规模、质量控制、供应链稳定性和特殊剂型制造能力。"),
+        (("ford", "tactical trucks"), "战术车辆订单带动制造供应链观察", "来源线索涉及车辆制造和国防装备订单，适合观察整车生产、零部件配套、交付周期和工厂产能安排。"),
+        (("boeing", "revenue"), "航空制造复苏进程仍需观察交付与现金流", "来源线索涉及航空制造企业经营数据，不能只看收入，还要结合交付数量、供应链恢复、质量控制和现金流变化。"),
+        (("manufacturing", "engineering", "workforce"), "制造工程教育与企业研发合作加深", "来源线索涉及制造业人才培养和企业研发合作，说明先进制造越来越依赖工程教育、实验平台和真实项目训练。"),
+    ],
+    "能源": [
+        (("crude oil imports",), "中国原油进口变化引发能源需求观察", "来源线索涉及原油进口变化，理解时要区分价格、数量、库存、炼厂开工、季节需求和宏观经济活动。"),
+        (("emergency grid order", "heat"), "高温天气下电网应急调度压力上升", "来源线索涉及高温期间的电网应急命令，重点在于峰值负荷、备用电源、跨区输电和电力系统韧性。"),
+        (("hybrid sales", "battery electric"), "混合动力销量上升与电动车政策变化相关", "来源线索涉及汽车能源消费结构变化，需要同时观察税收优惠、购车成本、充电条件和消费者使用场景。"),
+        (("lng",), "液化天然气贸易变化影响全球能源供应格局", "来源线索涉及液化天然气贸易，阅读时要关注出口能力、运输通道、价格周期和进口地区需求。"),
+    ],
+    "农业": [
+        (("crop protection",), "数字农业推动作物保护走向数据决策", "来源线索涉及作物保护和农业数据应用，重点是如何把传感器、遥感、田间记录和农艺知识转化为可执行建议。"),
+        (("driverless", "farm"), "无人化田间装备推动农业移动作业升级", "来源线索涉及自动驾驶农机、田间机器人或无人作业平台，核心看点是劳动力、作业窗口、精度和维护成本。"),
+        (("ai-ready data",), "农业数据治理成为智能化应用前提", "来源线索提示农业智能化不只需要算法，更需要干净、统一、可追溯并能被机器读取的数据基础。"),
+        (("ammonia", "poultry"), "禽舍空气治理技术关注养殖环境安全", "来源线索涉及禽舍氨气治理，阅读重点包括动物福利、工人健康、粪污管理和设备长期运行成本。"),
+    ],
+    "人文": [
+        (("odyssey", "film"), "《奥德赛》改编史展现古典叙事的现代传播", "来源线索涉及古典文学在电影等媒介中的再创作，适合观察经典文本如何在不同时代被重新解释和传播。"),
+        (("manuscript", "archimedes"), "古抄本重写与保存揭示文献流传复杂性", "来源线索涉及手稿重写、文献保存和古代知识传承，说明文化遗产常常经历遮蔽、损毁、再发现和再解释。"),
+        (("homer", "ancient greek"), "古希腊吟唱传统帮助理解《奥德赛》传播", "来源线索涉及古典文本的声音、语言和表演传统，提醒读者文学作品并不只存在于纸面文字中。"),
+        (("criterion", "films"), "导演片单折射电影史中的审美谱系", "来源线索涉及电影作者、经典片单和公共文化传播，适合观察艺术偏好如何影响观众理解电影史。"),
+    ],
+}
+
 CATEGORY_EDITORIAL_CONTEXT = {
     "金融": {
         "background": "金融新闻需要同时看政策目标、传导渠道和受影响主体。利率、支付、资本充足率、流动性和风险管理并不是孤立指标，任何单一数字都不能直接等同于市场结果。阅读这类材料时，应先区分监管公告、机构研究和媒体解释，再确认统计口径、时间窗口与适用地区。",
@@ -612,6 +650,17 @@ def has_long_english_run(value: str) -> bool:
     return bool(re.search(r"(?:\b[A-Za-z][A-Za-z'-]*\b[\s,.;:!?()/-]*){8,}", str(value or "")))
 
 
+def fallback_topic(category: str, title: str, material: str) -> tuple[str, str]:
+    combined = f"{title} {material}".lower()
+    for keywords, topic_title, topic_summary in FALLBACK_TOPIC_RULES.get(category, []):
+        if all(keyword in combined for keyword in keywords):
+            return topic_title, topic_summary
+    return (
+        f"{category}公开资料提供新的观察线索",
+        f"来源线索与{category}板块相关，但公开摘要提供的中文细节有限。平台会先给出阅读框架，帮助读者理解这类信息通常应该从哪些角度判断。",
+    )
+
+
 def body_meets_publication_standard(value: str) -> bool:
     body = str(value or "").strip()
     paragraphs = [item.strip() for item in re.split(r"\n{2,}", body) if item.strip()]
@@ -751,9 +800,10 @@ def build_structured_article(story: dict) -> dict:
     display_source = localized_source_name(source_name)
     title_source = clean_text(story.get("originalTitle") or story.get("title") or "")
     summary = clean_text(story.get("sourceMaterial") or story.get("excerpt") or "")
+    topic_title, topic_summary = fallback_topic(category, title_source, summary)
     summary = truncate_text(summary, 560) if has_cjk_text(summary) else ""
-    summary = summary or "来源页面提供的是外文摘要或短线索，平台不直接展示原文内容，仅保留可核验的板块阅读框架。"
-    display_title = title_source if has_cjk_text(title_source) else f"公开资料显示的{category}动态"
+    summary = summary or topic_summary
+    display_title = title_source if has_cjk_text(title_source) else topic_title
     title = f"{category}前沿观察：{display_title}" if display_title else f"{category}板块前沿观察"
     excerpt = truncate_text(
         f"{display_source}发布了一条与{category}相关的公开信息。平台根据可访问的标题、摘要和有限正文片段整理重点，并明确区分来源事实、板块背景与仍待核验的部分。",
@@ -784,6 +834,7 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
         target = 3
     target = max(1, min(10, target))
     stats = {"requested": 0, "generated": 0, "failed": 0, "minimumCharacters": MIN_ARTICLE_CHARS}
+    force_structured_fallback = env_flag("ARTICLE_FORCE_STRUCTURED_FALLBACK", False)
     for category in categories:
         candidates = [story for story in queue if story.get("category") == category]
         candidates.sort(key=story_queue_priority, reverse=True)
@@ -791,7 +842,7 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
             if body_meets_publication_standard(story.get("body", "")):
                 continue
             stats["requested"] += 1
-            if not os.environ.get("GITHUB_MODELS_TOKEN", "").strip():
+            if not os.environ.get("GITHUB_MODELS_TOKEN", "").strip() and not force_structured_fallback:
                 story["contentGenerationMode"] = "pending-editorial-expansion"
                 story["contentGenerationError"] = "未配置 GitHub Models 免费推理令牌"
                 story["reviewNote"] = "正文未达到 800 字公开标准，仅保留在待审核区"
@@ -811,6 +862,8 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
                     story["imageAttribution"] = story.get("source", "来源页面")
             try:
                 try:
+                    if force_structured_fallback:
+                        raise RuntimeError("已启用结构化中文兜底生成")
                     article = generate_ai_article(story)
                     generation_mode = "github-models-source-grounded"
                 except (RuntimeError, ValueError) as exc:
