@@ -127,8 +127,8 @@ class RichDraftTests(unittest.TestCase):
         story = auto_update.make_story(entry, source, 0, auto_update.CATEGORY_RULES)
         self.assertEqual(story["image"], "assets/energy.jpg")
         self.assertEqual(story["imageFallback"], "assets/energy.jpg")
-        self.assertIn("来源与审核说明", story["body"])
-        self.assertIn("Test Source", story["body"])
+        self.assertIn("简要来源", story["body"])
+        self.assertIn("公开来源机构", story["body"])
 
     def test_long_summary_is_safely_truncated(self):
         text = "renewable energy storage " * 30
@@ -140,9 +140,17 @@ class RichDraftTests(unittest.TestCase):
         body = "\n\n".join(
             f"第{index}节\n\n" + (f"这是第{index}节基于来源材料整理的独立内容。" * 12)
             for index in range(6)
-        ) + "\n\n来源与审核说明\n\n请以原始来源为准。"
+        ) + "\n\n简要来源\n\n请以原始来源为准。"
         self.assertTrue(auto_update.body_meets_publication_standard(body))
-        self.assertFalse(auto_update.body_meets_publication_standard("短文\n\n来源与审核说明"))
+        self.assertFalse(auto_update.body_meets_publication_standard("短文\n\n简要来源"))
+
+    def test_publication_standard_rejects_long_english_body(self):
+        body = "\n\n".join(
+            f"第{index}节\n\n" + (f"这是第{index}节基于来源材料整理的独立内容。" * 12)
+            for index in range(6)
+        )
+        body += "\n\nThis paragraph keeps a long English sentence that should not be published as Chinese content.\n\n简要来源\n\n请以原始来源为准。"
+        self.assertFalse(auto_update.body_meets_publication_standard(body))
 
     def test_structured_fallback_is_long_and_source_transparent(self):
         story = {
@@ -158,6 +166,7 @@ class RichDraftTests(unittest.TestCase):
         self.assertEqual(article["title"].startswith("科技前沿观察："), True)
         self.assertGreaterEqual(auto_update.count_content_characters(article["body"]), 800)
         self.assertTrue(auto_update.body_meets_publication_standard(article["body"]))
+        self.assertNotIn("NIST", article["body"])
 
     def test_structured_fallback_handles_title_only_source_material(self):
         article = auto_update.build_structured_article({

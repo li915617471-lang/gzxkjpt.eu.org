@@ -13,18 +13,18 @@ class SupabaseDraftSyncTests(unittest.TestCase):
     def rich_story(self):
         sections = []
         for index, heading in enumerate([
-            "Event overview", "Background", "Key progress",
-            "Applications", "Limitations", "Verification",
+            "事件概览", "背景与原理", "关键进展",
+            "应用与影响", "局限与待观察", "读者如何核验",
         ]):
             sections.append(
                 f"{heading}\n\n" +
-                ((f"Verified source context for section {index} explains the evidence and its boundaries. ") * 4)
+                ((f"第{index}节用中文说明公开来源中的证据、边界、适用范围和后续需要观察的问题。") * 5)
             )
         return {
-            "title": "A major battery storage project reaches commercial operation",
-            "excerpt": "A detailed public summary explains the technology, capacity, participants, and expected industry impact.",
-            "body": "\n\n".join(sections) + "\n\n来源与审核说明\n\nDetails remain traceable to the named source.",
-            "source": "Official Energy Agency",
+            "title": "大型储能项目进入商业运行阶段并带来系统调度观察样本",
+            "excerpt": "公开资料说明了项目技术路线、建设状态、参与主体、系统调度价值和可能的行业影响，适合作为能源板块的前沿科普样本，也便于读者理解后续观察重点。",
+            "body": "\n\n".join(sections) + "\n\n简要来源\n\n来源信息保留在原始链接中，正文为平台中文整理。",
+            "source": "能源官方机构",
             "sourceUrl": "https://example.com/energy/story",
             "image": "https://cdn.example.com/energy.jpg",
             "category": "能源",
@@ -129,7 +129,7 @@ class SupabaseDraftSyncTests(unittest.TestCase):
 
     def test_auto_review_rejects_body_shorter_than_800_characters(self):
         story = self.rich_story()
-        story["body"] = "简短正文。\n\n来源与审核说明\n\n请查看原文。"
+        story["body"] = "简短正文。\n\n简要来源\n\n请查看原文。"
         policy = {"enabled": True, "minConfidence": 85, "policyVersion": 2}
         row = sync.article_row(
             story, "main", 0, "2026-08-02T00:00:00+00:00", policy
@@ -236,7 +236,7 @@ class SupabaseDraftSyncTests(unittest.TestCase):
             "source_url": story["sourceUrl"],
             "category": story["category"],
             "status": "published",
-            "body": "旧版短正文\n\n来源与审核说明\n\n待补充。",
+            "body": "旧版短正文\n\n简要来源\n\n待补充。",
             "extra": {"automaticImport": True, "automaticApproval": {"approved": True}},
             "position": 2,
         }
@@ -279,6 +279,15 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(len(promotions), 1)
         self.assertEqual(promotions[0]["extra"]["automaticPromotionOf"], 42)
         self.assertEqual(counts["能源"], 1)
+
+    def test_auto_review_rejects_long_english_content(self):
+        story = self.rich_story()
+        story["body"] += "\n\nThis English paragraph contains enough consecutive words to fail the Chinese publication check."
+        policy = {"enabled": True, "minConfidence": 85, "policyVersion": 2}
+        row = sync.article_row(
+            story, "main", 0, "2026-08-03T08:00:00+00:00", policy
+        )
+        self.assertEqual(row["status"], "review")
 
 
 if __name__ == "__main__":

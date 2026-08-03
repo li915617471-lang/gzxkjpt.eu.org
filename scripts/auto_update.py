@@ -64,6 +64,27 @@ TRACKING_IMAGE_MARKERS = ("pixel", "tracking", "tracker", "spacer", "1x1", "clea
 MIN_ARTICLE_CHARS = 800
 GITHUB_MODELS_ENDPOINT = "https://models.github.ai/inference/chat/completions"
 DEFAULT_ARTICLE_MODEL = "openai/gpt-4.1-mini"
+SOURCE_DISCLOSURE_HEADING = "简要来源"
+LEGACY_DISCLOSURE_HEADING = "来源与审核说明"
+
+SOURCE_NAME_ALIASES = {
+    "MIT Technology Review": "麻省理工科技评论",
+    "IEEE Spectrum": "电气电子工程师学会科技观察",
+    "Manufacturing Dive": "制造业行业资讯",
+    "Semiconductor Engineering": "半导体工程资讯",
+    "Global Ag Tech Initiative": "全球农业科技资讯",
+    "Open Culture": "开放文化资讯",
+    "European Central Bank": "欧洲中央银行",
+    "U.S. Energy Information Administration": "美国能源信息署",
+    "U.S. Federal Reserve": "美国联邦储备委员会",
+    "Bank for International Settlements": "国际清算银行",
+    "U.S. National Science Foundation": "美国国家科学基金会",
+    "U.S. National Institute of Standards and Technology": "美国国家标准与技术研究院",
+    "U.S. Department of Energy": "美国能源部",
+    "USDA Agricultural Research Service": "美国农业部农业研究局",
+    "National Association of Manufacturers": "美国制造商协会",
+    "Harvard Gazette Arts & Humanities": "哈佛大学人文艺术资讯",
+}
 
 CATEGORY_EDITORIAL_CONTEXT = {
     "金融": {
@@ -570,6 +591,27 @@ def count_content_characters(value: str) -> int:
     return len(re.findall(r"[A-Za-z0-9\u3400-\u9fff]", str(value or "")))
 
 
+def has_cjk_text(value: str) -> bool:
+    return bool(re.search(r"[\u3400-\u9fff]", str(value or "")))
+
+
+def localized_source_name(value: str) -> str:
+    name = str(value or "").strip()
+    if not name:
+        return "公开来源"
+    if name in SOURCE_NAME_ALIASES:
+        return SOURCE_NAME_ALIASES[name]
+    return "公开来源机构" if re.fullmatch(r"[\x00-\x7f\s.,&'()/-]+", name) else name
+
+
+def has_source_disclosure(value: str) -> bool:
+    return SOURCE_DISCLOSURE_HEADING in str(value or "") or LEGACY_DISCLOSURE_HEADING in str(value or "")
+
+
+def has_long_english_run(value: str) -> bool:
+    return bool(re.search(r"(?:\b[A-Za-z][A-Za-z'-]*\b[\s,.;:!?()/-]*){8,}", str(value or "")))
+
+
 def body_meets_publication_standard(value: str) -> bool:
     body = str(value or "").strip()
     paragraphs = [item.strip() for item in re.split(r"\n{2,}", body) if item.strip()]
@@ -578,20 +620,23 @@ def body_meets_publication_standard(value: str) -> bool:
         count_content_characters(body) >= MIN_ARTICLE_CHARS
         and len(paragraphs) >= 6
         and len(normalized) == len(set(normalized))
-        and "来源与审核说明" in body
+        and has_source_disclosure(body)
+        and not has_long_english_run(body)
     )
 
 
 def build_review_body(summary: str, source_name: str, category: str = "") -> str:
-    summary = truncate_text(summary, 900) or "该条目来自公开订阅源，尚待编辑补充中文摘要。"
+    summary = truncate_text(summary, 900) if has_cjk_text(summary) else ""
+    summary = summary or "该条目来自公开订阅源，尚待编辑补充中文摘要。"
+    display_source = localized_source_name(source_name)
     return (
         "核心信息\n\n"
         f"{summary}\n\n"
         "编辑状态\n\n"
         f"这是一条属于“{category or '待分类'}”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n"
-        "来源与审核说明\n\n"
-        f"本资料由“{source_name or '公开来源'}”的公开 RSS/Atom 摘要自动整理，仅用于线索发现和后台审核。"
-        "平台未复制来源全文；正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接，详情以来源页面为准。"
+        f"{SOURCE_DISCLOSURE_HEADING}\n\n"
+        f"本资料来自“{display_source}”公开订阅摘要，仅用于线索发现和后台审核。"
+        "正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。"
     )
 
 
@@ -616,18 +661,21 @@ def generate_ai_article(story: dict) -> dict:
     if len(clean_text(material)) < 120:
         raise ValueError("来源材料不足 120 字符，不能可靠扩写")
     source_name = str(story.get("source") or "公开来源")
+    display_source = localized_source_name(source_name)
     source_url = str(story.get("sourceUrl") or "")
     prompt = f"""请把下面的公开来源材料整理成中文科普文章。只使用材料中明确出现的事实，不补造数字、人物、结论或因果关系。
 
 输出必须是一个 JSON 对象，字段只有 title、excerpt、body：
 - title：准确的中文标题，10-60字；
 - excerpt：中文导语，80-160字；
-- body：900-1300个中文字符，分为“事件概览、背景与原理、关键进展、应用与影响、局限与待观察、读者如何核验”六节，每节用“节标题\\n\\n正文”表示，各节之间空一行；不要使用 Markdown 符号；
+- body：1100-1600个中文字符，分为“事件概览、背景与原理、关键进展、应用与影响、局限与待观察、读者如何核验”六节，每节用“节标题\\n\\n正文”表示，各节之间空一行；不要使用 Markdown 符号；
+- 全文必须使用中文表达；不要出现英文段落、英文标题、英文来源名或网页地址；外文机构名请译成中文，无法确认译名时写“来源机构”；
 - 不要复制长句，专业名词和短引用除外；材料没说的内容明确写“来源材料未说明”；
-- 不写宣传语，不声称平台完成了独立事实核查。
+- 不写宣传语，不声称平台完成了独立事实核查；
+- body 不要写“来源与审核说明”或“简要来源”，来源尾注由系统另行添加。
 
 板块：{story.get('category', '')}
-来源机构：{source_name}
+来源机构中文名：{display_source}
 原文地址：{source_url}
 来源材料：
 {material}"""
@@ -682,10 +730,13 @@ def generate_ai_article(story: dict) -> dict:
         raise ValueError("生成导语长度不合格")
     if count_content_characters(body) < MIN_ARTICLE_CHARS:
         raise ValueError("生成正文不足 800 字")
+    if has_long_english_run("\n\n".join([title, excerpt, body])):
+        raise ValueError("生成内容包含过多英文，未达到中文科普标准")
+    if source_url and source_url in body:
+        raise ValueError("生成正文不应直接展示网页地址")
     body += (
-        "\n\n来源与审核说明\n\n"
-        f"本文由平台根据“{source_name}”公开页面提供的标题、摘要和有限正文片段进行 AI 辅助原创整理。"
-        "平台未复制来源全文，也不以自动整理替代专业判断；涉及数据、政策、研究结论和时效的信息，请点击原文链接复核。"
+        f"\n\n{SOURCE_DISCLOSURE_HEADING}\n\n"
+        f"来源：{display_source}公开资料。本文为平台中文整理，版权归原发布方所有；重要数据请以原文为准。"
     )
     if not body_meets_publication_standard(body):
         raise ValueError("生成正文未通过结构、长度或重复检查")
@@ -697,29 +748,29 @@ def build_structured_article(story: dict) -> dict:
     category = str(story.get("category") or "科技")
     context = CATEGORY_EDITORIAL_CONTEXT.get(category, CATEGORY_EDITORIAL_CONTEXT["科技"])
     source_name = str(story.get("source") or "公开来源")
-    source_url = str(story.get("sourceUrl") or "")
+    display_source = localized_source_name(source_name)
     title_source = clean_text(story.get("originalTitle") or story.get("title") or "")
     summary = clean_text(story.get("sourceMaterial") or story.get("excerpt") or "")
-    summary = truncate_text(summary, 560) or "来源页面提供的公开摘要不足，本文只保留可核验的板块阅读框架。"
-    title = f"{category}前沿观察：{title_source}" if title_source else f"{category}板块前沿观察"
+    summary = truncate_text(summary, 560) if has_cjk_text(summary) else ""
+    summary = summary or "来源页面提供的是外文摘要或短线索，平台不直接展示原文内容，仅保留可核验的板块阅读框架。"
+    display_title = title_source if has_cjk_text(title_source) else f"公开资料显示的{category}动态"
+    title = f"{category}前沿观察：{display_title}" if display_title else f"{category}板块前沿观察"
     excerpt = truncate_text(
-        f"{source_name}发布了一条与{category}相关的公开信息。平台根据可访问的标题、摘要和有限正文片段整理重点，并明确区分来源事实、板块背景与仍待核验的部分。",
+        f"{display_source}发布了一条与{category}相关的公开信息。平台根据可访问的标题、摘要和有限正文片段整理重点，并明确区分来源事实、板块背景与仍待核验的部分。",
         180,
     )
     sections = [
-        ("事件概览", f"来源材料显示：{summary}。这段材料只用于确定文章主题和阅读范围，不代表平台已经完成独立事实核查。原始标题为：{title_source or '来源页面未提供'}。"),
-        ("背景与原理", context["background"]),
-        ("如何理解这项进展", context["principle"]),
-        ("可能的应用与影响", context["impact"] + f"就当前条目而言，来源材料明确说明的影响仅限于上述公开内容；更广泛的市场或社会影响仍需要后续数据验证。"),
-        ("局限与待观察", "当前材料可能缺少完整方法、样本、成本、对照组或长期结果。来源页面没有说明的数字、时间表、因果关系和预测，平台不会替来源补写。后续应观察是否有正式报告、同行评议、监管文件、独立测量或连续周期数据出现。"),
-        ("读者如何核验", f"建议先打开原始来源，核对标题、发布时间、作者或发布机构，再检查正文中的定义、统计口径和适用范围。若来源页面更新、撤回或更正，应以页面最新版本为准。本文对应的原始地址是：{source_url or '未提供'}。"),
+        ("事件概览", f"来源材料显示：{summary}。这段材料只用于确定文章主题和阅读范围，不代表平台已经完成独立事实核查。读者可以先把它理解为一个前沿线索：它提示某个机构、企业或研究团队正在公开讨论相关问题，但具体进展仍要回到原文确认。"),
+        ("背景与原理", context["background"] + "因此，平台整理时会优先说明这类信息为什么重要、它通常涉及哪些基本概念，以及哪些内容只是背景解释而不是来源已经证明的结论。"),
+        ("如何理解这项进展", context["principle"] + "如果来源材料比较短，文章会减少对具体数字的展开，更多提供阅读框架，帮助读者知道下一步应该查什么、问什么、比较什么。"),
+        ("可能的应用与影响", context["impact"] + f"就当前条目而言，来源材料明确说明的影响仅限于上述公开内容；更广泛的市场或社会影响仍需要后续数据验证。不能因为信息来自前沿领域，就直接推断它已经成熟、已经低成本可用，或一定会在所有地区复制。"),
+        ("局限与待观察", "当前材料可能缺少完整方法、样本、成本、对照组或长期结果。来源页面没有说明的数字、时间表、因果关系和预测，平台不会替来源补写。后续应观察是否有正式报告、同行评议、监管文件、独立测量、连续周期数据或真实应用案例出现。若这些证据没有出现，相关进展更适合作为趋势线索，而不是确定性结论。"),
+        ("读者如何核验", "建议先打开原始来源，核对标题、发布时间、作者或发布机构，再检查正文中的定义、统计口径和适用范围。若来源页面更新、撤回或更正，应以页面最新版本为准。阅读时还可以把同一主题下的官方文件、学术资料、行业报告和企业公告放在一起比较，避免只根据单一来源形成判断。"),
     ]
     body = "\n\n".join(f"{heading}\n\n{text}" for heading, text in sections)
     body += (
-        "\n\n来源与审核说明\n\n"
-        f"本文由平台根据“{source_name}”公开页面提供的标题、RSS/Atom 摘要和有限正文片段进行结构化原创整理。"
-        "由于免费推理服务当前不可用，本文未调用生成模型；平台未复制来源全文，也不以自动整理替代专业判断。"
-        "涉及数据、政策、研究结论和时效的信息，请点击原文链接复核。资料中的板块背景用于帮助理解，不应被误读为来源机构的立场、预测或承诺。"
+        f"\n\n{SOURCE_DISCLOSURE_HEADING}\n\n"
+        f"来源：{display_source}公开资料。本文为平台中文结构化整理，版权归原发布方所有；重要数据请以原文为准。"
     )
     if not body_meets_publication_standard(body):
         raise ValueError("结构化整理正文未达到 800 字标准")

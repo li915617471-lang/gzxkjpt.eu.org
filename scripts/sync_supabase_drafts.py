@@ -33,6 +33,8 @@ DEFAULT_MIN_CONFIDENCE = 85
 MIN_ARTICLE_CHARS = 800
 TRUSTED_LEVELS = {"authoritative", "professional"}
 QUOTA_TRUSTED_LEVELS = {"authoritative", "professional", "standard"}
+SOURCE_DISCLOSURE_HEADING = "简要来源"
+LEGACY_DISCLOSURE_HEADING = "来源与审核说明"
 
 
 def normalize_url(value: str) -> str:
@@ -96,6 +98,15 @@ def count_content_characters(value: Any) -> int:
     return len(re.findall(r"[A-Za-z0-9\u3400-\u9fff]", str(value or "")))
 
 
+def has_source_disclosure(value: Any) -> bool:
+    body = str(value or "")
+    return SOURCE_DISCLOSURE_HEADING in body or LEGACY_DISCLOSURE_HEADING in body
+
+
+def has_long_english_run(value: Any) -> bool:
+    return bool(re.search(r"(?:\b[A-Za-z][A-Za-z'-]*\b[\s,.;:!?()/-]*){8,}", str(value or "")))
+
+
 def has_unique_article_sections(value: Any) -> bool:
     paragraphs = [item.strip() for item in re.split(r"\n{2,}", str(value or "")) if item.strip()]
     normalized = [re.sub(r"\s+", "", item) for item in paragraphs]
@@ -107,7 +118,8 @@ def body_meets_publication_standard(value: Any) -> bool:
     return (
         count_content_characters(body) >= MIN_ARTICLE_CHARS
         and has_unique_article_sections(body)
-        and "来源与审核说明" in body
+        and has_source_disclosure(body)
+        and not has_long_english_run(body)
     )
 
 
@@ -177,7 +189,8 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
         "completeExcerpt": len(excerpt) >= 60,
         "completeBody": count_content_characters(body) >= MIN_ARTICLE_CHARS,
         "structuredBody": has_unique_article_sections(body),
-        "sourceDisclosure": "来源与审核说明" in str(body),
+        "sourceDisclosure": has_source_disclosure(body),
+        "localizedContent": not has_long_english_run("\n\n".join([title, excerpt, str(body)])),
         "groundedGeneration": story.get("contentGenerationMode") in {
             "github-models-source-grounded",
             "source-grounded-structured-fallback",
@@ -349,13 +362,13 @@ def article_row(
             "automaticApproval": {
                 **audit,
                 "reviewedAt": imported_at,
-                "notice": "自动审核仅验证来源与内容结构，不代替人工事实核查。",
+                "notice": "自动审核检查中文正文、来源链接、分类和内容结构；详细来源在文章末尾简要标注。",
             },
             "reviewChecks": {
                 "sourceVerified": audit["checks"]["validSourceUrl"] and audit["checks"]["trustedSource"],
                 "categoryVerified": audit["checks"]["classified"],
                 "localizationVerified": False,
-                "rightsVerified": bool(story.get("sourceUrl")) and "来源与审核说明" in str(body),
+                "rightsVerified": bool(story.get("sourceUrl")) and has_source_disclosure(body),
             },
         }
     )
@@ -554,7 +567,7 @@ def prepare_promotions(
                 "mode": "daily-target-backfill",
                 "dailyTargetPerCategory": target,
                 "reviewedAt": imported_at,
-                "notice": "自动审核仅验证来源与内容结构，不代替人工事实核查。",
+                "notice": "自动审核检查中文正文、来源链接、分类和内容结构；详细来源在文章末尾简要标注。",
             })
             body = story.get("body") or ""
             if isinstance(body, list):
@@ -569,7 +582,7 @@ def prepare_promotions(
                     "sourceVerified": True,
                     "categoryVerified": True,
                     "localizationVerified": False,
-                    "rightsVerified": bool(story.get("sourceUrl")) and "来源与审核说明" in str(body),
+                    "rightsVerified": bool(story.get("sourceUrl")) and has_source_disclosure(body),
                 },
             })
             original_source_url = str(story.get("sourceUrl") or story.get("url") or "")

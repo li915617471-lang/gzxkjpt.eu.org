@@ -21,6 +21,71 @@ function safeArticleColor(value) {
   return /^#[0-9a-f]{6}$/i.test(String(value || "")) ? value : "#6ee7a8";
 }
 
+const SOURCE_NAME_ALIASES = {
+  "MIT Technology Review": "麻省理工科技评论",
+  "IEEE Spectrum": "电气电子工程师学会科技观察",
+  "Manufacturing Dive": "制造业行业资讯",
+  "Semiconductor Engineering": "半导体工程资讯",
+  "Global Ag Tech Initiative": "全球农业科技资讯",
+  "Open Culture": "开放文化资讯",
+  "European Central Bank": "欧洲中央银行",
+  "U.S. Energy Information Administration": "美国能源信息署",
+  "U.S. Federal Reserve": "美国联邦储备委员会",
+  "Bank for International Settlements": "国际清算银行",
+  "U.S. National Science Foundation": "美国国家科学基金会",
+  "U.S. National Institute of Standards and Technology": "美国国家标准与技术研究院",
+  "U.S. Department of Energy": "美国能源部",
+  "USDA Agricultural Research Service": "美国农业部农业研究局",
+  "National Association of Manufacturers": "美国制造商协会",
+  "Harvard Gazette Arts & Humanities": "哈佛大学人文艺术资讯"
+};
+
+const ARTICLE_TEXT_ALIASES = Object.assign({}, SOURCE_NAME_ALIASES, {
+  "Liber Novus": "《新书》",
+  "Nucor": "纽柯钢铁",
+  "Chiplet": "芯粒",
+  "Digital euro": "数字欧元",
+  "Federal Reserve Board": "美国联邦储备委员会",
+  "The Red Book": "《红书》",
+  "Carl Jung": "卡尔·荣格"
+});
+
+function sourceDisplayName(value) {
+  const name = String(value || "").trim();
+  if (!name) return "公开来源";
+  if (SOURCE_NAME_ALIASES[name]) return SOURCE_NAME_ALIASES[name];
+  return /^[\x00-\x7f\s.,&'()/-]+$/.test(name) ? "公开来源机构" : name;
+}
+
+function localizeArticleText(value, story) {
+  let text = String(value || "");
+  const rawSource = String(story?.source || "").trim();
+  const displaySource = sourceDisplayName(rawSource);
+  Object.entries(ARTICLE_TEXT_ALIASES).forEach(function ([raw, translated]) {
+    text = text.split(raw).join(translated);
+  });
+  if (rawSource && rawSource !== displaySource) {
+    text = text.split(rawSource).join(displaySource);
+  }
+  const sourceUrl = String(story?.sourceUrl || story?.url || "").trim();
+  if (sourceUrl) {
+    text = text.split(sourceUrl).join("原文链接");
+  }
+  return text.replace(/\b[A-Za-z][A-Za-z'-]*(?:\s+[A-Za-z][A-Za-z'-]*){2,}\b/g, "相关外文信息");
+}
+
+function dateLabel(value) {
+  if (!value) return "未提供";
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? String(value) : parsed.toLocaleString("zh-CN", { hour12: false });
+}
+
+function dateOnlyLabel(value) {
+  if (!value) return "";
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? String(value).slice(0, 10) : parsed.toLocaleDateString("zh-CN");
+}
+
 function applyArticleTheme() {
   const theme = articleContent.theme || {};
   const root = document.documentElement;
@@ -68,9 +133,39 @@ function bodyParagraphs(story) {
   ];
 }
 
+function sourceBriefText(story) {
+  const sourceName = sourceDisplayName(story.source);
+  const published = dateOnlyLabel(story.originalPublishedAt || story.date);
+  return "简要来源：" + sourceName + "公开资料" +
+    (published ? "，原文发布时间：" + published : "") +
+    "。本文为平台中文整理，版权归原发布方所有，重要数据请以原文为准。";
+}
+
+function normalizeArticleParagraphs(story) {
+  let paragraphs = bodyParagraphs(story).map(function (paragraph) {
+    return localizeArticleText(paragraph, story).trim();
+  }).filter(Boolean);
+  const disclosureIndex = paragraphs.findIndex(function (paragraph) {
+    return /^(来源与审核说明|简要来源)$/.test(paragraph) || /^简要来源[:：]/.test(paragraph);
+  });
+  if (disclosureIndex >= 0) paragraphs = paragraphs.slice(0, disclosureIndex);
+  return paragraphs.concat(["简要来源", sourceBriefText(story)]);
+}
+
+function articleParagraphHtml(paragraph, index, paragraphs) {
+  const text = escapeArticleHtml(paragraph);
+  const isHeading = paragraph.length <= 18
+    && index < paragraphs.length - 1
+    && !/[。！？；，、,.!?;:：]/.test(paragraph);
+  if (isHeading) return "<h2>" + text + "</h2>";
+  if (/^简要来源[:：]/.test(paragraph)) return "<p class=\"article-source-note\">" + text + "</p>";
+  return "<p>" + text + "</p>";
+}
+
 function renderBody(story) {
-  document.querySelector("#articleBody").innerHTML = bodyParagraphs(story)
-    .map(function (paragraph) { return "<p>" + escapeArticleHtml(paragraph) + "</p>"; })
+  const paragraphs = normalizeArticleParagraphs(story);
+  document.querySelector("#articleBody").innerHTML = paragraphs
+    .map(articleParagraphHtml)
     .join("");
 }
 
@@ -87,7 +182,7 @@ function renderRelated(story) {
     return "<a class=\"related-item\" href=\"article.html?id=" + encodeURIComponent(item.id) + "\" style=\"--category-color:" + safeArticleColor(setting.color) + "\">" +
       "<span>" + escapeArticleHtml(item.category) + "</span>" +
       "<h3>" + escapeArticleHtml(item.title) + "</h3>" +
-      "<small>" + escapeArticleHtml(item.source || "平台内容") + " · " + Number(item.readMinutes || 6) + " 分钟</small>" +
+      "<small>" + escapeArticleHtml(sourceDisplayName(item.source)) + " · " + Number(item.readMinutes || 6) + " 分钟</small>" +
     "</a>";
   }).join("");
 }
@@ -117,39 +212,17 @@ function renderArticle(story) {
   };
   articleImage.src = story.image || imageFallback;
   articleImage.alt = story.title;
-  document.querySelector("#articleSource").textContent = story.source || "平台内容";
+  document.querySelector("#articleSource").textContent = sourceDisplayName(story.source);
   document.querySelector("#railCategory").textContent = story.category;
   document.querySelector("#railDate").textContent = story.date || "未设置";
   document.querySelector("#railHeat").textContent = String(story.heat || 0);
-  document.querySelector("#railConfidence").textContent = String(story.confidence ?? 80) + "%";
   const sourceLink = document.querySelector("#sourceLink");
   const sourceUrl = story.sourceUrl || story.url;
   sourceLink.hidden = !sourceUrl;
   if (sourceUrl) sourceLink.href = sourceUrl;
-  const confidence = Number(story.confidence ?? 80);
-  document.querySelector("#sourceTrustNote").textContent = sourceUrl
-    ? `${confidence >= 85 ? "高可信" : confidence >= 70 ? "可核验" : "需交叉核验"} · 已保留原始来源链接`
-    : `${confidence >= 85 ? "高可信" : "待核验"} · 暂无原始来源链接`;
-  const sourceTypeLabels = {
-    official: "政府 / 官方机构", research: "科研 / 学术机构", professional: "专业媒体",
-    industry: "行业机构", company: "企业发布", community: "社区 / 个人"
-  };
-  const trustLevelLabels = {
-    authoritative: "权威来源", professional: "专业来源", standard: "一般来源", reference: "仅供参考"
-  };
-  const dateLabel = function (value) {
-    if (!value) return "未提供";
-    const parsed = new Date(value);
-    return Number.isNaN(parsed.getTime()) ? String(value) : parsed.toLocaleString("zh-CN", { hour12: false });
-  };
-  document.querySelector("#sourceType").textContent = sourceTypeLabels[story.sourceType] || "未标注";
-  document.querySelector("#sourceRegion").textContent = story.sourceRegion || "未标注";
-  document.querySelector("#sourceTrustLevel").textContent = trustLevelLabels[story.sourceTrustLevel] || "未标注";
+  document.querySelector("#sourceBriefNote").textContent = "正文已转为中文科普整理，详细出处放在文末。";
   document.querySelector("#sourcePublishedAt").textContent = dateLabel(story.originalPublishedAt);
   document.querySelector("#sourceCollectedAt").textContent = dateLabel(story.collectedAt || story.automaticImportedAt);
-  document.querySelector("#sourceGenerationMode").textContent = story.contentGenerationMode === "github-models-source-grounded"
-    ? "AI 辅助原创整理" : story.contentGenerationMode === "source-grounded-structured-fallback"
-      ? "来源约束结构化整理" : "编辑整理 / 来源摘要";
   const correctionParams = new URLSearchParams({
     article: String(story.id),
     url: location.href

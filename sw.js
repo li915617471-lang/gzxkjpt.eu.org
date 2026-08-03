@@ -1,4 +1,4 @@
-const CACHE_VERSION = "fx-public-v3";
+const CACHE_VERSION = "fx-public-v4";
 const CORE_ASSETS = [
   "./",
   "./index.html",
