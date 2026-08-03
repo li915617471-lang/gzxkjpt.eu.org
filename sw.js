@@ -1,4 +1,4 @@
-const CACHE_VERSION = "fx-public-v8";
+const CACHE_VERSION = "fx-public-v9";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -6,11 +6,11 @@ const CORE_ASSETS = [
   "./category.html",
   "./governance.html",
   "./offline.html",
-  "./styles.css?v=6",
+  "./styles.css?v=7",
   "./article.css?v=2",
   "./category.css?v=2",
   "./governance.css",
-  "./app.js?v=7",
+  "./app.js?v=8",
   "./article.js?v=10",
   "./category.js?v=3",
   "./governance.js",
@@ -29,6 +29,7 @@ const CORE_ASSETS = [
   "./assets/energy.jpg",
   "./assets/factory.jpg",
   "./assets/network.jpg",
+  "./assets/platform-overview.webm",
   "./assets/robotics.jpg",
   "./assets/semiconductor.jpg",
   "./assets/solar.jpg"

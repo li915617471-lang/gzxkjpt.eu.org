@@ -5,6 +5,8 @@ const SAVED_KEY = "fx-saved";
 let content = null;
 let stories = [];
 let chartSeries = {};
+let homeVideos = [];
+let activeHomeVideoId = "";
 
 const fallbackContent = {
   site: {
@@ -219,6 +221,123 @@ function renderDiscovery() {
   sourceFilter.value = sources.includes(state.source) ? state.source : "all";
   state.source = sourceFilter.value;
   updateFilterUi();
+}
+
+function bilibiliPlayerUrl(value) {
+  try {
+    const url = new URL(String(value || ""));
+    if (!(url.hostname === "bilibili.com" || url.hostname.endsWith(".bilibili.com"))) return "";
+    const match = url.href.match(/\b(BV[0-9A-Za-z]{10})\b/);
+    return match ? `https://player.bilibili.com/player.html?bvid=${encodeURIComponent(match[1])}&page=1&high_quality=1` : "";
+  } catch (error) {
+    return "";
+  }
+}
+
+function validHomeVideo(story) {
+  if (story.videoRightsConfirmed !== true) return false;
+  const type = String(story.videoType || "none");
+  const value = String(story.videoUrl || "").trim();
+  if (type === "bilibili") return Boolean(bilibiliPlayerUrl(value));
+  try {
+    const url = new URL(value);
+    if (url.protocol !== "https:") return false;
+    if (type === "external") return true;
+    return type === "file" && /\.(mp4|webm|ogg)$/i.test(url.pathname);
+  } catch (error) {
+    return false;
+  }
+}
+
+function getHomeVideos() {
+  const publishedVideos = stories
+    .filter((story) => storyIsPublic(story) && validHomeVideo(story))
+    .map((story) => ({
+      id: `story-${story.id}`,
+      storyId: story.id,
+      title: story.title,
+      description: window.FXContent.presentationExcerpt(story),
+      category: story.category,
+      source: story.source,
+      sourceUrl: story.sourceUrl || "",
+      videoType: story.videoType,
+      videoUrl: story.videoUrl,
+      videoPoster: story.videoPoster || story.image || story.imageFallback || "assets/network.jpg"
+    }));
+  return publishedVideos.slice(0, 5).concat({
+    id: "platform-overview",
+    title: "信息分享平台：六大板块前沿内容导航",
+    description: "快速了解金融、科技、工业、能源、农业与人文内容，以及文章、视频和原始来源之间的阅读路径。",
+    category: "平台导览",
+    source: "信息分享平台",
+    sourceUrl: "",
+    videoType: "file",
+    videoUrl: "assets/platform-overview.webm",
+    videoPoster: "assets/network.jpg"
+  });
+}
+
+function renderHomeVideoScreen(video) {
+  const screen = document.querySelector("#homeVideoScreen");
+  screen.innerHTML = "";
+  if (video.videoType === "bilibili") {
+    const frame = document.createElement("iframe");
+    frame.src = bilibiliPlayerUrl(video.videoUrl);
+    frame.title = `${video.title} 视频`;
+    frame.loading = "lazy";
+    frame.allow = "autoplay; fullscreen; picture-in-picture";
+    frame.allowFullscreen = true;
+    screen.appendChild(frame);
+    return;
+  }
+  if (video.videoType === "file") {
+    const player = document.createElement("video");
+    player.controls = true;
+    player.playsInline = true;
+    player.preload = "metadata";
+    player.poster = video.videoPoster;
+    player.setAttribute("controlsList", "nodownload");
+    const source = document.createElement("source");
+    source.src = video.videoUrl;
+    source.type = video.videoUrl.toLowerCase().includes(".webm") ? "video/webm" : "video/mp4";
+    player.appendChild(source);
+    player.append("您的浏览器暂不支持此视频格式。");
+    screen.appendChild(player);
+    return;
+  }
+  const link = document.createElement("a");
+  link.className = "home-video-external";
+  link.href = video.videoUrl;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.innerHTML = `<img src="${escapeHtml(video.videoPoster)}" data-image-fallback="assets/network.jpg" alt="${escapeHtml(video.title)}"><span><i data-lucide="external-link"></i>前往来源网站观看</span>`;
+  screen.appendChild(link);
+  attachImageFallbacks(screen);
+}
+
+function renderHomeVideos() {
+  homeVideos = getHomeVideos();
+  if (!homeVideos.some((video) => video.id === activeHomeVideoId)) activeHomeVideoId = homeVideos[0]?.id || "";
+  const active = homeVideos.find((video) => video.id === activeHomeVideoId) || homeVideos[0];
+  if (!active) return;
+  renderHomeVideoScreen(active);
+  document.querySelector("#homeVideoCategory").textContent = active.category;
+  document.querySelector("#homeVideoKind").textContent = active.videoType === "external" ? "外部观看" : active.videoType === "bilibili" ? "哔哩哔哩" : "站内视频";
+  document.querySelector("#homeVideoTitle").textContent = active.title;
+  document.querySelector("#homeVideoDescription").textContent = active.description;
+  document.querySelector("#homeVideoCount").textContent = `${homeVideos.length} 条`;
+  const actions = [];
+  if (active.storyId) actions.push(`<a href="article.html?id=${encodeURIComponent(active.storyId)}"><i data-lucide="newspaper"></i>阅读对应文章</a>`);
+  if (active.sourceUrl) actions.push(`<a href="${escapeHtml(active.sourceUrl)}" target="_blank" rel="noopener noreferrer"><i data-lucide="external-link"></i>查看资料来源</a>`);
+  document.querySelector("#homeVideoActions").innerHTML = actions.join("");
+  document.querySelector("#homeVideoPlaylist").innerHTML = homeVideos.map((video, index) => `
+    <button class="home-video-item ${video.id === active.id ? "is-active" : ""}" type="button" data-home-video="${escapeHtml(video.id)}" aria-pressed="${video.id === active.id}">
+      <span class="home-video-thumb"><img src="${escapeHtml(video.videoPoster)}" data-image-fallback="assets/network.jpg" alt="" loading="lazy"><i data-lucide="play"></i></span>
+      <span class="home-video-copy"><small>${escapeHtml(video.category)} · ${String(index + 1).padStart(2, "0")}</small><strong>${escapeHtml(video.title)}</strong><em>${escapeHtml(video.source)}</em></span>
+    </button>
+  `).join("");
+  attachImageFallbacks(document.querySelector("#homeVideoPlaylist"));
+  initializeIcons();
 }
 
 function updateFilterUi() {
@@ -470,6 +589,13 @@ function updateClock() {
 }
 
 function bindStaticEvents() {
+  document.querySelector("#homeVideoPlaylist").addEventListener("click", (event) => {
+    const button = event.target.closest("[data-home-video]");
+    if (!button || button.dataset.homeVideo === activeHomeVideoId) return;
+    activeHomeVideoId = button.dataset.homeVideo;
+    renderHomeVideos();
+  });
+
   document.querySelectorAll(".view-button").forEach((button) => {
     button.addEventListener("click", () => {
       state.view = button.dataset.view;
@@ -596,6 +722,7 @@ async function init() {
   renderDiscovery();
   renderMetrics();
   renderFeatured();
+  renderHomeVideos();
   renderSignals();
   renderTopics();
   renderEvents();
@@ -617,6 +744,7 @@ window.addEventListener("fxcontentupdate", (event) => {
   renderDiscovery();
   renderMetrics();
   renderFeatured();
+  renderHomeVideos();
   renderSignals();
   renderTopics();
   renderEvents();
