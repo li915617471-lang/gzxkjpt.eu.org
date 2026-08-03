@@ -11,7 +11,7 @@
   <script src="cloud.js" defer></script>
   <script src="content-service.js?v=7" defer></script>
   <script src="assets/vendor/lucide-0.468.0.min.js" defer></script>
-  <script src="admin.js?v=4" defer></script>
+  <script src="admin.js?v=5" defer></script>
 </head>
 <body>
   <section id="authGate" class="auth-gate" hidden>
@@ -216,6 +216,10 @@
           <div class="form-row two">
             <label>视频封面<input id="storyVideoPoster" placeholder="留空时使用文章封面"></label>
             <label class="check-label"><span>已确认视频允许嵌入或传播</span><input id="storyVideoRightsConfirmed" type="checkbox"></label>
+          </div>
+          <div class="form-row two">
+            <label class="check-label"><span>在主页视频资料区展示</span><input id="storyHomeVideoFeatured" type="checkbox" checked></label>
+            <label>主页视频排序权重<input id="storyHomeVideoPriority" type="number" min="0" max="100" value="50"></label>
           </div>
           <label>标签<input id="storyTags" placeholder="用逗号分隔，例如：工业大模型, 数字孪生"></label>
           <div class="form-actions">

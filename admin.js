@@ -114,6 +114,8 @@ const els = {
   storyVideoUrl: document.querySelector("#storyVideoUrl"),
   storyVideoPoster: document.querySelector("#storyVideoPoster"),
   storyVideoRightsConfirmed: document.querySelector("#storyVideoRightsConfirmed"),
+  storyHomeVideoFeatured: document.querySelector("#storyHomeVideoFeatured"),
+  storyHomeVideoPriority: document.querySelector("#storyHomeVideoPriority"),
   storyTags: document.querySelector("#storyTags"),
   reportList: document.querySelector("#reportList"),
   reportQueueCount: document.querySelector("#reportQueueCount"),
@@ -340,6 +342,8 @@ function normalizeContent() {
     story.videoUrl = story.videoUrl || "";
     story.videoPoster = story.videoPoster || "";
     story.videoRightsConfirmed = story.videoRightsConfirmed === true;
+    story.homeVideoFeatured = story.homeVideoFeatured !== false;
+    story.homeVideoPriority = Math.max(0, Math.min(100, Number(story.homeVideoPriority ?? 50)));
     return story;
   });
 
@@ -1166,6 +1170,8 @@ function newStory() {
   els.storyVideoUrl.value = "";
   els.storyVideoPoster.value = "";
   els.storyVideoRightsConfirmed.checked = false;
+  els.storyHomeVideoFeatured.checked = true;
+  els.storyHomeVideoPriority.value = 50;
   els.storySourceVerified.checked = false;
   els.storyCategoryVerified.checked = false;
   els.storyLocalizationVerified.checked = false;
@@ -1209,6 +1215,8 @@ function loadStoryIntoForm(story) {
   els.storyVideoUrl.value = story.videoUrl || "";
   els.storyVideoPoster.value = story.videoPoster || "";
   els.storyVideoRightsConfirmed.checked = story.videoRightsConfirmed === true;
+  els.storyHomeVideoFeatured.checked = story.homeVideoFeatured !== false;
+  els.storyHomeVideoPriority.value = Number(story.homeVideoPriority ?? 50);
   els.storyTags.value = (story.tags || []).join(", ");
   const reviewChecks = story.reviewChecks || {};
   els.storySourceVerified.checked = reviewChecks.sourceVerified === true;
@@ -1237,6 +1245,8 @@ function formToStory() {
     videoUrl: els.storyVideoUrl.value.trim(),
     videoPoster: els.storyVideoPoster.value.trim(),
     videoRightsConfirmed: els.storyVideoRightsConfirmed.checked,
+    homeVideoFeatured: els.storyHomeVideoFeatured.checked,
+    homeVideoPriority: Math.max(0, Math.min(100, Number(els.storyHomeVideoPriority.value) || 0)),
     source: els.storySource.value.trim() || "平台编辑",
     sourceUrl: els.storySourceUrl.value.trim(),
     author: els.storyAuthor.value.trim(),
@@ -1300,6 +1310,8 @@ function updateVideoControls() {
   els.storyVideoUrl.disabled = !enabled;
   els.storyVideoPoster.disabled = !enabled;
   els.storyVideoRightsConfirmed.disabled = !enabled;
+  els.storyHomeVideoFeatured.disabled = !enabled;
+  els.storyHomeVideoPriority.disabled = !enabled;
 }
 
 function evaluateStoryQuality(story) {

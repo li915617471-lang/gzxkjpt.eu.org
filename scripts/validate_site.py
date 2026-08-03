@@ -112,6 +112,11 @@ def validate_content(validator: Validator, content: dict) -> list[dict]:
         if video_type != "none":
             validator.require(video_url.startswith("https://"), f"文章 {story_id} 视频必须使用 HTTPS")
             validator.require(story.get("videoRightsConfirmed") is True, f"文章 {story_id} 尚未确认视频传播权限")
+            try:
+                home_video_priority = int(story.get("homeVideoPriority", 50))
+            except (TypeError, ValueError):
+                home_video_priority = -1
+            validator.require(0 <= home_video_priority <= 100, f"文章 {story_id} 主页视频排序权重必须在 0 到 100 之间")
             if video_type == "file":
                 validator.require(bool(re.search(r"\.(?:mp4|webm|ogg)(?:\?.*)?$", video_url, re.I)), f"文章 {story_id} 直连视频格式无效")
             if video_type == "bilibili":

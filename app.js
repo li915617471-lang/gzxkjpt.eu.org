@@ -251,7 +251,12 @@ function validHomeVideo(story) {
 
 function getHomeVideos() {
   const publishedVideos = stories
-    .filter((story) => storyIsPublic(story) && validHomeVideo(story))
+    .filter((story) => storyIsPublic(story) && story.homeVideoFeatured !== false && validHomeVideo(story))
+    .sort((a, b) => {
+      const priority = Number(b.homeVideoPriority ?? 50) - Number(a.homeVideoPriority ?? 50);
+      if (priority) return priority;
+      return new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime();
+    })
     .map((story) => ({
       id: `story-${story.id}`,
       storyId: story.id,
