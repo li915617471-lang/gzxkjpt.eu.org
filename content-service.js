@@ -1,5 +1,6 @@
 (function () {
   const ADMIN_CONTENT_KEY = "fx-admin-content";
+  const PUBLIC_CACHE_KEY = "fx-public-content-cache-v1";
   const DEMO_TITLES = new Set([
     "先进封装扩产提速，Chiplet 进入规模化验证阶段",
     "固态电池中试线密集落地，材料体系仍是成本分水岭",
@@ -26,6 +27,23 @@
     } catch (error) {
       console.warn("本地内容读取失败", error);
       return null;
+    }
+  }
+
+  function readPublicCache() {
+    try {
+      const cached = JSON.parse(localStorage.getItem(PUBLIC_CACHE_KEY) || "null");
+      return cached?.stories ? cached : null;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function savePublicCache(value) {
+    try {
+      if (value?.stories) localStorage.setItem(PUBLIC_CACHE_KEY, JSON.stringify(value));
+    } catch (error) {
+      console.warn("公开内容缓存写入失败", error);
     }
   }
 
@@ -68,7 +86,7 @@
     return next;
   }
 
-  async function load(url) {
+  async function loadFile(url) {
     let fileContent = null;
     try {
       const response = await fetch((url || "data/content.json") + "?v=" + Date.now(), { cache: "no-store" });
@@ -77,16 +95,53 @@
     } catch (error) {
       console.warn("内容文件读取失败", error);
     }
+    return fileContent;
+  }
+
+  async function loadCloudContent() {
+    if (!window.FXCloud?.isConfigured()) return null;
+    try {
+      await window.FXCloud.init();
+      return await window.FXCloud.getContent();
+    } catch (error) {
+      console.warn("云端内容读取失败，继续使用本地内容", error);
+      return null;
+    }
+  }
+
+  function mergeWithBaseline(value, fileContent) {
+    return fileContent ? mergeContentBaseline(value, fileContent, false) : value;
+  }
+
+  function refreshPublicContent(fileContent) {
+    return loadCloudContent().then(function (cloudContent) {
+      if (!cloudContent?.stories) return null;
+      const next = mergeWithBaseline(cloudContent, fileContent);
+      savePublicCache(next);
+      window.dispatchEvent(new CustomEvent("fxcontentupdate", { detail: next }));
+      return next;
+    });
+  }
+
+  async function load(url, options) {
+    const fileContent = await loadFile(url);
+    const background = options?.background === true;
+
+    if (background) {
+      const cached = readPublicCache();
+      // Do not block the first paint on an unreliable cloud request.
+      if (window.FXCloud?.isConfigured()) refreshPublicContent(fileContent);
+      if (cached) return mergeWithBaseline(cached, fileContent);
+      const local = readLocal();
+      return local?.stories ? mergeWithBaseline(local, fileContent) : fileContent;
+    }
 
     if (window.FXCloud?.isConfigured()) {
-      try {
-        await window.FXCloud.init();
-        const cloudContent = await window.FXCloud.getContent();
-        if (cloudContent?.stories) {
-          return fileContent ? mergeContentBaseline(cloudContent, fileContent, false) : cloudContent;
-        }
-      } catch (error) {
-        console.warn("云端内容读取失败，改用本地数据", error);
+      const cloudContent = await loadCloudContent();
+      if (cloudContent?.stories) {
+        const next = mergeWithBaseline(cloudContent, fileContent);
+        savePublicCache(next);
+        return next;
       }
     }
 
@@ -97,6 +152,7 @@
 
   window.FXContent = {
     load: load,
-    readLocal: readLocal
+    readLocal: readLocal,
+    readPublicCache: readPublicCache
   };
 })();

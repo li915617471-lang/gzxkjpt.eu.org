@@ -24,10 +24,10 @@
   <script src="cloud-config.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="cloud.js" defer></script>
-  <script src="content-service.js?v=4" defer></script>
+  <script src="content-service.js?v=5" defer></script>
   <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
   <script src="pwa.js?v=2" defer></script>
-  <script src="app.js?v=4" defer></script>
+  <script src="app.js?v=5" defer></script>
   <script id="siteStructuredData" type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"信息分享平台","url":"https://gzxkjpt.eu.org/"}</script>
 </head>
 <body>
@@ -43,11 +43,13 @@
     </a>
 
     <nav class="primary-nav" aria-label="内容频道">
-      <button class="nav-tab is-active" data-category="全部">总览</button>
-      <button class="nav-tab" data-category="人工智能">人工智能</button>
-      <button class="nav-tab" data-category="先进制造">先进制造</button>
-      <button class="nav-tab" data-category="半导体">半导体</button>
-      <button class="nav-tab" data-category="新能源">新能源</button>
+      <a class="nav-tab is-active" href="index.html">总览</a>
+      <a class="nav-tab" href="category.html?category=金融">金融</a>
+      <a class="nav-tab" href="category.html?category=科技">科技</a>
+      <a class="nav-tab" href="category.html?category=工业">工业</a>
+      <a class="nav-tab" href="category.html?category=能源">能源</a>
+      <a class="nav-tab" href="category.html?category=农业">农业</a>
+      <a class="nav-tab" href="category.html?category=人文">人文</a>
     </nav>
 
     <div class="top-actions">

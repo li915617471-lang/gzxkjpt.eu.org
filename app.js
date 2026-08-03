@@ -112,7 +112,7 @@ function applyTheme() {
 }
 
 async function loadContent() {
-  const loaded = await window.FXContent?.load(CONTENT_URL);
+  const loaded = await window.FXContent?.load(CONTENT_URL, { background: true });
   return loaded || fallbackContent;
 }
 
@@ -181,12 +181,12 @@ function renderNav() {
   nav.innerHTML = [{ name: "全部", color: content.theme?.primary || "#6ee7a8" }, ...categories]
     .map((category) => {
       const label = category.name === "全部" ? "总览" : category.name;
-      return `<button class="nav-tab ${category.name === state.category ? "is-active" : ""}" data-category="${escapeHtml(category.name)}" style="--category-color:${safeColor(category.color)}">${escapeHtml(label)}</button>`;
+      const href = category.name === "全部"
+        ? "index.html"
+        : `category.html?category=${encodeURIComponent(category.name)}`;
+      return `<a class="nav-tab ${category.name === state.category ? "is-active" : ""}" href="${href}" style="--category-color:${safeColor(category.color)}">${escapeHtml(label)}</a>`;
     })
     .join("");
-  nav.querySelectorAll(".nav-tab").forEach((button) => {
-    button.addEventListener("click", () => setCategory(button.dataset.category));
-  });
 }
 
 function renderDiscovery() {
@@ -208,17 +208,11 @@ function renderDiscovery() {
   const categories = getCategorySettings().filter((item) => item.enabled !== false);
   directory.innerHTML = categories.map((category) => {
     const count = publicStories.filter((story) => story.category === category.name).length;
-    return `<button type="button" data-category-filter="${escapeHtml(category.name)}" style="--category-color:${safeColor(category.color)}">
+    return `<a href="category.html?category=${encodeURIComponent(category.name)}" style="--category-color:${safeColor(category.color)}">
       <i data-lucide="${escapeHtml(category.icon || "folder")}"></i>
       <span><strong>${escapeHtml(category.name)}</strong><small>${count} 条内容</small></span>
-    </button>`;
+    </a>`;
   }).join("");
-  directory.querySelectorAll("[data-category-filter]").forEach((button) => {
-    button.addEventListener("click", () => {
-      setCategory(button.dataset.categoryFilter);
-      document.querySelector("#feedTitle")?.scrollIntoView({ behavior: "smooth", block: "start" });
-    });
-  });
 
   const sources = Array.from(new Set(publicStories.map((story) => story.source).filter(Boolean))).sort((a, b) => a.localeCompare(b, "zh-CN"));
   sourceFilter.innerHTML = `<option value="all">全部来源</option>${sources.map((source) => `<option value="${escapeHtml(source)}">${escapeHtml(source)}</option>`).join("")}`;
@@ -385,8 +379,16 @@ function renderStories() {
   storyGrid.classList.toggle("is-list", state.view === "list");
   storyGrid.innerHTML = visibleStories.map(storyTemplate).join("");
   attachImageFallbacks(storyGrid);
-  resultCount.textContent = `${visibleStories.length} 条内容`;
+  const waitingForCloud = visibleStories.length === 0 && !window.FXContent?.readPublicCache?.();
+  resultCount.textContent = waitingForCloud ? "正在同步内容" : `${visibleStories.length} 条内容`;
   emptyState.hidden = visibleStories.length !== 0;
+  if (waitingForCloud) {
+    emptyState.querySelector("strong").textContent = "正在连接内容服务";
+    emptyState.querySelector("span").textContent = "内容将在连接完成后自动显示";
+  } else {
+    emptyState.querySelector("strong").textContent = "没有匹配的内容";
+    emptyState.querySelector("span").textContent = "尝试更换关键词或频道";
+  }
   updateFilterUi();
   initializeIcons();
 }
@@ -598,6 +600,24 @@ async function init() {
   bindStaticEvents();
   initializeIcons();
 }
+
+window.addEventListener("fxcontentupdate", (event) => {
+  if (!event.detail?.stories) return;
+  content = event.detail;
+  stories = content.stories;
+  chartSeries = content.chartSeries || {};
+  applyTheme();
+  applySiteContent();
+  renderNav();
+  renderDiscovery();
+  renderMetrics();
+  renderFeatured();
+  renderSignals();
+  renderTopics();
+  renderEvents();
+  renderStories();
+  renderChart("24h");
+});
 
 init();
 window.setInterval(updateClock, 1000);

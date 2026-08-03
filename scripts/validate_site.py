@@ -14,7 +14,7 @@ from xml.etree import ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
-HTML_FILES = ("index.html", "article.html", "governance.html", "admin.html", "auth.html", "offline.html", "404.html")
+HTML_FILES = ("index.html", "article.html", "category.html", "governance.html", "admin.html", "auth.html", "offline.html", "404.html")
 VALID_STATUSES = {"draft", "review", "scheduled", "published", "archived"}
 
 

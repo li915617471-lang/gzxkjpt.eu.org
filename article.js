@@ -204,7 +204,7 @@ function renderArticle(story) {
   document.querySelector("#articleCategory").textContent = story.category;
   document.querySelector("#articleCategory").style.color = categoryColor;
   document.querySelector("#categoryLink").textContent = story.category;
-  document.querySelector("#categoryLink").href = "index.html?category=" + encodeURIComponent(story.category);
+  document.querySelector("#categoryLink").href = "category.html?category=" + encodeURIComponent(story.category);
   document.querySelector("#articleDate").textContent = story.date || story.time || "";
   document.querySelector("#articleRead").textContent = Number(story.readMinutes || 6) + " 分钟阅读";
   document.querySelector("#articleTitle").textContent = story.title;
