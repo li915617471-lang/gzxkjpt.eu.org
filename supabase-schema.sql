@@ -69,10 +69,10 @@ on public.articles (site_id, status, scheduled_at, position);
 create index if not exists articles_category_idx
 on public.articles (site_id, category, position);
 
--- service_role is used only by the scheduled server-side draft sync. Explicit
--- grants keep projects created with a restricted database owner compatible.
-grant select, insert, update, delete on public.articles to service_role;
-grant select, insert, update, delete on public.site_settings to service_role;
+-- service_role is used only by the scheduled server-side article sync. Keep
+-- its table access aligned with the workflow's read-and-append behavior.
+grant select, insert on public.articles to service_role;
+grant select on public.site_settings to service_role;
 grant usage, select on all sequences in schema public to service_role;
 
 create table if not exists public.content_reports (
