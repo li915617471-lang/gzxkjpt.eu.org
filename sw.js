@@ -1,4 +1,4 @@
-const CACHE_VERSION = "fx-public-v12";
+const CACHE_VERSION = "fx-public-v13";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -6,11 +6,11 @@ const CORE_ASSETS = [
   "./category.html",
   "./governance.html",
   "./offline.html",
-  "./styles.css?v=8",
+  "./styles.css?v=9",
   "./article.css?v=2",
   "./category.css?v=3",
   "./governance.css",
-  "./app.js?v=9",
+  "./app.js?v=10",
   "./article.js?v=10",
   "./category.js?v=4",
   "./governance.js",
@@ -20,6 +20,7 @@ const CORE_ASSETS = [
   "./content-service.js?v=7",
   "./assets/vendor/supabase-2.111.0.min.js",
   "./assets/vendor/lucide-0.468.0.min.js",
+  "./assets/vendor/hls-1.6.13.min.js",
   "./data/content.json",
   "./manifest.webmanifest",
   "./assets/icon-192.png",

@@ -830,9 +830,34 @@ img {
   object-fit: contain;
 }
 
+.home-video-loading {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 10px;
+  background: rgba(3, 6, 7, 0.72);
+  color: var(--muted);
+  font-size: 11px;
+  pointer-events: none;
+}
+
+.home-video-loading svg {
+  width: 22px;
+  color: var(--green);
+  animation: video-loading-spin 900ms linear infinite;
+}
+
+@keyframes video-loading-spin {
+  to { transform: rotate(360deg); }
+}
+
 .home-video-external {
   position: relative;
   display: block;
+  color: inherit;
 }
 
 .home-video-external::after {

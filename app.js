@@ -7,6 +7,8 @@ let stories = [];
 let chartSeries = {};
 let homeVideos = [];
 let activeHomeVideoId = "";
+let activeHomeVideoHls = null;
+let homeVideoLoadToken = 0;
 let activeChartRange = "24h";
 
 const fallbackContent = {
@@ -250,6 +252,17 @@ function validHomeVideo(story) {
   }
 }
 
+function cctvVideoId(story) {
+  const externalId = String(story.videoExternalId || "").trim();
+  if (!/^[a-f0-9]{32}$/i.test(externalId)) return "";
+  try {
+    const url = new URL(String(story.videoUrl || story.sourceUrl || ""));
+    return url.hostname === "tv.cctv.com" ? externalId : "";
+  } catch (error) {
+    return "";
+  }
+}
+
 function getHomeVideos() {
   const publishedVideos = stories
     .filter((story) => storyIsPublic(story) && story.homeVideoFeatured !== false && validHomeVideo(story))
@@ -258,18 +271,22 @@ function getHomeVideos() {
       if (priority) return priority;
       return new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime();
     })
-    .map((story) => ({
-      id: `story-${story.id}`,
-      storyId: story.id,
-      title: story.title,
-      description: window.FXContent.presentationExcerpt(story),
-      category: story.category,
-      source: story.source,
-      sourceUrl: story.sourceUrl || "",
-      videoType: story.videoType,
-      videoUrl: story.videoUrl,
-      videoPoster: story.videoPoster || story.image || story.imageFallback || "assets/network.jpg"
-    }));
+    .map((story) => {
+      const cctvId = cctvVideoId(story);
+      return {
+        id: `story-${story.id}`,
+        storyId: story.id,
+        title: story.title,
+        description: window.FXContent.presentationExcerpt(story),
+        category: story.category,
+        source: story.source,
+        sourceUrl: story.sourceUrl || "",
+        videoType: cctvId ? "cctv" : story.videoType,
+        videoExternalId: cctvId,
+        videoUrl: story.videoUrl,
+        videoPoster: story.videoPoster || story.image || story.imageFallback || "assets/network.jpg"
+      };
+    });
   return publishedVideos.slice(0, 5).concat({
     id: "platform-overview",
     title: "信息分享平台：六大板块前沿内容导航",
@@ -283,8 +300,77 @@ function getHomeVideos() {
   });
 }
 
+function destroyHomeVideoHls() {
+  activeHomeVideoHls?.destroy();
+  activeHomeVideoHls = null;
+}
+
+function showHomeVideoFallback(screen, video, message) {
+  if (!screen.isConnected) return;
+  destroyHomeVideoHls();
+  [...screen.children].forEach((element) => {
+    if (!element.matches("[data-video-expand]")) element.remove();
+  });
+  const preview = document.createElement("a");
+  preview.className = "home-video-external";
+  preview.href = video.sourceUrl || video.videoUrl;
+  preview.target = "_blank";
+  preview.rel = "noopener noreferrer";
+  preview.innerHTML = `<img src="${escapeHtml(video.videoPoster)}" data-image-fallback="assets/network.jpg" alt="${escapeHtml(video.title)}"><span><i data-lucide="external-link"></i>${escapeHtml(message)}</span>`;
+  screen.prepend(preview);
+  attachImageFallbacks(screen);
+  initializeIcons();
+}
+
+async function loadCctvVideo(video, player, loading, screen, token) {
+  try {
+    const endpoint = `https://vdn.apps.cntv.cn/api/getHttpVideoInfo.do?pid=${encodeURIComponent(video.videoExternalId)}`;
+    const response = await fetch(endpoint);
+    if (!response.ok) throw new Error(`CCTV video API returned ${response.status}`);
+    const payload = await response.json();
+    const streamUrl = String(payload.hls_url || "").trim();
+    if (payload.ack !== "yes" || payload.play === "0" || !streamUrl.startsWith("https://")) {
+      throw new Error("CCTV video stream is unavailable");
+    }
+    if (token !== homeVideoLoadToken || !player.isConnected) return;
+
+    if (player.canPlayType("application/vnd.apple.mpegurl")) {
+      player.src = streamUrl;
+      loading.remove();
+      return;
+    }
+    if (!window.Hls?.isSupported()) throw new Error("HLS playback is unsupported");
+
+    const hls = new window.Hls({
+      capLevelToPlayerSize: true,
+      enableWorker: true,
+      maxBufferLength: 30
+    });
+    activeHomeVideoHls = hls;
+    let recoveryAttempts = 0;
+    hls.on(window.Hls.Events.MANIFEST_PARSED, () => loading.remove());
+    hls.on(window.Hls.Events.ERROR, (_event, data) => {
+      if (!data.fatal || token !== homeVideoLoadToken) return;
+      recoveryAttempts += 1;
+      if (recoveryAttempts <= 2 && data.type === window.Hls.ErrorTypes.NETWORK_ERROR) {
+        hls.startLoad();
+      } else if (recoveryAttempts <= 2 && data.type === window.Hls.ErrorTypes.MEDIA_ERROR) {
+        hls.recoverMediaError();
+      } else {
+        showHomeVideoFallback(screen, video, "播放失败，前往央视观看");
+      }
+    });
+    hls.loadSource(streamUrl);
+    hls.attachMedia(player);
+  } catch (error) {
+    if (token === homeVideoLoadToken) showHomeVideoFallback(screen, video, "前往央视官方页面播放");
+  }
+}
+
 function renderHomeVideoScreen(video) {
   const screen = document.querySelector("#homeVideoScreen");
+  destroyHomeVideoHls();
+  const token = ++homeVideoLoadToken;
   screen.innerHTML = "";
   if (video.videoType === "bilibili") {
     const frame = document.createElement("iframe");
@@ -294,23 +380,34 @@ function renderHomeVideoScreen(video) {
     frame.allow = "autoplay; fullscreen; picture-in-picture";
     frame.allowFullscreen = true;
     screen.appendChild(frame);
-  } else if (video.videoType === "file") {
+  } else if (video.videoType === "file" || video.videoType === "cctv") {
     const player = document.createElement("video");
     player.controls = true;
     player.playsInline = true;
     player.preload = "metadata";
     player.poster = video.videoPoster;
     player.setAttribute("controlsList", "nodownload");
-    const source = document.createElement("source");
-    source.src = video.videoUrl;
-    source.type = video.videoUrl.toLowerCase().includes(".webm") ? "video/webm" : "video/mp4";
-    player.appendChild(source);
-    player.append("您的浏览器暂不支持此视频格式。");
     screen.appendChild(player);
+    if (video.videoType === "cctv") {
+      const loading = document.createElement("div");
+      loading.className = "home-video-loading";
+      loading.innerHTML = '<i data-lucide="loader-circle"></i><span>正在连接央视官方视频</span>';
+      screen.appendChild(loading);
+      loadCctvVideo(video, player, loading, screen, token);
+    } else {
+      const source = document.createElement("source");
+      source.src = video.videoUrl;
+      source.type = video.videoUrl.toLowerCase().includes(".webm") ? "video/webm" : "video/mp4";
+      player.appendChild(source);
+      player.append("您的浏览器暂不支持此视频格式。");
+    }
   } else {
-    const preview = document.createElement("div");
+    const preview = document.createElement("a");
     preview.className = "home-video-external";
-    preview.innerHTML = `<img src="${escapeHtml(video.videoPoster)}" data-image-fallback="assets/network.jpg" alt="${escapeHtml(video.title)}"><span><i data-lucide="play"></i>视频资料预览</span>`;
+    preview.href = video.sourceUrl || video.videoUrl;
+    preview.target = "_blank";
+    preview.rel = "noopener noreferrer";
+    preview.innerHTML = `<img src="${escapeHtml(video.videoPoster)}" data-image-fallback="assets/network.jpg" alt="${escapeHtml(video.title)}"><span><i data-lucide="external-link"></i>前往官方页面播放</span>`;
     screen.appendChild(preview);
     attachImageFallbacks(screen);
   }
@@ -341,7 +438,8 @@ function renderHomeVideos() {
   if (!active) return;
   renderHomeVideoScreen(active);
   document.querySelector("#homeVideoCategory").textContent = active.category;
-  document.querySelector("#homeVideoKind").textContent = active.videoType === "external" ? "外部观看" : active.videoType === "bilibili" ? "哔哩哔哩" : "站内视频";
+  const videoKind = { cctv: "央视在线播放", external: "外部观看", bilibili: "哔哩哔哩", file: "站内视频" };
+  document.querySelector("#homeVideoKind").textContent = videoKind[active.videoType] || "视频资料";
   document.querySelector("#homeVideoTitle").textContent = active.title;
   document.querySelector("#homeVideoDescription").textContent = active.description;
   document.querySelector("#homeVideoCount").textContent = `${homeVideos.length} 条`;
