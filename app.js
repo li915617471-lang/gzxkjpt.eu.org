@@ -39,6 +39,7 @@ const state = {
   language: "all",
   period: "all",
   trust: "all",
+  visibleCount: 12,
   saved: new Set(JSON.parse(localStorage.getItem(SAVED_KEY) || "[]"))
 };
 
@@ -52,6 +53,7 @@ const sourceFilter = document.querySelector("#sourceFilter");
 const languageFilter = document.querySelector("#languageFilter");
 const periodFilter = document.querySelector("#periodFilter");
 const trustFilter = document.querySelector("#trustFilter");
+const loadMoreStories = document.querySelector("#loadMoreStories");
 const toast = document.querySelector("#toast");
 
 function initializeIcons() {
@@ -747,11 +749,13 @@ function getVisibleStories() {
 
 function renderStories() {
   const visibleStories = getVisibleStories();
+  const renderedStories = visibleStories.slice(0, state.visibleCount);
   document.querySelector("#feedTitle").textContent = state.category === "全部" ? "今日聚合" : `${state.category}前沿`;
   storyGrid.classList.toggle("is-list", state.view === "list");
-  storyGrid.innerHTML = visibleStories.map(storyTemplate).join("");
+  storyGrid.innerHTML = renderedStories.map(storyTemplate).join("");
   attachImageFallbacks(storyGrid);
   const waitingForCloud = visibleStories.length === 0 && !window.FXContent?.readPublicCache?.();
+  loadMoreStories.hidden = waitingForCloud || renderedStories.length >= visibleStories.length;
   resultCount.textContent = waitingForCloud ? "正在同步内容" : `${visibleStories.length} 条内容`;
   emptyState.hidden = visibleStories.length !== 0;
   if (waitingForCloud) {
@@ -767,6 +771,7 @@ function renderStories() {
 
 function setCategory(category) {
   state.category = category;
+  state.visibleCount = 12;
   document.querySelectorAll(".nav-tab").forEach((button) => {
     button.classList.toggle("is-active", button.dataset.category === category);
   });
@@ -898,6 +903,7 @@ function bindStaticEvents() {
 
   searchInput.addEventListener("input", (event) => {
     state.query = event.target.value;
+    state.visibleCount = 12;
     clearSearch.classList.toggle("is-visible", Boolean(state.query));
     renderStories();
     syncSearchUrl();
@@ -906,6 +912,7 @@ function bindStaticEvents() {
   clearSearch.addEventListener("click", () => {
     searchInput.value = "";
     state.query = "";
+    state.visibleCount = 12;
     clearSearch.classList.remove("is-visible");
     searchInput.focus();
     renderStories();
@@ -914,12 +921,14 @@ function bindStaticEvents() {
 
   sortSelect.addEventListener("change", (event) => {
     state.sort = event.target.value;
+    state.visibleCount = 12;
     renderStories();
   });
 
   [[sourceFilter, "source"], [languageFilter, "language"], [periodFilter, "period"], [trustFilter, "trust"]].forEach(([control, key]) => {
     control.addEventListener("change", (event) => {
       state[key] = event.target.value;
+      state.visibleCount = 12;
       renderStories();
       syncSearchUrl();
     });
@@ -931,11 +940,17 @@ function bindStaticEvents() {
     state.period = "all";
     state.trust = "all";
     state.query = "";
+    state.visibleCount = 12;
     searchInput.value = "";
     clearSearch.classList.remove("is-visible");
     setCategory("全部");
     renderStories();
     syncSearchUrl();
+  });
+
+  loadMoreStories.addEventListener("click", () => {
+    state.visibleCount += 12;
+    renderStories();
   });
 
   storyGrid.addEventListener("click", (event) => {
