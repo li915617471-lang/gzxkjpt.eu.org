@@ -77,6 +77,35 @@ class RichDraftTests(unittest.TestCase):
         self.assertEqual(len(parser.blocks), 2)
         self.assertIn("official update", parser.blocks[0])
 
+    def test_source_material_rejects_navigation_noise(self):
+        navigation = "地区 安徽省 广西壮族自治区 河南省 吉林省 江西省 山东省 云南省 浙江省 重庆市"
+        self.assertFalse(auto_update.source_material_is_usable(navigation))
+        repeated_with_filler = (
+            "这是一个长度足够的重复导航内容片段，用于模拟错误页面正文。" * 2
+            + "后面即使继续拼接大段通用背景文字，也不能把它当作原始公开内容。"
+        )
+        self.assertFalse(auto_update.source_material_is_usable(repeated_with_filler))
+        self.assertTrue(auto_update.source_material_is_usable(
+            "氦气是一种重要的战略资源，公开资料介绍了供应来源、提取过程和实际应用。"
+        ))
+
+    def test_retained_story_cleans_legacy_navigation_body(self):
+        material = "氦气是一种重要的战略资源，公开资料介绍了供应来源、提取过程和实际应用。"
+        story = {
+            "collectionSourceId": "official-source",
+            "source": "中国数字科技馆",
+            "category": "科技",
+            "sourceMaterial": material,
+            "excerpt": "地区 安徽省 广西壮族自治区 河南省 吉林省 江西省 山东省 云南省 浙江省 重庆市",
+            "body": "地区 安徽省 广西壮族自治区 河南省 吉林省 江西省 山东省 云南省 浙江省 重庆市",
+            "status": "published",
+        }
+        cleaned = auto_update.refresh_retained_source_material([story])[0]
+        self.assertEqual(cleaned["excerpt"], material)
+        self.assertEqual(cleaned["status"], "review")
+        self.assertNotIn("安徽省", cleaned["body"])
+        self.assertEqual(cleaned["contentGenerationMode"], "pending-editorial-expansion")
+
     def test_media_content_image_is_parsed(self):
         raw = b"""<?xml version='1.0'?>
         <rss xmlns:media='http://search.yahoo.com/mrss/'><channel><item>

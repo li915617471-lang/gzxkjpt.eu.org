@@ -175,7 +175,7 @@ function normalizeArticleParagraphs(story) {
       paragraphs.pop();
     }
   }
-  return paragraphs.concat(["简要来源", sourceBriefText(story)]);
+  return paragraphs;
 }
 
 function articleParagraphHtml(paragraph, index, paragraphs) {
@@ -189,10 +189,60 @@ function articleParagraphHtml(paragraph, index, paragraphs) {
 }
 
 function renderBody(story) {
-  const paragraphs = normalizeArticleParagraphs(story);
-  document.querySelector("#articleBody").innerHTML = paragraphs
-    .map(articleParagraphHtml)
+  const automatic = isAutomaticStory(story);
+  const originalTitle = String(story.originalTitle || story.title || "").trim();
+  const sourceMaterial = String(story.sourceMaterial || "").replace(/\s+/g, " ").trim();
+  const materialIsUsable = window.FXContent.sourceMaterialIsUsable(sourceMaterial);
+  const originalContent = document.querySelector("#articleOriginalContent");
+  const originalBlocks = [
+    `<div class="original-material-block"><span>原始标题</span><p>${escapeArticleHtml(originalTitle)}</p></div>`
+  ];
+  if (materialIsUsable) {
+    originalBlocks.push(
+      `<div class="original-material-block"><span>来源公开摘要或片段</span><p>${escapeArticleHtml(sourceMaterial)}</p></div>`
+    );
+  } else {
+    originalBlocks.push(
+      `<p class="original-material-unavailable">当前采集记录没有可供可靠展示的原始摘要。平台已隐藏错误的菜单或重复片段，请通过“打开完整原文”查看来源页面。</p>`
+    );
+  }
+  originalContent.innerHTML = originalBlocks.join("");
+
+  const points = [`资料主题：${originalTitle}`];
+  if (materialIsUsable) {
+    const sourcePoints = sourceMaterial
+      .split(/(?<=[。！？!?])\s*/)
+      .map(function (item) { return item.trim(); })
+      .filter(function (item) { return item.length >= 18; });
+    sourcePoints.slice(0, 3).forEach(function (item) {
+      if (!points.includes(item)) points.push(item);
+    });
+  } else {
+    points.push("当前记录未取得可供可靠展示的原始摘要，平台不补写原文事实。");
+  }
+  document.querySelector("#articleKeyPoints").innerHTML = points
+    .slice(0, 4)
+    .map(function (point) { return `<li>${escapeArticleHtml(point)}</li>`; })
     .join("");
+
+  let platformIntro = String(story.excerpt || "").trim();
+  if (automatic) {
+    platformIntro = window.FXContent.automaticPresentationIntro(story);
+    if (materialIsUsable) {
+      const firstPoint = points[1] || sourceMaterial;
+      platformIntro += ` 原始公开片段首先提到：${firstPoint.slice(0, 180)}`;
+    } else {
+      platformIntro += " 由于可用原始片段不足，本页不展示旧的自动扩写正文。";
+    }
+  }
+  document.querySelector("#articlePlatformIntro").textContent = platformIntro;
+
+  const paragraphs = normalizeArticleParagraphs(story);
+  const platformBody = document.querySelector("#articleBody");
+  platformBody.hidden = automatic || paragraphs.length === 0;
+  platformBody.innerHTML = platformBody.hidden
+    ? ""
+    : paragraphs.map(articleParagraphHtml).join("");
 }
 
 function safeVideoUrl(value) {
@@ -312,7 +362,9 @@ function renderArticle(story) {
   document.querySelector("#articleDate").textContent = story.date || story.time || "";
   document.querySelector("#articleRead").textContent = Number(story.readMinutes || 6) + " 分钟阅读";
   document.querySelector("#articleTitle").textContent = story.title;
-  document.querySelector("#articleExcerpt").textContent = window.FXContent.presentationExcerpt(story);
+  const articleExcerpt = document.querySelector("#articleExcerpt");
+  articleExcerpt.hidden = isAutomaticStory(story);
+  articleExcerpt.textContent = articleExcerpt.hidden ? "" : window.FXContent.presentationExcerpt(story);
   const articleImage = document.querySelector("#articleImage");
   const imageFallback = story.imageFallback || "assets/factory.jpg";
   articleImage.referrerPolicy = "no-referrer";

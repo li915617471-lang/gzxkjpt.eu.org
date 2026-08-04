@@ -123,6 +123,24 @@ def count_content_characters(value: Any) -> int:
     return len(re.findall(r"[A-Za-z0-9\u3400-\u9fff]", str(value or "")))
 
 
+SOURCE_NAVIGATION_NAMES = (
+    "安徽省", "广西壮族自治区", "河南省", "吉林省", "江西省", "山东省",
+    "云南省", "浙江省", "重庆市", "山西省", "内蒙古自治区", "黑龙江省",
+    "江苏省", "湖北省", "湖南省", "广东省", "海南省", "宁夏回族自治区",
+    "新疆维吾尔自治区", "青海省", "西藏自治区", "河北省",
+)
+
+
+def source_material_is_usable(value: Any) -> bool:
+    text = re.sub(r"\s+", " ", str(value or "")).strip()
+    if len(text) < 24:
+        return False
+    if sum(name in text for name in SOURCE_NAVIGATION_NAMES) >= 6:
+        return False
+    repeated = re.search(r"(.{24,200}?)\s*\1", text)
+    return repeated is None
+
+
 def has_source_disclosure(value: Any) -> bool:
     body = str(value or "")
     return SOURCE_DISCLOSURE_HEADING in body or LEGACY_DISCLOSURE_HEADING in body
@@ -221,6 +239,9 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
             "github-models-source-grounded",
             "source-grounded-structured-fallback",
         },
+        "usableSourceMaterial": source_material_is_usable(
+            story.get("sourceMaterial") or story.get("originalExcerpt")
+        ),
         "validImage": is_valid_image(story.get("image")),
         "classified": bool(str(story.get("category") or "").strip()),
         "categoryEvidence": evidence_score >= 2,
@@ -376,8 +397,6 @@ def article_row(
         "date",
         "tags",
         "reviewChecks",
-        "sourceMaterial",
-        "sourceMaterialType",
         "contentGenerationError",
     }
     extra = {key: value for key, value in story.items() if key not in core_keys}
@@ -481,6 +500,39 @@ def prepare_rows(
             invalid += 1
 
     return rows, duplicates, invalid
+
+
+def prepare_source_metadata_updates(
+    stories: list[dict[str, Any]], existing: list[dict[str, Any]],
+    site_id: str, imported_at: str,
+) -> list[dict[str, Any]]:
+    story_by_url = {
+        normalize_url(story.get("sourceUrl") or story.get("url") or ""): story
+        for story in stories
+        if source_material_is_usable(story.get("sourceMaterial") or story.get("originalExcerpt"))
+    }
+    updates = []
+    for article in existing:
+        story = story_by_url.get(normalize_url(article.get("source_url", "")))
+        if not story:
+            continue
+        current_extra = article.get("extra") if isinstance(article.get("extra"), dict) else {}
+        merged_extra = dict(current_extra)
+        merged_extra.update({
+            "originalTitle": story.get("originalTitle") or story.get("title", ""),
+            "originalExcerpt": story.get("originalExcerpt", ""),
+            "sourceMaterial": story.get("sourceMaterial") or story.get("originalExcerpt", ""),
+            "sourceMaterialType": story.get("sourceMaterialType", "source-metadata"),
+        })
+        if merged_extra == current_extra:
+            continue
+        updates.append({
+            "site_id": site_id,
+            "id": int(article["id"]),
+            "extra": merged_extra,
+            "updated_at": imported_at,
+        })
+    return updates
 
 
 def daily_automatic_counts(
@@ -665,7 +717,10 @@ class SupabaseRest:
         self.base_url = base_url.rstrip("/")
         self.service_key = service_key
 
-    def request(self, method: str, path: str, payload: Any = None) -> Any:
+    def request(
+        self, method: str, path: str, payload: Any = None,
+        prefer: str = "resolution=ignore-duplicates,return=representation",
+    ) -> Any:
         data = None if payload is None else json.dumps(payload).encode("utf-8")
         request = urllib.request.Request(
             f"{self.base_url}/rest/v1/{path}",
@@ -674,7 +729,7 @@ class SupabaseRest:
             headers={
                 "apikey": self.service_key,
                 "Content-Type": "application/json",
-                "Prefer": "resolution=ignore-duplicates,return=representation",
+                "Prefer": prefer,
                 "User-Agent": "information-share-draft-sync/1.0",
             },
         )
@@ -712,6 +767,17 @@ class SupabaseRest:
         if not rows:
             return []
         result = self.request("POST", "articles?on_conflict=site_id,id", rows)
+        return result if isinstance(result, list) else []
+
+    def upsert_article_metadata(self, rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        if not rows:
+            return []
+        result = self.request(
+            "POST",
+            "articles?on_conflict=site_id,id",
+            rows,
+            "resolution=merge-duplicates,return=representation",
+        )
         return result if isinstance(result, list) else []
 
 def load_stories(path: Path) -> list[dict[str, Any]]:
@@ -757,6 +823,10 @@ def main() -> int:
             stories, existing, site_id, imported_at, policy
         )
         inserted = rows if args.dry_run else client.insert_articles(rows)
+        metadata_rows = prepare_source_metadata_updates(
+            stories, existing, site_id, imported_at
+        )
+        metadata_updated = metadata_rows if args.dry_run else client.upsert_article_metadata(metadata_rows)
         promotions, daily_counts = prepare_promotions(
             stories, existing, inserted, policy, imported_at, site_id
         )
@@ -771,6 +841,7 @@ def main() -> int:
         "Supabase draft sync: "
         f"inserted={len(inserted)}, duplicates={duplicates}, invalid={invalid}, "
         f"auto_published={sum(1 for row in inserted if row.get('status') == 'published')}, "
+        f"source_metadata_updated={len(metadata_updated)}, "
         f"promoted={len(promoted)}, "
         f"source={len(stories)}"
     )

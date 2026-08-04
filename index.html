@@ -20,15 +20,15 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
   <link rel="apple-touch-icon" href="assets/icon-192.png">
   <title>信息分享平台 | 全球前沿知识聚合平台</title>
-  <link rel="stylesheet" href="styles.css?v=10">
+  <link rel="stylesheet" href="styles.css?v=13">
   <script src="cloud-config.js" defer></script>
   <script src="assets/vendor/supabase-2.111.0.min.js" defer></script>
   <script src="cloud.js" defer></script>
-  <script src="content-service.js?v=7" defer></script>
+  <script src="content-service.js?v=9" defer></script>
   <script src="assets/vendor/lucide-0.468.0.min.js" defer></script>
   <script src="assets/vendor/hls-1.6.13.min.js" defer></script>
   <script src="pwa.js?v=2" defer></script>
-  <script src="app.js?v=12" defer></script>
+  <script src="app.js?v=13" defer></script>
   <script id="siteStructuredData" type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"信息分享平台","url":"https://gzxkjpt.eu.org/"}</script>
 </head>
 <body>
@@ -82,8 +82,8 @@
 
       <div class="pulse-heading">
         <div>
-          <h1 id="pulseTitle">全球前沿知识观察台</h1>
-          <p>根据平台当前已发布内容即时计算，来源资料由每日自动任务同步</p>
+          <h1 id="pulseTitle">最新文章与前沿资料</h1>
+          <p>文章优先呈现，来源资料每日自动同步；数据统计仅作为阅读辅助</p>
         </div>
         <div class="range-control" role="group" aria-label="趋势时间范围">
           <button class="range-button is-active" data-range="24h">24H</button>
@@ -169,36 +169,6 @@
       </div>
       <div id="latestSignals" class="latest-signals"></div>
       <a class="latest-all" href="#stories">浏览全部 <i data-lucide="arrow-down"></i></a>
-    </section>
-
-    <section id="videoHub" class="video-hub" aria-labelledby="videoHubTitle">
-      <div class="video-hub-inner">
-        <div class="video-hub-heading">
-          <div>
-            <div class="section-label">VIDEO BRIEFING</div>
-            <h2 id="videoHubTitle">视频资料</h2>
-          </div>
-          <p>播放平台导览与已发布文章中的授权视频，视频来源和正文资料保持可追溯。</p>
-        </div>
-        <div class="video-hub-layout">
-          <div class="video-feature">
-            <div id="homeVideoScreen" class="home-video-screen" aria-live="polite"></div>
-            <div class="home-video-detail">
-              <div class="home-video-meta"><span id="homeVideoCategory">平台导览</span><span id="homeVideoKind">站内视频</span></div>
-              <h3 id="homeVideoTitle">信息分享平台：六大板块前沿内容导航</h3>
-              <p id="homeVideoDescription">了解平台的内容范围、阅读方式与视频资料功能。</p>
-              <div id="homeVideoActions" class="home-video-actions"></div>
-            </div>
-          </div>
-          <div class="video-playlist-panel">
-            <div class="video-playlist-head">
-              <span>播放列表</span>
-              <strong id="homeVideoCount">1 条</strong>
-            </div>
-            <div id="homeVideoPlaylist" class="home-video-playlist"></div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <div class="content-shell">
@@ -320,6 +290,36 @@
         </section>
       </aside>
     </div>
+
+    <section id="videoHub" class="video-hub" aria-labelledby="videoHubTitle">
+      <div class="video-hub-inner">
+        <div class="video-hub-heading">
+          <div>
+            <div class="section-label">VIDEO BRIEFING</div>
+            <h2 id="videoHubTitle">视频资料</h2>
+          </div>
+          <p>播放平台导览与已发布文章中的授权视频，视频来源和正文资料保持可追溯。</p>
+        </div>
+        <div class="video-hub-layout">
+          <div class="video-feature">
+            <div id="homeVideoScreen" class="home-video-screen" aria-live="polite"></div>
+            <div class="home-video-detail">
+              <div class="home-video-meta"><span id="homeVideoCategory">平台导览</span><span id="homeVideoKind">站内视频</span></div>
+              <h3 id="homeVideoTitle">信息分享平台：六大板块前沿内容导航</h3>
+              <p id="homeVideoDescription">了解平台的内容范围、阅读方式与视频资料功能。</p>
+              <div id="homeVideoActions" class="home-video-actions"></div>
+            </div>
+          </div>
+          <div class="video-playlist-panel">
+            <div class="video-playlist-head">
+              <span>播放列表</span>
+              <strong id="homeVideoCount">1 条</strong>
+            </div>
+            <div id="homeVideoPlaylist" class="home-video-playlist"></div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>

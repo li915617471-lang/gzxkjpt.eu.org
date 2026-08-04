@@ -15,7 +15,7 @@ const fallbackContent = {
   site: {
     name: "信息分享平台",
     subtitle: "GLOBAL KNOWLEDGE INDEX",
-    heroTitle: "全球前沿知识观察台",
+    heroTitle: "最新文章与前沿资料",
     heroSubtitle: "聚合关键技术、制造趋势与产业链信号",
     footer: "聚合公开产业信息，建立可追踪的科技观察坐标。",
     briefing: { title: "每日产业简报", subtitle: "工作日 08:30 更新" }
@@ -136,8 +136,11 @@ function applySiteContent() {
   document.querySelector(".brand-copy strong").textContent = site.name;
   document.querySelector(".brand-copy small").textContent = site.subtitle;
   document.querySelector(".brand").setAttribute("aria-label", `${site.name}首页`);
-  document.querySelector("#pulseTitle").textContent = site.heroTitle;
-  document.querySelector(".pulse-heading p").textContent = "根据平台当前已发布内容即时计算，来源资料由每日自动任务同步";
+  const homepageTitle = site.heroTitle === "全球前沿知识观察台"
+    ? "最新文章与前沿资料"
+    : site.heroTitle;
+  document.querySelector("#pulseTitle").textContent = homepageTitle;
+  document.querySelector(".pulse-heading p").textContent = "文章优先呈现，来源资料每日自动同步；数据统计仅作为阅读辅助";
   document.querySelector(".footer-brand").innerHTML = `${escapeHtml(site.name)} <span>FX INDEX / 2026</span>`;
   document.querySelector("#footerDescription").textContent = site.footer;
   document.querySelector("#footerNotice").textContent = operations.publicNotice || "公益性科技与产业知识聚合平台";

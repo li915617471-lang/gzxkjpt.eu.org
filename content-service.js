@@ -48,10 +48,42 @@
     }
   }
 
+  const PROVINCE_NAV_NAMES = [
+    "安徽省", "广西壮族自治区", "河南省", "吉林省", "江西省", "山东省",
+    "云南省", "浙江省", "重庆市", "山西省", "内蒙古自治区", "黑龙江省",
+    "江苏省", "湖北省", "湖南省", "广东省", "海南省", "宁夏回族自治区",
+    "新疆维吾尔自治区", "青海省", "西藏自治区", "河北省"
+  ];
+
+  function sourceMaterialIsUsable(value) {
+    const text = String(value || "").replace(/\s+/g, " ").trim();
+    if (text.length < 24) return false;
+    const provinceHits = PROVINCE_NAV_NAMES.filter(function (name) { return text.includes(name); }).length;
+    if (provinceHits >= 6) return false;
+    const repeatedBlock = text.match(/(.{24,200}?)\s*\1/);
+    if (repeatedBlock) return false;
+    return true;
+  }
+
+  function automaticPresentationIntro(story) {
+    const rawSource = String(story?.source || "来源机构").trim();
+    const source = /^[\x00-\x7f\s.,&'()/-]+$/.test(rawSource) ? "来源机构" : rawSource;
+    const category = String(story?.category || "前沿").trim();
+    const originalTitle = String(story?.originalTitle || story?.title || "该公开资料").trim();
+    return `${source}发布了一条${category}资料，原始主题为“${originalTitle}”。页面优先展示来源原始公开内容，并将平台整理的信息单独列出。`;
+  }
+
   function presentationExcerpt(story) {
     let text = String(story?.excerpt || "").trim();
     if (!(story?.automaticImport || story?.contentGenerationMode || story?.collectionSourceId)) return text;
-    return text.split(LEGACY_AUTOMATIC_EXCERPT_NOTICE).join("").replace(/。。+/g, "。").trim();
+    text = text.split(LEGACY_AUTOMATIC_EXCERPT_NOTICE).join("").replace(/。。+/g, "。").trim();
+    if (
+      !sourceMaterialIsUsable(text)
+      || /公开资料提供新的观察线索|公开资料显示的[^。]{0,20}动态/.test(text)
+    ) {
+      return automaticPresentationIntro(story);
+    }
+    return text;
   }
 
   function mergeContentBaseline(existingContent, fileContent, persistLocal) {
@@ -176,6 +208,8 @@
     load: load,
     readLocal: readLocal,
     readPublicCache: readPublicCache,
-    presentationExcerpt: presentationExcerpt
+    presentationExcerpt: presentationExcerpt,
+    sourceMaterialIsUsable: sourceMaterialIsUsable,
+    automaticPresentationIntro: automaticPresentationIntro
   };
 })();

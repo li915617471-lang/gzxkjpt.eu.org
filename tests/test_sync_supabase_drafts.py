@@ -32,6 +32,7 @@ class SupabaseDraftSyncTests(unittest.TestCase):
             "confidence": 93,
             "sourceTrustLevel": "authoritative",
             "contentGenerationMode": "github-models-source-grounded",
+            "sourceMaterial": "官方公开资料详细说明了项目技术路线、建设状态、参与主体、调度价值、适用范围和后续需要持续观察的运行指标。",
             "status": "review",
         }
 
@@ -157,6 +158,27 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         )
         self.assertEqual(row["status"], "review")
         self.assertFalse(row["extra"]["automaticApproval"]["checks"]["categoryEvidence"])
+
+    def test_auto_review_rejects_navigation_as_source_material(self):
+        story = self.rich_story()
+        story["sourceMaterial"] = "地区 安徽省 广西壮族自治区 河南省 吉林省 江西省 山东省 云南省 浙江省 重庆市"
+        policy = {"enabled": True, "minConfidence": 85, "policyVersion": 3}
+        row = sync.article_row(story, "main", 0, "2026-08-04T00:00:00+00:00", policy)
+        self.assertEqual(row["status"], "review")
+        self.assertFalse(row["extra"]["automaticApproval"]["checks"]["usableSourceMaterial"])
+
+    def test_existing_article_source_metadata_can_be_backfilled(self):
+        story = self.rich_story()
+        existing = [{
+            "id": 7,
+            "source_url": story["sourceUrl"],
+            "extra": {"automaticImport": True},
+        }]
+        updates = sync.prepare_source_metadata_updates(
+            [story], existing, "main", "2026-08-04T00:00:00+00:00"
+        )
+        self.assertEqual(len(updates), 1)
+        self.assertEqual(updates[0]["extra"]["sourceMaterial"], story["sourceMaterial"])
 
     def test_auto_review_accepts_official_external_video_link(self):
         story = self.rich_story()

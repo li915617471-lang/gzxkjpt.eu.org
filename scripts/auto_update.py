@@ -732,6 +732,26 @@ class PageMetadataParser(HTMLParser):
             self.in_excluded -= 1
 
 
+SOURCE_NAVIGATION_NAMES = (
+    "安徽省", "广西壮族自治区", "河南省", "吉林省", "江西省", "山东省",
+    "云南省", "浙江省", "重庆市", "山西省", "内蒙古自治区", "黑龙江省",
+    "江苏省", "湖北省", "湖南省", "广东省", "海南省", "宁夏回族自治区",
+    "新疆维吾尔自治区", "青海省", "西藏自治区", "河北省",
+)
+
+
+def source_material_is_usable(value: str) -> bool:
+    text = clean_text(value)
+    if len(text) < 24:
+        return False
+    if sum(name in text for name in SOURCE_NAVIGATION_NAMES) >= 6:
+        return False
+    repeated = re.search(r"(.{24,200}?)\s*\1", text)
+    if repeated:
+        return False
+    return True
+
+
 def enrich_entry_from_page(entry: dict) -> dict:
     """Collect limited source-page evidence for summarization and fill missing metadata."""
     link = str(entry.get("link") or "").strip()
@@ -744,18 +764,59 @@ def enrich_entry_from_page(entry: dict) -> dict:
     except (RuntimeError, ValueError, UnicodeError):
         return entry
     enriched = dict(entry)
-    leading = " ".join(parser.blocks[:10])
-    source_material = clean_text(" ".join(filter(None, [enriched.get("summary", ""), leading])))
+    summary = clean_text(enriched.get("summary", ""))
+    metadata_summary = clean_text(parser.description)
+    leading = clean_text(" ".join(parser.blocks[:10]))
+    material_parts = []
+    for candidate in (summary, metadata_summary):
+        if source_material_is_usable(candidate) and candidate not in material_parts:
+            material_parts.append(candidate)
+    if not material_parts and source_material_is_usable(leading):
+        material_parts.append(leading)
+    source_material = clean_text(" ".join(material_parts))
     if source_material:
         enriched["sourceMaterial"] = truncate_text(source_material, 6000)
-        enriched["sourceMaterialType"] = "rss-and-source-page" if leading else "rss"
-    if len(clean_text(enriched.get("summary", ""))) < 60:
-        enriched["summary"] = truncate_text(" ".join(parser.blocks[:4]) or parser.description, 900)
+        enriched["sourceMaterialType"] = "source-metadata" if metadata_summary else "rss-and-source-page"
+    if len(summary) < 60:
+        replacement_summary = metadata_summary if source_material_is_usable(metadata_summary) else ""
+        if not replacement_summary:
+            leading_summary = clean_text(" ".join(parser.blocks[:4]))
+            replacement_summary = leading_summary if source_material_is_usable(leading_summary) else ""
+        enriched["summary"] = truncate_text(replacement_summary, 900)
         if enriched["summary"]:
             enriched["summarySourceType"] = "source-page"
     if not str(enriched.get("image") or "").startswith(("http://", "https://")):
         enriched["image"] = safe_image_url(parser.image, link)
     return enriched
+
+
+def refresh_retained_source_material(stories: list[dict]) -> list[dict]:
+    for story in stories:
+        if not story.get("collectionSourceId"):
+            continue
+        material = clean_text(story.get("sourceMaterial", ""))
+        if not source_material_is_usable(material):
+            enriched = enrich_entry_from_page({
+                "link": story.get("sourceUrl", ""),
+                "summary": "",
+                "image": story.get("image", ""),
+            })
+            material = clean_text(enriched.get("sourceMaterial", ""))
+            if source_material_is_usable(material):
+                story["sourceMaterial"] = truncate_text(material, 6000)
+                story["sourceMaterialType"] = enriched.get("sourceMaterialType", "source-metadata")
+        if not source_material_is_usable(material):
+            continue
+        if not source_material_is_usable(story.get("excerpt", "")):
+            story["excerpt"] = truncate_text(material, 280)
+        if not source_material_is_usable(story.get("body", "")):
+            story["body"] = build_review_body(
+                material, story.get("source", "公开来源"), story.get("category", "")
+            )
+            story["status"] = "review"
+            story["reviewNote"] = "历史正文含导航或重复片段，已清理并转为待编辑资料"
+            story["contentGenerationMode"] = "pending-editorial-expansion"
+    return stories
 
 
 def keyword_hits(text: str, words: list[str]) -> int:
@@ -1176,6 +1237,7 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
         "imageSourceType": "rss" if source_image else "category-cover",
         "imageAttribution": source_name if source_image else "平台板块封面",
         "originalTitle": clean_text(entry["title"]),
+        "originalExcerpt": truncate_text(entry.get("summary", ""), 2000),
         "source": source_name,
         "sourceUrl": entry.get("link", ""),
         "author": "",
@@ -1235,6 +1297,7 @@ def main() -> int:
         return 1
     rules = load_category_rules()
     retained_drafts = refresh_retained_categories(pending_drafts(), sources, rules)
+    retained_drafts = refresh_retained_source_material(retained_drafts)
     stories = []
     errors = []
     source_results = []

@@ -18,15 +18,15 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
   <link rel="apple-touch-icon" href="assets/icon-192.png">
   <title>文章详情 | 信息分享平台</title>
-  <link rel="stylesheet" href="styles.css?v=6">
-  <link rel="stylesheet" href="article.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=13">
+  <link rel="stylesheet" href="article.css?v=4">
   <script src="cloud-config.js" defer></script>
   <script src="assets/vendor/supabase-2.111.0.min.js" defer></script>
   <script src="cloud.js" defer></script>
-  <script src="content-service.js?v=7" defer></script>
+  <script src="content-service.js?v=9" defer></script>
   <script src="assets/vendor/lucide-0.468.0.min.js" defer></script>
   <script src="pwa.js?v=2" defer></script>
-  <script src="article.js?v=10" defer></script>
+  <script src="article.js?v=12" defer></script>
   <script id="articleStructuredData" type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"信息分享平台文章详情"}</script>
 </head>
 <body class="article-page">
@@ -74,20 +74,49 @@
 
       <div class="article-layout">
         <div class="article-body">
-          <div id="articleBody"></div>
+          <section class="article-reading-section article-original-section" aria-labelledby="originalContentTitle">
+            <div class="article-section-heading">
+              <div><span>ORIGINAL MATERIAL</span><h2 id="originalContentTitle">原始公开内容</h2></div>
+              <small>保留来源原始标题和公开摘要，不进行改写</small>
+            </div>
+            <div id="articleOriginalContent"></div>
+          </section>
+
+          <section class="article-reading-section article-source-section" aria-labelledby="sourceSectionTitle">
+            <div class="article-section-heading">
+              <div><span>SOURCE</span><h2 id="sourceSectionTitle">信息来源</h2></div>
+            </div>
+            <div class="source-brief">
+              <div class="source-brief-title"><i data-lucide="file-search"></i><span>来源记录</span></div>
+              <strong id="articleSource"></strong>
+              <a id="sourceLink" target="_blank" rel="noopener noreferrer">打开完整原文 <i data-lucide="external-link"></i></a>
+              <dl class="source-brief-facts">
+                <div><dt>原文发布</dt><dd id="sourcePublishedAt"></dd></div>
+                <div><dt>平台采集</dt><dd id="sourceCollectedAt"></dd></div>
+              </dl>
+            </div>
+          </section>
+
+          <section class="article-reading-section article-points-section" aria-labelledby="keyPointsTitle">
+            <div class="article-section-heading">
+              <div><span>KEY POINTS</span><h2 id="keyPointsTitle">主要事项</h2></div>
+              <small>仅从原始公开内容提取</small>
+            </div>
+            <ol id="articleKeyPoints" class="article-key-points"></ol>
+          </section>
+
+          <section class="article-reading-section article-platform-section" aria-labelledby="platformIntroTitle">
+            <div class="article-section-heading">
+              <div><span>PLATFORM BRIEF</span><h2 id="platformIntroTitle">平台生成简介</h2></div>
+              <small>与原始内容分开显示</small>
+            </div>
+            <p id="articlePlatformIntro" class="article-platform-intro"></p>
+            <div id="articleBody" class="article-platform-body"></div>
+          </section>
           <div id="articleTags" class="article-tags"></div>
         </div>
 
         <aside class="article-rail" aria-label="文章信息">
-          <section class="source-brief">
-            <div class="source-brief-title"><i data-lucide="file-search"></i><span>简要来源</span></div>
-            <strong id="articleSource"></strong>
-            <a id="sourceLink" target="_blank" rel="noopener noreferrer">查看完整原文 <i data-lucide="external-link"></i></a>
-            <dl class="source-brief-facts">
-              <div><dt>原文发布</dt><dd id="sourcePublishedAt"></dd></div>
-              <div><dt>平台整理</dt><dd id="sourceCollectedAt"></dd></div>
-            </dl>
-          </section>
           <section>
             <span>内容坐标</span>
             <dl>
