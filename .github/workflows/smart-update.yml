@@ -69,6 +69,10 @@ jobs:
         run: |
           git config user.name "information-share-bot"
           git config user.email "actions@users.noreply.github.com"
+          # Validation regenerates public indexes, while build-indexes.yml owns
+          # those files. Keep this job clean so a concurrent index commit can
+          # be rebased without Git refusing because of unstaged changes.
+          git restore --worktree sitemap.xml feed.xml feed.json opensearch.xml
           # Public indexes are committed by build-indexes.yml. Keeping this
           # workflow to its own draft data prevents concurrent commit conflicts.
           git add data/intelligence-draft.json data/collection-logs.json
