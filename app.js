@@ -287,7 +287,21 @@ function getHomeVideos() {
         videoPoster: story.videoPoster || story.image || story.imageFallback || "assets/network.jpg"
       };
     });
-  return publishedVideos.slice(0, 5).concat({
+  const selectedVideos = [];
+  const selectedIds = new Set();
+  const representedSources = new Set();
+  publishedVideos.forEach((video) => {
+    const sourceKey = String(video.source || "").trim();
+    if (selectedVideos.length >= 5 || !sourceKey || representedSources.has(sourceKey)) return;
+    selectedVideos.push(video);
+    selectedIds.add(video.id);
+    representedSources.add(sourceKey);
+  });
+  publishedVideos.forEach((video) => {
+    if (selectedVideos.length >= 5 || selectedIds.has(video.id)) return;
+    selectedVideos.push(video);
+  });
+  return selectedVideos.concat({
     id: "platform-overview",
     title: "信息分享平台：六大板块前沿内容导航",
     description: "快速了解金融、科技、工业、能源、农业与人文内容，以及文章、视频和原始来源之间的阅读路径。",
