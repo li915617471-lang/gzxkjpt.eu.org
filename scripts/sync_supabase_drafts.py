@@ -772,13 +772,23 @@ class SupabaseRest:
     def upsert_article_metadata(self, rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
         if not rows:
             return []
-        result = self.request(
-            "POST",
-            "articles?on_conflict=site_id,id",
-            rows,
-            "resolution=merge-duplicates,return=representation",
-        )
-        return result if isinstance(result, list) else []
+        updated = []
+        for row in rows:
+            encoded_site = urllib.parse.quote(str(row["site_id"]), safe="")
+            article_id = int(row["id"])
+            payload = {
+                "extra": row.get("extra", {}),
+                "updated_at": row.get("updated_at"),
+            }
+            result = self.request(
+                "PATCH",
+                f"articles?site_id=eq.{encoded_site}&id=eq.{article_id}",
+                payload,
+                "return=representation",
+            )
+            if isinstance(result, list):
+                updated.extend(result)
+        return updated
 
 def load_stories(path: Path) -> list[dict[str, Any]]:
     payload = json.loads(path.read_text(encoding="utf-8"))

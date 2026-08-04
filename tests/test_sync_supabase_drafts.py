@@ -180,6 +180,28 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(len(updates), 1)
         self.assertEqual(updates[0]["extra"]["sourceMaterial"], story["sourceMaterial"])
 
+    def test_source_metadata_backfill_patches_existing_rows(self):
+        client = sync.SupabaseRest("https://example.supabase.co", "service-key")
+        calls = []
+
+        def fake_request(method, path, payload=None, prefer=""):
+            calls.append((method, path, payload, prefer))
+            return [{"id": 7}]
+
+        client.request = fake_request
+        updated = client.upsert_article_metadata([{
+            "site_id": "main",
+            "id": 7,
+            "extra": {"sourceMaterial": "可靠的公开来源摘要内容，长度足够用于回填测试。"},
+            "updated_at": "2026-08-04T00:00:00+00:00",
+        }])
+
+        self.assertEqual(updated, [{"id": 7}])
+        self.assertEqual(calls[0][0], "PATCH")
+        self.assertEqual(calls[0][1], "articles?site_id=eq.main&id=eq.7")
+        self.assertEqual(set(calls[0][2]), {"extra", "updated_at"})
+        self.assertEqual(calls[0][3], "return=representation")
+
     def test_auto_review_accepts_official_external_video_link(self):
         story = self.rich_story()
         story.update({
