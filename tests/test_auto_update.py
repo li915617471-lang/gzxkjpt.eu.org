@@ -115,6 +115,50 @@ class RichDraftTests(unittest.TestCase):
         self.assertEqual(parsed[0]["published"], "2026-08-03")
         self.assertEqual(parsed[0]["link"], "https://example.cn/news/202608/t20260803_1001.html")
 
+    def test_html_image_alt_and_cover_are_parsed_inside_link(self):
+        raw = b"""<html><body>
+        <a href='http://www.cdstm.cn/videos/Tops/v600/art/2026/art_abcdef123456.html'>
+          <img src='/covers/science.jpg' title='A useful Chinese science video title'>
+        </a>
+        </body></html>"""
+        source = {
+            "url": "https://www.cdstm.cn/",
+            "format": "html",
+            "linkPattern": r"^/videos/.+/art/[0-9]{4}/art_[a-f0-9]+\.html$",
+        }
+        parsed = auto_update.parse_source(raw, source)
+        self.assertEqual(len(parsed), 1)
+        self.assertEqual(parsed[0]["title"], "A useful Chinese science video title")
+        self.assertEqual(parsed[0]["image"], "https://www.cdstm.cn/covers/science.jpg")
+        self.assertTrue(parsed[0]["link"].startswith("https://www.cdstm.cn/"))
+
+    def test_kepuchina_parser_only_returns_video_slides(self):
+        raw = b"""<html><body>
+        <div class='swiper-slide'>
+          <a href='/article/articleinfo?business_type=100&amp;classify=2&amp;ar_id=724733'>
+            <img class='block-img' src='/covers/ai.jpg'>
+          </a>
+          <img class='play-video' movie-url='https://cdn.example.com/video.mp4'>
+          <a href='/article/articleinfo?business_type=100&amp;classify=2&amp;ar_id=724733'>
+            Understanding modern artificial intelligence reasoning
+          </a>
+        </div>
+        <div class='swiper-slide'>
+          <a href='/article/articleinfo?business_type=100&amp;classify=1&amp;ar_id=999999'>
+            This ordinary article is not a video
+          </a>
+        </div>
+        </body></html>"""
+        source = {"url": "https://www.kepuchina.cn/", "format": "kepuchina-video"}
+        parsed = auto_update.parse_source(raw, source)
+        self.assertEqual(len(parsed), 1)
+        self.assertEqual(parsed[0]["externalId"], "724733")
+        self.assertEqual(parsed[0]["image"], "https://www.kepuchina.cn/covers/ai.jpg")
+        self.assertEqual(
+            parsed[0]["link"],
+            "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=724733",
+        )
+
     def test_chinese_official_json_list_is_parsed(self):
         raw = """{"datasource":[{"showTitle":"国家能源领域发布新的政策信息","publishUrl":"/news/202608/item.html","publishTime":"2026-08-03 09:00:00","titleImages":[{"imageUrl":"/images/energy.jpg"}]}]}""".encode("utf-8")
         parsed = auto_update.parse_source(raw, {"url": "https://energy.example.cn/list.json", "format": "json"})
@@ -149,6 +193,7 @@ class RichDraftTests(unittest.TestCase):
         self.assertEqual(story["contentKind"], "video")
         self.assertEqual(story["videoType"], "external")
         self.assertEqual(story["videoUrl"], entry["link"])
+        self.assertTrue(story["videoLinkOnly"])
         self.assertEqual(story["videoPoster"], entry["image"])
         self.assertTrue(story["videoRightsConfirmed"])
         self.assertTrue(story["homeVideoFeatured"])

@@ -475,6 +475,21 @@ def decode_web_text(raw: bytes) -> str:
     return raw.decode("utf-8", errors="replace")
 
 
+def prefer_same_host_https(link: str, base_url: str) -> str:
+    try:
+        parsed_link = urllib.parse.urlsplit(link)
+        parsed_base = urllib.parse.urlsplit(base_url)
+        if (
+            parsed_base.scheme == "https"
+            and parsed_link.scheme == "http"
+            and parsed_link.hostname == parsed_base.hostname
+        ):
+            return urllib.parse.urlunsplit(parsed_link._replace(scheme="https"))
+    except (TypeError, ValueError):
+        pass
+    return link
+
+
 class HtmlListParser(HTMLParser):
     def __init__(self, base_url: str, link_pattern: str = "") -> None:
         super().__init__(convert_charrefs=True)
@@ -482,14 +497,34 @@ class HtmlListParser(HTMLParser):
         self.link_pattern = re.compile(link_pattern) if link_pattern else None
         self.href = ""
         self.parts: list[str] = []
+        self.image = ""
+        self.image_alt = ""
         self.entries: list[dict] = []
         self.seen: set[str] = set()
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        if tag.lower() != "a":
+        tag = tag.lower()
+        attrs_map = {str(key).lower(): str(value or "") for key, value in attrs}
+        if tag == "img" and self.href:
+            image_class = attrs_map.get("class", "").lower()
+            image_src = attrs_map.get("src") or attrs_map.get("data-src") or ""
+            image_alt = clean_text(attrs_map.get("alt") or attrs_map.get("title") or "")
+            looks_like_control = (
+                "play" in image_class
+                or "icon" in image_class
+                or re.search(r"(?:play|icon|logo|arrow|btn)", image_src, flags=re.I)
+            )
+            if image_src and not looks_like_control and not self.image:
+                self.image = urllib.parse.urljoin(self.base_url, image_src)
+                if len(image_alt) >= 8:
+                    self.image_alt = image_alt
             return
-        self.href = dict(attrs).get("href") or ""
+        if tag != "a":
+            return
+        self.href = attrs_map.get("href") or ""
         self.parts = []
+        self.image = ""
+        self.image_alt = ""
 
     def handle_data(self, data: str) -> None:
         if self.href:
@@ -498,21 +533,114 @@ class HtmlListParser(HTMLParser):
     def handle_endtag(self, tag: str) -> None:
         if tag.lower() != "a" or not self.href:
             return
-        title = clean_text(" ".join(self.parts))
-        link = urllib.parse.urljoin(self.base_url, self.href)
+        title = clean_text(" ".join(self.parts)) or self.image_alt
+        link = prefer_same_host_https(urllib.parse.urljoin(self.base_url, self.href), self.base_url)
         normalized = normalize_url(link)
         allowed = not self.link_pattern or bool(self.link_pattern.search(urllib.parse.urlsplit(link).path))
         if allowed and normalized and normalized not in self.seen and len(title) >= 8:
             date_match = re.search(r"(20\d{2})(\d{2})(\d{2})", link)
             published = "-".join(date_match.groups()) if date_match else ""
-            self.entries.append({"title": title, "summary": "", "link": link, "published": published, "image": ""})
+            self.entries.append({
+                "title": title,
+                "summary": "",
+                "link": link,
+                "published": published,
+                "image": safe_image_url(self.image, link),
+            })
             self.seen.add(normalized)
         self.href = ""
         self.parts = []
+        self.image = ""
+        self.image_alt = ""
 
 
 def parse_html_list(raw: bytes, source: dict) -> list[dict]:
     parser = HtmlListParser(str(source.get("url") or ""), str(source.get("linkPattern") or ""))
+    parser.feed(decode_web_text(raw))
+    return parser.entries[:20]
+
+
+class KepuChinaVideoParser(HTMLParser):
+    def __init__(self, base_url: str) -> None:
+        super().__init__(convert_charrefs=True)
+        self.base_url = base_url
+        self.slide_depth = 0
+        self.anchor_href = ""
+        self.anchor_parts: list[str] = []
+        self.anchor_candidates: list[tuple[str, str]] = []
+        self.image = ""
+        self.image_alt = ""
+        self.is_video = False
+        self.entries: list[dict] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        tag = tag.lower()
+        attrs_map = {str(key).lower(): str(value or "") for key, value in attrs}
+        classes = set(attrs_map.get("class", "").split())
+        if tag == "div":
+            if self.slide_depth:
+                self.slide_depth += 1
+            elif "swiper-slide" in classes:
+                self.slide_depth = 1
+                self.anchor_candidates = []
+                self.image = ""
+                self.image_alt = ""
+                self.is_video = False
+            return
+        if not self.slide_depth:
+            return
+        if tag == "a":
+            self.anchor_href = attrs_map.get("href", "")
+            self.anchor_parts = []
+        elif tag == "img":
+            image_src = attrs_map.get("src") or attrs_map.get("data-src") or ""
+            image_alt = clean_text(attrs_map.get("alt", ""))
+            if "play-video" in classes and attrs_map.get("movie-url"):
+                self.is_video = True
+            elif image_src and not self.image:
+                self.image = urllib.parse.urljoin(self.base_url, image_src)
+                if len(image_alt) >= 8:
+                    self.image_alt = image_alt
+
+    def handle_data(self, data: str) -> None:
+        if self.slide_depth and self.anchor_href:
+            self.anchor_parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.lower()
+        if tag == "a" and self.slide_depth and self.anchor_href:
+            self.anchor_candidates.append((self.anchor_href, clean_text(" ".join(self.anchor_parts))))
+            self.anchor_href = ""
+            self.anchor_parts = []
+            return
+        if tag != "div" or not self.slide_depth:
+            return
+        self.slide_depth -= 1
+        if self.slide_depth:
+            return
+        if not self.is_video:
+            return
+        for href, anchor_title in self.anchor_candidates:
+            parsed_href = urllib.parse.urlsplit(urllib.parse.urljoin(self.base_url, href))
+            query = urllib.parse.parse_qs(parsed_href.query)
+            if query.get("classify", [""])[0] != "2" or not query.get("ar_id", [""])[0]:
+                continue
+            title = anchor_title or self.image_alt
+            link = urllib.parse.urljoin(self.base_url, href)
+            if len(title) >= 8 and normalize_url(link):
+                self.entries.append({
+                    "title": title,
+                    "summary": "",
+                    "link": link,
+                    "published": "",
+                    "image": safe_image_url(self.image, link),
+                    "externalId": clean_text(query["ar_id"][0]),
+                })
+                break
+
+
+def parse_kepuchina_video_list(raw: bytes, source: dict) -> list[dict]:
+    parser = KepuChinaVideoParser(str(source.get("url") or ""))
     parser.feed(decode_web_text(raw))
     return parser.entries[:20]
 
@@ -548,6 +676,8 @@ def parse_json_list(raw: bytes, source: dict) -> list[dict]:
 
 def parse_source(raw: bytes, source: dict) -> list[dict]:
     source_format = str(source.get("format") or "rss").lower()
+    if source_format == "kepuchina-video":
+        return parse_kepuchina_video_list(raw, source)
     if source_format == "html":
         return parse_html_list(raw, source)
     if source_format == "json":
