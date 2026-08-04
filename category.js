@@ -97,10 +97,15 @@ function reconstructAbstract(index) {
 }
 
 function stripExternalMarkup(value) {
-  const source = String(value || "");
+  let source = String(value || "");
   if (!source) return "";
-  const documentNode = new DOMParser().parseFromString(source, "text/html");
-  return String(documentNode.body?.textContent || "").replace(/\s+/g, " ").trim();
+  for (let index = 0; index < 4; index += 1) {
+    const documentNode = new DOMParser().parseFromString(source, "text/html");
+    const decoded = String(documentNode.body?.textContent || "");
+    if (decoded === source) break;
+    source = decoded;
+  }
+  return source.replace(/\s+/g, " ").trim();
 }
 
 function academicTypeLabel(value) {
@@ -113,9 +118,17 @@ function academicTypeLabel(value) {
 }
 
 function externalSummary(abstract, typeLabel) {
-  const clean = truncateCategoryText(abstract, 230);
+  const clean = truncateCategoryText(stripExternalMarkup(abstract), 230);
   if (hasChineseText(clean)) return clean;
   return `该${typeLabel}已被权威开放索引收录。可前往原始出版页面查看研究摘要、方法、数据范围和完整出版信息。`;
+}
+
+function externalRelevanceScore(title, query) {
+  const normalizedTitle = String(title || "").toLowerCase();
+  const tokens = String(query || "").toLowerCase().split(/\s+/).filter(Boolean);
+  return tokens.reduce(function (score, token) {
+    return score + (normalizedTitle.includes(token) ? 12 : 0);
+  }, 0) + (normalizedTitle === String(query || "").toLowerCase() ? 20 : 0);
 }
 
 async function fetchExternalJson(url, signal) {
@@ -151,6 +164,8 @@ async function searchOpenAlex(query, signal) {
       type: typeLabel,
       source: "国际开放学术索引",
       citations: Math.max(0, Number(item.cited_by_count || 0)),
+      authorityScore: 24,
+      relevanceScore: externalRelevanceScore(title, query),
       summary: externalSummary(reconstructAbstract(item.abstract_inverted_index), typeLabel)
     };
   }).filter(Boolean);
@@ -184,6 +199,8 @@ async function searchCrossref(query, signal) {
       type: typeLabel,
       source: "全球学术出版索引",
       citations: 0,
+      authorityScore: 20,
+      relevanceScore: externalRelevanceScore(title, query),
       summary: externalSummary(stripExternalMarkup(item.abstract), typeLabel)
     };
   }).filter(Boolean);
@@ -215,6 +232,8 @@ async function searchChineseWikipedia(query, signal) {
       type: "中文百科资料",
       source: "中文维基百科",
       citations: 0,
+      authorityScore: 4,
+      relevanceScore: externalRelevanceScore(title, query),
       summary: truncateCategoryText(item.extract, 230) || "该词条提供相关概念、发展背景和参考资料入口。"
     };
   }).filter(Boolean);
@@ -226,17 +245,18 @@ function externalSearchKey() {
 
 function readExternalSearchCache(key) {
   try {
-    const cached = JSON.parse(sessionStorage.getItem(`fx-authority-search:${key}`) || "null");
+    const cached = JSON.parse(sessionStorage.getItem(`fx-authority-search-v2:${key}`) || "null");
     if (!cached || Date.now() - Number(cached.savedAt || 0) > EXTERNAL_SEARCH_CACHE_MS) return null;
-    return Array.isArray(cached.results) ? cached : null;
+    return Array.isArray(cached.results) && cached.results.length ? cached : null;
   } catch (error) {
     return null;
   }
 }
 
 function writeExternalSearchCache(key, results, providers) {
+  if (!Array.isArray(results) || results.length === 0) return;
   try {
-    sessionStorage.setItem(`fx-authority-search:${key}`, JSON.stringify({
+    sessionStorage.setItem(`fx-authority-search-v2:${key}`, JSON.stringify({
       savedAt: Date.now(),
       results: results,
       providers: providers
@@ -256,8 +276,10 @@ function deduplicateExternalResults(results) {
     seen.add(normalizedTitle);
     return true;
   }).sort(function (left, right) {
-    return new Date(right.date || 0).getTime() - new Date(left.date || 0).getTime()
-      || Number(right.citations || 0) - Number(left.citations || 0);
+    return Number(right.authorityScore || 0) - Number(left.authorityScore || 0)
+      || Number(right.relevanceScore || 0) - Number(left.relevanceScore || 0)
+      || Number(right.citations || 0) - Number(left.citations || 0)
+      || new Date(right.date || 0).getTime() - new Date(left.date || 0).getTime();
   }).slice(0, 18);
 }
 

@@ -3,6 +3,7 @@ const ARTICLE_SAVED_KEY = "fx-saved";
 
 let articleContent = null;
 let currentStory = null;
+let activeArticleHls = null;
 
 function initializeArticleIcons() {
   if (window.lucide) window.lucide.createIcons({ attrs: { "stroke-width": 1.7 } });
@@ -191,7 +192,9 @@ function articleParagraphHtml(paragraph, index, paragraphs) {
 function renderBody(story) {
   const automatic = isAutomaticStory(story);
   const rawOriginalTitle = String(story.originalTitle || story.title || "").trim();
-  let rawSourceMaterial = String(story.sourceMaterial || "").replace(/\s+/g, " ").trim();
+  let rawSourceMaterial = String(
+    story.sourceMaterial || story.originalExcerpt || story.excerpt || ""
+  ).replace(/\s+/g, " ").trim();
   if (rawSourceMaterial.includes("视频简介")) rawSourceMaterial = rawSourceMaterial.split("视频简介")[0].trim();
   const titleNeedsTranslation = (!window.FXContent.hasChineseText(rawOriginalTitle) && /[A-Za-z]/.test(rawOriginalTitle))
     || window.FXContent.hasLongEnglishRun(rawOriginalTitle);
@@ -294,6 +297,56 @@ function appendExternalVideoLink(container, href) {
   container.appendChild(overlay);
 }
 
+function cctvArticleVideoId(story) {
+  const externalId = String(story.videoExternalId || "").trim();
+  if (!/^[a-f0-9]{32}$/i.test(externalId)) return "";
+  try {
+    const url = new URL(String(story.videoUrl || story.sourceUrl || ""));
+    return url.hostname === "tv.cctv.com" ? externalId : "";
+  } catch (error) {
+    return "";
+  }
+}
+
+async function loadCctvArticleVideo(story, video, player, fallbackUrl) {
+  const externalId = cctvArticleVideoId(story);
+  if (!externalId) return false;
+  try {
+    const endpoint = "https://vdn.apps.cntv.cn/api/getHttpVideoInfo.do?pid=" + encodeURIComponent(externalId);
+    const response = await fetch(endpoint);
+    if (!response.ok) throw new Error("央视视频接口暂时不可用");
+    const payload = await response.json();
+    const streamUrl = String(payload.hls_url || "").trim();
+    if (payload.ack !== "yes" || payload.play === "0" || !streamUrl.startsWith("https://")) {
+      throw new Error("央视视频流暂时不可用");
+    }
+    const playbackUrl = new URL(streamUrl);
+    const maxBitrate = Number(playbackUrl.searchParams.get("maxbr") || 0);
+    if (maxBitrate && maxBitrate < 4096) playbackUrl.searchParams.set("maxbr", "4096");
+    if (video.canPlayType("application/vnd.apple.mpegurl")) {
+      video.src = playbackUrl.href;
+      return true;
+    }
+    if (!window.Hls?.isSupported()) throw new Error("浏览器不支持该视频格式");
+    activeArticleHls?.destroy();
+    activeArticleHls = new window.Hls({ capLevelToPlayerSize: true, enableWorker: true, maxBufferLength: 30 });
+    activeArticleHls.on(window.Hls.Events.ERROR, function (_event, data) {
+      if (!data.fatal) return;
+      activeArticleHls?.destroy();
+      activeArticleHls = null;
+      if (!player.querySelector(".article-video-external")) appendExternalVideoLink(player, fallbackUrl);
+    });
+    activeArticleHls.loadSource(playbackUrl.href);
+    activeArticleHls.attachMedia(video);
+    return true;
+  } catch (error) {
+    video.remove();
+    appendExternalVideoLink(player, fallbackUrl);
+    initializeArticleIcons();
+    return false;
+  }
+}
+
 function renderArticleVideo(story) {
   const section = document.querySelector("#articleVideo");
   const player = document.querySelector("#articleVideoPlayer");
@@ -328,11 +381,23 @@ function renderArticleVideo(story) {
     frame.referrerPolicy = "strict-origin-when-cross-origin";
     player.appendChild(frame);
   } else if (videoType === "external") {
-    const poster = document.createElement("img");
-    poster.src = safeVideoUrl(story.videoPoster || story.image) || "assets/factory.jpg";
-    poster.alt = story.title + " 视频封面";
-    player.appendChild(poster);
-    appendExternalVideoLink(player, videoUrl);
+    if (cctvArticleVideoId(story)) {
+      const video = document.createElement("video");
+      video.controls = true;
+      video.preload = "metadata";
+      video.playsInline = true;
+      video.setAttribute("controlsList", "nodownload");
+      const poster = safeVideoUrl(story.videoPoster || story.image);
+      if (poster) video.poster = poster;
+      player.appendChild(video);
+      loadCctvArticleVideo(story, video, player, videoUrl);
+    } else {
+      const poster = document.createElement("img");
+      poster.src = safeVideoUrl(story.videoPoster || story.image) || "assets/factory.jpg";
+      poster.alt = story.title + " 视频封面";
+      player.appendChild(poster);
+      appendExternalVideoLink(player, videoUrl);
+    }
   } else {
     return false;
   }

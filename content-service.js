@@ -56,22 +56,30 @@
     const body = Array.isArray(story?.body) ? story.body.join("\n") : String(story?.body || "");
     const sourceTitle = String(story?.originalTitle || "").trim();
     const sourceMaterial = String(story?.sourceMaterial || "").trim();
+    const automatic = story?.automaticImport === true
+      || Boolean(story?.collectionSourceId)
+      || Boolean(story?.contentGenerationMode);
     const foreignSourceTitle = sourceTitle && ((!hasChineseText(sourceTitle) && /[A-Za-z]/.test(sourceTitle)) || hasLongEnglishRun(sourceTitle));
     const foreignSourceMaterial = sourceMaterial.length >= 24
       && ((!hasChineseText(sourceMaterial) && /[A-Za-z]/.test(sourceMaterial)) || hasLongEnglishRun(sourceMaterial));
     const translatedTitleReady = hasChineseText(story?.translatedSourceTitle);
     const translatedMaterialReady = sourceMaterialIsUsable(story?.translatedSourceMaterial)
       && hasChineseText(story?.translatedSourceMaterial);
-    const genericTitle = /公开资料提供新的观察线索|公开资料显示的[^。]{0,20}动态/.test(title);
+    const genericTitle = /公开资料提供新的观察线索|公开资料显示的[^。]{0,20}动态|前沿观察：[^：:]{0,12}(?:公开资料|资料信息)/.test(title);
+    const genericExcerpt = /来自公开来源的前沿信息|等待后台进一步编辑摘要|平台整理时|正在等待来源同步/.test(excerpt);
     const truncatedTitle = /(?:\.{3}|…)$/.test(title);
+    const sourceMaterialReady = sourceMaterialIsUsable(sourceMaterial)
+      || (translatedMaterialReady && sourceMaterialIsUsable(story?.translatedSourceMaterial));
     return hasChineseText(title)
       && !genericTitle
+      && !genericExcerpt
       && !truncatedTitle
       && !hasLongEnglishRun(title)
       && !hasLongEnglishRun(excerpt)
       && !hasLongEnglishRun(body)
       && (!foreignSourceTitle || translatedTitleReady)
-      && (!foreignSourceMaterial || translatedMaterialReady);
+      && (!foreignSourceMaterial || translatedMaterialReady)
+      && (!automatic || sourceMaterialReady);
   }
 
   function readLocal() {
