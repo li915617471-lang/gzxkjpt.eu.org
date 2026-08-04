@@ -239,7 +239,7 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         stories = []
         for index, date in enumerate(["2026-07-29", "2026-07-30", "2026-07-31", "2026-08-01"]):
             story = self.rich_story()
-            story["title"] = f"Battery storage project update number {index}"
+            story["title"] = f"大型储能项目运行进展编号{index}"
             story["sourceUrl"] = f"https://example.com/energy/{index}"
             story["confidence"] = 80
             story["sourceTrustLevel"] = "standard"
@@ -257,7 +257,7 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         )
         published = [row for row in rows if row["status"] == "published"]
         self.assertEqual(len(published), 3)
-        self.assertNotIn("number 0", " ".join(row["title"] for row in published))
+        self.assertNotIn("编号0", " ".join(row["title"] for row in published))
         self.assertTrue(all(
             row["extra"]["automaticApproval"]["mode"] == "daily-target-fill"
             for row in published
@@ -406,6 +406,19 @@ class SupabaseDraftSyncTests(unittest.TestCase):
             story, "main", 0, "2026-08-03T08:00:00+00:00", policy
         )
         self.assertEqual(row["status"], "review")
+
+    def test_auto_review_rejects_foreign_source_without_chinese_translation(self):
+        story = self.rich_story()
+        story.update({
+            "originalTitle": "A complete foreign source headline",
+            "sourceMaterial": "This source material contains a complete foreign language summary without a Chinese translation.",
+        })
+        policy = {"enabled": True, "minConfidence": 85, "policyVersion": 2}
+        row = sync.article_row(
+            story, "main", 0, "2026-08-03T08:00:00+00:00", policy
+        )
+        self.assertEqual(row["status"], "review")
+        self.assertFalse(row["extra"]["automaticApproval"]["checks"]["sourceChinesePresentation"])
 
 
 if __name__ == "__main__":

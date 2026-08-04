@@ -207,7 +207,7 @@ img {
 .search-box {
   display: flex;
   align-items: center;
-  width: min(25vw, 330px);
+  width: min(31vw, 430px);
   height: 38px;
   padding: 0 10px;
   border: 1px solid var(--line);
@@ -254,6 +254,28 @@ img {
 }
 
 .clear-search svg {
+  width: 14px;
+}
+
+.external-search-launcher {
+  display: inline-flex;
+  height: 26px;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 4px;
+  padding: 0 7px;
+  border-left: 1px solid var(--line);
+  background: transparent;
+  color: var(--cyan);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.external-search-launcher:hover {
+  color: var(--text);
+}
+
+.external-search-launcher svg {
   width: 14px;
 }
 
@@ -2054,7 +2076,8 @@ body.light .story-meta {
   }
 
   .search-box:not(:focus-within) input,
-  .search-box:not(:focus-within) .clear-search {
+  .search-box:not(:focus-within) .clear-search,
+  .search-box:not(:focus-within) .external-search-launcher {
     width: 0;
     padding: 0;
     opacity: 0;
@@ -2290,7 +2313,7 @@ body.light .story-meta {
 }
 
 .search-box {
-  width: min(22vw, 280px);
+  width: min(30vw, 420px);
 }
 
 .pulse-band {
@@ -2995,5 +3018,56 @@ body {
 
   .home-video-screen {
     height: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .top-actions {
+    min-width: 0;
+    gap: 8px;
+  }
+
+  .search-box {
+    position: static;
+    width: 38px;
+    flex: 0 0 38px;
+    padding: 0 10px;
+  }
+
+  .search-box:focus-within {
+    position: absolute;
+    right: 12px;
+    left: 12px;
+    z-index: 5;
+    width: auto;
+    padding: 0 10px;
+  }
+
+  .search-box:not(:focus-within) input {
+    display: block;
+    width: 0;
+    padding: 0;
+    opacity: 0;
+  }
+
+  .search-box:not(:focus-within) .clear-search,
+  .search-box:not(:focus-within) .external-search-launcher {
+    display: none;
+  }
+
+  .metrics-grid,
+  .latest-signals,
+  .category-directory,
+  .discovery-filters,
+  .home-video-playlist {
+    scrollbar-width: none;
+  }
+
+  .metrics-grid::-webkit-scrollbar,
+  .latest-signals::-webkit-scrollbar,
+  .category-directory::-webkit-scrollbar,
+  .discovery-filters::-webkit-scrollbar,
+  .home-video-playlist::-webkit-scrollbar {
+    display: none;
   }
 }

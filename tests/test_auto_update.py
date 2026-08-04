@@ -289,10 +289,10 @@ class RichDraftTests(unittest.TestCase):
             "category": "科技",
             "source": "NIST",
             "sourceUrl": "https://example.com/research",
-            "originalTitle": "A semiconductor research update",
-            "title": "A semiconductor research update",
-            "excerpt": "A public summary describes a semiconductor research project and its measurements.",
-            "sourceMaterial": "The source page provides context about the experiment, measurements, and limitations.",
+            "originalTitle": "半导体研究项目公布新的测量结果",
+            "title": "半导体研究项目公布新的测量结果",
+            "excerpt": "公开摘要介绍了半导体研究项目的实验方法、测量结果与适用范围。",
+            "sourceMaterial": "来源页面详细介绍了半导体实验的研究背景、测量方法、阶段性结果、适用范围和当前限制。",
         }
         article = auto_update.build_structured_article(story)
         self.assertEqual(article["title"].startswith("科技前沿观察："), True)
@@ -310,25 +310,24 @@ class RichDraftTests(unittest.TestCase):
             "category": "金融",
             "source": "Federal Reserve",
             "sourceUrl": "https://example.com/enforcement",
-            "originalTitle": "Federal Reserve Board enforcement action",
-            "title": "Federal Reserve Board enforcement action",
-            "sourceMaterial": "Federal Reserve Board enforcement action",
+            "originalTitle": "金融监管机构公布新的执法行动",
+            "title": "金融监管机构公布新的执法行动",
+            "sourceMaterial": "金融监管机构公布新的执法行动",
         })
         self.assertTrue(auto_update.body_meets_publication_standard(article["body"]))
 
-    def test_structured_fallback_uses_specific_chinese_topic(self):
-        article = auto_update.build_structured_article({
-            "category": "能源",
-            "source": "U.S. Energy Information Administration",
-            "sourceUrl": "https://example.com/oil",
-            "originalTitle": "China's crude oil imports fell in the second quarter",
-            "title": "China's crude oil imports fell in the second quarter",
-            "sourceMaterial": "China's crude oil imports fell in the second quarter",
-        })
-        self.assertIn("中国原油进口变化", article["title"])
-        self.assertNotIn("crude oil", article["body"].lower())
+    def test_structured_fallback_rejects_untranslated_foreign_material(self):
+        with self.assertRaisesRegex(ValueError, "外文来源必须由模型生成忠实中文译文"):
+            auto_update.build_structured_article({
+                "category": "能源",
+                "source": "U.S. Energy Information Administration",
+                "sourceUrl": "https://example.com/oil",
+                "originalTitle": "China's crude oil imports fell in the second quarter",
+                "title": "China's crude oil imports fell in the second quarter",
+                "sourceMaterial": "China's crude oil imports fell in the second quarter",
+            })
 
-    def test_force_structured_fallback_enhances_queue_without_model_token(self):
+    def test_force_structured_fallback_keeps_foreign_material_pending(self):
         previous_force = os.environ.get("ARTICLE_FORCE_STRUCTURED_FALLBACK")
         previous_token = os.environ.get("GITHUB_MODELS_TOKEN")
         os.environ["ARTICLE_FORCE_STRUCTURED_FALLBACK"] = "true"
@@ -345,9 +344,9 @@ class RichDraftTests(unittest.TestCase):
                 "image": "assets/energy.jpg",
             }
             stats = auto_update.enhance_queue_bodies([story], ["能源"])
-            self.assertEqual(stats["generated"], 1)
-            self.assertIn("中国原油进口变化", story["title"])
-            self.assertTrue(auto_update.body_meets_publication_standard(story["body"]))
+            self.assertEqual(stats["generated"], 0)
+            self.assertEqual(stats["failed"], 1)
+            self.assertEqual(story["contentGenerationMode"], "pending-editorial-expansion")
         finally:
             if previous_force is None:
                 os.environ.pop("ARTICLE_FORCE_STRUCTURED_FALLBACK", None)

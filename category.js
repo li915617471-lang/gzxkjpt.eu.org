@@ -189,6 +189,37 @@ async function searchCrossref(query, signal) {
   }).filter(Boolean);
 }
 
+async function searchChineseWikipedia(query, signal) {
+  const params = new URLSearchParams({
+    action: "query",
+    generator: "search",
+    gsrsearch: query,
+    gsrlimit: "10",
+    prop: "extracts|info",
+    exintro: "1",
+    explaintext: "1",
+    inprop: "url",
+    format: "json",
+    origin: "*"
+  });
+  const payload = await fetchExternalJson(`https://zh.wikipedia.org/w/api.php?${params}`, signal);
+  return Object.values(payload.query?.pages || {}).map(function (item) {
+    const title = String(item.title || "").trim();
+    const url = safeExternalUrl(item.fullurl, "");
+    if (!title || !url || !hasChineseText(title)) return null;
+    return {
+      key: `zhwiki:${item.pageid || title}`,
+      title: title,
+      url: url,
+      date: "",
+      type: "中文百科资料",
+      source: "中文维基百科",
+      citations: 0,
+      summary: truncateCategoryText(item.extract, 230) || "该词条提供相关概念、发展背景和参考资料入口。"
+    };
+  }).filter(Boolean);
+}
+
 function externalSearchKey() {
   return `${activeCategory}:${categoryQuery.trim().toLowerCase()}`;
 }
@@ -256,7 +287,8 @@ async function searchExternalSources() {
     const scopedQuery = `${query} ${activeCategory}`;
     const responses = await Promise.allSettled([
       searchOpenAlex(scopedQuery, externalSearchController.signal),
-      searchCrossref(scopedQuery, externalSearchController.signal)
+      searchCrossref(scopedQuery, externalSearchController.signal),
+      searchChineseWikipedia(scopedQuery, externalSearchController.signal)
     ]);
     if (key !== externalSearchKey() || categorySearchMode !== "authority") return;
     const successful = responses.filter(function (result) { return result.status === "fulfilled"; });
@@ -296,6 +328,7 @@ function visibleCategoryStories() {
     const body = Array.isArray(story.body) ? story.body.join("\n") : String(story.body || "");
     const publicStory = story.category === activeCategory
       && body.replace(/\s/g, "").length >= 800
+      && (!window.FXContent?.isChinesePublicStory || window.FXContent.isChinesePublicStory(story))
       && (!story.status || story.status === "published" || (story.status === "scheduled" && new Date(story.scheduledAt).getTime() <= Date.now()));
     if (!publicStory) return false;
     const haystack = [story.title, story.excerpt, body, story.source, story.author, (story.tags || []).join(" ")].join(" ").toLowerCase();
@@ -313,8 +346,7 @@ function activeSetting() {
 }
 
 function sourceLabel(value) {
-  const name = String(value || "").trim();
-  return /^[\x00-\x7f\s.,&'()/-]+$/.test(name) ? "权威公开来源" : (name || "公开来源");
+  return window.FXContent.localizedSourceName(value);
 }
 
 function storyCard(story, index) {
@@ -360,7 +392,8 @@ function applyCategoryTheme() {
   root.style.setProperty("--green", categoryThemeColor(theme.primary, "#6ee7a8"));
   root.style.setProperty("--cyan", categoryThemeColor(theme.secondary, "#63cfe3"));
   document.querySelector(".brand-copy strong").textContent = categoryContent?.site?.name || "信息分享平台";
-  document.querySelector(".brand-copy small").textContent = categoryContent?.site?.subtitle || "GLOBAL KNOWLEDGE INDEX";
+  const subtitle = String(categoryContent?.site?.subtitle || "");
+  document.querySelector(".brand-copy small").textContent = hasChineseText(subtitle) ? subtitle : "全球前沿知识索引";
 }
 
 function renderCategoryPage() {
@@ -372,6 +405,7 @@ function renderCategoryPage() {
   const totalStories = (categoryContent?.stories || []).filter(function (story) {
     const body = Array.isArray(story.body) ? story.body.join("\n") : String(story.body || "");
     return story.category === activeCategory && body.replace(/\s/g, "").length >= 800
+      && (!window.FXContent?.isChinesePublicStory || window.FXContent.isChinesePublicStory(story))
       && (!story.status || story.status === "published" || (story.status === "scheduled" && new Date(story.scheduledAt).getTime() <= Date.now()));
   });
   const sourceCount = new Set(totalStories.map(function (story) { return story.source; }).filter(Boolean)).size;
@@ -416,16 +450,16 @@ function renderCategoryPage() {
     storyGrid.innerHTML = results.map(externalResultCard).join("");
     const infoText = externalInfo.querySelector("span");
     if (externalSearchState.status === "loading") {
-      infoText.textContent = "正在并行查询开放学术与出版物索引，请稍候。";
+      infoText.textContent = "正在并行查询中文百科、开放学术与出版物索引，请稍候。";
     } else if (externalSearchState.error) {
       infoText.textContent = `${externalSearchState.error}；已有本站内容仍可正常搜索。`;
     } else {
-      infoText.textContent = "搜索词仅发送给开放索引，不包含账号信息；结果只聚合近五年的中文书目信息。";
+      infoText.textContent = "搜索词仅发送给公开资料索引，不包含账号信息；页面只展示中文结果。";
     }
     empty.hidden = results.length !== 0;
     if (externalSearchState.status === "loading") {
       empty.querySelector("strong").textContent = "正在搜索权威资料";
-      empty.querySelector("span").textContent = "正在连接两个公开专业索引";
+      empty.querySelector("span").textContent = "正在连接三个公开资料索引";
     } else if (externalSearchState.status === "error") {
       empty.querySelector("strong").textContent = "外部搜索暂时不可用";
       empty.querySelector("span").textContent = externalSearchState.error;
@@ -510,7 +544,7 @@ async function initCategoryPage() {
   categoryContent = await window.FXContent.load(CATEGORY_CONTENT_URL, { background: true });
   activeCategory = requested || categoryContent?.categories?.[0] || "科技";
   categoryQuery = params.get("q") || "";
-  categorySearchMode = params.get("scope") === "authority" ? "authority" : "local";
+  categorySearchMode = [params.get("scope"), params.get("mode")].includes("authority") ? "authority" : "local";
   categorySort = ["latest", "hot", "depth"].includes(params.get("sort")) ? params.get("sort") : "latest";
   document.querySelector("#categorySearch").value = categoryQuery;
   document.querySelector("#categorySort").value = categorySort;

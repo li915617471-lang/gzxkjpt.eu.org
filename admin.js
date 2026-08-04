@@ -323,7 +323,7 @@ function colorOr(value, fallback) {
 function normalizeContent() {
   content.site = Object.assign({
     name: "信息分享平台",
-    subtitle: "GLOBAL KNOWLEDGE INDEX",
+    subtitle: "全球前沿知识索引",
     heroTitle: "前沿产业与人文观察台",
     heroSubtitle: "",
     footer: "",

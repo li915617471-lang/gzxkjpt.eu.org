@@ -14,7 +14,7 @@ let activeChartRange = "24h";
 const fallbackContent = {
   site: {
     name: "信息分享平台",
-    subtitle: "GLOBAL KNOWLEDGE INDEX",
+    subtitle: "全球前沿知识索引",
     heroTitle: "最新文章与前沿资料",
     heroSubtitle: "聚合关键技术、制造趋势与产业链信号",
     footer: "聚合公开产业信息，建立可追踪的科技观察坐标。",
@@ -48,6 +48,7 @@ const resultCount = document.querySelector("#resultCount");
 const emptyState = document.querySelector("#emptyState");
 const searchInput = document.querySelector("#searchInput");
 const clearSearch = document.querySelector("#clearSearch");
+const externalSearchLauncher = document.querySelector("#externalSearchLauncher");
 const sortSelect = document.querySelector("#sortSelect");
 const sourceFilter = document.querySelector("#sourceFilter");
 const languageFilter = document.querySelector("#languageFilter");
@@ -101,6 +102,7 @@ function getCategorySetting(name) {
 function storyIsPublic(story) {
   const body = Array.isArray(story.body) ? story.body.join("\n\n") : String(story.body || "");
   if (body.replace(/\s/g, "").length < 800) return false;
+  if (window.FXContent?.isChinesePublicStory && !window.FXContent.isChinesePublicStory(story)) return false;
   if (!story.status || story.status === "published") return true;
   if (story.status === "scheduled" && story.scheduledAt) {
     return new Date(story.scheduledAt).getTime() <= Date.now();
@@ -134,14 +136,16 @@ function applySiteContent() {
   const description = site.heroSubtitle || `${site.name} - 全球前沿知识聚合平台`;
   document.querySelector('meta[name="description"]')?.setAttribute("content", description);
   document.querySelector(".brand-copy strong").textContent = site.name;
-  document.querySelector(".brand-copy small").textContent = site.subtitle;
+  document.querySelector(".brand-copy small").textContent = /[\u3400-\u9fff]/.test(site.subtitle || "")
+    ? site.subtitle
+    : "全球前沿知识索引";
   document.querySelector(".brand").setAttribute("aria-label", `${site.name}首页`);
   const homepageTitle = site.heroTitle === "全球前沿知识观察台"
     ? "最新文章与前沿资料"
     : site.heroTitle;
   document.querySelector("#pulseTitle").textContent = homepageTitle;
   document.querySelector(".pulse-heading p").textContent = "文章优先呈现，来源资料每日自动同步；数据统计仅作为阅读辅助";
-  document.querySelector(".footer-brand").innerHTML = `${escapeHtml(site.name)} <span>FX INDEX / 2026</span>`;
+  document.querySelector(".footer-brand").innerHTML = `${escapeHtml(site.name)} <span>知识索引 / 2026</span>`;
   document.querySelector("#footerDescription").textContent = site.footer;
   document.querySelector("#footerNotice").textContent = operations.publicNotice || "公益性科技与产业知识聚合平台";
   const footerContact = document.querySelector("#footerContact");
@@ -225,7 +229,7 @@ function renderDiscovery() {
   }).join("");
 
   const sources = Array.from(new Set(publicStories.map((story) => story.source).filter(Boolean))).sort((a, b) => a.localeCompare(b, "zh-CN"));
-  sourceFilter.innerHTML = `<option value="all">全部来源</option>${sources.map((source) => `<option value="${escapeHtml(source)}">${escapeHtml(source)}</option>`).join("")}`;
+  sourceFilter.innerHTML = `<option value="all">全部来源</option>${sources.map((source) => `<option value="${escapeHtml(source)}">${escapeHtml(window.FXContent.localizedSourceName(source))}</option>`).join("")}`;
   sourceFilter.value = sources.includes(state.source) ? state.source : "all";
   state.source = sourceFilter.value;
   updateFilterUi();
@@ -250,7 +254,7 @@ function validHomeVideo(story) {
   try {
     const url = new URL(value);
     if (url.protocol !== "https:") return false;
-    if (type === "external") return true;
+    if (type === "external") return Boolean(cctvVideoId(story));
     return type === "file" && /\.(mp4|webm|ogg)$/i.test(url.pathname);
   } catch (error) {
     return false;
@@ -353,8 +357,11 @@ async function loadCctvVideo(video, player, loading, screen, token) {
     }
     if (token !== homeVideoLoadToken || !player.isConnected) return;
 
+    const playbackUrl = new URL(streamUrl);
+    const currentMaxBitrate = Number(playbackUrl.searchParams.get("maxbr") || 0);
+    if (currentMaxBitrate && currentMaxBitrate < 4096) playbackUrl.searchParams.set("maxbr", "4096");
     if (player.canPlayType("application/vnd.apple.mpegurl")) {
-      player.src = streamUrl;
+      player.src = playbackUrl.href;
       loading.remove();
       return;
     }
@@ -379,7 +386,7 @@ async function loadCctvVideo(video, player, loading, screen, token) {
         showHomeVideoFallback(screen, video, "播放失败，前往央视观看");
       }
     });
-    hls.loadSource(streamUrl);
+    hls.loadSource(playbackUrl.href);
     hls.attachMedia(player);
   } catch (error) {
     if (token === homeVideoLoadToken) showHomeVideoFallback(screen, video, "前往央视官方页面播放");
@@ -457,7 +464,7 @@ function renderHomeVideos() {
   if (!active) return;
   renderHomeVideoScreen(active);
   document.querySelector("#homeVideoCategory").textContent = active.category;
-  const videoKind = { cctv: "央视在线播放", external: "外部观看", bilibili: "哔哩哔哩", file: "站内视频" };
+  const videoKind = { cctv: "央视高清播放", bilibili: "哔哩哔哩播放", file: "站内视频" };
   document.querySelector("#homeVideoKind").textContent = videoKind[active.videoType] || "视频资料";
   document.querySelector("#homeVideoTitle").textContent = active.title;
   document.querySelector("#homeVideoDescription").textContent = active.description;
@@ -469,7 +476,7 @@ function renderHomeVideos() {
   document.querySelector("#homeVideoPlaylist").innerHTML = homeVideos.map((video, index) => `
     <button class="home-video-item ${video.id === active.id ? "is-active" : ""}" type="button" data-home-video="${escapeHtml(video.id)}" aria-pressed="${video.id === active.id}">
       <span class="home-video-thumb"><img src="${escapeHtml(video.videoPoster)}" data-image-fallback="assets/network.jpg" alt="" loading="lazy"><i data-lucide="play"></i></span>
-      <span class="home-video-copy"><small>${escapeHtml(video.category)} · ${String(index + 1).padStart(2, "0")}</small><strong>${escapeHtml(video.title)}</strong><em>${escapeHtml(video.source)}</em></span>
+      <span class="home-video-copy"><small>${escapeHtml(video.category)} · ${String(index + 1).padStart(2, "0")}</small><strong>${escapeHtml(video.title)}</strong><em>${escapeHtml(window.FXContent.localizedSourceName(video.source))}</em></span>
     </button>
   `).join("");
   attachImageFallbacks(document.querySelector("#homeVideoPlaylist"));
@@ -705,7 +712,7 @@ function storyTemplate(story, index) {
         <div class="story-foot">
           <div class="story-source">
             <i class="source-mark"></i>
-            <span>${escapeHtml(story.source)}</span>
+            <span>${escapeHtml(window.FXContent.localizedSourceName(story.source))}</span>
             <span>·</span>
             <time>${escapeHtml(story.time || story.date || "刚刚")}</time>
           </div>
@@ -799,6 +806,33 @@ function syncSearchUrl() {
   });
   const query = params.toString();
   history.replaceState(null, "", location.pathname + (query ? "?" + query : ""));
+}
+
+function suggestedExternalSearchCategory(query) {
+  const text = String(query || "").toLowerCase();
+  const preferred = state.category !== "全部" ? state.category : "";
+  let best = { name: preferred || "科技", score: preferred ? 1 : 0 };
+  getCategorySettings().filter((item) => item.enabled !== false).forEach((item) => {
+    const terms = [item.name].concat(Array.isArray(item.keywords) ? item.keywords : []);
+    const score = terms.reduce((total, term) => total + (term && text.includes(String(term).toLowerCase()) ? 1 : 0), 0);
+    if (score > best.score) best = { name: item.name, score: score };
+  });
+  return best.name;
+}
+
+function openExternalAuthoritySearch() {
+  const query = searchInput.value.trim();
+  if (query.length < 2) {
+    showToast("请先输入至少两个字的搜索词");
+    searchInput.focus();
+    return;
+  }
+  const params = new URLSearchParams({
+    category: suggestedExternalSearchCategory(query),
+    q: query,
+    scope: "authority"
+  });
+  location.href = "category.html?" + params.toString();
 }
 
 function renderChart(range) {
@@ -950,6 +984,8 @@ function bindStaticEvents() {
     renderStories();
     syncSearchUrl();
   });
+
+  externalSearchLauncher?.addEventListener("click", openExternalAuthoritySearch);
 
   loadMoreStories.addEventListener("click", () => {
     state.visibleCount += 12;

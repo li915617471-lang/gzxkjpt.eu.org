@@ -1015,12 +1015,15 @@ def generate_ai_article(story: dict) -> dict:
     source_name = str(story.get("source") or "公开来源")
     display_source = localized_source_name(source_name)
     source_url = str(story.get("sourceUrl") or "")
-    prompt = f"""请把下面的公开来源材料整理成内容完整、通俗易懂的中文科普文章。只使用材料中明确出现的事实，不补造数字、人物、结论或因果关系。
+    original_title = clean_text(story.get("originalTitle") or story.get("title") or "")
+    prompt = f"""请把下面的公开来源材料整理成内容完整、通俗易懂的中文科普文章，并为来源标题和公开摘要提供忠实中文译文。只使用材料中明确出现的事实，不补造数字、人物、结论或因果关系。
 
-输出必须是一个 JSON 对象，字段只有 title、excerpt、body：
+输出必须是一个 JSON 对象，字段只有 title、excerpt、body、sourceTitleZh、sourceMaterialZh：
 - title：准确的中文标题，10-60字；
 - excerpt：中文导语，80-160字；
 - body：1100-1600个中文字符，分为“核心进展、背景与原理、关键内容、应用与影响”四个内容章节，每节用“节标题\\n\\n正文”表示，各节之间空一行；不要使用 Markdown 符号；
+- sourceTitleZh：来源原始标题的忠实中文翻译，不添加“前沿观察”等平台措辞；原始标题已是中文时原样保留；
+- sourceMaterialZh：来源公开摘要或片段的忠实中文翻译，保留原有事实、数字和限定语，不扩写、不评论，长度不超过1200个中文字符；原材料已是中文时尽量原样保留；
 - 开头直接讲事件或知识本身，不写审核、可信度、核验方法、编辑流程、阅读建议或免责声明；
 - 全文必须使用中文表达；不要出现英文段落、英文标题、英文来源名或网页地址；外文机构名请译成中文，无法确认译名时写“来源机构”；
 - 不要复制长句，专业名词和短引用除外；材料没说的内容明确写“来源材料未说明”；
@@ -1029,6 +1032,7 @@ def generate_ai_article(story: dict) -> dict:
 
 板块：{story.get('category', '')}
 来源机构中文名：{display_source}
+来源原始标题：{original_title}
 原文地址：{source_url}
 来源材料：
 {material}"""
@@ -1043,7 +1047,7 @@ def generate_ai_article(story: dict) -> dict:
         ],
         "temperature": 0.2,
         "top_p": 0.9,
-        "max_tokens": 2200,
+        "max_tokens": 3000,
         "response_format": {"type": "json_object"},
     }
     request = urllib.request.Request(
@@ -1077,6 +1081,8 @@ def generate_ai_article(story: dict) -> dict:
     title = clean_text(article.get("title", ""))
     excerpt = clean_text(article.get("excerpt", ""))
     body = str(article.get("body") or "").strip()
+    source_title_zh = clean_text(article.get("sourceTitleZh", ""))
+    source_material_zh = truncate_text(article.get("sourceMaterialZh", ""), 1600)
     if not (10 <= count_content_characters(title) <= 80):
         raise ValueError("生成标题长度不合格")
     if count_content_characters(excerpt) < 60:
@@ -1085,6 +1091,10 @@ def generate_ai_article(story: dict) -> dict:
         raise ValueError("生成正文不足 800 字")
     if has_long_english_run("\n\n".join([title, excerpt, body])):
         raise ValueError("生成内容包含过多英文，未达到中文科普标准")
+    if not has_cjk_text(source_title_zh):
+        raise ValueError("来源标题没有生成可靠的中文译文")
+    if not source_material_is_usable(source_material_zh) or not has_cjk_text(source_material_zh):
+        raise ValueError("来源摘要没有生成可靠的中文译文")
     if source_url and source_url in body:
         raise ValueError("生成正文不应直接展示网页地址")
     body += (
@@ -1093,7 +1103,13 @@ def generate_ai_article(story: dict) -> dict:
     )
     if not body_meets_publication_standard(body):
         raise ValueError("生成正文未通过结构、长度或重复检查")
-    return {"title": title, "excerpt": excerpt, "body": body}
+    return {
+        "title": title,
+        "excerpt": excerpt,
+        "body": body,
+        "translatedSourceTitle": source_title_zh,
+        "translatedSourceMaterial": source_material_zh,
+    }
 
 
 def build_structured_article(story: dict) -> dict:
@@ -1104,6 +1120,8 @@ def build_structured_article(story: dict) -> dict:
     display_source = localized_source_name(source_name)
     title_source = clean_text(story.get("originalTitle") or story.get("title") or "")
     summary = clean_text(story.get("sourceMaterial") or story.get("excerpt") or "")
+    if not has_cjk_text(title_source) or not has_cjk_text(summary):
+        raise ValueError("外文来源必须由模型生成忠实中文译文，不能使用通用结构兜底")
     topic_title, topic_summary = fallback_topic(category, title_source, summary)
     summary = truncate_text(summary, 560) if has_cjk_text(summary) else ""
     summary = summary or topic_summary
@@ -1123,7 +1141,13 @@ def build_structured_article(story: dict) -> dict:
     )
     if not body_meets_publication_standard(body):
         raise ValueError("结构化整理正文未达到 800 字标准")
-    return {"title": title, "excerpt": excerpt, "body": body}
+    return {
+        "title": title,
+        "excerpt": excerpt,
+        "body": body,
+        "translatedSourceTitle": title_source,
+        "translatedSourceMaterial": truncate_text(summary, 1600),
+    }
 
 
 def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
@@ -1242,6 +1266,7 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
         "sourceUrl": entry.get("link", ""),
         "author": "",
         "language": source.get("language", "en"),
+        "sourceLanguage": source.get("language", "en"),
         "confidence": confidence,
         "time": "待审核",
         "readMinutes": 6,

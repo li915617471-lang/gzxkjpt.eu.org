@@ -150,6 +150,24 @@ def has_long_english_run(value: Any) -> bool:
     return bool(re.search(r"(?:\b[A-Za-z][A-Za-z'-]*\b[\s,.;:!?()/-]*){8,}", str(value or "")))
 
 
+def has_cjk_text(value: Any) -> bool:
+    return bool(re.search(r"[\u3400-\u9fff]", str(value or "")))
+
+
+def source_has_chinese_presentation(story: dict[str, Any]) -> bool:
+    source_title = str(story.get("originalTitle") or story.get("title") or "").strip()
+    source_material = str(story.get("sourceMaterial") or story.get("originalExcerpt") or "").strip()
+    title_needs_translation = (bool(re.search(r"[A-Za-z]", source_title)) and not has_cjk_text(source_title)) \
+        or has_long_english_run(source_title)
+    material_needs_translation = (bool(re.search(r"[A-Za-z]", source_material)) and not has_cjk_text(source_material)) \
+        or has_long_english_run(source_material)
+    translated_title_ready = has_cjk_text(story.get("translatedSourceTitle"))
+    translated_material_ready = source_material_is_usable(story.get("translatedSourceMaterial")) \
+        and has_cjk_text(story.get("translatedSourceMaterial"))
+    return (not title_needs_translation or translated_title_ready) \
+        and (not material_needs_translation or translated_material_ready)
+
+
 def has_unique_article_sections(value: Any) -> bool:
     paragraphs = [item.strip() for item in re.split(r"\n{2,}", str(value or "")) if item.strip()]
     normalized = [re.sub(r"\s+", "", item) for item in paragraphs]
@@ -242,6 +260,7 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
         "usableSourceMaterial": source_material_is_usable(
             story.get("sourceMaterial") or story.get("originalExcerpt")
         ),
+        "sourceChinesePresentation": source_has_chinese_presentation(story),
         "validImage": is_valid_image(story.get("image")),
         "classified": bool(str(story.get("category") or "").strip()),
         "categoryEvidence": evidence_score >= 2,

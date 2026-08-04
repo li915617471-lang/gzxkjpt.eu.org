@@ -18,15 +18,15 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
   <link rel="apple-touch-icon" href="assets/icon-192.png">
   <title>文章详情 | 信息分享平台</title>
-  <link rel="stylesheet" href="styles.css?v=13">
+  <link rel="stylesheet" href="styles.css?v=16">
   <link rel="stylesheet" href="article.css?v=4">
   <script src="cloud-config.js" defer></script>
   <script src="assets/vendor/supabase-2.111.0.min.js" defer></script>
   <script src="cloud.js" defer></script>
-  <script src="content-service.js?v=9" defer></script>
+  <script src="content-service.js?v=11" defer></script>
   <script src="assets/vendor/lucide-0.468.0.min.js" defer></script>
   <script src="pwa.js?v=2" defer></script>
-  <script src="article.js?v=12" defer></script>
+  <script src="article.js?v=14" defer></script>
   <script id="articleStructuredData" type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"信息分享平台文章详情"}</script>
 </head>
 <body class="article-page">
@@ -35,7 +35,7 @@
   <header class="article-topbar">
     <a class="brand" href="index.html" aria-label="返回信息分享平台首页">
       <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
-      <span class="brand-copy"><strong>信息分享平台</strong><small>TECH &amp; INDUSTRY INDEX</small></span>
+      <span class="brand-copy"><strong>信息分享平台</strong><small>全球前沿知识索引</small></span>
     </a>
     <nav class="article-actions" aria-label="文章工具">
       <a class="article-icon-link" href="index.html" title="返回首页"><i data-lucide="arrow-left"></i><span>返回首页</span></a>
@@ -76,20 +76,20 @@
         <div class="article-body">
           <section class="article-reading-section article-original-section" aria-labelledby="originalContentTitle">
             <div class="article-section-heading">
-              <div><span>ORIGINAL MATERIAL</span><h2 id="originalContentTitle">原始公开内容</h2></div>
-              <small>保留来源原始标题和公开摘要，不进行改写</small>
+              <div><span>来源公开资料</span><h2 id="originalContentTitle">来源公开内容</h2></div>
+              <small>展示来源公开标题、摘要或片段；外文资料仅展示忠实中文译文</small>
             </div>
             <div id="articleOriginalContent"></div>
           </section>
 
           <section class="article-reading-section article-source-section" aria-labelledby="sourceSectionTitle">
             <div class="article-section-heading">
-              <div><span>SOURCE</span><h2 id="sourceSectionTitle">信息来源</h2></div>
+              <div><span>资料出处</span><h2 id="sourceSectionTitle">信息来源</h2></div>
             </div>
             <div class="source-brief">
               <div class="source-brief-title"><i data-lucide="file-search"></i><span>来源记录</span></div>
               <strong id="articleSource"></strong>
-              <a id="sourceLink" target="_blank" rel="noopener noreferrer">打开完整原文 <i data-lucide="external-link"></i></a>
+              <a id="sourceLink" target="_blank" rel="noopener noreferrer">打开来源页面 <i data-lucide="external-link"></i></a>
               <dl class="source-brief-facts">
                 <div><dt>原文发布</dt><dd id="sourcePublishedAt"></dd></div>
                 <div><dt>平台采集</dt><dd id="sourceCollectedAt"></dd></div>
@@ -99,7 +99,7 @@
 
           <section class="article-reading-section article-points-section" aria-labelledby="keyPointsTitle">
             <div class="article-section-heading">
-              <div><span>KEY POINTS</span><h2 id="keyPointsTitle">主要事项</h2></div>
+              <div><span>内容要点</span><h2 id="keyPointsTitle">主要事项</h2></div>
               <small>仅从原始公开内容提取</small>
             </div>
             <ol id="articleKeyPoints" class="article-key-points"></ol>
@@ -107,7 +107,7 @@
 
           <section class="article-reading-section article-platform-section" aria-labelledby="platformIntroTitle">
             <div class="article-section-heading">
-              <div><span>PLATFORM BRIEF</span><h2 id="platformIntroTitle">平台生成简介</h2></div>
+              <div><span>中文导读</span><h2 id="platformIntroTitle">平台生成简介</h2></div>
               <small>与原始内容分开显示</small>
             </div>
             <p id="articlePlatformIntro" class="article-platform-intro"></p>
@@ -134,7 +134,7 @@
     </article>
 
     <section id="relatedSection" class="related-section" hidden>
-      <div class="related-head"><span>RELATED SIGNALS</span><h2>相关内容</h2></div>
+      <div class="related-head"><span>延伸阅读</span><h2>相关内容</h2></div>
       <div id="relatedStories" class="related-grid"></div>
     </section>
   </main>

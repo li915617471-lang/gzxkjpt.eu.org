@@ -9,7 +9,7 @@
   <script src="cloud-config.js" defer></script>
   <script src="assets/vendor/supabase-2.111.0.min.js" defer></script>
   <script src="cloud.js" defer></script>
-  <script src="content-service.js?v=9" defer></script>
+  <script src="content-service.js?v=11" defer></script>
   <script src="assets/vendor/lucide-0.468.0.min.js" defer></script>
   <script src="admin.js?v=5" defer></script>
 </head>
@@ -17,7 +17,7 @@
   <section id="authGate" class="auth-gate" hidden>
     <form id="loginForm" class="login-panel">
       <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
-      <p>SECURE ADMIN</p>
+      <p>安全管理</p>
       <h1>管理员登录</h1>
       <span class="login-note">登录后才能修改云端内容和上传文件。</span>
       <label>管理员邮箱<input id="loginEmail" type="email" required autocomplete="username" placeholder="admin@example.com"></label>
@@ -31,7 +31,7 @@
   <aside class="admin-sidebar">
     <a class="brand" href="index.html">
       <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
-      <span><strong>信息分享平台</strong><small>ADMIN CONSOLE</small></span>
+      <span><strong>信息分享平台</strong><small>管理控制台</small></span>
     </a>
     <nav aria-label="后台工作区">
       <span class="nav-group-label">总览</span>
@@ -89,7 +89,7 @@
     <section id="sections" class="panel">
       <div class="panel-head">
         <div>
-          <p>SECTION BUILDER</p>
+          <p>板块设置</p>
           <h2>板块设置</h2>
         </div>
         <button id="newCategory" class="ghost-button" type="button"><i data-lucide="plus"></i> 新增板块</button>
@@ -117,7 +117,7 @@
     <section id="content" class="panel split-panel">
       <div class="panel-head">
         <div>
-          <p>CONTENT OPS</p>
+          <p>内容管理</p>
           <h2>内容管理</h2>
         </div>
         <button id="newStory" class="ghost-button" type="button"><i data-lucide="plus"></i> 新建内容</button>
@@ -230,7 +230,7 @@
           </div>
           <section class="story-history" aria-labelledby="storyHistoryTitle">
             <div class="story-history-head">
-              <div><span>CHANGE HISTORY</span><h3 id="storyHistoryTitle">内容版本记录</h3></div>
+              <div><span>修改历史</span><h3 id="storyHistoryTitle">内容版本记录</h3></div>
               <select id="storyHistoryFilter" aria-label="版本记录范围">
                 <option value="current">当前内容</option>
                 <option value="all">全部记录</option>
@@ -273,7 +273,7 @@
     <section id="smart" class="panel split-panel">
       <div class="panel-head">
         <div>
-          <p>SMART UPDATE</p>
+          <p>智能更新</p>
           <h2>智能更新与资料提取</h2>
         </div>
         <button id="generateFromText" class="primary-button" type="button"><i data-lucide="sparkles"></i> 智能生成草稿</button>
@@ -299,7 +299,7 @@
       <div class="source-ops">
         <div class="source-section-head">
           <div>
-            <p>FEED SOURCES</p>
+            <p>资料来源</p>
             <h3>采集来源管理</h3>
           </div>
           <button id="newSource" class="ghost-button" type="button"><i data-lucide="plus"></i> 新增来源</button>
@@ -369,7 +369,7 @@
       <div class="collection-ops">
         <div class="source-section-head">
           <div>
-            <p>COLLECTION LOG</p>
+            <p>采集记录</p>
             <h3>采集记录</h3>
           </div>
           <div id="collectionStats" class="collection-stats"></div>
@@ -381,7 +381,7 @@
     <section id="files" class="panel">
       <div class="panel-head">
         <div>
-          <p>FILE CENTER</p>
+          <p>文件中心</p>
           <h2>上传图片和资料</h2>
         </div>
         <label class="upload-button">
@@ -396,7 +396,7 @@
     <section id="appearance" class="panel">
       <div class="panel-head">
         <div>
-          <p>SITE DESIGN</p>
+          <p>网站设计</p>
           <h2>站点文字与科技主题</h2>
         </div>
       </div>
@@ -423,7 +423,7 @@
       <div class="operations-band">
         <div class="source-section-head">
           <div>
-            <p>PUBLIC INTEREST</p>
+            <p>公益设置</p>
             <h3>公益运营与站点信息</h3>
           </div>
         </div>
@@ -455,7 +455,7 @@
     <section id="advanced" class="panel">
       <div class="panel-head">
         <div>
-          <p>EXPERT MODE</p>
+          <p>高级模式</p>
           <h2>高级 JSON 配置</h2>
         </div>
         <button id="refreshRawJson" class="ghost-button" type="button"><i data-lucide="refresh-cw"></i> 重新载入</button>
@@ -470,7 +470,7 @@
     <section id="publish" class="panel publish-grid">
       <section class="cloud-setup-panel">
         <div class="source-section-head">
-          <div><p>CLOUD CONNECTION</p><h3>Supabase 云端连接</h3></div>
+          <div><p>云端连接</p><h3>Supabase 云端连接</h3></div>
           <span id="cloudSetupBadge" class="cloud-setup-badge">本地模式</span>
         </div>
         <form id="cloudSetupForm" class="editor-form">
@@ -495,7 +495,7 @@
         </form>
       </section>
       <div>
-        <p>EXPORT / IMPORT</p>
+        <p>导出与导入</p>
         <h2>发布上线</h2>
         <p class="muted">本地保存只对当前浏览器有效。要让所有访客看到更新，请导出 JSON，把内容放到 <code>data/content.json</code>，或以后接入 GitHub/Supabase 自动写入。</p>
       </div>
@@ -508,7 +508,7 @@
       <div class="backup-ops">
         <div class="source-section-head">
           <div>
-            <p>LOCAL SNAPSHOTS</p>
+            <p>本地快照</p>
             <h3>内容备份</h3>
           </div>
           <button id="createBackup" class="ghost-button" type="button"><i data-lucide="archive"></i> 创建快照</button>

@@ -16,6 +16,64 @@
     "数字人文平台连接档案、博物馆与公共知识服务"
   ]);
 
+  const SOURCE_NAME_ALIASES = {
+    "MIT Technology Review": "麻省理工科技评论",
+    "NASA Breaking News": "美国国家航空航天局",
+    "IEEE Spectrum": "美国电气电子工程师学会《科技纵览》",
+    "Semiconductor Engineering": "半导体工程",
+    "Manufacturing Dive": "制造业观察",
+    "National Association of Manufacturers": "美国制造商协会",
+    "U.S. Department of Energy": "美国能源部",
+    "U.S. Energy Information Administration": "美国能源信息署",
+    "U.S. Federal Reserve": "美国联邦储备系统",
+    "European Central Bank": "欧洲中央银行",
+    "European Space Agency Science & Exploration": "欧洲航天局科学与探索",
+    "Global Ag Tech Initiative": "全球农业科技倡议",
+    "CGIAR": "国际农业研究磋商组织",
+    "Open Culture": "开放文化",
+    "Smithsonian Magazine": "史密森尼杂志",
+    "USDA Agricultural Research Service": "美国农业部农业研究局"
+  };
+
+  function hasChineseText(value) {
+    return /[\u3400-\u9fff]/.test(String(value || ""));
+  }
+
+  function hasLongEnglishRun(value) {
+    return /(?:\b[A-Za-z][A-Za-z0-9'-]*\b[\s,;:()\[\]{}\/-]*){5,}/.test(String(value || ""));
+  }
+
+  function localizedSourceName(value) {
+    const name = String(value || "").trim();
+    if (!name) return "公开来源";
+    if (SOURCE_NAME_ALIASES[name]) return SOURCE_NAME_ALIASES[name];
+    return hasChineseText(name) ? name : "境外公开来源";
+  }
+
+  function isChinesePublicStory(story) {
+    const title = String(story?.title || "").trim();
+    const excerpt = String(story?.excerpt || "").trim();
+    const body = Array.isArray(story?.body) ? story.body.join("\n") : String(story?.body || "");
+    const sourceTitle = String(story?.originalTitle || "").trim();
+    const sourceMaterial = String(story?.sourceMaterial || "").trim();
+    const foreignSourceTitle = sourceTitle && ((!hasChineseText(sourceTitle) && /[A-Za-z]/.test(sourceTitle)) || hasLongEnglishRun(sourceTitle));
+    const foreignSourceMaterial = sourceMaterial.length >= 24
+      && ((!hasChineseText(sourceMaterial) && /[A-Za-z]/.test(sourceMaterial)) || hasLongEnglishRun(sourceMaterial));
+    const translatedTitleReady = hasChineseText(story?.translatedSourceTitle);
+    const translatedMaterialReady = sourceMaterialIsUsable(story?.translatedSourceMaterial)
+      && hasChineseText(story?.translatedSourceMaterial);
+    const genericTitle = /公开资料提供新的观察线索|公开资料显示的[^。]{0,20}动态/.test(title);
+    const truncatedTitle = /(?:\.{3}|…)$/.test(title);
+    return hasChineseText(title)
+      && !genericTitle
+      && !truncatedTitle
+      && !hasLongEnglishRun(title)
+      && !hasLongEnglishRun(excerpt)
+      && !hasLongEnglishRun(body)
+      && (!foreignSourceTitle || translatedTitleReady)
+      && (!foreignSourceMaterial || translatedMaterialReady);
+  }
+
   function readLocal() {
     try {
       const raw = localStorage.getItem(ADMIN_CONTENT_KEY);
@@ -67,9 +125,9 @@
 
   function automaticPresentationIntro(story) {
     const rawSource = String(story?.source || "来源机构").trim();
-    const source = /^[\x00-\x7f\s.,&'()/-]+$/.test(rawSource) ? "来源机构" : rawSource;
+    const source = localizedSourceName(rawSource);
     const category = String(story?.category || "前沿").trim();
-    const originalTitle = String(story?.originalTitle || story?.title || "该公开资料").trim();
+    const originalTitle = String(story?.translatedSourceTitle || story?.originalTitle || story?.title || "该公开资料").trim();
     return `${source}发布了一条${category}资料，原始主题为“${originalTitle}”。页面优先展示来源原始公开内容，并将平台整理的信息单独列出。`;
   }
 
@@ -77,6 +135,7 @@
     let text = String(story?.excerpt || "").trim();
     if (!(story?.automaticImport || story?.contentGenerationMode || story?.collectionSourceId)) return text;
     text = text.split(LEGACY_AUTOMATIC_EXCERPT_NOTICE).join("").replace(/。。+/g, "。").trim();
+    if (text.includes("视频简介")) text = text.split("视频简介")[0].trim();
     if (
       !sourceMaterialIsUsable(text)
       || /公开资料提供新的观察线索|公开资料显示的[^。]{0,20}动态/.test(text)
@@ -94,7 +153,7 @@
     const next = JSON.parse(JSON.stringify(existingContent));
     next.site = Object.assign({}, next.site);
     if (next.site.subtitle === "TECH & INDUSTRY INDEX") {
-      next.site.subtitle = fileContent.site?.subtitle || "GLOBAL KNOWLEDGE INDEX";
+      next.site.subtitle = fileContent.site?.subtitle || "全球前沿知识索引";
     }
     if (["科技与工业观察台", "前沿产业与科技观察台", "前沿产业与人文观察台"].includes(next.site.heroTitle)) {
       next.site.heroTitle = fileContent.site?.heroTitle || "全球前沿知识观察台";
@@ -210,6 +269,10 @@
     readPublicCache: readPublicCache,
     presentationExcerpt: presentationExcerpt,
     sourceMaterialIsUsable: sourceMaterialIsUsable,
-    automaticPresentationIntro: automaticPresentationIntro
+    automaticPresentationIntro: automaticPresentationIntro,
+    hasChineseText: hasChineseText,
+    hasLongEnglishRun: hasLongEnglishRun,
+    localizedSourceName: localizedSourceName,
+    isChinesePublicStory: isChinesePublicStory
   };
 })();

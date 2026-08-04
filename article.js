@@ -46,10 +46,9 @@ const SOURCE_NAME_ALIASES = {
 };
 
 function sourceDisplayName(value) {
-  const name = String(value || "").trim();
-  if (!name) return "公开来源";
-  if (SOURCE_NAME_ALIASES[name]) return SOURCE_NAME_ALIASES[name];
-  return /^[\x00-\x7f\s.,&'()/-]+$/.test(name) ? "公开来源机构" : name;
+  return window.FXContent?.localizedSourceName(value)
+    || SOURCE_NAME_ALIASES[String(value || "").trim()]
+    || "公开来源";
 }
 
 function dateLabel(value) {
@@ -84,6 +83,7 @@ function categorySetting(name) {
 function storyIsPublic(story) {
   const body = Array.isArray(story.body) ? story.body.join("\n\n") : String(story.body || "");
   if (body.replace(/\s/g, "").length < 800) return false;
+  if (window.FXContent?.isChinesePublicStory && !window.FXContent.isChinesePublicStory(story)) return false;
   if (!story.status || story.status === "published") return true;
   if (story.status === "scheduled" && story.scheduledAt) {
     return new Date(story.scheduledAt).getTime() <= Date.now();
@@ -190,25 +190,39 @@ function articleParagraphHtml(paragraph, index, paragraphs) {
 
 function renderBody(story) {
   const automatic = isAutomaticStory(story);
-  const originalTitle = String(story.originalTitle || story.title || "").trim();
-  const sourceMaterial = String(story.sourceMaterial || "").replace(/\s+/g, " ").trim();
+  const rawOriginalTitle = String(story.originalTitle || story.title || "").trim();
+  let rawSourceMaterial = String(story.sourceMaterial || "").replace(/\s+/g, " ").trim();
+  if (rawSourceMaterial.includes("视频简介")) rawSourceMaterial = rawSourceMaterial.split("视频简介")[0].trim();
+  const titleNeedsTranslation = (!window.FXContent.hasChineseText(rawOriginalTitle) && /[A-Za-z]/.test(rawOriginalTitle))
+    || window.FXContent.hasLongEnglishRun(rawOriginalTitle);
+  const materialNeedsTranslation = (!window.FXContent.hasChineseText(rawSourceMaterial) && /[A-Za-z]/.test(rawSourceMaterial))
+    || window.FXContent.hasLongEnglishRun(rawSourceMaterial);
+  const originalTitle = titleNeedsTranslation
+    ? String(story.translatedSourceTitle || "").trim()
+    : rawOriginalTitle;
+  const sourceMaterial = materialNeedsTranslation
+    ? String(story.translatedSourceMaterial || "").replace(/\s+/g, " ").trim()
+    : rawSourceMaterial;
   const materialIsUsable = window.FXContent.sourceMaterialIsUsable(sourceMaterial);
   const originalContent = document.querySelector("#articleOriginalContent");
-  const originalBlocks = [
-    `<div class="original-material-block"><span>原始标题</span><p>${escapeArticleHtml(originalTitle)}</p></div>`
-  ];
+  const originalBlocks = [];
+  if (originalTitle) {
+    originalBlocks.push(
+      `<div class="original-material-block"><span>${titleNeedsTranslation ? "原始标题中文译文" : "原始标题"}</span><p>${escapeArticleHtml(originalTitle)}</p></div>`
+    );
+  }
   if (materialIsUsable) {
     originalBlocks.push(
-      `<div class="original-material-block"><span>来源公开摘要或片段</span><p>${escapeArticleHtml(sourceMaterial)}</p></div>`
+      `<div class="original-material-block"><span>${materialNeedsTranslation ? "来源公开摘要中文译文" : "来源公开摘要或片段"}</span><p>${escapeArticleHtml(sourceMaterial)}</p></div>`
     );
   } else {
     originalBlocks.push(
-      `<p class="original-material-unavailable">当前采集记录没有可供可靠展示的原始摘要。平台已隐藏错误的菜单或重复片段，请通过“打开完整原文”查看来源页面。</p>`
+      `<p class="original-material-unavailable">当前记录没有可可靠展示的中文原始摘要或译文。为避免把自动扩写冒充原文，本页不补写来源内容，请通过“打开来源页面”查看完整资料。</p>`
     );
   }
   originalContent.innerHTML = originalBlocks.join("");
 
-  const points = [`资料主题：${originalTitle}`];
+  const points = [`资料主题：${originalTitle || story.title}`];
   if (materialIsUsable) {
     const sourcePoints = sourceMaterial
       .split(/(?<=[。！？!?])\s*/)
@@ -354,7 +368,9 @@ function renderArticle(story) {
   document.querySelector('meta[name="description"]').setAttribute("content", story.excerpt || story.title);
   applyArticleSeo(story, site);
   document.querySelector(".brand-copy strong").textContent = site.name || "信息分享平台";
-  document.querySelector(".brand-copy small").textContent = site.subtitle || "GLOBAL KNOWLEDGE INDEX";
+  document.querySelector(".brand-copy small").textContent = /[\u3400-\u9fff]/.test(site.subtitle || "")
+    ? site.subtitle
+    : "全球前沿知识索引";
   document.querySelector("#articleCategory").textContent = story.category;
   document.querySelector("#articleCategory").style.color = categoryColor;
   document.querySelector("#categoryLink").textContent = story.category;
@@ -479,7 +495,7 @@ async function copyArticleLink() {
 }
 
 async function initArticle() {
-  articleContent = await window.FXContent.load(ARTICLE_CONTENT_URL);
+  articleContent = await window.FXContent.load(ARTICLE_CONTENT_URL, { background: true });
   const storyId = getStoryId();
   currentStory = articleContent?.stories?.find(function (story) {
     return Number(story.id) === storyId && storyIsPublic(story);
@@ -497,6 +513,20 @@ async function initArticle() {
   renderArticle(currentStory);
   updateReadingProgress();
 }
+
+window.addEventListener("fxcontentupdate", function (event) {
+  if (!event.detail?.stories) return;
+  articleContent = event.detail;
+  const storyId = getStoryId();
+  const refreshedStory = articleContent.stories.find(function (story) {
+    return Number(story.id) === storyId && storyIsPublic(story);
+  });
+  if (!refreshedStory) return;
+  currentStory = refreshedStory;
+  applyArticleTheme();
+  renderArticle(currentStory);
+  updateReadingProgress();
+});
 
 initArticle();
 window.addEventListener("load", initializeArticleIcons);
