@@ -20,14 +20,14 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
   <link rel="apple-touch-icon" href="assets/icon-192.png">
   <title>信息分享平台 | 全球前沿知识聚合平台</title>
-  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="styles.css?v=8">
   <script src="cloud-config.js" defer></script>
   <script src="assets/vendor/supabase-2.111.0.min.js" defer></script>
   <script src="cloud.js" defer></script>
   <script src="content-service.js?v=7" defer></script>
   <script src="assets/vendor/lucide-0.468.0.min.js" defer></script>
   <script src="pwa.js?v=2" defer></script>
-  <script src="app.js?v=8" defer></script>
+  <script src="app.js?v=9" defer></script>
   <script id="siteStructuredData" type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"信息分享平台","url":"https://gzxkjpt.eu.org/"}</script>
 </head>
 <body>
@@ -74,14 +74,15 @@
     <section class="pulse-band" aria-labelledby="pulseTitle">
       <div class="section-kicker">
         <span class="live-dot" aria-hidden="true"></span>
-        <span>产业实时脉搏</span>
+        <span>平台内容实时脉搏</span>
+        <span id="pulseFreshness" class="pulse-freshness">平台实时计算 · 来源每日同步</span>
         <time id="currentTime"></time>
       </div>
 
       <div class="pulse-heading">
         <div>
           <h1 id="pulseTitle">全球前沿知识观察台</h1>
-          <p>聚合关键技术、制造趋势与产业链信号</p>
+          <p>根据平台当前已发布内容即时计算，来源资料由每日自动任务同步</p>
         </div>
         <div class="range-control" role="group" aria-label="趋势时间范围">
           <button class="range-button is-active" data-range="24h">24H</button>
@@ -91,42 +92,54 @@
       </div>
 
       <div class="metrics-layout">
-        <div class="metrics-grid" aria-label="产业指标">
+        <div class="metrics-grid" aria-label="平台内容实时统计">
           <article class="metric">
-            <div class="metric-label"><i data-lucide="cpu"></i><span>AI 算力需求</span></div>
-            <strong>128.6</strong>
-            <span class="metric-trend positive"><i data-lucide="trending-up"></i> 8.4%</span>
-            <small>指数 / 周同比</small>
+            <div class="metric-label"><i data-lucide="radio-tower"></i><span>近24小时新增</span></div>
+            <strong>--</strong>
+            <span class="metric-trend neutral"><i data-lucide="activity"></i> 正在计算</span>
+            <small>当前公开内容</small>
           </article>
           <article class="metric">
-            <div class="metric-label"><i data-lucide="factory"></i><span>制造景气度</span></div>
-            <strong>52.3</strong>
-            <span class="metric-trend positive"><i data-lucide="trending-up"></i> 1.2</span>
-            <small>PMI 扩张区间</small>
+            <div class="metric-label"><i data-lucide="calendar-range"></i><span>近7日新增</span></div>
+            <strong>--</strong>
+            <span class="metric-trend neutral"><i data-lucide="activity"></i> 正在计算</span>
+            <small>滚动时间窗口</small>
           </article>
           <article class="metric">
-            <div class="metric-label"><i data-lucide="microchip"></i><span>芯片交付周期</span></div>
-            <strong>14.2</strong>
-            <span class="metric-trend negative"><i data-lucide="trending-down"></i> 0.8 周</span>
-            <small>平均交付周数</small>
+            <div class="metric-label"><i data-lucide="landmark"></i><span>权威来源</span></div>
+            <strong>--</strong>
+            <span class="metric-trend neutral"><i data-lucide="shield-check"></i> 正在核验</span>
+            <small>高可信公开机构</small>
           </article>
           <article class="metric">
-            <div class="metric-label"><i data-lucide="battery-charging"></i><span>储能装机</span></div>
-            <strong>41.7</strong>
-            <span class="metric-trend positive"><i data-lucide="trending-up"></i> 12.1%</span>
-            <small>GWh / 年内累计</small>
+            <div class="metric-label"><i data-lucide="layout-dashboard"></i><span>板块覆盖</span></div>
+            <strong>--</strong>
+            <span class="metric-trend neutral"><i data-lucide="network"></i> 正在计算</span>
+            <small>当前启用板块</small>
+          </article>
+          <article class="metric">
+            <div class="metric-label"><i data-lucide="video"></i><span>科普视频</span></div>
+            <strong>--</strong>
+            <span class="metric-trend neutral"><i data-lucide="play"></i> 正在计算</span>
+            <small>已确认展示权限</small>
+          </article>
+          <article class="metric">
+            <div class="metric-label"><i data-lucide="badge-check"></i><span>平均可信度</span></div>
+            <strong>--</strong>
+            <span class="metric-trend neutral"><i data-lucide="scan-search"></i> 正在计算</span>
+            <small>公开内容平均值</small>
           </article>
         </div>
 
-        <div class="pulse-chart" aria-label="产业关注度趋势图">
+        <div class="pulse-chart" aria-label="平台内容更新趋势图">
           <div class="chart-head">
             <div>
-              <span>产业关注度</span>
-              <strong id="chartValue">84.2</strong>
+              <span id="chartMetricLabel">内容更新活跃度</span>
+              <strong id="chartValue">0 条</strong>
             </div>
-            <span id="chartDelta" class="positive">+6.8%</span>
+            <span id="chartDelta" class="positive">正在计算</span>
           </div>
-          <svg id="trendChart" viewBox="0 0 620 150" role="img" aria-label="产业关注度折线趋势">
+          <svg id="trendChart" viewBox="0 0 620 150" role="img" aria-label="平台内容更新折线趋势">
             <g class="chart-grid">
               <line x1="0" y1="20" x2="620" y2="20"></line>
               <line x1="0" y1="75" x2="620" y2="75"></line>
@@ -138,6 +151,13 @@
           </svg>
           <div id="chartLabels" class="chart-labels"></div>
         </div>
+      </div>
+      <div class="pulse-category-map">
+        <div class="pulse-category-head">
+          <span>六板块内容活跃度</span>
+          <small id="pulseCoverage">按当前公开内容计算</small>
+        </div>
+        <div id="pulseCategoryBars" class="pulse-category-bars" aria-label="六板块公开内容数量"></div>
       </div>
     </section>
 

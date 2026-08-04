@@ -9,10 +9,22 @@ const CATEGORY_COPY = {
   "人文": { description: "汇集文化遗产、教育、历史、艺术与社会研究中的重要发现和讨论。", image: "assets/semiconductor.jpg", focus: ["文化", "教育", "历史", "艺术"] }
 };
 
+const EXTERNAL_SEARCH_START_DATE = "2021-01-01";
+const EXTERNAL_SEARCH_CACHE_MS = 30 * 60 * 1000;
+
 let categoryContent = null;
 let activeCategory = "";
 let categoryQuery = "";
 let categorySort = "latest";
+let categorySearchMode = "local";
+let externalSearchController = null;
+let externalSearchState = {
+  status: "idle",
+  queryKey: "",
+  results: [],
+  providers: 0,
+  error: ""
+};
 
 function escapeCategoryHtml(value) {
   return String(value || "")
@@ -51,6 +63,220 @@ function safeCategoryImage(value, fallback) {
     return image;
   }
   return fallback;
+}
+
+function hasChineseText(value) {
+  return /[\u3400-\u9fff]/.test(String(value || ""));
+}
+
+function truncateCategoryText(value, limit) {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  return text.length > limit ? text.slice(0, limit).trimEnd() + "…" : text;
+}
+
+function safeExternalUrl(value, fallback) {
+  try {
+    const url = new URL(String(value || fallback || ""));
+    return url.protocol === "https:" ? url.href : String(fallback || "");
+  } catch (error) {
+    return String(fallback || "");
+  }
+}
+
+function reconstructAbstract(index) {
+  if (!index || typeof index !== "object") return "";
+  const words = [];
+  Object.entries(index).forEach(function (entry) {
+    const word = entry[0];
+    const positions = Array.isArray(entry[1]) ? entry[1] : [];
+    positions.forEach(function (position) {
+      if (Number.isInteger(position) && position >= 0 && position < 500) words[position] = word;
+    });
+  });
+  return words.filter(Boolean).join(" ");
+}
+
+function stripExternalMarkup(value) {
+  const source = String(value || "");
+  if (!source) return "";
+  const documentNode = new DOMParser().parseFromString(source, "text/html");
+  return String(documentNode.body?.textContent || "").replace(/\s+/g, " ").trim();
+}
+
+function academicTypeLabel(value) {
+  const type = String(value || "").toLowerCase();
+  if (type.includes("book")) return "图书资料";
+  if (type.includes("proceedings")) return "会议论文";
+  if (type.includes("dissertation")) return "学位论文";
+  if (type.includes("report")) return "研究报告";
+  return "学术论文";
+}
+
+function externalSummary(abstract, typeLabel) {
+  const clean = truncateCategoryText(abstract, 230);
+  if (hasChineseText(clean)) return clean;
+  return `该${typeLabel}已被权威开放索引收录。可前往原始出版页面查看研究摘要、方法、数据范围和完整出版信息。`;
+}
+
+async function fetchExternalJson(url, signal) {
+  const response = await fetch(url, {
+    signal: signal,
+    headers: { "Accept": "application/json" },
+    referrerPolicy: "no-referrer"
+  });
+  if (!response.ok) throw new Error(`资料接口返回 ${response.status}`);
+  return response.json();
+}
+
+async function searchOpenAlex(query, signal) {
+  const params = new URLSearchParams({
+    search: query,
+    filter: `language:zh,from_publication_date:${EXTERNAL_SEARCH_START_DATE}`,
+    "per-page": "12",
+    select: "id,doi,display_name,publication_date,primary_location,cited_by_count,type,language,abstract_inverted_index"
+  });
+  const payload = await fetchExternalJson(`https://api.openalex.org/works?${params}`, signal);
+  return (payload.results || []).map(function (item) {
+    const title = String(item.display_name || "").trim();
+    if (!hasChineseText(title)) return null;
+    const doiUrl = safeExternalUrl(item.doi, "");
+    const landingPage = safeExternalUrl(item.primary_location?.landing_page_url, doiUrl);
+    if (!landingPage) return null;
+    const typeLabel = academicTypeLabel(item.type);
+    return {
+      key: String(item.doi || item.id || title),
+      title: title,
+      url: landingPage,
+      date: String(item.publication_date || ""),
+      type: typeLabel,
+      source: "国际开放学术索引",
+      citations: Math.max(0, Number(item.cited_by_count || 0)),
+      summary: externalSummary(reconstructAbstract(item.abstract_inverted_index), typeLabel)
+    };
+  }).filter(Boolean);
+}
+
+async function searchCrossref(query, signal) {
+  const params = new URLSearchParams({
+    query: query,
+    rows: "12",
+    filter: `from-pub-date:${EXTERNAL_SEARCH_START_DATE}`,
+    select: "DOI,title,published,container-title,URL,abstract,type"
+  });
+  const payload = await fetchExternalJson(`https://api.crossref.org/works?${params}`, signal);
+  const items = payload.message?.items || [];
+  return items.map(function (item) {
+    const title = String(Array.isArray(item.title) ? item.title[0] : item.title || "").trim();
+    if (!hasChineseText(title)) return null;
+    const doiUrl = item.DOI ? `https://doi.org/${encodeURIComponent(item.DOI)}` : "";
+    const landingPage = safeExternalUrl(item.URL, doiUrl);
+    if (!landingPage) return null;
+    const parts = item.published?.["date-parts"]?.[0] || [];
+    const date = parts.length ? parts.map(function (part, index) {
+      return index === 0 ? String(part) : String(part).padStart(2, "0");
+    }).join("-") : "";
+    const typeLabel = academicTypeLabel(item.type);
+    return {
+      key: String(item.DOI || title),
+      title: title,
+      url: landingPage,
+      date: date,
+      type: typeLabel,
+      source: "全球学术出版索引",
+      citations: 0,
+      summary: externalSummary(stripExternalMarkup(item.abstract), typeLabel)
+    };
+  }).filter(Boolean);
+}
+
+function externalSearchKey() {
+  return `${activeCategory}:${categoryQuery.trim().toLowerCase()}`;
+}
+
+function readExternalSearchCache(key) {
+  try {
+    const cached = JSON.parse(sessionStorage.getItem(`fx-authority-search:${key}`) || "null");
+    if (!cached || Date.now() - Number(cached.savedAt || 0) > EXTERNAL_SEARCH_CACHE_MS) return null;
+    return Array.isArray(cached.results) ? cached : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function writeExternalSearchCache(key, results, providers) {
+  try {
+    sessionStorage.setItem(`fx-authority-search:${key}`, JSON.stringify({
+      savedAt: Date.now(),
+      results: results,
+      providers: providers
+    }));
+  } catch (error) {
+    // Search remains usable when browser storage is unavailable.
+  }
+}
+
+function deduplicateExternalResults(results) {
+  const seen = new Set();
+  return results.filter(function (item) {
+    const normalizedTitle = item.title.toLowerCase().replace(/[^\w\u3400-\u9fff]+/g, "");
+    const key = String(item.key || normalizedTitle).toLowerCase().replace(/^https?:\/\/(?:dx\.)?doi\.org\//, "");
+    if (!normalizedTitle || seen.has(key) || seen.has(normalizedTitle)) return false;
+    seen.add(key);
+    seen.add(normalizedTitle);
+    return true;
+  }).sort(function (left, right) {
+    return new Date(right.date || 0).getTime() - new Date(left.date || 0).getTime()
+      || Number(right.citations || 0) - Number(left.citations || 0);
+  }).slice(0, 18);
+}
+
+async function searchExternalSources() {
+  const query = categoryQuery.trim();
+  if (query.length < 2) {
+    externalSearchState = { status: "idle", queryKey: "", results: [], providers: 0, error: "" };
+    renderCategoryPage();
+    return;
+  }
+  const key = externalSearchKey();
+  const cached = readExternalSearchCache(key);
+  if (cached) {
+    externalSearchState = {
+      status: "ready", queryKey: key, results: cached.results,
+      providers: Number(cached.providers || 0), error: ""
+    };
+    renderCategoryPage();
+    return;
+  }
+  externalSearchController?.abort();
+  externalSearchController = new AbortController();
+  const timeoutId = window.setTimeout(function () { externalSearchController?.abort(); }, 14000);
+  externalSearchState = { status: "loading", queryKey: key, results: [], providers: 0, error: "" };
+  renderCategoryPage();
+  try {
+    const scopedQuery = `${query} ${activeCategory}`;
+    const responses = await Promise.allSettled([
+      searchOpenAlex(scopedQuery, externalSearchController.signal),
+      searchCrossref(scopedQuery, externalSearchController.signal)
+    ]);
+    if (key !== externalSearchKey() || categorySearchMode !== "authority") return;
+    const successful = responses.filter(function (result) { return result.status === "fulfilled"; });
+    if (!successful.length) throw new Error("权威资料服务暂时无法连接");
+    const results = deduplicateExternalResults(successful.flatMap(function (result) { return result.value; }));
+    externalSearchState = {
+      status: "ready", queryKey: key, results: results,
+      providers: successful.length, error: successful.length < responses.length ? "部分来源暂时不可用" : ""
+    };
+    writeExternalSearchCache(key, results, successful.length);
+  } catch (error) {
+    if (error?.name === "AbortError" && key !== externalSearchKey()) return;
+    externalSearchState = {
+      status: "error", queryKey: key, results: [], providers: 0,
+      error: error?.name === "AbortError" ? "搜索超时，请稍后重试" : "权威资料服务暂时无法连接"
+    };
+  } finally {
+    window.clearTimeout(timeoutId);
+    if (key === externalSearchKey()) renderCategoryPage();
+  }
 }
 
 function attachCategoryImageFallbacks() {
@@ -98,6 +324,16 @@ function storyCard(story, index) {
   return `<article class="story-card" style="--category-color:${safeCategoryColor(activeSetting().color)}">
     <div class="story-image"><a href="article.html?id=${encodeURIComponent(story.id)}" aria-label="阅读：${escapeCategoryHtml(story.title)}"><img src="${escapeCategoryHtml(image)}" data-image-fallback="${escapeCategoryHtml(fallback)}" alt="${escapeCategoryHtml(story.title)}" loading="lazy" referrerpolicy="no-referrer"></a><span class="story-index">${String(index + 1).padStart(2, "0")}</span></div>
     <div class="story-body"><div class="story-meta"><span class="category-tag">${escapeCategoryHtml(activeCategory)}</span><span>${Number(story.readMinutes || 6)} 分钟阅读</span></div><h3><a href="article.html?id=${encodeURIComponent(story.id)}">${escapeCategoryHtml(story.title)}</a></h3><p>${escapeCategoryHtml(window.FXContent.presentationExcerpt(story))}</p><div class="story-foot"><div class="story-source"><i class="source-mark"></i><span>${escapeCategoryHtml(sourceLabel(story.source))}</span><span>·</span><time>${escapeCategoryHtml(story.date || "最新")}</time></div></div></div>
+  </article>`;
+}
+
+function externalResultCard(result) {
+  const citation = Number(result.citations || 0) > 0 ? `<span>被引用 ${Number(result.citations)} 次</span>` : "";
+  return `<article class="external-result-card" style="--category-color:${safeCategoryColor(activeSetting().color)}">
+    <div class="external-result-meta"><span class="category-tag">${escapeCategoryHtml(activeCategory)}</span><span>${escapeCategoryHtml(result.type)}</span><span>${escapeCategoryHtml(result.date || "近年发布")}</span></div>
+    <h3><a href="${escapeCategoryHtml(result.url)}" target="_blank" rel="noopener noreferrer">${escapeCategoryHtml(result.title)}<i data-lucide="external-link"></i></a></h3>
+    <p>${escapeCategoryHtml(result.summary)}</p>
+    <div class="external-result-foot"><i class="source-mark"></i><span>${escapeCategoryHtml(result.source)}</span>${citation}<span>打开原始出版页面</span></div>
   </article>`;
 }
 
@@ -150,16 +386,69 @@ function renderCategoryPage() {
   document.querySelector("#categoryTopics").innerHTML = copy.focus.map(function (topic) {
     return `<button type="button" data-topic="${escapeCategoryHtml(topic)}">${escapeCategoryHtml(topic)}</button>`;
   }).join("");
-  document.querySelector("#categoryFeedTitle").textContent = activeCategory + "最新资料";
+  document.querySelector("#categoryFeedTitle").textContent = categorySearchMode === "authority"
+    ? activeCategory + "权威资料搜索"
+    : activeCategory + "最新资料";
   document.querySelector("#categoryMetrics").innerHTML = `<div><strong>${totalStories.length}</strong><span>可阅读文章</span></div><div><strong>${sourceCount}</strong><span>公开来源</span></div><div><strong>持续</strong><span>每日自动更新</span></div>`;
-  document.querySelector("#categoryStories").innerHTML = stories.map(storyCard).join("");
-  attachCategoryImageFallbacks();
+  document.querySelectorAll("[data-search-mode]").forEach(function (button) {
+    const active = button.dataset.searchMode === categorySearchMode;
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
+  const searchSubmit = document.querySelector("#categorySearchSubmit");
+  const sortLabel = document.querySelector("#categorySortLabel");
+  const externalInfo = document.querySelector("#externalSearchInfo");
+  searchSubmit.hidden = categorySearchMode !== "authority";
+  searchSubmit.disabled = externalSearchState.status === "loading";
+  sortLabel.hidden = categorySearchMode === "authority";
+  externalInfo.hidden = categorySearchMode !== "authority";
+  document.querySelector("#categorySearch").placeholder = categorySearchMode === "authority"
+    ? `搜索${activeCategory}权威资料，按回车开始`
+    : `搜索${activeCategory}板块内容`;
+
+  const storyGrid = document.querySelector("#categoryStories");
   const empty = document.querySelector("#categoryEmpty");
-  empty.hidden = stories.length !== 0;
-  empty.querySelector("strong").textContent = categoryQuery ? "没有匹配的内容" : "正在同步内容";
-  empty.querySelector("span").textContent = categoryQuery ? "尝试更换关键词" : "内容将在连接完成后自动显示";
-  document.querySelector("#categoryCount").textContent = categoryQuery ? `${stories.length} / ${totalStories.length} 篇内容` : `${stories.length} 篇可阅读内容`;
-  document.querySelector("#categorySearch").placeholder = `搜索${activeCategory}板块内容`;
+  if (categorySearchMode === "authority") {
+    const matchesCurrentQuery = externalSearchState.queryKey === externalSearchKey();
+    const results = matchesCurrentQuery ? externalSearchState.results : [];
+    storyGrid.classList.toggle("external-results", true);
+    storyGrid.setAttribute("aria-busy", String(externalSearchState.status === "loading"));
+    storyGrid.innerHTML = results.map(externalResultCard).join("");
+    const infoText = externalInfo.querySelector("span");
+    if (externalSearchState.status === "loading") {
+      infoText.textContent = "正在并行查询开放学术与出版物索引，请稍候。";
+    } else if (externalSearchState.error) {
+      infoText.textContent = `${externalSearchState.error}；已有本站内容仍可正常搜索。`;
+    } else {
+      infoText.textContent = "搜索词仅发送给开放索引，不包含账号信息；结果只聚合近五年的中文书目信息。";
+    }
+    empty.hidden = results.length !== 0;
+    if (externalSearchState.status === "loading") {
+      empty.querySelector("strong").textContent = "正在搜索权威资料";
+      empty.querySelector("span").textContent = "正在连接两个公开专业索引";
+    } else if (externalSearchState.status === "error") {
+      empty.querySelector("strong").textContent = "外部搜索暂时不可用";
+      empty.querySelector("span").textContent = externalSearchState.error;
+    } else if (categoryQuery.trim().length < 2) {
+      empty.querySelector("strong").textContent = "输入专业关键词";
+      empty.querySelector("span").textContent = "按回车或点击搜索查询权威资料";
+    } else {
+      empty.querySelector("strong").textContent = "没有找到中文权威资料";
+      empty.querySelector("span").textContent = "尝试使用更具体的中文专业词汇";
+    }
+    document.querySelector("#categoryCount").textContent = externalSearchState.status === "loading"
+      ? "正在查询"
+      : `${results.length} 条外部资料`;
+  } else {
+    storyGrid.classList.toggle("external-results", false);
+    storyGrid.setAttribute("aria-busy", "false");
+    storyGrid.innerHTML = stories.map(storyCard).join("");
+    attachCategoryImageFallbacks();
+    empty.hidden = stories.length !== 0;
+    empty.querySelector("strong").textContent = categoryQuery ? "没有匹配的内容" : "正在同步内容";
+    empty.querySelector("span").textContent = categoryQuery ? "尝试更换关键词" : "内容将在连接完成后自动显示";
+    document.querySelector("#categoryCount").textContent = categoryQuery ? `${stories.length} / ${totalStories.length} 篇内容` : `${stories.length} 篇可阅读内容`;
+  }
   if (window.lucide) window.lucide.createIcons({ attrs: { "stroke-width": 1.7 } });
 }
 
@@ -167,14 +456,36 @@ function syncCategoryUrl() {
   const params = new URLSearchParams({ category: activeCategory });
   if (categoryQuery.trim()) params.set("q", categoryQuery.trim());
   if (categorySort !== "latest") params.set("sort", categorySort);
+  if (categorySearchMode === "authority") params.set("scope", "authority");
   history.replaceState(null, "", "category.html?" + params.toString());
+}
+
+function setCategorySearchMode(mode) {
+  categorySearchMode = mode === "authority" ? "authority" : "local";
+  externalSearchController?.abort();
+  renderCategoryPage();
+  syncCategoryUrl();
+  if (categorySearchMode === "authority" && categoryQuery.trim().length >= 2) {
+    searchExternalSources();
+  }
 }
 
 function bindCategoryEvents() {
   document.querySelector("#categorySearch").addEventListener("input", function (event) {
     categoryQuery = event.target.value;
+    if (categorySearchMode === "authority") {
+      externalSearchController?.abort();
+      externalSearchState = { status: "idle", queryKey: "", results: [], providers: 0, error: "" };
+    }
     renderCategoryPage();
     syncCategoryUrl();
+  });
+  document.querySelector("#categorySearchForm").addEventListener("submit", function (event) {
+    event.preventDefault();
+    if (categorySearchMode === "authority") searchExternalSources();
+  });
+  document.querySelectorAll("[data-search-mode]").forEach(function (button) {
+    button.addEventListener("click", function () { setCategorySearchMode(button.dataset.searchMode); });
   });
   document.querySelector("#categorySort").addEventListener("change", function (event) {
     categorySort = event.target.value;
@@ -188,7 +499,8 @@ function bindCategoryEvents() {
     document.querySelector("#categorySearch").value = categoryQuery;
     renderCategoryPage();
     syncCategoryUrl();
-    document.querySelector("#categorySearch").focus();
+    if (categorySearchMode === "authority") searchExternalSources();
+    else document.querySelector("#categorySearch").focus();
   });
 }
 
@@ -198,6 +510,7 @@ async function initCategoryPage() {
   categoryContent = await window.FXContent.load(CATEGORY_CONTENT_URL, { background: true });
   activeCategory = requested || categoryContent?.categories?.[0] || "科技";
   categoryQuery = params.get("q") || "";
+  categorySearchMode = params.get("scope") === "authority" ? "authority" : "local";
   categorySort = ["latest", "hot", "depth"].includes(params.get("sort")) ? params.get("sort") : "latest";
   document.querySelector("#categorySearch").value = categoryQuery;
   document.querySelector("#categorySort").value = categorySort;
@@ -205,6 +518,9 @@ async function initCategoryPage() {
   renderCategoryNav();
   renderCategoryPage();
   bindCategoryEvents();
+  if (categorySearchMode === "authority" && categoryQuery.trim().length >= 2) {
+    searchExternalSources();
+  }
 }
 
 window.addEventListener("fxcontentupdate", function (event) {

@@ -7,6 +7,7 @@ let stories = [];
 let chartSeries = {};
 let homeVideos = [];
 let activeHomeVideoId = "";
+let activeChartRange = "24h";
 
 const fallbackContent = {
   site: {
@@ -132,7 +133,7 @@ function applySiteContent() {
   document.querySelector(".brand-copy small").textContent = site.subtitle;
   document.querySelector(".brand").setAttribute("aria-label", `${site.name}首页`);
   document.querySelector("#pulseTitle").textContent = site.heroTitle;
-  document.querySelector(".pulse-heading p").textContent = site.heroSubtitle;
+  document.querySelector(".pulse-heading p").textContent = "根据平台当前已发布内容即时计算，来源资料由每日自动任务同步";
   document.querySelector(".footer-brand").innerHTML = `${escapeHtml(site.name)} <span>FX INDEX / 2026</span>`;
   document.querySelector("#footerDescription").textContent = site.footer;
   document.querySelector("#footerNotice").textContent = operations.publicNotice || "公益性科技与产业知识聚合平台";
@@ -293,9 +294,7 @@ function renderHomeVideoScreen(video) {
     frame.allow = "autoplay; fullscreen; picture-in-picture";
     frame.allowFullscreen = true;
     screen.appendChild(frame);
-    return;
-  }
-  if (video.videoType === "file") {
+  } else if (video.videoType === "file") {
     const player = document.createElement("video");
     player.controls = true;
     player.playsInline = true;
@@ -308,16 +307,31 @@ function renderHomeVideoScreen(video) {
     player.appendChild(source);
     player.append("您的浏览器暂不支持此视频格式。");
     screen.appendChild(player);
-    return;
+  } else {
+    const preview = document.createElement("div");
+    preview.className = "home-video-external";
+    preview.innerHTML = `<img src="${escapeHtml(video.videoPoster)}" data-image-fallback="assets/network.jpg" alt="${escapeHtml(video.title)}"><span><i data-lucide="play"></i>视频资料预览</span>`;
+    screen.appendChild(preview);
+    attachImageFallbacks(screen);
   }
-  const link = document.createElement("a");
-  link.className = "home-video-external";
-  link.href = video.videoUrl;
-  link.target = "_blank";
-  link.rel = "noopener noreferrer";
-  link.innerHTML = `<img src="${escapeHtml(video.videoPoster)}" data-image-fallback="assets/network.jpg" alt="${escapeHtml(video.title)}"><span><i data-lucide="external-link"></i>前往来源网站观看</span>`;
-  screen.appendChild(link);
-  attachImageFallbacks(screen);
+  const expand = document.createElement("button");
+  expand.className = "home-video-expand";
+  expand.type = "button";
+  expand.dataset.videoExpand = "true";
+  expand.setAttribute("aria-label", "放大视频窗口");
+  expand.title = "放大视频窗口";
+  expand.innerHTML = '<i data-lucide="maximize-2"></i>';
+  screen.appendChild(expand);
+}
+
+async function toggleHomeVideoFullscreen() {
+  const screen = document.querySelector("#homeVideoScreen");
+  try {
+    if (document.fullscreenElement === screen) await document.exitFullscreen();
+    else if (screen.requestFullscreen) await screen.requestFullscreen();
+  } catch (error) {
+    showToast("当前浏览器无法放大视频窗口");
+  }
 }
 
 function renderHomeVideos() {
@@ -357,15 +371,137 @@ function updateFilterUi() {
   trustFilter.value = state.trust;
 }
 
+function pulseStoryTimestamp(story) {
+  const candidates = [story.collectedAt, story.originalPublishedAt, story.date];
+  for (const candidate of candidates) {
+    const timestamp = new Date(candidate || 0).getTime();
+    if (Number.isFinite(timestamp) && timestamp > 0) return timestamp;
+  }
+  return 0;
+}
+
+function storiesInWindow(publicStories, start, end = Date.now()) {
+  return publicStories.filter((story) => {
+    const timestamp = pulseStoryTimestamp(story);
+    return timestamp >= start && timestamp < end;
+  });
+}
+
+function periodTrend(current, previous) {
+  const difference = current - previous;
+  if (!difference) return { label: "与前期持平", direction: "neutral", icon: "minus" };
+  return {
+    label: `较前期 ${difference > 0 ? "+" : ""}${difference}`,
+    direction: difference > 0 ? "positive" : "negative",
+    icon: difference > 0 ? "trending-up" : "trending-down"
+  };
+}
+
+function pulseRangeSeries(publicStories, range) {
+  const config = {
+    "24h": { duration: 24 * 60 * 60 * 1000, buckets: 12, label: "近24小时" },
+    "7d": { duration: 7 * 24 * 60 * 60 * 1000, buckets: 7, label: "近7日" },
+    "30d": { duration: 30 * 24 * 60 * 60 * 1000, buckets: 15, label: "近30日" }
+  }[range];
+  const now = Date.now();
+  const start = now - config.duration;
+  const bucketSize = config.duration / config.buckets;
+  const values = Array.from({ length: config.buckets }, () => 0);
+  publicStories.forEach((story) => {
+    const timestamp = pulseStoryTimestamp(story);
+    if (timestamp < start || timestamp > now) return;
+    const index = Math.min(config.buckets - 1, Math.floor((timestamp - start) / bucketSize));
+    values[index] += 1;
+  });
+  const current = values.reduce((sum, value) => sum + value, 0);
+  const previous = storiesInWindow(publicStories, start - config.duration, start).length;
+  const trend = periodTrend(current, previous);
+  const labels = Array.from({ length: 7 }, (_, index) => {
+    const time = new Date(start + (config.duration * index / 6));
+    if (range === "24h") return `${String(time.getHours()).padStart(2, "0")}:00`;
+    if (range === "7d") return new Intl.DateTimeFormat("zh-CN", { weekday: "short" }).format(time);
+    return `${String(time.getMonth() + 1).padStart(2, "0")}.${String(time.getDate()).padStart(2, "0")}`;
+  });
+  return {
+    values: values,
+    labels: labels,
+    value: `${current} 条`,
+    delta: trend.label,
+    direction: trend.direction,
+    label: `${config.label}内容更新`
+  };
+}
+
+function pulseFreshnessLabel(publicStories) {
+  const latest = Math.max(0, ...publicStories.map(pulseStoryTimestamp));
+  if (!latest) return "平台实时计算 · 等待来源同步";
+  const minutes = Math.max(0, Math.floor((Date.now() - latest) / 60000));
+  if (minutes < 60) return `平台实时计算 · ${Math.max(1, minutes)} 分钟内有更新`;
+  if (minutes < 24 * 60) return `平台实时计算 · ${Math.floor(minutes / 60)} 小时内有更新`;
+  return `平台实时计算 · 最近更新 ${new Intl.DateTimeFormat("zh-CN", { month: "2-digit", day: "2-digit" }).format(new Date(latest))}`;
+}
+
+function renderCategoryPulse(publicStories) {
+  const categories = getCategorySettings().filter((item) => item.enabled !== false);
+  const recentStart = Date.now() - 30 * 24 * 60 * 60 * 1000;
+  const recentStories = storiesInWindow(publicStories, recentStart);
+  const basis = recentStories.length ? recentStories : publicStories;
+  const counts = categories.map((category) => ({
+    category: category,
+    count: basis.filter((story) => story.category === category.name).length
+  }));
+  const maximum = Math.max(1, ...counts.map((item) => item.count));
+  document.querySelector("#pulseCategoryBars").innerHTML = counts.map((item) => `
+    <a class="pulse-category-item" href="category.html?category=${encodeURIComponent(item.category.name)}" style="--category-color:${safeColor(item.category.color)};--activity:${Math.max(6, Math.round(item.count / maximum * 100))}%">
+      <span>${escapeHtml(item.category.name)}<strong>${item.count}</strong></span>
+      <span class="pulse-category-track"><i></i></span>
+    </a>
+  `).join("");
+  document.querySelector("#pulseCoverage").textContent = recentStories.length
+    ? `近30日 ${recentStories.length} 条公开内容`
+    : `当前 ${publicStories.length} 条公开内容`;
+}
+
 function renderMetrics() {
+  const publicStories = stories.filter(storyIsPublic);
+  const now = Date.now();
+  const recent24 = storiesInWindow(publicStories, now - 24 * 60 * 60 * 1000).length;
+  const previous24 = storiesInWindow(publicStories, now - 48 * 60 * 60 * 1000, now - 24 * 60 * 60 * 1000).length;
+  const recent7 = storiesInWindow(publicStories, now - 7 * 24 * 60 * 60 * 1000).length;
+  const previous7 = storiesInWindow(publicStories, now - 14 * 24 * 60 * 60 * 1000, now - 7 * 24 * 60 * 60 * 1000).length;
+  const trustedSources = new Set(publicStories.filter((story) =>
+    ["authoritative", "professional"].includes(story.sourceTrustLevel) || Number(story.confidence || 0) >= 85
+  ).map((story) => story.source).filter(Boolean));
+  const categories = getCategorySettings().filter((item) => item.enabled !== false);
+  const coveredCategories = new Set(publicStories.map((story) => story.category)).size;
+  const videoCount = publicStories.filter(validHomeVideo).length;
+  const averageConfidence = publicStories.length
+    ? Math.round(publicStories.reduce((sum, story) => sum + Number(story.confidence || 0), 0) / publicStories.length)
+    : 0;
+  const trend24 = periodTrend(recent24, previous24);
+  const trend7 = periodTrend(recent7, previous7);
+  const metrics = [
+    { label: "近24小时新增", value: String(recent24), trend: trend24.label, direction: trend24.direction, trendIcon: trend24.icon, caption: "当前公开内容", icon: "radio-tower" },
+    { label: "近7日新增", value: String(recent7), trend: trend7.label, direction: trend7.direction, trendIcon: trend7.icon, caption: "滚动时间窗口", icon: "calendar-range" },
+    { label: "权威来源", value: String(trustedSources.size), trend: "通过来源核验", direction: "positive", trendIcon: "shield-check", caption: "高可信公开机构", icon: "landmark" },
+    { label: "板块覆盖", value: `${coveredCategories}/${categories.length}`, trend: "动态归类", direction: "neutral", trendIcon: "network", caption: "当前启用板块", icon: "layout-dashboard" },
+    { label: "科普视频", value: String(videoCount), trend: "官方链接", direction: "neutral", trendIcon: "play", caption: "已确认展示权限", icon: "video" },
+    { label: "平均可信度", value: `${averageConfidence}%`, trend: "自动审核", direction: averageConfidence >= 85 ? "positive" : "neutral", trendIcon: "scan-search", caption: "公开内容平均值", icon: "badge-check" }
+  ];
+  chartSeries = {
+    "24h": pulseRangeSeries(publicStories, "24h"),
+    "7d": pulseRangeSeries(publicStories, "7d"),
+    "30d": pulseRangeSeries(publicStories, "30d")
+  };
+  document.querySelector("#pulseFreshness").textContent = pulseFreshnessLabel(publicStories);
+  renderCategoryPulse(publicStories);
   const grid = document.querySelector(".metrics-grid");
-  const metrics = content.metrics || [];
   grid.innerHTML = metrics
     .map((metric) => `
       <article class="metric">
         <div class="metric-label"><i data-lucide="${escapeHtml(metric.icon || "activity")}"></i><span>${escapeHtml(metric.label)}</span></div>
         <strong>${escapeHtml(metric.value)}</strong>
-        <span class="metric-trend ${escapeHtml(metric.direction || "positive")}"><i data-lucide="${metric.direction === "negative" ? "trending-down" : "trending-up"}"></i> ${escapeHtml(metric.trend)}</span>
+        <span class="metric-trend ${escapeHtml(metric.direction || "neutral")}"><i data-lucide="${escapeHtml(metric.trendIcon || "activity")}"></i> ${escapeHtml(metric.trend)}</span>
         <small>${escapeHtml(metric.caption)}</small>
       </article>
     `)
@@ -548,18 +684,26 @@ function syncSearchUrl() {
 function renderChart(range) {
   const series = chartSeries[range] || chartSeries["24h"];
   if (!series) return;
+  activeChartRange = range;
   const width = 620;
   const height = 150;
   const inset = 10;
-  const min = Math.min(...series.values) - 5;
-  const max = Math.max(...series.values) + 5;
+  const rawMin = Math.min(...series.values);
+  const rawMax = Math.max(...series.values);
+  const spread = Math.max(1, rawMax - rawMin);
+  const min = Math.max(0, rawMin - spread * 0.2);
+  const max = rawMax + spread * 0.2;
   const points = series.values.map((value, index) => {
-    const x = (index / (series.values.length - 1)) * width;
+    const x = (index / Math.max(1, series.values.length - 1)) * width;
     const y = height - inset - ((value - min) / (max - min)) * (height - inset * 2);
     return { x, y };
   });
 
-  document.querySelector("#chartLine").setAttribute("points", points.map(({ x, y }) => `${x},${y}`).join(" "));
+  const line = document.querySelector("#chartLine");
+  line.setAttribute("points", points.map(({ x, y }) => `${x},${y}`).join(" "));
+  line.style.animation = "none";
+  line.getBoundingClientRect();
+  line.style.animation = "";
   document.querySelector("#chartArea").setAttribute(
     "d",
     `M 0 ${height} L ${points.map(({ x, y }) => `${x} ${y}`).join(" L ")} L ${width} ${height} Z`
@@ -569,8 +713,11 @@ function renderChart(range) {
     .map(({ x, y }) => `<circle class="chart-dot" cx="${x}" cy="${y}" r="3.5"></circle>`)
     .join("");
   document.querySelector("#chartLabels").innerHTML = series.labels.map((label) => `<span>${escapeHtml(label)}</span>`).join("");
+  document.querySelector("#chartMetricLabel").textContent = series.label || "内容更新活跃度";
   document.querySelector("#chartValue").textContent = series.value;
-  document.querySelector("#chartDelta").textContent = series.delta;
+  const delta = document.querySelector("#chartDelta");
+  delta.textContent = series.delta;
+  delta.className = series.direction || "neutral";
 }
 
 let toastTimer;
@@ -594,6 +741,26 @@ function updateClock() {
 }
 
 function bindStaticEvents() {
+  const videoScreen = document.querySelector("#homeVideoScreen");
+  videoScreen.addEventListener("click", (event) => {
+    if (!event.target.closest("[data-video-expand]")) return;
+    toggleHomeVideoFullscreen();
+  });
+  videoScreen.addEventListener("dblclick", (event) => {
+    if (event.target.closest("button")) return;
+    event.preventDefault();
+    toggleHomeVideoFullscreen();
+  }, true);
+  document.addEventListener("fullscreenchange", () => {
+    const button = document.querySelector("[data-video-expand]");
+    if (!button) return;
+    const expanded = document.fullscreenElement === videoScreen;
+    button.setAttribute("aria-label", expanded ? "退出放大视频窗口" : "放大视频窗口");
+    button.title = expanded ? "退出放大视频窗口" : "放大视频窗口";
+    button.innerHTML = `<i data-lucide="${expanded ? "minimize-2" : "maximize-2"}"></i>`;
+    initializeIcons();
+  });
+
   document.querySelector("#homeVideoPlaylist").addEventListener("click", (event) => {
     const button = event.target.closest("[data-home-video]");
     if (!button || button.dataset.homeVideo === activeHomeVideoId) return;
@@ -611,8 +778,9 @@ function bindStaticEvents() {
 
   document.querySelectorAll(".range-button").forEach((button) => {
     button.addEventListener("click", () => {
+      activeChartRange = button.dataset.range;
       document.querySelectorAll(".range-button").forEach((item) => item.classList.toggle("is-active", item === button));
-      renderChart(button.dataset.range);
+      renderChart(activeChartRange);
     });
   });
 
@@ -698,7 +866,6 @@ function bindStaticEvents() {
 async function init() {
   content = await loadContent();
   stories = content.stories || [];
-  chartSeries = content.chartSeries || {};
   const requestedCategory = new URLSearchParams(location.search).get("category");
   const requestedQuery = new URLSearchParams(location.search).get("q") || "";
   const params = new URLSearchParams(location.search);
@@ -732,7 +899,7 @@ async function init() {
   renderTopics();
   renderEvents();
   renderStories();
-  renderChart("24h");
+  renderChart(activeChartRange);
   updateClock();
   bindStaticEvents();
   initializeIcons();
@@ -742,7 +909,6 @@ window.addEventListener("fxcontentupdate", (event) => {
   if (!event.detail?.stories) return;
   content = event.detail;
   stories = content.stories;
-  chartSeries = content.chartSeries || {};
   applyTheme();
   applySiteContent();
   renderNav();
@@ -754,7 +920,7 @@ window.addEventListener("fxcontentupdate", (event) => {
   renderTopics();
   renderEvents();
   renderStories();
-  renderChart("24h");
+  renderChart(activeChartRange);
 });
 
 init();

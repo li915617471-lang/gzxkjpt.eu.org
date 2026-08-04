@@ -1,4 +1,4 @@
-const CACHE_VERSION = "fx-public-v10";
+const CACHE_VERSION = "fx-public-v12";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -6,13 +6,13 @@ const CORE_ASSETS = [
   "./category.html",
   "./governance.html",
   "./offline.html",
-  "./styles.css?v=7",
+  "./styles.css?v=8",
   "./article.css?v=2",
-  "./category.css?v=2",
+  "./category.css?v=3",
   "./governance.css",
-  "./app.js?v=8",
+  "./app.js?v=9",
   "./article.js?v=10",
-  "./category.js?v=3",
+  "./category.js?v=4",
   "./governance.js",
   "./pwa.js?v=2",
   "./cloud-config.js",
