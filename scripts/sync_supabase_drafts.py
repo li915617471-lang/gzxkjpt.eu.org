@@ -542,6 +542,10 @@ def prepare_source_metadata_updates(
             "originalExcerpt": story.get("originalExcerpt", ""),
             "sourceMaterial": story.get("sourceMaterial") or story.get("originalExcerpt", ""),
             "sourceMaterialType": story.get("sourceMaterialType", "source-metadata"),
+            "translatedSourceTitle": story.get("translatedSourceTitle", ""),
+            "translatedSourceMaterial": story.get("translatedSourceMaterial", ""),
+            "translationProvider": story.get("translationProvider", ""),
+            "translationMode": story.get("translationMode", ""),
         })
         if merged_extra == current_extra:
             continue
@@ -693,6 +697,12 @@ def prepare_promotions(
                 "automaticImport": True,
                 "automaticFingerprint": story_fingerprint(story),
                 "automaticPromotionOf": int(row["id"]),
+                "originalTitle": story.get("originalTitle") or story.get("title", ""),
+                "sourceMaterial": story.get("sourceMaterial") or story.get("originalExcerpt", ""),
+                "translatedSourceTitle": story.get("translatedSourceTitle", ""),
+                "translatedSourceMaterial": story.get("translatedSourceMaterial", ""),
+                "translationProvider": story.get("translationProvider", ""),
+                "translationMode": story.get("translationMode", ""),
                 "automaticApproval": audit,
                 "reviewChecks": {
                     "sourceVerified": True,

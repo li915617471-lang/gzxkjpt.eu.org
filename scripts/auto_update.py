@@ -64,6 +64,7 @@ TRACKING_IMAGE_MARKERS = ("pixel", "tracking", "tracker", "spacer", "1x1", "clea
 MIN_ARTICLE_CHARS = 800
 GITHUB_MODELS_ENDPOINT = "https://models.github.ai/inference/chat/completions"
 DEFAULT_ARTICLE_MODEL = "openai/gpt-4.1-mini"
+FREE_TRANSLATION_ENDPOINT = "https://api.mymemory.translated.net/get"
 SOURCE_DISCLOSURE_HEADING = "简要来源"
 LEGACY_DISCLOSURE_HEADING = "来源与审核说明"
 
@@ -1005,6 +1006,79 @@ def parse_model_json(value: str) -> dict:
     return payload
 
 
+def text_needs_translation(value: str) -> bool:
+    text = clean_text(value)
+    return bool(re.search(r"[A-Za-z]", text)) and (not has_cjk_text(text) or has_long_english_run(text))
+
+
+def translation_chunks(value: str, limit: int = 420) -> list[str]:
+    text = clean_text(value)
+    chunks = []
+    while text:
+        if len(text) <= limit:
+            chunks.append(text)
+            break
+        split_at = max(text.rfind(marker, 0, limit) for marker in (". ", "? ", "! ", "; ", "。", "；"))
+        if split_at < limit // 2:
+            split_at = limit
+        else:
+            split_at += 1
+        chunks.append(text[:split_at].strip())
+        text = text[split_at:].strip()
+    return chunks
+
+
+def free_translate_text(value: str) -> str:
+    translated_parts = []
+    for chunk in translation_chunks(value):
+        params = urllib.parse.urlencode({"q": chunk, "langpair": "en|zh-CN"})
+        request = urllib.request.Request(
+            f"{FREE_TRANSLATION_ENDPOINT}?{params}",
+            headers={"Accept": "application/json", "User-Agent": "information-share-platform/1.0"},
+        )
+        result = None
+        for attempt in range(1, 3):
+            try:
+                with urllib.request.urlopen(request, timeout=30) as response:
+                    result = json.loads(response.read().decode("utf-8"))
+                break
+            except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
+                if attempt == 2:
+                    raise RuntimeError(f"公开翻译服务不可用：{exc}") from exc
+                time.sleep(attempt * 2)
+        translated = clean_text((result or {}).get("responseData", {}).get("translatedText", ""))
+        if int((result or {}).get("responseStatus") or 0) != 200 or not has_cjk_text(translated):
+            raise ValueError("公开翻译服务没有返回可靠中文译文")
+        translated_parts.append(translated)
+    return clean_text(" ".join(translated_parts))
+
+
+def add_free_source_translation(story: dict) -> bool:
+    original_title = clean_text(story.get("originalTitle") or story.get("title") or "")
+    original_material = truncate_text(story.get("sourceMaterial") or story.get("excerpt") or "", 1500)
+    title_needs_translation = text_needs_translation(original_title)
+    material_needs_translation = text_needs_translation(original_material)
+    if not title_needs_translation and not material_needs_translation:
+        return False
+    translated_title = clean_text(story.get("translatedSourceTitle", ""))
+    translated_material = clean_text(story.get("translatedSourceMaterial", ""))
+    if not title_needs_translation:
+        translated_title = original_title
+    if not material_needs_translation:
+        translated_material = original_material
+    if title_needs_translation and not has_cjk_text(translated_title):
+        translated_title = free_translate_text(original_title)
+    if material_needs_translation and not source_material_is_usable(translated_material):
+        translated_material = free_translate_text(original_material)
+    if not has_cjk_text(translated_title) or not source_material_is_usable(translated_material):
+        raise ValueError("外文来源未取得完整中文译文")
+    story["translatedSourceTitle"] = translated_title
+    story["translatedSourceMaterial"] = truncate_text(translated_material, 1600)
+    story["translationProvider"] = "MyMemory 公共翻译服务"
+    story["translationMode"] = "machine-translation"
+    return True
+
+
 def generate_ai_article(story: dict) -> dict:
     token = os.environ.get("GITHUB_MODELS_TOKEN", "").strip()
     if not token:
@@ -1118,8 +1192,10 @@ def build_structured_article(story: dict) -> dict:
     context = CATEGORY_EDITORIAL_CONTEXT.get(category, CATEGORY_EDITORIAL_CONTEXT["科技"])
     source_name = str(story.get("source") or "公开来源")
     display_source = localized_source_name(source_name)
-    title_source = clean_text(story.get("originalTitle") or story.get("title") or "")
-    summary = clean_text(story.get("sourceMaterial") or story.get("excerpt") or "")
+    raw_title = clean_text(story.get("originalTitle") or story.get("title") or "")
+    raw_summary = clean_text(story.get("sourceMaterial") or story.get("excerpt") or "")
+    title_source = clean_text(story.get("translatedSourceTitle") or raw_title)
+    summary = clean_text(story.get("translatedSourceMaterial") or raw_summary)
     if not has_cjk_text(title_source) or not has_cjk_text(summary):
         raise ValueError("外文来源必须由模型生成忠实中文译文，不能使用通用结构兜底")
     topic_title, topic_summary = fallback_topic(category, title_source, summary)
@@ -1165,7 +1241,16 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
     video_candidates = [story for story in queue if story.get("contentKind") == "video"]
     video_candidates.sort(key=story_queue_priority, reverse=True)
     priority_video_ids = {id(story) for story in video_candidates[:video_target]}
-    stats = {"requested": 0, "generated": 0, "failed": 0, "minimumCharacters": MIN_ARTICLE_CHARS}
+    try:
+        translation_target = int(os.environ.get("FREE_TRANSLATION_TARGET", 3))
+    except ValueError:
+        translation_target = 3
+    translation_target = max(0, min(6, translation_target))
+    translations_used = 0
+    stats = {
+        "requested": 0, "generated": 0, "translated": 0, "failed": 0,
+        "minimumCharacters": MIN_ARTICLE_CHARS,
+    }
     force_structured_fallback = env_flag("ARTICLE_FORCE_STRUCTURED_FALLBACK", False)
     for category in categories:
         candidates = [story for story in queue if story.get("category") == category]
@@ -1203,6 +1288,19 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
                 except (RuntimeError, ValueError) as exc:
                     # GitHub Models can be rate-limited or temporarily retired. Keep
                     # the publication pipeline useful without inventing source facts.
+                    source_text = " ".join([
+                        str(story.get("originalTitle") or story.get("title") or ""),
+                        str(story.get("sourceMaterial") or story.get("excerpt") or ""),
+                    ])
+                    if text_needs_translation(source_text):
+                        translation_ready = has_cjk_text(story.get("translatedSourceTitle")) \
+                            and source_material_is_usable(story.get("translatedSourceMaterial"))
+                        if not translation_ready:
+                            if translations_used >= translation_target:
+                                raise ValueError("今日免费外文翻译名额已用完，资料保留在待审核区") from exc
+                            if add_free_source_translation(story):
+                                translations_used += 1
+                                stats["translated"] += 1
                     article = build_structured_article(story)
                     generation_mode = "source-grounded-structured-fallback"
                     story["contentGenerationFallbackReason"] = str(exc)[:300]

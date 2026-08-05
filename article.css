@@ -624,6 +624,22 @@
   font-weight: 700;
 }
 
+.original-material-block.is-foreign {
+  padding: 15px 16px;
+  border-left: 2px solid var(--cyan);
+  background: rgba(99, 207, 227, 0.045);
+}
+
+.original-material-block.is-foreign > span {
+  color: var(--cyan);
+}
+
+.original-material-block.is-foreign p {
+  color: #aeb9b7;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
 .original-material-block p,
 .article-platform-intro {
   margin: 0;

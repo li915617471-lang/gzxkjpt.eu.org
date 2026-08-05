@@ -200,23 +200,33 @@ function renderBody(story) {
     || window.FXContent.hasLongEnglishRun(rawOriginalTitle);
   const materialNeedsTranslation = (!window.FXContent.hasChineseText(rawSourceMaterial) && /[A-Za-z]/.test(rawSourceMaterial))
     || window.FXContent.hasLongEnglishRun(rawSourceMaterial);
-  const originalTitle = titleNeedsTranslation
+  const translatedTitle = titleNeedsTranslation
     ? String(story.translatedSourceTitle || "").trim()
     : rawOriginalTitle;
-  const sourceMaterial = materialNeedsTranslation
+  const translatedMaterial = materialNeedsTranslation
     ? String(story.translatedSourceMaterial || "").replace(/\s+/g, " ").trim()
     : rawSourceMaterial;
-  const materialIsUsable = window.FXContent.sourceMaterialIsUsable(sourceMaterial);
+  const materialIsUsable = window.FXContent.sourceMaterialIsUsable(translatedMaterial);
   const originalContent = document.querySelector("#articleOriginalContent");
   const originalBlocks = [];
-  if (originalTitle) {
+  if (titleNeedsTranslation && rawOriginalTitle) {
     originalBlocks.push(
-      `<div class="original-material-block"><span>${titleNeedsTranslation ? "原始标题中文译文" : "原始标题"}</span><p>${escapeArticleHtml(originalTitle)}</p></div>`
+      `<div class="original-material-block is-foreign"><span>外文原始标题</span><p lang="en">${escapeArticleHtml(rawOriginalTitle)}</p></div>`
+    );
+  }
+  if (translatedTitle) {
+    originalBlocks.push(
+      `<div class="original-material-block"><span>${titleNeedsTranslation ? "原始标题中文机器翻译" : "原始标题"}</span><p>${escapeArticleHtml(translatedTitle)}</p></div>`
+    );
+  }
+  if (materialNeedsTranslation && window.FXContent.sourceMaterialIsUsable(rawSourceMaterial)) {
+    originalBlocks.push(
+      `<div class="original-material-block is-foreign"><span>外文来源公开摘要或片段</span><p lang="en">${escapeArticleHtml(rawSourceMaterial)}</p></div>`
     );
   }
   if (materialIsUsable) {
     originalBlocks.push(
-      `<div class="original-material-block"><span>${materialNeedsTranslation ? "来源公开摘要中文译文" : "来源公开摘要或片段"}</span><p>${escapeArticleHtml(sourceMaterial)}</p></div>`
+      `<div class="original-material-block"><span>${materialNeedsTranslation ? "来源公开摘要中文机器翻译" : "来源公开摘要或片段"}</span><p>${escapeArticleHtml(translatedMaterial)}</p></div>`
     );
   } else {
     originalBlocks.push(
@@ -225,9 +235,9 @@ function renderBody(story) {
   }
   originalContent.innerHTML = originalBlocks.join("");
 
-  const points = [`资料主题：${originalTitle || story.title}`];
+  const points = [`资料主题：${translatedTitle || story.title}`];
   if (materialIsUsable) {
-    const sourcePoints = sourceMaterial
+    const sourcePoints = translatedMaterial
       .split(/(?<=[。！？!?])\s*/)
       .map(function (item) { return item.trim(); })
       .filter(function (item) { return item.length >= 18; });
@@ -246,7 +256,7 @@ function renderBody(story) {
   if (automatic) {
     platformIntro = window.FXContent.automaticPresentationIntro(story);
     if (materialIsUsable) {
-      const firstPoint = points[1] || sourceMaterial;
+      const firstPoint = points[1] || translatedMaterial;
       platformIntro += ` 原始公开片段首先提到：${firstPoint.slice(0, 180)}`;
     } else {
       platformIntro += " 由于可用原始片段不足，本页不展示旧的自动扩写正文。";

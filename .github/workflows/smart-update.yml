@@ -11,6 +11,8 @@ on:
   schedule:
     # 北京时间 08:17，避开 GitHub Actions 整点调度高峰。
     - cron: "17 0 * * *"
+    # 北京时间 09:07 兜底；同步逻辑按来源链接去重，不会重复发布。
+    - cron: "7 1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -38,6 +40,7 @@ jobs:
           GITHUB_MODELS_MODEL: openai/gpt-4.1-mini
           ARTICLE_GENERATION_TARGET_PER_CATEGORY: "3"
           VIDEO_GENERATION_TARGET: "3"
+          FREE_TRANSLATION_TARGET: "3"
           ARTICLE_FORCE_STRUCTURED_FALLBACK: "false"
         run: python scripts/auto_update.py
 

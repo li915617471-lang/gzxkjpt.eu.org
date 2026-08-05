@@ -2,6 +2,7 @@ import os
 import sys
 import unittest
 from pathlib import Path
+from unittest import mock
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -326,6 +327,37 @@ class RichDraftTests(unittest.TestCase):
                 "title": "China's crude oil imports fell in the second quarter",
                 "sourceMaterial": "China's crude oil imports fell in the second quarter",
             })
+
+    def test_free_translation_preserves_original_and_adds_chinese_fields(self):
+        story = {
+            "originalTitle": "Artificial intelligence improves industrial inspection",
+            "sourceMaterial": "The study evaluates computer vision systems in factories and reports the tested conditions.",
+        }
+        with mock.patch.object(
+            auto_update,
+            "free_translate_text",
+            side_effect=["人工智能提升工业检测能力", "这项研究评估了工厂中的计算机视觉系统，并说明了测试条件。"],
+        ):
+            changed = auto_update.add_free_source_translation(story)
+        self.assertTrue(changed)
+        self.assertEqual(story["originalTitle"], "Artificial intelligence improves industrial inspection")
+        self.assertEqual(story["translatedSourceTitle"], "人工智能提升工业检测能力")
+        self.assertIn("测试条件", story["translatedSourceMaterial"])
+        self.assertEqual(story["translationMode"], "machine-translation")
+
+    def test_structured_fallback_accepts_translated_foreign_material(self):
+        article = auto_update.build_structured_article({
+            "category": "工业",
+            "source": "MIT Technology Review",
+            "sourceUrl": "https://example.com/inspection",
+            "originalTitle": "Artificial intelligence improves industrial inspection",
+            "sourceMaterial": "The study evaluates computer vision systems in factories.",
+            "translatedSourceTitle": "人工智能提升工业检测能力",
+            "translatedSourceMaterial": "这项研究评估了工厂中的计算机视觉系统、测试条件、应用范围和当前结果。",
+        })
+        self.assertTrue(article["title"].startswith("工业前沿观察：人工智能提升工业检测能力"))
+        self.assertEqual(article["translatedSourceTitle"], "人工智能提升工业检测能力")
+        self.assertTrue(auto_update.body_meets_publication_standard(article["body"]))
 
     def test_force_structured_fallback_keeps_foreign_material_pending(self):
         previous_force = os.environ.get("ARTICLE_FORCE_STRUCTURED_FALLBACK")

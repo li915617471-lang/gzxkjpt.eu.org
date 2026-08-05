@@ -169,6 +169,10 @@ class SupabaseDraftSyncTests(unittest.TestCase):
 
     def test_existing_article_source_metadata_can_be_backfilled(self):
         story = self.rich_story()
+        story["translatedSourceTitle"] = "储能项目进入商业运行阶段"
+        story["translatedSourceMaterial"] = "这是一段忠实的中文机器翻译，保留来源事实、适用范围和限定条件。"
+        story["translationProvider"] = "MyMemory 公共翻译服务"
+        story["translationMode"] = "machine-translation"
         existing = [{
             "id": 7,
             "source_url": story["sourceUrl"],
@@ -179,6 +183,8 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         )
         self.assertEqual(len(updates), 1)
         self.assertEqual(updates[0]["extra"]["sourceMaterial"], story["sourceMaterial"])
+        self.assertEqual(updates[0]["extra"]["translatedSourceTitle"], story["translatedSourceTitle"])
+        self.assertEqual(updates[0]["extra"]["translationMode"], "machine-translation")
 
     def test_source_metadata_backfill_patches_existing_rows(self):
         client = sync.SupabaseRest("https://example.supabase.co", "service-key")
