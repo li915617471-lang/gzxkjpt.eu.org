@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T04:27:18.186969+00:00",
+  "generatedAt": "2026-08-05T04:37:36.488755+00:00",
   "stories": [
     {
       "id": 190,
@@ -104,7 +104,11 @@
       "sourceMaterial": "Researchers from Nottingham Trent University, Imperial College London, and Aston University published a technical paper titled “Beyond Peak TOPS/W: A System-Level Perspective on Hybrid Digital, Analogue and Neuromorphic Computing.” The paper contends that “hybrid digital–analogue computing represents a credible pathway towards more energy-efficient AI systems: one in which physical substrates earn an expanding role only... » read more The post Hybrid Computing Framework Looks Beyond Peak TOPS/W For AI Efficiency (Nottingham Trent, ICL, Aston) appeared first on Semiconductor Engineering . Researchers from Nottingham Trent University, Imperial College London, and Aston University published a technical paper titled “Beyond Peak TOPS/W: A System-Level Perspective on Hybrid Digital, Analogue and Neuromorphic Computing.” The paper contends that “hybrid digital–analogue computing represents a credible pathway towards more energy-efficient AI systems: one in which physical substrates earn an expanding role only... » read more",
       "sourceMaterialType": "rss",
       "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "公开翻译服务不可用：HTTP Error 429: Too Many Requests"
+      "contentGenerationError": "结构化整理正文未达到 800 字标准",
+      "translatedSourceTitle": "混合计算框架在AI效率方面超越峰值TOPS/W （诺丁汉特伦特、ICL、阿斯顿）",
+      "translatedSourceMaterial": "诺丁汉特伦特大学、伦敦帝国理工学院和阿斯顿大学的研究人员发表了一篇名为“Beyond Peak TOPS/W ：混合数字、模拟和神经形态计算的系统级视角”的技术论文。这篇论文认为， “混合数字模拟计算代表了通往更节能的人工智能系统的可靠途径：物理基板在其中扮演着越来越重要的角色， nly... »阅读更多文章Hybrid Computing Framework Looks Beyond Peak TOPS/W For AI Efficiency （诺丁汉特伦特、ICL、阿斯顿）首次出现在半导体工程杂志上。诺丁汉特伦特大学、伦敦帝国理工学院和阿斯顿大学的研究人员发表了一篇名为“ Beyond Peak TOPS/W ：混合数字、模拟和神经形态计算的系统级视角”的技术论文。”纸张骗局 倾向于“混合数字模拟计算代表了通往更节能的人工智能系统的可靠途径：物理基板只能发挥越来越大的作用……”阅读更多",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation"
     },
     {
       "id": 163,
@@ -223,9 +227,9 @@
       "id": 165,
       "category": "农业",
       "categoryEvidenceScore": 4,
-      "title": "NAM, Industry Groups Call for National Uniformity for Food and Beverage Policy",
-      "excerpt": "The NAM and other groups representing food and beverage manufacturers are calling on Congress to enact a federal framework for regulations that can override the tangle of competing state policies and help improve consumer confidence in food regulatory system. The ask: “Congress…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国制造商协会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "农业前沿观察：NAM ，行业团体呼吁全国统一食品和饮料政策",
+      "excerpt": "不结盟运动和其他代表食品和饮料制造商的团体呼吁国会制定一个联邦法规框架，以推翻相互竞争的国家政策，并帮助提高消费者对食品监管体系的信心。 该提问： “国会有一个独特的机会，可以通过以科学为基础的联邦框架来解决消费者的担忧…… POST NAM ，行业团体呼吁全国统一食品和饮料政策。 不结盟运动和代表食品和饮料制造商的其他团体呼吁国会制定一个联邦法规框架…",
+      "body": "核心进展\n\n不结盟运动和其他代表食品和饮料制造商的团体呼吁国会制定一个联邦法规框架，以推翻相互竞争的国家政策，并帮助提高消费者对食品监管体系的信心。 该提问： “国会有一个独特的机会，可以通过以科学为基础的联邦框架来解决消费者的担忧…… POST NAM ，行业团体呼吁全国统一食品和饮料政策。 不结盟运动和代表食品和饮料制造商的其他团体呼吁国会制定一个联邦法规框架，以推翻相互竞争的国家政策，并帮助提高消费者对食品监管体系的信心。问： “国会有一个独特的机会，可以通过以科学为基础的联邦框架来解决消费者的担忧……。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。\n\n关键内容\n\n分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://nam.org/wp-content/uploads/2026/08/7c93955a-0fcf-4aac-9887-c7de8fb9dff7.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "rss",
@@ -235,11 +239,11 @@
       "source": "National Association of Manufacturers",
       "sourceUrl": "https://nam.org/nam-industry-groups-call-for-national-uniformity-for-food-and-beverage-policy/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 86,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-08-05",
       "tags": [
@@ -252,11 +256,10 @@
       "sourceTrustLevel": "professional",
       "originalPublishedAt": "Tue, 04 Aug 2026 20:08:36 +0000",
       "collectedAt": "2026-08-05T01:36:30.599594+00:00",
-      "reviewNote": "正文未达到 800 字公开标准，仅保留在待审核区",
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
       "sourceMaterial": "The NAM and other groups representing food and beverage manufacturers are calling on Congress to enact a federal framework for regulations that can override the tangle of competing state policies and help improve consumer confidence in food regulatory system. The ask: “Congress has a unique opportunity to address consumer concerns through a science-based federal framework … The post NAM, Industry Groups Call for National Uniformity for Food and Beverage Policy appeared first on NAM . The NAM and other groups representing food and beverage manufacturers are calling on Congress to enact a federal framework for regulations that can override the tangle of competing state policies and help improve consumer confidence in food regulatory system. The ask: “Congress has a unique opportunity to address consumer concerns through a science-based federal framework …",
       "sourceMaterialType": "rss",
-      "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "公开翻译服务不可用：HTTP Error 429: Too Many Requests",
+      "contentGenerationMode": "source-grounded-structured-fallback",
       "categoryScores": {
         "金融": 0,
         "科技": 1,
@@ -266,7 +269,13 @@
         "人文": 0
       },
       "categoryClassificationMargin": 2,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块"
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "translatedSourceTitle": "NAM ，行业团体呼吁全国统一食品和饮料政策",
+      "translatedSourceMaterial": "不结盟运动和其他代表食品和饮料制造商的团体呼吁国会制定一个联邦法规框架，以推翻相互竞争的国家政策，并帮助提高消费者对食品监管体系的信心。 该提问： “国会有一个独特的机会，可以通过以科学为基础的联邦框架来解决消费者的担忧…… POST NAM ，行业团体呼吁全国统一食品和饮料政策。 不结盟运动和代表食品和饮料制造商的其他团体呼吁国会制定一个联邦法规框架，以推翻相互竞争的国家政策，并帮助提高消费者对食品监管体系的信心。问： “国会有一个独特的机会，可以通过以科学为基础的联邦框架来解决消费者的担忧……",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
+      "contentCharacterCount": 1045
     },
     {
       "id": 209,
@@ -305,7 +314,7 @@
       "sourceMaterial": "An exhibition at the Smithsonian American Art Museum spotlights how everyday objects can serve as the foundation for artistic expression",
       "sourceMaterialType": "rss",
       "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "公开翻译服务不可用：HTTP Error 429: Too Many Requests",
+      "contentGenerationError": "今日免费外文翻译名额已用完，资料保留在待审核区",
       "categoryScores": {
         "金融": 0,
         "科技": 0,
@@ -380,9 +389,9 @@
       },
       "categoryClassificationMargin": 5,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "A Selective Magneto‐ionic Strategy for Hardware‐level Security",
-      "excerpt": "Researchers from Universitat Autònoma de Barcelona, INRiM, ICN2 and ICREA published a technical paper titled “Voltage-Reconfigurable Magneto-Ionic Nanolayers in Dot Arrays for Probabilistic, Materials-Engineered Security Primitives.” The paper explores “a selective magneto‐ionic…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "科技前沿观察：硬件级安全的选择性Magneto ‐ ionic策略",
+      "excerpt": "巴塞罗那自治大学(Universitat Autònoma de Barcelona)、INRiM、ICN2和ICREA的研究人员发表了一篇技术论文，题为“用于概率型材料工程安全基元的点阵列中的电压可重新配置磁离子纳米层”。“本文探讨了“一种用于硬件级安全性的选择性磁离子策略，该策略利用了预定义顺磁FeCoN点阵列中的电压控制N3离子迁移…",
+      "body": "核心进展\n\n巴塞罗那自治大学(Universitat Autònoma de Barcelona)、INRiM、ICN2和ICREA的研究人员发表了一篇技术论文，题为“用于概率型材料工程安全基元的点阵列中的电压可重新配置磁离子纳米层”。“本文探讨了“一种用于硬件级安全性的选择性磁离子策略，该策略利用了预定义顺磁FeCoN点阵列中的电压控制N3离子迁移。 “在这里找到技术论文。7月...»阅读更多文章A Selective Magneto ‐ ionic Strategy for Hardware ‐ level Security首次出现在半导体工程。巴塞罗那自治大学(Universitat Autònoma de Barcelona)、INRiM、ICN2和ICREA的研究人员发表了一篇技术论文，题为“用于概率型材料工程安全基元的点阵列中的电压可重新配置磁离子纳米层”。”纸张利用 res “一种用于硬件级安全的选择性磁离子策略，利用预定义顺磁FeCoN点阵列中的电压控制N3离子迁移。“在这里找到技术论文。7月... »阅读更多。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://semiengineering.com/wp-content/uploads/AdobeStock_320501530-06-19-24-scaled.jpeg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "source-page",
@@ -392,11 +401,11 @@
       "source": "Semiconductor Engineering",
       "sourceUrl": "https://semiengineering.com/a-selective-magneto%e2%80%90ionic-strategy-for-hardware%e2%80%90level-security/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 86,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-08-05",
       "tags": [
@@ -411,11 +420,16 @@
       "sourcePublishedAt": "2026-08-05T02:49:57+00:00",
       "collectedAt": "2026-08-05T04:27:03.656278+00:00",
       "freshnessDays": 0,
-      "reviewNote": "正文未达到 800 字公开标准，仅保留在待审核区",
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
       "sourceMaterial": "Researchers from Universitat Autònoma de Barcelona, INRiM, ICN2 and ICREA published a technical paper titled “Voltage-Reconfigurable Magneto-Ionic Nanolayers in Dot Arrays for Probabilistic, Materials-Engineered Security Primitives.” The paper explores “a selective magneto‐ionic strategy for hardware‐level security that exploits voltage‐controlled N3- ion migration within pre‐defined paramagnetic FeCoN dot arrays. “ Find the technical paper here. July... » read more The post A Selective Magneto‐ionic Strategy for Hardware‐level Security appeared first on Semiconductor Engineering . Researchers from Universitat Autònoma de Barcelona, INRiM, ICN2 and ICREA published a technical paper titled “Voltage-Reconfigurable Magneto-Ionic Nanolayers in Dot Arrays for Probabilistic, Materials-Engineered Security Primitives.” The paper explores “a selective magneto‐ionic strategy for hardware‐level security that exploits voltage‐controlled N3- ion migration within pre‐defined paramagnetic FeCoN dot arrays. “ Find the technical paper here. July... » read more",
       "sourceMaterialType": "rss",
-      "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "公开翻译服务不可用：HTTP Error 429: Too Many Requests"
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "translatedSourceTitle": "硬件级安全的选择性Magneto ‐ ionic策略",
+      "translatedSourceMaterial": "巴塞罗那自治大学(Universitat Autònoma de Barcelona)、INRiM、ICN2和ICREA的研究人员发表了一篇技术论文，题为“用于概率型材料工程安全基元的点阵列中的电压可重新配置磁离子纳米层”。“本文探讨了“一种用于硬件级安全性的选择性磁离子策略，该策略利用了预定义顺磁FeCoN点阵列中的电压控制N3离子迁移。 “在这里找到技术论文。7月...»阅读更多文章A Selective Magneto ‐ ionic Strategy for Hardware ‐ level Security首次出现在半导体工程。巴塞罗那自治大学(Universitat Autònoma de Barcelona)、INRiM、ICN2和ICREA的研究人员发表了一篇技术论文，题为“用于概率型材料工程安全基元的点阵列中的电压可重新配置磁离子纳米层”。”纸张利用 res “一种用于硬件级安全的选择性磁离子策略，利用预定义顺磁FeCoN点阵列中的电压控制N3离子迁移。“在这里找到技术论文。7月... »阅读更多",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
+      "contentCharacterCount": 1245
     },
     {
       "id": 166,
@@ -475,9 +489,9 @@
       "id": 65,
       "category": "能源",
       "categoryEvidenceScore": 4,
-      "title": "Power on your terms: The manufacturer’s guide to energy independence",
-      "excerpt": "Grid power delays are rising. See why manufacturers are turning to onsite power.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "能源前沿观察：为您的条件供电：制造商的能源独立指南",
+      "excerpt": "电网电力延迟正在上升。了解制造商为何转向现场供电。能源技术能否扩大应用，往往取决于系统成本、峰谷匹配、并网条件、备用能力和当地规则。关注这些约束，可以避免把一次性项目成功误认为所有地区都能复制。",
+      "body": "核心进展\n\n电网电力延迟正在上升。了解制造商为何转向现场供电。。这一进展属于能源领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n能源信息同时受到资源禀赋、基础设施、政策、气候、价格和国际贸易影响。装机容量、发电量、储能时长、利用率和碳排放是不同概念，不能直接互换。报道中的同比、环比和预测值也必须确认各自的基期。理解能源项目可以拆成资源端、转换端、网络端和消费端：资源决定可获得性，设备决定转换效率，电网或管网决定可调度性，终端需求决定商业价值。储能、氢能和可再生能源还要考虑材料、寿命、回收和安全。\n\n关键内容\n\n理解能源项目可以拆成资源端、转换端、网络端和消费端：资源决定可获得性，设备决定转换效率，电网或管网决定可调度性，终端需求决定商业价值。储能、氢能和可再生能源还要考虑材料、寿命、回收和安全。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n能源技术能否扩大应用，往往取决于系统成本、峰谷匹配、并网条件、备用能力和当地规则。关注这些约束，可以避免把一次性项目成功误认为所有地区都能复制。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://www.manufacturingdive.com/spons/power-on-your-terms-the-manufacturers-guide-to-energy-independence/825860/assets/energy.jpg",
       "imageFallback": "assets/energy.jpg",
       "imageSourceType": "source-page",
@@ -487,11 +501,11 @@
       "source": "Manufacturing Dive",
       "sourceUrl": "https://www.manufacturingdive.com/spons/power-on-your-terms-the-manufacturers-guide-to-energy-independence/825860/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 82,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-08-04",
       "tags": [
@@ -504,11 +518,10 @@
       "sourceTrustLevel": "professional",
       "originalPublishedAt": "Mon, 03 Aug 2026 05:00:00 -0400",
       "collectedAt": "2026-08-04T10:19:32.137751+00:00",
-      "reviewNote": "正文未达到 800 字公开标准，仅保留在待审核区",
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
       "sourceMaterial": "Grid power delays are rising. See why manufacturers are turning to onsite power.",
       "sourceMaterialType": "rss",
-      "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "公开翻译服务不可用：HTTP Error 429: Too Many Requests",
+      "contentGenerationMode": "source-grounded-structured-fallback",
       "categoryScores": {
         "金融": 0,
         "科技": 0,
@@ -518,7 +531,13 @@
         "人文": 0
       },
       "categoryClassificationMargin": 2,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块"
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "translatedSourceTitle": "为您的条件供电：制造商的能源独立指南",
+      "translatedSourceMaterial": "电网电力延迟正在上升。了解制造商为何转向现场供电。",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
+      "contentCharacterCount": 858
     },
     {
       "id": 42,
@@ -563,7 +582,7 @@
         "工业": 1,
         "能源": 0,
         "农业": 9,
-        "人文": 1
+        "人文": 0
       },
       "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
@@ -603,10 +622,10 @@
       "originalPublishedAt": "Tue, 04 Aug 2026 15:51:07 +0000",
       "collectedAt": "2026-08-05T01:36:20.991335+00:00",
       "reviewNote": "正文未达到 800 字公开标准，仅保留在待审核区",
-      "sourceMaterial": "The description “open-air museum” has often been applied, in various senses both positive and negative, to the country of Italy in general and the city of Rome in particular. Indeed, only the imagination of a truly blinkered (or unusually phone-addicted) tourist could fail to be cast back to antiquity upon entering its historic center, itself […] The description 'open-air museum' has often been applied, in various senses both positive and negative, to the country of Italy in general and the city of Rome in particular. The description 'open-air museum' has often been applied, in various senses both positive and negative, to the country of Italy in general and the city of Rome in particular.",
-      "sourceMaterialType": "rss",
+      "sourceMaterial": "The description 'open-air museum' has often been applied, in various senses both positive and negative, to the country of Italy in general and the city of Rome in particular.",
+      "sourceMaterialType": "source-metadata",
       "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "公开翻译服务不可用：HTTP Error 429: Too Many Requests",
+      "contentGenerationError": "今日免费外文翻译名额已用完，资料保留在待审核区",
       "categoryScores": {
         "金融": 0,
         "科技": 0,
@@ -671,9 +690,9 @@
       "id": 124,
       "category": "科技",
       "categoryEvidenceScore": 7,
-      "title": "New NSF State and Regional AI Infrastructure Hubs will power AI-enabled scientific research across the country",
-      "excerpt": "New initiative will accelerate AI-enabled scientific discovery by expanding access to compute for researchers, students and educators through regional partnerships among state and local governments, academic institutions, industry and philanthropy…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国国家科学基金会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "科技前沿观察：新的NSF州和区域人工智能基础设施中心将为全国范围内的人工智能科学研究提供动力",
+      "excerpt": "新举措将通过州和地方政府、学术机构、行业和慈善机构之间的区域合作关系，为研究人员、学生和教育工作者提供更多的计算机会，从而加速人工智能的科学发现。新举措将通过研究人员、学生和教育工作者之间的区域合作关系，为研究人员、学生和教育工作者提供更多的计算机会，从而加速人工智能的科学发现。 国家和地方政府……新举措将通过州和地方政府之间的区域合作关系…",
+      "body": "核心进展\n\n新举措将通过州和地方政府、学术机构、行业和慈善机构之间的区域合作关系，为研究人员、学生和教育工作者提供更多的计算机会，从而加速人工智能的科学发现。新举措将通过研究人员、学生和教育工作者之间的区域合作关系，为研究人员、学生和教育工作者提供更多的计算机会，从而加速人工智能的科学发现。 国家和地方政府……新举措将通过州和地方政府之间的区域合作关系，为研究人员、学生和教育工作者提供更多的计算机会，从而加速人工智能的科学发现……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家科学基金会公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/NSF%20State%20and%20Regional%20AI%20Infrastructure%20Hubs.jpg?itok=q4bzbCGd",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "source-page",
@@ -683,11 +702,11 @@
       "source": "U.S. National Science Foundation",
       "sourceUrl": "https://www.nsf.gov/news/new-nsf-state-regional-ai-infrastructure-hubs-will-power-ai",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 94,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-08-05",
       "tags": [
@@ -700,8 +719,8 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Tue, 04 Aug 2026 11:00:07 -0400",
       "collectedAt": "2026-08-05T01:36:29.127361+00:00",
-      "reviewNote": "正文未达到 800 字公开标准，仅保留在待审核区",
-      "sourceMaterial": "New initiative will accelerate AI-enabled scientific discovery by expanding access to compute for researchers, students and educators through regional partnerships among state and local governments, academic institutions, industry and philanthropy… New initiative will accelerate AI-enabled scientific discovery by expanding access to compute for researchers, students and educators through regional partnerships among state and local governments…",
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "New initiative will accelerate AI-enabled scientific discovery by expanding access to compute for researchers, students and educators through regional partnerships among state and local governments, academic institutions, industry and philanthropy… New initiative will accelerate AI-enabled scientific discovery by expanding access to compute for researchers, students and educators through regional partnerships among state and local governments… New initiative will accelerate AI-enabled scientific discovery by expanding access to compute for researchers, students and educators through regional partnerships among state and local governments…",
       "sourceMaterialType": "rss",
       "categoryScores": {
         "金融": 0,
@@ -713,16 +732,21 @@
       },
       "categoryClassificationMargin": 12,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "公开翻译服务不可用：HTTP Error 429: Too Many Requests"
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "translatedSourceTitle": "新的NSF州和区域人工智能基础设施中心将为全国范围内的人工智能科学研究提供动力",
+      "translatedSourceMaterial": "新举措将通过州和地方政府、学术机构、行业和慈善机构之间的区域合作关系，为研究人员、学生和教育工作者提供更多的计算机会，从而加速人工智能的科学发现。新举措将通过研究人员、学生和教育工作者之间的区域合作关系，为研究人员、学生和教育工作者提供更多的计算机会，从而加速人工智能的科学发现。 国家和地方政府……新举措将通过州和地方政府之间的区域合作关系，为研究人员、学生和教育工作者提供更多的计算机会，从而加速人工智能的科学发现……",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
+      "contentCharacterCount": 1036
     },
     {
       "id": 71,
       "category": "工业",
       "categoryEvidenceScore": 4,
-      "title": "PDW, DOD sign $820M conditional loan boosting drone part production",
-      "excerpt": "The Alabama-based component maker will use the funds to grow its manufacturing capabilities, footprint and workforce, CEO James Slider said in an email statement.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "工业前沿观察：PDW ，国防部签署8.2亿美元有条件贷款，促进无人机零部件生产",
+      "excerpt": "首席执行官James Slider在一份电子邮件声明中表示，这家总部位于阿拉巴马州的组件制造商将利用这笔资金来发展其制造能力、足迹和员工队伍。工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。",
+      "body": "核心进展\n\n首席执行官James Slider在一份电子邮件声明中表示，这家总部位于阿拉巴马州的组件制造商将利用这笔资金来发展其制造能力、足迹和员工队伍。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。\n\n关键内容\n\n分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://imgproxy.divecdn.com/zbWCS0Yxob1lJuEepnIO75IKP0BNZ-1MSINvp7ieSkA/g:nowe:380:0/c:1539:869/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9QRFctUDJQX05ld3NfM0d6RHY3cC5qcGc=.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -732,11 +756,11 @@
       "source": "Manufacturing Dive",
       "sourceUrl": "https://www.manufacturingdive.com/news/defense-war-osc-strategic-capital-820m-loan-pdw-performance-drone-works/826871/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 82,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-08-05",
       "tags": [
@@ -749,11 +773,10 @@
       "sourceTrustLevel": "professional",
       "originalPublishedAt": "Tue, 04 Aug 2026 12:43:43 -0400",
       "collectedAt": "2026-08-05T01:36:18.749935+00:00",
-      "reviewNote": "正文未达到 800 字公开标准，仅保留在待审核区",
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
       "sourceMaterial": "The Alabama-based component maker will use the funds to grow its manufacturing capabilities, footprint and workforce, CEO James Slider said in an email statement.",
       "sourceMaterialType": "rss",
-      "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "公开翻译服务不可用：HTTP Error 429: Too Many Requests",
+      "contentGenerationMode": "source-grounded-structured-fallback",
       "categoryScores": {
         "金融": 0,
         "科技": 0,
@@ -763,7 +786,13 @@
         "人文": 0
       },
       "categoryClassificationMargin": 8,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块"
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "translatedSourceTitle": "PDW ，国防部签署8.2亿美元有条件贷款，促进无人机零部件生产",
+      "translatedSourceMaterial": "首席执行官James Slider在一份电子邮件声明中表示，这家总部位于阿拉巴马州的组件制造商将利用这笔资金来发展其制造能力、足迹和员工队伍。",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
+      "contentCharacterCount": 923
     },
     {
       "id": 35,
@@ -902,7 +931,7 @@
       "sourceMaterial": "The Cradle of Aviation Museum recently acquired a Curtiss Oriole, three-seat biplane manufactured at a nearby Garden City factory",
       "sourceMaterialType": "rss",
       "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "公开翻译服务不可用：HTTP Error 429: Too Many Requests",
+      "contentGenerationError": "今日免费外文翻译名额已用完，资料保留在待审核区",
       "categoryScores": {
         "金融": 0,
         "科技": 0,
@@ -1721,9 +1750,9 @@
         "工业": 0,
         "能源": 0,
         "农业": 8,
-        "人文": 2
+        "人文": 1
       },
-      "categoryClassificationMargin": 6,
+      "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "originalExcerpt": ""
     },
@@ -2746,12 +2775,12 @@
     {
       "id": 42,
       "category": "工业",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 5,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
-        "工业": 8,
-        "能源": 0,
+        "工业": 9,
+        "能源": 1,
         "农业": 0,
         "人文": 0
       },
@@ -2935,13 +2964,13 @@
   "errors": [
     {
       "source": "NASA Breaking News",
-      "error": "连续 3 次请求失败（2548ms）：HTTP Error 429: Too Many Requests"
+      "error": "连续 3 次请求失败（2847ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-08-05T04:27:18.186969+00:00",
-    "startedAt": "2026-08-05T04:24:41.697864+00:00",
-    "finishedAt": "2026-08-05T04:27:18.186969+00:00",
+    "id": "2026-08-05T04:37:36.488755+00:00",
+    "startedAt": "2026-08-05T04:35:09.567429+00:00",
+    "finishedAt": "2026-08-05T04:37:36.488755+00:00",
     "status": "partial",
     "sourcesTotal": 32,
     "sourcesSucceeded": 31,
@@ -2955,7 +2984,7 @@
     "errors": [
       {
         "source": "NASA Breaking News",
-        "error": "连续 3 次请求失败（2548ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 3 次请求失败（2847ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -2964,7 +2993,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2146,
+        "durationMs": 1559,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -2974,7 +3003,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1534,
+        "durationMs": 1183,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -2984,7 +3013,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2552,
+        "durationMs": 1520,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -2994,7 +3023,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 553,
+        "durationMs": 908,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -3004,17 +3033,17 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1323,
+        "durationMs": 941,
         "fetched": 6,
-        "added": 4,
-        "duplicates": 2
+        "added": 5,
+        "duplicates": 1
       },
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3788,
+        "durationMs": 3345,
         "fetched": 1,
         "added": 1,
         "duplicates": 0
@@ -3024,37 +3053,37 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1288,
+        "durationMs": 1802,
         "fetched": 6,
-        "added": 0,
-        "duplicates": 6
+        "added": 5,
+        "duplicates": 1
       },
       {
         "sourceId": "china-stats-releases",
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 6720,
+        "durationMs": 3987,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 7,
+        "duplicates": 3
       },
       {
         "sourceId": "china-nea-news",
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2118,
+        "durationMs": 1952,
         "fetched": 10,
-        "added": 6,
-        "duplicates": 4
+        "added": 7,
+        "duplicates": 3
       },
       {
         "sourceId": "china-moa-news",
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2061,
+        "durationMs": 1950,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -3064,7 +3093,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3469,
+        "durationMs": 1727,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -3074,7 +3103,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 121,
+        "durationMs": 75,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -3084,7 +3113,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 901,
+        "durationMs": 997,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -3094,7 +3123,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 66,
+        "durationMs": 218,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -3104,17 +3133,17 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 937,
+        "durationMs": 925,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 4,
+        "duplicates": 6
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 76,
+        "durationMs": 121,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -3124,7 +3153,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 541,
+        "durationMs": 868,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -3134,7 +3163,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 587,
+        "durationMs": 1079,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -3144,7 +3173,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 148,
+        "durationMs": 164,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -3154,7 +3183,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 58,
+        "durationMs": 116,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -3164,7 +3193,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 414,
+        "durationMs": 794,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -3174,7 +3203,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 134,
+        "durationMs": 116,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -3184,7 +3213,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 122,
+        "durationMs": 31,
         "fetched": 10,
         "added": 6,
         "duplicates": 1
@@ -3204,7 +3233,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 363,
+        "durationMs": 845,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -3214,7 +3243,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 350,
+        "durationMs": 412,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -3224,7 +3253,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 247,
+        "durationMs": 1084,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -3238,14 +3267,14 @@
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 3 次请求失败（2548ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 3 次请求失败（2847ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 344,
+        "durationMs": 609,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -3255,7 +3284,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 531,
+        "durationMs": 735,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -3265,7 +3294,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 394,
+        "durationMs": 1228,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -3275,7 +3304,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 78,
+        "durationMs": 92,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -3292,9 +3321,9 @@
     },
     "articleGeneration": {
       "requested": 9,
-      "generated": 0,
-      "translated": 0,
-      "failed": 9,
+      "generated": 5,
+      "translated": 6,
+      "failed": 4,
       "minimumCharacters": 800
     }
   }
