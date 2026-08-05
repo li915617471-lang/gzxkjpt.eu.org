@@ -180,6 +180,16 @@ class RichDraftTests(unittest.TestCase):
             "选择性 磁离子 策略",
         )
 
+    def test_generic_generated_title_is_replaced_by_translated_source_title(self):
+        story = {
+            "category": "人文",
+            "source": "Open Culture",
+            "title": "人文前沿观察：人文公开资料提供新的观察线索",
+            "translatedSourceTitle": "聆听已知最早的复调音乐",
+        }
+        self.assertTrue(auto_update.repair_generic_story_title(story))
+        self.assertEqual(story["title"], "人文前沿观察：聆听已知最早的复调音乐")
+
     def test_retained_category_uses_original_source_fields_not_generated_prefix(self):
         story = {
             "title": "科技前沿观察：通用标题",

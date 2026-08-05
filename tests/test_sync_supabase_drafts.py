@@ -176,6 +176,14 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(row["status"], "review")
         self.assertFalse(row["extra"]["automaticApproval"]["checks"]["editorialScope"])
 
+    def test_auto_review_rejects_generic_generated_title(self):
+        story = self.rich_story()
+        story["title"] = "人文前沿观察：人文公开资料提供新的观察线索"
+        policy = {"enabled": True, "minConfidence": 85, "policyVersion": 3}
+        row = sync.article_row(story, "main", 0, "2026-08-05T00:00:00+00:00", policy)
+        self.assertEqual(row["status"], "review")
+        self.assertFalse(row["extra"]["automaticApproval"]["checks"]["editorialScope"])
+
     def test_existing_article_source_metadata_can_be_backfilled(self):
         story = self.rich_story()
         story["translatedSourceTitle"] = "储能项目进入商业运行阶段"

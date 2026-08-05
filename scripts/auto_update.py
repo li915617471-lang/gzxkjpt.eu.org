@@ -775,6 +775,9 @@ LOW_VALUE_TITLE_TERMS = (
     "幸福中国年",
     "旅游强国里的中式浪漫",
 )
+GENERIC_GENERATED_TITLE = re.compile(
+    r"公开资料提供新的观察线索|公开资料显示的[^。]{0,20}动态|前沿观察：[^：:]{0,12}(?:公开资料|资料信息)"
+)
 
 
 def remove_embedded_styles(value: str) -> str:
@@ -794,6 +797,17 @@ def clean_translation_artifacts(value: str, source: str = "") -> str:
         text = re.sub(r"\bNAM\s*[,，]?\s*", "美国制造商协会", text)
     text = re.sub(r"Magneto\s*[‐‑–—-]\s*ionic", "磁离子", text, flags=re.I)
     return clean_text(text)
+
+
+def repair_generic_story_title(story: dict) -> bool:
+    current = clean_text(story.get("title", ""))
+    translated = clean_translation_artifacts(
+        story.get("translatedSourceTitle", ""), story.get("source", "")
+    )
+    if not GENERIC_GENERATED_TITLE.search(current) or not has_cjk_text(translated):
+        return False
+    story["title"] = f"{story.get('category') or '前沿'}前沿观察：{translated}"
+    return True
 
 
 def clean_source_material(value: str) -> str:
@@ -1375,10 +1389,12 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
             if add_free_source_translation(story):
                 translations_used += 1
                 stats["translated"] += 1
+                repair_generic_story_title(story)
                 break
         selected = candidates[:target]
         selected.extend(story for story in candidates if id(story) in priority_video_ids and story not in selected)
         for story in selected:
+            repair_generic_story_title(story)
             if body_meets_publication_standard(story.get("body", "")):
                 continue
             stats["requested"] += 1

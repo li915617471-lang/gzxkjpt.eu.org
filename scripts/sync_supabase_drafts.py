@@ -298,9 +298,8 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
         "validSourceUrl": is_valid_source_url(story.get("sourceUrl") or story.get("url")),
         "namedSource": len(str(story.get("source") or "").strip()) >= 2,
         "completeTitle": len(title) >= 10,
-        "editorialScope": not any(term in f"{title} {story.get('originalTitle') or ''}" for term in (
-            "我爸是顶流", "幸福中国年", "旅游强国里的中式浪漫",
-        )),
+        "editorialScope": not any(term in f"{title} {story.get('originalTitle') or ''}" for term in LOW_VALUE_TITLE_TERMS)
+        and not bool(GENERIC_AUTOMATIC_TITLE.search(title)),
         "completeExcerpt": len(excerpt) >= 60,
         "completeBody": count_content_characters(body) >= MIN_ARTICLE_CHARS,
         "structuredBody": has_unique_article_sections(body),
@@ -931,12 +930,14 @@ def main() -> int:
             stories, existing, site_id, imported_at
         )
         metadata_updated = metadata_rows if args.dry_run else client.upsert_article_metadata(metadata_rows)
-        demotion_rows = prepare_quality_demotions(existing, site_id, imported_at)
-        quality_demoted = demotion_rows if args.dry_run else client.upsert_article_metadata(demotion_rows)
         promotions, daily_counts = prepare_promotions(
             stories, existing, inserted, policy, imported_at, site_id
         )
         promoted = promotions if args.dry_run else client.insert_articles(promotions)
+        demotion_rows = prepare_quality_demotions(
+            existing + inserted + promoted, site_id, imported_at
+        )
+        quality_demoted = demotion_rows if args.dry_run else client.upsert_article_metadata(demotion_rows)
     except (OSError, ValueError, RuntimeError, json.JSONDecodeError) as exc:
         message = str(exc).replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")[:500]
         print(f"::error title=Draft sync failed::{message}", file=sys.stderr)
