@@ -716,12 +716,24 @@
 }
 
 @media (max-width: 800px) {
+  .article-hero {
+    padding-top: 22px;
+  }
+
+  .article-breadcrumb {
+    margin-bottom: 18px;
+  }
+
   .article-hero h1 {
-    font-size: 32px;
+    margin: 14px 0;
+    font-size: 28px;
+    line-height: 1.16;
   }
 
   .article-cover {
-    aspect-ratio: 4 / 3;
+    height: clamp(150px, 42vw, 190px);
+    margin-top: 20px;
+    aspect-ratio: auto;
   }
 
   .article-video-player {
@@ -731,6 +743,7 @@
   .article-layout {
     grid-template-columns: 1fr;
     gap: 24px;
+    padding-top: 20px;
   }
 
   .article-reading-section {

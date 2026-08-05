@@ -269,7 +269,7 @@ function renderBody(story) {
 
   const paragraphs = normalizeArticleParagraphs(story);
   const platformBody = document.querySelector("#articleBody");
-  platformBody.hidden = automatic || paragraphs.length === 0;
+  platformBody.hidden = paragraphs.length === 0;
   platformBody.innerHTML = platformBody.hidden
     ? ""
     : paragraphs.map(articleParagraphHtml).join("");
