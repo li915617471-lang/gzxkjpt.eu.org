@@ -37,7 +37,10 @@ SOURCE_DISCLOSURE_HEADING = "简要来源"
 LEGACY_DISCLOSURE_HEADING = "来源与审核说明"
 LOW_VALUE_TITLE_TERMS = ("我爸是顶流", "幸福中国年", "旅游强国里的中式浪漫")
 GENERIC_AUTOMATIC_TITLE = re.compile(r"公开资料提供新的观察线索|公开资料显示的[^。]{0,20}动态")
-WEB_STYLE_NOISE = re.compile(r"\.[a-z0-9_-]+\s*\{[^{}]{0,2000}\}", re.I)
+WEB_STYLE_NOISE = re.compile(
+    r"\.[a-z0-9_-]+\s*\{[^{}]{0,2000}\}|网站识别码|京ICP备|京公网安备|中央农业干部教育培训中心",
+    re.I,
+)
 
 
 def normalize_url(value: str) -> str:
@@ -156,7 +159,7 @@ def automatic_quality_reasons(article: dict[str, Any]) -> list[str]:
     if GENERIC_AUTOMATIC_TITLE.search(combined_title):
         reasons.append("标题缺少可识别主题")
     if WEB_STYLE_NOISE.search(str(article.get("body") or "")):
-        reasons.append("正文包含网页样式代码")
+        reasons.append("正文包含网页样式或页脚代码")
     return reasons
 
 

@@ -180,6 +180,37 @@ class RichDraftTests(unittest.TestCase):
             "选择性 磁离子 策略",
         )
 
+    def test_retained_story_cleans_translation_artifacts_before_reuse(self):
+        story = {
+            "source": "National Association of Manufacturers",
+            "title": "农业前沿观察：NAM，行业团体呼吁统一政策",
+            "translatedSourceTitle": "NAM，行业团体呼吁统一政策",
+            "translatedSourceMaterial": "POST NAM，不结盟运动公布了新的政策建议。",
+            "sourceMaterial": "制造业团体公布了新的食品和饮料政策建议，资料包含适用范围和实施背景。",
+            "excerpt": "NAM，行业团体公布了新的食品和饮料政策建议，资料包含适用范围和实施背景。",
+            "body": "有效正文",
+        }
+        cleaned = auto_update.refresh_retained_source_material([story])[0]
+        self.assertNotIn("NAM", cleaned["title"])
+        self.assertNotIn("不结盟运动", cleaned["translatedSourceMaterial"])
+        self.assertIn("美国制造商协会", cleaned["translatedSourceTitle"])
+
+    def test_retained_story_with_source_footer_noise_is_demoted(self):
+        material = "农业部门下达防灾减灾资金，公开资料说明了资金规模、支持对象和实施范围。"
+        story = {
+            "collectionSourceId": "official-source",
+            "source": "中华人民共和国农业农村部",
+            "category": "农业",
+            "sourceMaterial": material,
+            "excerpt": material,
+            "body": "核心进展\n\n网站识别码bm21000007 京ICP备05039419号-2 后续正文内容。",
+            "status": "published",
+        }
+        cleaned = auto_update.refresh_retained_source_material([story])[0]
+        self.assertEqual(cleaned["status"], "review")
+        self.assertNotIn("网站识别码", cleaned["body"])
+        self.assertNotIn("京ICP备", cleaned["body"])
+
     def test_generic_generated_title_is_replaced_by_translated_source_title(self):
         story = {
             "category": "人文",

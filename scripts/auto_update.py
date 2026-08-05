@@ -799,6 +799,17 @@ def clean_translation_artifacts(value: str, source: str = "") -> str:
     return clean_text(text)
 
 
+def body_contains_source_page_noise(value: str) -> bool:
+    text = str(value or "")
+    return bool(remove_embedded_styles(text) != text) or any(
+        marker in text
+        for marker in (
+            "中央农业干部教育培训中心", "网站识别码", "京ICP备", "京公网安备",
+            "主办单位", "技术支持",
+        )
+    )
+
+
 def repair_generic_story_title(story: dict) -> bool:
     current = clean_text(story.get("title", ""))
     translated = clean_translation_artifacts(
@@ -873,10 +884,23 @@ def enrich_entry_from_page(entry: dict) -> dict:
 
 def refresh_retained_source_material(stories: list[dict]) -> list[dict]:
     for story in stories:
+        source_name = str(story.get("source") or "")
+        story["title"] = clean_translation_artifacts(story.get("title", ""), source_name)
+        story["translatedSourceTitle"] = clean_translation_artifacts(
+            story.get("translatedSourceTitle", ""), source_name
+        )
+        story["translatedSourceMaterial"] = clean_translation_artifacts(
+            story.get("translatedSourceMaterial", ""), source_name
+        )
         story["sourceMaterial"] = clean_source_material(story.get("sourceMaterial", ""))
         story["originalExcerpt"] = clean_source_material(story.get("originalExcerpt", ""))
-        story["excerpt"] = clean_source_material(story.get("excerpt", ""))
-        story["body"] = remove_embedded_styles(story.get("body", "")).strip()
+        story["excerpt"] = clean_translation_artifacts(
+            clean_source_material(story.get("excerpt", "")), source_name
+        )
+        raw_body = str(story.get("body") or "")
+        story["body"] = "" if body_contains_source_page_noise(raw_body) else clean_translation_artifacts(
+            remove_embedded_styles(raw_body).strip(), source_name
+        )
         if not story.get("collectionSourceId"):
             continue
         material = clean_text(story.get("sourceMaterial", ""))

@@ -236,6 +236,19 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(updates[0]["status"], "review")
         self.assertIn("超出平台前沿知识范围", updates[0]["extra"]["qualityDemotionReasons"])
 
+    def test_published_article_with_source_footer_noise_is_demoted(self):
+        existing = [{
+            "id": sync.AUTOMATIC_ID_BASE + 10,
+            "status": "published",
+            "title": "农业前沿观察：农业防灾减灾资金下达",
+            "body": "核心进展\n\n网站识别码bm21000007 京ICP备05039419号-2 正文内容",
+            "extra": {"automaticImport": True},
+        }]
+        updates = sync.prepare_quality_demotions(existing, "main", "2026-08-05T00:00:00+00:00")
+        self.assertEqual(len(updates), 1)
+        self.assertEqual(updates[0]["status"], "review")
+        self.assertIn("正文包含网页样式或页脚代码", updates[0]["extra"]["qualityDemotionReasons"])
+
     def test_source_metadata_backfill_patches_existing_rows(self):
         client = sync.SupabaseRest("https://example.supabase.co", "service-key")
         calls = []
