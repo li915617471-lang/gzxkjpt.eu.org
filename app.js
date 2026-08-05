@@ -259,13 +259,13 @@ function renderDiscovery() {
     return dateDelta || Number(b.id || 0) - Number(a.id || 0);
   });
   const latestSignals = document.querySelector("#latestSignals");
-  const latestSources = window.FXIntelligence.latest(intelligenceBundle.stories || [], "", 3);
-  latestSignals.innerHTML = latestSources.map((story) => {
+  const latestArticles = publicStories.slice(0, 3);
+  latestSignals.innerHTML = latestArticles.map((story) => {
     const category = getCategorySetting(story.category);
-    return `<a href="${escapeHtml(story.url)}" target="_blank" rel="noopener noreferrer" style="--category-color:${safeColor(category.color)}">
-      <span>${escapeHtml(story.category)} · 最新资料</span>
+    return `<a href="article.html?id=${encodeURIComponent(story.id)}" style="--category-color:${safeColor(category.color)}">
+      <span>${escapeHtml(story.category)} · 最新文章</span>
       <strong>${escapeHtml(story.title)}</strong>
-      <time>${escapeHtml(window.FXIntelligence.formatDate(story.publishedAt))}</time>
+      <time>${escapeHtml(window.FXIntelligence.formatDate(pulseStoryTimestamp(story)))}</time>
     </a>`;
   }).join("");
 
