@@ -62,6 +62,19 @@ class CategoryTests(unittest.TestCase):
         updated = auto_update.refresh_retained_categories(stories, sources, self.rules)
         self.assertEqual(updated[0]["category"], "科技")
 
+    def test_reclassified_story_updates_generated_category_prefix(self):
+        stories = [{
+            "title": "工业前沿观察：被忽视的地热电站获得第二次机会",
+            "originalTitle": "被忽视的地热电站获得第二次机会",
+            "sourceMaterial": "该地热发电项目重新启动，并公布能源供应、发电设备和后续建设安排。",
+            "category": "工业",
+            "collectionSourceId": "science-video",
+        }]
+        sources = [{"id": "science-video", "categoryHint": "科技"}]
+        updated = auto_update.refresh_retained_categories(stories, sources, self.rules)
+        self.assertEqual(updated[0]["category"], "能源")
+        self.assertTrue(updated[0]["title"].startswith("能源前沿观察："))
+
     def test_category_scores_keep_source_hint_but_title_has_more_weight(self):
         scores = auto_update.category_score_map(
             "量子计算纠错取得新进展",
@@ -137,6 +150,35 @@ class RichDraftTests(unittest.TestCase):
         self.assertNotIn("text-align", cleaned)
         self.assertNotIn("网站识别码", cleaned)
         self.assertTrue(cleaned.startswith("国家统计机构"))
+
+    def test_source_material_removes_style_block_in_the_middle(self):
+        value = (
+            "国家统计机构公布了调查结果和统计方法。 "
+            ".trs_import_a1{text-align:justify;font-family:Calibri;font-size:10px} "
+            "调查覆盖多个地区和生产资料类别。"
+        )
+        cleaned = auto_update.clean_source_material(value)
+        self.assertNotIn("trs_import", cleaned)
+        self.assertNotIn("font-family", cleaned)
+        self.assertIn("调查覆盖", cleaned)
+
+    def test_entertainment_title_is_not_editorially_eligible(self):
+        self.assertFalse(auto_update.title_is_editorially_eligible("《幸福中国年》旅游短片"))
+        self.assertFalse(auto_update.title_is_editorially_eligible("平行时空找到你之我爸是顶流"))
+        self.assertTrue(auto_update.title_is_editorially_eligible("量子计算机纠错技术取得新进展"))
+
+    def test_known_translation_artifacts_are_cleaned_by_source(self):
+        cleaned = auto_update.clean_translation_artifacts(
+            "POST NAM，不结盟运动呼吁统一制造业政策",
+            "National Association of Manufacturers",
+        )
+        self.assertNotIn("不结盟运动", cleaned)
+        self.assertNotIn("POST", cleaned)
+        self.assertIn("美国制造商协会", cleaned)
+        self.assertEqual(
+            auto_update.clean_translation_artifacts("选择性 Magneto-ionic 策略"),
+            "选择性 磁离子 策略",
+        )
 
     def test_retained_category_uses_original_source_fields_not_generated_prefix(self):
         story = {

@@ -167,6 +167,15 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(row["status"], "review")
         self.assertFalse(row["extra"]["automaticApproval"]["checks"]["usableSourceMaterial"])
 
+    def test_auto_review_rejects_entertainment_outside_platform_scope(self):
+        story = self.rich_story()
+        story["title"] = "科技前沿观察：《平行时空找到你之我爸是顶流》"
+        story["originalTitle"] = "《平行时空找到你之我爸是顶流》"
+        policy = {"enabled": True, "minConfidence": 85, "policyVersion": 3}
+        row = sync.article_row(story, "main", 0, "2026-08-05T00:00:00+00:00", policy)
+        self.assertEqual(row["status"], "review")
+        self.assertFalse(row["extra"]["automaticApproval"]["checks"]["editorialScope"])
+
     def test_existing_article_source_metadata_can_be_backfilled(self):
         story = self.rich_story()
         story["translatedSourceTitle"] = "储能项目进入商业运行阶段"
@@ -185,6 +194,39 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(updates[0]["extra"]["sourceMaterial"], story["sourceMaterial"])
         self.assertEqual(updates[0]["extra"]["translatedSourceTitle"], story["translatedSourceTitle"])
         self.assertEqual(updates[0]["extra"]["translationMode"], "machine-translation")
+
+    def test_automatic_article_content_is_repaired_from_current_story(self):
+        story = self.rich_story()
+        story["category"] = "能源"
+        existing = [{
+            "id": sync.AUTOMATIC_ID_BASE + 7,
+            "category": "工业",
+            "title": "工业前沿观察：旧标题",
+            "excerpt": "旧摘要",
+            "body": "旧正文",
+            "source_url": story["sourceUrl"],
+            "extra": {"automaticImport": True},
+        }]
+        updates = sync.prepare_source_metadata_updates(
+            [story], existing, "main", "2026-08-05T00:00:00+00:00"
+        )
+        self.assertEqual(updates[0]["category"], "能源")
+        self.assertEqual(updates[0]["title"], story["title"])
+        self.assertEqual(updates[0]["excerpt"], story["excerpt"])
+        self.assertEqual(updates[0]["body"], story["body"])
+
+    def test_invalid_published_automatic_articles_are_demoted_not_deleted(self):
+        existing = [{
+            "id": sync.AUTOMATIC_ID_BASE + 9,
+            "status": "published",
+            "title": "科技前沿观察：《幸福中国年》旅游短片",
+            "body": "有效正文",
+            "extra": {"automaticImport": True, "originalTitle": "《幸福中国年》旅游短片"},
+        }]
+        updates = sync.prepare_quality_demotions(existing, "main", "2026-08-05T00:00:00+00:00")
+        self.assertEqual(len(updates), 1)
+        self.assertEqual(updates[0]["status"], "review")
+        self.assertIn("超出平台前沿知识范围", updates[0]["extra"]["qualityDemotionReasons"])
 
     def test_source_metadata_backfill_patches_existing_rows(self):
         client = sync.SupabaseRest("https://example.supabase.co", "service-key")

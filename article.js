@@ -141,7 +141,7 @@ function isAutomaticStory(story) {
 }
 
 function cleanLegacyAutomaticText(value, story) {
-  let text = String(value || "").trim();
+  let text = window.FXContent.cleanTranslationArtifacts(window.FXContent.cleanSourceText(value), story);
   if (!isAutomaticStory(story)) return text;
   LEGACY_AUTOMATIC_NOTICES.forEach(function (notice) {
     text = text.split(notice).join("");
@@ -194,7 +194,10 @@ function renderBody(story) {
   const rawOriginalTitle = String(story.originalTitle || story.title || "").trim();
   let rawSourceMaterial = String(
     story.sourceMaterial || story.originalExcerpt || story.excerpt || ""
-  ).replace(/\s+/g, " ").trim();
+  );
+  rawSourceMaterial = window.FXContent.cleanTranslationArtifacts(
+    window.FXContent.cleanSourceText(rawSourceMaterial), story
+  );
   if (rawSourceMaterial.includes("视频简介")) rawSourceMaterial = rawSourceMaterial.split("视频简介")[0].trim();
   const titleNeedsTranslation = (!window.FXContent.hasChineseText(rawOriginalTitle) && /[A-Za-z]/.test(rawOriginalTitle))
     || window.FXContent.hasLongEnglishRun(rawOriginalTitle);

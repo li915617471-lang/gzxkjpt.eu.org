@@ -15,11 +15,22 @@
   }
 
   function cleanSourceText(value) {
-    let text = clean(value).replace(/^(?:\.[a-z0-9_-]+\s*\{[^{}]{0,1200}\}\s*)+/i, "");
+    let text = clean(value).replace(/\.[a-z0-9_-]+\s*\{[^{}]{0,2000}\}/gi, " ");
     const markers = ["中央农业干部教育培训中心", "网站识别码", "京ICP备", "京公网安备", "版权所有", "主办单位"];
     const positions = markers.map(function (marker) { return text.indexOf(marker); }).filter(function (position) { return position >= 20; });
     if (positions.length) text = text.slice(0, Math.min.apply(null, positions)).trim();
     return text;
+  }
+
+  function cleanTranslationArtifacts(value, source) {
+    let text = clean(value);
+    if (source === "National Association of Manufacturers") {
+      text = text
+        .replace(/不结盟运动/g, "美国制造商协会")
+        .replace(/\bPOST\s+/gi, "")
+        .replace(/\bNAM\s*[，,]?\s*/g, "美国制造商协会");
+    }
+    return text.replace(/Magneto\s*[‐‑–—-]\s*ionic/gi, "磁离子").trim();
   }
 
   function safeUrl(value) {
@@ -53,7 +64,7 @@
   }
 
   function normalizeStory(story) {
-    const title = displayTitle(story);
+    const title = cleanTranslationArtifacts(displayTitle(story), story.source);
     const url = safeUrl(story.sourceUrl || story.url);
     const excluded = ["公开资料提供新的观察线索", "我爸是顶流", "幸福中国年", "旅游强国里的中式浪漫"];
     if (!title || !url || !story.category || excluded.some(function (term) { return title.includes(term); })) return null;
@@ -62,7 +73,7 @@
       id: String(story.collectionSourceId || story.source || "source") + ":" + String(story.id || url),
       category: clean(story.category),
       title: title,
-      summary: displaySummary(story),
+      summary: cleanTranslationArtifacts(displaySummary(story), story.source),
       originalTitle: clean(story.originalTitle),
       originalSummary: cleanSourceText(story.sourceMaterial || story.originalExcerpt).slice(0, 600),
       source: clean(story.source || "公开来源"),

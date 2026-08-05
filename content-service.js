@@ -15,6 +15,11 @@
     "多光谱遥感与田间机器人协同，精准农业从监测走向自主作业",
     "数字人文平台连接档案、博物馆与公共知识服务"
   ]);
+  const LOW_VALUE_TITLE_TERMS = [
+    "我爸是顶流",
+    "幸福中国年",
+    "旅游强国里的中式浪漫"
+  ];
 
   const SOURCE_NAME_ALIASES = {
     "MIT Technology Review": "麻省理工科技评论",
@@ -50,12 +55,69 @@
     return hasChineseText(name) ? name : "境外公开来源";
   }
 
+  function cleanSourceText(value) {
+    let text = String(value || "")
+      .replace(/\.[a-z0-9_-]+\s*\{[^{}]{0,2000}\}/gi, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+    const markers = ["网站识别码", "京ICP备", "京公网安备", "版权所有", "主办单位"];
+    const positions = markers.map(function (marker) { return text.indexOf(marker); })
+      .filter(function (position) { return position >= 20; });
+    if (positions.length) text = text.slice(0, Math.min.apply(null, positions)).trim();
+    return text;
+  }
+
+  function hasLowValueTitle(story) {
+    const text = `${story?.title || ""} ${story?.originalTitle || ""}`;
+    return LOW_VALUE_TITLE_TERMS.some(function (term) { return text.includes(term); });
+  }
+
+  function cleanTranslationArtifacts(value, story) {
+    let text = String(value || "");
+    if (String(story?.source || "") === "National Association of Manufacturers") {
+      text = text
+        .replace(/不结盟运动/g, "美国制造商协会")
+        .replace(/\bPOST\s+/gi, "")
+        .replace(/\bNAM\s*[，,]?\s*/g, "美国制造商协会");
+    }
+    return text
+      .replace(/Magneto\s*[‐‑–—-]\s*ionic/gi, "磁离子")
+      .replace(/\s+([，。；：！？])/g, "$1")
+      .trim();
+  }
+
+  function normalizeLegacyStory(story) {
+    if (!story || typeof story !== "object") return story;
+    story.title = cleanTranslationArtifacts(story.title, story);
+    story.excerpt = cleanTranslationArtifacts(story.excerpt, story);
+    if (story.translatedSourceTitle) {
+      story.translatedSourceTitle = cleanTranslationArtifacts(story.translatedSourceTitle, story);
+    }
+    if (story.translatedSourceMaterial) {
+      story.translatedSourceMaterial = cleanTranslationArtifacts(story.translatedSourceMaterial, story);
+    }
+    const original = `${story.originalTitle || ""} ${story.title || ""}`;
+    if (/战略气体氦|粮食生产底座是石油/.test(original) && story.category !== "能源") {
+      const previous = String(story.category || "");
+      story.category = "能源";
+      if (previous && String(story.title || "").startsWith(`${previous}前沿观察：`)) {
+        story.title = `能源前沿观察：${story.title.slice(`${previous}前沿观察：`.length)}`;
+      }
+    }
+    return story;
+  }
+
+  function normalizePublicContent(value) {
+    if (Array.isArray(value?.stories)) value.stories.forEach(normalizeLegacyStory);
+    return value;
+  }
+
   function isChinesePublicStory(story) {
     const title = String(story?.title || "").trim();
-    const excerpt = String(story?.excerpt || "").trim();
+    const excerpt = cleanSourceText(story?.excerpt);
     const body = Array.isArray(story?.body) ? story.body.join("\n") : String(story?.body || "");
     const sourceTitle = String(story?.originalTitle || "").trim();
-    const sourceMaterial = String(story?.sourceMaterial || "").trim();
+    const sourceMaterial = cleanSourceText(story?.sourceMaterial);
     const automatic = story?.automaticImport === true
       || Boolean(story?.collectionSourceId)
       || Boolean(story?.contentGenerationMode);
@@ -71,6 +133,7 @@
     const sourceMaterialReady = sourceMaterialIsUsable(sourceMaterial)
       || (translatedMaterialReady && sourceMaterialIsUsable(story?.translatedSourceMaterial));
     return hasChineseText(title)
+      && !hasLowValueTitle(story)
       && !genericTitle
       && !genericExcerpt
       && !truncatedTitle
@@ -122,7 +185,7 @@
   ];
 
   function sourceMaterialIsUsable(value) {
-    const text = String(value || "").replace(/\s+/g, " ").trim();
+    const text = cleanSourceText(value);
     if (text.length < 24) return false;
     const provinceHits = PROVINCE_NAV_NAMES.filter(function (name) { return text.includes(name); }).length;
     if (provinceHits >= 6) return false;
@@ -140,7 +203,7 @@
   }
 
   function presentationExcerpt(story) {
-    let text = String(story?.excerpt || "").trim();
+    let text = cleanTranslationArtifacts(cleanSourceText(story?.excerpt), story);
     if (!(story?.automaticImport || story?.contentGenerationMode || story?.collectionSourceId)) return text;
     text = text.split(LEGACY_AUTOMATIC_EXCERPT_NOTICE).join("").replace(/。。+/g, "。").trim();
     if (text.includes("视频简介")) text = text.split("视频简介")[0].trim();
@@ -229,9 +292,10 @@
         ? mergeWithBaseline(cached, fileContent)
         : fileContent;
     if (!next?.stories) return null;
-    savePublicCache(next);
-    window.dispatchEvent(new CustomEvent("fxcontentupdate", { detail: next }));
-    return next;
+    const normalized = normalizePublicContent(next);
+    savePublicCache(normalized);
+    window.dispatchEvent(new CustomEvent("fxcontentupdate", { detail: normalized }));
+    return normalized;
   }
 
   async function load(url, options) {
@@ -242,17 +306,17 @@
       // Render cached content immediately, then refresh static and cloud data.
       if (cached) {
         refreshPublicContent(url);
-        return cached;
+        return normalizePublicContent(cached);
       }
       const local = readLocal();
       if (local?.stories) {
         if (window.FXCloud?.isConfigured()) refreshPublicContent(url);
-        return local;
+        return normalizePublicContent(local);
       }
       const fileContent = await loadFile(url);
       if (fileContent?.stories) savePublicCache(fileContent);
       if (window.FXCloud?.isConfigured()) refreshPublicContent(url, fileContent);
-      return fileContent;
+      return normalizePublicContent(fileContent);
     }
 
     const fileContent = await loadFile(url);
@@ -261,20 +325,23 @@
       const cloudContent = await loadCloudContent();
       if (cloudContent?.stories) {
         const next = mergeWithBaseline(cloudContent, fileContent);
-        savePublicCache(next);
-        return next;
+        const normalized = normalizePublicContent(next);
+        savePublicCache(normalized);
+        return normalized;
       }
     }
 
     const local = readLocal();
-    if (local?.stories) return fileContent ? mergeContentBaseline(local, fileContent, true) : local;
-    return fileContent;
+    if (local?.stories) return normalizePublicContent(fileContent ? mergeContentBaseline(local, fileContent, true) : local);
+    return normalizePublicContent(fileContent);
   }
 
   window.FXContent = {
     load: load,
     readLocal: readLocal,
     readPublicCache: readPublicCache,
+    cleanSourceText: cleanSourceText,
+    cleanTranslationArtifacts: cleanTranslationArtifacts,
     presentationExcerpt: presentationExcerpt,
     sourceMaterialIsUsable: sourceMaterialIsUsable,
     automaticPresentationIntro: automaticPresentationIntro,

@@ -770,11 +770,34 @@ SOURCE_FOOTER_MARKERS = (
     "中央农业干部教育培训中心", "网站识别码", "京ICP备", "京公网安备",
     "版权所有", "联系我们", "主办单位", "地址：", "技术支持",
 )
+LOW_VALUE_TITLE_TERMS = (
+    "我爸是顶流",
+    "幸福中国年",
+    "旅游强国里的中式浪漫",
+)
+
+
+def remove_embedded_styles(value: str) -> str:
+    return re.sub(r"\.[a-z0-9_-]+\s*\{[^{}]{0,2000}\}", " ", str(value or ""), flags=re.I)
+
+
+def title_is_editorially_eligible(value: str) -> bool:
+    title = clean_text(value)
+    return bool(title) and not any(term in title for term in LOW_VALUE_TITLE_TERMS)
+
+
+def clean_translation_artifacts(value: str, source: str = "") -> str:
+    text = clean_text(value)
+    if source == "National Association of Manufacturers":
+        text = text.replace("不结盟运动", "美国制造商协会")
+        text = re.sub(r"\bPOST\s+", "", text, flags=re.I)
+        text = re.sub(r"\bNAM\s*[,，]?\s*", "美国制造商协会", text)
+    text = re.sub(r"Magneto\s*[‐‑–—-]\s*ionic", "磁离子", text, flags=re.I)
+    return clean_text(text)
 
 
 def clean_source_material(value: str) -> str:
-    text = clean_text(value)
-    text = re.sub(r"^(?:\.[a-z0-9_-]+\s*\{[^{}]{0,1200}\}\s*)+", "", text, flags=re.I)
+    text = clean_text(remove_embedded_styles(value))
     marker_positions = [text.find(marker) for marker in SOURCE_FOOTER_MARKERS if text.find(marker) >= 20]
     if marker_positions:
         text = text[:min(marker_positions)].strip()
@@ -838,6 +861,8 @@ def refresh_retained_source_material(stories: list[dict]) -> list[dict]:
     for story in stories:
         story["sourceMaterial"] = clean_source_material(story.get("sourceMaterial", ""))
         story["originalExcerpt"] = clean_source_material(story.get("originalExcerpt", ""))
+        story["excerpt"] = clean_source_material(story.get("excerpt", ""))
+        story["body"] = remove_embedded_styles(story.get("body", "")).strip()
         if not story.get("collectionSourceId"):
             continue
         material = clean_text(story.get("sourceMaterial", ""))
@@ -912,6 +937,7 @@ def refresh_retained_categories(
         story.pop("url", None)
         source = source_by_id.get(story.get("collectionSourceId"))
         if source:
+            previous_category = str(story.get("category") or "")
             classification_title = story.get("originalTitle") or story.get("title", "")
             classification_summary = story.get("sourceMaterial") or story.get("originalExcerpt") or story.get("excerpt", "")
             story["category"] = categorize(
@@ -920,6 +946,10 @@ def refresh_retained_categories(
                 source.get("categoryHint", ""),
                 rules,
             )
+            generated_prefix = f"{previous_category}前沿观察："
+            if previous_category and previous_category != story["category"] \
+                    and str(story.get("title") or "").startswith(generated_prefix):
+                story["title"] = f"{story['category']}前沿观察：{story['title'][len(generated_prefix):]}"
             story["tags"] = tags_for(
                 f"{classification_title} {classification_summary}",
                 story["category"],
@@ -1136,8 +1166,10 @@ def add_free_source_translation(story: dict) -> bool:
         translated_material = free_translate_text(original_material)
     if not has_cjk_text(translated_title) or not source_material_is_usable(translated_material):
         raise ValueError("外文来源未取得完整中文译文")
-    story["translatedSourceTitle"] = translated_title
-    story["translatedSourceMaterial"] = truncate_text(translated_material, 1600)
+    story["translatedSourceTitle"] = clean_translation_artifacts(translated_title, story.get("source", ""))
+    story["translatedSourceMaterial"] = truncate_text(
+        clean_translation_artifacts(translated_material, story.get("source", "")), 1600
+    )
     story["translationProvider"] = "MyMemory 公共翻译服务"
     story["translationMode"] = "machine-translation"
     return True
@@ -1219,8 +1251,10 @@ def generate_ai_article(story: dict) -> dict:
     title = clean_text(article.get("title", ""))
     excerpt = clean_text(article.get("excerpt", ""))
     body = str(article.get("body") or "").strip()
-    source_title_zh = clean_text(article.get("sourceTitleZh", ""))
-    source_material_zh = truncate_text(article.get("sourceMaterialZh", ""), 1600)
+    source_title_zh = clean_translation_artifacts(article.get("sourceTitleZh", ""), story.get("source", ""))
+    source_material_zh = truncate_text(
+        clean_translation_artifacts(article.get("sourceMaterialZh", ""), story.get("source", "")), 1600
+    )
     if not (10 <= count_content_characters(title) <= 80):
         raise ValueError("生成标题长度不合格")
     if count_content_characters(excerpt) < 60:
@@ -1518,6 +1552,7 @@ def main() -> int:
     retained_drafts = [
         story for story in refresh_retained_categories(pending_drafts(), sources, rules)
         if story_is_recent(story, max_age_days=max_source_age_days)
+        and title_is_editorially_eligible(story.get("originalTitle") or story.get("title", ""))
     ]
     retained_drafts = refresh_retained_source_material(retained_drafts)
     stories = []
@@ -1542,6 +1577,9 @@ def main() -> int:
             max_items = max(1, min(20, int(source.get("maxItems", 5))))
             for entry in entries[:max_items]:
                 fetched += 1
+                if not title_is_editorially_eligible(entry.get("title", "")):
+                    invalid_entries += 1
+                    continue
                 if not story_is_recent({
                     "originalPublishedAt": entry.get("published", ""),
                     "collectedAt": started_at,

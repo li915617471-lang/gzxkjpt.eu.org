@@ -1,8 +1,8 @@
 """Append collected stories to Supabase with an optional strict auto-review.
 
 The script is intended for GitHub Actions. It skips existing source
-URLs/titles and never updates an existing article. Automatic publication is
-limited to deterministic quality checks configured by the site. The Supabase
+URLs/titles and only repairs existing automatically imported articles. Automatic
+publication is limited to deterministic quality checks configured by the site. The Supabase
 service key must be provided through an environment secret and is never
 written to disk or logs.
 """
@@ -35,6 +35,9 @@ TRUSTED_LEVELS = {"authoritative", "professional"}
 QUOTA_TRUSTED_LEVELS = {"authoritative", "professional", "standard"}
 SOURCE_DISCLOSURE_HEADING = "简要来源"
 LEGACY_DISCLOSURE_HEADING = "来源与审核说明"
+LOW_VALUE_TITLE_TERMS = ("我爸是顶流", "幸福中国年", "旅游强国里的中式浪漫")
+GENERIC_AUTOMATIC_TITLE = re.compile(r"公开资料提供新的观察线索|公开资料显示的[^。]{0,20}动态")
+WEB_STYLE_NOISE = re.compile(r"\.[a-z0-9_-]+\s*\{[^{}]{0,2000}\}", re.I)
 
 
 def normalize_url(value: str) -> str:
@@ -132,13 +135,60 @@ SOURCE_NAVIGATION_NAMES = (
 
 
 def source_material_is_usable(value: Any) -> bool:
-    text = re.sub(r"\s+", " ", str(value or "")).strip()
+    text = WEB_STYLE_NOISE.sub(" ", str(value or ""))
+    text = re.sub(r"\s+", " ", text).strip()
     if len(text) < 24:
         return False
     if sum(name in text for name in SOURCE_NAVIGATION_NAMES) >= 6:
         return False
     repeated = re.search(r"(.{24,200}?)\s*\1", text)
     return repeated is None
+
+
+def automatic_quality_reasons(article: dict[str, Any]) -> list[str]:
+    extra = article.get("extra") if isinstance(article.get("extra"), dict) else {}
+    if int(article.get("id") or 0) < AUTOMATIC_ID_BASE and extra.get("automaticImport") is not True:
+        return []
+    combined_title = f"{article.get('title') or ''} {extra.get('originalTitle') or ''}"
+    reasons = []
+    if any(term in combined_title for term in LOW_VALUE_TITLE_TERMS):
+        reasons.append("超出平台前沿知识范围")
+    if GENERIC_AUTOMATIC_TITLE.search(combined_title):
+        reasons.append("标题缺少可识别主题")
+    if WEB_STYLE_NOISE.search(str(article.get("body") or "")):
+        reasons.append("正文包含网页样式代码")
+    return reasons
+
+
+def prepare_quality_demotions(
+    existing: list[dict[str, Any]], site_id: str, reviewed_at: str,
+) -> list[dict[str, Any]]:
+    updates = []
+    for article in existing:
+        if article.get("status") != "published":
+            continue
+        reasons = automatic_quality_reasons(article)
+        if not reasons:
+            continue
+        current_extra = article.get("extra") if isinstance(article.get("extra"), dict) else {}
+        merged_extra = dict(current_extra)
+        approval = merged_extra.get("automaticApproval")
+        approval = dict(approval) if isinstance(approval, dict) else {}
+        approval.update({"approved": False, "reviewedAt": reviewed_at, "qualityDemotionReasons": reasons})
+        merged_extra.update({
+            "automaticApproval": approval,
+            "qualityReviewStatus": "needs-review",
+            "qualityDemotionReasons": reasons,
+        })
+        updates.append({
+            "site_id": site_id,
+            "id": int(article["id"]),
+            "status": "review",
+            "time_label": "自动质量复核",
+            "extra": merged_extra,
+            "updated_at": reviewed_at,
+        })
+    return updates
 
 
 def has_source_disclosure(value: Any) -> bool:
@@ -248,6 +298,9 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
         "validSourceUrl": is_valid_source_url(story.get("sourceUrl") or story.get("url")),
         "namedSource": len(str(story.get("source") or "").strip()) >= 2,
         "completeTitle": len(title) >= 10,
+        "editorialScope": not any(term in f"{title} {story.get('originalTitle') or ''}" for term in (
+            "我爸是顶流", "幸福中国年", "旅游强国里的中式浪漫",
+        )),
         "completeExcerpt": len(excerpt) >= 60,
         "completeBody": count_content_characters(body) >= MIN_ARTICLE_CHARS,
         "structuredBody": has_unique_article_sections(body),
@@ -547,14 +600,28 @@ def prepare_source_metadata_updates(
             "translationProvider": story.get("translationProvider", ""),
             "translationMode": story.get("translationMode", ""),
         })
-        if merged_extra == current_extra:
+        automatic = int(article.get("id") or 0) >= AUTOMATIC_ID_BASE \
+            or current_extra.get("automaticImport") is True
+        body = story.get("body") or ""
+        if isinstance(body, list):
+            body = "\n\n".join(str(item) for item in body)
+        repaired = {
+            "category": story.get("category", article.get("category", "")),
+            "title": story.get("title", article.get("title", "")),
+            "excerpt": story.get("excerpt", article.get("excerpt", "")),
+            "body": body or article.get("body", ""),
+        } if automatic else {}
+        unchanged_content = all(article.get(key) == value for key, value in repaired.items())
+        if merged_extra == current_extra and unchanged_content:
             continue
-        updates.append({
+        update = {
             "site_id": site_id,
             "id": int(article["id"]),
             "extra": merged_extra,
             "updated_at": imported_at,
-        })
+        }
+        update.update(repaired)
+        updates.append(update)
     return updates
 
 
@@ -778,7 +845,7 @@ class SupabaseRest:
             "GET",
             "articles?site_id=eq."
             + encoded_site
-            + "&select=id,title,source_url,body,position,category,status,extra,updated_at&limit=10000",
+            + "&select=id,title,excerpt,source_url,body,position,category,status,time_label,extra,updated_at&limit=10000",
         )
 
     def site_operations(self, site_id: str) -> dict[str, Any]:
@@ -805,10 +872,8 @@ class SupabaseRest:
         for row in rows:
             encoded_site = urllib.parse.quote(str(row["site_id"]), safe="")
             article_id = int(row["id"])
-            payload = {
-                "extra": row.get("extra", {}),
-                "updated_at": row.get("updated_at"),
-            }
+            allowed = {"category", "title", "excerpt", "body", "status", "time_label", "extra", "updated_at"}
+            payload = {key: value for key, value in row.items() if key in allowed}
             result = self.request(
                 "PATCH",
                 f"articles?site_id=eq.{encoded_site}&id=eq.{article_id}",
@@ -866,6 +931,8 @@ def main() -> int:
             stories, existing, site_id, imported_at
         )
         metadata_updated = metadata_rows if args.dry_run else client.upsert_article_metadata(metadata_rows)
+        demotion_rows = prepare_quality_demotions(existing, site_id, imported_at)
+        quality_demoted = demotion_rows if args.dry_run else client.upsert_article_metadata(demotion_rows)
         promotions, daily_counts = prepare_promotions(
             stories, existing, inserted, policy, imported_at, site_id
         )
@@ -881,6 +948,7 @@ def main() -> int:
         f"inserted={len(inserted)}, duplicates={duplicates}, invalid={invalid}, "
         f"auto_published={sum(1 for row in inserted if row.get('status') == 'published')}, "
         f"source_metadata_updated={len(metadata_updated)}, "
+        f"quality_demoted={len(quality_demoted)}, "
         f"promoted={len(promoted)}, "
         f"source={len(stories)}"
     )
