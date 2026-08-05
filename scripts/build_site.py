@@ -33,6 +33,7 @@ PUBLIC_FILES = (
     "governance.html",
     "governance.js",
     "index.html",
+    "intelligence-service.js",
     "manifest.webmanifest",
     "offline.html",
     "opensearch.xml",

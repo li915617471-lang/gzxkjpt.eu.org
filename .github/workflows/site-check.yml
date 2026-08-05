@@ -33,6 +33,7 @@ jobs:
           node --check governance.js
           node --check cloud.js
           node --check content-service.js
+          node --check intelligence-service.js
           node --check pwa.js
           node --check sw.js
 

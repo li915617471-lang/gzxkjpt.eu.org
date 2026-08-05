@@ -1,4 +1,4 @@
-const CACHE_VERSION = "fx-public-v34";
+const CACHE_VERSION = "fx-public-v35";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -18,7 +18,7 @@ const CORE_ASSETS = [
   "./cloud-config.js",
   "./cloud.js",
   "./content-service.js?v=13",
-  "./intelligence-service.js?v=3",
+  "./intelligence-service.js?v=4",
   "./assets/vendor/supabase-2.111.0.min.js",
   "./assets/vendor/lucide-0.468.0.min.js",
   "./assets/vendor/hls-1.6.13.min.js",
