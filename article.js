@@ -457,8 +457,8 @@ function renderArticle(story) {
   document.querySelector("#articleRead").textContent = Number(story.readMinutes || 6) + " 分钟阅读";
   document.querySelector("#articleTitle").textContent = story.title;
   const articleExcerpt = document.querySelector("#articleExcerpt");
-  articleExcerpt.hidden = isAutomaticStory(story);
-  articleExcerpt.textContent = articleExcerpt.hidden ? "" : window.FXContent.presentationExcerpt(story);
+  articleExcerpt.hidden = false;
+  articleExcerpt.textContent = window.FXContent.presentationExcerpt(story);
   const articleImage = document.querySelector("#articleImage");
   const imageFallback = story.imageFallback || "assets/factory.jpg";
   articleImage.referrerPolicy = "no-referrer";
