@@ -45,7 +45,7 @@
       "color": "#6ee7a8",
       "icon": "cpu",
       "enabled": true,
-      "keywords": ["人工智能", "大模型", "算力", "芯片", "半导体", "量子", "软件", "生物技术", "AI", "LLM", "LLMs", "technology", "engineering", "science", "research", "network", "fiber", "dark matter", "robot", "chip", "semiconductor", "quantum", "biotech"]
+      "keywords": ["人工智能", "大模型", "算力", "芯片", "半导体", "量子", "软件", "生物技术", "天文", "航天", "日全食", "暗能量", "太空望远镜", "小行星", "太阳风暴", "空间天气", "AI", "LLM", "LLMs", "technology", "engineering", "science", "research", "network", "fiber", "dark matter", "dark energy", "space telescope", "asteroid", "solar eclipse", "solar storm", "space weather", "astronomy", "robot", "chip", "semiconductor", "quantum", "biotech"]
     },
     {
       "name": "工业",
@@ -59,7 +59,7 @@
       "color": "#f0b85a",
       "icon": "battery-charging",
       "enabled": true,
-      "keywords": ["电池", "储能", "光伏", "新能源", "电力", "风电", "氢能", "石油", "天然气", "energy", "battery", "solar", "grid", "electricity", "oil", "crude", "natural gas", "LNG", "renewable"]
+      "keywords": ["能源", "电池", "储能", "光伏", "新能源", "电力", "风电", "氢能", "石油", "天然气", "energy", "battery", "solar", "grid", "electricity", "oil", "crude", "natural gas", "LNG", "renewable"]
     },
     {
       "name": "农业",

@@ -44,10 +44,10 @@ LOG_FILE = ROOT / "data" / "collection-logs.json"
 CATEGORY_RULES = {
     "金融": ["finance", "fintech", "bank", "central bank", "ecb", "payment", "insurance", "fund", "digital currency", "monetary", "inflation", "interest rate", "economy", "euro", "wage", "collateral", "governing council", "金融", "银行", "证券", "支付", "保险", "基金", "数字货币", "利率", "通胀", "货币政策"],
     "农业": ["agriculture", "farming", "farm", "crop", "food", "food tech", "agritech", "livestock", "irrigation", "农业", "农机", "育种", "粮食", "种植", "养殖", "农田", "农业科技"],
-    "能源": ["battery", "energy", "solar", "storage", "geothermal", "renewable", "grid", "electricity", "oil", "crude", "natural gas", "lng", "电池", "储能", "光伏", "新能源", "电力", "地热", "石油", "天然气"],
+    "能源": ["battery", "energy", "solar", "storage", "geothermal", "renewable", "grid", "electricity", "oil", "crude", "natural gas", "lng", "能源", "电池", "储能", "光伏", "新能源", "电力", "地热", "石油", "天然气"],
     "工业": ["robot", "factory", "manufacturing", "automation", "industrial", "production", "output", "supply chain", "logistics", "plant", "opening", "expansion", "industrial company", "tariff", "revenue", "机器人", "工厂", "制造", "自动化", "产线", "工业互联网", "供应链", "生产", "制造企业"],
     "人文": ["humanities", "culture", "education", "history", "museum", "society", "art", "literature", "philosophy", "film", "music", "book", "manuscript", "ancient", "poetry", "map", "mythology", "人文", "文化", "教育", "历史", "博物馆", "社会", "艺术", "文学"],
-    "科技": ["ai", "llm", "llms", "artificial intelligence", "technology", "engineering", "science", "research", "network", "fiber", "dark matter", "model", "compute", "robot", "chip", "semiconductor", "wafer", "packaging", "chiplet", "quantum", "biotech", "人工智能", "大模型", "算力", "模型", "芯片", "半导体", "封装", "晶圆", "量子", "生物技术", "科学", "技术", "工程", "科研", "隧道", "氦"]
+    "科技": ["ai", "llm", "llms", "artificial intelligence", "technology", "engineering", "science", "research", "network", "fiber", "dark matter", "dark energy", "space telescope", "asteroid", "solar eclipse", "solar storm", "space weather", "astronomy", "model", "compute", "robot", "chip", "semiconductor", "wafer", "packaging", "chiplet", "quantum", "biotech", "人工智能", "大模型", "算力", "模型", "芯片", "半导体", "封装", "晶圆", "量子", "生物技术", "科学", "技术", "工程", "科研", "天文", "航天", "日全食", "暗能量", "太空望远镜", "小行星", "太阳风暴", "空间天气", "隧道", "氦"]
 }
 
 CATEGORY_COVERS = {
@@ -984,10 +984,17 @@ def refresh_retained_categories(
                 source.get("categoryHint", ""),
                 rules,
             )
-            generated_prefix = f"{previous_category}前沿观察："
-            if previous_category and previous_category != story["category"] \
-                    and str(story.get("title") or "").startswith(generated_prefix):
-                story["title"] = f"{story['category']}前沿观察：{story['title'][len(generated_prefix):]}"
+            title = str(story.get("title") or "")
+            generated_match = re.match(r"^(金融|科技|工业|能源|农业|人文)前沿观察：", title)
+            if generated_match and generated_match.group(1) != story["category"]:
+                story["title"] = f"{story['category']}前沿观察：{title[generated_match.end():]}"
+            if previous_category and previous_category != story["category"]:
+                story["categoryChanged"] = True
+                if story.get("contentGenerationMode") in {
+                        "github-models-source-grounded", "source-grounded-structured-fallback"}:
+                    story["body"] = ""
+                    story["status"] = "review"
+                    story["reviewNote"] = "板块已重新分类，正文将按新板块背景重新生成"
             story["tags"] = tags_for(
                 f"{classification_title} {classification_summary}",
                 story["category"],
@@ -1416,6 +1423,7 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
                 repair_generic_story_title(story)
                 break
         selected = candidates[:target]
+        selected.extend(story for story in candidates if story.get("categoryChanged") and story not in selected)
         selected.extend(story for story in candidates if id(story) in priority_video_ids and story not in selected)
         for story in selected:
             repair_generic_story_title(story)
@@ -1472,6 +1480,7 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
                 story["contentCharacterCount"] = count_content_characters(story["body"])
                 story["readMinutes"] = max(4, min(12, round(story["contentCharacterCount"] / 400)))
                 story["reviewNote"] = "已通过 800 字、来源可追溯、段落去重和中文结构检查"
+                story.pop("categoryChanged", None)
                 story.pop("contentGenerationError", None)
                 stats["generated"] += 1
             except Exception as exc:  # noqa: BLE001

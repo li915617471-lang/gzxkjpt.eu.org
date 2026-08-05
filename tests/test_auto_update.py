@@ -42,6 +42,27 @@ class CategoryTests(unittest.TestCase):
         )
         self.assertEqual(category, "能源")
 
+    def test_astronomy_energy_terms_are_classified_as_technology(self):
+        rules = auto_update.load_category_rules()
+        self.assertEqual(
+            auto_update.categorize(
+                "NASA's new dark energy space telescope can detect asteroids",
+                "Astronomy researchers describe a new science mission.",
+                "科技",
+                rules,
+            ),
+            "科技",
+        )
+        self.assertEqual(
+            auto_update.categorize(
+                "Total solar eclipse: how to watch live",
+                "The European Space Agency explains the astronomy event.",
+                "科技",
+                rules,
+            ),
+            "科技",
+        )
+
     def test_exact_ai_keyword_is_still_detected(self):
         category = auto_update.categorize(
             "AI is changing software development",
@@ -73,6 +94,18 @@ class CategoryTests(unittest.TestCase):
         sources = [{"id": "science-video", "categoryHint": "科技"}]
         updated = auto_update.refresh_retained_categories(stories, sources, self.rules)
         self.assertEqual(updated[0]["category"], "能源")
+        self.assertTrue(updated[0]["title"].startswith("能源前沿观察："))
+
+    def test_stale_generated_prefix_is_synchronized_without_category_change(self):
+        stories = [{
+            "title": "工业前沿观察：我国能源生产总体平稳",
+            "originalTitle": "我国能源生产总体平稳",
+            "sourceMaterial": "电力和清洁能源生产保持平稳，能源供应韧性继续提高。",
+            "category": "能源",
+            "collectionSourceId": "energy-source",
+        }]
+        sources = [{"id": "energy-source", "categoryHint": "能源"}]
+        updated = auto_update.refresh_retained_categories(stories, sources, self.rules)
         self.assertTrue(updated[0]["title"].startswith("能源前沿观察："))
 
     def test_category_scores_keep_source_hint_but_title_has_more_weight(self):
