@@ -1319,6 +1319,29 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
     for category in categories:
         candidates = [story for story in queue if story.get("category") == category]
         candidates.sort(key=story_queue_priority, reverse=True)
+        # Retained drafts can already have a publishable Chinese body while their
+        # source title and abstract still lack Chinese translations. Translate
+        # one newest retained item per category so the public intelligence radar
+        # never loses an entire board behind untranslated foreign metadata.
+        for story in candidates:
+            if not body_meets_publication_standard(story.get("body", "")):
+                continue
+            source_text = " ".join([
+                str(story.get("originalTitle") or story.get("title") or ""),
+                str(story.get("sourceMaterial") or story.get("excerpt") or ""),
+            ])
+            if not text_needs_translation(source_text):
+                break
+            translation_ready = has_cjk_text(story.get("translatedSourceTitle")) \
+                and source_material_is_usable(story.get("translatedSourceMaterial"))
+            if translation_ready:
+                break
+            if translations_used >= translation_target:
+                break
+            if add_free_source_translation(story):
+                translations_used += 1
+                stats["translated"] += 1
+                break
         selected = candidates[:target]
         selected.extend(story for story in candidates if id(story) in priority_video_ids and story not in selected)
         for story in selected:

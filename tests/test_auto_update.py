@@ -407,6 +407,31 @@ class RichDraftTests(unittest.TestCase):
         self.assertIn("测试条件", story["translatedSourceMaterial"])
         self.assertEqual(story["translationMode"], "machine-translation")
 
+    def test_publishable_retained_foreign_story_gets_board_translation(self):
+        body = "\n\n".join(
+            f"第{index}节\n\n" + (f"这是第{index}节基于来源材料整理的独立中文内容。" * 12)
+            for index in range(6)
+        ) + "\n\n简要来源\n\n请以原始来源为准。"
+        story = {
+            "category": "科技",
+            "originalTitle": "Artificial intelligence improves chip efficiency",
+            "title": "Artificial intelligence improves chip efficiency",
+            "sourceMaterial": "The study reports a tested hybrid computing framework for chip efficiency.",
+            "body": body,
+        }
+
+        def add_translation(item):
+            item["translatedSourceTitle"] = "人工智能提升芯片计算效率"
+            item["translatedSourceMaterial"] = "这项研究报告了一种经过测试的混合计算框架及其芯片效率结果。"
+            return True
+
+        with mock.patch.object(auto_update, "add_free_source_translation", side_effect=add_translation) as translate:
+            stats = auto_update.enhance_queue_bodies([story], ["科技"])
+
+        translate.assert_called_once_with(story)
+        self.assertEqual(stats["translated"], 1)
+        self.assertEqual(story["translatedSourceTitle"], "人工智能提升芯片计算效率")
+
     def test_structured_fallback_accepts_translated_foreign_material(self):
         article = auto_update.build_structured_article({
             "category": "工业",
