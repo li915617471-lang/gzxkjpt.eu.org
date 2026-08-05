@@ -249,6 +249,20 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(updates[0]["status"], "review")
         self.assertIn("正文包含网页样式或页脚代码", updates[0]["extra"]["qualityDemotionReasons"])
 
+    def test_astronomy_article_misclassified_as_energy_is_demoted(self):
+        existing = [{
+            "id": sync.AUTOMATIC_ID_BASE + 11,
+            "status": "published",
+            "category": "能源",
+            "title": "能源前沿观察：太阳风暴预测方法完成首次测试",
+            "body": "有效正文",
+            "extra": {"automaticImport": True},
+        }]
+        updates = sync.prepare_quality_demotions(existing, "main", "2026-08-05T00:00:00+00:00")
+        self.assertEqual(len(updates), 1)
+        self.assertEqual(updates[0]["status"], "review")
+        self.assertIn("天文航天内容误入能源板块", updates[0]["extra"]["qualityDemotionReasons"])
+
     def test_source_metadata_backfill_patches_existing_rows(self):
         client = sync.SupabaseRest("https://example.supabase.co", "service-key")
         calls = []

@@ -36,6 +36,10 @@ QUOTA_TRUSTED_LEVELS = {"authoritative", "professional", "standard"}
 SOURCE_DISCLOSURE_HEADING = "简要来源"
 LEGACY_DISCLOSURE_HEADING = "来源与审核说明"
 LOW_VALUE_TITLE_TERMS = ("我爸是顶流", "幸福中国年", "旅游强国里的中式浪漫")
+ASTRONOMY_TITLE_TERMS = (
+    "日全食", "暗能量", "太空望远镜", "小行星", "太阳风暴", "空间天气",
+    "solar eclipse", "dark energy", "space telescope", "asteroid", "solar storm", "space weather",
+)
 GENERIC_AUTOMATIC_TITLE = re.compile(r"公开资料提供新的观察线索|公开资料显示的[^。]{0,20}动态")
 WEB_STYLE_NOISE = re.compile(
     r"\.[a-z0-9_-]+\s*\{[^{}]{0,2000}\}|网站识别码|京ICP备|京公网安备|中央农业干部教育培训中心",
@@ -158,6 +162,9 @@ def automatic_quality_reasons(article: dict[str, Any]) -> list[str]:
         reasons.append("超出平台前沿知识范围")
     if GENERIC_AUTOMATIC_TITLE.search(combined_title):
         reasons.append("标题缺少可识别主题")
+    if article.get("category") == "能源" and any(
+            term.lower() in combined_title.lower() for term in ASTRONOMY_TITLE_TERMS):
+        reasons.append("天文航天内容误入能源板块")
     if WEB_STYLE_NOISE.search(str(article.get("body") or "")):
         reasons.append("正文包含网页样式或页脚代码")
     return reasons
