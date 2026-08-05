@@ -9,7 +9,18 @@ const CATEGORY_COPY = {
   "人文": { description: "汇集文化遗产、教育、历史、艺术与社会研究中的重要发现和讨论。", image: "assets/semiconductor.jpg", focus: ["文化", "教育", "历史", "艺术"] }
 };
 
-const EXTERNAL_SEARCH_START_DATE = "2021-01-01";
+const CATEGORY_QUERY_TERMS = {
+  "金融": ["金融", "银行", "支付", "货币", "利率", "通胀", "证券", "保险", "fintech", "bank", "finance"],
+  "科技": ["科技", "人工智能", "大模型", "算力", "芯片", "半导体", "量子", "ai", "llm", "chip", "quantum"],
+  "工业": ["工业", "制造", "工厂", "机器人", "自动化", "供应链", "manufacturing", "factory", "industrial"],
+  "能源": ["能源", "电力", "储能", "电池", "光伏", "石油", "天然气", "energy", "battery", "solar"],
+  "农业": ["农业", "粮食", "育种", "农机", "种植", "养殖", "agriculture", "farm", "crop"],
+  "人文": ["人文", "文化", "历史", "教育", "艺术", "文学", "博物馆", "culture", "history", "art"]
+};
+
+const externalSearchStart = new Date();
+externalSearchStart.setMonth(externalSearchStart.getMonth() - 18);
+const EXTERNAL_SEARCH_START_DATE = externalSearchStart.toISOString().slice(0, 10);
 const EXTERNAL_SEARCH_CACHE_MS = 30 * 60 * 1000;
 
 let categoryContent = null;
@@ -17,6 +28,7 @@ let activeCategory = "";
 let categoryQuery = "";
 let categorySort = "latest";
 let categorySearchMode = "local";
+let categoryIntelligence = { generatedAt: "", stories: [], collection: {}, errors: [] };
 let externalSearchController = null;
 let externalSearchState = {
   status: "idle",
@@ -144,6 +156,19 @@ function externalRelevanceScore(title, summary, query) {
   return phraseScore + tokens.reduce(function (score, token) {
     return score + (normalizedText.includes(token) ? 20 : 0);
   }, 0);
+}
+
+function inferredQueryCategory(query) {
+  const text = String(query || "").toLowerCase();
+  const scores = Object.entries(CATEGORY_QUERY_TERMS).map(function (entry) {
+    return {
+      category: entry[0],
+      score: entry[1].reduce(function (total, term) {
+        return total + (text.includes(String(term).toLowerCase()) ? 1 : 0);
+      }, 0)
+    };
+  }).sort(function (left, right) { return right.score - left.score; });
+  return scores[0]?.score > 0 ? scores[0].category : "";
 }
 
 async function translateExternalText(value, signal) {
@@ -301,11 +326,19 @@ function externalSearchKey() {
   return `${activeCategory}:${categoryQuery.trim().toLowerCase()}`;
 }
 
+function externalDateTimestamp(value) {
+  const timestamp = new Date(value || 0).getTime();
+  if (!Number.isFinite(timestamp) || timestamp <= 0) return 0;
+  return timestamp <= Date.now() + 86400000 ? timestamp : 0;
+}
+
 function readExternalSearchCache(key) {
   try {
-    const cached = JSON.parse(sessionStorage.getItem(`fx-authority-search-v4:${key}`) || "null");
+    const cached = JSON.parse(sessionStorage.getItem(`fx-authority-search-v6:${key}`) || "null");
     if (!cached || Date.now() - Number(cached.savedAt || 0) > EXTERNAL_SEARCH_CACHE_MS) return null;
-    return Array.isArray(cached.results) && cached.results.length ? cached : null;
+    if (!Array.isArray(cached.results) || !cached.results.length) return null;
+    cached.results = deduplicateExternalResults(cached.results);
+    return cached;
   } catch (error) {
     return null;
   }
@@ -314,7 +347,7 @@ function readExternalSearchCache(key) {
 function writeExternalSearchCache(key, results, providers) {
   if (!Array.isArray(results) || results.length === 0) return;
   try {
-    sessionStorage.setItem(`fx-authority-search-v4:${key}`, JSON.stringify({
+    sessionStorage.setItem(`fx-authority-search-v6:${key}`, JSON.stringify({
       savedAt: Date.now(),
       results: results,
       providers: providers
@@ -334,11 +367,37 @@ function deduplicateExternalResults(results, limit = 18) {
     seen.add(normalizedTitle);
     return true;
   }).sort(function (left, right) {
-    return Number(right.relevanceScore || 0) - Number(left.relevanceScore || 0)
+    return externalDateTimestamp(right.date) - externalDateTimestamp(left.date)
+      || Number(right.relevanceScore || 0) - Number(left.relevanceScore || 0)
       || Number(right.authorityScore || 0) - Number(left.authorityScore || 0)
-      || Number(right.citations || 0) - Number(left.citations || 0)
-      || new Date(right.date || 0).getTime() - new Date(left.date || 0).getTime();
+      || Number(right.citations || 0) - Number(left.citations || 0);
   }).slice(0, limit);
+}
+
+function intelligenceExternalResults(query) {
+  const sourceStories = categoryIntelligence.stories || [];
+  const matches = query.trim()
+    ? window.FXIntelligence.search(sourceStories, { query: query, category: activeCategory, limit: 12 })
+    : window.FXIntelligence.latest(sourceStories, activeCategory, 10);
+  return matches.map(function (item) {
+    const hasForeignOriginal = /[A-Za-z]/.test(item.originalTitle)
+      && item.originalTitle.toLowerCase() !== item.title.toLowerCase();
+    return {
+      key: `intelligence:${item.id}`,
+      title: item.title,
+      summary: item.summary || "该资料已进入平台最新来源池，可打开原始页面查看公开内容。",
+      originalTitle: hasForeignOriginal ? item.originalTitle : "",
+      originalSummary: hasForeignOriginal ? item.originalSummary : "",
+      translationLabel: hasForeignOriginal ? "中文机器翻译" : "",
+      url: item.url,
+      date: item.publishedAt ? new Date(item.publishedAt).toISOString().slice(0, 10) : "",
+      type: "平台最新资料",
+      source: item.source,
+      citations: 0,
+      authorityScore: Math.max(18, Math.round(item.confidence / 4)),
+      relevanceScore: Number(item.searchScore || 1) + 40
+    };
+  });
 }
 
 async function localizeExternalResults(results, query, signal) {
@@ -354,8 +413,21 @@ async function localizeExternalResults(results, query, signal) {
 
 async function searchExternalSources() {
   const query = categoryQuery.trim();
+  const indexedResults = intelligenceExternalResults(query);
   if (query.length < 2) {
-    externalSearchState = { status: "idle", queryKey: "", results: [], providers: 0, error: "" };
+    externalSearchState = {
+      status: "ready", queryKey: externalSearchKey(), results: indexedResults,
+      providers: indexedResults.length ? 1 : 0, error: ""
+    };
+    renderCategoryPage();
+    return;
+  }
+  const inferredCategory = inferredQueryCategory(query);
+  if (inferredCategory && inferredCategory !== activeCategory) {
+    externalSearchState = {
+      status: "error", queryKey: externalSearchKey(), results: [], providers: 1,
+      error: `该关键词更符合“${inferredCategory}”板块，请切换板块后搜索。`
+    };
     renderCategoryPage();
     return;
   }
@@ -382,14 +454,14 @@ async function searchExternalSources() {
     ]);
     if (key !== externalSearchKey() || categorySearchMode !== "authority") return;
     const successful = responses.filter(function (result) { return result.status === "fulfilled"; });
-    if (!successful.length) throw new Error("权威资料服务暂时无法连接");
-    const candidates = deduplicateExternalResults(successful.flatMap(function (result) { return result.value; }), 30);
+    if (!successful.length && !indexedResults.length) throw new Error("最新资料服务暂时无法连接");
+    const candidates = deduplicateExternalResults(indexedResults.concat(successful.flatMap(function (result) { return result.value; })), 36);
     const results = await localizeExternalResults(candidates, query, externalSearchController.signal);
     externalSearchState = {
       status: "ready", queryKey: key, results: results,
-      providers: successful.length, error: successful.length < responses.length ? "部分来源暂时不可用" : ""
+      providers: successful.length + (indexedResults.length ? 1 : 0), error: successful.length < responses.length ? "部分外部来源暂时不可用" : ""
     };
-    writeExternalSearchCache(key, results, successful.length);
+    writeExternalSearchCache(key, results, successful.length + (indexedResults.length ? 1 : 0));
   } catch (error) {
     if (error?.name === "AbortError" && key !== externalSearchKey()) return;
     externalSearchState = {
@@ -482,6 +554,20 @@ function renderCategoryNav() {
   });
 }
 
+function renderCategoryLive() {
+  const items = window.FXIntelligence.latest(categoryIntelligence.stories || [], activeCategory, 3);
+  const color = safeCategoryColor(activeSetting().color);
+  document.querySelector("#categoryLiveTitle").textContent = `${activeCategory}最新资料`;
+  document.querySelector("#categoryLiveGrid").innerHTML = items.map(function (item) {
+    return `<a class="category-live-item" href="${escapeCategoryHtml(item.url)}" target="_blank" rel="noopener noreferrer" style="--category-color:${color}">
+      <span><strong>${escapeCategoryHtml(item.title)}</strong><small>${escapeCategoryHtml(window.FXContent.localizedSourceName(item.source))} · ${escapeCategoryHtml(item.summary || "打开来源页面查看公开资料")}</small></span>
+      <time>${escapeCategoryHtml(window.FXIntelligence.formatDate(item.publishedAt))}</time>
+    </a>`;
+  }).join("") || `<div class="category-live-item"><span><strong>等待本板块最新资料</strong><small>下一轮采集完成后自动显示</small></span></div>`;
+  const collection = categoryIntelligence.collection || {};
+  document.querySelector("#categoryLiveStatus").textContent = `${window.FXIntelligence.formatDateTime(categoryIntelligence.generatedAt)} 更新 · ${Number(collection.sourcesSucceeded || 0)}/${Number(collection.sourcesTotal || 0)} 来源正常`;
+}
+
 function applyCategoryTheme() {
   const theme = categoryContent?.theme || {};
   const root = document.documentElement;
@@ -500,6 +586,7 @@ function renderCategoryPage() {
   if (!available.some(function (item) { return item.name === activeCategory; })) activeCategory = available[0]?.name || "科技";
   const setting = activeSetting();
   const copy = categoryCopy();
+  renderCategoryLive();
   const stories = visibleCategoryStories();
   const totalStories = (categoryContent?.stories || []).filter(function (story) {
     const body = Array.isArray(story.body) ? story.body.join("\n") : String(story.body || "");
@@ -520,7 +607,7 @@ function renderCategoryPage() {
     return `<button type="button" data-topic="${escapeCategoryHtml(topic)}">${escapeCategoryHtml(topic)}</button>`;
   }).join("");
   document.querySelector("#categoryFeedTitle").textContent = categorySearchMode === "authority"
-    ? activeCategory + "权威资料搜索"
+    ? activeCategory + "最新资料搜索"
     : activeCategory + "最新资料";
   document.querySelector("#categoryMetrics").innerHTML = `<div><strong>${totalStories.length}</strong><span>可阅读文章</span></div><div><strong>${sourceCount}</strong><span>公开来源</span></div><div><strong>持续</strong><span>每日自动更新</span></div>`;
   document.querySelectorAll("[data-search-mode]").forEach(function (button) {
@@ -536,7 +623,7 @@ function renderCategoryPage() {
   sortLabel.hidden = categorySearchMode === "authority";
   externalInfo.hidden = categorySearchMode !== "authority";
   document.querySelector("#categorySearch").placeholder = categorySearchMode === "authority"
-    ? `搜索${activeCategory}权威资料，按回车开始`
+    ? `搜索${activeCategory}最新资料`
     : `搜索${activeCategory}板块内容`;
 
   const storyGrid = document.querySelector("#categoryStories");
@@ -549,29 +636,31 @@ function renderCategoryPage() {
     storyGrid.innerHTML = results.map(externalResultCard).join("");
     const infoText = externalInfo.querySelector("span");
     if (externalSearchState.status === "loading") {
-      infoText.textContent = "正在并行查询中文百科、开放学术与出版物索引，请稍候。";
+      infoText.textContent = "正在查询平台最新资料池、中文百科、开放学术与出版物索引。";
     } else if (externalSearchState.error) {
       infoText.textContent = `${externalSearchState.error}；已有本站内容仍可正常搜索。`;
     } else {
-      infoText.textContent = "搜索词发送给公开资料索引；外文标题与摘要经公共翻译服务转换，并同时保留原文。";
+      infoText.textContent = "结果先按板块与关键词严格匹配，再按相关度和来源发布日期排序；外文资料同时保留原文和中文机器翻译。";
     }
     empty.hidden = results.length !== 0;
     if (externalSearchState.status === "loading") {
-      empty.querySelector("strong").textContent = "正在搜索权威资料";
-      empty.querySelector("span").textContent = "正在连接三个公开资料索引";
+      empty.querySelector("strong").textContent = "正在搜索最新资料";
+      empty.querySelector("span").textContent = "正在连接平台资料池与三个公开索引";
     } else if (externalSearchState.status === "error") {
-      empty.querySelector("strong").textContent = "外部搜索暂时不可用";
+      empty.querySelector("strong").textContent = externalSearchState.error.startsWith("该关键词更符合")
+        ? "搜索词与当前板块不一致"
+        : "最新资料搜索暂时不可用";
       empty.querySelector("span").textContent = externalSearchState.error;
     } else if (categoryQuery.trim().length < 2) {
-      empty.querySelector("strong").textContent = "输入专业关键词";
-      empty.querySelector("span").textContent = "按回车或点击搜索查询权威资料";
+      empty.querySelector("strong").textContent = "本板块暂时没有最新资料";
+      empty.querySelector("span").textContent = "下一轮自动采集后会重新补充";
     } else {
-      empty.querySelector("strong").textContent = "没有找到中文权威资料";
+      empty.querySelector("strong").textContent = "没有找到匹配的最新资料";
       empty.querySelector("span").textContent = "尝试使用更具体的中文专业词汇";
     }
     document.querySelector("#categoryCount").textContent = externalSearchState.status === "loading"
       ? "正在查询"
-      : `${results.length} 条外部资料`;
+      : `${results.length} 条最新资料`;
   } else {
     storyGrid.classList.toggle("external-results", false);
     storyGrid.setAttribute("aria-busy", "false");
@@ -598,7 +687,7 @@ function setCategorySearchMode(mode) {
   externalSearchController?.abort();
   renderCategoryPage();
   syncCategoryUrl();
-  if (categorySearchMode === "authority" && categoryQuery.trim().length >= 2) {
+  if (categorySearchMode === "authority") {
     searchExternalSources();
   }
 }
@@ -640,7 +729,12 @@ function bindCategoryEvents() {
 async function initCategoryPage() {
   const params = new URLSearchParams(location.search);
   const requested = params.get("category");
-  categoryContent = await window.FXContent.load(CATEGORY_CONTENT_URL, { background: true });
+  const loaded = await Promise.all([
+    window.FXContent.load(CATEGORY_CONTENT_URL, { background: true }),
+    window.FXIntelligence.load().catch(function () { return categoryIntelligence; })
+  ]);
+  categoryContent = loaded[0];
+  categoryIntelligence = loaded[1];
   activeCategory = requested || categoryContent?.categories?.[0] || "科技";
   categoryQuery = params.get("q") || "";
   categorySearchMode = [params.get("scope"), params.get("mode")].includes("authority") ? "authority" : "local";
@@ -651,7 +745,7 @@ async function initCategoryPage() {
   renderCategoryNav();
   renderCategoryPage();
   bindCategoryEvents();
-  if (categorySearchMode === "authority" && categoryQuery.trim().length >= 2) {
+  if (categorySearchMode === "authority") {
     searchExternalSources();
   }
 }

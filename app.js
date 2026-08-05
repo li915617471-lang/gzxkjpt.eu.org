@@ -10,6 +10,8 @@ let activeHomeVideoId = "";
 let activeHomeVideoHls = null;
 let homeVideoLoadToken = 0;
 let activeChartRange = "24h";
+let intelligenceBundle = { generatedAt: "", stories: [], collection: {}, errors: [] };
+let intelligenceCategory = "全部";
 
 const fallbackContent = {
   site: {
@@ -125,6 +127,15 @@ async function loadContent() {
   return loaded || fallbackContent;
 }
 
+async function loadIntelligence(options) {
+  try {
+    intelligenceBundle = await window.FXIntelligence.load(options || {});
+  } catch (error) {
+    console.warn("最新资料读取失败", error);
+  }
+  return intelligenceBundle;
+}
+
 function applySiteContent() {
   const site = content.site || fallbackContent.site;
   const operations = Object.assign({
@@ -144,7 +155,7 @@ function applySiteContent() {
     ? "最新文章与前沿资料"
     : site.heroTitle;
   document.querySelector("#pulseTitle").textContent = homepageTitle;
-  document.querySelector(".pulse-heading p").textContent = "文章优先呈现，来源资料每日自动同步；数据统计仅作为阅读辅助";
+  document.querySelector(".pulse-heading p").textContent = "正式文章与最新来源资料分层呈现；公开来源每 3 小时自动同步";
   document.querySelector(".footer-brand").innerHTML = `${escapeHtml(site.name)} <span>知识索引 / 2026</span>`;
   document.querySelector("#footerDescription").textContent = site.footer;
   document.querySelector("#footerNotice").textContent = operations.publicNotice || "公益性科技与产业知识聚合平台";
@@ -203,28 +214,69 @@ function renderNav() {
     .join("");
 }
 
+function intelligenceItemsForRadar() {
+  const sourceStories = intelligenceBundle.stories || [];
+  if (state.query.trim()) {
+    return window.FXIntelligence.search(sourceStories, {
+      query: state.query,
+      category: intelligenceCategory === "全部" ? "" : intelligenceCategory,
+      limit: 12
+    });
+  }
+  if (intelligenceCategory !== "全部") {
+    return window.FXIntelligence.latest(sourceStories, intelligenceCategory, 9);
+  }
+  return getCategorySettings().filter(function (item) { return item.enabled !== false; }).flatMap(function (category) {
+    return window.FXIntelligence.latest(sourceStories, category.name, 1);
+  });
+}
+
+function renderIntelligenceRadar() {
+  const categories = getCategorySettings().filter(function (item) { return item.enabled !== false; });
+  const tabs = document.querySelector("#intelligenceRadarTabs");
+  tabs.innerHTML = ["全部"].concat(categories.map(function (item) { return item.name; })).map(function (name) {
+    return `<button type="button" data-intelligence-category="${escapeHtml(name)}" class="${name === intelligenceCategory ? "is-active" : ""}">${escapeHtml(name)}</button>`;
+  }).join("");
+  const items = intelligenceItemsForRadar();
+  const grid = document.querySelector("#intelligenceRadarGrid");
+  grid.innerHTML = items.map(function (item, index) {
+    const category = getCategorySetting(item.category);
+    return `<a class="intelligence-item" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" style="--category-color:${safeColor(category.color)}">
+      <span class="intelligence-item-index">${String(index + 1).padStart(2, "0")}</span>
+      <span class="intelligence-item-copy"><span>${escapeHtml(item.category)} · ${escapeHtml(window.FXContent.localizedSourceName(item.source))}</span><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.summary || "打开来源页面查看公开资料")}</small></span>
+      <time>${escapeHtml(window.FXIntelligence.formatDate(item.publishedAt))}</time>
+    </a>`;
+  }).join("");
+  document.querySelector("#intelligenceRadarEmpty").hidden = items.length !== 0;
+  const collection = intelligenceBundle.collection || {};
+  document.querySelector("#intelligenceRadarFreshness").textContent = `${window.FXIntelligence.formatDateTime(intelligenceBundle.generatedAt)} 更新 · ${intelligenceBundle.stories.length} 条最新资料`;
+  document.querySelector("#intelligenceRadarHealth").textContent = `${Number(collection.sourcesSucceeded || 0)}/${Number(collection.sourcesTotal || 0)} 来源正常`;
+}
+
 function renderDiscovery() {
   const publicStories = stories.filter(storyIsPublic).slice().sort((a, b) => {
-    const dateDelta = new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime();
+    const dateDelta = pulseStoryTimestamp(b) - pulseStoryTimestamp(a);
     return dateDelta || Number(b.id || 0) - Number(a.id || 0);
   });
   const latestSignals = document.querySelector("#latestSignals");
-  latestSignals.innerHTML = publicStories.slice(0, 3).map((story) => {
+  const latestSources = window.FXIntelligence.latest(intelligenceBundle.stories || [], "", 3);
+  latestSignals.innerHTML = latestSources.map((story) => {
     const category = getCategorySetting(story.category);
-    return `<a href="article.html?id=${encodeURIComponent(story.id)}" style="--category-color:${safeColor(category.color)}">
-      <span>${escapeHtml(story.category)}</span>
+    return `<a href="${escapeHtml(story.url)}" target="_blank" rel="noopener noreferrer" style="--category-color:${safeColor(category.color)}">
+      <span>${escapeHtml(story.category)} · 最新资料</span>
       <strong>${escapeHtml(story.title)}</strong>
-      <time>${escapeHtml(story.time || story.date || "最新")}</time>
+      <time>${escapeHtml(window.FXIntelligence.formatDate(story.publishedAt))}</time>
     </a>`;
   }).join("");
 
   const directory = document.querySelector("#categoryDirectory");
   const categories = getCategorySettings().filter((item) => item.enabled !== false);
   directory.innerHTML = categories.map((category) => {
-    const count = publicStories.filter((story) => story.category === category.name).length;
+    const articleCount = publicStories.filter((story) => story.category === category.name).length;
+    const sourceCount = (intelligenceBundle.stories || []).filter((story) => story.category === category.name).length;
     return `<a href="category.html?category=${encodeURIComponent(category.name)}" style="--category-color:${safeColor(category.color)}">
       <i data-lucide="${escapeHtml(category.icon || "folder")}"></i>
-      <span><strong>${escapeHtml(category.name)}</strong><small>${count} 条内容</small></span>
+      <span><strong>${escapeHtml(category.name)}</strong><small>${articleCount} 篇文章 · ${sourceCount} 条资料</small></span>
     </a>`;
   }).join("");
 
@@ -233,6 +285,7 @@ function renderDiscovery() {
   sourceFilter.value = sources.includes(state.source) ? state.source : "all";
   state.source = sourceFilter.value;
   updateFilterUi();
+  renderIntelligenceRadar();
 }
 
 function bilibiliPlayerUrl(value) {
@@ -496,7 +549,7 @@ function updateFilterUi() {
 }
 
 function pulseStoryTimestamp(story) {
-  const candidates = [story.collectedAt, story.originalPublishedAt, story.date];
+  const candidates = [story.sourcePublishedAt, story.originalPublishedAt, story.date, story.collectedAt];
   for (const candidate of candidates) {
     const timestamp = new Date(candidate || 0).getTime();
     if (Number.isFinite(timestamp) && timestamp > 0) return timestamp;
@@ -557,19 +610,18 @@ function pulseRangeSeries(publicStories, range) {
 }
 
 function pulseFreshnessLabel(publicStories) {
-  const latest = Math.max(0, ...publicStories.map(pulseStoryTimestamp));
-  if (!latest) return "平台实时计算 · 等待来源同步";
+  const latest = new Date(intelligenceBundle.generatedAt || 0).getTime()
+    || Math.max(0, ...publicStories.map(pulseStoryTimestamp));
+  if (!latest) return "近实时资料 · 等待来源同步";
   const minutes = Math.max(0, Math.floor((Date.now() - latest) / 60000));
-  if (minutes < 60) return `平台实时计算 · ${Math.max(1, minutes)} 分钟内有更新`;
-  if (minutes < 24 * 60) return `平台实时计算 · ${Math.floor(minutes / 60)} 小时内有更新`;
-  return `平台实时计算 · 最近更新 ${new Intl.DateTimeFormat("zh-CN", { month: "2-digit", day: "2-digit" }).format(new Date(latest))}`;
+  if (minutes < 60) return `近实时资料 · ${Math.max(1, minutes)} 分钟前采集`;
+  if (minutes < 24 * 60) return `近实时资料 · ${Math.floor(minutes / 60)} 小时前采集`;
+  return `近实时资料 · 最近采集 ${new Intl.DateTimeFormat("zh-CN", { month: "2-digit", day: "2-digit" }).format(new Date(latest))}`;
 }
 
 function renderCategoryPulse(publicStories) {
   const categories = getCategorySettings().filter((item) => item.enabled !== false);
-  const recentStart = Date.now() - 30 * 24 * 60 * 60 * 1000;
-  const recentStories = storiesInWindow(publicStories, recentStart);
-  const basis = recentStories.length ? recentStories : publicStories;
+  const basis = intelligenceBundle.stories.length ? intelligenceBundle.stories : publicStories;
   const counts = categories.map((category) => ({
     category: category,
     count: basis.filter((story) => story.category === category.name).length
@@ -581,9 +633,9 @@ function renderCategoryPulse(publicStories) {
       <span class="pulse-category-track"><i></i></span>
     </a>
   `).join("");
-  document.querySelector("#pulseCoverage").textContent = recentStories.length
-    ? `近30日 ${recentStories.length} 条公开内容`
-    : `当前 ${publicStories.length} 条公开内容`;
+  document.querySelector("#pulseCoverage").textContent = intelligenceBundle.stories.length
+    ? `本轮 ${intelligenceBundle.stories.length} 条最新来源资料`
+    : `当前 ${publicStories.length} 篇公开文章`;
 }
 
 function renderMetrics() {
@@ -598,19 +650,24 @@ function renderMetrics() {
   ).map((story) => story.source).filter(Boolean));
   const categories = getCategorySettings().filter((item) => item.enabled !== false);
   const coveredCategories = new Set(publicStories.map((story) => story.category)).size;
+  const intelligenceCategories = new Set((intelligenceBundle.stories || []).map((story) => story.category)).size;
   const videoCount = publicStories.filter(validHomeVideo).length;
-  const averageConfidence = publicStories.length
-    ? Math.round(publicStories.reduce((sum, story) => sum + Number(story.confidence || 0), 0) / publicStories.length)
+  const confidenceBasis = intelligenceBundle.stories.length ? intelligenceBundle.stories : publicStories;
+  const averageConfidence = confidenceBasis.length
+    ? Math.round(confidenceBasis.reduce((sum, story) => sum + Number(story.confidence || 0), 0) / confidenceBasis.length)
     : 0;
+  const collection = intelligenceBundle.collection || {};
+  const sourceSucceeded = Number(collection.sourcesSucceeded || 0);
+  const sourceTotal = Number(collection.sourcesTotal || 0);
   const trend24 = periodTrend(recent24, previous24);
   const trend7 = periodTrend(recent7, previous7);
   const metrics = [
-    { label: "近24小时新增", value: String(recent24), trend: trend24.label, direction: trend24.direction, trendIcon: trend24.icon, caption: "当前公开内容", icon: "radio-tower" },
-    { label: "近7日新增", value: String(recent7), trend: trend7.label, direction: trend7.direction, trendIcon: trend7.icon, caption: "滚动时间窗口", icon: "calendar-range" },
-    { label: "权威来源", value: String(trustedSources.size), trend: "通过来源核验", direction: "positive", trendIcon: "shield-check", caption: "高可信公开机构", icon: "landmark" },
-    { label: "板块覆盖", value: `${coveredCategories}/${categories.length}`, trend: "动态归类", direction: "neutral", trendIcon: "network", caption: "当前启用板块", icon: "layout-dashboard" },
+    { label: "24小时文章", value: String(recent24), trend: trend24.label, direction: trend24.direction, trendIcon: trend24.icon, caption: "已通过自动审核", icon: "newspaper" },
+    { label: "本轮最新资料", value: String(intelligenceBundle.stories.length), trend: `${Number(collection.added || 0)} 条新线索`, direction: "positive", trendIcon: "scan-search", caption: "与文章分层展示", icon: "radar" },
+    { label: "采集来源", value: `${sourceSucceeded}/${sourceTotal}`, trend: sourceSucceeded === sourceTotal ? "全部正常" : `${Number(collection.sourcesFailed || 0)} 个异常`, direction: sourceSucceeded === sourceTotal ? "positive" : "neutral", trendIcon: "shield-check", caption: "公开机构与专业来源", icon: "landmark" },
+    { label: "板块覆盖", value: `${intelligenceCategories || coveredCategories}/${categories.length}`, trend: "自动分类", direction: "neutral", trendIcon: "network", caption: "最新资料覆盖", icon: "layout-dashboard" },
     { label: "科普视频", value: String(videoCount), trend: "官方链接", direction: "neutral", trendIcon: "play", caption: "已确认展示权限", icon: "video" },
-    { label: "平均可信度", value: `${averageConfidence}%`, trend: "自动审核", direction: averageConfidence >= 85 ? "positive" : "neutral", trendIcon: "scan-search", caption: "公开内容平均值", icon: "badge-check" }
+    { label: "平均可信度", value: `${averageConfidence}%`, trend: `${trustedSources.size} 个已发布来源`, direction: averageConfidence >= 85 ? "positive" : "neutral", trendIcon: "badge-check", caption: "本轮资料平均值", icon: "badge-check" }
   ];
   chartSeries = {
     "24h": pulseRangeSeries(publicStories, "24h"),
@@ -663,32 +720,56 @@ function renderFeatured() {
 }
 
 function renderSignals() {
-  const signals = content.signals || fallbackContent.signals;
-  document.querySelector(".donut strong").textContent = signals.score ?? 72;
+  const collection = intelligenceBundle.collection || {};
+  const total = Math.max(1, Number(collection.sourcesTotal || 0));
+  const score = Math.round(Number(collection.sourcesSucceeded || 0) / total * 100);
+  document.querySelector(".donut strong").textContent = String(score);
   const legend = document.querySelector(".signal-legend");
-  legend.innerHTML = (signals.items || [])
-    .map((item) => `<span><i class="${escapeHtml(item.className || "")}"></i>${escapeHtml(item.label)} <b>${Number(item.value || 0)}%</b></span>`)
-    .join("");
+  const categories = getCategorySettings().filter(function (item) { return item.enabled !== false; });
+  const basis = intelligenceBundle.stories || [];
+  legend.innerHTML = categories.slice(0, 4).map(function (category) {
+    const count = basis.filter(function (story) { return story.category === category.name; }).length;
+    const share = basis.length ? Math.round(count / basis.length * 100) : 0;
+    return `<span><i style="background:${safeColor(category.color)}"></i>${escapeHtml(category.name)} <b>${share}%</b></span>`;
+  }).join("");
 }
 
 function renderTopics() {
   const list = document.querySelector(".topic-list");
-  list.innerHTML = (content.topics || [])
+  const categoryNames = new Set(getCategorySettings().map(function (item) { return item.name; }));
+  const counts = new Map();
+  (intelligenceBundle.stories || []).forEach(function (story) {
+    story.tags.filter(function (tag) { return !categoryNames.has(tag); }).forEach(function (tag) {
+      counts.set(tag, (counts.get(tag) || 0) + 1);
+    });
+  });
+  const topics = Array.from(counts, function (item) { return { label: item[0], count: item[1] }; })
+    .sort(function (left, right) { return right.count - left.count; }).slice(0, 4);
+  const maximum = Math.max(1, ...topics.map(function (topic) { return topic.count; }));
+  list.innerHTML = topics
     .map((topic, index) => `
       <li>
         <span class="topic-rank">${String(index + 1).padStart(2, "0")}</span>
-        <div><strong>${escapeHtml(topic.label)}</strong><div class="topic-bar"><i style="--score: ${Number(topic.score || 0)}%"></i></div></div>
-        <b>${escapeHtml(topic.growth)}</b>
+        <div><strong>${escapeHtml(topic.label)}</strong><div class="topic-bar"><i style="--score: ${Math.max(12, Math.round(topic.count / maximum * 100))}%"></i></div></div>
+        <b>${topic.count} 条</b>
       </li>
     `)
-    .join("");
+    .join("") || `<li><div><strong>等待本轮主题提取</strong></div></li>`;
 }
 
 function renderEvents() {
   const list = document.querySelector(".event-list");
-  list.innerHTML = (content.events || [])
-    .map((event) => `<article><time>${escapeHtml(event.date)}</time><div><strong>${escapeHtml(event.title)}</strong><span>${escapeHtml(event.meta)}</span></div></article>`)
-    .join("");
+  const results = Array.isArray(intelligenceBundle.collection?.sourceResults)
+    ? intelligenceBundle.collection.sourceResults : [];
+  const ordered = results.slice().sort(function (left, right) {
+    return Number(right.status === "failed") - Number(left.status === "failed") || Number(right.added || 0) - Number(left.added || 0);
+  });
+  const failed = ordered.filter(function (item) { return item.status === "failed"; });
+  const successful = ordered.filter(function (item) { return item.status !== "failed"; });
+  list.innerHTML = failed.concat(successful).slice(0, 4).map(function (item) {
+    const failedState = item.status === "failed";
+    return `<article><time>${failedState ? "异常" : "+" + Number(item.added || 0)}</time><div><strong>${escapeHtml(window.FXContent.localizedSourceName(item.source))}</strong><span>${failedState ? escapeHtml(item.error || "本轮连接失败") : `${Number(item.fetched || 0)} 条读取 · ${Number(item.durationMs || 0)}ms`}</span></div></article>`;
+  }).join("") || `<article><time>--</time><div><strong>等待采集状态</strong><span>完成后自动显示</span></div></article>`;
 }
 
 function storyTemplate(story, index) {
@@ -714,7 +795,7 @@ function storyTemplate(story, index) {
             <i class="source-mark"></i>
             <span>${escapeHtml(window.FXContent.localizedSourceName(story.source))}</span>
             <span>·</span>
-            <time>${escapeHtml(story.time || story.date || "刚刚")}</time>
+            <time>${escapeHtml(story.date ? window.FXIntelligence.formatDate(new Date(story.date).getTime()) : "最近发布")}</time>
           </div>
           <button class="bookmark-button ${saved ? "is-saved" : ""}" type="button" data-bookmark="${story.id}" aria-label="${saved ? "取消收藏" : "收藏内容"}" title="${saved ? "取消收藏" : "收藏内容"}">
             <i data-lucide="bookmark"></i>
@@ -741,7 +822,7 @@ function getVisibleStories() {
     let periodMatch = true;
     if (state.period !== "all") {
       const periodHours = { "24h": 24, "7d": 24 * 7, "30d": 24 * 30 }[state.period];
-      const timestamp = new Date(story.collectedAt || story.date || 0).getTime();
+      const timestamp = pulseStoryTimestamp(story);
       periodMatch = Number.isFinite(timestamp) && timestamp >= Date.now() - periodHours * 60 * 60 * 1000;
     }
     const body = Array.isArray(story.body) ? story.body.join(" ") : (story.body || "");
@@ -752,7 +833,7 @@ function getVisibleStories() {
   return filtered.sort((a, b) => {
     if (state.sort === "hot") return Number(b.heat || 0) - Number(a.heat || 0);
     if (state.sort === "read") return Number(b.readMinutes || 0) - Number(a.readMinutes || 0);
-    const dateDelta = new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime();
+    const dateDelta = pulseStoryTimestamp(b) - pulseStoryTimestamp(a);
     return dateDelta || Number(b.id || 0) - Number(a.id || 0);
   });
 }
@@ -760,7 +841,7 @@ function getVisibleStories() {
 function renderStories() {
   const visibleStories = getVisibleStories();
   const renderedStories = visibleStories.slice(0, state.visibleCount);
-  document.querySelector("#feedTitle").textContent = state.category === "全部" ? "今日聚合" : `${state.category}前沿`;
+  document.querySelector("#feedTitle").textContent = state.category === "全部" ? "最新文章" : `${state.category}最新文章`;
   storyGrid.classList.toggle("is-list", state.view === "list");
   storyGrid.innerHTML = renderedStories.map(storyTemplate).join("");
   attachImageFallbacks(storyGrid);
@@ -788,9 +869,10 @@ function setCategory(category) {
   document.querySelectorAll("[data-category-filter]").forEach((button) => {
     button.classList.toggle("is-active", button.dataset.categoryFilter === category);
   });
-  document.querySelector("#feedTitle").textContent = category === "全部" ? "今日聚合" : `${category}前沿`;
+  document.querySelector("#feedTitle").textContent = category === "全部" ? "最新文章" : `${category}最新文章`;
   updateFilterUi();
   renderStories();
+  renderIntelligenceRadar();
   syncSearchUrl();
 }
 
@@ -814,7 +896,11 @@ function suggestedExternalSearchCategory(query) {
   let best = { name: preferred || "科技", score: preferred ? 1 : 0 };
   getCategorySettings().filter((item) => item.enabled !== false).forEach((item) => {
     const terms = [item.name].concat(Array.isArray(item.keywords) ? item.keywords : []);
-    const score = terms.reduce((total, term) => total + (term && text.includes(String(term).toLowerCase()) ? 1 : 0), 0);
+    const sourceMatch = window.FXIntelligence.search(intelligenceBundle.stories || [], {
+      query: query, category: item.name, limit: 1
+    })[0];
+    const score = terms.reduce((total, term) => total + (term && text.includes(String(term).toLowerCase()) ? 30 : 0), 0)
+      + Number(sourceMatch?.searchScore || 0);
     if (score > best.score) best = { name: item.name, score: score };
   });
   return best.name;
@@ -943,7 +1029,14 @@ function bindStaticEvents() {
     state.visibleCount = 12;
     clearSearch.classList.toggle("is-visible", Boolean(state.query));
     renderStories();
+    renderIntelligenceRadar();
     syncSearchUrl();
+  });
+
+  searchInput.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter") return;
+    event.preventDefault();
+    openExternalAuthoritySearch();
   });
 
   clearSearch.addEventListener("click", () => {
@@ -953,6 +1046,7 @@ function bindStaticEvents() {
     clearSearch.classList.remove("is-visible");
     searchInput.focus();
     renderStories();
+    renderIntelligenceRadar();
     syncSearchUrl();
   });
 
@@ -1007,18 +1101,25 @@ function bindStaticEvents() {
     renderStories();
   });
 
-  document.querySelector("#briefingToggle").addEventListener("click", (event) => {
-    const nextState = event.currentTarget.getAttribute("aria-checked") !== "true";
-    event.currentTarget.setAttribute("aria-checked", String(nextState));
-    showToast(nextState ? "产业简报已开启" : "产业简报已关闭");
+  document.querySelector("#intelligenceRadarTabs").addEventListener("click", (event) => {
+    const button = event.target.closest("[data-intelligence-category]");
+    if (!button) return;
+    intelligenceCategory = button.dataset.intelligenceCategory || "全部";
+    renderIntelligenceRadar();
   });
 
-  document.querySelector("#refreshSignals").addEventListener("click", (event) => {
+  document.querySelector("#refreshSignals").addEventListener("click", async (event) => {
     const icon = event.currentTarget.querySelector("svg");
     icon?.animate([{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }], { duration: 520 });
-    const score = document.querySelector(".donut strong");
-    score.textContent = String(Math.min(99, Number(score.textContent || 72) + 2));
-    showToast("领域热度已刷新");
+    await loadIntelligence({ force: true });
+    renderDiscovery();
+    renderMetrics();
+    renderSignals();
+    renderTopics();
+    renderEvents();
+    renderChart(activeChartRange);
+    initializeIcons();
+    showToast("最新资料与来源状态已刷新");
   });
 
   document.querySelector("#themeToggle").addEventListener("click", (event) => {
@@ -1030,7 +1131,8 @@ function bindStaticEvents() {
 }
 
 async function init() {
-  content = await loadContent();
+  const loaded = await Promise.all([loadContent(), loadIntelligence()]);
+  content = loaded[0];
   stories = content.stories || [];
   const requestedCategory = new URLSearchParams(location.search).get("category");
   const requestedQuery = new URLSearchParams(location.search).get("q") || "";

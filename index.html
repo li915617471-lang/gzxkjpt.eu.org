@@ -20,15 +20,16 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
   <link rel="apple-touch-icon" href="assets/icon-192.png">
   <title>信息分享平台 | 全球前沿知识聚合平台</title>
-  <link rel="stylesheet" href="styles.css?v=16">
+  <link rel="stylesheet" href="styles.css?v=17">
   <script src="cloud-config.js" defer></script>
   <script src="assets/vendor/supabase-2.111.0.min.js" defer></script>
   <script src="cloud.js" defer></script>
   <script src="content-service.js?v=12" defer></script>
+  <script src="intelligence-service.js?v=1" defer></script>
   <script src="assets/vendor/lucide-0.468.0.min.js" defer></script>
   <script src="assets/vendor/hls-1.6.13.min.js" defer></script>
   <script src="pwa.js?v=2" defer></script>
-  <script src="app.js?v=15" defer></script>
+  <script src="app.js?v=16" defer></script>
   <script id="siteStructuredData" type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"信息分享平台","url":"https://gzxkjpt.eu.org/"}</script>
 </head>
 <body>
@@ -57,12 +58,12 @@
       <a class="admin-entry" href="admin.html" title="进入平台后台">后台</a>
       <label class="search-box" aria-label="搜索内容">
         <i data-lucide="search" aria-hidden="true"></i>
-        <input id="searchInput" type="search" placeholder="搜索本站文章，或查询站外资料" autocomplete="off">
+        <input id="searchInput" type="search" placeholder="搜索文章与最新资料" autocomplete="off">
         <button id="clearSearch" class="clear-search" type="button" aria-label="清空搜索" title="清空搜索">
           <i data-lucide="x" aria-hidden="true"></i>
         </button>
         <button id="externalSearchLauncher" class="external-search-launcher" type="button" aria-label="搜索站外权威资料" title="搜索站外权威资料">
-          <i data-lucide="globe-2" aria-hidden="true"></i><span>站外</span>
+          <i data-lucide="globe-2" aria-hidden="true"></i><span>全网</span>
         </button>
       </label>
       <button id="installApp" class="icon-button" type="button" aria-label="安装到设备" title="安装到设备" hidden>
@@ -174,12 +175,28 @@
       <a class="latest-all" href="#stories">浏览全部 <i data-lucide="arrow-down"></i></a>
     </section>
 
+    <section class="intelligence-radar" aria-labelledby="intelligenceRadarTitle">
+      <div class="intelligence-radar-head">
+        <div>
+          <div class="section-label">自动采集资料池</div>
+          <h2 id="intelligenceRadarTitle">最新资料雷达</h2>
+        </div>
+        <div class="intelligence-radar-status">
+          <span id="intelligenceRadarFreshness">正在连接最新资料</span>
+          <strong id="intelligenceRadarHealth">--</strong>
+        </div>
+      </div>
+      <div id="intelligenceRadarTabs" class="intelligence-radar-tabs" role="group" aria-label="最新资料板块"></div>
+      <div id="intelligenceRadarGrid" class="intelligence-radar-grid" aria-live="polite"></div>
+      <div id="intelligenceRadarEmpty" class="intelligence-radar-empty" hidden>当前条件下没有匹配的最新资料</div>
+    </section>
+
     <div class="content-shell">
       <section class="feed-section" aria-labelledby="feedTitle">
         <div class="feed-toolbar">
           <div>
             <div class="section-label">前沿文章</div>
-            <h2 id="feedTitle">今日聚合</h2>
+            <h2 id="feedTitle">最新文章</h2>
           </div>
           <div class="feed-controls">
             <span id="resultCount" class="result-count">0 条内容</span>
@@ -242,16 +259,16 @@
         <section class="rail-section">
           <div class="rail-heading">
             <div>
-              <div class="section-label">领域分布</div>
-              <h2>领域热度</h2>
+              <div class="section-label">采集运行</div>
+              <h2>来源健康度</h2>
             </div>
-            <button class="icon-button small" type="button" aria-label="刷新领域热度" title="刷新领域热度" id="refreshSignals">
+            <button class="icon-button small" type="button" aria-label="刷新最新资料" title="刷新最新资料" id="refreshSignals">
               <i data-lucide="refresh-cw"></i>
             </button>
           </div>
           <div class="signal-chart">
-            <div class="donut" aria-label="领域热度分布图">
-              <div><strong>72</strong><span>综合热度</span></div>
+            <div class="donut" aria-label="采集来源健康度">
+              <div><strong>--</strong><span>来源正常率</span></div>
             </div>
             <div class="signal-legend">
               <span><i class="legend-ai"></i>人工智能 <b>31%</b></span>
@@ -263,34 +280,25 @@
         </section>
 
         <section class="rail-section">
-          <div class="section-label">话题趋势</div>
-          <h2>热词增速</h2>
-          <ol class="topic-list">
-            <li><span class="topic-rank">01</span><div><strong>人形机器人</strong><div class="topic-bar"><i style="--score: 92%"></i></div></div><b>+46%</b></li>
-            <li><span class="topic-rank">02</span><div><strong>先进封装</strong><div class="topic-bar"><i style="--score: 78%"></i></div></div><b>+37%</b></li>
-            <li><span class="topic-rank">03</span><div><strong>固态电池</strong><div class="topic-bar"><i style="--score: 66%"></i></div></div><b>+29%</b></li>
-            <li><span class="topic-rank">04</span><div><strong>工业大模型</strong><div class="topic-bar"><i style="--score: 54%"></i></div></div><b>+21%</b></li>
-          </ol>
+          <div class="section-label">资料主题</div>
+          <h2>本轮高频主题</h2>
+          <ol class="topic-list"></ol>
         </section>
 
         <section class="rail-section event-section">
-          <div class="section-label">产业日历</div>
-          <h2>产业日历</h2>
-          <div class="event-list">
-            <article><time>08.02</time><div><strong>全球机器人产业峰会</strong><span>上海 · 09:00</span></div></article>
-            <article><time>08.08</time><div><strong>先进封装技术论坛</strong><span>深圳 · 13:30</span></div></article>
-            <article><time>08.16</time><div><strong>新型储能数据发布</strong><span>线上 · 10:00</span></div></article>
-          </div>
+          <div class="section-label">来源状态</div>
+          <h2>最近采集结果</h2>
+          <div class="event-list"></div>
         </section>
 
-        <section class="briefing-panel">
+        <a class="briefing-panel" href="feed.xml" title="订阅平台 RSS">
           <i data-lucide="radio-tower"></i>
           <div>
-            <strong>每日产业简报</strong>
-            <span>工作日 08:30 更新</span>
+            <strong>订阅最新文章</strong>
+            <span>RSS 自动获取公开内容</span>
           </div>
-          <button id="briefingToggle" class="switch" type="button" role="switch" aria-checked="false" aria-label="订阅每日产业简报"><i></i></button>
-        </section>
+          <i data-lucide="arrow-up-right"></i>
+        </a>
       </aside>
     </div>
 

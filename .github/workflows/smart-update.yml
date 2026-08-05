@@ -9,15 +9,17 @@ on:
       - "data/update-sources.json"
       - ".github/workflows/smart-update.yml"
   schedule:
-    # 北京时间 08:17，避开 GitHub Actions 整点调度高峰。
-    - cron: "17 0 * * *"
-    # 北京时间 09:07 兜底；同步逻辑按来源链接去重，不会重复发布。
-    - cron: "7 1 * * *"
+    # 每 3 小时第 17 分钟运行一次，提供公益免费的近实时更新。
+    - cron: "17 */3 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
   models: read
+
+concurrency:
+  group: smart-industry-update
+  cancel-in-progress: false
 
 jobs:
   collect-drafts:
@@ -40,7 +42,8 @@ jobs:
           GITHUB_MODELS_MODEL: openai/gpt-4.1-mini
           ARTICLE_GENERATION_TARGET_PER_CATEGORY: "3"
           VIDEO_GENERATION_TARGET: "3"
-          FREE_TRANSLATION_TARGET: "3"
+          FREE_TRANSLATION_TARGET: "6"
+          MAX_SOURCE_AGE_DAYS: "45"
           ARTICLE_FORCE_STRUCTURED_FALLBACK: "false"
         run: python scripts/auto_update.py
 

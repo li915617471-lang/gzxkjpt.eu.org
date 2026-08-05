@@ -10,15 +10,16 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
   <link rel="apple-touch-icon" href="assets/icon-192.png">
   <title>板块内容 | 信息分享平台</title>
-  <link rel="stylesheet" href="styles.css?v=16">
-  <link rel="stylesheet" href="category.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=17">
+  <link rel="stylesheet" href="category.css?v=5">
   <script src="cloud-config.js" defer></script>
   <script src="assets/vendor/supabase-2.111.0.min.js" defer></script>
   <script src="cloud.js" defer></script>
   <script src="content-service.js?v=12" defer></script>
+  <script src="intelligence-service.js?v=1" defer></script>
   <script src="assets/vendor/lucide-0.468.0.min.js" defer></script>
   <script src="pwa.js?v=2" defer></script>
-  <script src="category.js?v=8" defer></script>
+  <script src="category.js?v=9" defer></script>
 </head>
 <body class="category-page">
   <div class="scanline" aria-hidden="true"></div>
@@ -43,6 +44,14 @@
       </div>
     </section>
 
+    <section class="category-live" aria-labelledby="categoryLiveTitle">
+      <div class="category-live-head">
+        <div><span class="section-label">近实时采集</span><h2 id="categoryLiveTitle">本板块最新资料</h2></div>
+        <span id="categoryLiveStatus">正在连接最新资料</span>
+      </div>
+      <div id="categoryLiveGrid" class="category-live-grid" aria-live="polite"></div>
+    </section>
+
     <section class="category-feed" aria-labelledby="categoryFeedTitle">
       <div class="category-feed-head">
         <div><span class="section-label">精选资料</span><h2 id="categoryFeedTitle">最新内容</h2></div>
@@ -50,8 +59,8 @@
       </div>
       <div class="category-tools">
         <div class="category-search-modes" role="group" aria-label="搜索范围">
-          <button class="is-active" type="button" data-search-mode="local" aria-pressed="true">本站</button>
-          <button type="button" data-search-mode="authority" aria-pressed="false">权威资料</button>
+          <button class="is-active" type="button" data-search-mode="local" aria-pressed="true">本站文章</button>
+          <button type="button" data-search-mode="authority" aria-pressed="false">最新资料</button>
         </div>
         <form id="categorySearchForm" class="category-search-form" role="search">
           <label class="category-search" aria-label="板块搜索">
@@ -73,7 +82,7 @@
       </div>
       <div id="externalSearchInfo" class="external-search-info" hidden>
         <i data-lucide="library"></i>
-        <span>搜索词会发送给开放学术索引；外文标题与摘要会发送给公开翻译服务，不发送账号或联系方式。</span>
+        <span>优先搜索平台最新资料池，再查询开放学术索引；外文资料同时保留原文和中文机器翻译。</span>
       </div>
       <div id="categoryStories" class="story-grid"></div>
       <div id="categoryEmpty" class="empty-state" hidden>

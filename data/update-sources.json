@@ -32,6 +32,36 @@
       "maxItems": 10
     },
     {
+      "id": "china-cas-science",
+      "name": "中国科学院",
+      "url": "https://www.cas.cn/syky/",
+      "format": "html",
+      "linkPattern": "^/syky/[0-9]{6}/t[0-9]+_[0-9]+\\.shtml$",
+      "categoryHint": "科技",
+      "type": "research",
+      "trustLevel": "authoritative",
+      "region": "中国",
+      "language": "zh-CN",
+      "enabled": true,
+      "confidence": 97,
+      "maxItems": 10
+    },
+    {
+      "id": "china-ndrc-releases",
+      "name": "中华人民共和国国家发展和改革委员会",
+      "url": "https://www.ndrc.gov.cn/xwdt/xwfb/",
+      "format": "html",
+      "linkPattern": "^/xwdt/xwfb/[0-9]{6}/t[0-9]+_[0-9]+\\.html$",
+      "categoryHint": "金融",
+      "type": "official",
+      "trustLevel": "authoritative",
+      "region": "中国",
+      "language": "zh-CN",
+      "enabled": true,
+      "confidence": 97,
+      "maxItems": 10
+    },
+    {
       "id": "china-cctv-innovation-video",
       "name": "中央广播电视总台《创新进行时》",
       "url": "https://api.cntv.cn/NewVideo/getVideoListByColumn?id=TOPC1570875218228998&n=10&sort=desc&p=1&d=&mode=0&serviceId=tvcctv",

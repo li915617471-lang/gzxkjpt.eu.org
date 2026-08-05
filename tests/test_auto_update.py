@@ -62,8 +62,45 @@ class CategoryTests(unittest.TestCase):
         updated = auto_update.refresh_retained_categories(stories, sources, self.rules)
         self.assertEqual(updated[0]["category"], "科技")
 
+    def test_category_scores_keep_source_hint_but_title_has_more_weight(self):
+        scores = auto_update.category_score_map(
+            "量子计算纠错取得新进展",
+            "研究团队公布芯片和量子比特测试结果。",
+            "人文",
+            self.rules,
+        )
+        self.assertGreater(scores["科技"], scores["人文"])
+
 
 class RichDraftTests(unittest.TestCase):
+    def test_source_date_is_normalized_and_used_as_public_date(self):
+        story = auto_update.make_story(
+            {
+                "title": "储能系统发布最新测试结果",
+                "summary": "该项目公开了电网储能系统的测试条件、运行数据和后续部署安排。",
+                "link": "https://example.com/storage",
+                "published": "Tue, 04 Aug 2026 09:30:00 GMT",
+            },
+            {
+                "name": "能源研究机构", "categoryHint": "能源", "language": "zh-CN",
+                "confidence": 95, "trustLevel": "authoritative", "type": "official",
+            },
+            0,
+            auto_update.CATEGORY_RULES,
+        )
+        self.assertEqual(story["date"], "2026-08-04")
+        self.assertTrue(story["sourcePublishedAt"].startswith("2026-08-04T09:30:00"))
+        self.assertIn("能源", story["categoryScores"])
+
+    def test_stale_source_entry_is_rejected(self):
+        now = auto_update.datetime(2026, 8, 5, tzinfo=auto_update.timezone.utc)
+        self.assertFalse(auto_update.story_is_recent(
+            {"originalPublishedAt": "2026-05-01"}, now=now, max_age_days=45,
+        ))
+        self.assertTrue(auto_update.story_is_recent(
+            {"originalPublishedAt": "2026-08-01"}, now=now, max_age_days=45,
+        ))
+
     def test_source_page_parser_extracts_leading_text_and_image(self):
         parser = auto_update.PageMetadataParser()
         parser.feed("""
@@ -89,6 +126,31 @@ class RichDraftTests(unittest.TestCase):
         self.assertTrue(auto_update.source_material_is_usable(
             "氦气是一种重要的战略资源，公开资料介绍了供应来源、提取过程和实际应用。"
         ))
+
+    def test_source_material_removes_embedded_styles_and_footer(self):
+        value = (
+            ".trs_import_a1{text-align:justify;font-size:10px} "
+            "国家统计机构公布了工业生产资料价格变化，并说明了调查范围和统计方法。"
+            " 网站识别码bm00000000 京ICP备00000000号"
+        )
+        cleaned = auto_update.clean_source_material(value)
+        self.assertNotIn("text-align", cleaned)
+        self.assertNotIn("网站识别码", cleaned)
+        self.assertTrue(cleaned.startswith("国家统计机构"))
+
+    def test_retained_category_uses_original_source_fields_not_generated_prefix(self):
+        story = {
+            "title": "科技前沿观察：通用标题",
+            "originalTitle": "Battery storage expands grid capacity",
+            "sourceMaterial": "The energy project adds battery storage to the electricity grid.",
+            "excerpt": "科技领域通用背景",
+            "category": "科技",
+            "collectionSourceId": "energy-source",
+        }
+        updated = auto_update.refresh_retained_categories(
+            [story], [{"id": "energy-source", "categoryHint": "能源"}], auto_update.CATEGORY_RULES,
+        )
+        self.assertEqual(updated[0]["category"], "能源")
 
     def test_retained_story_cleans_legacy_navigation_body(self):
         material = "氦气是一种重要的战略资源，公开资料介绍了供应来源、提取过程和实际应用。"

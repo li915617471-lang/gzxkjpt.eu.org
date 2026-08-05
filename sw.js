@@ -1,4 +1,4 @@
-const CACHE_VERSION = "fx-public-v28";
+const CACHE_VERSION = "fx-public-v29";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -6,18 +6,19 @@ const CORE_ASSETS = [
   "./category.html",
   "./governance.html",
   "./offline.html",
-  "./styles.css?v=16",
+  "./styles.css?v=17",
   "./article.css?v=5",
-  "./category.css?v=4",
+  "./category.css?v=5",
   "./governance.css",
-  "./app.js?v=15",
+  "./app.js?v=16",
   "./article.js?v=16",
-  "./category.js?v=8",
+  "./category.js?v=9",
   "./governance.js",
   "./pwa.js?v=2",
   "./cloud-config.js",
   "./cloud.js",
   "./content-service.js?v=12",
+  "./intelligence-service.js?v=1",
   "./assets/vendor/supabase-2.111.0.min.js",
   "./assets/vendor/lucide-0.468.0.min.js",
   "./assets/vendor/hls-1.6.13.min.js",
@@ -79,7 +80,7 @@ self.addEventListener("fetch", function (event) {
     return;
   }
 
-  if (url.pathname.endsWith("/data/content.json") || url.pathname.endsWith("/feed.xml") || url.pathname.endsWith("/feed.json")) {
+  if (url.pathname.endsWith("/data/content.json") || url.pathname.endsWith("/data/intelligence-draft.json") || url.pathname.endsWith("/feed.xml") || url.pathname.endsWith("/feed.json")) {
     event.respondWith(networkFirst(request));
     return;
   }

@@ -29,7 +29,7 @@ import urllib.error
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -47,7 +47,7 @@ CATEGORY_RULES = {
     "能源": ["battery", "energy", "solar", "storage", "geothermal", "renewable", "grid", "electricity", "oil", "crude", "natural gas", "lng", "电池", "储能", "光伏", "新能源", "电力", "地热", "石油", "天然气"],
     "工业": ["robot", "factory", "manufacturing", "automation", "industrial", "production", "output", "supply chain", "logistics", "plant", "opening", "expansion", "industrial company", "tariff", "revenue", "机器人", "工厂", "制造", "自动化", "产线", "工业互联网", "供应链", "生产", "制造企业"],
     "人文": ["humanities", "culture", "education", "history", "museum", "society", "art", "literature", "philosophy", "film", "music", "book", "manuscript", "ancient", "poetry", "map", "mythology", "人文", "文化", "教育", "历史", "博物馆", "社会", "艺术", "文学"],
-    "科技": ["ai", "llm", "llms", "artificial intelligence", "technology", "engineering", "science", "research", "network", "fiber", "dark matter", "model", "compute", "robot", "chip", "semiconductor", "wafer", "packaging", "chiplet", "quantum", "biotech", "人工智能", "大模型", "算力", "模型", "芯片", "半导体", "封装", "晶圆", "量子", "生物技术"]
+    "科技": ["ai", "llm", "llms", "artificial intelligence", "technology", "engineering", "science", "research", "network", "fiber", "dark matter", "model", "compute", "robot", "chip", "semiconductor", "wafer", "packaging", "chiplet", "quantum", "biotech", "人工智能", "大模型", "算力", "模型", "芯片", "半导体", "封装", "晶圆", "量子", "生物技术", "科学", "技术", "工程", "科研", "隧道", "氦"]
 }
 
 CATEGORY_COVERS = {
@@ -65,6 +65,7 @@ MIN_ARTICLE_CHARS = 800
 GITHUB_MODELS_ENDPOINT = "https://models.github.ai/inference/chat/completions"
 DEFAULT_ARTICLE_MODEL = "openai/gpt-4.1-mini"
 FREE_TRANSLATION_ENDPOINT = "https://api.mymemory.translated.net/get"
+DEFAULT_MAX_SOURCE_AGE_DAYS = 45
 SOURCE_DISCLOSURE_HEADING = "简要来源"
 LEGACY_DISCLOSURE_HEADING = "来源与审核说明"
 
@@ -351,24 +352,49 @@ def balanced_queue(new_stories: list[dict], retained_stories: list[dict], catego
     return queue
 
 
+def parse_source_datetime(value: str) -> datetime | None:
+    candidate = clean_text(value)
+    if not candidate:
+        return None
+    try:
+        parsed = email.utils.parsedate_to_datetime(candidate)
+    except (TypeError, ValueError, OverflowError):
+        parsed = None
+    if parsed is None:
+        compact = re.fullmatch(r"(20\d{2})(\d{2})(\d{2})", candidate)
+        if compact:
+            candidate = "-".join(compact.groups())
+        try:
+            parsed = datetime.fromisoformat(candidate.replace("Z", "+00:00"))
+        except (TypeError, ValueError, OverflowError):
+            return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def normalized_source_datetime(value: str) -> str:
+    parsed = parse_source_datetime(value)
+    return parsed.isoformat() if parsed else ""
+
+
+def story_is_recent(story: dict, now: datetime | None = None, max_age_days: int = DEFAULT_MAX_SOURCE_AGE_DAYS) -> bool:
+    now = now or datetime.now(timezone.utc)
+    parsed = parse_source_datetime(
+        story.get("originalPublishedAt") or story.get("sourcePublishedAt") or story.get("collectedAt") or ""
+    )
+    if parsed is None:
+        return True
+    return now - timedelta(days=max_age_days) <= parsed <= now + timedelta(days=2)
+
+
 def story_queue_priority(story: dict) -> tuple[int, float, int, int]:
     try:
         evidence = int(story.get("categoryEvidenceScore") or 0)
     except (TypeError, ValueError):
         evidence = 0
-    published = str(story.get("originalPublishedAt") or story.get("date") or "").strip()
-    timestamp = 0.0
-    if published:
-        try:
-            parsed = email.utils.parsedate_to_datetime(published)
-            if parsed.tzinfo is None:
-                parsed = parsed.replace(tzinfo=timezone.utc)
-            timestamp = parsed.timestamp()
-        except (TypeError, ValueError, OverflowError):
-            try:
-                timestamp = datetime.fromisoformat(published.replace("Z", "+00:00")).timestamp()
-            except (TypeError, ValueError, OverflowError):
-                timestamp = 0.0
+    parsed = parse_source_datetime(story.get("originalPublishedAt") or story.get("date") or "")
+    timestamp = parsed.timestamp() if parsed else 0.0
     try:
         confidence = int(story.get("confidence") or 0)
     except (TypeError, ValueError):
@@ -740,9 +766,26 @@ SOURCE_NAVIGATION_NAMES = (
     "新疆维吾尔自治区", "青海省", "西藏自治区", "河北省",
 )
 
+SOURCE_FOOTER_MARKERS = (
+    "中央农业干部教育培训中心", "网站识别码", "京ICP备", "京公网安备",
+    "版权所有", "联系我们", "主办单位", "地址：", "技术支持",
+)
+
+
+def clean_source_material(value: str) -> str:
+    text = clean_text(value)
+    text = re.sub(r"^(?:\.[a-z0-9_-]+\s*\{[^{}]{0,1200}\}\s*)+", "", text, flags=re.I)
+    marker_positions = [text.find(marker) for marker in SOURCE_FOOTER_MARKERS if text.find(marker) >= 20]
+    if marker_positions:
+        text = text[:min(marker_positions)].strip()
+    half = len(text) // 2
+    if half >= 80 and text[:half].strip() == text[half:].strip():
+        text = text[:half].strip()
+    return clean_text(text)
+
 
 def source_material_is_usable(value: str) -> bool:
-    text = clean_text(value)
+    text = clean_source_material(value)
     if len(text) < 24:
         return False
     if sum(name in text for name in SOURCE_NAVIGATION_NAMES) >= 6:
@@ -765,16 +808,16 @@ def enrich_entry_from_page(entry: dict) -> dict:
     except (RuntimeError, ValueError, UnicodeError):
         return entry
     enriched = dict(entry)
-    summary = clean_text(enriched.get("summary", ""))
-    metadata_summary = clean_text(parser.description)
-    leading = clean_text(" ".join(parser.blocks[:10]))
+    summary = clean_source_material(enriched.get("summary", ""))
+    metadata_summary = clean_source_material(parser.description)
+    leading = clean_source_material(" ".join(parser.blocks[:10]))
     material_parts = []
     for candidate in (summary, metadata_summary):
         if source_material_is_usable(candidate) and candidate not in material_parts:
             material_parts.append(candidate)
     if not material_parts and source_material_is_usable(leading):
         material_parts.append(leading)
-    source_material = clean_text(" ".join(material_parts))
+    source_material = clean_source_material(" ".join(material_parts))
     if source_material:
         enriched["sourceMaterial"] = truncate_text(source_material, 6000)
         enriched["sourceMaterialType"] = "source-metadata" if metadata_summary else "rss-and-source-page"
@@ -793,6 +836,8 @@ def enrich_entry_from_page(entry: dict) -> dict:
 
 def refresh_retained_source_material(stories: list[dict]) -> list[dict]:
     for story in stories:
+        story["sourceMaterial"] = clean_source_material(story.get("sourceMaterial", ""))
+        story["originalExcerpt"] = clean_source_material(story.get("originalExcerpt", ""))
         if not story.get("collectionSourceId"):
             continue
         material = clean_text(story.get("sourceMaterial", ""))
@@ -835,13 +880,18 @@ def keyword_hits(text: str, words: list[str]) -> int:
     return hits
 
 
-def categorize(title: str, summary: str, fallback: str, rules: dict[str, list[str]]) -> str:
+def category_score_map(title: str, summary: str, fallback: str, rules: dict[str, list[str]]) -> dict[str, int]:
     scores = {
-        category: keyword_hits(title, words) * 3 + keyword_hits(summary, words)
+        category: keyword_hits(title, words) * 4 + keyword_hits(summary, words)
         for category, words in rules.items()
     }
     if fallback in scores:
-        scores[fallback] += 2
+        scores[fallback] += 3
+    return scores
+
+
+def categorize(title: str, summary: str, fallback: str, rules: dict[str, list[str]]) -> str:
+    scores = category_score_map(title, summary, fallback, rules)
     category, score = max(scores.items(), key=lambda item: item[1])
     return category if score > 0 else (fallback or "科技")
 
@@ -862,14 +912,16 @@ def refresh_retained_categories(
         story.pop("url", None)
         source = source_by_id.get(story.get("collectionSourceId"))
         if source:
+            classification_title = story.get("originalTitle") or story.get("title", "")
+            classification_summary = story.get("sourceMaterial") or story.get("originalExcerpt") or story.get("excerpt", "")
             story["category"] = categorize(
-                story.get("title", ""),
-                story.get("excerpt", ""),
+                classification_title,
+                classification_summary,
                 source.get("categoryHint", ""),
                 rules,
             )
             story["tags"] = tags_for(
-                f"{story.get('title', '')} {story.get('excerpt', '')}",
+                f"{classification_title} {classification_summary}",
                 story["category"],
             )
             story["sourceTrustLevel"] = source.get("trustLevel", story.get("sourceTrustLevel", "standard"))
@@ -894,8 +946,20 @@ def refresh_retained_categories(
                 story["imageSourceType"] = "source-page"
                 story["imageAttribution"] = story.get("source", "来源页面")
         story["categoryEvidenceScore"] = category_evidence_score(
-            story.get("title", ""), story.get("excerpt", ""), story["category"], rules
+            story.get("originalTitle") or story.get("title", ""),
+            story.get("sourceMaterial") or story.get("originalExcerpt") or story.get("excerpt", ""),
+            story["category"], rules
         )
+        source_hint = source.get("categoryHint", "") if source else story.get("category", "")
+        story["categoryScores"] = category_score_map(
+            story.get("originalTitle") or story.get("title", ""),
+            story.get("sourceMaterial") or story.get("originalExcerpt") or story.get("excerpt", ""),
+            source_hint,
+            rules,
+        )
+        ranked = sorted(story["categoryScores"].values(), reverse=True)
+        story["categoryClassificationMargin"] = ranked[0] - (ranked[1] if len(ranked) > 1 else 0)
+        story["categoryClassificationReason"] = "标题与摘要关键词加权，并结合来源默认板块"
         fallback = category_cover(story["category"])
         story["imageFallback"] = fallback
         if not story.get("image") or story.get("image") == DEFAULT_COVER:
@@ -1327,18 +1391,13 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
     if fallback not in rules:
         fallback = next(iter(rules), "科技")
     category = categorize(entry.get("title", ""), entry.get("summary", ""), fallback, rules)
+    category_scores = category_score_map(entry.get("title", ""), entry.get("summary", ""), fallback, rules)
+    ranked_categories = sorted(category_scores.items(), key=lambda item: item[1], reverse=True)
+    classification_margin = ranked_categories[0][1] - (ranked_categories[1][1] if len(ranked_categories) > 1 else 0)
     evidence_score = category_evidence_score(
         entry.get("title", ""), entry.get("summary", ""), category, rules
     )
-    if (
-        source.get("contentKind") == "video"
-        and source.get("trustLevel") == "authoritative"
-        and category == source.get("categoryHint")
-    ):
-        # A curated official science program is itself evidence for its
-        # configured fallback category when an episode uses a plain-language title.
-        evidence_score = max(2, evidence_score)
-    excerpt = truncate_text(entry.get("summary", ""), 280) or "来自公开来源的前沿信息，等待后台进一步编辑摘要。"
+    excerpt = truncate_text(clean_source_material(entry.get("summary", "")), 280) or "来自公开来源的前沿信息，等待后台进一步编辑摘要。"
     confidence = max(0, min(100, int(source.get("confidence", 75))))
     trust_level = source.get("trustLevel", "standard")
     status = "review" if confidence >= 80 and trust_level in {"authoritative", "professional"} else "draft"
@@ -1347,10 +1406,17 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
     source_image = safe_image_url(entry.get("image", ""), entry.get("link", ""))
     image = source_image or fallback_image
     source_name = source.get("name", "公开来源")
+    collected_at = datetime.now(timezone.utc)
+    published_at = parse_source_datetime(entry.get("published", ""))
+    display_date = (published_at or collected_at).date().isoformat()
+    freshness_days = max(0, (collected_at.date() - published_at.date()).days) if published_at else None
     story = {
         "id": index + 1,
         "category": category,
         "categoryEvidenceScore": evidence_score,
+        "categoryScores": category_scores,
+        "categoryClassificationMargin": classification_margin,
+        "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
         "title": truncate_text(entry["title"], 160),
         "excerpt": excerpt,
         "body": build_review_body(excerpt, source_name, category),
@@ -1359,7 +1425,7 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
         "imageSourceType": "rss" if source_image else "category-cover",
         "imageAttribution": source_name if source_image else "平台板块封面",
         "originalTitle": clean_text(entry["title"]),
-        "originalExcerpt": truncate_text(entry.get("summary", ""), 2000),
+        "originalExcerpt": truncate_text(clean_source_material(entry.get("summary", "")), 2000),
         "source": source_name,
         "sourceUrl": entry.get("link", ""),
         "author": "",
@@ -1369,7 +1435,7 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
         "time": "待审核",
         "readMinutes": 6,
         "heat": 78,
-        "date": datetime.now(timezone.utc).date().isoformat(),
+        "date": display_date,
         "tags": tags_for(combined, category),
         "status": status,
         "collectionSourceId": source.get("id", ""),
@@ -1377,9 +1443,11 @@ def make_story(entry: dict, source: dict, index: int, rules: dict[str, list[str]
         "sourceRegion": source.get("region", "全球"),
         "sourceTrustLevel": trust_level,
         "originalPublishedAt": entry.get("published", ""),
-        "collectedAt": datetime.now(timezone.utc).isoformat(),
+        "sourcePublishedAt": published_at.isoformat() if published_at else "",
+        "collectedAt": collected_at.isoformat(),
+        "freshnessDays": freshness_days,
         "reviewNote": review_note,
-        "sourceMaterial": truncate_text(entry.get("sourceMaterial") or entry.get("summary", ""), 6000),
+        "sourceMaterial": truncate_text(clean_source_material(entry.get("sourceMaterial") or entry.get("summary", "")), 6000),
         "sourceMaterialType": entry.get("sourceMaterialType", "rss"),
     }
     if source.get("contentKind") == "video":
@@ -1419,7 +1487,15 @@ def main() -> int:
         print("没有启用的采集来源，已停止更新", file=sys.stderr)
         return 1
     rules = load_category_rules()
-    retained_drafts = refresh_retained_categories(pending_drafts(), sources, rules)
+    try:
+        max_source_age_days = int(os.environ.get("MAX_SOURCE_AGE_DAYS", DEFAULT_MAX_SOURCE_AGE_DAYS))
+    except ValueError:
+        max_source_age_days = DEFAULT_MAX_SOURCE_AGE_DAYS
+    max_source_age_days = max(7, min(180, max_source_age_days))
+    retained_drafts = [
+        story for story in refresh_retained_categories(pending_drafts(), sources, rules)
+        if story_is_recent(story, max_age_days=max_source_age_days)
+    ]
     retained_drafts = refresh_retained_source_material(retained_drafts)
     stories = []
     errors = []
@@ -1428,6 +1504,7 @@ def main() -> int:
     fetched = 0
     duplicates = 0
     invalid_entries = 0
+    stale_entries = 0
 
     for source in sources:
         source_added = 0
@@ -1442,6 +1519,12 @@ def main() -> int:
             max_items = max(1, min(20, int(source.get("maxItems", 5))))
             for entry in entries[:max_items]:
                 fetched += 1
+                if not story_is_recent({
+                    "originalPublishedAt": entry.get("published", ""),
+                    "collectedAt": started_at,
+                }, max_age_days=max_source_age_days):
+                    stale_entries += 1
+                    continue
                 url_key = normalize_url(entry.get("link", ""))
                 title_key = normalize_title(entry.get("title", ""))
                 if not url_key:
@@ -1494,9 +1577,11 @@ def main() -> int:
         "sourcesSucceeded": len(sources) - len(errors),
         "sourcesFailed": len(errors),
         "fetched": fetched,
-        "added": min(len(stories), 30),
+        "added": len(stories),
         "duplicates": duplicates,
         "invalid": invalid_entries,
+        "staleSkipped": stale_entries,
+        "maxSourceAgeDays": max_source_age_days,
         "errors": errors,
         "sourceResults": source_results,
     }
