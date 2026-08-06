@@ -229,6 +229,17 @@ def validate_domain(validator: Validator, content: dict) -> None:
     validator.require(cname == expected_host, "CNAME 必须与 operations.siteUrl 域名一致")
 
 
+def validate_navigation_contracts(validator: Validator) -> None:
+    app_script = (ROOT / "app.js").read_text(encoding="utf-8")
+    start = app_script.find('const latestSignals = document.querySelector("#latestSignals")')
+    end = app_script.find('\n\n  const directory', start)
+    latest_signals = app_script[start:end] if start >= 0 and end > start else ""
+    validator.require(bool(latest_signals), "首页缺少最新信号渲染逻辑")
+    validator.require("article.html?id=" in latest_signals, "首页最新信号必须链接站内文章")
+    validator.require('target="_blank"' not in latest_signals, "首页最新信号不得在新窗口打开外部网站")
+    validator.require("story.url" not in latest_signals, "首页最新信号不得直接使用外部资料地址")
+
+
 def main() -> int:
     validator = Validator()
     try:
@@ -243,6 +254,7 @@ def main() -> int:
     validate_pwa(validator)
     validate_automation(validator, content.get("categories", []))
     validate_domain(validator, content)
+    validate_navigation_contracts(validator)
     for warning in validator.warnings:
         print(f"[WARN] {warning}")
     for error in validator.errors:
