@@ -215,21 +215,109 @@ function renderNav() {
     .join("");
 }
 
+function normalizeRadarUrl(value) {
+  try {
+    const url = new URL(String(value || ""), location.href);
+    url.hash = "";
+    ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content"].forEach(function (name) {
+      url.searchParams.delete(name);
+    });
+    return url.href.replace(/\/$/, "");
+  } catch (error) {
+    return "";
+  }
+}
+
+function normalizeRadarTitle(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/^[^：:]{0,12}前沿观察[：:]\s*/, "")
+    .replace(/[^\p{L}\p{N}]+/gu, "");
+}
+
+function radarStoryMatchesQuery(story, query) {
+  const terms = String(query || "").trim().toLowerCase().split(/\s+/).filter(Boolean);
+  if (!terms.length) return true;
+  const body = Array.isArray(story.body) ? story.body.join(" ") : String(story.body || "");
+  const haystack = `${story.title || ""} ${story.excerpt || ""} ${body} ${story.category || ""} ${story.source || ""} ${(story.tags || []).join(" ")}`.toLowerCase();
+  return terms.every(function (term) { return haystack.includes(term); });
+}
+
+function matchRadarStory(item, publicStories) {
+  const sourceUrl = normalizeRadarUrl(item.url || item.raw?.sourceUrl);
+  if (sourceUrl) {
+    const sourceMatch = publicStories.find(function (story) {
+      return normalizeRadarUrl(story.sourceUrl) === sourceUrl;
+    });
+    if (sourceMatch) return sourceMatch;
+  }
+
+  const fingerprint = String(item.raw?.automaticFingerprint || item.automaticFingerprint || "").trim();
+  if (fingerprint) {
+    const fingerprintMatch = publicStories.find(function (story) {
+      return String(story.automaticFingerprint || "").trim() === fingerprint;
+    });
+    if (fingerprintMatch) return fingerprintMatch;
+  }
+
+  const itemTitles = [item.title, item.originalTitle, item.raw?.title, item.raw?.originalTitle, item.raw?.translatedSourceTitle]
+    .map(normalizeRadarTitle).filter(function (title) { return title.length >= 8; });
+  return publicStories.find(function (story) {
+    const storyTitles = [story.title, story.originalTitle, story.translatedSourceTitle]
+      .map(normalizeRadarTitle).filter(Boolean);
+    return itemTitles.some(function (title) { return storyTitles.includes(title); });
+  }) || null;
+}
+
+function radarEntry(story) {
+  return {
+    story: story,
+    category: story.category,
+    title: story.title,
+    summary: window.FXContent.presentationExcerpt(story),
+    source: story.source,
+    publishedAt: pulseStoryTimestamp(story)
+  };
+}
+
 function intelligenceItemsForRadar() {
   const sourceStories = intelligenceBundle.stories || [];
-  if (state.query.trim()) {
-    return window.FXIntelligence.search(sourceStories, {
-      query: state.query,
-      category: intelligenceCategory === "全部" ? "" : intelligenceCategory,
-      limit: 12
-    });
-  }
-  if (intelligenceCategory !== "全部") {
-    return window.FXIntelligence.latest(sourceStories, intelligenceCategory, 9);
-  }
-  return getCategorySettings().filter(function (item) { return item.enabled !== false; }).flatMap(function (category) {
-    return window.FXIntelligence.latest(sourceStories, category.name, 1);
+  const publicStories = stories.filter(storyIsPublic).slice().sort(function (left, right) {
+    return pulseStoryTimestamp(right) - pulseStoryTimestamp(left)
+      || Number(right.id || 0) - Number(left.id || 0);
   });
+  const categoryName = intelligenceCategory === "全部" ? "" : intelligenceCategory;
+  const query = state.query.trim();
+  const sourceCandidates = query
+    ? window.FXIntelligence.search(sourceStories, { query: query, category: categoryName, limit: 36 })
+    : window.FXIntelligence.latest(sourceStories, categoryName, 36);
+  const eligibleStories = publicStories.filter(function (story) {
+    return (!categoryName || story.category === categoryName) && radarStoryMatchesQuery(story, query);
+  });
+  const seen = new Set();
+  const matched = sourceCandidates.map(function (item) {
+    return matchRadarStory(item, eligibleStories);
+  }).filter(function (story) {
+    if (!story || seen.has(String(story.id))) return false;
+    seen.add(String(story.id));
+    return true;
+  });
+
+  if (!query && !categoryName) {
+    return getCategorySettings().filter(function (item) { return item.enabled !== false; }).map(function (category) {
+      const story = matched.find(function (item) { return item.category === category.name; })
+        || publicStories.find(function (item) { return item.category === category.name; });
+      return story ? radarEntry(story) : null;
+    }).filter(Boolean);
+  }
+
+  const limit = query ? 12 : 9;
+  const combined = matched.concat(eligibleStories.filter(function (story) {
+    if (seen.has(String(story.id))) return false;
+    seen.add(String(story.id));
+    return true;
+  })).slice(0, limit);
+  return combined.map(radarEntry);
 }
 
 function renderIntelligenceRadar() {
@@ -242,9 +330,9 @@ function renderIntelligenceRadar() {
   const grid = document.querySelector("#intelligenceRadarGrid");
   grid.innerHTML = items.map(function (item, index) {
     const category = getCategorySetting(item.category);
-    return `<a class="intelligence-item" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" style="--category-color:${safeColor(category.color)}">
+    return `<a class="intelligence-item" href="article.html?id=${encodeURIComponent(item.story.id)}" style="--category-color:${safeColor(category.color)}">
       <span class="intelligence-item-index">${String(index + 1).padStart(2, "0")}</span>
-      <span class="intelligence-item-copy"><span>${escapeHtml(item.category)} · ${escapeHtml(window.FXContent.localizedSourceName(item.source))}</span><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.summary || "打开来源页面查看公开资料")}</small></span>
+      <span class="intelligence-item-copy"><span>${escapeHtml(item.category)} · ${escapeHtml(window.FXContent.localizedSourceName(item.source))}</span><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.summary || "打开站内文章阅读全文")}</small></span>
       <time>${escapeHtml(window.FXIntelligence.formatDate(item.publishedAt))}</time>
     </a>`;
   }).join("");
