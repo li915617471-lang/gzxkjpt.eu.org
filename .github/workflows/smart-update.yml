@@ -37,6 +37,7 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: Collect articles and official science videos
+        id: collect
         env:
           GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_MODELS_MODEL: openai/gpt-4.1-mini
@@ -50,12 +51,14 @@ jobs:
         run: python scripts/auto_update.py
 
       - name: Validate updated site data
+        id: validate
         run: |
           python scripts/generate_sitemap.py
           python scripts/generate_feeds.py
           python scripts/validate_site.py
 
       - name: Sync collected drafts to Supabase
+        id: sync
         env:
           SUPABASE_URL: https://zpwqkveymyfwgebpkemt.supabase.co
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -77,6 +80,7 @@ jobs:
           fi
 
       - name: Commit updated draft queue
+        if: ${{ always() && steps.collect.outcome == 'success' && steps.validate.outcome == 'success' }}
         run: |
           git config user.name "information-share-bot"
           git config user.email "actions@users.noreply.github.com"
