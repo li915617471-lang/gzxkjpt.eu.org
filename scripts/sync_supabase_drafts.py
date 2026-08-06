@@ -22,6 +22,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -41,6 +42,11 @@ ASTRONOMY_TITLE_TERMS = (
     "solar eclipse", "dark energy", "space telescope", "asteroid", "solar storm", "space weather",
 )
 GENERIC_AUTOMATIC_TITLE = re.compile(r"公开资料提供新的观察线索|公开资料显示的[^。]{0,20}动态")
+BEIJING_TZ = ZoneInfo("Asia/Shanghai")
+VIDEO_ONLY_FIELDS = {
+    "videoType", "videoUrl", "videoPoster", "videoRightsConfirmed", "videoLinkOnly",
+    "homeVideoFeatured", "homeVideoPriority", "videoDuration", "videoExternalId",
+}
 WEB_STYLE_NOISE = re.compile(
     r"\.[a-z0-9_-]+\s*\{[^{}]{0,2000}\}|网站识别码|京ICP备|京公网安备|中央农业干部教育培训中心",
     re.I,
@@ -105,11 +111,16 @@ def is_valid_image(value: Any) -> bool:
 
 
 def is_valid_automatic_video(story: dict[str, Any]) -> bool:
-    """Require automated videos to remain official external links only."""
+    """Only publish official CCTV items that the home player can resolve."""
     if story.get("contentKind") != "video":
         return True
     video_url = str(story.get("videoUrl") or "").strip()
     source_url = str(story.get("sourceUrl") or story.get("url") or "").strip()
+    try:
+        hostname = (urllib.parse.urlsplit(video_url).hostname or "").lower()
+    except ValueError:
+        hostname = ""
+    external_id = str(story.get("videoExternalId") or "").strip()
     return (
         story.get("videoType") == "external"
         and story.get("videoLinkOnly") is True
@@ -118,6 +129,8 @@ def is_valid_automatic_video(story: dict[str, Any]) -> bool:
         and urllib.parse.urlsplit(video_url).scheme.lower() == "https"
         and normalize_url(video_url) == normalize_url(source_url)
         and is_valid_image(story.get("videoPoster") or story.get("image"))
+        and hostname == "tv.cctv.com"
+        and bool(re.fullmatch(r"[a-f0-9]{32}", external_id, re.I))
     )
 
 
@@ -251,6 +264,41 @@ def env_flag(name: str, fallback: bool = False) -> bool:
     return value.strip().lower() in {"1", "true", "yes", "on"}
 
 
+def is_video_story(story: dict[str, Any]) -> bool:
+    return story.get("contentKind") == "video"
+
+
+def is_chinese_source(story: dict[str, Any]) -> bool:
+    language = str(story.get("sourceLanguage") or story.get("language") or "").lower()
+    region = str(story.get("sourceRegion") or story.get("region") or "")
+    source_id = str(story.get("collectionSourceId") or "").lower()
+    source_url = str(story.get("sourceUrl") or story.get("url") or story.get("source_url") or "")
+    try:
+        hostname = (urllib.parse.urlsplit(source_url).hostname or "").lower()
+    except ValueError:
+        hostname = ""
+    return (
+        language.startswith("zh")
+        or region == "中国"
+        or source_id.startswith("china-")
+        or hostname.endswith(".gov.cn")
+        or hostname.endswith(".cn")
+    )
+
+
+def publication_day(value: Any) -> str:
+    candidate = str(value or "").strip()
+    if not candidate:
+        return ""
+    try:
+        parsed = datetime.fromisoformat(candidate.replace("Z", "+00:00"))
+    except ValueError:
+        return parse_date(candidate) or ""
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(BEIJING_TZ).date().isoformat()
+
+
 def auto_approval_policy(operations: dict[str, Any] | None = None) -> dict[str, Any]:
     operations = operations or {}
     default_enabled = env_flag("AUTO_APPROVAL_ENABLED", False)
@@ -258,7 +306,7 @@ def auto_approval_policy(operations: dict[str, Any] | None = None) -> dict[str, 
         default_threshold = int(os.environ.get("AUTO_APPROVAL_MIN_CONFIDENCE", DEFAULT_MIN_CONFIDENCE))
     except ValueError:
         default_threshold = DEFAULT_MIN_CONFIDENCE
-    enabled = operations.get("autoApprovalEnabled", default_enabled) is True
+    enabled = default_enabled if "AUTO_APPROVAL_ENABLED" in os.environ else operations.get("autoApprovalEnabled", default_enabled) is True
     try:
         threshold = int(operations.get("autoApprovalMinConfidence", default_threshold))
     except (TypeError, ValueError):
@@ -268,20 +316,36 @@ def auto_approval_policy(operations: dict[str, Any] | None = None) -> dict[str, 
     except ValueError:
         default_target = 3
     try:
-        target = int(operations.get("dailyPublishTargetPerCategory", default_target))
+        target = int(default_target if "AUTO_APPROVAL_DAILY_TARGET" in os.environ else operations.get("dailyPublishTargetPerCategory", default_target))
     except (TypeError, ValueError):
         target = default_target
     try:
         fallback_confidence = int(os.environ.get("AUTO_APPROVAL_FALLBACK_CONFIDENCE", 78))
     except ValueError:
         fallback_confidence = 78
+    try:
+        video_target = int(os.environ.get("AUTO_APPROVAL_VIDEO_TARGET", 4))
+    except ValueError:
+        video_target = 4
+    try:
+        chinese_target = int(os.environ.get("AUTO_APPROVAL_CHINESE_ARTICLE_TARGET", 10))
+    except ValueError:
+        chinese_target = 10
+    try:
+        foreign_target = int(os.environ.get("AUTO_APPROVAL_FOREIGN_ARTICLE_TARGET", 2))
+    except ValueError:
+        foreign_target = 2
     return {
         "enabled": enabled,
         "minConfidence": max(70, min(100, threshold)),
         "fallbackMinConfidence": max(75, min(100, fallback_confidence)),
         # Keep the public automation promise even if an old admin export has 0 or 1.
         "dailyTargetPerCategory": max(2, min(10, target)),
-        "policyVersion": 2,
+        "dailyChineseArticleTarget": max(1, min(60, chinese_target)),
+        "dailyForeignArticleTarget": max(0, min(12, foreign_target)),
+        "dailyVideoTarget": max(4, min(12, video_target)),
+        "sourceMixEnforced": env_flag("AUTO_APPROVAL_SOURCE_MIX_ENFORCED", True),
+        "policyVersion": 3,
     }
 
 
@@ -301,7 +365,8 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
         evidence_score = 0
     trust_level = str(story.get("sourceTrustLevel") or "").strip()
     trusted_levels = set(policy.get("trustedLevels") or TRUSTED_LEVELS)
-    checks = {
+    video = is_video_story(story)
+    common_checks = {
         "featureEnabled": policy.get("enabled") is True,
         "trustedSource": trust_level in trusted_levels,
         "confidenceThreshold": confidence >= int(policy.get("minConfidence", DEFAULT_MIN_CONFIDENCE)),
@@ -310,24 +375,40 @@ def evaluate_auto_approval(story: dict[str, Any], policy: dict[str, Any]) -> dic
         "completeTitle": len(title) >= 10,
         "editorialScope": not any(term in f"{title} {story.get('originalTitle') or ''}" for term in LOW_VALUE_TITLE_TERMS)
         and not bool(GENERIC_AUTOMATIC_TITLE.search(title)),
-        "completeExcerpt": len(excerpt) >= 60,
-        "completeBody": count_content_characters(body) >= MIN_ARTICLE_CHARS,
-        "structuredBody": has_unique_article_sections(body),
-        "sourceDisclosure": has_source_disclosure(body),
+        "completeExcerpt": len(excerpt) >= (30 if video else 60),
         "localizedContent": not has_long_english_run("\n\n".join([title, excerpt, str(body)])),
-        "groundedGeneration": story.get("contentGenerationMode") in {
-            "github-models-source-grounded",
-            "source-grounded-structured-fallback",
-        },
         "usableSourceMaterial": source_material_is_usable(
             story.get("sourceMaterial") or story.get("originalExcerpt")
         ),
         "sourceChinesePresentation": source_has_chinese_presentation(story),
         "validImage": is_valid_image(story.get("image")),
         "classified": bool(str(story.get("category") or "").strip()),
-        "categoryEvidence": evidence_score >= 2,
+        "categoryEvidence": video or evidence_score >= 2,
         "videoSafety": is_valid_automatic_video(story),
     }
+    if video:
+        checks = {
+            **common_checks,
+            "completeBody": True,
+            "structuredBody": True,
+            "sourceDisclosure": True,
+            "groundedGeneration": story.get("contentGenerationMode") in {
+                "official-video-metadata",
+                "github-models-source-grounded",
+                "source-grounded-structured-fallback",
+            },
+        }
+    else:
+        checks = {
+            **common_checks,
+            "completeBody": count_content_characters(body) >= MIN_ARTICLE_CHARS,
+            "structuredBody": has_unique_article_sections(body),
+            "sourceDisclosure": has_source_disclosure(body),
+            "groundedGeneration": story.get("contentGenerationMode") in {
+                "github-models-source-grounded",
+                "source-grounded-structured-fallback",
+            },
+        }
     return {
         "approved": all(checks.values()),
         "checks": checks,
@@ -368,7 +449,7 @@ def story_priority(story: dict[str, Any]) -> tuple[float, int, int, int]:
 def select_auto_approval_audits(
     stories: list[dict[str, Any]], policy: dict[str, Any]
 ) -> dict[int, dict[str, Any]]:
-    """Select strict approvals first, then fill each category's daily target."""
+    """Select daily article/source quotas and a separate video quota."""
     audits = {id(story): evaluate_auto_approval(story, policy) for story in stories}
     strict_eligible = {story_id: audit["approved"] for story_id, audit in audits.items()}
     for story_id, audit in audits.items():
@@ -383,9 +464,83 @@ def select_auto_approval_audits(
     relaxed_policy = dict(policy)
     relaxed_policy["minConfidence"] = int(policy.get("fallbackMinConfidence", 78))
     relaxed_policy["trustedLevels"] = sorted(QUOTA_TRUSTED_LEVELS)
+
+    eligible: dict[int, dict[str, Any]] = {}
+    for story in stories:
+        if strict_eligible[id(story)]:
+            audit = audits[id(story)]
+            audit["mode"] = "strict"
+            eligible[id(story)] = audit
+            continue
+        relaxed = evaluate_auto_approval(story, relaxed_policy)
+        if relaxed["approved"]:
+            relaxed["mode"] = "daily-target-fill"
+            relaxed["dailyTargetPerCategory"] = target
+            eligible[id(story)] = relaxed
+
+    if policy.get("sourceMixEnforced") is True:
+        selected: list[dict[str, Any]] = []
+        selected_ids: set[int] = set()
+        article_stories = [story for story in stories if not is_video_story(story) and id(story) in eligible]
+        video_stories = [story for story in stories if is_video_story(story) and id(story) in eligible]
+        article_stories.sort(key=story_priority, reverse=True)
+        video_stories.sort(key=story_priority, reverse=True)
+
+        categories = {str(story.get("category") or "") for story in article_stories}
+        category_targets = {
+            category: int((policy.get("remainingCategoryTargets") or {}).get(category, target))
+            for category in categories
+        }
+        foreign_target = int(policy.get(
+            "remainingForeignArticleTarget", policy.get("dailyForeignArticleTarget", 2)
+        ))
+        foreign_candidates = [story for story in article_stories if not is_chinese_source(story)]
+        for story in foreign_candidates:
+            category = str(story.get("category") or "")
+            category_count = sum(
+                str(item.get("category") or "") == category for item in selected
+            )
+            if len(selected) >= sum(category_targets.values()) or foreign_target <= 0:
+                break
+            if category_count >= category_targets.get(category, target):
+                continue
+            selected.append(story)
+            selected_ids.add(id(story))
+            foreign_target -= 1
+
+        for category in categories:
+            category_selected = [story for story in selected if str(story.get("category") or "") == category]
+            category_target = category_targets[category]
+            needed = max(0, category_target - len(category_selected))
+            candidates = [
+                story for story in article_stories
+                if str(story.get("category") or "") == category and id(story) not in selected_ids
+            ]
+            candidates.sort(key=lambda story: (not is_chinese_source(story),) + tuple(-value for value in story_priority(story)))
+            for story in candidates[:needed]:
+                selected.append(story)
+                selected_ids.add(id(story))
+
+        video_target = int(policy.get("remainingVideoTarget", policy.get("dailyVideoTarget", 4)))
+        for story in video_stories[:video_target]:
+            selected.append(story)
+            selected_ids.add(id(story))
+
+        for story in selected:
+            audit = eligible[id(story)]
+            audit["approved"] = True
+            audit["mode"] = "video-quota" if is_video_story(story) else (
+                "foreign-source-quota" if not is_chinese_source(story) else audit.get("mode", "strict")
+            )
+            audits[id(story)] = audit
+        return audits
+
     categories = {str(story.get("category") or "") for story in stories}
     for category in categories:
-        category_stories = [story for story in stories if str(story.get("category") or "") == category]
+        category_stories = [
+            story for story in stories
+            if str(story.get("category") or "") == category and not is_video_story(story)
+        ]
         strict_candidates = [story for story in category_stories if strict_eligible[id(story)]]
         strict_candidates.sort(key=story_priority, reverse=True)
         for story in strict_candidates[:target]:
@@ -398,14 +553,21 @@ def select_auto_approval_audits(
         for story in category_stories:
             if audits[id(story)]["approved"]:
                 continue
-            relaxed = evaluate_auto_approval(story, relaxed_policy)
-            if relaxed["approved"]:
+            relaxed = eligible.get(id(story))
+            if relaxed:
                 candidates.append((story, relaxed))
         candidates.sort(key=lambda item: story_priority(item[0]), reverse=True)
         for story, relaxed in candidates[: target - approved_count]:
             relaxed["mode"] = "daily-target-fill"
             relaxed["dailyTargetPerCategory"] = target
             audits[id(story)] = relaxed
+    video_candidates = [story for story in stories if is_video_story(story) and id(story) in eligible]
+    video_candidates.sort(key=story_priority, reverse=True)
+    for story in video_candidates[:int(policy.get("dailyVideoTarget", 4))]:
+        audit = eligible[id(story)]
+        audit["approved"] = True
+        audit["mode"] = "video-quota"
+        audits[id(story)] = audit
     return audits
 
 
@@ -481,6 +643,9 @@ def article_row(
         "contentGenerationError",
     }
     extra = {key: value for key, value in story.items() if key not in core_keys}
+    if not is_video_story(story):
+        for field in VIDEO_ONLY_FIELDS:
+            extra.pop(field, None)
     extra.update(
         {
             "automaticImport": True,
@@ -518,7 +683,7 @@ def article_row(
         "time_label": "自动审核通过" if status == "published" else "待审核",
         "read_minutes": max(1, int(story.get("readMinutes") or 6)),
         "heat": max(0, int(story.get("heat") or 0)),
-        "published_date": parse_date(story.get("date")),
+        "published_date": publication_day(imported_at) if status == "published" else parse_date(story.get("date")),
         "tags": story.get("tags") if isinstance(story.get("tags"), list) else [],
         "extra": extra,
         "position": position,
@@ -566,7 +731,22 @@ def prepare_rows(
         if title_key:
             existing_titles.add(title_key)
 
-    audits = select_auto_approval_audits(candidates, approval_policy or {"enabled": False})
+    effective_policy = dict(approval_policy or {"enabled": False})
+    if effective_policy.get("sourceMixEnforced") is True:
+        day = publication_day(imported_at)
+        summary = daily_automatic_summary(existing, [], day)
+        target = int(effective_policy.get("dailyTargetPerCategory", 2))
+        effective_policy["remainingCategoryTargets"] = {
+            category: max(0, target - summary["categories"].get(category, 0))
+            for category in {str(story.get("category") or "") for story in candidates}
+        }
+        effective_policy["remainingForeignArticleTarget"] = max(
+            0, int(effective_policy.get("dailyForeignArticleTarget", 2)) - summary["foreignArticles"]
+        )
+        effective_policy["remainingVideoTarget"] = max(
+            0, int(effective_policy.get("dailyVideoTarget", 4)) - summary["videos"]
+        )
+    audits = select_auto_approval_audits(candidates, effective_policy)
     for story in candidates:
         try:
             rows.append(article_row(
@@ -637,24 +817,57 @@ def prepare_source_metadata_updates(
 def daily_automatic_counts(
     existing: list[dict[str, Any]], inserted: list[dict[str, Any]], day: str
 ) -> dict[str, int]:
+    return daily_automatic_summary(existing, inserted, day)["categories"]
+
+
+def daily_automatic_summary(
+    existing: list[dict[str, Any]], inserted: list[dict[str, Any]], day: str
+) -> dict[str, Any]:
     counts: dict[str, int] = {}
+    chinese_articles = 0
+    foreign_articles = 0
+    videos = 0
     for row in existing + inserted:
         extra = row.get("extra") if isinstance(row.get("extra"), dict) else {}
         audit = extra.get("automaticApproval") if isinstance(extra, dict) else {}
         if not isinstance(audit, dict):
             audit = {}
         reviewed_at = str(audit.get("reviewedAt") or "") if isinstance(audit, dict) else ""
+        try:
+            policy_version = int(audit.get("policyVersion") or 1)
+        except (TypeError, ValueError):
+            policy_version = 1
+        reviewed_day = publication_day(reviewed_at) if policy_version >= 3 else (
+            parse_date(row.get("published_date")) or reviewed_at[:10]
+        )
         if (
             row.get("status") != "published"
-            or not body_meets_publication_standard(row.get("body"))
             or not audit.get("approved")
-            or not reviewed_at.startswith(day)
+            or reviewed_day != day
         ):
+            continue
+        story_view = {**extra, **{
+            "sourceUrl": row.get("source_url") or extra.get("sourceUrl"),
+            "language": row.get("language") or extra.get("language"),
+        }}
+        if is_video_story(story_view):
+            videos += 1
+            continue
+        if not body_meets_publication_standard(row.get("body")):
             continue
         category = str(row.get("category") or "")
         if category:
             counts[category] = counts.get(category, 0) + 1
-    return counts
+        if is_chinese_source(story_view):
+            chinese_articles += 1
+        else:
+            foreign_articles += 1
+    return {
+        "categories": counts,
+        "chineseArticles": chinese_articles,
+        "foreignArticles": foreign_articles,
+        "videos": videos,
+    }
 
 
 def prepare_promotions(
@@ -666,7 +879,7 @@ def prepare_promotions(
     site_id: str = "main",
 ) -> tuple[list[dict[str, Any]], dict[str, int]]:
     """Fill today's category gaps from recent, already-imported automatic drafts."""
-    day = imported_at[:10]
+    day = publication_day(imported_at)
     counts = daily_automatic_counts(existing, inserted, day)
     target = int(policy.get("dailyTargetPerCategory", 3))
     try:
@@ -687,7 +900,10 @@ def prepare_promotions(
         for row in existing + inserted
         if row.get("status") == "published"
         and row.get("source_url")
-        and body_meets_publication_standard(row.get("body"))
+        and (
+            is_video_story(row.get("extra") if isinstance(row.get("extra"), dict) else {})
+            or body_meets_publication_standard(row.get("body"))
+        )
     }
     next_position = max(
         (int(row.get("position") or 0) for row in existing + inserted), default=-1
@@ -746,17 +962,62 @@ def prepare_promotions(
         if item[0].get("contentKind") == "video"
     ]
     video_candidates.sort(key=lambda item: story_priority(item[0]), reverse=True)
-    priority_video_ids = {id(story) for story, _, _ in video_candidates[:video_target]}
+    source_mix_enforced = policy.get("sourceMixEnforced") is True
+    priority_video_ids: set[int] = set()
+    strict_selected_ids: set[int] = set()
+    if source_mix_enforced:
+        summary = daily_automatic_summary(existing, inserted, day)
+        gaps = {
+            category: max(0, target - summary["categories"].get(category, 0))
+            for category in grouped
+        }
+        article_candidates = [
+            item for candidates in grouped.values() for item in candidates
+            if not is_video_story(item[0])
+        ]
+        article_candidates.sort(key=lambda item: story_priority(item[0]), reverse=True)
+        foreign_needed = max(
+            0, int(policy.get("dailyForeignArticleTarget", 2)) - summary["foreignArticles"]
+        )
+        for item in [candidate for candidate in article_candidates if not is_chinese_source(candidate[0])]:
+            category = str(item[0].get("category") or "")
+            if foreign_needed <= 0 or gaps.get(category, 0) <= 0:
+                continue
+            strict_selected_ids.add(id(item[0]))
+            gaps[category] -= 1
+            foreign_needed -= 1
+        for category, needed in gaps.items():
+            if needed <= 0:
+                continue
+            candidates = [
+                item for item in article_candidates
+                if str(item[0].get("category") or "") == category
+                and id(item[0]) not in strict_selected_ids
+            ]
+            candidates.sort(
+                key=lambda item: (is_chinese_source(item[0]),) + story_priority(item[0]),
+                reverse=True,
+            )
+            for item in candidates[:needed]:
+                strict_selected_ids.add(id(item[0]))
+        video_needed = max(0, int(policy.get("dailyVideoTarget", 4)) - summary["videos"])
+        priority_video_ids = {id(story) for story, _, _ in video_candidates[:video_needed]}
+        strict_selected_ids.update(priority_video_ids)
+    else:
+        priority_video_ids = {id(story) for story, _, _ in video_candidates[:video_target]}
 
     promotions: list[dict[str, Any]] = []
     for category, candidates in grouped.items():
         needed = max(0, target - counts.get(category, 0))
         candidates.sort(key=lambda item: story_priority(item[0]), reverse=True)
-        selected = [item for item in candidates if id(item[0]) in priority_video_ids]
-        remaining_needed = max(0, needed - len(selected))
-        selected.extend([
-            item for item in candidates if id(item[0]) not in priority_video_ids
-        ][:remaining_needed])
+        if source_mix_enforced:
+            selected = [item for item in candidates if id(item[0]) in strict_selected_ids]
+        else:
+            selected = [item for item in candidates if id(item[0]) in priority_video_ids]
+            remaining_needed = max(0, needed - len(selected))
+            selected.extend([
+                item for item in candidates if id(item[0]) not in priority_video_ids
+            ][:remaining_needed])
         for story, row, audit in selected:
             promotion_mode = "video-backfill" if id(story) in priority_video_ids else "daily-target-backfill"
             audit.update({
@@ -769,6 +1030,15 @@ def prepare_promotions(
             if isinstance(body, list):
                 body = "\n\n".join(str(item) for item in body)
             merged_extra = dict(row.get("extra") or {})
+            row_fields = {
+                "id", "category", "title", "excerpt", "image", "source", "sourceUrl", "url",
+                "author", "language", "status", "scheduledAt", "confidence", "body", "time",
+                "readMinutes", "heat", "date", "tags", "reviewChecks", "contentGenerationError",
+            }
+            merged_extra.update({key: value for key, value in story.items() if key not in row_fields})
+            if not is_video_story(story):
+                for field in VIDEO_ONLY_FIELDS:
+                    merged_extra.pop(field, None)
             merged_extra.update({
                 "automaticImport": True,
                 "automaticFingerprint": story_fingerprint(story),
@@ -813,7 +1083,8 @@ def prepare_promotions(
                 "position": next_position + len(promotions),
                 "updated_at": imported_at,
             })
-            counts[category] = counts.get(category, 0) + 1
+            if not source_mix_enforced or not is_video_story(story):
+                counts[category] = counts.get(category, 0) + 1
     return promotions, counts
 
 
@@ -854,7 +1125,7 @@ class SupabaseRest:
             "GET",
             "articles?site_id=eq."
             + encoded_site
-            + "&select=id,title,excerpt,source_url,body,position,category,status,time_label,extra,updated_at&limit=10000",
+            + "&select=id,title,excerpt,source_url,body,position,category,status,time_label,language,published_date,extra,updated_at&limit=10000",
         )
 
     def site_operations(self, site_id: str) -> dict[str, Any]:
@@ -963,16 +1234,48 @@ def main() -> int:
         f"promoted={len(promoted)}, "
         f"source={len(stories)}"
     )
-    target = int(policy.get("dailyTargetPerCategory", 3))
-    categories = sorted({str(story.get("category") or "") for story in stories if story.get("category")})
-    published_counts = {category: daily_counts.get(category, 0) for category in categories}
+    target = int(policy.get("dailyTargetPerCategory", 2))
+    categories = sorted({
+        str(story.get("category") or "") for story in stories
+        if story.get("category") and not is_video_story(story)
+    })
+    day = publication_day(imported_at)
+    summary = daily_automatic_summary(existing, inserted + promoted, day)
+    published_counts = {category: summary["categories"].get(category, 0) for category in categories}
     gaps = {category: max(0, target - count) for category, count in published_counts.items()}
     print("Auto-publish by category: " + json.dumps(published_counts, ensure_ascii=False, sort_keys=True))
+    print(
+        "Daily source/video mix: " + json.dumps({
+            "chineseArticles": summary["chineseArticles"],
+            "foreignArticles": summary["foreignArticles"],
+            "videos": summary["videos"],
+            "publicationDay": day,
+        }, ensure_ascii=False, sort_keys=True)
+    )
+    strict_gaps = {
+        "categories": gaps,
+        "chineseArticles": max(0, int(policy.get("dailyChineseArticleTarget", 10)) - summary["chineseArticles"]),
+        "foreignArticles": max(0, int(policy.get("dailyForeignArticleTarget", 2)) - summary["foreignArticles"]),
+        "videos": max(0, int(policy.get("dailyVideoTarget", 4)) - summary["videos"]),
+        "actualSourceMix": f"{summary['chineseArticles']}:{summary['foreignArticles']}",
+    }
     if any(gaps.values()):
         print(
             "Daily target gaps (no duplicate or low-quality filler was published): "
             + json.dumps(gaps, ensure_ascii=False, sort_keys=True)
         )
+    if policy.get("sourceMixEnforced") is True and (
+        any(gaps.values())
+        or summary["chineseArticles"] != int(policy.get("dailyChineseArticleTarget", 10))
+        or summary["foreignArticles"] != int(policy.get("dailyForeignArticleTarget", 2))
+        or strict_gaps["videos"]
+    ):
+        print(
+            "::error title=Daily publication target not met::"
+            + json.dumps(strict_gaps, ensure_ascii=False, sort_keys=True),
+            file=sys.stderr,
+        )
+        return 1
     return 0
 
 

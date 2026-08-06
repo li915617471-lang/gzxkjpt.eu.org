@@ -647,11 +647,15 @@ class RichDraftTests(unittest.TestCase):
                 "sourceMaterial": "官方节目介绍仿生机器鱼的结构、控制方法、试验过程和海洋应用。",
                 "source": "中央广播电视总台", "sourceUrl": "https://tv.cctv.com/video.shtml",
                 "originalPublishedAt": "2026-07-01", "image": "https://p3.img.cctvpic.com/video.jpg",
+                "videoType": "external", "videoUrl": "https://tv.cctv.com/video.shtml",
+                "videoExternalId": "0123456789abcdef0123456789abcdef",
             }
             queue.append(video)
             stats = auto_update.enhance_queue_bodies(queue, ["科技"])
-            self.assertEqual(stats["generated"], 3)
-            self.assertTrue(auto_update.body_meets_publication_standard(video["body"]))
+            self.assertEqual(stats["generated"], 2)
+            self.assertEqual(stats["videosPrepared"], 1)
+            self.assertEqual(video["contentGenerationMode"], "official-video-metadata")
+            self.assertFalse(auto_update.body_meets_publication_standard(video["body"]))
         finally:
             if previous_article_target is None:
                 os.environ.pop("ARTICLE_GENERATION_TARGET_PER_CATEGORY", None)
@@ -665,6 +669,32 @@ class RichDraftTests(unittest.TestCase):
                 os.environ.pop("ARTICLE_FORCE_STRUCTURED_FALLBACK", None)
             else:
                 os.environ["ARTICLE_FORCE_STRUCTURED_FALLBACK"] = previous_force
+
+    def test_balanced_queue_prioritizes_chinese_articles_and_keeps_videos_separate(self):
+        stories = []
+        for index in range(10):
+            stories.append({
+                "category": "科技", "title": f"中文科技资料{index}",
+                "sourceUrl": f"https://www.example{index}.gov.cn/story",
+                "sourceLanguage": "zh-CN", "originalPublishedAt": f"2026-08-{index + 1:02d}",
+            })
+        for index in range(5):
+            stories.append({
+                "category": "科技", "title": f"Foreign technology {index}",
+                "sourceUrl": f"https://example.com/foreign/{index}",
+                "sourceLanguage": "en", "originalPublishedAt": "2026-08-06",
+            })
+        for index in range(4):
+            stories.append({
+                "category": "科技", "contentKind": "video", "title": f"科普视频{index}",
+                "sourceUrl": f"https://tv.cctv.com/video/{index}",
+            })
+        queue = auto_update.balanced_queue(stories, [], ["科技"], limit=10)
+        articles = [story for story in queue if not auto_update.is_video_story(story)]
+        videos = [story for story in queue if auto_update.is_video_story(story)]
+        self.assertEqual(len(articles), 10)
+        self.assertGreaterEqual(sum(auto_update.is_chinese_source(story) for story in articles), 8)
+        self.assertEqual(len(videos), 4)
 
 
 if __name__ == "__main__":

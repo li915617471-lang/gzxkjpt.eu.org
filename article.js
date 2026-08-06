@@ -82,6 +82,7 @@ function categorySetting(name) {
 }
 
 function storyIsPublic(story) {
+  if (story.contentKind === "video") return false;
   const body = Array.isArray(story.body) ? story.body.join("\n\n") : String(story.body || "");
   if (body.replace(/\s/g, "").length < 800) return false;
   if (window.FXContent?.isChinesePublicStory && !window.FXContent.isChinesePublicStory(story)) return false;
@@ -467,7 +468,8 @@ function renderArticle(story) {
   };
   articleImage.src = story.image || imageFallback;
   articleImage.alt = story.title;
-  document.querySelector(".article-cover").hidden = renderArticleVideo(story);
+  document.querySelector("#articleVideo").hidden = true;
+  document.querySelector(".article-cover").hidden = false;
   document.querySelector("#articleSource").textContent = sourceDisplayName(story.source);
   document.querySelector("#railCategory").textContent = story.category;
   document.querySelector("#railDate").textContent = story.date || "未设置";

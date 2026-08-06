@@ -29,7 +29,11 @@
     "backupLimit": 10,
     "autoApprovalEnabled": true,
     "autoApprovalMinConfidence": 85,
-    "dailyPublishTargetPerCategory": 3
+    "dailyPublishTargetPerCategory": 2,
+    "dailyChineseArticleTarget": 10,
+    "dailyForeignArticleTarget": 2,
+    "dailyVideoTarget": 4,
+    "publicationTimezone": "Asia/Shanghai"
   },
   "categories": ["金融", "科技", "工业", "能源", "农业", "人文"],
   "categorySettings": [

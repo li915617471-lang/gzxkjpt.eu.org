@@ -287,10 +287,13 @@ class SupabaseDraftSyncTests(unittest.TestCase):
 
     def test_auto_review_accepts_official_external_video_link(self):
         story = self.rich_story()
+        video_url = "https://tv.cctv.com/2026/08/03/VIDE123.shtml"
         story.update({
             "contentKind": "video",
             "videoType": "external",
-            "videoUrl": story["sourceUrl"],
+            "sourceUrl": video_url,
+            "videoUrl": video_url,
+            "videoExternalId": "0123456789abcdef0123456789abcdef",
             "videoPoster": story["image"],
             "videoLinkOnly": True,
             "videoRightsConfirmed": True,
@@ -382,9 +385,11 @@ class SupabaseDraftSyncTests(unittest.TestCase):
 
     def test_video_backfill_is_independent_from_full_daily_category_target(self):
         story = self.rich_story()
+        video_url = "https://tv.cctv.com/2026/08/03/VIDE789.shtml"
         story.update({
             "contentKind": "video", "videoType": "external",
-            "videoUrl": story["sourceUrl"], "videoPoster": story["image"],
+            "sourceUrl": video_url, "videoUrl": video_url, "videoPoster": story["image"],
+            "videoExternalId": "00112233445566778899aabbccddeeff",
             "videoLinkOnly": True, "videoRightsConfirmed": True,
             "homeVideoFeatured": True, "videoDuration": "00:18:52",
         })
@@ -427,6 +432,109 @@ class SupabaseDraftSyncTests(unittest.TestCase):
         self.assertEqual(
             sync.daily_automatic_counts(existing, [], "2026-08-02"), {}
         )
+
+    def test_beijing_publication_day_crosses_utc_midnight(self):
+        self.assertEqual(sync.publication_day("2026-08-05T20:30:00+00:00"), "2026-08-06")
+        story = self.rich_story()
+        row = sync.article_row(
+            story, "main", 0, "2026-08-05T20:30:00+00:00",
+            {"enabled": True, "minConfidence": 85, "policyVersion": 3},
+        )
+        self.assertEqual(row["published_date"], "2026-08-06")
+
+    def test_same_day_remaining_quota_prevents_repeat_publication(self):
+        story = self.rich_story()
+        story.update({"sourceLanguage": "zh-CN", "sourceRegion": "中国"})
+        policy = {
+            "enabled": True, "minConfidence": 85, "fallbackMinConfidence": 78,
+            "dailyTargetPerCategory": 2, "dailyForeignArticleTarget": 0,
+            "dailyChineseArticleTarget": 2, "dailyVideoTarget": 4,
+            "sourceMixEnforced": True, "policyVersion": 3,
+        }
+        first_rows, _, _ = sync.prepare_rows(
+            [story], [], "main", "2026-08-06T01:00:00+00:00", policy
+        )
+        self.assertEqual(sum(row["status"] == "published" for row in first_rows), 1)
+        second_story = self.rich_story()
+        second_story.update({
+            "title": "大型储能项目第二份中文前沿进展资料",
+            "sourceUrl": "https://example.cn/energy/second",
+            "sourceLanguage": "zh-CN", "sourceRegion": "中国",
+        })
+        second_rows, _, _ = sync.prepare_rows(
+            [second_story], first_rows, "main", "2026-08-06T03:00:00+00:00", policy
+        )
+        self.assertEqual(sum(row["status"] == "published" for row in second_rows), 1)
+        third_story = self.rich_story()
+        third_story.update({
+            "title": "大型储能项目第三份中文前沿进展资料",
+            "sourceUrl": "https://example.cn/energy/third",
+            "sourceLanguage": "zh-CN", "sourceRegion": "中国",
+        })
+        third_rows, _, _ = sync.prepare_rows(
+            [third_story], first_rows + second_rows, "main", "2026-08-06T05:00:00+00:00", policy
+        )
+        self.assertEqual(sum(row["status"] == "published" for row in third_rows), 0)
+
+    def test_source_mix_selects_ten_chinese_and_two_foreign_articles(self):
+        categories = ["金融", "科技", "工业", "能源", "农业", "人文"]
+        stories = []
+        for category_index, category in enumerate(categories):
+            for index in range(2):
+                story = self.rich_story()
+                story.update({
+                    "category": category,
+                    "title": f"{category}领域中文前沿进展资料编号{index}",
+                    "sourceUrl": f"https://source-{category_index}-{index}.gov.cn/article",
+                    "sourceLanguage": "zh-CN",
+                    "sourceRegion": "中国",
+                })
+                stories.append(story)
+        for index, category in enumerate(categories[:2]):
+            story = self.rich_story()
+            story.update({
+                "category": category,
+                "title": f"{category}领域国际前沿进展中文译文编号{index}",
+                "sourceUrl": f"https://example.com/foreign/{index}",
+                "sourceLanguage": "en",
+                "sourceRegion": "全球",
+            })
+            stories.append(story)
+        policy = {
+            "enabled": True, "minConfidence": 85, "fallbackMinConfidence": 78,
+            "dailyTargetPerCategory": 2, "dailyForeignArticleTarget": 2,
+            "dailyChineseArticleTarget": 10, "dailyVideoTarget": 4,
+            "sourceMixEnforced": True, "policyVersion": 3,
+        }
+        audits = sync.select_auto_approval_audits(stories, policy)
+        selected = [story for story in stories if audits[id(story)]["approved"]]
+        self.assertEqual(len(selected), 12)
+        self.assertEqual(sum(sync.is_chinese_source(story) for story in selected), 10)
+        self.assertEqual(sum(not sync.is_chinese_source(story) for story in selected), 2)
+        self.assertTrue(all(sum(story["category"] == category for story in selected) == 2 for category in categories))
+
+    def test_video_quota_is_four_and_does_not_consume_article_quota(self):
+        stories = []
+        for index in range(5):
+            story = self.rich_story()
+            url = f"https://tv.cctv.com/video/{index}.shtml"
+            story.update({
+                "title": f"前沿科学技术科普视频资料第{index}期",
+                "excerpt": "官方科普节目介绍前沿科学技术的基本原理、试验过程、应用场景和发展方向。",
+                "sourceMaterial": "官方科普节目介绍前沿科学技术的基本原理、试验过程、应用场景和发展方向。",
+                "sourceUrl": url, "contentKind": "video", "videoType": "external",
+                "videoUrl": url, "videoPoster": story["image"], "videoLinkOnly": True,
+                "videoRightsConfirmed": True, "contentGenerationMode": "official-video-metadata",
+                "videoExternalId": f"{index:032x}",
+            })
+            stories.append(story)
+        policy = {
+            "enabled": True, "minConfidence": 85, "fallbackMinConfidence": 78,
+            "dailyTargetPerCategory": 2, "dailyForeignArticleTarget": 2,
+            "dailyVideoTarget": 4, "sourceMixEnforced": True, "policyVersion": 3,
+        }
+        audits = sync.select_auto_approval_audits(stories, policy)
+        self.assertEqual(sum(audits[id(story)]["approved"] for story in stories), 4)
 
     def test_daily_target_replaces_a_legacy_short_published_article(self):
         story = self.rich_story()

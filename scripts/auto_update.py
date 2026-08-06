@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import html
 import email.utils
+import concurrent.futures
 import json
 import os
 import re
@@ -60,6 +61,15 @@ CATEGORY_COVERS = {
 }
 DEFAULT_COVER = "assets/factory.jpg"
 QUEUE_PER_CATEGORY = 10
+FOREIGN_QUEUE_PER_CATEGORY = 2
+VIDEO_QUEUE_LIMIT = 12
+DEFAULT_ARTICLE_TARGET_PER_CATEGORY = 2
+DEFAULT_FOREIGN_ARTICLE_TARGET = 2
+DEFAULT_VIDEO_TARGET = 4
+VIDEO_ONLY_FIELDS = (
+    "videoType", "videoUrl", "videoPoster", "videoRightsConfirmed", "videoLinkOnly",
+    "homeVideoFeatured", "homeVideoPriority", "videoDuration", "videoExternalId",
+)
 TRACKING_IMAGE_MARKERS = ("pixel", "tracking", "tracker", "spacer", "1x1", "clear.gif", "beacon")
 MIN_ARTICLE_CHARS = 800
 GITHUB_MODELS_ENDPOINT = "https://models.github.ai/inference/chat/completions"
@@ -330,25 +340,96 @@ def pending_drafts() -> list[dict]:
     return retained
 
 
+def is_video_story(story: dict) -> bool:
+    return story.get("contentKind") == "video"
+
+
+def is_directly_playable_video(story: dict) -> bool:
+    if not is_video_story(story):
+        return False
+    video_url = str(story.get("videoUrl") or story.get("sourceUrl") or "")
+    external_id = str(story.get("videoExternalId") or "")
+    try:
+        hostname = (urllib.parse.urlsplit(video_url).hostname or "").lower()
+    except ValueError:
+        return False
+    return (
+        story.get("videoType") == "external"
+        and hostname == "tv.cctv.com"
+        and bool(re.fullmatch(r"[a-f0-9]{32}", external_id, re.I))
+    )
+
+
+def is_chinese_source(story: dict) -> bool:
+    language = str(story.get("sourceLanguage") or story.get("language") or "").lower()
+    region = str(story.get("sourceRegion") or story.get("region") or "")
+    source_id = str(story.get("collectionSourceId") or "").lower()
+    source_url = str(story.get("sourceUrl") or story.get("url") or "")
+    try:
+        hostname = (urllib.parse.urlsplit(source_url).hostname or "").lower()
+    except ValueError:
+        hostname = ""
+    return (
+        language.startswith("zh")
+        or region == "中国"
+        or source_id.startswith("china-")
+        or hostname.endswith(".gov.cn")
+        or hostname.endswith(".cn")
+    )
+
+
+def source_balanced_articles(stories: list[dict], limit: int) -> list[dict]:
+    ordered = sorted(stories, key=story_queue_priority, reverse=True)
+    chinese = [story for story in ordered if is_chinese_source(story)]
+    foreign = [story for story in ordered if not is_chinese_source(story)]
+    selected = chinese[:max(0, limit - FOREIGN_QUEUE_PER_CATEGORY)]
+    selected.extend(foreign[:FOREIGN_QUEUE_PER_CATEGORY])
+    selected_ids = {id(story) for story in selected}
+    selected.extend(story for story in ordered if id(story) not in selected_ids)
+    return selected[:limit]
+
+
 def balanced_queue(new_stories: list[dict], retained_stories: list[dict], categories: list[str], limit: int = 30) -> list[dict]:
-    """Round-robin categories so early sources cannot crowd out later sections."""
+    """Keep every board article-rich while reserving a separate video queue."""
     buckets = {category: [] for category in categories}
     overflow = []
-    for story in new_stories + retained_stories:
+    videos = []
+    deduplicated = []
+    seen_urls: set[str] = set()
+    seen_titles: set[str] = set()
+    # Prefer retained rich drafts for duplicate URLs so scheduled runs reuse
+    # completed 800+ character bodies instead of regenerating them every time.
+    for story in retained_stories + new_stories:
+        url_key = normalize_url(story.get("sourceUrl") or story.get("url") or "")
+        title_key = normalize_title(story.get("title", ""))
+        if (url_key and url_key in seen_urls) or (title_key and title_key in seen_titles):
+            continue
+        if url_key:
+            seen_urls.add(url_key)
+        if title_key:
+            seen_titles.add(title_key)
+        deduplicated.append(story)
+    for story in deduplicated:
+        if is_video_story(story):
+            videos.append(story)
+            continue
         category = story.get("category")
         if category in buckets:
             buckets[category].append(story)
         else:
             overflow.append(story)
-    for bucket in buckets.values():
-        bucket.sort(key=story_queue_priority, reverse=True)
+    for category, bucket in buckets.items():
+        buckets[category] = source_balanced_articles(bucket, QUEUE_PER_CATEGORY)
     queue = []
-    while len(queue) < limit and any(buckets.values()):
+    article_limit = min(limit, len(categories) * QUEUE_PER_CATEGORY)
+    while len(queue) < article_limit and any(buckets.values()):
         for category in categories:
-            if buckets[category] and len(queue) < limit:
+            if buckets[category] and len(queue) < article_limit:
                 queue.append(buckets[category].pop(0))
-    if len(queue) < limit:
-        queue.extend(overflow[:limit - len(queue)])
+    if len(queue) < article_limit:
+        queue.extend(overflow[:article_limit - len(queue)])
+    videos.sort(key=story_queue_priority, reverse=True)
+    queue.extend(videos[:VIDEO_QUEUE_LIMIT])
     return queue
 
 
@@ -905,16 +986,6 @@ def refresh_retained_source_material(stories: list[dict]) -> list[dict]:
             continue
         material = clean_text(story.get("sourceMaterial", ""))
         if not source_material_is_usable(material):
-            enriched = enrich_entry_from_page({
-                "link": story.get("sourceUrl", ""),
-                "summary": "",
-                "image": story.get("image", ""),
-            })
-            material = clean_text(enriched.get("sourceMaterial", ""))
-            if source_material_is_usable(material):
-                story["sourceMaterial"] = truncate_text(material, 6000)
-                story["sourceMaterialType"] = enriched.get("sourceMaterialType", "source-metadata")
-        if not source_material_is_usable(material):
             continue
         if not source_material_is_usable(story.get("excerpt", "")):
             story["excerpt"] = truncate_text(material, 280)
@@ -1001,6 +1072,8 @@ def refresh_retained_categories(
             )
             story["sourceTrustLevel"] = source.get("trustLevel", story.get("sourceTrustLevel", "standard"))
             story["sourceType"] = source.get("type", story.get("sourceType", "professional"))
+            story["sourceLanguage"] = source.get("language", story.get("sourceLanguage", story.get("language", "en")))
+            story["sourceRegion"] = source.get("region", story.get("sourceRegion", "全球"))
             if not story.get("confidence"):
                 story["confidence"] = max(0, min(100, int(source.get("confidence", 75))))
         if len(clean_text(story.get("excerpt", ""))) < 60 and story.get("sourceUrl"):
@@ -1220,6 +1293,37 @@ def add_free_source_translation(story: dict) -> bool:
     return True
 
 
+def prepare_video_metadata(story: dict) -> None:
+    source_name = localized_source_name(story.get("source", "公开来源"))
+    title = clean_text(story.get("translatedSourceTitle") or story.get("originalTitle") or story.get("title", ""))
+    summary = clean_text(
+        story.get("translatedSourceMaterial")
+        or story.get("sourceMaterial")
+        or story.get("originalExcerpt")
+        or story.get("excerpt", "")
+    )
+    if not has_cjk_text(title) or not has_cjk_text(summary):
+        raise ValueError("视频标题和简介必须提供中文内容")
+    title = re.sub(r"^(?:金融|科技|工业|能源|农业|人文)前沿观察：", "", title).strip()
+    story["title"] = truncate_text(title, 160)
+    story["excerpt"] = truncate_text(summary, 280)
+    story["body"] = (
+        "视频简介\n\n"
+        f"{truncate_text(summary, 900)}\n\n"
+        f"{SOURCE_DISCLOSURE_HEADING}\n\n"
+        f"本视频来自“{source_name}”公开发布页面，仅在平台视频区域展示。"
+    )
+    story["language"] = "zh-CN"
+    story["contentGenerationMode"] = "official-video-metadata"
+    story["contentCharacterCount"] = count_content_characters(story["body"])
+    story["readMinutes"] = 1
+    story["reviewNote"] = "视频元数据已通过中文标题、官方链接与传播权限检查"
+    story.pop("contentGenerationError", None)
+    if story.get("translatedSourceTitle") or story.get("translatedSourceMaterial"):
+        story["translationProvider"] = "MyMemory 公共翻译服务"
+        story["translationMode"] = "machine-translation"
+
+
 def generate_ai_article(story: dict) -> dict:
     token = os.environ.get("GITHUB_MODELS_TOKEN", "").strip()
     if not token:
@@ -1371,19 +1475,31 @@ def build_structured_article(story: dict) -> dict:
 
 def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
     try:
-        target = int(os.environ.get("ARTICLE_GENERATION_TARGET_PER_CATEGORY", 3))
+        target = int(os.environ.get("ARTICLE_GENERATION_TARGET_PER_CATEGORY", DEFAULT_ARTICLE_TARGET_PER_CATEGORY))
     except ValueError:
-        target = 3
+        target = DEFAULT_ARTICLE_TARGET_PER_CATEGORY
     # The public schedule promises at least two candidates per board each day.
     target = max(2, min(10, target))
     try:
-        video_target = int(os.environ.get("VIDEO_GENERATION_TARGET", 3))
+        candidate_target = int(os.environ.get("ARTICLE_CANDIDATE_TARGET_PER_CATEGORY", target))
     except ValueError:
-        video_target = 3
-    video_target = max(1, min(6, video_target))
-    video_candidates = [story for story in queue if story.get("contentKind") == "video"]
+        candidate_target = target
+    candidate_target = max(target, min(10, candidate_target))
+    try:
+        foreign_target = int(os.environ.get("FOREIGN_ARTICLE_GENERATION_TARGET", DEFAULT_FOREIGN_ARTICLE_TARGET))
+    except ValueError:
+        foreign_target = DEFAULT_FOREIGN_ARTICLE_TARGET
+    foreign_target = max(0, min(6, foreign_target))
+    try:
+        video_target = int(os.environ.get("VIDEO_GENERATION_TARGET", DEFAULT_VIDEO_TARGET))
+    except ValueError:
+        video_target = DEFAULT_VIDEO_TARGET
+    video_target = max(4, min(12, video_target))
+    video_candidates = [story for story in queue if is_directly_playable_video(story)]
     video_candidates.sort(key=story_queue_priority, reverse=True)
-    priority_video_ids = {id(story) for story in video_candidates[:video_target]}
+    # Prepare a larger playable pool so Supabase deduplication can still choose
+    # four fresh videos when some of today's newest items were published earlier.
+    selected_videos = video_candidates[:max(video_target, VIDEO_QUEUE_LIMIT)]
     try:
         translation_target = int(os.environ.get("FREE_TRANSLATION_TARGET", 3))
     except ValueError:
@@ -1392,11 +1508,18 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
     translations_used = 0
     stats = {
         "requested": 0, "generated": 0, "translated": 0, "failed": 0,
+        "chineseArticlesPrepared": 0, "foreignArticlesPrepared": 0,
+        "videosPrepared": 0,
         "minimumCharacters": MIN_ARTICLE_CHARS,
     }
     force_structured_fallback = env_flag("ARTICLE_FORCE_STRUCTURED_FALLBACK", False)
+    selected_articles: list[dict] = []
+    selected_ids: set[int] = set()
     for category in categories:
-        candidates = [story for story in queue if story.get("category") == category]
+        candidates = [
+            story for story in queue
+            if story.get("category") == category and not is_video_story(story)
+        ]
         candidates.sort(key=story_queue_priority, reverse=True)
         # Retained drafts can already have a publishable Chinese body while their
         # source title and abstract still lack Chinese translations. Translate
@@ -1422,12 +1545,83 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
                 stats["translated"] += 1
                 repair_generic_story_title(story)
                 break
-        selected = candidates[:target]
-        selected.extend(story for story in candidates if story.get("categoryChanged") and story not in selected)
-        selected.extend(story for story in candidates if id(story) in priority_video_ids and story not in selected)
-        for story in selected:
+        chinese_candidates = [story for story in candidates if is_chinese_source(story)]
+        category_selected = chinese_candidates[:candidate_target]
+        if len(category_selected) < candidate_target:
+            category_selected.extend(
+                story for story in candidates
+                if story not in category_selected
+            )
+        for story in category_selected[:candidate_target]:
+            if id(story) not in selected_ids:
+                selected_articles.append(story)
+                selected_ids.add(id(story))
+        for story in candidates:
+            if story.get("categoryChanged") and id(story) not in selected_ids:
+                selected_articles.append(story)
+                selected_ids.add(id(story))
+
+    foreign_candidates = [
+        story for story in queue
+        if not is_video_story(story) and not is_chinese_source(story) and id(story) not in selected_ids
+    ]
+    foreign_candidates.sort(key=story_queue_priority, reverse=True)
+    selected_foreign_count = sum(not is_chinese_source(story) for story in selected_articles)
+    for story in foreign_candidates[:max(0, foreign_target - selected_foreign_count)]:
+        selected_articles.append(story)
+        selected_ids.add(id(story))
+
+    enrichment_attempted_ids: set[int] = set()
+    enrichment_candidates = [
+        story for story in selected_articles
+        if len(clean_text(story.get("sourceMaterial", ""))) < 600
+    ]
+    if enrichment_candidates:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=min(6, len(enrichment_candidates))) as executor:
+            futures = {
+                executor.submit(enrich_entry_from_page, {
+                    "link": story.get("sourceUrl", ""),
+                    "summary": story.get("sourceMaterial") or story.get("excerpt", ""),
+                    "image": story.get("image", ""),
+                }): story
+                for story in enrichment_candidates
+            }
+            for future in concurrent.futures.as_completed(futures):
+                story = futures[future]
+                enrichment_attempted_ids.add(id(story))
+                try:
+                    enriched = future.result()
+                except Exception:  # noqa: BLE001
+                    continue
+                story["sourceMaterial"] = enriched.get("sourceMaterial") or story.get("sourceMaterial") or story.get("excerpt", "")
+                remote_image = safe_image_url(enriched.get("image", ""), story.get("sourceUrl", ""))
+                if remote_image and story.get("imageSourceType") == "category-cover":
+                    story["image"] = remote_image
+                    story["imageSourceType"] = "source-page"
+                    story["imageAttribution"] = story.get("source", "来源页面")
+
+    for story in queue:
+        if not is_video_story(story):
+            for field in VIDEO_ONLY_FIELDS:
+                story.pop(field, None)
+
+    for story in selected_videos:
+        try:
+            prepare_video_metadata(story)
+            stats["videosPrepared"] += 1
+        except ValueError as exc:
+            story["contentGenerationMode"] = "pending-video-metadata"
+            story["contentGenerationError"] = str(exc)[:300]
+            story["reviewNote"] = "视频缺少完整中文标题或简介，仅保留在待审核区"
+            stats["failed"] += 1
+
+    for story in selected_articles:
             repair_generic_story_title(story)
             if body_meets_publication_standard(story.get("body", "")):
+                if is_chinese_source(story):
+                    stats["chineseArticlesPrepared"] += 1
+                else:
+                    stats["foreignArticlesPrepared"] += 1
                 continue
             stats["requested"] += 1
             if not os.environ.get("GITHUB_MODELS_TOKEN", "").strip() and not force_structured_fallback:
@@ -1436,7 +1630,7 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
                 story["reviewNote"] = "正文未达到 800 字公开标准，仅保留在待审核区"
                 stats["failed"] += 1
                 continue
-            if len(clean_text(story.get("sourceMaterial", ""))) < 600:
+            if len(clean_text(story.get("sourceMaterial", ""))) < 600 and id(story) not in enrichment_attempted_ids:
                 enriched = enrich_entry_from_page({
                     "link": story.get("sourceUrl", ""),
                     "summary": story.get("sourceMaterial") or story.get("excerpt", ""),
@@ -1483,6 +1677,10 @@ def enhance_queue_bodies(queue: list[dict], categories: list[str]) -> dict:
                 story.pop("categoryChanged", None)
                 story.pop("contentGenerationError", None)
                 stats["generated"] += 1
+                if is_chinese_source(story):
+                    stats["chineseArticlesPrepared"] += 1
+                else:
+                    stats["foreignArticlesPrepared"] += 1
             except Exception as exc:  # noqa: BLE001
                 story["contentGenerationMode"] = "pending-editorial-expansion"
                 story["contentGenerationError"] = str(exc)[:300]
@@ -1613,13 +1811,42 @@ def main() -> int:
     invalid_entries = 0
     stale_entries = 0
 
+    try:
+        fetch_workers = int(os.environ.get("SOURCE_FETCH_WORKERS", 8))
+    except ValueError:
+        fetch_workers = 8
+    fetch_workers = max(2, min(12, fetch_workers))
+    try:
+        fetch_attempts = int(os.environ.get("SOURCE_FETCH_ATTEMPTS", 2))
+    except ValueError:
+        fetch_attempts = 2
+    fetch_attempts = max(1, min(3, fetch_attempts))
+
+    def collect_source(source: dict) -> tuple[bytes | None, int, int, Exception | None]:
+        started = time.perf_counter()
+        try:
+            raw, attempts, duration_ms = fetch(source["url"], max_attempts=fetch_attempts)
+            return raw, attempts, duration_ms, None
+        except Exception as exc:  # noqa: BLE001
+            return None, fetch_attempts, round((time.perf_counter() - started) * 1000), exc
+
+    source_payloads: dict[int, tuple[bytes | None, int, int, Exception | None]] = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=fetch_workers) as executor:
+        futures = {executor.submit(collect_source, source): source for source in sources}
+        for future in concurrent.futures.as_completed(futures):
+            source_payloads[id(futures[future])] = future.result()
+
     for source in sources:
         source_added = 0
         source_duplicates = 0
         attempts = 0
         duration_ms = 0
         try:
-            raw, attempts, duration_ms = fetch(source["url"])
+            raw, attempts, duration_ms, fetch_error = source_payloads[id(source)]
+            if fetch_error is not None:
+                raise fetch_error
+            if raw is None:
+                raise RuntimeError("来源未返回数据")
             entries = parse_source(raw, source)
             if not entries:
                 raise ValueError("订阅未返回可解析条目")
@@ -1644,8 +1871,6 @@ def main() -> int:
                     duplicates += 1
                     source_duplicates += 1
                     continue
-                if len(clean_text(entry.get("summary", ""))) < 60:
-                    entry = enrich_entry_from_page(entry)
                 stories.append(make_story(entry, source, len(stories), rules))
                 source_added += 1
                 if url_key:
@@ -1669,7 +1894,7 @@ def main() -> int:
                 "sourceId": source.get("id", ""),
                 "source": error["source"],
                 "status": "failed",
-                "attempts": attempts or 3,
+                "attempts": attempts or fetch_attempts,
                 "durationMs": duration_ms,
                 "fetched": 0,
                 "added": 0,
@@ -1701,7 +1926,7 @@ def main() -> int:
         print("全部采集来源失败，已保留原有草稿队列", file=sys.stderr)
         return 1
 
-    queue_limit = max(30, len(rules) * QUEUE_PER_CATEGORY)
+    queue_limit = max(30, len(rules) * QUEUE_PER_CATEGORY) + VIDEO_QUEUE_LIMIT
     queue = balanced_queue(stories, retained_drafts, list(rules), queue_limit)
     generation = enhance_queue_bodies(queue, list(rules))
     new_story_objects = {id(story) for story in stories}

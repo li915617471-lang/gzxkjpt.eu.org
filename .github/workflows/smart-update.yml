@@ -9,8 +9,8 @@ on:
       - "data/update-sources.json"
       - ".github/workflows/smart-update.yml"
   schedule:
-    # 每 3 小时第 17 分钟运行一次，提供公益免费的近实时更新。
-    - cron: "17 */3 * * *"
+    # 每 2 小时第 17 分钟运行一次，提供公益免费的近实时更新。
+    - cron: "17 */2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -40,8 +40,10 @@ jobs:
         env:
           GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_MODELS_MODEL: openai/gpt-4.1-mini
-          ARTICLE_GENERATION_TARGET_PER_CATEGORY: "3"
-          VIDEO_GENERATION_TARGET: "3"
+          ARTICLE_GENERATION_TARGET_PER_CATEGORY: "2"
+          ARTICLE_CANDIDATE_TARGET_PER_CATEGORY: "5"
+          FOREIGN_ARTICLE_GENERATION_TARGET: "2"
+          VIDEO_GENERATION_TARGET: "4"
           FREE_TRANSLATION_TARGET: "6"
           MAX_SOURCE_AGE_DAYS: "45"
           ARTICLE_FORCE_STRUCTURED_FALLBACK: "false"
@@ -61,8 +63,11 @@ jobs:
           AUTO_APPROVAL_ENABLED: "true"
           AUTO_APPROVAL_MIN_CONFIDENCE: "85"
           AUTO_APPROVAL_FALLBACK_CONFIDENCE: "78"
-          AUTO_APPROVAL_DAILY_TARGET: "3"
-          AUTO_APPROVAL_VIDEO_TARGET: "3"
+          AUTO_APPROVAL_DAILY_TARGET: "2"
+          AUTO_APPROVAL_CHINESE_ARTICLE_TARGET: "10"
+          AUTO_APPROVAL_FOREIGN_ARTICLE_TARGET: "2"
+          AUTO_APPROVAL_VIDEO_TARGET: "4"
+          AUTO_APPROVAL_SOURCE_MIX_ENFORCED: "true"
         run: |
           set -o pipefail
           if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then

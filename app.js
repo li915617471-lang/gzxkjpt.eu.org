@@ -102,6 +102,7 @@ function getCategorySetting(name) {
 }
 
 function storyIsPublic(story) {
+  if (story.contentKind === "video") return false;
   const body = Array.isArray(story.body) ? story.body.join("\n\n") : String(story.body || "");
   if (body.replace(/\s/g, "").length < 800) return false;
   if (window.FXContent?.isChinesePublicStory && !window.FXContent.isChinesePublicStory(story)) return false;
@@ -300,6 +301,7 @@ function bilibiliPlayerUrl(value) {
 }
 
 function validHomeVideo(story) {
+  if (story.contentKind !== "video") return false;
   if (story.videoRightsConfirmed !== true) return false;
   const type = String(story.videoType || "none");
   const value = String(story.videoUrl || "").trim();
@@ -312,6 +314,14 @@ function validHomeVideo(story) {
   } catch (error) {
     return false;
   }
+}
+
+function videoIsPublic(story) {
+  if (!validHomeVideo(story)) return false;
+  if (!/[\u3400-\u9fff]/.test(`${story.title || ""} ${story.excerpt || ""}`)) return false;
+  if (!story.status || story.status === "published") return true;
+  return story.status === "scheduled" && story.scheduledAt
+    && new Date(story.scheduledAt).getTime() <= Date.now();
 }
 
 function cctvVideoId(story) {
@@ -327,7 +337,7 @@ function cctvVideoId(story) {
 
 function getHomeVideos() {
   const publishedVideos = stories
-    .filter((story) => storyIsPublic(story) && story.homeVideoFeatured !== false && validHomeVideo(story))
+    .filter((story) => videoIsPublic(story) && story.homeVideoFeatured !== false)
     .sort((a, b) => {
       const priority = Number(b.homeVideoPriority ?? 50) - Number(a.homeVideoPriority ?? 50);
       if (priority) return priority;
@@ -337,7 +347,6 @@ function getHomeVideos() {
       const cctvId = cctvVideoId(story);
       return {
         id: `story-${story.id}`,
-        storyId: story.id,
         title: story.title,
         description: window.FXContent.presentationExcerpt(story),
         category: story.category,
@@ -523,7 +532,6 @@ function renderHomeVideos() {
   document.querySelector("#homeVideoDescription").textContent = active.description;
   document.querySelector("#homeVideoCount").textContent = `${homeVideos.length} 条`;
   const actions = [];
-  if (active.storyId) actions.push(`<a href="article.html?id=${encodeURIComponent(active.storyId)}"><i data-lucide="newspaper"></i>阅读对应文章</a>`);
   if (active.sourceUrl) actions.push(`<a href="${escapeHtml(active.sourceUrl)}" target="_blank" rel="noopener noreferrer"><i data-lucide="external-link"></i>查看资料来源</a>`);
   document.querySelector("#homeVideoActions").innerHTML = actions.join("");
   document.querySelector("#homeVideoPlaylist").innerHTML = homeVideos.map((video, index) => `
@@ -651,7 +659,7 @@ function renderMetrics() {
   const categories = getCategorySettings().filter((item) => item.enabled !== false);
   const coveredCategories = new Set(publicStories.map((story) => story.category)).size;
   const intelligenceCategories = new Set((intelligenceBundle.stories || []).map((story) => story.category)).size;
-  const videoCount = publicStories.filter(validHomeVideo).length;
+  const videoCount = stories.filter(videoIsPublic).length;
   const confidenceBasis = intelligenceBundle.stories.length ? intelligenceBundle.stories : publicStories;
   const averageConfidence = confidenceBasis.length
     ? Math.round(confidenceBasis.reduce((sum, story) => sum + Number(story.confidence || 0), 0) / confidenceBasis.length)

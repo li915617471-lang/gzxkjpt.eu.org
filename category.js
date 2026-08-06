@@ -489,7 +489,7 @@ function visibleCategoryStories() {
   const queryTokens = categoryQuery.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const filtered = (categoryContent?.stories || []).filter(function (story) {
     const body = Array.isArray(story.body) ? story.body.join("\n") : String(story.body || "");
-    const publicStory = story.category === activeCategory
+    const publicStory = story.contentKind !== "video" && story.category === activeCategory
       && body.replace(/\s/g, "").length >= 800
       && (!window.FXContent?.isChinesePublicStory || window.FXContent.isChinesePublicStory(story))
       && (!story.status || story.status === "published" || (story.status === "scheduled" && new Date(story.scheduledAt).getTime() <= Date.now()));
@@ -590,7 +590,7 @@ function renderCategoryPage() {
   const stories = visibleCategoryStories();
   const totalStories = (categoryContent?.stories || []).filter(function (story) {
     const body = Array.isArray(story.body) ? story.body.join("\n") : String(story.body || "");
-    return story.category === activeCategory && body.replace(/\s/g, "").length >= 800
+    return story.contentKind !== "video" && story.category === activeCategory && body.replace(/\s/g, "").length >= 800
       && (!window.FXContent?.isChinesePublicStory || window.FXContent.isChinesePublicStory(story))
       && (!story.status || story.status === "published" || (story.status === "scheduled" && new Date(story.scheduledAt).getTime() <= Date.now()));
   });
