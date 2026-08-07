@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T04:14:40.251523+00:00",
+  "generatedAt": "2026-08-07T05:30:41.303771+00:00",
   "stories": [
     {
       "id": 1,
@@ -2617,7 +2617,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painful losses in the tech talent wars, delays to its next…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2025/04/2_digitalselves_photocredit_JonathanReus.jpg?fit=2128,1196",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -2648,7 +2648,9 @@
       "freshnessDays": 1,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painful losses in the tech talent wars, delays to its next flagship model, and murmurings of poor morale,…",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 98,
@@ -2666,7 +2668,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Hadrian raises $1.4B to increase manufacturing footprint, workforce",
       "excerpt": "The defense startup plans to expand its workforce from 700 to 2,000 as well as open three more AI-power factories across the United States.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/factory.jpg",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "category-cover",
@@ -2697,7 +2699,9 @@
       "freshnessDays": 1,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The defense startup plans to expand its workforce from 700 to 2,000 as well as open three more AI-power factories across the United States.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 187,
@@ -2714,8 +2718,8 @@
       "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Oklo Milestone Shows America Is Building the Future of Nuclear Energy",
-      "excerpt": "Washington, D.C. – Today, Oklo announced that its The post Oklo Milestone Shows America Is Building the Future of Nuclear Energy appeared first on NAM .",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国制造商协会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "Washington, D.C. – Today, Oklo announced that its The Oklo Milestone Shows America Is Building the Future of Nuclear Energy appeared first on 美国制造商协会.",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“美国制造商协会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/energy.jpg",
       "imageFallback": "assets/energy.jpg",
       "imageSourceType": "category-cover",
@@ -2746,7 +2750,9 @@
       "freshnessDays": 1,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Washington, D.C. – Today, Oklo announced that its The post Oklo Milestone Shows America Is Building the Future of Nuclear Energy appeared first on NAM .",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 194,
@@ -2986,7 +2992,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Steris to invest $600M in North Carolina manufacturing hub",
       "excerpt": "The Dublin-based company plans to relocate some existing U.S. operations to the new 600,000-square-foot campus in the coming years.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://imgproxy.divecdn.com/824CIlOl0sk771KzNPQ2uE3M65E-c0BSe-90Fjo6u9s/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTc2NjE5MzY4X201ZTFEaHguanBn.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -3017,7 +3023,9 @@
       "freshnessDays": 1,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The Dublin-based company plans to relocate some existing U.S. operations to the new 600,000-square-foot campus in the coming years.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 162,
@@ -3376,6 +3384,67 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 59,
+      "category": "人文",
+      "categoryEvidenceScore": 0,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 0,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 3
+      },
+      "categoryClassificationMargin": 3,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《百家讲坛》 20260807 光阴里的节气·立秋",
+      "excerpt": "本期节目主要内容：当燥热的晚风渐渐显露凉意，当田间禾穗越发饱满低垂，节气的轮转悄然而至，我们迎来了属于秋天的第一个节气——立秋。立秋是夏秋交替的分界，也是万物由繁茂生长向敛藏成熟的转折。（《百家讲坛》 20260807 光阴里的节气·立秋）",
+      "body": "视频简介\n\n本期节目主要内容：当燥热的晚风渐渐显露凉意，当田间禾穗越发饱满低垂，节气的轮转悄然而至，我们迎来了属于秋天的第一个节气——立秋。立秋是夏秋交替的分界，也是万物由繁茂生长向敛藏成熟的转折。（《百家讲坛》 20260807 光阴里的节气·立秋）\n\n简要来源\n\n本视频来自“中央广播电视总台《百家讲坛》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p1.img.cctvpic.com/fmspic/2026/08/07/760d1e8b3c3e4491a42be44d1df1328c-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中央广播电视总台《百家讲坛》",
+      "originalTitle": "《百家讲坛》 20260807 光阴里的节气·立秋",
+      "originalExcerpt": "本期节目主要内容：当燥热的晚风渐渐显露凉意，当田间禾穗越发饱满低垂，节气的轮转悄然而至，我们迎来了属于秋天的第一个节气——立秋。立秋是夏秋交替的分界，也是万物由繁茂生长向敛藏成熟的转折。（《百家讲坛》 20260807 光阴里的节气·立秋）",
+      "source": "中央广播电视总台《百家讲坛》",
+      "sourceUrl": "https://tv.cctv.com/2026/08/07/VIDEjhjGA04c2D6OmkYmDnJg260807.shtml",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 97,
+      "time": "待审核",
+      "readMinutes": 1,
+      "heat": 78,
+      "date": "2026-08-07",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-cctv-humanities-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "2026-08-07 12:00:00",
+      "sourcePublishedAt": "2026-08-07T12:00:00+00:00",
+      "collectedAt": "2026-08-07T05:30:40.363770+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：当燥热的晚风渐渐显露凉意，当田间禾穗越发饱满低垂，节气的轮转悄然而至，我们迎来了属于秋天的第一个节气——立秋。立秋是夏秋交替的分界，也是万物由繁茂生长向敛藏成熟的转折。（《百家讲坛》 20260807 光阴里的节气·立秋）",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://tv.cctv.com/2026/08/07/VIDEjhjGA04c2D6OmkYmDnJg260807.shtml",
+      "videoPoster": "https://p1.img.cctvpic.com/fmspic/2026/08/07/760d1e8b3c3e4491a42be44d1df1328c-1.jpg",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 76,
+      "videoDuration": "00:37:22",
+      "videoExternalId": "760d1e8b3c3e4491a42be44d1df1328c",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 145
+    },
+    {
       "id": 67,
       "category": "科技",
       "categoryEvidenceScore": 0,
@@ -3390,8 +3459,8 @@
       "categoryClassificationMargin": 3,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "为了灭蚊，人类发明了多少离谱科技？",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "我们给100只蚊子做了变性手术！ 别划走，这不是科幻片，也不是标题党。 欢迎收看星球研究所《新天工开物》系列，一起去现场围观！",
+      "body": "核心信息 我们给100只蚊子做了变性手术！ 别划走，这不是科幻片，也不是标题党。 欢迎收看星球研究所《新天工开物》系列，一起去现场围观！ 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/05/17/1785831618970.png",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3432,7 +3501,10 @@
       "homeVideoFeatured": true,
       "homeVideoPriority": 72,
       "videoDuration": "",
-      "videoExternalId": "725083"
+      "videoExternalId": "725083",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 68,
@@ -3450,7 +3522,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "商家套路你的视觉！视错觉藏着什么小心机？",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/07/16/1786000390385.png",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3491,7 +3563,68 @@
       "homeVideoFeatured": true,
       "homeVideoPriority": 72,
       "videoDuration": "",
-      "videoExternalId": "725784"
+      "videoExternalId": "725784",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
+    },
+    {
+      "id": 68,
+      "category": "科技",
+      "categoryEvidenceScore": 0,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 3,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 0
+      },
+      "categoryClassificationMargin": 3,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《了不起的科学史》动画微电影第一集【出发，去大脑的深处】",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国数字科技馆”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20265/cc0c5a5072ce4066b508db9e36654225.png",
+      "imageFallback": "assets/datacenter.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中国数字科技馆",
+      "originalTitle": "《了不起的科学史》动画微电影第一集【出发，去大脑的深处】",
+      "originalExcerpt": "",
+      "source": "中国数字科技馆",
+      "sourceUrl": "https://www.cdstm.cn/videos/Tops/lbqdkxs/art/2025/art_9143afd613df46cf9261a6fce5fda311.html",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 96,
+      "time": "待审核",
+      "readMinutes": 6,
+      "heat": 78,
+      "date": "2026-08-07",
+      "tags": [
+        "科技"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-digital-science-museum-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "",
+      "sourcePublishedAt": "",
+      "collectedAt": "2026-08-07T05:30:40.423324+00:00",
+      "freshnessDays": null,
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "sourceMaterial": "",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://www.cdstm.cn/videos/Tops/lbqdkxs/art/2025/art_9143afd613df46cf9261a6fce5fda311.html",
+      "videoPoster": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20265/cc0c5a5072ce4066b508db9e36654225.png",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 70,
+      "videoDuration": "",
+      "videoExternalId": ""
     },
     {
       "id": 33,
@@ -3552,7 +3685,9 @@
       "videoDuration": "00:28:27",
       "videoExternalId": "879828b657564a62b8199aa07df9e876",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 148
+      "contentCharacterCount": 148,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 24,
@@ -3613,7 +3748,9 @@
       "videoDuration": "00:18:52",
       "videoExternalId": "cb4f95795a81471ca840dd0bc6bc1f03",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 161
+      "contentCharacterCount": 161,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 51,
@@ -3674,7 +3811,9 @@
       "videoDuration": "00:38:20",
       "videoExternalId": "360782bb364d40e391f00ea263ac8506",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 125
+      "contentCharacterCount": 125,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 43,
@@ -3801,158 +3940,41 @@
       "contentCharacterCount": 149,
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 42,
-      "category": "科技",
-      "categoryEvidenceScore": 0,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 3,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 3,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "转基因作物安全评价“闯关记”",
-      "excerpt": "说起转基因，安不安全是公众关注的重点。其实转基因产品的安全性在科学界已有明确定论，即通过安全评价，获得审批上市的转基因产品都是安全。转基因生物安全评价的指标全面，流程严格，值得放心。下面，让我们跟随农博士、农小哥、农小妹的脚步，一起看看转基因玉米的安全评价闯关之路吧~",
-      "body": "核心信息 说起转基因，安不安全是公众关注的重点。其实转基因产品的安全性在科学界已有明确定论，即通过安全评价，获得审批上市的转基因产品都是安全。转基因生物安全评价的指标全面，流程严格，值得放心。下面，让我们跟随农博士、农小哥、农小妹的脚步，一起看看转基因玉米的安全评价闯关之路吧~ 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/05/14/1785822609319.png",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "科普中国",
-      "originalTitle": "转基因作物安全评价“闯关记”",
-      "originalExcerpt": "",
-      "source": "科普中国",
-      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=725011",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 1,
-      "heat": 78,
-      "date": "2026-08-06",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-kepuchina-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-08-06T02:39:32.904780+00:00",
-      "freshnessDays": null,
-      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
-      "sourceMaterial": "说起转基因，安不安全是公众关注的重点。其实转基因产品的安全性在科学界已有明确定论，即通过安全评价，获得审批上市的转基因产品都是安全。转基因生物安全评价的指标全面，流程严格，值得放心。下面，让我们跟随农博士、农小哥、农小妹的脚步，一起看看转基因玉米的安全评价闯关之路吧~",
-      "sourceMaterialType": "source-metadata",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=725011",
-      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/05/14/1785822609319.png",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 72,
-      "videoDuration": "",
-      "videoExternalId": "725011",
-      "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 55,
-      "summarySourceType": "source-page",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
-    },
-    {
-      "id": 43,
-      "category": "科技",
-      "categoryEvidenceScore": 0,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 3,
-        "工业": 0,
-        "能源": 1,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 2,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "【榕哥烙科】第631期：战略气体氦打哪儿来？",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "视频简介 来自公开来源的前沿信息，等待后台进一步编辑摘要。 简要来源 本视频来自“中国数字科技馆”公开发布页面，仅在平台视频区域展示。",
-      "image": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20267/608e4700e0a544a7897293ace9dddbd4.png",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "中国数字科技馆",
-      "originalTitle": "【榕哥烙科】第631期：战略气体氦打哪儿来？",
-      "originalExcerpt": "",
-      "source": "中国数字科技馆",
-      "sourceUrl": "https://www.cdstm.cn/videos/Tops/v600/art/2026/art_359ded6f0fd14a6c97a2b62070a2c6c5.html",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 1,
-      "heat": 78,
-      "date": "2026-08-06",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-digital-science-museum-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-08-06T02:39:32.915624+00:00",
-      "freshnessDays": null,
-      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
-      "sourceMaterial": "氦气作为战略气体，绝对名副其实。我国需求量巨大每年进口占比长期超过90%，可以说保障氦气供应与能源安全同样重要。",
-      "sourceMaterialType": "source-metadata",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.cdstm.cn/videos/Tops/v600/art/2026/art_359ded6f0fd14a6c97a2b62070a2c6c5.html",
-      "videoPoster": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20267/608e4700e0a544a7897293ace9dddbd4.png",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 70,
-      "videoDuration": "",
-      "videoExternalId": "",
-      "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 58,
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（969ms）：HTTP Error 429: Too Many Requests"
+    }
+  ],
   "collection": {
-    "id": "2026-08-07T04:14:40.251523+00:00",
-    "startedAt": "2026-08-07T04:14:23.980635+00:00",
-    "finishedAt": "2026-08-07T04:14:40.251523+00:00",
-    "status": "success",
+    "id": "2026-08-07T05:30:41.303771+00:00",
+    "startedAt": "2026-08-07T05:30:24.575281+00:00",
+    "finishedAt": "2026-08-07T05:30:41.303771+00:00",
+    "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 36,
-    "sourcesFailed": 0,
-    "fetched": 348,
-    "added": 237,
-    "duplicates": 69,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 338,
+    "added": 225,
+    "duplicates": 71,
     "invalid": 3,
     "staleSkipped": 39,
     "maxSourceAgeDays": 45,
-    "errors": [],
+    "errors": [
+      {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（969ms）：HTTP Error 429: Too Many Requests"
+      }
+    ],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1361,
+        "durationMs": 1286,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -3962,7 +3984,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1383,
+        "durationMs": 1602,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -3972,7 +3994,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1796,
+        "durationMs": 1697,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -3982,7 +4004,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 556,
+        "durationMs": 622,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -3992,37 +4014,37 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 952,
+        "durationMs": 1155,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "china-cctv-new-technology-video",
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1039,
+        "durationMs": 1175,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-cctv-geography-video",
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 914,
+        "durationMs": 1631,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-cctv-discovery-video",
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 794,
+        "durationMs": 891,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4032,37 +4054,37 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 729,
+        "durationMs": 646,
         "fetched": 10,
-        "added": 7,
-        "duplicates": 3
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3477,
+        "durationMs": 2909,
         "fetched": 2,
-        "added": 2,
-        "duplicates": 0
+        "added": 0,
+        "duplicates": 2
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1163,
+        "durationMs": 848,
         "fetched": 6,
-        "added": 0,
-        "duplicates": 3
+        "added": 1,
+        "duplicates": 2
       },
       {
         "sourceId": "china-stats-releases",
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4303,
+        "durationMs": 5942,
         "fetched": 10,
         "added": 1,
         "duplicates": 9
@@ -4072,7 +4094,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1467,
+        "durationMs": 1945,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4082,7 +4104,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2058,
+        "durationMs": 6043,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4092,7 +4114,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 829,
+        "durationMs": 1811,
         "fetched": 10,
         "added": 4,
         "duplicates": 5
@@ -4102,17 +4124,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 72,
+        "durationMs": 75,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 202,
+        "durationMs": 394,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4122,27 +4144,27 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 204,
+        "durationMs": 206,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 952,
+        "durationMs": 1073,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 401,
+        "durationMs": 197,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4152,7 +4174,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1012,
+        "durationMs": 1048,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4162,7 +4184,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 818,
+        "durationMs": 778,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4172,17 +4194,17 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 243,
+        "durationMs": 112,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "us-federal-reserve",
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 120,
+        "durationMs": 109,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4192,7 +4214,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 539,
+        "durationMs": 2078,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4202,7 +4224,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 270,
+        "durationMs": 105,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4212,7 +4234,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 146,
+        "durationMs": 38,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4222,7 +4244,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 197,
+        "durationMs": 37,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4232,7 +4254,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 530,
+        "durationMs": 907,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4242,17 +4264,17 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 452,
+        "durationMs": 214,
         "fetched": 10,
-        "added": 7,
-        "duplicates": 3
+        "added": 6,
+        "duplicates": 4
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1162,
+        "durationMs": 1619,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4260,19 +4282,20 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 166,
-        "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 969,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（969ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 664,
+        "durationMs": 822,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4282,7 +4305,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 521,
+        "durationMs": 560,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4292,7 +4315,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1142,
+        "durationMs": 1249,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4302,7 +4325,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 129,
+        "durationMs": 65,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4311,20 +4334,20 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 16,
+      "科技": 15,
       "工业": 10,
       "能源": 12,
       "农业": 10,
-      "人文": 14
+      "人文": 15
     },
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 0,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
-      "videosPrepared": 7,
+      "videosPrepared": 8,
       "minimumCharacters": 800
     }
   }
