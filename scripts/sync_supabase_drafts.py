@@ -1264,18 +1264,26 @@ def main() -> int:
             "Daily target gaps (no duplicate or low-quality filler was published): "
             + json.dumps(gaps, ensure_ascii=False, sort_keys=True)
         )
-    if policy.get("sourceMixEnforced") is True and (
+    target_gap_detected = policy.get("sourceMixEnforced") is True and (
         any(gaps.values())
         or summary["chineseArticles"] != int(policy.get("dailyChineseArticleTarget", 10))
         or summary["foreignArticles"] != int(policy.get("dailyForeignArticleTarget", 2))
         or strict_gaps["videos"]
-    ):
+    )
+    if target_gap_detected:
+        gap_message = json.dumps(strict_gaps, ensure_ascii=False, sort_keys=True)
+        # Keep valid rows when sources are temporarily insufficient; the next
+        # scheduled run can backfill the exact deficit without low-quality filler.
+        if env_flag("AUTO_APPROVAL_FAIL_ON_DAILY_GAP", False):
+            print(
+                "::error title=Daily publication target not met::" + gap_message,
+                file=sys.stderr,
+            )
+            return 1
         print(
-            "::error title=Daily publication target not met::"
-            + json.dumps(strict_gaps, ensure_ascii=False, sort_keys=True),
+            "::warning title=Daily publication target pending::" + gap_message,
             file=sys.stderr,
         )
-        return 1
     return 0
 
 

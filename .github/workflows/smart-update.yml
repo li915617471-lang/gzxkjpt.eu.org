@@ -72,6 +72,7 @@ jobs:
           AUTO_APPROVAL_FOREIGN_ARTICLE_TARGET: "2"
           AUTO_APPROVAL_VIDEO_TARGET: "4"
           AUTO_APPROVAL_SOURCE_MIX_ENFORCED: "true"
+          AUTO_APPROVAL_FAIL_ON_DAILY_GAP: "false"
         run: |
           set -o pipefail
           if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
