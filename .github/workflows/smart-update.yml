@@ -8,6 +8,7 @@ on:
       - "scripts/sync_supabase_drafts.py"
       - "data/update-sources.json"
       - ".github/workflows/smart-update.yml"
+      - ".github/workflows/smart-update-retry.yml"
   schedule:
     # 每 2 小时第 17 分钟运行一次，提供公益免费的近实时更新。
     - cron: "17 */2 * * *"
