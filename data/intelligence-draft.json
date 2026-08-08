@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T14:17:24.454863+00:00",
+  "generatedAt": "2026-08-08T15:53:03.340812+00:00",
   "stories": [
     {
       "id": 1,
@@ -3212,6 +3212,67 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 50,
+      "category": "人文",
+      "categoryEvidenceScore": 2,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 0,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 5
+      },
+      "categoryClassificationMargin": 5,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《探索·发现》 20260808 八千年前的文明之光",
+      "excerpt": "本期节目主要内容：在浙江萧山的湘湖之畔，跨湖桥遗址博物馆像一艘巨大的船只静静地“停泊”在水面。8000年前的文明之光仍然在展厅里闪烁着耀眼的光芒，曾经的跨湖桥人早已消失在历史的深处，只有这些经历了沧海桑田、凝聚着智慧与心血的器物与遗存，在激发着人们的无穷想象，召唤着后来者在未知领域的无尽探寻。（《探索·发现》 20260808 八千年前的文明之光）",
+      "body": "视频简介\n\n本期节目主要内容：在浙江萧山的湘湖之畔，跨湖桥遗址博物馆像一艘巨大的船只静静地“停泊”在水面。8000年前的文明之光仍然在展厅里闪烁着耀眼的光芒，曾经的跨湖桥人早已消失在历史的深处，只有这些经历了沧海桑田、凝聚着智慧与心血的器物与遗存，在激发着人们的无穷想象，召唤着后来者在未知领域的无尽探寻。（《探索·发现》 20260808 八千年前的文明之光）\n\n简要来源\n\n本视频来自“中央广播电视总台《探索·发现》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p1.img.cctvpic.com/fmspic/2026/08/08/7bc5a1b6b5a648d291486a198014ed5d-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中央广播电视总台《探索·发现》",
+      "originalTitle": "《探索·发现》 20260808 八千年前的文明之光",
+      "originalExcerpt": "本期节目主要内容：在浙江萧山的湘湖之畔，跨湖桥遗址博物馆像一艘巨大的船只静静地“停泊”在水面。8000年前的文明之光仍然在展厅里闪烁着耀眼的光芒，曾经的跨湖桥人早已消失在历史的深处，只有这些经历了沧海桑田、凝聚着智慧与心血的器物与遗存，在激发着人们的无穷想象，召唤着后来者在未知领域的无尽探寻。（《探索·发现》 20260808 八千年前的文明之光）",
+      "source": "中央广播电视总台《探索·发现》",
+      "sourceUrl": "https://tv.cctv.com/2026/08/08/VIDEfNEZqhK8PlHCzlkGNuZ8260808.shtml",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 97,
+      "time": "待审核",
+      "readMinutes": 1,
+      "heat": 78,
+      "date": "2026-08-08",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-cctv-discovery-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "2026-08-08 20:32:00",
+      "sourcePublishedAt": "2026-08-08T20:32:00+00:00",
+      "collectedAt": "2026-08-08T15:53:02.416450+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：在浙江萧山的湘湖之畔，跨湖桥遗址博物馆像一艘巨大的船只静静地“停泊”在水面。8000年前的文明之光仍然在展厅里闪烁着耀眼的光芒，曾经的跨湖桥人早已消失在历史的深处，只有这些经历了沧海桑田、凝聚着智慧与心血的器物与遗存，在激发着人们的无穷想象，召唤着后来者在未知领域的无尽探寻。（《探索·发现》 20260808 八千年前的文明之光）",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://tv.cctv.com/2026/08/08/VIDEfNEZqhK8PlHCzlkGNuZ8260808.shtml",
+      "videoPoster": "https://p1.img.cctvpic.com/fmspic/2026/08/08/7bc5a1b6b5a648d291486a198014ed5d-1.jpg",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 77,
+      "videoDuration": "00:38:18",
+      "videoExternalId": "7bc5a1b6b5a648d291486a198014ed5d",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 198
+    },
+    {
       "id": 69,
       "category": "科技",
       "categoryEvidenceScore": 6,
@@ -3901,104 +3962,31 @@
       "contentCharacterCount": 117,
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 50,
-      "category": "人文",
-      "categoryEvidenceScore": 0,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 0,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 3
-      },
-      "categoryClassificationMargin": 3,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "《探索·发现》 20260807 考古零距离（5）",
-      "excerpt": "本期节目主要内容：一座沉睡了两千多年的汉代墓葬被重新唤醒，刻有文字的精美玉章将揭开一段尘封往事。众多精美陪葬品背后，汉代胶东国一名身世显赫的墓主人被“复活”。（《探索·发现》 20260807 考古零距离（5））",
-      "body": "视频简介\n\n本期节目主要内容：一座沉睡了两千多年的汉代墓葬被重新唤醒，刻有文字的精美玉章将揭开一段尘封往事。众多精美陪葬品背后，汉代胶东国一名身世显赫的墓主人被“复活”。（《探索·发现》 20260807 考古零距离（5））\n\n简要来源\n\n本视频来自“中央广播电视总台《探索·发现》”公开发布页面，仅在平台视频区域展示。",
-      "image": "https://p3.img.cctvpic.com/fmspic/2026/08/07/6337d41f8fa8447bbeb45f62a8e796d7-1.jpg",
-      "imageFallback": "assets/semiconductor.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "中央广播电视总台《探索·发现》",
-      "originalTitle": "《探索·发现》 20260807 考古零距离（5）",
-      "originalExcerpt": "本期节目主要内容：一座沉睡了两千多年的汉代墓葬被重新唤醒，刻有文字的精美玉章将揭开一段尘封往事。众多精美陪葬品背后，汉代胶东国一名身世显赫的墓主人被“复活”。（《探索·发现》 20260807 考古零距离（5））",
-      "source": "中央广播电视总台《探索·发现》",
-      "sourceUrl": "https://tv.cctv.com/2026/08/07/VIDEYvj2t8ufTAVIwZ0lm29w260807.shtml",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 97,
-      "time": "待审核",
-      "readMinutes": 1,
-      "heat": 78,
-      "date": "2026-08-07",
-      "tags": [
-        "人文"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-cctv-discovery-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-08-07 20:32:00",
-      "sourcePublishedAt": "2026-08-07T20:32:00+00:00",
-      "collectedAt": "2026-08-07T17:13:25.917939+00:00",
-      "freshnessDays": 0,
-      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
-      "sourceMaterial": "本期节目主要内容：一座沉睡了两千多年的汉代墓葬被重新唤醒，刻有文字的精美玉章将揭开一段尘封往事。众多精美陪葬品背后，汉代胶东国一名身世显赫的墓主人被“复活”。（《探索·发现》 20260807 考古零距离（5））",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://tv.cctv.com/2026/08/07/VIDEYvj2t8ufTAVIwZ0lm29w260807.shtml",
-      "videoPoster": "https://p3.img.cctvpic.com/fmspic/2026/08/07/6337d41f8fa8447bbeb45f62a8e796d7-1.jpg",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 77,
-      "videoDuration": "00:38:20",
-      "videoExternalId": "6337d41f8fa8447bbeb45f62a8e796d7",
-      "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 131,
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
-  "errors": [
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（897ms）：HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-08-08T14:17:24.454863+00:00",
-    "startedAt": "2026-08-08T14:17:01.483913+00:00",
-    "finishedAt": "2026-08-08T14:17:24.454863+00:00",
-    "status": "partial",
+    "id": "2026-08-08T15:53:03.340812+00:00",
+    "startedAt": "2026-08-08T15:52:43.352711+00:00",
+    "finishedAt": "2026-08-08T15:53:03.340812+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 337,
-    "added": 226,
-    "duplicates": 65,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 347,
+    "added": 235,
+    "duplicates": 66,
     "invalid": 3,
     "staleSkipped": 43,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（897ms）：HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2774,
+        "durationMs": 6929,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4008,7 +3996,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1576,
+        "durationMs": 1317,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4018,7 +4006,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3028,
+        "durationMs": 2663,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4028,7 +4016,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 509,
+        "durationMs": 824,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4038,7 +4026,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1185,
+        "durationMs": 1554,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4048,7 +4036,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1873,
+        "durationMs": 1560,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4058,7 +4046,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3005,
+        "durationMs": 1374,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4068,7 +4056,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2020,
+        "durationMs": 1400,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4078,7 +4066,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1475,
+        "durationMs": 840,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4088,7 +4076,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3172,
+        "durationMs": 3780,
         "fetched": 1,
         "added": 0,
         "duplicates": 1
@@ -4098,7 +4086,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1349,
+        "durationMs": 1428,
         "fetched": 6,
         "added": 0,
         "duplicates": 3
@@ -4108,7 +4096,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 8736,
+        "durationMs": 6289,
         "fetched": 10,
         "added": 1,
         "duplicates": 9
@@ -4118,7 +4106,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1645,
+        "durationMs": 1712,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4128,7 +4116,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1643,
+        "durationMs": 2296,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4138,7 +4126,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3962,
+        "durationMs": 1070,
         "fetched": 10,
         "added": 4,
         "duplicates": 5
@@ -4148,7 +4136,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 46,
+        "durationMs": 47,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4158,7 +4146,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 321,
+        "durationMs": 642,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4168,7 +4156,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 44,
+        "durationMs": 135,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4178,7 +4166,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 939,
+        "durationMs": 954,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4188,7 +4176,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 53,
+        "durationMs": 125,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4198,7 +4186,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 769,
+        "durationMs": 749,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4208,7 +4196,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 506,
+        "durationMs": 741,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4218,7 +4206,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 167,
+        "durationMs": 77,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4228,7 +4216,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 55,
+        "durationMs": 79,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4238,7 +4226,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 467,
+        "durationMs": 463,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4248,7 +4236,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 130,
+        "durationMs": 120,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4258,7 +4246,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 64,
+        "durationMs": 68,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4268,7 +4256,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 122,
+        "durationMs": 68,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4278,7 +4266,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 351,
+        "durationMs": 319,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4288,7 +4276,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 456,
+        "durationMs": 423,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4298,7 +4286,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 71,
+        "durationMs": 72,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4306,20 +4294,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 897,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（897ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 80,
+        "fetched": 10,
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 487,
+        "durationMs": 840,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4329,7 +4316,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 411,
+        "durationMs": 222,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4339,7 +4326,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 828,
+        "durationMs": 832,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4349,7 +4336,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 135,
+        "durationMs": 199,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
