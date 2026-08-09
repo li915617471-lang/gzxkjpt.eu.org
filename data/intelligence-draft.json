@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T08:25:20.071976+00:00",
+  "generatedAt": "2026-08-09T11:51:18.782656+00:00",
   "stories": [
     {
       "id": 1,
@@ -3532,6 +3532,67 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 42,
+      "category": "人文",
+      "categoryEvidenceScore": 0,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 0,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 3
+      },
+      "categoryClassificationMargin": 3,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《地理·中国》 20260809 中国风景名片——三江源2",
+      "excerpt": "本期节目主要内容：三江源保护区的生态状况不同于其它地区，这里的生境尤为复杂，生态环境极其脆弱。随着近些年科研人员对三江源地区的保护力度加大，一些以前未受关注的细节引起了有关专家的重视。专家对一种叫“鼠丘”的土堆展开了研究。（《地理·中国》 20260809 中国风景名片——三江源2）",
+      "body": "视频简介\n\n本期节目主要内容：三江源保护区的生态状况不同于其它地区，这里的生境尤为复杂，生态环境极其脆弱。随着近些年科研人员对三江源地区的保护力度加大，一些以前未受关注的细节引起了有关专家的重视。专家对一种叫“鼠丘”的土堆展开了研究。（《地理·中国》 20260809 中国风景名片——三江源2）\n\n简要来源\n\n本视频来自“中央广播电视总台《地理·中国》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p4.img.cctvpic.com/fmspic/2026/08/09/12c52bfda75240fd98814edae321dbce-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中央广播电视总台《地理·中国》",
+      "originalTitle": "《地理·中国》 20260809 中国风景名片——三江源2",
+      "originalExcerpt": "本期节目主要内容：三江源保护区的生态状况不同于其它地区，这里的生境尤为复杂，生态环境极其脆弱。随着近些年科研人员对三江源地区的保护力度加大，一些以前未受关注的细节引起了有关专家的重视。专家对一种叫“鼠丘”的土堆展开了研究。（《地理·中国》 20260809 中国风景名片——三江源2）",
+      "source": "中央广播电视总台《地理·中国》",
+      "sourceUrl": "https://tv.cctv.com/2026/08/09/VIDEfgsVlaHkTvOEbphvM9bU260809.shtml",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 97,
+      "time": "待审核",
+      "readMinutes": 1,
+      "heat": 78,
+      "date": "2026-08-09",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-cctv-geography-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "2026-08-09 17:26:00",
+      "sourcePublishedAt": "2026-08-09T17:26:00+00:00",
+      "collectedAt": "2026-08-09T11:51:17.890539+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：三江源保护区的生态状况不同于其它地区，这里的生境尤为复杂，生态环境极其脆弱。随着近些年科研人员对三江源地区的保护力度加大，一些以前未受关注的细节引起了有关专家的重视。专家对一种叫“鼠丘”的土堆展开了研究。（《地理·中国》 20260809 中国风景名片——三江源2）",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://tv.cctv.com/2026/08/09/VIDEfgsVlaHkTvOEbphvM9bU260809.shtml",
+      "videoPoster": "https://p4.img.cctvpic.com/fmspic/2026/08/09/12c52bfda75240fd98814edae321dbce-1.jpg",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 78,
+      "videoDuration": "00:27:25",
+      "videoExternalId": "12c52bfda75240fd98814edae321dbce",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 165
+    },
+    {
       "id": 59,
       "category": "人文",
       "categoryEvidenceScore": 1,
@@ -3590,7 +3651,9 @@
       "videoDuration": "00:38:01",
       "videoExternalId": "354bef9f18094c9eb93eb1fccbadb84a",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 140
+      "contentCharacterCount": 140,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 41,
@@ -3901,95 +3964,40 @@
       "summarySourceType": "source-page",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 32,
-      "category": "科技",
-      "categoryEvidenceScore": 0,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 3,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 3,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "《透视新科技》 20260807 随“芯”而行",
-      "excerpt": "本期节目主要内容：在繁华的广州琶洲，隐匿着一座充满未知与奥秘的实验室，在这个实验室里，诞生了一款神奇的头环。（《透视新科技》 20260807 随“芯”而行）",
-      "body": "视频简介\n\n本期节目主要内容：在繁华的广州琶洲，隐匿着一座充满未知与奥秘的实验室，在这个实验室里，诞生了一款神奇的头环。（《透视新科技》 20260807 随“芯”而行）\n\n简要来源\n\n本视频来自“中央广播电视总台《透视新科技》”公开发布页面，仅在平台视频区域展示。",
-      "image": "https://p5.img.cctvpic.com/fmspic/2026/08/08/0c3f716f257c4c82b03d40a1a1af5e52-1.jpg",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "中央广播电视总台《透视新科技》",
-      "originalTitle": "《透视新科技》 20260807 随“芯”而行",
-      "originalExcerpt": "本期节目主要内容：在繁华的广州琶洲，隐匿着一座充满未知与奥秘的实验室，在这个实验室里，诞生了一款神奇的头环。（《透视新科技》 20260807 随“芯”而行）",
-      "source": "中央广播电视总台《透视新科技》",
-      "sourceUrl": "https://tv.cctv.com/2026/08/08/VIDEukzDOb5iCL2T71UytlW2260808.shtml",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 97,
-      "time": "待审核",
-      "readMinutes": 1,
-      "heat": 78,
-      "date": "2026-08-07",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-cctv-new-technology-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-08-07 23:55:00",
-      "sourcePublishedAt": "2026-08-07T23:55:00+00:00",
-      "collectedAt": "2026-08-08T04:32:45.754759+00:00",
-      "freshnessDays": 1,
-      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
-      "sourceMaterial": "本期节目主要内容：在繁华的广州琶洲，隐匿着一座充满未知与奥秘的实验室，在这个实验室里，诞生了一款神奇的头环。（《透视新科技》 20260807 随“芯”而行）",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://tv.cctv.com/2026/08/08/VIDEukzDOb5iCL2T71UytlW2260808.shtml",
-      "videoPoster": "https://p5.img.cctvpic.com/fmspic/2026/08/08/0c3f716f257c4c82b03d40a1a1af5e52-1.jpg",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 79,
-      "videoDuration": "00:28:27",
-      "videoExternalId": "0c3f716f257c4c82b03d40a1a1af5e52",
-      "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 108,
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
   "errors": [
     {
       "source": "科普中国",
-      "error": "订阅未返回可解析条目"
+      "error": "连续 2 次请求失败（3036ms）：HTTP Error 405: Not Allowed"
+    },
+    {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（1059ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-08-09T08:25:20.071976+00:00",
-    "startedAt": "2026-08-09T08:25:03.944189+00:00",
-    "finishedAt": "2026-08-09T08:25:20.071976+00:00",
+    "id": "2026-08-09T11:51:18.782656+00:00",
+    "startedAt": "2026-08-09T11:51:03.189677+00:00",
+    "finishedAt": "2026-08-09T11:51:18.782656+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 346,
-    "added": 234,
-    "duplicates": 65,
+    "sourcesSucceeded": 34,
+    "sourcesFailed": 2,
+    "fetched": 336,
+    "added": 224,
+    "duplicates": 64,
     "invalid": 3,
-    "staleSkipped": 44,
+    "staleSkipped": 45,
     "maxSourceAgeDays": 45,
     "errors": [
       {
         "source": "科普中国",
-        "error": "订阅未返回可解析条目"
+        "error": "连续 2 次请求失败（3036ms）：HTTP Error 405: Not Allowed"
+      },
+      {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（1059ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -3998,7 +4006,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1779,
+        "durationMs": 2357,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4008,7 +4016,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1145,
+        "durationMs": 1325,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4018,7 +4026,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2183,
+        "durationMs": 2526,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4028,7 +4036,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 736,
+        "durationMs": 885,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4038,17 +4046,17 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1294,
+        "durationMs": 1694,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-cctv-new-technology-video",
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1041,
+        "durationMs": 1298,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4058,7 +4066,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1063,
+        "durationMs": 1684,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4068,7 +4076,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1017,
+        "durationMs": 1333,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4078,28 +4086,28 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2144,
+        "durationMs": 994,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
         "status": "failed",
-        "attempts": 1,
-        "durationMs": 2924,
+        "attempts": 2,
+        "durationMs": 3036,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "订阅未返回可解析条目"
+        "error": "连续 2 次请求失败（3036ms）：HTTP Error 405: Not Allowed"
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 803,
+        "durationMs": 1369,
         "fetched": 6,
         "added": 0,
         "duplicates": 3
@@ -4109,7 +4117,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2879,
+        "durationMs": 4599,
         "fetched": 10,
         "added": 1,
         "duplicates": 9
@@ -4119,7 +4127,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 5175,
+        "durationMs": 1651,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4129,7 +4137,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2181,
+        "durationMs": 1862,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4139,7 +4147,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 777,
+        "durationMs": 1075,
         "fetched": 10,
         "added": 4,
         "duplicates": 5
@@ -4149,7 +4157,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 205,
+        "durationMs": 45,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4159,7 +4167,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 155,
+        "durationMs": 837,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4169,7 +4177,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 195,
+        "durationMs": 101,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4179,7 +4187,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1098,
+        "durationMs": 1003,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4189,7 +4197,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 276,
+        "durationMs": 102,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4199,7 +4207,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1041,
+        "durationMs": 629,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4209,7 +4217,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 932,
+        "durationMs": 595,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4219,7 +4227,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 646,
+        "durationMs": 53,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4229,7 +4237,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 134,
+        "durationMs": 40,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4239,7 +4247,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 860,
+        "durationMs": 593,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4249,7 +4257,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 168,
+        "durationMs": 194,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4259,7 +4267,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 47,
+        "durationMs": 58,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4269,7 +4277,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 185,
+        "durationMs": 109,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4279,7 +4287,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 783,
+        "durationMs": 357,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4289,7 +4297,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 625,
+        "durationMs": 447,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4299,7 +4307,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 540,
+        "durationMs": 200,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4307,19 +4315,20 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 325,
-        "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 1059,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（1059ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 957,
+        "durationMs": 689,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4329,7 +4338,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 373,
+        "durationMs": 624,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4339,9 +4348,9 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1453,
+        "durationMs": 1097,
         "fetched": 10,
-        "added": 4,
+        "added": 3,
         "duplicates": 0
       },
       {
@@ -4349,7 +4358,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 72,
+        "durationMs": 132,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4358,11 +4367,11 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 15,
+      "科技": 14,
       "工业": 10,
       "能源": 12,
       "农业": 10,
-      "人文": 15
+      "人文": 16
     },
     "articleGeneration": {
       "requested": 32,
