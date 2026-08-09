@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T11:51:18.782656+00:00",
+  "generatedAt": "2026-08-09T14:20:04.202835+00:00",
   "stories": [
     {
       "id": 1,
@@ -2781,60 +2781,53 @@
       "contentCharacterCount": 1084
     },
     {
-      "id": 194,
+      "id": 116,
       "category": "农业",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 5,
       "categoryScores": {
         "金融": 0,
-        "科技": 0,
+        "科技": 1,
         "工业": 0,
         "能源": 0,
-        "农业": 8,
+        "农业": 9,
         "人文": 0
       },
       "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "农业前沿观察：衡量全球粮食不安全状况：方法的混合，信息的混合",
-      "excerpt": "新发布的《2026年世界粮食不安全和营养状况》（ SOFI 2026 ）正确地强调， “当今的全球挑战迫使我们紧急应对饥饿、粮食不安全和营养不良，因为多重危机日益扰乱全球农业粮食系统。”农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
-      "body": "核心进展 新发布的《2026年世界粮食不安全和营养状况》（ SOFI 2026 ）正确地强调， “当今的全球挑战迫使我们紧急应对饥饿、粮食不安全和营养不良，因为多重危机日益扰乱全球农业粮食系统。”。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。 关键内容 分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：国际农业研究磋商组织公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.cgiar.org/sites/g/files/fvypus371/files/styles/ogimage_1200x630/public/2026-08/wfp-grain-somalia.jpeg.webp?itok=ljE2btu8",
+      "title": "Why Digital Innovation Alone Won’t Transform Agriculture",
+      "excerpt": "Technology will be an important tool in sustainable crop protection, but its impact depends on making solutions practical, affordable, and accessible for farmers. The post Why Digital Innovation Alone Won’t Transform Agriculture appeared first on Global Ag Tech Initiative .",
+      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“全球农业科技资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2025/07/Grower-Tablet-Sunset-Photo-AGCO-150x150.jpg",
       "imageFallback": "assets/solar.jpg",
-      "imageSourceType": "source-page",
-      "imageAttribution": "CGIAR",
-      "originalTitle": "Measuring the state of global food insecurity: A mix of methods, and a mix of messages",
-      "originalExcerpt": "The newly released State of Food Insecurity and Nutrition in the World 2026 (SOFI 2026) rightly emphasizes that “Today’s global challenges compel us to urgently address hunger, food insecurity and malnutrition as multiple crises increasingly disrupt global agrifood systems.”",
-      "source": "CGIAR",
-      "sourceUrl": "https://www.cgiar.org/news-events/news/measuring-state-global-food-insecurity-mix-methods-and-mix-messages",
+      "imageSourceType": "rss",
+      "imageAttribution": "Global Ag Tech Initiative",
+      "originalTitle": "Why Digital Innovation Alone Won’t Transform Agriculture",
+      "originalExcerpt": "Technology will be an important tool in sustainable crop protection, but its impact depends on making solutions practical, affordable, and accessible for farmers. The post Why Digital Innovation Alone Won’t Transform Agriculture appeared first on Global Ag Tech Initiative .",
+      "source": "Global Ag Tech Initiative",
+      "sourceUrl": "https://www.globalagtechinitiative.com/digital-farming/why-digital-innovation-alone-wont-transform-agriculture/",
       "author": "",
-      "language": "zh-CN",
+      "language": "en",
       "sourceLanguage": "en",
-      "confidence": 93,
+      "confidence": 80,
       "time": "待审核",
-      "readMinutes": 4,
+      "readMinutes": 6,
       "heat": 78,
-      "date": "2026-08-05",
+      "date": "2026-08-07",
       "tags": [
         "农业"
       ],
-      "status": "review",
-      "collectionSourceId": "cgiar",
-      "sourceType": "research",
+      "status": "draft",
+      "collectionSourceId": "global-ag-tech-initiative",
+      "sourceType": "industry",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-08-05T12:00:00+0000",
-      "sourcePublishedAt": "2026-08-05T12:00:00+00:00",
-      "collectedAt": "2026-08-05T20:42:11.947152+00:00",
-      "freshnessDays": 0,
-      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "The newly released State of Food Insecurity and Nutrition in the World 2026 (SOFI 2026) rightly emphasizes that “Today’s global challenges compel us to urgently address hunger, food insecurity and malnutrition as multiple crises increasingly disrupt global agrifood systems.”",
-      "sourceMaterialType": "rss",
-      "translatedSourceTitle": "衡量全球粮食不安全状况：方法的混合，信息的混合",
-      "translatedSourceMaterial": "新发布的《2026年世界粮食不安全和营养状况》（ SOFI 2026 ）正确地强调， “当今的全球挑战迫使我们紧急应对饥饿、粮食不安全和营养不良，因为多重危机日益扰乱全球农业粮食系统。”",
-      "translationProvider": "MyMemory 公共翻译服务",
-      "translationMode": "machine-translation",
-      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
-      "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 901
+      "sourceTrustLevel": "standard",
+      "originalPublishedAt": "Fri, 07 Aug 2026 15:27:40 +0000",
+      "sourcePublishedAt": "2026-08-07T15:27:40+00:00",
+      "collectedAt": "2026-08-09T14:20:03.821445+00:00",
+      "freshnessDays": 2,
+      "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
+      "sourceMaterial": "Technology will be an important tool in sustainable crop protection, but its impact depends on making solutions practical, affordable, and accessible for farmers. The post Why Digital Innovation Alone Won’t Transform Agriculture appeared first on Global Ag Tech Initiative .",
+      "sourceMaterialType": "rss"
     },
     {
       "id": 228,
@@ -3107,30 +3100,30 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 183,
+      "id": 194,
       "category": "农业",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
         "工业": 0,
         "能源": 0,
-        "农业": 7,
+        "农业": 8,
         "人文": 0
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "农业前沿观察：超越产量： GALS方法如何在气候智能型农业中赋予妇女权力",
-      "excerpt": "性别行动学习系统（ GALS ）通过改变限制性家庭性别动态，确保公平获得资源、决策权和成功采用气候智能型农业实践，增强妇女和边缘化农民的权能。农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
-      "body": "核心进展 性别行动学习系统（ GALS ）通过改变限制性家庭性别动态，确保公平获得资源、决策权和成功采用气候智能型农业实践，增强妇女和边缘化农民的权能。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。 关键内容 分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：国际农业研究磋商组织公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.cgiar.org/sites/g/files/fvypus371/files/styles/ogimage_1200x630/public/2026-08/new%20header%20blog2.jpg.webp?itok=eagxMNMT",
+      "title": "农业前沿观察：衡量全球粮食不安全状况：方法的混合，信息的混合",
+      "excerpt": "新发布的《2026年世界粮食不安全和营养状况》（ SOFI 2026 ）正确地强调， “当今的全球挑战迫使我们紧急应对饥饿、粮食不安全和营养不良，因为多重危机日益扰乱全球农业粮食系统。”农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
+      "body": "核心进展 新发布的《2026年世界粮食不安全和营养状况》（ SOFI 2026 ）正确地强调， “当今的全球挑战迫使我们紧急应对饥饿、粮食不安全和营养不良，因为多重危机日益扰乱全球农业粮食系统。”。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。 关键内容 分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：国际农业研究磋商组织公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://www.cgiar.org/sites/g/files/fvypus371/files/styles/ogimage_1200x630/public/2026-08/wfp-grain-somalia.jpeg.webp?itok=ljE2btu8",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "source-page",
       "imageAttribution": "CGIAR",
-      "originalTitle": "Beyond Yields: How the GALS Approach Empowers Women in Climate-Smart Agriculture",
-      "originalExcerpt": "The Gender Action Learning System (GALS) empowers women and marginalized farmers by transforming restrictive household gender dynamics, ensuring equitable access to resources, decision-making power, and the successful adoption of climate-smart agricultural practices.",
+      "originalTitle": "Measuring the state of global food insecurity: A mix of methods, and a mix of messages",
+      "originalExcerpt": "The newly released State of Food Insecurity and Nutrition in the World 2026 (SOFI 2026) rightly emphasizes that “Today’s global challenges compel us to urgently address hunger, food insecurity and malnutrition as multiple crises increasingly disrupt global agrifood systems.”",
       "source": "CGIAR",
-      "sourceUrl": "https://www.cgiar.org/news-events/news/beyond-yields-how-gals-approach-empowers-women-climate-smart-agriculture",
+      "sourceUrl": "https://www.cgiar.org/news-events/news/measuring-state-global-food-insecurity-mix-methods-and-mix-messages",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -3149,18 +3142,18 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "2026-08-05T12:00:00+0000",
       "sourcePublishedAt": "2026-08-05T12:00:00+00:00",
-      "collectedAt": "2026-08-05T09:21:52.852858+00:00",
+      "collectedAt": "2026-08-05T20:42:11.947152+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "The Gender Action Learning System (GALS) empowers women and marginalized farmers by transforming restrictive household gender dynamics, ensuring equitable access to resources, decision-making power, and the successful adoption of climate-smart agricultural practices.",
+      "sourceMaterial": "The newly released State of Food Insecurity and Nutrition in the World 2026 (SOFI 2026) rightly emphasizes that “Today’s global challenges compel us to urgently address hunger, food insecurity and malnutrition as multiple crises increasingly disrupt global agrifood systems.”",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "超越产量： GALS方法如何在气候智能型农业中赋予妇女权力",
-      "translatedSourceMaterial": "性别行动学习系统（ GALS ）通过改变限制性家庭性别动态，确保公平获得资源、决策权和成功采用气候智能型农业实践，增强妇女和边缘化农民的权能。",
+      "translatedSourceTitle": "衡量全球粮食不安全状况：方法的混合，信息的混合",
+      "translatedSourceMaterial": "新发布的《2026年世界粮食不安全和营养状况》（ SOFI 2026 ）正确地强调， “当今的全球挑战迫使我们紧急应对饥饿、粮食不安全和营养不良，因为多重危机日益扰乱全球农业粮食系统。”",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 885
+      "contentCharacterCount": 901
     },
     {
       "id": 124,
@@ -3590,7 +3583,9 @@
       "videoDuration": "00:27:25",
       "videoExternalId": "12c52bfda75240fd98814edae321dbce",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 165
+      "contentCharacterCount": 165,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 59,
@@ -3969,17 +3964,17 @@
   "errors": [
     {
       "source": "科普中国",
-      "error": "连续 2 次请求失败（3036ms）：HTTP Error 405: Not Allowed"
+      "error": "连续 2 次请求失败（3000ms）：HTTP Error 405: Not Allowed"
     },
     {
       "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（1059ms）：HTTP Error 429: Too Many Requests"
+      "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-08-09T11:51:18.782656+00:00",
-    "startedAt": "2026-08-09T11:51:03.189677+00:00",
-    "finishedAt": "2026-08-09T11:51:18.782656+00:00",
+    "id": "2026-08-09T14:20:04.202835+00:00",
+    "startedAt": "2026-08-09T14:19:44.903242+00:00",
+    "finishedAt": "2026-08-09T14:20:04.202835+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 34,
@@ -3993,11 +3988,11 @@
     "errors": [
       {
         "source": "科普中国",
-        "error": "连续 2 次请求失败（3036ms）：HTTP Error 405: Not Allowed"
+        "error": "连续 2 次请求失败（3000ms）：HTTP Error 405: Not Allowed"
       },
       {
         "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（1059ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4006,7 +4001,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2357,
+        "durationMs": 1504,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4016,7 +4011,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1325,
+        "durationMs": 1582,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4026,7 +4021,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2526,
+        "durationMs": 3086,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4036,7 +4031,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 885,
+        "durationMs": 451,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4046,7 +4041,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1694,
+        "durationMs": 1169,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4056,27 +4051,27 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1298,
+        "durationMs": 1328,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "china-cctv-geography-video",
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1684,
+        "durationMs": 1521,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "china-cctv-discovery-video",
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1333,
+        "durationMs": 1475,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4086,7 +4081,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 994,
+        "durationMs": 692,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4096,18 +4091,18 @@
         "source": "科普中国",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 3036,
+        "durationMs": 3000,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（3036ms）：HTTP Error 405: Not Allowed"
+        "error": "连续 2 次请求失败（3000ms）：HTTP Error 405: Not Allowed"
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1369,
+        "durationMs": 1308,
         "fetched": 6,
         "added": 0,
         "duplicates": 3
@@ -4117,7 +4112,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4599,
+        "durationMs": 8258,
         "fetched": 10,
         "added": 1,
         "duplicates": 9
@@ -4127,7 +4122,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1651,
+        "durationMs": 1809,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4137,7 +4132,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1862,
+        "durationMs": 2243,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4147,7 +4142,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1075,
+        "durationMs": 2093,
         "fetched": 10,
         "added": 4,
         "duplicates": 5
@@ -4157,7 +4152,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 45,
+        "durationMs": 33,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4167,7 +4162,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 837,
+        "durationMs": 311,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4177,7 +4172,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 101,
+        "durationMs": 55,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4187,7 +4182,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1003,
+        "durationMs": 878,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4197,7 +4192,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 102,
+        "durationMs": 331,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4207,7 +4202,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 629,
+        "durationMs": 918,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4217,7 +4212,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 595,
+        "durationMs": 375,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4227,7 +4222,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 53,
+        "durationMs": 62,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4237,7 +4232,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 40,
+        "durationMs": 50,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4247,7 +4242,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 593,
+        "durationMs": 404,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4257,7 +4252,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 194,
+        "durationMs": 124,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4267,7 +4262,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 58,
+        "durationMs": 44,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4277,7 +4272,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 109,
+        "durationMs": 115,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4287,7 +4282,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 357,
+        "durationMs": 361,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4297,7 +4292,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 447,
+        "durationMs": 400,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4307,7 +4302,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 200,
+        "durationMs": 37,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4317,18 +4312,18 @@
         "source": "NASA Breaking News",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 1059,
+        "durationMs": 853,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（1059ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 689,
+        "durationMs": 571,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4338,7 +4333,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 624,
+        "durationMs": 191,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4348,7 +4343,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1097,
+        "durationMs": 910,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4358,7 +4353,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 132,
+        "durationMs": 121,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
