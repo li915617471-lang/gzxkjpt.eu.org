@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T14:20:04.202835+00:00",
+  "generatedAt": "2026-08-09T17:54:39.103711+00:00",
   "stories": [
     {
       "id": 1,
@@ -2796,7 +2796,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Why Digital Innovation Alone Won’t Transform Agriculture",
       "excerpt": "Technology will be an important tool in sustainable crop protection, but its impact depends on making solutions practical, affordable, and accessible for farmers. The post Why Digital Innovation Alone Won’t Transform Agriculture appeared first on Global Ag Tech Initiative .",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“全球农业科技资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“全球农业科技资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2025/07/Grower-Tablet-Sunset-Photo-AGCO-150x150.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "rss",
@@ -2827,7 +2827,9 @@
       "freshnessDays": 2,
       "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
       "sourceMaterial": "Technology will be an important tool in sustainable crop protection, but its impact depends on making solutions practical, affordable, and accessible for farmers. The post Why Digital Innovation Alone Won’t Transform Agriculture appeared first on Global Ag Tech Initiative .",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 228,
@@ -3525,6 +3527,67 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 51,
+      "category": "人文",
+      "categoryEvidenceScore": 1,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 0,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 4
+      },
+      "categoryClassificationMargin": 4,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《探索·发现》 20260809 灵公大墓之谜（上）",
+      "excerpt": "本期节目主要内容：叶县历史悠久，最早的历史记载出现于商代。据考古人员考证，叶县澧河一带分布着上千座墓葬。据当地民间传说，汉代时期此地乃昆阳之战的主战场所在。叶县境内分布着众多古代墓葬，据传昆阳之战中，刘秀麾下的阵亡将领大多安葬于此。（《探索·发现》 20260809 灵公大墓之谜（上））",
+      "body": "视频简介\n\n本期节目主要内容：叶县历史悠久，最早的历史记载出现于商代。据考古人员考证，叶县澧河一带分布着上千座墓葬。据当地民间传说，汉代时期此地乃昆阳之战的主战场所在。叶县境内分布着众多古代墓葬，据传昆阳之战中，刘秀麾下的阵亡将领大多安葬于此。（《探索·发现》 20260809 灵公大墓之谜（上））\n\n简要来源\n\n本视频来自“中央广播电视总台《探索·发现》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p5.img.cctvpic.com/fmspic/2026/08/09/30c2fd50987845acb621b45598b0b490-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中央广播电视总台《探索·发现》",
+      "originalTitle": "《探索·发现》 20260809 灵公大墓之谜（上）",
+      "originalExcerpt": "本期节目主要内容：叶县历史悠久，最早的历史记载出现于商代。据考古人员考证，叶县澧河一带分布着上千座墓葬。据当地民间传说，汉代时期此地乃昆阳之战的主战场所在。叶县境内分布着众多古代墓葬，据传昆阳之战中，刘秀麾下的阵亡将领大多安葬于此。（《探索·发现》 20260809 灵公大墓之谜（上））",
+      "source": "中央广播电视总台《探索·发现》",
+      "sourceUrl": "https://tv.cctv.com/2026/08/10/VIDEXF82JaoAqLdQvLSFBmKF260810.shtml",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 97,
+      "time": "待审核",
+      "readMinutes": 1,
+      "heat": 78,
+      "date": "2026-08-09",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-cctv-discovery-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "2026-08-09 22:13:00",
+      "sourcePublishedAt": "2026-08-09T22:13:00+00:00",
+      "collectedAt": "2026-08-09T17:54:38.402883+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：叶县历史悠久，最早的历史记载出现于商代。据考古人员考证，叶县澧河一带分布着上千座墓葬。据当地民间传说，汉代时期此地乃昆阳之战的主战场所在。叶县境内分布着众多古代墓葬，据传昆阳之战中，刘秀麾下的阵亡将领大多安葬于此。（《探索·发现》 20260809 灵公大墓之谜（上））",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://tv.cctv.com/2026/08/10/VIDEXF82JaoAqLdQvLSFBmKF260810.shtml",
+      "videoPoster": "https://p5.img.cctvpic.com/fmspic/2026/08/09/30c2fd50987845acb621b45598b0b490-1.jpg",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 77,
+      "videoDuration": "00:38:19",
+      "videoExternalId": "30c2fd50987845acb621b45598b0b490",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 166
+    },
+    {
       "id": 42,
       "category": "人文",
       "categoryEvidenceScore": 0,
@@ -3897,102 +3960,40 @@
       "videoExternalId": "",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 67,
-      "category": "科技",
-      "categoryEvidenceScore": 0,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 3,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 3,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "《了不起的科学史》动画微电影第一集【出发，去大脑的深处】",
-      "excerpt": "《出发，去大脑的深处》解析大脑的深层奥秘，堪称人类突破认知边界的终极挑战。在这部影片中，我们将跟随柯熵儿和蒲墩墩，看到人们试图通过探索大脑来了解自己的科学历程与壮举，包括人们如何看到大脑的存在，了解到大脑的基本工作原理和功能的，以及在治疗大脑疾病和类脑研究方面做出的努力。",
-      "body": "核心信息 《出发，去大脑的深处》解析大脑的深层奥秘，堪称人类突破认知边界的终极挑战。在这部影片中，我们将跟随柯熵儿和蒲墩墩，看到人们试图通过探索大脑来了解自己的科学历程与壮举，包括人们如何看到大脑的存在，了解到大脑的基本工作原理和功能的，以及在治疗大脑疾病和类脑研究方面做出的努力。 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国数字科技馆”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20265/cc0c5a5072ce4066b508db9e36654225.png",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "中国数字科技馆",
-      "originalTitle": "《了不起的科学史》动画微电影第一集【出发，去大脑的深处】",
-      "originalExcerpt": "",
-      "source": "中国数字科技馆",
-      "sourceUrl": "https://www.cdstm.cn/videos/Tops/lbqdkxs/art/2025/art_9143afd613df46cf9261a6fce5fda311.html",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 6,
-      "heat": 78,
-      "date": "2026-08-08",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-digital-science-museum-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-08-08T11:48:36.367133+00:00",
-      "freshnessDays": null,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.cdstm.cn/videos/Tops/lbqdkxs/art/2025/art_9143afd613df46cf9261a6fce5fda311.html",
-      "videoPoster": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20265/cc0c5a5072ce4066b508db9e36654225.png",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 70,
-      "videoDuration": "",
-      "videoExternalId": "",
-      "summarySourceType": "source-page",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
   "errors": [
     {
       "source": "科普中国",
-      "error": "连续 2 次请求失败（3000ms）：HTTP Error 405: Not Allowed"
+      "error": "订阅未返回可解析条目"
     },
     {
       "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
+      "error": "连续 2 次请求失败（983ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-08-09T14:20:04.202835+00:00",
-    "startedAt": "2026-08-09T14:19:44.903242+00:00",
-    "finishedAt": "2026-08-09T14:20:04.202835+00:00",
+    "id": "2026-08-09T17:54:39.103711+00:00",
+    "startedAt": "2026-08-09T17:54:22.495963+00:00",
+    "finishedAt": "2026-08-09T17:54:39.103711+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 34,
     "sourcesFailed": 2,
     "fetched": 336,
-    "added": 224,
-    "duplicates": 64,
+    "added": 223,
+    "duplicates": 65,
     "invalid": 3,
     "staleSkipped": 45,
     "maxSourceAgeDays": 45,
     "errors": [
       {
         "source": "科普中国",
-        "error": "连续 2 次请求失败（3000ms）：HTTP Error 405: Not Allowed"
+        "error": "订阅未返回可解析条目"
       },
       {
         "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（983ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4001,7 +4002,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1504,
+        "durationMs": 1205,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4011,7 +4012,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1582,
+        "durationMs": 1649,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4021,7 +4022,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3086,
+        "durationMs": 2112,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4031,7 +4032,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 451,
+        "durationMs": 1766,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4041,7 +4042,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1169,
+        "durationMs": 1008,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4051,7 +4052,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1328,
+        "durationMs": 1070,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4061,7 +4062,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1521,
+        "durationMs": 1010,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4071,7 +4072,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1475,
+        "durationMs": 1011,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4081,7 +4082,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 692,
+        "durationMs": 738,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4090,19 +4091,19 @@
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
         "status": "failed",
-        "attempts": 2,
-        "durationMs": 3000,
+        "attempts": 1,
+        "durationMs": 3046,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（3000ms）：HTTP Error 405: Not Allowed"
+        "error": "订阅未返回可解析条目"
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1308,
+        "durationMs": 1799,
         "fetched": 6,
         "added": 0,
         "duplicates": 3
@@ -4112,7 +4113,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 8258,
+        "durationMs": 4351,
         "fetched": 10,
         "added": 1,
         "duplicates": 9
@@ -4122,7 +4123,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1809,
+        "durationMs": 1642,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4132,7 +4133,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2243,
+        "durationMs": 5104,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4142,7 +4143,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2093,
+        "durationMs": 846,
         "fetched": 10,
         "added": 4,
         "duplicates": 5
@@ -4152,7 +4153,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 33,
+        "durationMs": 105,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4162,7 +4163,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 311,
+        "durationMs": 187,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4172,7 +4173,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 55,
+        "durationMs": 137,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4182,7 +4183,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 878,
+        "durationMs": 1001,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4192,17 +4193,17 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 331,
+        "durationMs": 223,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "open-culture",
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 918,
+        "durationMs": 1311,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4212,7 +4213,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 375,
+        "durationMs": 1011,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4222,7 +4223,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 62,
+        "durationMs": 147,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4232,7 +4233,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 50,
+        "durationMs": 97,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4242,7 +4243,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 404,
+        "durationMs": 872,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4252,7 +4253,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 124,
+        "durationMs": 114,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4262,7 +4263,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 44,
+        "durationMs": 115,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4272,7 +4273,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 115,
+        "durationMs": 74,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4282,7 +4283,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 361,
+        "durationMs": 679,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4292,7 +4293,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 400,
+        "durationMs": 649,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4302,7 +4303,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 37,
+        "durationMs": 147,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4312,18 +4313,18 @@
         "source": "NASA Breaking News",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 853,
+        "durationMs": 983,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（983ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 571,
+        "durationMs": 1357,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4333,7 +4334,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 191,
+        "durationMs": 262,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4343,7 +4344,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 910,
+        "durationMs": 1429,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4353,7 +4354,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 121,
+        "durationMs": 110,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4362,11 +4363,11 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 14,
+      "科技": 13,
       "工业": 10,
       "能源": 12,
       "农业": 10,
-      "人文": 16
+      "人文": 17
     },
     "articleGeneration": {
       "requested": 32,
@@ -4375,7 +4376,7 @@
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
-      "videosPrepared": 7,
+      "videosPrepared": 8,
       "minimumCharacters": 800
     }
   }
