@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T04:49:13.103379+00:00",
+  "generatedAt": "2026-08-09T08:25:20.071976+00:00",
   "stories": [
     {
       "id": 1,
@@ -3532,6 +3532,67 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 59,
+      "category": "人文",
+      "categoryEvidenceScore": 1,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 0,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 4
+      },
+      "categoryClassificationMargin": 4,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《百家讲坛》 20260809 千古华章（第二部） 4 《马说》",
+      "excerpt": "本期节目主要内容：在中国文学史上有这样一篇短文，以不过百余字的短小篇幅成就了回响千年的不朽名篇，这篇短文就是韩愈的《马说》，写下这篇文章的韩愈被后人赞誉为“文起八代之衰”。（《百家讲坛》 20260809 千古华章（第二部） 4 《马说》）",
+      "body": "视频简介\n\n本期节目主要内容：在中国文学史上有这样一篇短文，以不过百余字的短小篇幅成就了回响千年的不朽名篇，这篇短文就是韩愈的《马说》，写下这篇文章的韩愈被后人赞誉为“文起八代之衰”。（《百家讲坛》 20260809 千古华章（第二部） 4 《马说》）\n\n简要来源\n\n本视频来自“中央广播电视总台《百家讲坛》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p2.img.cctvpic.com/fmspic/2026/08/09/354bef9f18094c9eb93eb1fccbadb84a-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中央广播电视总台《百家讲坛》",
+      "originalTitle": "《百家讲坛》 20260809 千古华章（第二部） 4 《马说》",
+      "originalExcerpt": "本期节目主要内容：在中国文学史上有这样一篇短文，以不过百余字的短小篇幅成就了回响千年的不朽名篇，这篇短文就是韩愈的《马说》，写下这篇文章的韩愈被后人赞誉为“文起八代之衰”。（《百家讲坛》 20260809 千古华章（第二部） 4 《马说》）",
+      "source": "中央广播电视总台《百家讲坛》",
+      "sourceUrl": "https://tv.cctv.com/2026/08/09/VIDEwBAFZ3VL4QCgGDvpYuCx260809.shtml",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 97,
+      "time": "待审核",
+      "readMinutes": 1,
+      "heat": 78,
+      "date": "2026-08-09",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-cctv-humanities-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "2026-08-09 12:00:00",
+      "sourcePublishedAt": "2026-08-09T12:00:00+00:00",
+      "collectedAt": "2026-08-09T08:25:19.092575+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：在中国文学史上有这样一篇短文，以不过百余字的短小篇幅成就了回响千年的不朽名篇，这篇短文就是韩愈的《马说》，写下这篇文章的韩愈被后人赞誉为“文起八代之衰”。（《百家讲坛》 20260809 千古华章（第二部） 4 《马说》）",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://tv.cctv.com/2026/08/09/VIDEwBAFZ3VL4QCgGDvpYuCx260809.shtml",
+      "videoPoster": "https://p2.img.cctvpic.com/fmspic/2026/08/09/354bef9f18094c9eb93eb1fccbadb84a-1.jpg",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 76,
+      "videoDuration": "00:38:01",
+      "videoExternalId": "354bef9f18094c9eb93eb1fccbadb84a",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 140
+    },
+    {
       "id": 41,
       "category": "人文",
       "categoryEvidenceScore": 0,
@@ -3903,69 +3964,6 @@
       "contentCharacterCount": 108,
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 24,
-      "category": "科技",
-      "categoryEvidenceScore": 0,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 3,
-        "工业": 1,
-        "能源": 0,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 2,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "《创新进行时》 20260807 奔跑 中国“芯”（一）",
-      "excerpt": "本期节目主要内容：从真机遥操到原子行为采集，从单一机器人实训到训练场数据共享，每一次“再来”都在为机器人的智能进化积累基石。（《创新进行时》 20260807 奔跑 中国“芯”（一））",
-      "body": "视频简介\n\n本期节目主要内容：从真机遥操到原子行为采集，从单一机器人实训到训练场数据共享，每一次“再来”都在为机器人的智能进化积累基石。（《创新进行时》 20260807 奔跑 中国“芯”（一））\n\n简要来源\n\n本视频来自“中央广播电视总台《创新进行时》”公开发布页面，仅在平台视频区域展示。",
-      "image": "https://p4.img.cctvpic.com/fmspic/2026/08/07/afde0e8ce0a54debbce2ef5b3c2a679a-1.jpg",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "中央广播电视总台《创新进行时》",
-      "originalTitle": "《创新进行时》 20260807 奔跑 中国“芯”（一）",
-      "originalExcerpt": "本期节目主要内容：从真机遥操到原子行为采集，从单一机器人实训到训练场数据共享，每一次“再来”都在为机器人的智能进化积累基石。（《创新进行时》 20260807 奔跑 中国“芯”（一））",
-      "source": "中央广播电视总台《创新进行时》",
-      "sourceUrl": "https://tv.cctv.com/2026/08/07/VIDEVgJwB6AZxLlqsxGdDZmt260807.shtml",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 97,
-      "time": "待审核",
-      "readMinutes": 1,
-      "heat": 78,
-      "date": "2026-08-07",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-cctv-innovation-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-08-07 21:20:00",
-      "sourcePublishedAt": "2026-08-07T21:20:00+00:00",
-      "collectedAt": "2026-08-07T17:13:25.871017+00:00",
-      "freshnessDays": 0,
-      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
-      "sourceMaterial": "本期节目主要内容：从真机遥操到原子行为采集，从单一机器人实训到训练场数据共享，每一次“再来”都在为机器人的智能进化积累基石。（《创新进行时》 20260807 奔跑 中国“芯”（一））",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://tv.cctv.com/2026/08/07/VIDEVgJwB6AZxLlqsxGdDZmt260807.shtml",
-      "videoPoster": "https://p4.img.cctvpic.com/fmspic/2026/08/07/afde0e8ce0a54debbce2ef5b3c2a679a-1.jpg",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 80,
-      "videoDuration": "00:18:53",
-      "videoExternalId": "afde0e8ce0a54debbce2ef5b3c2a679a",
-      "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 117,
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
   "errors": [
@@ -3975,16 +3973,16 @@
     }
   ],
   "collection": {
-    "id": "2026-08-09T04:49:13.103379+00:00",
-    "startedAt": "2026-08-09T04:48:57.311253+00:00",
-    "finishedAt": "2026-08-09T04:49:13.103379+00:00",
+    "id": "2026-08-09T08:25:20.071976+00:00",
+    "startedAt": "2026-08-09T08:25:03.944189+00:00",
+    "finishedAt": "2026-08-09T08:25:20.071976+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 35,
     "sourcesFailed": 1,
     "fetched": 346,
-    "added": 235,
-    "duplicates": 64,
+    "added": 234,
+    "duplicates": 65,
     "invalid": 3,
     "staleSkipped": 44,
     "maxSourceAgeDays": 45,
@@ -4000,7 +3998,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1517,
+        "durationMs": 1779,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4010,7 +4008,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1296,
+        "durationMs": 1145,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4020,7 +4018,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2196,
+        "durationMs": 2183,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4030,7 +4028,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 600,
+        "durationMs": 736,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4040,7 +4038,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1459,
+        "durationMs": 1294,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4050,7 +4048,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1222,
+        "durationMs": 1041,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4060,7 +4058,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1217,
+        "durationMs": 1063,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4070,7 +4068,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1406,
+        "durationMs": 1017,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4080,7 +4078,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 620,
+        "durationMs": 2144,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4090,7 +4088,7 @@
         "source": "科普中国",
         "status": "failed",
         "attempts": 1,
-        "durationMs": 2668,
+        "durationMs": 2924,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
@@ -4101,7 +4099,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1068,
+        "durationMs": 803,
         "fetched": 6,
         "added": 0,
         "duplicates": 3
@@ -4111,17 +4109,17 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 5129,
+        "durationMs": 2879,
         "fetched": 10,
-        "added": 2,
-        "duplicates": 8
+        "added": 1,
+        "duplicates": 9
       },
       {
         "sourceId": "china-nea-news",
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1436,
+        "durationMs": 5175,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4131,7 +4129,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4067,
+        "durationMs": 2181,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4141,7 +4139,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2138,
+        "durationMs": 777,
         "fetched": 10,
         "added": 4,
         "duplicates": 5
@@ -4151,7 +4149,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 156,
+        "durationMs": 205,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4161,7 +4159,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 382,
+        "durationMs": 155,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4171,7 +4169,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 265,
+        "durationMs": 195,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4181,7 +4179,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 927,
+        "durationMs": 1098,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4191,7 +4189,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 198,
+        "durationMs": 276,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4201,7 +4199,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1231,
+        "durationMs": 1041,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4211,7 +4209,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 676,
+        "durationMs": 932,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4221,7 +4219,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 212,
+        "durationMs": 646,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4231,7 +4229,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 140,
+        "durationMs": 134,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4241,7 +4239,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 582,
+        "durationMs": 860,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4251,7 +4249,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 171,
+        "durationMs": 168,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4261,7 +4259,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 138,
+        "durationMs": 47,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4271,7 +4269,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 155,
+        "durationMs": 185,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4281,7 +4279,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 680,
+        "durationMs": 783,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4291,7 +4289,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 846,
+        "durationMs": 625,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4301,7 +4299,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 361,
+        "durationMs": 540,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4311,7 +4309,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 248,
+        "durationMs": 325,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4321,7 +4319,7 @@
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 778,
+        "durationMs": 957,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4331,7 +4329,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 760,
+        "durationMs": 373,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4341,7 +4339,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1162,
+        "durationMs": 1453,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4351,7 +4349,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 147,
+        "durationMs": 72,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4360,11 +4358,11 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 16,
+      "科技": 15,
       "工业": 10,
       "能源": 12,
       "农业": 10,
-      "人文": 14
+      "人文": 15
     },
     "articleGeneration": {
       "requested": 32,
