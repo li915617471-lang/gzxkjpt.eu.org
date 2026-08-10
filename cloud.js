@@ -163,7 +163,12 @@
   }
 
   function mapArticle(row) {
-    return Object.assign({}, row.extra || {}, {
+    const extra = row.extra || {};
+    const platformPublishedAt = extra.automaticApproval?.reviewedAt
+      || extra.automaticImportedAt
+      || row.published_date
+      || "";
+    return Object.assign({}, extra, {
       id: row.id,
       category: row.category,
       title: row.title,
@@ -181,6 +186,7 @@
       readMinutes: Number(row.read_minutes || 0),
       heat: Number(row.heat || 0),
       date: row.published_date || "",
+      platformPublishedAt: platformPublishedAt,
       tags: Array.isArray(row.tags) ? row.tags : []
     });
   }

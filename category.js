@@ -500,8 +500,30 @@ function visibleCategoryStories() {
   return filtered.sort(function (left, right) {
     if (categorySort === "hot") return Number(right.heat || 0) - Number(left.heat || 0);
     if (categorySort === "depth") return Number(right.readMinutes || 0) - Number(left.readMinutes || 0);
-    return new Date(right.date || 0).getTime() - new Date(left.date || 0).getTime() || Number(right.id || 0) - Number(left.id || 0);
+    return categoryStoryTimestamp(right) - categoryStoryTimestamp(left) || Number(right.id || 0) - Number(left.id || 0);
   });
+}
+
+function categoryStoryTimestamp(story) {
+  const candidates = [
+    story.platformPublishedAt,
+    story.automaticApproval?.reviewedAt,
+    story.automaticImportedAt,
+    story.publishedAt,
+    story.date,
+    story.sourcePublishedAt,
+    story.originalPublishedAt
+  ];
+  for (const candidate of candidates) {
+    const timestamp = new Date(candidate || 0).getTime();
+    if (Number.isFinite(timestamp) && timestamp > 0) return timestamp;
+  }
+  return 0;
+}
+
+function categoryStoryDate(story) {
+  const timestamp = categoryStoryTimestamp(story);
+  return timestamp ? window.FXIntelligence.formatDate(timestamp) : (story.date || "最新");
 }
 
 function activeSetting() {
@@ -518,7 +540,7 @@ function storyCard(story, index) {
   const image = safeCategoryImage(story.image, fallback);
   return `<article class="story-card" style="--category-color:${safeCategoryColor(activeSetting().color)}">
     <div class="story-image"><a href="article.html?id=${encodeURIComponent(story.id)}" aria-label="阅读：${escapeCategoryHtml(story.title)}"><img src="${escapeCategoryHtml(image)}" data-image-fallback="${escapeCategoryHtml(fallback)}" alt="${escapeCategoryHtml(story.title)}" loading="lazy" referrerpolicy="no-referrer"></a><span class="story-index">${String(index + 1).padStart(2, "0")}</span></div>
-    <div class="story-body"><div class="story-meta"><span class="category-tag">${escapeCategoryHtml(activeCategory)}</span><span>${Number(story.readMinutes || 6)} 分钟阅读</span></div><h3><a href="article.html?id=${encodeURIComponent(story.id)}">${escapeCategoryHtml(story.title)}</a></h3><p>${escapeCategoryHtml(window.FXContent.presentationExcerpt(story))}</p><div class="story-foot"><div class="story-source"><i class="source-mark"></i><span>${escapeCategoryHtml(sourceLabel(story.source))}</span><span>·</span><time>${escapeCategoryHtml(story.date || "最新")}</time></div></div></div>
+    <div class="story-body"><div class="story-meta"><span class="category-tag">${escapeCategoryHtml(activeCategory)}</span><span>${Number(story.readMinutes || 6)} 分钟阅读</span></div><h3><a href="article.html?id=${encodeURIComponent(story.id)}">${escapeCategoryHtml(story.title)}</a></h3><p>${escapeCategoryHtml(window.FXContent.presentationExcerpt(story))}</p><div class="story-foot"><div class="story-source"><i class="source-mark"></i><span>${escapeCategoryHtml(sourceLabel(story.source))}</span><span>·</span><time>${escapeCategoryHtml(categoryStoryDate(story))}</time></div></div></div>
   </article>`;
 }
 

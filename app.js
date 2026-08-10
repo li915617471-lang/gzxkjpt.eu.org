@@ -645,7 +645,16 @@ function updateFilterUi() {
 }
 
 function pulseStoryTimestamp(story) {
-  const candidates = [story.sourcePublishedAt, story.originalPublishedAt, story.date, story.collectedAt];
+  const candidates = [
+    story.platformPublishedAt,
+    story.automaticApproval?.reviewedAt,
+    story.automaticImportedAt,
+    story.publishedAt,
+    story.date,
+    story.sourcePublishedAt,
+    story.originalPublishedAt,
+    story.collectedAt
+  ];
   for (const candidate of candidates) {
     const timestamp = new Date(candidate || 0).getTime();
     if (Number.isFinite(timestamp) && timestamp > 0) return timestamp;
@@ -891,7 +900,7 @@ function storyTemplate(story, index) {
             <i class="source-mark"></i>
             <span>${escapeHtml(window.FXContent.localizedSourceName(story.source))}</span>
             <span>·</span>
-            <time>${escapeHtml(story.date ? window.FXIntelligence.formatDate(new Date(story.date).getTime()) : "最近发布")}</time>
+            <time>${escapeHtml(pulseStoryTimestamp(story) ? window.FXIntelligence.formatDate(pulseStoryTimestamp(story)) : "最近发布")}</time>
           </div>
           <button class="bookmark-button ${saved ? "is-saved" : ""}" type="button" data-bookmark="${story.id}" aria-label="${saved ? "取消收藏" : "收藏内容"}" title="${saved ? "取消收藏" : "收藏内容"}">
             <i data-lucide="bookmark"></i>

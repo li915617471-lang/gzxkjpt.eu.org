@@ -276,6 +276,16 @@ function renderBody(story) {
     : paragraphs.map(articleParagraphHtml).join("");
 }
 
+function platformPublishedValue(story) {
+  return story.platformPublishedAt
+    || story.automaticApproval?.reviewedAt
+    || story.automaticImportedAt
+    || story.publishedAt
+    || story.date
+    || story.time
+    || "";
+}
+
 function safeVideoUrl(value) {
   try {
     const url = new URL(String(value || ""), location.href);
@@ -454,7 +464,7 @@ function renderArticle(story) {
   document.querySelector("#articleCategory").style.color = categoryColor;
   document.querySelector("#categoryLink").textContent = story.category;
   document.querySelector("#categoryLink").href = "category.html?category=" + encodeURIComponent(story.category);
-  document.querySelector("#articleDate").textContent = story.date || story.time || "";
+  document.querySelector("#articleDate").textContent = dateOnlyLabel(platformPublishedValue(story));
   document.querySelector("#articleRead").textContent = Number(story.readMinutes || 6) + " 分钟阅读";
   document.querySelector("#articleTitle").textContent = story.title;
   const articleExcerpt = document.querySelector("#articleExcerpt");
@@ -472,7 +482,7 @@ function renderArticle(story) {
   document.querySelector(".article-cover").hidden = false;
   document.querySelector("#articleSource").textContent = sourceDisplayName(story.source);
   document.querySelector("#railCategory").textContent = story.category;
-  document.querySelector("#railDate").textContent = story.date || "未设置";
+  document.querySelector("#railDate").textContent = dateOnlyLabel(platformPublishedValue(story)) || "未设置";
   document.querySelector("#railHeat").textContent = String(story.heat || 0);
   const sourceLink = document.querySelector("#sourceLink");
   const sourceUrl = story.sourceUrl || story.url;
@@ -532,8 +542,8 @@ function applyArticleSeo(story, site) {
     headline: story.title,
     description: description,
     image: [image],
-    datePublished: story.date || undefined,
-    dateModified: story.updatedAt || story.date || undefined,
+    datePublished: platformPublishedValue(story) || undefined,
+    dateModified: story.updatedAt || platformPublishedValue(story) || undefined,
     inLanguage: story.language || "zh-CN",
     mainEntityOfPage: canonical,
     author: { "@type": story.author ? "Person" : "Organization", name: story.author || story.source || site.name || "信息分享平台" },
