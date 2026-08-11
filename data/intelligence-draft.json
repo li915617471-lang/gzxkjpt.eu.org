@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T17:43:57.496313+00:00",
+  "generatedAt": "2026-08-11T20:28:22.649308+00:00",
   "stories": [
     {
       "id": 1,
@@ -2624,30 +2624,30 @@
       "contentCharacterCount": 960
     },
     {
-      "id": 89,
+      "id": 90,
       "category": "科技",
-      "categoryEvidenceScore": 2,
+      "categoryEvidenceScore": 9,
       "categoryScores": {
-        "金融": 0,
-        "科技": 5,
+        "金融": 1,
+        "科技": 13,
         "工业": 0,
-        "能源": 1,
+        "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 2
       },
-      "categoryClassificationMargin": 4,
+      "categoryClassificationMargin": 11,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：使用COMSOL为任务安全和太空基础设施模拟月球风化层",
-      "excerpt": "目前的太空探索旨在在月球、火星以及最终在其他行星上建立永久性结构。月球任务的成功取决于对月球风化层的了解，月球风化层是覆盖月球表面的颗粒物质，其行为受低重力、真空条件、粒子不规则性、静电效应和极端热环境的影响。 本次网络研讨会将重点讨论与月球风化层相关的两个相关建模问题：登月过程中的羽状风化层相互作用和用于热处理和熔化的多孔风化层的感应加热。这些问题共同表明…",
-      "body": "核心进展\n\n目前的太空探索旨在在月球、火星以及最终在其他行星上建立永久性结构。月球任务的成功取决于对月球风化层的了解，月球风化层是覆盖月球表面的颗粒物质，其行为受低重力、真空条件、粒子不规则性、静电效应和极端热环境的影响。 本次网络研讨会将重点讨论与月球风化层相关的两个相关建模问题：登月过程中的羽状风化层相互作用和用于热处理和熔化的多孔风化层的感应加热。这些问题共同表明， COMSOL Multiphysics ®软件的模拟如何帮助工程和研究团队预测、控制和利用颗粒月球物质。 演讲的第一部分将讨论羽状岩-表岩相互作用。在航天器着陆期间，膨胀不足的火箭排气羽流撞击表面，产生可压缩的流动结构、侵蚀、颗粒喷射和可能的表面损坏。高速粉尘会降低能见度，并威胁到宇航员、设备和附近的资产。 这些问题对于Artemis和未来涉及反复着陆和大型航天器的任务尤为重要。对耦合气体-颗粒响应进行建模，可深入了解着陆点的安全性、侵蚀模式、弹射轨迹和缓解策略。网络研讨会的第二部分将研究多孔风化层的感应加热，其中电磁…。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://assets.rbl.ms/67603988/origin.png",
+      "title": "科技前沿观察：IEEE工程峰会支持不丹的数字化转型",
+      "excerpt": "IEEE最近与不丹王国政府合作，推出了其工程教育、研究和创新峰会。该活动于6月9日和10日在喜马拉雅山东部的帕罗举行，旨在通过关注数字化转型、工程教育和可持续发展的关键交叉点，帮助不丹实现数字化转型。 此次峰会汇集了全球学术领袖、技术专家和不丹政府官员，讨论现代工程课程如何从以理论为中心的模型演变为基于应用和技能的框架…",
+      "body": "核心进展\n\nIEEE最近与不丹王国政府合作，推出了其工程教育、研究和创新峰会。该活动于6月9日和10日在喜马拉雅山东部的帕罗举行，旨在通过关注数字化转型、工程教育和可持续发展的关键交叉点，帮助不丹实现数字化转型。 此次峰会汇集了全球学术领袖、技术专家和不丹政府官员，讨论现代工程课程如何从以理论为中心的模型演变为基于应用和技能的框架。 讨论的重点是如何在该国建立高价值的研究能力，将人工智能融入高等教育，并解决基础基础设施挑战，以确保公平的全国数字化准备。 2026年IEEE总裁兼首席执行官玛丽·艾伦·兰德尔（ Mary Ellen Randall ）在活动中表示： “随着人工智能改变技术格局，不丹为下一个创新和复原力时代做好准备， IEEE很荣幸能够成为高等教育进步的催化剂。” “我们的目标是支持当地大学和学生开发值得信赖的、面向未来的技术，以履行国家对可持续发展和人类福祉的承诺。“这次活动的特点是不丹公主Chimi Yangzom Wangchuck的讲话，她强调了将技术创新与国家的国民总收入理念相结合的重要性……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://spectrum.ieee.org/media-library/a-middle-aged-white-woman-receiving-a-gift-of-a-folded-white-cloth-from-a-younger-asian-woman.jpg?id=67605013&width=980",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "IEEE Spectrum",
-      "originalTitle": "Simulating Lunar Regolith with COMSOL for Mission Safety and Space Infrastructure",
-      "originalExcerpt": "Current space exploration aims to establish permanent structures on the Moon, Mars, and eventually other planetary bodies. Successful lunar missions depend on understanding lunar regolith, the granular material covering the Moon’s surface, whose behavior is governed by low gravity, vacuum conditions, particle irregularity, electrostatic effects, and extreme thermal environments. This webinar will focus on two connected modeling problems related to lunar regolith: plume–regolith interaction during lunar landings and induction heating of porous regolith for thermal processing and melting. Together, these problems show how simulation with the COMSOL Multiphysics ® software can help engineering and research teams predict, control, and utilize granular lunar material. The first part of the talk will address plume–regolith interaction. During spacecraft landings, underexpanded rocket exhaust plumes impinge on the surface, producing compressible flow structures, erosion, particle ejection, and possible surface damage. High-speed dust can reduce visibility and threaten astronauts, equipment, and nearby assets. These issues are especially important for Artemis and future missions involving repeated landings and larger spacecraft. Modeling the coupled gas-particle response provides insight into landing-site safety, erosion patterns, ejecta trajectories, and mitigation strategies. The second part of the webinar will examine induction heating of porous regolith, where electromagnetic energy is converted into heat to raise temperature, drive phase change, and potentially melt lunar soil. The discussion will emphasize temperature-dependent porous media properties, latent heat treatment, melt fraction evolution, and the differences between constant-property and piecewise-property models. By connecting these studies, the webinar will demonstrate how COMSOL-based workflows can quantify flow fields, particle transport, thermal response, and phase-change behavior while supporting…",
+      "originalTitle": "IEEE Engineering Summit Supports Bhutan’s Digital Transformation",
+      "originalExcerpt": "In collaboration with the Kingdom of Bhutan government, IEEE recently introduced its Engineering Education, Research, and Innovation Summit. Held on 9 and 10 June in Paro, in the eastern Himalayas, the event was designed to help Bhutan navigate its digital transformation by focusing on the critical intersection of digital transformation, engineering education, and sustainable development. The summit brought together global academic leaders, technology experts, and Bhutanese government officials to discuss how modern engineering curricula can evolve from theory-centric models into application- and skills-based frameworks. Discussions focused on how to build high-value research capabilities in the country, integrate artificial intelligence into higher education , and address foundational infrastructure challenges to ensure equitable, nationwide digital readiness. “IEEE is proud to collaborate as a catalyst for progress in higher education as AI shifts the technology landscape and Bhutan prepares for its next era of innovation and resilience,” Mary Ellen Randall , 2026 IEEE president and CEO, said at the event. “Our goal is to support local universities and students as they develop trusted, future-ready technology that honors the nation’s commitment to sustainability and human well-being.” The event featured an address by Bhutanese Princess Chimi Yangzom Wangchuck , who emphasized the importance of aligning technological innovation with the nation’s philosophy of gross national happiness (GNH), which prioritizes well-being, sustainability, and ethics. “The question before us is not whether technology will shape the future; it certainly will,” the princess said. “The more pressing question is whether we can shape technology according to our values.” A blueprint for Bhutan’s future The summit helped establish a collaborative blueprint for a high-value knowledge economy in Bhutan through several key focus areas: Workforce readiness: designing industry-driven curriculum…",
       "source": "IEEE Spectrum",
-      "sourceUrl": "https://event.on24.com/wcc/r/5448154/155DDEC4F86810CBBC908D85D2D88569?utm_source=IEEE",
+      "sourceUrl": "https://spectrum.ieee.org/ieee-summit-bhutan-digital-transformation",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -2664,20 +2664,20 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Tue, 11 Aug 2026 15:03:07 +0000",
-      "sourcePublishedAt": "2026-08-11T15:03:07+00:00",
-      "collectedAt": "2026-08-11T17:43:56.768086+00:00",
+      "originalPublishedAt": "Tue, 11 Aug 2026 19:50:54 +0000",
+      "sourcePublishedAt": "2026-08-11T19:50:54+00:00",
+      "collectedAt": "2026-08-11T20:28:21.928661+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Current space exploration aims to establish permanent structures on the Moon, Mars, and eventually other planetary bodies. Successful lunar missions depend on understanding lunar regolith, the granular material covering the Moon’s surface, whose behavior is governed by low gravity, vacuum conditions, particle irregularity, electrostatic effects, and extreme thermal environments. This webinar will focus on two connected modeling problems related to lunar regolith: plume–regolith interaction during lunar landings and induction heating of porous regolith for thermal processing and melting. Together, these problems show how simulation with the COMSOL Multiphysics ® software can help engineering and research teams predict, control, and utilize granular lunar material. The first part of the talk will address plume–regolith interaction. During spacecraft landings, underexpanded rocket exhaust plumes impinge on the surface, producing compressible flow structures, erosion, particle ejection, and possible surface damage. High-speed dust can reduce visibility and threaten astronauts, equipment, and nearby assets. These issues are especially important for Artemis and future missions involving repeated landings and larger spacecraft. Modeling the coupled gas-particle response provides insight into landing-site safety, erosion patterns, ejecta trajectories, and mitigation strategies. The second part of the webinar will examine induction heating of porous regolith, where electromagnetic energy is converted into heat to raise temperature, drive phase change, and potentially melt lunar soil. The discussion will emphasize temperature-dependent porous media properties, latent heat treatment, melt fraction evolution, and the differences between constant-property and piecewise-property models. By connecting these studies, the webinar will demonstrate how COMSOL-based workflows can quantify flow fields, particle transport, thermal response, and phase-change behavior while supporting safer operations, regolith processing technologies, and the development of future space infrastructure. Register now for this free webinar!",
+      "sourceMaterial": "In collaboration with the Kingdom of Bhutan government, IEEE recently introduced its Engineering Education, Research, and Innovation Summit. Held on 9 and 10 June in Paro, in the eastern Himalayas, the event was designed to help Bhutan navigate its digital transformation by focusing on the critical intersection of digital transformation, engineering education, and sustainable development. The summit brought together global academic leaders, technology experts, and Bhutanese government officials to discuss how modern engineering curricula can evolve from theory-centric models into application- and skills-based frameworks. Discussions focused on how to build high-value research capabilities in the country, integrate artificial intelligence into higher education , and address foundational infrastructure challenges to ensure equitable, nationwide digital readiness. “IEEE is proud to collaborate as a catalyst for progress in higher education as AI shifts the technology landscape and Bhutan prepares for its next era of innovation and resilience,” Mary Ellen Randall , 2026 IEEE president and CEO, said at the event. “Our goal is to support local universities and students as they develop trusted, future-ready technology that honors the nation’s commitment to sustainability and human well-being.” The event featured an address by Bhutanese Princess Chimi Yangzom Wangchuck , who emphasized the importance of aligning technological innovation with the nation’s philosophy of gross national happiness (GNH), which prioritizes well-being, sustainability, and ethics. “The question before us is not whether technology will shape the future; it certainly will,” the princess said. “The more pressing question is whether we can shape technology according to our values.” A blueprint for Bhutan’s future The summit helped establish a collaborative blueprint for a high-value knowledge economy in Bhutan through several key focus areas: Workforce readiness: designing industry-driven curriculum modernization and cocreating skills programs to equip graduates with practical, technical competencies. AI and research infrastructure: strengthening open science, trusted regional datasets, and global citation impact to prepare universities for AI-enabled learning environments. Values-driven innovation: merging GNH principles with technological advancement and helping ensure new engineering practices support climate-resilient infrastructure and green innovation. Institutional connectivity: using digital transformation to bridge technical capability gaps between urban and rural institutions; linking classrooms to a global research network. Promoting sustainability: convening stakeholders to exchange ideas on green innovation , climate-resilient infrastructure, and engineering education. Expanding digital access To help promote the effort, IEEE offered Bhutanese universities, government institutions, and industries a six-month complimentary trial of two key technical resources: IEEE Electronic Library. Delivered via the IEEE Xplore Digital Library , the IEL gives users access to more than 7 million documents—including trusted IEEE journals, conference proceedings, standards , and technical papers—to enhance research, teaching, and technology development. IEEE eLearning Library. This platform offers online courses developed by experts in engineering, computing, and technology, supporting flexible learning across core and emerging technical fields for professionals, faculty and students.",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "使用COMSOL为任务安全和太空基础设施模拟月球风化层",
-      "translatedSourceMaterial": "目前的太空探索旨在在月球、火星以及最终在其他行星上建立永久性结构。月球任务的成功取决于对月球风化层的了解，月球风化层是覆盖月球表面的颗粒物质，其行为受低重力、真空条件、粒子不规则性、静电效应和极端热环境的影响。 本次网络研讨会将重点讨论与月球风化层相关的两个相关建模问题：登月过程中的羽状风化层相互作用和用于热处理和熔化的多孔风化层的感应加热。这些问题共同表明， COMSOL Multiphysics ®软件的模拟如何帮助工程和研究团队预测、控制和利用颗粒月球物质。 演讲的第一部分将讨论羽状岩-表岩相互作用。在航天器着陆期间，膨胀不足的火箭排气羽流撞击表面，产生可压缩的流动结构、侵蚀、颗粒喷射和可能的表面损坏。高速粉尘会降低能见度，并威胁到宇航员、设备和附近的资产。 这些问题对于Artemis和未来涉及反复着陆和大型航天器的任务尤为重要。对耦合气体-颗粒响应进行建模，可深入了解着陆点的安全性、侵蚀模式、弹射轨迹和缓解策略。网络研讨会的第二部分将研究多孔风化层的感应加热，其中电磁…",
+      "translatedSourceTitle": "IEEE工程峰会支持不丹的数字化转型",
+      "translatedSourceMaterial": "IEEE最近与不丹王国政府合作，推出了其工程教育、研究和创新峰会。该活动于6月9日和10日在喜马拉雅山东部的帕罗举行，旨在通过关注数字化转型、工程教育和可持续发展的关键交叉点，帮助不丹实现数字化转型。 此次峰会汇集了全球学术领袖、技术专家和不丹政府官员，讨论现代工程课程如何从以理论为中心的模型演变为基于应用和技能的框架。 讨论的重点是如何在该国建立高价值的研究能力，将人工智能融入高等教育，并解决基础基础设施挑战，以确保公平的全国数字化准备。 2026年IEEE总裁兼首席执行官玛丽·艾伦·兰德尔（ Mary Ellen Randall ）在活动中表示： “随着人工智能改变技术格局，不丹为下一个创新和复原力时代做好准备， IEEE很荣幸能够成为高等教育进步的催化剂。” “我们的目标是支持当地大学和学生开发值得信赖的、面向未来的技术，以履行国家对可持续发展和人类福祉的承诺。“这次活动的特点是不丹公主Chimi Yangzom Wangchuck的讲话，她强调了将技术创新与国家的国民总收入理念相结合的重要性……",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1255
+      "contentCharacterCount": 1262
     },
     {
       "id": 182,
@@ -2807,7 +2807,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Putting advocacy into practice at the Gen Z Food & Hunger Summit",
       "excerpt": "The fourth annual Gen Z Food & Hunger Summit, held July 14-15 in Washington, D.C., hosted by the Congressional Hunger Center and Food Systems Collaborative, gathered young people studying and working around the United States for two days of dialogue, training, and action on local…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "category-cover",
@@ -2838,33 +2838,35 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The fourth annual Gen Z Food & Hunger Summit, held July 14-15 in Washington, D.C., hosted by the Congressional Hunger Center and Food Systems Collaborative, gathered young people studying and working around the United States for two days of dialogue, training, and action on local and global food security.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
-      "id": 219,
+      "id": 228,
       "category": "人文",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 5,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 7
+        "人文": 9
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 9,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "人文前沿观察：在西西里岛海岸，潜水员发现了罗马时代的沉船，沉船上有数百个常用来盛放葡萄酒的古老罐子",
-      "excerpt": "该遗址可以为2000多年前的地中海贸易路线提供新的见解人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
-      "body": "核心进展 该遗址可以为2000多年前的地中海贸易路线提供新的见解。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://th-thumbnailer.cdn-si-edu.com/IxP2wRauAZ5ZE2ulVgVK1HJfodw=/420x240/filters:focal(960x594:961x595)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/30/57/30579555-8228-49cb-9c4a-3f48317255e5/amphorae_wall.jpg",
+      "title": "人文前沿观察：一名来自中西部小镇的11岁男孩成为吉尼斯世界纪录最年轻的博物馆馆长",
+      "excerpt": "安德森·泰勒（ Anderson Taylor ）开始收集标本四年后，他在伊利诺伊州剑桥市开设了剑桥自然历史博物馆，提供学校参观，吸引了来自该地区各地的游客人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
+      "body": "核心进展\n\n安德森·泰勒（ Anderson Taylor ）开始收集标本四年后，他在伊利诺伊州剑桥市开设了剑桥自然历史博物馆，提供学校参观，吸引了来自该地区各地的游客。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "assets/semiconductor.jpg",
       "imageFallback": "assets/semiconductor.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "Smithsonian Magazine",
-      "originalTitle": "Off the Coast of Sicily, Divers Discovered a Roman-Era Shipwreck With Hundreds of Amphorae, Ancient Jars Frequently Used to Hold Wine",
-      "originalExcerpt": "The site could offer fresh insights into Mediterranean trade routes more than 2,000 years ago",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "An 11-Year-Old Boy in a Small Midwestern Town Just Became the Guinness World Record Holder for Being the Youngest Museum Curator",
+      "originalExcerpt": "Four years after Anderson Taylor began collecting specimens, he opened the Cambridge Natural History Museum in Cambridge, Illinois, offering school tours and attracting visitors from across the region",
       "source": "Smithsonian Magazine",
-      "sourceUrl": "https://www.smithsonianmag.com/smart-news/off-the-coast-of-sicily-divers-discovered-a-roman-era-shipwreck-with-hundreds-of-amphorae-ancient-jars-frequently-used-to-hold-wine-180989307/",
+      "sourceUrl": "https://www.smithsonianmag.com/smart-news/an-11-year-old-boy-in-an-illinois-small-town-just-became-the-guinness-world-record-holder-for-being-the-youngest-museum-curator-180989313/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -2872,7 +2874,7 @@
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "tags": [
         "人文"
       ],
@@ -2881,20 +2883,20 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Mon, 10 Aug 2026 21:53:11 +0000",
-      "sourcePublishedAt": "2026-08-10T21:53:11+00:00",
-      "collectedAt": "2026-08-10T22:20:15.935454+00:00",
+      "originalPublishedAt": "Tue, 11 Aug 2026 17:53:00 +0000",
+      "sourcePublishedAt": "2026-08-11T17:53:00+00:00",
+      "collectedAt": "2026-08-11T20:28:22.632503+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "The site could offer fresh insights into Mediterranean trade routes more than 2,000 years ago",
+      "sourceMaterial": "Four years after Anderson Taylor began collecting specimens, he opened the Cambridge Natural History Museum in Cambridge, Illinois, offering school tours and attracting visitors from across the region",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "在西西里岛海岸，潜水员发现了罗马时代的沉船，沉船上有数百个常用来盛放葡萄酒的古老罐子",
-      "translatedSourceMaterial": "该遗址可以为2000多年前的地中海贸易路线提供新的见解",
+      "translatedSourceTitle": "一名来自中西部小镇的11岁男孩成为吉尼斯世界纪录最年轻的博物馆馆长",
+      "translatedSourceMaterial": "安德森·泰勒（ Anderson Taylor ）开始收集标本四年后，他在伊利诺伊州剑桥市开设了剑桥自然历史博物馆，提供学校参观，吸引了来自该地区各地的游客",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
-      "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
+      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 851
+      "contentCharacterCount": 893
     },
     {
       "id": 133,
@@ -2953,30 +2955,30 @@
       "contentCharacterCount": 960
     },
     {
-      "id": 90,
+      "id": 89,
       "category": "科技",
-      "categoryEvidenceScore": 5,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
-        "金融": 1,
-        "科技": 8,
-        "工业": 3,
-        "能源": 4,
-        "农业": 1,
-        "人文": 2
+        "金融": 0,
+        "科技": 5,
+        "工业": 0,
+        "能源": 1,
+        "农业": 0,
+        "人文": 0
       },
       "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：Zap Rocks。加水。获得干净的氢气",
-      "excerpt": "在一个宁静的波士顿郊区，在一个马场边缘，牧场让位于树林，一台起重机将一个巨大的电极放入一个钻孔。电极是一个半米长的圆柱体，带有铜尖臂，可确保与钻孔壁的良好接触，它下降到更深、更深的海绵砂岩层，到达地下数百米的古老山脉的坚硬大理石根部。 这里的岩石很紧；水或气体流动的裂缝很少。但这种情况即将改变。一块石头扔掉…",
-      "body": "核心进展\n\n在一个宁静的波士顿郊区，在一个马场边缘，牧场让位于树林，一台起重机将一个巨大的电极放入一个钻孔。电极是一个半米长的圆柱体，带有铜尖臂，可确保与钻孔壁的良好接触，它下降到更深、更深的海绵砂岩层，到达地下数百米的古老山脉的坚硬大理石根部。 这里的岩石很紧；水或气体流动的裂缝很少。但这种情况即将改变。一块石头扔掉，第二个电极-第一个电极的双胞胎-被固定在相同深度的另一个钻孔中。从地面上，一对连接到两个电极的高压发生器发射一系列脉冲。Tsss ！ … Tsss ！ … Tsss ！ … Tsss ！ … Tsss! …. 每次放电，在表面微弱地听到，就像一个微型，地下的雷击。电极之间的岩石加热。压力越来越大，然后，突然，岩石裂成蜘蛛网状的裂缝。在波士顿郊外的一个马场，一名工人设置了井，伊甸园的电极将用绞盘放下。 总部位于马萨诸塞州的初创公司Bob O’Connor Eden GeoPower进行了这项独特的现场测试，称之为电力储层刺激技术。该公司的口号是： “我们用电打碎岩石。伊甸园的研究人员希望他们的岩石破碎技术有朝一日能够帮助矿物开采，利用地热，或为碳创造地质储存区域。但还有一个更有趣的……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://spectrum.ieee.org/media-library/on-the-left-a-man-in-a-collared-shirt-stands-smiling-with-hands-in-his-pockets-and-lab-equipment-in-the-background-on-the-ri.jpg?id=67598580&width=980",
+      "title": "科技前沿观察：使用COMSOL为任务安全和太空基础设施模拟月球风化层",
+      "excerpt": "目前的太空探索旨在在月球、火星以及最终在其他行星上建立永久性结构。月球任务的成功取决于对月球风化层的了解，月球风化层是覆盖月球表面的颗粒物质，其行为受低重力、真空条件、粒子不规则性、静电效应和极端热环境的影响。 本次网络研讨会将重点讨论与月球风化层相关的两个相关建模问题：登月过程中的羽状风化层相互作用和用于热处理和熔化的多孔风化层的感应加热。这些问题共同表明…",
+      "body": "核心进展 目前的太空探索旨在在月球、火星以及最终在其他行星上建立永久性结构。月球任务的成功取决于对月球风化层的了解，月球风化层是覆盖月球表面的颗粒物质，其行为受低重力、真空条件、粒子不规则性、静电效应和极端热环境的影响。 本次网络研讨会将重点讨论与月球风化层相关的两个相关建模问题：登月过程中的羽状风化层相互作用和用于热处理和熔化的多孔风化层的感应加热。这些问题共同表明， COMSOL Multiphysics ®软件的模拟如何帮助工程和研究团队预测、控制和利用颗粒月球物质。 演讲的第一部分将讨论羽状岩-表岩相互作用。在航天器着陆期间，膨胀不足的火箭排气羽流撞击表面，产生可压缩的流动结构、侵蚀、颗粒喷射和可能的表面损坏。高速粉尘会降低能见度，并威胁到宇航员、设备和附近的资产。 这些问题对于Artemis和未来涉及反复着陆和大型航天器的任务尤为重要。对耦合气体-颗粒响应进行建模，可深入了解着陆点的安全性、侵蚀模式、弹射轨迹和缓解策略。网络研讨会的第二部分将研究多孔风化层的感应加热，其中电磁…。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。 关键内容 理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://assets.rbl.ms/67603988/origin.png",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "IEEE Spectrum",
-      "originalTitle": "Zap Rocks. Add Water. Get Clean Hydrogen",
-      "originalExcerpt": "In a tranquil Boston suburb , on the far edge of a horse farm, where pasture gives way to woods, a crane lowers an enormous electrode into a borehole. The electrode, a half-meter-long cylinder with copper-tipped arms to ensure good contact with the borehole walls, descends—deeper, deeper—through layers of spongy sandstone to the hard, marbled roots of an ancient mountain range hundreds of meters below ground. Here the rock is tight; there are few cracks for water or gases to flow. But that’s about to change. A stone’s throw away, a second electrode—a twin of the first—has been fixed in another borehole at the same depth. From above ground, a pair of high-voltage generators cabled to the two electrodes fires a series of pulses. Tsss!…Tsss!…Tsss!…Tsss!…Tsss!…. Each discharge, heard faintly at the surface, is like a miniature, subterranean lightning strike. The rock between the electrodes heats. Pressure builds. Then, suddenly, the rock splits into a spiderweb of fractures. On a horse farm outside of Boston, a worker sets up the well where Eden’s electrode will be lowered with a winch. Bob O’Connor Eden GeoPower , the Massachusetts-based startup performing this peculiar field test, calls the technology electrical reservoir stimulation. The company’s tagline: “We break rocks with electricity.” Eden’s researchers hope their rock-breaking technique will someday aid mineral mining, tap geothermal heat, or create geologic storage areas for carbon. But there’s an even more intriguing use that could create a whole new category of energy production: generating hydrogen underground. The dream of a hydrogen-powered economy dates back to the 1970s, when petroleum shortages and rising concerns about pollution from fossil fuels sparked visions of cars, ships, planes, and industrial machines running on hydrogen instead of carbon. Hydrogen is often touted as a clean fuel because when it’s burned or consumed in fuel cells, it emits only water and heat. However, it currently takes more…",
+      "originalTitle": "Simulating Lunar Regolith with COMSOL for Mission Safety and Space Infrastructure",
+      "originalExcerpt": "Current space exploration aims to establish permanent structures on the Moon, Mars, and eventually other planetary bodies. Successful lunar missions depend on understanding lunar regolith, the granular material covering the Moon’s surface, whose behavior is governed by low gravity, vacuum conditions, particle irregularity, electrostatic effects, and extreme thermal environments. This webinar will focus on two connected modeling problems related to lunar regolith: plume–regolith interaction during lunar landings and induction heating of porous regolith for thermal processing and melting. Together, these problems show how simulation with the COMSOL Multiphysics ® software can help engineering and research teams predict, control, and utilize granular lunar material. The first part of the talk will address plume–regolith interaction. During spacecraft landings, underexpanded rocket exhaust plumes impinge on the surface, producing compressible flow structures, erosion, particle ejection, and possible surface damage. High-speed dust can reduce visibility and threaten astronauts, equipment, and nearby assets. These issues are especially important for Artemis and future missions involving repeated landings and larger spacecraft. Modeling the coupled gas-particle response provides insight into landing-site safety, erosion patterns, ejecta trajectories, and mitigation strategies. The second part of the webinar will examine induction heating of porous regolith, where electromagnetic energy is converted into heat to raise temperature, drive phase change, and potentially melt lunar soil. The discussion will emphasize temperature-dependent porous media properties, latent heat treatment, melt fraction evolution, and the differences between constant-property and piecewise-property models. By connecting these studies, the webinar will demonstrate how COMSOL-based workflows can quantify flow fields, particle transport, thermal response, and phase-change behavior while supporting…",
       "source": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
+      "sourceUrl": "https://event.on24.com/wcc/r/5448154/155DDEC4F86810CBBC908D85D2D88569?utm_source=IEEE",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -2993,20 +2995,20 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Tue, 11 Aug 2026 13:00:01 +0000",
-      "sourcePublishedAt": "2026-08-11T13:00:01+00:00",
-      "collectedAt": "2026-08-11T17:43:56.837124+00:00",
+      "originalPublishedAt": "Tue, 11 Aug 2026 15:03:07 +0000",
+      "sourcePublishedAt": "2026-08-11T15:03:07+00:00",
+      "collectedAt": "2026-08-11T17:43:56.768086+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "In a tranquil Boston suburb , on the far edge of a horse farm, where pasture gives way to woods, a crane lowers an enormous electrode into a borehole. The electrode, a half-meter-long cylinder with copper-tipped arms to ensure good contact with the borehole walls, descends—deeper, deeper—through layers of spongy sandstone to the hard, marbled roots of an ancient mountain range hundreds of meters below ground. Here the rock is tight; there are few cracks for water or gases to flow. But that’s about to change. A stone’s throw away, a second electrode—a twin of the first—has been fixed in another borehole at the same depth. From above ground, a pair of high-voltage generators cabled to the two electrodes fires a series of pulses. Tsss!…Tsss!…Tsss!…Tsss!…Tsss!…. Each discharge, heard faintly at the surface, is like a miniature, subterranean lightning strike. The rock between the electrodes heats. Pressure builds. Then, suddenly, the rock splits into a spiderweb of fractures. On a horse farm outside of Boston, a worker sets up the well where Eden’s electrode will be lowered with a winch. Bob O’Connor Eden GeoPower , the Massachusetts-based startup performing this peculiar field test, calls the technology electrical reservoir stimulation. The company’s tagline: “We break rocks with electricity.” Eden’s researchers hope their rock-breaking technique will someday aid mineral mining, tap geothermal heat, or create geologic storage areas for carbon. But there’s an even more intriguing use that could create a whole new category of energy production: generating hydrogen underground. The dream of a hydrogen-powered economy dates back to the 1970s, when petroleum shortages and rising concerns about pollution from fossil fuels sparked visions of cars, ships, planes, and industrial machines running on hydrogen instead of carbon. Hydrogen is often touted as a clean fuel because when it’s burned or consumed in fuel cells, it emits only water and heat. However, it currently takes more energy to make than it yields, and the cheapest and most common way is by reacting steam with methane, a potent greenhouse gas. How to Break Rocks With Electricity It’s possible to make zero-carbon hydrogen by splitting water with electrolyzers powered by renewable energy . But in most cases, the process is too expensive to be economical—a reality that burst the hydrogen-hype bubble in the early 2020s. Global demand for hydrogen in 2024 reached approximately 100 million tonnes, containing energy equal to only about 3 percent of the world’s annual energy consumption. Most of it is used as chemical feedstock for petroleum refining and for making fertilizers and plastics. The frustrations of manufacturing clean hydrogen have convinced many entrepreneurs and scientists to instead seek the element underground. For the past half-decade, dozens of companies around the world have been hunting for buried stores of hydrogen, called natural or geologic hydrogen. But with a commercial-scale operation yet to be proved, Eden and a handful of other startups and research groups are chasing the more audacious scheme of producing geologic hydrogen artificially. This approach, known as stimulated geologic hydrogen or engineered hydrogen, turns subterranean rock formations into giant hydrogen factories. It typically involves injecting water into iron-rich rock, which oxidizes the iron and releases hydrogen as a by-product. Fracturing the rock, as Eden is doing, creates a network of conduits for the water to reach iron-bearing minerals. The concept of stimulated hydrogen is so new that few have had a chance to test it. Proponents say that if it works—which is a big “if”—it could provide almost unlimited energy for the indefinite future. There’s one way to find out: Start breaking rocks. There’s Plenty of Underground Hydrogen Hydrogen is the simplest and most abundant element in the universe, the stuff of stars and galaxies. Geologists have long known that Earth generates hydrogen gas through natural water-rock reactions, but until recently, the occurrence was regarded as a curiosity. The gas is so light that most experts assumed it all escaped through pores and cracks in Earth’s subsurface and didn’t accumulate in useful quantities. During a demonstration at Eden’s testing site near Boston, an employee displays a central component of the company’s proprietary electrode. Bob O’Connor Inklings that they were wrong emerged in the 19th and 20th centuries, when researchers in the former Russian Empire and Soviet Union reported hydrogen seeping from mines and wells. But in the ongoing frenzy for fossil fuels, these observations were largely overlooked or forgotten. Scientists later discovered hydrogen spewing from hydrothermal vents in the seafloor and feeding so-called eternal flames, like those of Türkiye’s Mount Chimaera, where ancient athletes lit torches for the first Olympic games. Then, in 1987, in the village of Bourakébougou, Mali, people drilling a water well noticed a breeze blowing out of the hole. According to local lore, a worker leaned in for a closer look, a lit cigarette dangling from his mouth. The air instantly ignited, burning a brilliant blue. The crew capped the well, which stayed sealed for 25 years until, in 2012, a Malian oil and gas prospector confirmed the ground contained a large reservoir of hydrogen. The prospecting company, now called Hydroma , had a small electrical plant constructed to convert the gas into power for the village’s residents. Soon after, startups in Australia, Canada, the United States, and elsewhere began searching for more hydrogen stores. By 2025, large multinational petroleum and mining companies were getting in on the game. To date, hundreds of exploratory wells have been drilled across the globe. But although researchers have documented widespread hydrogen deposits, none have proved capable of producing the gas at rates and quantities needed for commercialization. “We’ve poked a lot of holes, and…",
+      "sourceMaterial": "Current space exploration aims to establish permanent structures on the Moon, Mars, and eventually other planetary bodies. Successful lunar missions depend on understanding lunar regolith, the granular material covering the Moon’s surface, whose behavior is governed by low gravity, vacuum conditions, particle irregularity, electrostatic effects, and extreme thermal environments. This webinar will focus on two connected modeling problems related to lunar regolith: plume–regolith interaction during lunar landings and induction heating of porous regolith for thermal processing and melting. Together, these problems show how simulation with the COMSOL Multiphysics ® software can help engineering and research teams predict, control, and utilize granular lunar material. The first part of the talk will address plume–regolith interaction. During spacecraft landings, underexpanded rocket exhaust plumes impinge on the surface, producing compressible flow structures, erosion, particle ejection, and possible surface damage. High-speed dust can reduce visibility and threaten astronauts, equipment, and nearby assets. These issues are especially important for Artemis and future missions involving repeated landings and larger spacecraft. Modeling the coupled gas-particle response provides insight into landing-site safety, erosion patterns, ejecta trajectories, and mitigation strategies. The second part of the webinar will examine induction heating of porous regolith, where electromagnetic energy is converted into heat to raise temperature, drive phase change, and potentially melt lunar soil. The discussion will emphasize temperature-dependent porous media properties, latent heat treatment, melt fraction evolution, and the differences between constant-property and piecewise-property models. By connecting these studies, the webinar will demonstrate how COMSOL-based workflows can quantify flow fields, particle transport, thermal response, and phase-change behavior while supporting safer operations, regolith processing technologies, and the development of future space infrastructure. Register now for this free webinar!",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "Zap Rocks。加水。获得干净的氢气",
-      "translatedSourceMaterial": "在一个宁静的波士顿郊区，在一个马场边缘，牧场让位于树林，一台起重机将一个巨大的电极放入一个钻孔。电极是一个半米长的圆柱体，带有铜尖臂，可确保与钻孔壁的良好接触，它下降到更深、更深的海绵砂岩层，到达地下数百米的古老山脉的坚硬大理石根部。 这里的岩石很紧；水或气体流动的裂缝很少。但这种情况即将改变。一块石头扔掉，第二个电极-第一个电极的双胞胎-被固定在相同深度的另一个钻孔中。从地面上，一对连接到两个电极的高压发生器发射一系列脉冲。Tsss ！ … Tsss ！ … Tsss ！ … Tsss ！ … Tsss! …. 每次放电，在表面微弱地听到，就像一个微型，地下的雷击。电极之间的岩石加热。压力越来越大，然后，突然，岩石裂成蜘蛛网状的裂缝。在波士顿郊外的一个马场，一名工人设置了井，伊甸园的电极将用绞盘放下。 总部位于马萨诸塞州的初创公司Bob O’Connor Eden GeoPower进行了这项独特的现场测试，称之为电力储层刺激技术。该公司的口号是： “我们用电打碎岩石。伊甸园的研究人员希望他们的岩石破碎技术有朝一日能够帮助矿物开采，利用地热，或为碳创造地质储存区域。但还有一个更有趣的……",
+      "translatedSourceTitle": "使用COMSOL为任务安全和太空基础设施模拟月球风化层",
+      "translatedSourceMaterial": "目前的太空探索旨在在月球、火星以及最终在其他行星上建立永久性结构。月球任务的成功取决于对月球风化层的了解，月球风化层是覆盖月球表面的颗粒物质，其行为受低重力、真空条件、粒子不规则性、静电效应和极端热环境的影响。 本次网络研讨会将重点讨论与月球风化层相关的两个相关建模问题：登月过程中的羽状风化层相互作用和用于热处理和熔化的多孔风化层的感应加热。这些问题共同表明， COMSOL Multiphysics ®软件的模拟如何帮助工程和研究团队预测、控制和利用颗粒月球物质。 演讲的第一部分将讨论羽状岩-表岩相互作用。在航天器着陆期间，膨胀不足的火箭排气羽流撞击表面，产生可压缩的流动结构、侵蚀、颗粒喷射和可能的表面损坏。高速粉尘会降低能见度，并威胁到宇航员、设备和附近的资产。 这些问题对于Artemis和未来涉及反复着陆和大型航天器的任务尤为重要。对耦合气体-颗粒响应进行建模，可深入了解着陆点的安全性、侵蚀模式、弹射轨迹和缓解策略。网络研讨会的第二部分将研究多孔风化层的感应加热，其中电磁…",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1276
+      "contentCharacterCount": 1255
     },
     {
       "id": 181,
@@ -3170,7 +3172,7 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 228,
+      "id": 219,
       "category": "人文",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -3183,17 +3185,17 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "人文前沿观察：这幅荷兰绘画展示了一个17世纪的饮酒游戏，直到有人弄脏了玩家，破坏了乐趣。博物馆刚刚修复了沉浸式士兵",
-      "excerpt": "Pieter de Hooch以其17世纪的家庭生活描绘而闻名。有些场景暗示了丑闻或教导了道德人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
-      "body": "核心进展 Pieter de Hooch以其17世纪的家庭生活描绘而闻名。有些场景暗示了丑闻或教导了道德。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://th-thumbnailer.cdn-si-edu.com/YuMqmOQbbvJRZaeHoDxrgKz-ihE=/420x240/filters:focal(962x1200:963x1201)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/25/1c/251cf12c-fa2a-4087-9bf0-5cfafd2168ff/pieter_de_hooch_-_a_man_smoking_and_a_woman_drinking_in_a_courtyard_-1658-1660.jpg",
+      "title": "人文前沿观察：在西西里岛海岸，潜水员发现了罗马时代的沉船，沉船上有数百个常用来盛放葡萄酒的古老罐子",
+      "excerpt": "该遗址可以为2000多年前的地中海贸易路线提供新的见解人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
+      "body": "核心进展 该遗址可以为2000多年前的地中海贸易路线提供新的见解。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://th-thumbnailer.cdn-si-edu.com/IxP2wRauAZ5ZE2ulVgVK1HJfodw=/420x240/filters:focal(960x594:961x595)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/30/57/30579555-8228-49cb-9c4a-3f48317255e5/amphorae_wall.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "Smithsonian Magazine",
-      "originalTitle": "This Dutch Painting Showed a 17th-Century Drinking Game Until Someone Smudged Out a Player, Spoiling the Fun. A Museum Just Restored the Imbibing Soldier",
-      "originalExcerpt": "Pieter de Hooch was known for his 17th-century portrayals of domestic life. Some scenes suggested scandal or taught a moral",
+      "originalTitle": "Off the Coast of Sicily, Divers Discovered a Roman-Era Shipwreck With Hundreds of Amphorae, Ancient Jars Frequently Used to Hold Wine",
+      "originalExcerpt": "The site could offer fresh insights into Mediterranean trade routes more than 2,000 years ago",
       "source": "Smithsonian Magazine",
-      "sourceUrl": "https://www.smithsonianmag.com/smart-news/centuries-ago-this-soldier-was-smudged-out-of-a-famed-de-hooch-painting-restorers-have-painted-him-back-in-180989304/",
+      "sourceUrl": "https://www.smithsonianmag.com/smart-news/off-the-coast-of-sicily-divers-discovered-a-roman-era-shipwreck-with-hundreds-of-amphorae-ancient-jars-frequently-used-to-hold-wine-180989307/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -3210,20 +3212,20 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Mon, 10 Aug 2026 19:24:11 +0000",
-      "sourcePublishedAt": "2026-08-10T19:24:11+00:00",
-      "collectedAt": "2026-08-10T19:44:21.358553+00:00",
+      "originalPublishedAt": "Mon, 10 Aug 2026 21:53:11 +0000",
+      "sourcePublishedAt": "2026-08-10T21:53:11+00:00",
+      "collectedAt": "2026-08-10T22:20:15.935454+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Pieter de Hooch was known for his 17th-century portrayals of domestic life. Some scenes suggested scandal or taught a moral",
+      "sourceMaterial": "The site could offer fresh insights into Mediterranean trade routes more than 2,000 years ago",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "这幅荷兰绘画展示了一个17世纪的饮酒游戏，直到有人弄脏了玩家，破坏了乐趣。博物馆刚刚修复了沉浸式士兵",
-      "translatedSourceMaterial": "Pieter de Hooch以其17世纪的家庭生活描绘而闻名。有些场景暗示了丑闻或教导了道德",
+      "translatedSourceTitle": "在西西里岛海岸，潜水员发现了罗马时代的沉船，沉船上有数百个常用来盛放葡萄酒的古老罐子",
+      "translatedSourceMaterial": "该遗址可以为2000多年前的地中海贸易路线提供新的见解",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
-      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
+      "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 868
+      "contentCharacterCount": 851
     },
     {
       "id": 68,
@@ -3663,7 +3665,9 @@
       "videoDuration": "00:18:48",
       "videoExternalId": "90ddd4114167454f92655bfdc31a3688",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 132
+      "contentCharacterCount": 132,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 53,
@@ -3724,7 +3728,9 @@
       "videoDuration": "00:38:17",
       "videoExternalId": "98c192faec6a47118066e54d8fb6ff47",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 138
+      "contentCharacterCount": 138,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 44,
@@ -3979,23 +3985,19 @@
     {
       "source": "科普中国",
       "error": "订阅未返回可解析条目"
-    },
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（854ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-08-11T17:43:57.496313+00:00",
-    "startedAt": "2026-08-11T17:43:36.655748+00:00",
-    "finishedAt": "2026-08-11T17:43:57.496313+00:00",
+    "id": "2026-08-11T20:28:22.649308+00:00",
+    "startedAt": "2026-08-11T20:28:04.517002+00:00",
+    "finishedAt": "2026-08-11T20:28:22.649308+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 34,
-    "sourcesFailed": 2,
-    "fetched": 336,
-    "added": 222,
-    "duplicates": 67,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 346,
+    "added": 233,
+    "duplicates": 66,
     "invalid": 2,
     "staleSkipped": 45,
     "maxSourceAgeDays": 45,
@@ -4003,10 +4005,6 @@
       {
         "source": "科普中国",
         "error": "订阅未返回可解析条目"
-      },
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（854ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4015,7 +4013,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 797,
+        "durationMs": 727,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4025,7 +4023,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1561,
+        "durationMs": 1215,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4035,7 +4033,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2691,
+        "durationMs": 2519,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4045,7 +4043,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 540,
+        "durationMs": 482,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4055,7 +4053,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1371,
+        "durationMs": 1011,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4065,7 +4063,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1368,
+        "durationMs": 981,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4075,7 +4073,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1297,
+        "durationMs": 942,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4085,17 +4083,17 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1352,
+        "durationMs": 1145,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "china-cctv-humanities-video",
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 908,
+        "durationMs": 705,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4105,7 +4103,7 @@
         "source": "科普中国",
         "status": "failed",
         "attempts": 1,
-        "durationMs": 2951,
+        "durationMs": 3522,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
@@ -4116,17 +4114,17 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1319,
+        "durationMs": 1036,
         "fetched": 6,
-        "added": 0,
-        "duplicates": 4
+        "added": 1,
+        "duplicates": 3
       },
       {
         "sourceId": "china-stats-releases",
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 5114,
+        "durationMs": 4293,
         "fetched": 10,
         "added": 1,
         "duplicates": 9
@@ -4136,7 +4134,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1719,
+        "durationMs": 1242,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4146,7 +4144,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2310,
+        "durationMs": 2105,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4156,7 +4154,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 929,
+        "durationMs": 905,
         "fetched": 10,
         "added": 3,
         "duplicates": 5
@@ -4166,27 +4164,27 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 96,
+        "durationMs": 118,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 582,
+        "durationMs": 161,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 108,
+        "durationMs": 191,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4196,7 +4194,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 969,
+        "durationMs": 141,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4206,7 +4204,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 35,
+        "durationMs": 211,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4216,7 +4214,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 630,
+        "durationMs": 832,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4226,7 +4224,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 391,
+        "durationMs": 747,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4236,7 +4234,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 69,
+        "durationMs": 171,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4246,7 +4244,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 39,
+        "durationMs": 67,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4256,7 +4254,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 409,
+        "durationMs": 471,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4266,7 +4264,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 117,
+        "durationMs": 51,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4276,7 +4274,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 39,
+        "durationMs": 48,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4286,7 +4284,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 78,
+        "durationMs": 116,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4296,7 +4294,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 783,
+        "durationMs": 486,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4306,7 +4304,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 494,
+        "durationMs": 478,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4316,7 +4314,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 944,
+        "durationMs": 1442,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4324,30 +4322,29 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 854,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（854ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 40,
+        "fetched": 10,
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 441,
+        "durationMs": 607,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "cgiar",
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 535,
+        "durationMs": 140,
         "fetched": 10,
         "added": 6,
         "duplicates": 2
@@ -4357,7 +4354,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 599,
+        "durationMs": 982,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4367,7 +4364,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 109,
+        "durationMs": 140,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
