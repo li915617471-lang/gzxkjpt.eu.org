@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T21:12:15.022059+00:00",
+  "generatedAt": "2026-08-14T23:01:02.582430+00:00",
   "stories": [
     {
       "id": 1,
@@ -279,10 +279,10 @@
       "title": "人文前沿观察：庆祝中国共产党成立105周年优秀舞台艺术作品展演在京拉开帷幕",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
       "body": "核心进展\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：中华人民共和国文化和旅游部公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "assets/semiconductor.jpg",
+      "image": "https://www.mct.gov.cn/whzx/whyw/202608/assets/semiconductor.jpg",
       "imageFallback": "assets/semiconductor.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
+      "imageSourceType": "source-page",
+      "imageAttribution": "中华人民共和国文化和旅游部",
       "originalTitle": "庆祝中国共产党成立105周年优秀舞台艺术作品展演在京拉开帷幕",
       "source": "中华人民共和国文化和旅游部",
       "sourceUrl": "https://www.mct.gov.cn/whzx/whyw/202608/t20260801_966753.htm",
@@ -2546,10 +2546,10 @@
       "title": "2026年全国“四季村歌”示范活动暨第二十三届西北五省（区）“花儿”演唱...",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中华人民共和国文化和旅游部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/semiconductor.jpg",
+      "image": "https://www.mct.gov.cn/whzx/whyw/202607/assets/semiconductor.jpg",
       "imageFallback": "assets/semiconductor.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
+      "imageSourceType": "source-page",
+      "imageAttribution": "中华人民共和国文化和旅游部",
       "originalTitle": "2026年全国“四季村歌”示范活动暨第二十三届西北五省（区）“花儿”演唱...",
       "originalExcerpt": "",
       "source": "中华人民共和国文化和旅游部",
@@ -2634,20 +2634,20 @@
     {
       "id": 92,
       "category": "科技",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 3,
       "categoryScores": {
         "金融": 0,
-        "科技": 7,
+        "科技": 6,
         "工业": 1,
         "能源": 0,
         "农业": 0,
-        "人文": 4
+        "人文": 2
       },
-      "categoryClassificationMargin": 3,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Digital Signal Processing Pioneer Bede Liu Dies At 91",
       "excerpt": "Bede Liu, a digital signal processing pioneer, died on 7 May. He was 91. Liu was widely regarded as one of the founders of modern digital signal processing, a field that applies mathematical algorithms to analyze, modify, and transmit signals including sound, images, and video.…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“电气电子工程师学会科技观察”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“电气电子工程师学会科技观察”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://spectrum.ieee.org/media-library/portrait-of-an-elderly-asian-man-softly-smiling-in-a-suit-jacket-and-tie.jpg?id=67609508&width=980",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -2678,7 +2678,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Bede Liu, a digital signal processing pioneer, died on 7 May. He was 91. Liu was widely regarded as one of the founders of modern digital signal processing, a field that applies mathematical algorithms to analyze, modify, and transmit signals including sound, images, and video. The IEEE Life Fellow taught electrical engineering at Princeton for more than 50 years. From 1994 to 1997, he chaired the university’s electrical and computer engineering department . Liu’s research aided the transition from analog to digital processing of sound, images, and video. His work helped establish many of the mathematical and engineering techniques that underpin modern communications, multimedia systems, and consumer electronics. Although little known outside engineering circles, his work is embedded in technologies used by billions of people. The low-power digital signal processors that make cellphone calls, streaming video, and Internet communications possible can be traced to research he conducted in the 1970s and ‘80s. Liu received the 2018 IEEE Jack S. Kilby Signal Processing Medal for “sustained contributions to the analysis and the development of low-complexity realizations of digital signal processing algorithms.” “We stream music and video. We take photos with our phones, and we send them around. We don’t even think about it,” IEEE Life Fellow H. Vincent Poor said in an obituary for Liu . “But it’s all because of the signal processing, image processing, and video processing that’s been developed over the years, as well as other technologies that have grown up beside it and enabled it, like semiconductors. The development of these processing advances was exactly what Bede was a major part of.” Poor is a professor of electrical and computer engineering at Princeton. An impactful scholar and teacher Liu was born in Shanghai in 1934. During his childhood, his family relocated to Taiwan amid the upheaval of the Chinese Civil War . His father, Henry Liu Sr., was an electrical engineer. Liu earned his bachelor’s degree in electrical engineering in 1954 from the National Taiwan University , in Taipei. After graduating, he and his family moved to the United States. Liu and his father attended the Polytechnic Institute of Brooklyn (now the New York University Tandon School of Engineering ) together. They earned their master’s degrees in electrical engineering in 1956. Liu continued his studies at the school, earning a doctoral degree in electrical engineering four years later. In 1959 he was awarded a Bell Labs fellowship and worked at the company’s Murray Hill, N.J., location until he joined Princeton in 1962. “Liu was a highly impactful scholar and teacher—always thinking ahead of future needs and changing technologies,” said IEEE Life Fellow Peter J. Ramadge , a Princeton professor emeritus of engineering. Cellphones make use of a considerable amount of digital signal processing, Liu once noted. Many of the field’s advances, he added, involved making sophisticated processing practical on devices with limited computing power—which is the challenge that confronted generations of engineers designing portable electronics. Liu’s research contributions helped shape both the theory and practice of digital signal processing. With Abe Peled , a former graduate student, he authored the 1976 textbook Digital Signal Processing: Theory, Design, and Implementation , which is a standard reference for engineers. Published before digital signal processing had fully emerged as a distinct discipline, it helped define the subject for practitioners and students around the world. Liu also published 250 technical papers and was granted 12 U.S. patents. His papers are available to read on the IEEE Xplore Digital Library . The first patent granted to him and Peled was in 1976 for a hardware design that processed bits in parallel, rather than in sequence. The innovation greatly increased computing efficiency for data including sound and communication signals. Peled says Liu “demonstrated an openness to new ideas and a willingness to challenge the orthodoxy of the EE department at that time—which leaned heavily toward more theoretical information theory.” A mentor to well-known engineers Liu’s influence extended beyond his own research. He advised 53 doctoral students, many of whom went on to distinguished careers in academia and industry, including leadership positions at Google and IBM . One former student, computer scientist Robert Kahn , helped create the architecture of the modern Internet. Kahn, an IEEE Life Fellow, received the 2024 IEEE Medal of Honor . “His former students were very successful,” Poor said of Liu, “and I think that’s a testament to his skill as a mentor.” “Liu was a highly impactful scholar and teacher—always thinking ahead of future needs and changing technologies.” —Peter J. Ramadge Together with several Ph.D. students, Liu developed methods of filtering and compressing digital signals to mitigate errors and dramatically reduce the computation needed for signal processing. As digital signal processing moved from laboratories into commercial products, the impact of Liu’s ideas spread across industries. His research helped spawn the development of lower-cost and lower-power electronics and contributed to advances in mobile communications, multimedia technology, industrial automation, and biomedical imaging. A focus on media integrity and copyrights In the 2000s, Liu turned his attention to media integrity and copyright issues. “With the increasing accessibility of digital media source material, the protection of ownership and the prevention of unauthorized alteration has become an important concern,” he wrote in his 2002 book, Multimedia Data Hiding . The book, which he co-wrote with his former doctoral student IEEE Fellow Min Wu, discussed the theory, techniques, applications, and security of digital watermarking—hidden signals that could identify a genuine copy of a song, image or video to prevent…",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 185,
@@ -2751,8 +2753,8 @@
       "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Bipartisan Support Builds for Nuclear Energy",
-      "excerpt": "The post Bipartisan Support Builds for Nuclear Energy appeared first on NAM .",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国制造商协会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "The Bipartisan Support Builds for Nuclear Energy appeared first on 美国制造商协会.",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“美国制造商协会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://nam.org/wp-content/uploads/2026/08/quickbuild-1-1.jpg",
       "imageFallback": "assets/energy.jpg",
       "imageSourceType": "rss",
@@ -2785,7 +2787,9 @@
       "sourceMaterial": "The post Bipartisan Support Builds for Nuclear Energy appeared first on NAM .",
       "sourceMaterialType": "rss",
       "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "外文来源未取得完整中文译文"
+      "contentGenerationError": "外文来源未取得完整中文译文",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 229,
@@ -3977,28 +3981,36 @@
   ],
   "errors": [
     {
-      "source": "科普中国",
-      "error": "连续 2 次请求失败（3061ms）：HTTP Error 405: Not Allowed"
+      "source": "中华人民共和国文化和旅游部",
+      "error": "连续 2 次请求失败（41064ms）：<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（927ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-08-14T21:12:15.022059+00:00",
-    "startedAt": "2026-08-14T21:12:00.654797+00:00",
-    "finishedAt": "2026-08-14T21:12:15.022059+00:00",
+    "id": "2026-08-14T23:01:02.582430+00:00",
+    "startedAt": "2026-08-14T22:59:52.500432+00:00",
+    "finishedAt": "2026-08-14T23:01:02.582430+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 346,
-    "added": 236,
-    "duplicates": 64,
+    "sourcesSucceeded": 34,
+    "sourcesFailed": 2,
+    "fetched": 327,
+    "added": 224,
+    "duplicates": 59,
     "invalid": 2,
-    "staleSkipped": 44,
+    "staleSkipped": 42,
     "maxSourceAgeDays": 45,
     "errors": [
       {
-        "source": "科普中国",
-        "error": "连续 2 次请求失败（3061ms）：HTTP Error 405: Not Allowed"
+        "source": "中华人民共和国文化和旅游部",
+        "error": "连续 2 次请求失败（41064ms）：<urlopen error _ssl.c:993: The handshake operation timed out>"
+      },
+      {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（927ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4007,7 +4019,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1773,
+        "durationMs": 1173,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4017,7 +4029,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1332,
+        "durationMs": 1220,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4027,7 +4039,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2238,
+        "durationMs": 1980,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4037,7 +4049,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 499,
+        "durationMs": 744,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4047,7 +4059,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1161,
+        "durationMs": 1052,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4057,7 +4069,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1330,
+        "durationMs": 1044,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4067,7 +4079,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1215,
+        "durationMs": 1027,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4077,7 +4089,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1180,
+        "durationMs": 1011,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4087,7 +4099,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 716,
+        "durationMs": 801,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4095,20 +4107,19 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 3061,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（3061ms）：HTTP Error 405: Not Allowed"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 2995,
+        "fetched": 1,
+        "added": 1,
+        "duplicates": 0
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1473,
+        "durationMs": 1074,
         "fetched": 6,
         "added": 2,
         "duplicates": 2
@@ -4118,7 +4129,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4738,
+        "durationMs": 4139,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4128,7 +4139,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1662,
+        "durationMs": 1649,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4138,7 +4149,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1814,
+        "durationMs": 1828,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4146,19 +4157,20 @@
       {
         "sourceId": "china-mct-culture-news",
         "source": "中华人民共和国文化和旅游部",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 962,
-        "fetched": 10,
-        "added": 3,
-        "duplicates": 5
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 41064,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（41064ms）：<urlopen error _ssl.c:993: The handshake operation timed out>"
       },
       {
         "sourceId": "mit-technology-review",
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 102,
+        "durationMs": 111,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4168,27 +4180,27 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 273,
+        "durationMs": 144,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 111,
+        "durationMs": 120,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1031,
+        "durationMs": 1122,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4198,7 +4210,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 122,
+        "durationMs": 275,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4208,7 +4220,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1331,
+        "durationMs": 1323,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4218,7 +4230,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 725,
+        "durationMs": 812,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4228,7 +4240,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 106,
+        "durationMs": 153,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4238,7 +4250,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 48,
+        "durationMs": 88,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4248,7 +4260,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 797,
+        "durationMs": 762,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4258,7 +4270,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 116,
+        "durationMs": 189,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4268,7 +4280,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 36,
+        "durationMs": 84,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4278,7 +4290,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 133,
+        "durationMs": 80,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4288,7 +4300,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 422,
+        "durationMs": 860,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4298,17 +4310,17 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 572,
+        "durationMs": 582,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 7,
+        "duplicates": 3
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 54,
+        "durationMs": 112,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4316,19 +4328,20 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 37,
-        "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 927,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（927ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 500,
+        "durationMs": 689,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4338,7 +4351,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 327,
+        "durationMs": 705,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4348,7 +4361,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1136,
+        "durationMs": 906,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4358,7 +4371,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 108,
+        "durationMs": 107,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4376,7 +4389,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 31,
-      "translated": 1,
+      "translated": 0,
       "failed": 1,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 1,
