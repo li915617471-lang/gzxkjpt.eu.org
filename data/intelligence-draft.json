@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T13:46:09.211766+00:00",
+  "generatedAt": "2026-08-15T14:59:05.404896+00:00",
   "stories": [
     {
       "id": 1,
@@ -2797,55 +2797,53 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 229,
+      "id": 123,
       "category": "农业",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
-        "工业": 0,
-        "能源": 1,
-        "农业": 4,
-        "人文": 3
+        "工业": 1,
+        "能源": 0,
+        "农业": 8,
+        "人文": 0
       },
-      "categoryClassificationMargin": 1,
+      "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Meat Wasn't the Only Food That Drove Early Humans to Evolve Bigger Brains. Sugar May Have Fueled the Organ's Enlargement, Too",
-      "excerpt": "Scientists examined four million years of hominin diets. They found that natural sugars may have supplied energy—in the form of glucose—to growing brains before cooking made starchy foods easier to digest",
-      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://th-thumbnailer.cdn-si-edu.com/xyrJivpT6kqr9I94OJ08nT00NRU=/420x240/filters:focal(600x400:601x401)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/57/76/5776a4a5-356c-417f-9fba-22157da9bb44/gorilla_primate_ape_lowland_gorilla_watch_thinking_close_view-594335jpgd.jpeg",
+      "title": "Robots, Drones, and Digital Tools: The Next Generation of Crop Protection",
+      "excerpt": "Automation and precision technologies could play a major role in replacing or reducing some conventional crop protection practices. The post Robots, Drones, and Digital Tools: The Next Generation of Crop Protection appeared first on Global Ag Tech Initiative .",
+      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“全球农业科技资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2026/02/LaserWeeder-from-Carbon-Robotics-in-field-of-spinach-150x150.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "Smithsonian Magazine",
-      "originalTitle": "Meat Wasn't the Only Food That Drove Early Humans to Evolve Bigger Brains. Sugar May Have Fueled the Organ's Enlargement, Too",
-      "originalExcerpt": "Scientists examined four million years of hominin diets. They found that natural sugars may have supplied energy—in the form of glucose—to growing brains before cooking made starchy foods easier to digest",
-      "source": "Smithsonian Magazine",
-      "sourceUrl": "https://www.smithsonianmag.com/smart-news/meat-wasnt-the-only-food-that-drove-early-humans-to-evolve-bigger-brains-sugar-may-have-fueled-the-organs-enlargement-too-180989335/",
+      "imageAttribution": "Global Ag Tech Initiative",
+      "originalTitle": "Robots, Drones, and Digital Tools: The Next Generation of Crop Protection",
+      "originalExcerpt": "Automation and precision technologies could play a major role in replacing or reducing some conventional crop protection practices. The post Robots, Drones, and Digital Tools: The Next Generation of Crop Protection appeared first on Global Ag Tech Initiative .",
+      "source": "Global Ag Tech Initiative",
+      "sourceUrl": "https://www.globalagtechinitiative.com/in-field-technologies/drones-uavs/robots-drones-and-digital-tools-the-next-generation-of-crop-protection/",
       "author": "",
       "language": "en",
       "sourceLanguage": "en",
-      "confidence": 89,
+      "confidence": 80,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "tags": [
         "农业"
       ],
-      "status": "review",
-      "collectionSourceId": "smithsonian-magazine",
-      "sourceType": "research",
+      "status": "draft",
+      "collectionSourceId": "global-ag-tech-initiative",
+      "sourceType": "industry",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Thu, 13 Aug 2026 20:27:39 +0000",
-      "sourcePublishedAt": "2026-08-13T20:27:39+00:00",
-      "collectedAt": "2026-08-13T22:25:57.787571+00:00",
-      "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "Scientists examined four million years of hominin diets. They found that natural sugars may have supplied energy—in the form of glucose—to growing brains before cooking made starchy foods easier to digest",
-      "sourceMaterialType": "rss",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "sourceTrustLevel": "standard",
+      "originalPublishedAt": "Fri, 14 Aug 2026 15:30:09 +0000",
+      "sourcePublishedAt": "2026-08-14T15:30:09+00:00",
+      "collectedAt": "2026-08-15T14:59:05.173573+00:00",
+      "freshnessDays": 1,
+      "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
+      "sourceMaterial": "Automation and precision technologies could play a major role in replacing or reducing some conventional crop protection practices. The post Robots, Drones, and Digital Tools: The Next Generation of Crop Protection appeared first on Global Ag Tech Initiative .",
+      "sourceMaterialType": "rss"
     },
     {
       "id": 130,
@@ -3118,52 +3116,52 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 219,
+      "id": 229,
       "category": "农业",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 3,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
         "工业": 0,
-        "能源": 0,
-        "农业": 8,
-        "人文": 0
+        "能源": 1,
+        "农业": 4,
+        "人文": 3
       },
-      "categoryClassificationMargin": 8,
+      "categoryClassificationMargin": 1,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "We don't talk about Bruno: How a pushcart is changing crop breeding",
-      "excerpt": "At the Alliance, researchers are using a low-cost smartphone pushcart called Bruno to collect faster, more consistent crop data, helping breeding programmes across Africa improve how they identify crop varieties.",
-      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/solar.jpg",
+      "title": "Meat Wasn't the Only Food That Drove Early Humans to Evolve Bigger Brains. Sugar May Have Fueled the Organ's Enlargement, Too",
+      "excerpt": "Scientists examined four million years of hominin diets. They found that natural sugars may have supplied energy—in the form of glucose—to growing brains before cooking made starchy foods easier to digest",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://th-thumbnailer.cdn-si-edu.com/xyrJivpT6kqr9I94OJ08nT00NRU=/420x240/filters:focal(600x400:601x401)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/57/76/5776a4a5-356c-417f-9fba-22157da9bb44/gorilla_primate_ape_lowland_gorilla_watch_thinking_close_view-594335jpgd.jpeg",
       "imageFallback": "assets/solar.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
-      "originalTitle": "We don't talk about Bruno: How a pushcart is changing crop breeding",
-      "originalExcerpt": "At the Alliance, researchers are using a low-cost smartphone pushcart called Bruno to collect faster, more consistent crop data, helping breeding programmes across Africa improve how they identify crop varieties.",
-      "source": "CGIAR",
-      "sourceUrl": "https://www.cgiar.org/news-events/news/we-dont-talk-about-bruno-how-pushcart-changing-crop-breeding",
+      "imageSourceType": "rss",
+      "imageAttribution": "Smithsonian Magazine",
+      "originalTitle": "Meat Wasn't the Only Food That Drove Early Humans to Evolve Bigger Brains. Sugar May Have Fueled the Organ's Enlargement, Too",
+      "originalExcerpt": "Scientists examined four million years of hominin diets. They found that natural sugars may have supplied energy—in the form of glucose—to growing brains before cooking made starchy foods easier to digest",
+      "source": "Smithsonian Magazine",
+      "sourceUrl": "https://www.smithsonianmag.com/smart-news/meat-wasnt-the-only-food-that-drove-early-humans-to-evolve-bigger-brains-sugar-may-have-fueled-the-organs-enlargement-too-180989335/",
       "author": "",
       "language": "en",
       "sourceLanguage": "en",
-      "confidence": 93,
+      "confidence": 89,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "tags": [
         "农业"
       ],
       "status": "review",
-      "collectionSourceId": "cgiar",
+      "collectionSourceId": "smithsonian-magazine",
       "sourceType": "research",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-08-12T12:00:00+0000",
-      "sourcePublishedAt": "2026-08-12T12:00:00+00:00",
-      "collectedAt": "2026-08-13T19:47:08.111228+00:00",
-      "freshnessDays": 1,
+      "sourceTrustLevel": "professional",
+      "originalPublishedAt": "Thu, 13 Aug 2026 20:27:39 +0000",
+      "sourcePublishedAt": "2026-08-13T20:27:39+00:00",
+      "collectedAt": "2026-08-13T22:25:57.787571+00:00",
+      "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "At the Alliance, researchers are using a low-cost smartphone pushcart called Bruno to collect faster, more consistent crop data, helping breeding programmes across Africa improve how they identify crop varieties.",
+      "sourceMaterial": "Scientists examined four million years of hominin diets. They found that natural sugars may have supplied energy—in the form of glucose—to growing brains before cooking made starchy foods easier to digest",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
@@ -3727,6 +3725,67 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 53,
+      "category": "人文",
+      "categoryEvidenceScore": 1,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 0,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 4
+      },
+      "categoryClassificationMargin": 4,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《探索·发现》 20260815 考古零距离（6）",
+      "excerpt": "本期节目主要内容：2018年12月14日，常州市金坛区指前镇唐陵村在污水改造施工过程中意外地发现了古代墓葬。随即，由常州博物馆对唐陵村墓葬进行了抢救性考古发掘。考古队在现场共发现砖室墓三座，墓葬呈品字形排列。（《探索·发现》 20260815 考古零距离（6））",
+      "body": "视频简介\n\n本期节目主要内容：2018年12月14日，常州市金坛区指前镇唐陵村在污水改造施工过程中意外地发现了古代墓葬。随即，由常州博物馆对唐陵村墓葬进行了抢救性考古发掘。考古队在现场共发现砖室墓三座，墓葬呈品字形排列。（《探索·发现》 20260815 考古零距离（6））\n\n简要来源\n\n本视频来自“中央广播电视总台《探索·发现》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p3.img.cctvpic.com/fmspic/2026/08/15/c4f15a9a67cd492d8d0a8ed7af0b84be-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中央广播电视总台《探索·发现》",
+      "originalTitle": "《探索·发现》 20260815 考古零距离（6）",
+      "originalExcerpt": "本期节目主要内容：2018年12月14日，常州市金坛区指前镇唐陵村在污水改造施工过程中意外地发现了古代墓葬。随即，由常州博物馆对唐陵村墓葬进行了抢救性考古发掘。考古队在现场共发现砖室墓三座，墓葬呈品字形排列。（《探索·发现》 20260815 考古零距离（6））",
+      "source": "中央广播电视总台《探索·发现》",
+      "sourceUrl": "https://tv.cctv.com/2026/08/15/VIDEh74swoiVJYd55oIr6Qhg260815.shtml",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 97,
+      "time": "待审核",
+      "readMinutes": 1,
+      "heat": 78,
+      "date": "2026-08-15",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-cctv-discovery-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "2026-08-15 20:32:00",
+      "sourcePublishedAt": "2026-08-15T20:32:00+00:00",
+      "collectedAt": "2026-08-15T14:59:04.909902+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：2018年12月14日，常州市金坛区指前镇唐陵村在污水改造施工过程中意外地发现了古代墓葬。随即，由常州博物馆对唐陵村墓葬进行了抢救性考古发掘。考古队在现场共发现砖室墓三座，墓葬呈品字形排列。（《探索·发现》 20260815 考古零距离（6））",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://tv.cctv.com/2026/08/15/VIDEh74swoiVJYd55oIr6Qhg260815.shtml",
+      "videoPoster": "https://p3.img.cctvpic.com/fmspic/2026/08/15/c4f15a9a67cd492d8d0a8ed7af0b84be-1.jpg",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 77,
+      "videoDuration": "00:38:18",
+      "videoExternalId": "c4f15a9a67cd492d8d0a8ed7af0b84be",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 156
+    },
+    {
       "id": 44,
       "category": "人文",
       "categoryEvidenceScore": 0,
@@ -3912,67 +3971,6 @@
       "videoExternalId": "728251",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 70,
-      "category": "科技",
-      "categoryEvidenceScore": 0,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 3,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 3,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "千万不要再熬夜了！4 大伤害，看完再也不敢了！",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/15/11/1786675058786.png",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "科普中国",
-      "originalTitle": "千万不要再熬夜了！4 大伤害，看完再也不敢了！",
-      "originalExcerpt": "",
-      "source": "科普中国",
-      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=727941",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 6,
-      "heat": 78,
-      "date": "2026-08-15",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-kepuchina-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-08-15T03:10:20.924130+00:00",
-      "freshnessDays": null,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=727941",
-      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/15/11/1786675058786.png",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 72,
-      "videoDuration": "",
-      "videoExternalId": "727941",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
   "errors": [
@@ -3982,13 +3980,13 @@
     },
     {
       "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（865ms）：HTTP Error 429: Too Many Requests"
+      "error": "连续 2 次请求失败（1069ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-08-15T13:46:09.211766+00:00",
-    "startedAt": "2026-08-15T13:45:46.059631+00:00",
-    "finishedAt": "2026-08-15T13:46:09.211766+00:00",
+    "id": "2026-08-15T14:59:05.404896+00:00",
+    "startedAt": "2026-08-15T14:58:45.311777+00:00",
+    "finishedAt": "2026-08-15T14:59:05.404896+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 34,
@@ -4006,7 +4004,7 @@
       },
       {
         "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（865ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（1069ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4015,7 +4013,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1848,
+        "durationMs": 5958,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4025,7 +4023,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1559,
+        "durationMs": 1282,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4035,7 +4033,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2766,
+        "durationMs": 1670,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4045,7 +4043,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1082,
+        "durationMs": 499,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4055,7 +4053,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1528,
+        "durationMs": 654,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4065,7 +4063,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1480,
+        "durationMs": 825,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4075,7 +4073,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1760,
+        "durationMs": 1256,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4085,7 +4083,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1958,
+        "durationMs": 886,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4095,7 +4093,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 829,
+        "durationMs": 837,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4105,7 +4103,7 @@
         "source": "科普中国",
         "status": "failed",
         "attempts": 1,
-        "durationMs": 3234,
+        "durationMs": 3414,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
@@ -4116,7 +4114,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1087,
+        "durationMs": 1079,
         "fetched": 6,
         "added": 2,
         "duplicates": 2
@@ -4126,7 +4124,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4549,
+        "durationMs": 6910,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4136,7 +4134,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1543,
+        "durationMs": 1750,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4146,7 +4144,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2211,
+        "durationMs": 1787,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4156,7 +4154,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1070,
+        "durationMs": 2066,
         "fetched": 10,
         "added": 3,
         "duplicates": 5
@@ -4166,7 +4164,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 110,
+        "durationMs": 97,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4176,7 +4174,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 131,
+        "durationMs": 540,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4186,7 +4184,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 51,
+        "durationMs": 134,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4196,7 +4194,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1020,
+        "durationMs": 1058,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4206,7 +4204,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 147,
+        "durationMs": 525,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4216,7 +4214,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2182,
+        "durationMs": 1023,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4226,7 +4224,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 865,
+        "durationMs": 785,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4236,7 +4234,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 139,
+        "durationMs": 304,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4246,7 +4244,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 44,
+        "durationMs": 103,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4256,7 +4254,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 864,
+        "durationMs": 747,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4266,7 +4264,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 258,
+        "durationMs": 157,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4276,7 +4274,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 81,
+        "durationMs": 93,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4286,7 +4284,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 67,
+        "durationMs": 96,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4296,7 +4294,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 774,
+        "durationMs": 867,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4306,7 +4304,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 392,
+        "durationMs": 682,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4316,7 +4314,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1378,
+        "durationMs": 248,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4326,18 +4324,18 @@
         "source": "NASA Breaking News",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 865,
+        "durationMs": 1069,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（865ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（1069ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 546,
+        "durationMs": 680,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4347,7 +4345,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 462,
+        "durationMs": 336,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4357,7 +4355,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1721,
+        "durationMs": 847,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4367,7 +4365,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 102,
+        "durationMs": 145,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4376,11 +4374,11 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 14,
+      "科技": 13,
       "工业": 11,
       "能源": 13,
       "农业": 10,
-      "人文": 14
+      "人文": 15
     },
     "articleGeneration": {
       "requested": 32,
@@ -4389,7 +4387,7 @@
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
-      "videosPrepared": 5,
+      "videosPrepared": 6,
       "minimumCharacters": 800
     }
   }
