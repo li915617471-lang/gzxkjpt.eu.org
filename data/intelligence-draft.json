@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T09:04:31.165023+00:00",
+  "generatedAt": "2026-08-15T10:58:11.388236+00:00",
   "stories": [
     {
       "id": 1,
@@ -3727,6 +3727,67 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 44,
+      "category": "人文",
+      "categoryEvidenceScore": 0,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 0,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 3
+      },
+      "categoryClassificationMargin": 3,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《地理·中国》 20260815 中国风景名片——三江源8",
+      "excerpt": "本期节目主要内容：繁多的物种使三江源的生物圈结构更加完整，能量更加均衡，生态体系也更加稳固。伴随着每天的日出日落，无数的物种在彼此的追逐和奔跑之中，为三江源渲染了勃勃生机。（《地理·中国》 20260815 中国风景名片——三江源8）",
+      "body": "视频简介\n\n本期节目主要内容：繁多的物种使三江源的生物圈结构更加完整，能量更加均衡，生态体系也更加稳固。伴随着每天的日出日落，无数的物种在彼此的追逐和奔跑之中，为三江源渲染了勃勃生机。（《地理·中国》 20260815 中国风景名片——三江源8）\n\n简要来源\n\n本视频来自“中央广播电视总台《地理·中国》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p2.img.cctvpic.com/fmspic/2026/08/15/c9a52b9d5a2d4a59868468df4b2db2bc-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中央广播电视总台《地理·中国》",
+      "originalTitle": "《地理·中国》 20260815 中国风景名片——三江源8",
+      "originalExcerpt": "本期节目主要内容：繁多的物种使三江源的生物圈结构更加完整，能量更加均衡，生态体系也更加稳固。伴随着每天的日出日落，无数的物种在彼此的追逐和奔跑之中，为三江源渲染了勃勃生机。（《地理·中国》 20260815 中国风景名片——三江源8）",
+      "source": "中央广播电视总台《地理·中国》",
+      "sourceUrl": "https://tv.cctv.com/2026/08/15/VIDElVNfZr39bPSXNYla9dvd260815.shtml",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 97,
+      "time": "待审核",
+      "readMinutes": 1,
+      "heat": 78,
+      "date": "2026-08-15",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-cctv-geography-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "2026-08-15 17:26:00",
+      "sourcePublishedAt": "2026-08-15T17:26:00+00:00",
+      "collectedAt": "2026-08-15T10:58:10.496153+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：繁多的物种使三江源的生物圈结构更加完整，能量更加均衡，生态体系也更加稳固。伴随着每天的日出日落，无数的物种在彼此的追逐和奔跑之中，为三江源渲染了勃勃生机。（《地理·中国》 20260815 中国风景名片——三江源8）",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://tv.cctv.com/2026/08/15/VIDElVNfZr39bPSXNYla9dvd260815.shtml",
+      "videoPoster": "https://p2.img.cctvpic.com/fmspic/2026/08/15/c9a52b9d5a2d4a59868468df4b2db2bc-1.jpg",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 78,
+      "videoDuration": "00:28:09",
+      "videoExternalId": "c9a52b9d5a2d4a59868468df4b2db2bc",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 142
+    },
+    {
       "id": 63,
       "category": "人文",
       "categoryEvidenceScore": 1,
@@ -3910,68 +3971,6 @@
       "videoExternalId": "727941",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 71,
-      "category": "科技",
-      "categoryEvidenceScore": 0,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 3,
-        "工业": 1,
-        "能源": 0,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 2,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "球状闪电之谜终破解！科学家打造球形发光体，核聚变或有新路径",
-      "excerpt": "闪电很常见，但球状闪电无疑神秘得多，而最近，中国科学家首次在实验室里可控地制造了球状闪电，终于破解了这一谜团。那么，球状闪电到底有多古怪？实验室里制造的球状闪电，与现实中的真的一样吗？中国科学家是如何实现这一突破的？听姬扬老师精彩解读！",
-      "body": "核心信息 闪电很常见，但球状闪电无疑神秘得多，而最近，中国科学家首次在实验室里可控地制造了球状闪电，终于破解了这一谜团。那么，球状闪电到底有多古怪？实验室里制造的球状闪电，与现实中的真的一样吗？中国科学家是如何实现这一突破的？听姬扬老师精彩解读！ 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/13/10/1786496688157.png",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "科普中国",
-      "originalTitle": "球状闪电之谜终破解！科学家打造球形发光体，核聚变或有新路径",
-      "originalExcerpt": "",
-      "source": "科普中国",
-      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=727247",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 6,
-      "heat": 78,
-      "date": "2026-08-15",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-kepuchina-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-08-15T03:10:20.926345+00:00",
-      "freshnessDays": null,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=727247",
-      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/13/10/1786496688157.png",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 72,
-      "videoDuration": "",
-      "videoExternalId": "727247",
-      "summarySourceType": "source-page",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
   "errors": [
@@ -3981,13 +3980,13 @@
     },
     {
       "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（851ms）：HTTP Error 429: Too Many Requests"
+      "error": "连续 2 次请求失败（1051ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-08-15T09:04:31.165023+00:00",
-    "startedAt": "2026-08-15T09:04:10.959065+00:00",
-    "finishedAt": "2026-08-15T09:04:31.165023+00:00",
+    "id": "2026-08-15T10:58:11.388236+00:00",
+    "startedAt": "2026-08-15T10:57:52.848689+00:00",
+    "finishedAt": "2026-08-15T10:58:11.388236+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 34,
@@ -4005,7 +4004,7 @@
       },
       {
         "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（851ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（1051ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4014,7 +4013,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3254,
+        "durationMs": 1191,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4024,7 +4023,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1484,
+        "durationMs": 1333,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4034,7 +4033,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2375,
+        "durationMs": 2578,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4044,7 +4043,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 798,
+        "durationMs": 683,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4054,7 +4053,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 813,
+        "durationMs": 1207,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4064,7 +4063,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 859,
+        "durationMs": 1205,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4074,7 +4073,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 858,
+        "durationMs": 874,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4084,7 +4083,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 750,
+        "durationMs": 854,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4094,7 +4093,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 623,
+        "durationMs": 942,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4104,7 +4103,7 @@
         "source": "科普中国",
         "status": "failed",
         "attempts": 1,
-        "durationMs": 3940,
+        "durationMs": 3703,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
@@ -4115,7 +4114,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1319,
+        "durationMs": 1311,
         "fetched": 6,
         "added": 2,
         "duplicates": 2
@@ -4125,7 +4124,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3845,
+        "durationMs": 3578,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4135,7 +4134,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2335,
+        "durationMs": 1292,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4145,7 +4144,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2140,
+        "durationMs": 1539,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4155,7 +4154,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 986,
+        "durationMs": 1078,
         "fetched": 10,
         "added": 3,
         "duplicates": 5
@@ -4165,7 +4164,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 53,
+        "durationMs": 92,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4175,7 +4174,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 118,
+        "durationMs": 819,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4185,7 +4184,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 54,
+        "durationMs": 109,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4195,7 +4194,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1042,
+        "durationMs": 985,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4205,7 +4204,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 59,
+        "durationMs": 53,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4215,7 +4214,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 822,
+        "durationMs": 780,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4225,7 +4224,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 611,
+        "durationMs": 560,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4235,7 +4234,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 46,
+        "durationMs": 66,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4245,7 +4244,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 38,
+        "durationMs": 58,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4255,7 +4254,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 693,
+        "durationMs": 616,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4265,7 +4264,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 168,
+        "durationMs": 108,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4275,7 +4274,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 33,
+        "durationMs": 44,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4285,7 +4284,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 71,
+        "durationMs": 163,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4295,7 +4294,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 356,
+        "durationMs": 351,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4305,7 +4304,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 341,
+        "durationMs": 648,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4315,7 +4314,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 105,
+        "durationMs": 270,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4325,18 +4324,18 @@
         "source": "NASA Breaking News",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 851,
+        "durationMs": 1051,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（851ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（1051ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 368,
+        "durationMs": 453,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4346,7 +4345,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 346,
+        "durationMs": 233,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4356,7 +4355,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1038,
+        "durationMs": 930,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4366,7 +4365,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 176,
+        "durationMs": 130,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4375,11 +4374,11 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 15,
+      "科技": 14,
       "工业": 11,
       "能源": 13,
       "农业": 10,
-      "人文": 13
+      "人文": 14
     },
     "articleGeneration": {
       "requested": 32,
@@ -4388,7 +4387,7 @@
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
-      "videosPrepared": 4,
+      "videosPrepared": 5,
       "minimumCharacters": 800
     }
   }
