@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T03:29:28.470134+00:00",
+  "generatedAt": "2026-08-16T05:47:54.846418+00:00",
   "stories": [
     {
       "id": 1,
@@ -2545,7 +2545,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "旅游市场强制消费问题典型案例（2026年第四批）",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中华人民共和国文化和旅游部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中华人民共和国文化和旅游部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/semiconductor.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "category-cover",
@@ -2576,7 +2576,9 @@
       "freshnessDays": 44,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 154,
@@ -3725,6 +3727,67 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 63,
+      "category": "人文",
+      "categoryEvidenceScore": 0,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 0,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 3
+      },
+      "categoryClassificationMargin": 3,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《百家讲坛》 20260816 千古华章·《出师表》",
+      "excerpt": "本期节目主要内容：在风云变幻的三国乱世中，蜀汉王朝风雨飘摇，命运多舛。面对先帝刘备临终前的嘱托，诸葛亮临危受命，不但扛起了继续兴复汉室的大旗，同时，也接过了辅佐刘禅治国的重任。（《百家讲坛》 20260816 千古华章·《出师表》）",
+      "body": "视频简介\n\n本期节目主要内容：在风云变幻的三国乱世中，蜀汉王朝风雨飘摇，命运多舛。面对先帝刘备临终前的嘱托，诸葛亮临危受命，不但扛起了继续兴复汉室的大旗，同时，也接过了辅佐刘禅治国的重任。（《百家讲坛》 20260816 千古华章·《出师表》）\n\n简要来源\n\n本视频来自“中央广播电视总台《百家讲坛》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p5.img.cctvpic.com/fmspic/2026/08/16/e5852a46891c4f10be90bee6c3493ae8-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中央广播电视总台《百家讲坛》",
+      "originalTitle": "《百家讲坛》 20260816 千古华章·《出师表》",
+      "originalExcerpt": "本期节目主要内容：在风云变幻的三国乱世中，蜀汉王朝风雨飘摇，命运多舛。面对先帝刘备临终前的嘱托，诸葛亮临危受命，不但扛起了继续兴复汉室的大旗，同时，也接过了辅佐刘禅治国的重任。（《百家讲坛》 20260816 千古华章·《出师表》）",
+      "source": "中央广播电视总台《百家讲坛》",
+      "sourceUrl": "https://tv.cctv.com/2026/08/16/VIDEcazlERtGWHS5UG6wz5Hx260816.shtml",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 97,
+      "time": "待审核",
+      "readMinutes": 1,
+      "heat": 78,
+      "date": "2026-08-16",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-cctv-humanities-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "2026-08-16 12:00:00",
+      "sourcePublishedAt": "2026-08-16T12:00:00+00:00",
+      "collectedAt": "2026-08-16T05:47:54.226988+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：在风云变幻的三国乱世中，蜀汉王朝风雨飘摇，命运多舛。面对先帝刘备临终前的嘱托，诸葛亮临危受命，不但扛起了继续兴复汉室的大旗，同时，也接过了辅佐刘禅治国的重任。（《百家讲坛》 20260816 千古华章·《出师表》）",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://tv.cctv.com/2026/08/16/VIDEcazlERtGWHS5UG6wz5Hx260816.shtml",
+      "videoPoster": "https://p5.img.cctvpic.com/fmspic/2026/08/16/e5852a46891c4f10be90bee6c3493ae8-1.jpg",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 76,
+      "videoDuration": "00:37:23",
+      "videoExternalId": "e5852a46891c4f10be90bee6c3493ae8",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 139
+    },
+    {
       "id": 70,
       "category": "科技",
       "categoryEvidenceScore": 0,
@@ -3739,8 +3802,8 @@
       "categoryClassificationMargin": 3,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "科普一下丨“一周备餐”靠谱吗？怎么吃更安心？",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "出去吃太贵、长期点外卖怕不健康，每天做饭又太麻烦，“一周备餐”成了不少上班族的新选择。这样备餐靠谱吗？怎么吃更安心？请专家科普一下。",
+      "body": "核心信息 出去吃太贵、长期点外卖怕不健康，每天做饭又太麻烦，“一周备餐”成了不少上班族的新选择。这样备餐靠谱吗？怎么吃更安心？请专家科普一下。 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/15/15/1786688399609.png",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3781,7 +3844,10 @@
       "homeVideoFeatured": true,
       "homeVideoPriority": 72,
       "videoDuration": "",
-      "videoExternalId": "728019"
+      "videoExternalId": "728019",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 71,
@@ -3799,7 +3865,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "这种被误会了几千年的鸟，竟然是农林害虫头号天敌",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/13/12/1786505303314.png",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3840,7 +3906,9 @@
       "homeVideoFeatured": true,
       "homeVideoPriority": 72,
       "videoDuration": "",
-      "videoExternalId": "727364"
+      "videoExternalId": "727364",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 72,
@@ -3858,7 +3926,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "【榕哥烙科】第631期：战略气体氦打哪儿来？",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国数字科技馆”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国数字科技馆”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20267/786995ed6e7f47f59bc8fe78074fc263.png",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3899,100 +3967,43 @@
       "homeVideoFeatured": true,
       "homeVideoPriority": 70,
       "videoDuration": "",
-      "videoExternalId": ""
-    },
-    {
-      "id": 73,
-      "category": "科技",
-      "categoryEvidenceScore": 0,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 3,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 3,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "【榕哥烙科】第630期：煤变油能让世界更绿色？",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国数字科技馆”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20266/e6f5e938af5944118c3f454e01b88836.png",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "中国数字科技馆",
-      "originalTitle": "【榕哥烙科】第630期：煤变油能让世界更绿色？",
-      "originalExcerpt": "",
-      "source": "中国数字科技馆",
-      "sourceUrl": "https://www.cdstm.cn/videos/Tops/v600/art/2026/art_9640bd514fad4c37984cbfb470af355a.html",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 6,
-      "heat": 78,
-      "date": "2026-08-16",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-digital-science-museum-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-08-16T03:29:27.706589+00:00",
-      "freshnessDays": null,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.cdstm.cn/videos/Tops/v600/art/2026/art_9640bd514fad4c37984cbfb470af355a.html",
-      "videoPoster": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20266/e6f5e938af5944118c3f454e01b88836.png",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 70,
-      "videoDuration": "",
-      "videoExternalId": ""
+      "videoExternalId": "",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     }
   ],
   "errors": [
     {
       "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（849ms）：HTTP Error 429: Too Many Requests"
+      "error": "连续 2 次请求失败（1302ms）：HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Intergovernmental Panel on Climate Change",
-      "error": "连续 2 次请求失败（937ms）：HTTP Error 403: Forbidden"
+      "error": "连续 2 次请求失败（900ms）：HTTP Error 403: Forbidden"
     }
   ],
   "collection": {
-    "id": "2026-08-16T03:29:28.470134+00:00",
-    "startedAt": "2026-08-16T03:29:07.051955+00:00",
-    "finishedAt": "2026-08-16T03:29:28.470134+00:00",
+    "id": "2026-08-16T05:47:54.846418+00:00",
+    "startedAt": "2026-08-16T05:47:31.545216+00:00",
+    "finishedAt": "2026-08-16T05:47:54.846418+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 34,
     "sourcesFailed": 2,
     "fetched": 328,
-    "added": 224,
-    "duplicates": 62,
+    "added": 222,
+    "duplicates": 64,
     "invalid": 2,
     "staleSkipped": 40,
     "maxSourceAgeDays": 45,
     "errors": [
       {
         "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（849ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（1302ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "source": "Intergovernmental Panel on Climate Change",
-        "error": "连续 2 次请求失败（937ms）：HTTP Error 403: Forbidden"
+        "error": "连续 2 次请求失败（900ms）：HTTP Error 403: Forbidden"
       }
     ],
     "sourceResults": [
@@ -4001,7 +4012,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1312,
+        "durationMs": 1212,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4011,7 +4022,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1414,
+        "durationMs": 1148,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4021,7 +4032,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2285,
+        "durationMs": 1794,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4031,7 +4042,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 877,
+        "durationMs": 602,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4041,7 +4052,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1318,
+        "durationMs": 777,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4051,7 +4062,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1282,
+        "durationMs": 812,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4061,57 +4072,57 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1282,
+        "durationMs": 744,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "china-cctv-discovery-video",
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1244,
+        "durationMs": 905,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-cctv-humanities-video",
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 436,
+        "durationMs": 686,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3759,
+        "durationMs": 3537,
         "fetched": 2,
-        "added": 2,
-        "duplicates": 0
+        "added": 0,
+        "duplicates": 2
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1324,
+        "durationMs": 1267,
         "fetched": 6,
-        "added": 2,
-        "duplicates": 2
+        "added": 0,
+        "duplicates": 4
       },
       {
         "sourceId": "china-stats-releases",
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3759,
+        "durationMs": 4939,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4121,7 +4132,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2510,
+        "durationMs": 1581,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4131,7 +4142,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1319,
+        "durationMs": 1546,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4141,17 +4152,17 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1113,
+        "durationMs": 878,
         "fetched": 10,
-        "added": 2,
-        "duplicates": 5
+        "added": 1,
+        "duplicates": 6
       },
       {
         "sourceId": "mit-technology-review",
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 23,
+        "durationMs": 112,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4161,7 +4172,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 551,
+        "durationMs": 220,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4171,7 +4182,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 108,
+        "durationMs": 156,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4181,7 +4192,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 940,
+        "durationMs": 1074,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4191,7 +4202,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 117,
+        "durationMs": 229,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4201,7 +4212,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 684,
+        "durationMs": 901,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4211,7 +4222,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 535,
+        "durationMs": 512,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4221,7 +4232,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 138,
+        "durationMs": 755,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4231,7 +4242,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 41,
+        "durationMs": 131,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4241,7 +4252,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 560,
+        "durationMs": 549,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4251,7 +4262,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 172,
+        "durationMs": 132,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4261,7 +4272,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 41,
+        "durationMs": 99,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4271,7 +4282,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 5064,
+        "durationMs": 130,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4281,7 +4292,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 511,
+        "durationMs": 560,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4291,7 +4302,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 527,
+        "durationMs": 500,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4301,7 +4312,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 400,
+        "durationMs": 340,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4311,18 +4322,18 @@
         "source": "NASA Breaking News",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 849,
+        "durationMs": 1302,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（849ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（1302ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 667,
+        "durationMs": 1155,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4332,7 +4343,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 463,
+        "durationMs": 268,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4342,18 +4353,18 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 937,
+        "durationMs": 900,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（937ms）：HTTP Error 403: Forbidden"
+        "error": "连续 2 次请求失败（900ms）：HTTP Error 403: Forbidden"
       },
       {
         "sourceId": "smithsonian-magazine",
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 70,
+        "durationMs": 206,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4362,11 +4373,11 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 16,
+      "科技": 15,
       "工业": 11,
       "能源": 13,
       "农业": 10,
-      "人文": 12
+      "人文": 13
     },
     "articleGeneration": {
       "requested": 32,
@@ -4375,7 +4386,7 @@
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
-      "videosPrepared": 3,
+      "videosPrepared": 4,
       "minimumCharacters": 800
     }
   }
