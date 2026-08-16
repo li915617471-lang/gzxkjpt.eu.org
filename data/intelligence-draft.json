@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T09:45:56.180289+00:00",
+  "generatedAt": "2026-08-16T10:59:03.002169+00:00",
   "stories": [
     {
       "id": 1,
@@ -3732,6 +3732,67 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 44,
+      "category": "人文",
+      "categoryEvidenceScore": 0,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 0,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 3
+      },
+      "categoryClassificationMargin": 3,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《地理·中国》 20260816 神奇大自然1",
+      "excerpt": "本期节目主要内容：湖口位于江西北部，因地处中国第一大淡水湖鄱阳湖入长江之口而得名“湖口”。石钟山实际上是两座山，南面濒临鄱阳湖的叫“上石钟山”，北面濒临长江的叫“下石钟山”。（《地理·中国》 20260816 神奇大自然1）",
+      "body": "视频简介\n\n本期节目主要内容：湖口位于江西北部，因地处中国第一大淡水湖鄱阳湖入长江之口而得名“湖口”。石钟山实际上是两座山，南面濒临鄱阳湖的叫“上石钟山”，北面濒临长江的叫“下石钟山”。（《地理·中国》 20260816 神奇大自然1）\n\n简要来源\n\n本视频来自“中央广播电视总台《地理·中国》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p2.img.cctvpic.com/fmspic/2026/08/16/ad2f10da1ee24197bdfb9d3736be579b-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中央广播电视总台《地理·中国》",
+      "originalTitle": "《地理·中国》 20260816 神奇大自然1",
+      "originalExcerpt": "本期节目主要内容：湖口位于江西北部，因地处中国第一大淡水湖鄱阳湖入长江之口而得名“湖口”。石钟山实际上是两座山，南面濒临鄱阳湖的叫“上石钟山”，北面濒临长江的叫“下石钟山”。（《地理·中国》 20260816 神奇大自然1）",
+      "source": "中央广播电视总台《地理·中国》",
+      "sourceUrl": "https://tv.cctv.com/2026/08/16/VIDE39YFidj5iAup8K1mFXY4260816.shtml",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 97,
+      "time": "待审核",
+      "readMinutes": 1,
+      "heat": 78,
+      "date": "2026-08-16",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-cctv-geography-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "2026-08-16 17:26:00",
+      "sourcePublishedAt": "2026-08-16T17:26:00+00:00",
+      "collectedAt": "2026-08-16T10:59:02.038990+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：湖口位于江西北部，因地处中国第一大淡水湖鄱阳湖入长江之口而得名“湖口”。石钟山实际上是两座山，南面濒临鄱阳湖的叫“上石钟山”，北面濒临长江的叫“下石钟山”。（《地理·中国》 20260816 神奇大自然1）",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://tv.cctv.com/2026/08/16/VIDE39YFidj5iAup8K1mFXY4260816.shtml",
+      "videoPoster": "https://p2.img.cctvpic.com/fmspic/2026/08/16/ad2f10da1ee24197bdfb9d3736be579b-1.jpg",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 78,
+      "videoDuration": "00:28:41",
+      "videoExternalId": "ad2f10da1ee24197bdfb9d3736be579b",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 134
+    },
+    {
       "id": 63,
       "category": "人文",
       "categoryEvidenceScore": 0,
@@ -3916,93 +3977,32 @@
       "videoExternalId": "727364",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 72,
-      "category": "科技",
-      "categoryEvidenceScore": 0,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 3,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 3,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "【榕哥烙科】第631期：战略气体氦打哪儿来？",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国数字科技馆”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20267/786995ed6e7f47f59bc8fe78074fc263.png",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "中国数字科技馆",
-      "originalTitle": "【榕哥烙科】第631期：战略气体氦打哪儿来？",
-      "originalExcerpt": "",
-      "source": "中国数字科技馆",
-      "sourceUrl": "https://www.cdstm.cn/videos/Tops/v600/art/2026/art_359ded6f0fd14a6c97a2b62070a2c6c5.html",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 6,
-      "heat": 78,
-      "date": "2026-08-16",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-digital-science-museum-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-08-16T03:29:27.704471+00:00",
-      "freshnessDays": null,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.cdstm.cn/videos/Tops/v600/art/2026/art_359ded6f0fd14a6c97a2b62070a2c6c5.html",
-      "videoPoster": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20267/786995ed6e7f47f59bc8fe78074fc263.png",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 70,
-      "videoDuration": "",
-      "videoExternalId": "",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
   "errors": [
     {
       "source": "Intergovernmental Panel on Climate Change",
-      "error": "连续 2 次请求失败（1047ms）：HTTP Error 403: Forbidden"
+      "error": "连续 2 次请求失败（843ms）：HTTP Error 403: Forbidden"
     }
   ],
   "collection": {
-    "id": "2026-08-16T09:45:56.180289+00:00",
-    "startedAt": "2026-08-16T09:45:26.736458+00:00",
-    "finishedAt": "2026-08-16T09:45:56.180289+00:00",
+    "id": "2026-08-16T10:59:03.002169+00:00",
+    "startedAt": "2026-08-16T10:58:42.253124+00:00",
+    "finishedAt": "2026-08-16T10:59:03.002169+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 35,
     "sourcesFailed": 1,
-    "fetched": 338,
+    "fetched": 337,
     "added": 231,
-    "duplicates": 65,
+    "duplicates": 64,
     "invalid": 2,
     "staleSkipped": 40,
     "maxSourceAgeDays": 45,
     "errors": [
       {
         "source": "Intergovernmental Panel on Climate Change",
-        "error": "连续 2 次请求失败（1047ms）：HTTP Error 403: Forbidden"
+        "error": "连续 2 次请求失败（843ms）：HTTP Error 403: Forbidden"
       }
     ],
     "sourceResults": [
@@ -4011,7 +4011,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1528,
+        "durationMs": 1446,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4021,7 +4021,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1406,
+        "durationMs": 1567,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4031,7 +4031,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2242,
+        "durationMs": 2580,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4041,7 +4041,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 492,
+        "durationMs": 430,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4051,7 +4051,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 927,
+        "durationMs": 1450,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4061,7 +4061,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1362,
+        "durationMs": 1372,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4071,7 +4071,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1006,
+        "durationMs": 1379,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4081,7 +4081,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1016,
+        "durationMs": 1571,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4091,7 +4091,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 706,
+        "durationMs": 826,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4101,17 +4101,17 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3677,
-        "fetched": 2,
+        "durationMs": 3510,
+        "fetched": 1,
         "added": 0,
-        "duplicates": 2
+        "duplicates": 1
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1319,
+        "durationMs": 1326,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4121,7 +4121,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4561,
+        "durationMs": 4346,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4131,7 +4131,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1408,
+        "durationMs": 1664,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4141,7 +4141,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1733,
+        "durationMs": 4940,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4151,7 +4151,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1042,
+        "durationMs": 1157,
         "fetched": 10,
         "added": 1,
         "duplicates": 6
@@ -4161,7 +4161,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 96,
+        "durationMs": 93,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4171,7 +4171,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 547,
+        "durationMs": 283,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4181,7 +4181,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 31,
+        "durationMs": 109,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4191,7 +4191,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 962,
+        "durationMs": 932,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4201,7 +4201,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 103,
+        "durationMs": 32,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4211,7 +4211,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 639,
+        "durationMs": 813,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4221,7 +4221,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 513,
+        "durationMs": 428,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4231,7 +4231,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 251,
+        "durationMs": 88,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4241,7 +4241,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 38,
+        "durationMs": 39,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4251,7 +4251,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 549,
+        "durationMs": 629,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4261,7 +4261,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 165,
+        "durationMs": 97,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4271,7 +4271,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 68,
+        "durationMs": 38,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4281,7 +4281,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 132,
+        "durationMs": 95,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4291,7 +4291,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 571,
+        "durationMs": 376,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4301,7 +4301,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 606,
+        "durationMs": 505,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4311,7 +4311,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 59,
+        "durationMs": 34,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4321,7 +4321,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 32,
+        "durationMs": 42,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4331,7 +4331,7 @@
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 487,
+        "durationMs": 364,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4341,7 +4341,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 305,
+        "durationMs": 667,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4351,18 +4351,18 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 1047,
+        "durationMs": 843,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（1047ms）：HTTP Error 403: Forbidden"
+        "error": "连续 2 次请求失败（843ms）：HTTP Error 403: Forbidden"
       },
       {
         "sourceId": "smithsonian-magazine",
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 208,
+        "durationMs": 182,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4371,11 +4371,11 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 15,
+      "科技": 14,
       "工业": 11,
       "能源": 13,
       "农业": 10,
-      "人文": 13
+      "人文": 14
     },
     "articleGeneration": {
       "requested": 32,
@@ -4384,7 +4384,7 @@
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
-      "videosPrepared": 4,
+      "videosPrepared": 5,
       "minimumCharacters": 800
     }
   }
