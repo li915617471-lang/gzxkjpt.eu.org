@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T10:59:03.002169+00:00",
+  "generatedAt": "2026-08-16T13:48:25.065139+00:00",
   "stories": [
     {
       "id": 1,
@@ -3790,7 +3790,9 @@
       "videoDuration": "00:28:41",
       "videoExternalId": "ad2f10da1ee24197bdfb9d3736be579b",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 134
+      "contentCharacterCount": 134,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 63,
@@ -3982,13 +3984,13 @@
   "errors": [
     {
       "source": "Intergovernmental Panel on Climate Change",
-      "error": "连续 2 次请求失败（843ms）：HTTP Error 403: Forbidden"
+      "error": "连续 2 次请求失败（1077ms）：HTTP Error 403: Forbidden"
     }
   ],
   "collection": {
-    "id": "2026-08-16T10:59:03.002169+00:00",
-    "startedAt": "2026-08-16T10:58:42.253124+00:00",
-    "finishedAt": "2026-08-16T10:59:03.002169+00:00",
+    "id": "2026-08-16T13:48:25.065139+00:00",
+    "startedAt": "2026-08-16T13:48:02.664524+00:00",
+    "finishedAt": "2026-08-16T13:48:25.065139+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 35,
@@ -4002,7 +4004,7 @@
     "errors": [
       {
         "source": "Intergovernmental Panel on Climate Change",
-        "error": "连续 2 次请求失败（843ms）：HTTP Error 403: Forbidden"
+        "error": "连续 2 次请求失败（1077ms）：HTTP Error 403: Forbidden"
       }
     ],
     "sourceResults": [
@@ -4011,7 +4013,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1446,
+        "durationMs": 1455,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4021,7 +4023,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1567,
+        "durationMs": 1149,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4031,7 +4033,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2580,
+        "durationMs": 2026,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4041,7 +4043,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 430,
+        "durationMs": 481,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4051,7 +4053,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1450,
+        "durationMs": 935,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4061,7 +4063,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1372,
+        "durationMs": 936,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4071,17 +4073,17 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1379,
+        "durationMs": 967,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-cctv-discovery-video",
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1571,
+        "durationMs": 951,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4091,7 +4093,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 826,
+        "durationMs": 707,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4101,7 +4103,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3510,
+        "durationMs": 3304,
         "fetched": 1,
         "added": 0,
         "duplicates": 1
@@ -4111,17 +4113,17 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1326,
+        "durationMs": 1148,
         "fetched": 6,
-        "added": 1,
-        "duplicates": 3
+        "added": 2,
+        "duplicates": 2
       },
       {
         "sourceId": "china-stats-releases",
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4346,
+        "durationMs": 7733,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4131,7 +4133,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1664,
+        "durationMs": 1826,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4141,7 +4143,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4940,
+        "durationMs": 5733,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4151,7 +4153,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1157,
+        "durationMs": 871,
         "fetched": 10,
         "added": 1,
         "duplicates": 6
@@ -4161,7 +4163,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 93,
+        "durationMs": 1492,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4171,7 +4173,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 283,
+        "durationMs": 256,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4181,7 +4183,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 109,
+        "durationMs": 132,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4191,7 +4193,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 932,
+        "durationMs": 1002,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4201,7 +4203,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 32,
+        "durationMs": 238,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4211,7 +4213,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 813,
+        "durationMs": 1065,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4221,7 +4223,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 428,
+        "durationMs": 723,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4231,7 +4233,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 88,
+        "durationMs": 189,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4241,7 +4243,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 39,
+        "durationMs": 107,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4251,7 +4253,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 629,
+        "durationMs": 600,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4261,7 +4263,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 97,
+        "durationMs": 166,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4271,7 +4273,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 38,
+        "durationMs": 96,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4281,7 +4283,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 95,
+        "durationMs": 114,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4291,7 +4293,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 376,
+        "durationMs": 604,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4301,7 +4303,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 505,
+        "durationMs": 263,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4311,7 +4313,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 34,
+        "durationMs": 177,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4321,7 +4323,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 42,
+        "durationMs": 137,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4331,7 +4333,7 @@
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 364,
+        "durationMs": 579,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4341,7 +4343,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 667,
+        "durationMs": 440,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4351,18 +4353,18 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 843,
+        "durationMs": 1077,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（843ms）：HTTP Error 403: Forbidden"
+        "error": "连续 2 次请求失败（1077ms）：HTTP Error 403: Forbidden"
       },
       {
         "sourceId": "smithsonian-magazine",
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 182,
+        "durationMs": 200,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
