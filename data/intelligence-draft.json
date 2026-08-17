@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T19:45:25.102612+00:00",
+  "generatedAt": "2026-08-17T21:13:17.627266+00:00",
   "stories": [
     {
       "id": 1,
@@ -2642,16 +2642,16 @@
     {
       "id": 86,
       "category": "科技",
-      "categoryEvidenceScore": 2,
+      "categoryEvidenceScore": 3,
       "categoryScores": {
         "金融": 0,
-        "科技": 5,
+        "科技": 6,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 5,
+      "categoryClassificationMargin": 6,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "科技前沿观察：弗洛克的防御者缺少什么",
       "excerpt": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。Flock是一家以其在美国各地拥有约12万个自动车牌阅读器的网络而闻名的警察科技巨头，上周四宣布对其平台进行了一些更改。 这些更新是为了防止……随着城市重新考虑这项技术，值得一问的是，该公司的设计选择如何在解决犯罪和保护公民自由之间形成了权衡。技术是否产生行业影响…",
@@ -2685,7 +2685,7 @@
       "collectedAt": "2026-08-17T19:45:24.329978+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent… As cities reconsider the technology, it’s worth asking how the company’s design choices have shaped the trade-off between solving crimes and protecting civil liberties.",
+      "sourceMaterial": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent… As cities reconsider the technology, it’s worth asking how the company’s design choices have shaped the trade-off between solving crimes and protecting civil liberties. As cities reconsider the technology, it’s worth asking how the company’s design choices have shaped the trade-off between solving crimes and protecting civil liberties.",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "弗洛克的防御者缺少什么",
       "translatedSourceMaterial": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。Flock是一家以其在美国各地拥有约12万个自动车牌阅读器的网络而闻名的警察科技巨头，上周四宣布对其平台进行了一些更改。 这些更新是为了防止……随着城市重新考虑这项技术，值得一问的是，该公司的设计选择如何在解决犯罪和保护公民自由之间形成了权衡。",
@@ -2854,7 +2854,7 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 221,
+      "id": 232,
       "category": "人文",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -2867,17 +2867,17 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "人文前沿观察：动物是什么时候开始分娩的？这块有2.36亿年历史的化石可能会改写哺乳动物的进化史",
-      "excerpt": "在哺乳动物祖先身上发现的一个骨骼特征暗示，这种生物作为新生儿相对较大，更符合活生生的生物的大小，而不是从卵中孵化出来的。尽管如此，它只提供了间接的证据人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
-      "body": "核心进展 在哺乳动物祖先身上发现的一个骨骼特征暗示，这种生物作为新生儿相对较大，更符合活生生的生物的大小，而不是从卵中孵化出来的。尽管如此，它只提供了间接的证据。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://th-thumbnailer.cdn-si-edu.com/VnC0lO0l5vFx4xdYNUiH2_Ttk44=/420x240/filters:focal(960x677:961x678)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/aa/5c/aa5cdffc-5bdb-4949-bd7c-03e89903fd60/life_reconstruction_hd.jpg",
+      "title": "人文前沿观察：当西西里人涌向宗教节日时，盗贼闯入附近的博物馆，偷走了四幅文艺复兴时期的画作",
+      "excerpt": "失踪的作品包括安东内罗·达·梅西纳（ Antonello da Messina ）的15世纪祭坛画的三幅面板，以及艺术家的双面灵修画人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
+      "body": "核心进展\n\n失踪的作品包括安东内罗·达·梅西纳（ Antonello da Messina ）的15世纪祭坛画的三幅面板，以及艺术家的双面灵修画。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://th-thumbnailer.cdn-si-edu.com/rfQ3h2bInGIPDsx7i7hqaVvBFKc=/420x240/filters:focal(250x250:251x251)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/9c/b7/9cb78ba5-d000-4b81-a070-c135b637cf15/stolen-paintings.png",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "Smithsonian Magazine",
-      "originalTitle": "When Did Animals Start Giving Birth to Live Young? This 236-Million-Year-Old Fossil Might Rewrite Mammals' Evolutionary History",
-      "originalExcerpt": "A bone feature found in a mammal ancestor hints that the creature was relatively large as a newborn, more in line with the size of a creature birthed live than hatched from an egg. Still, it provides only indirect evidence",
+      "originalTitle": "As Sicilians Flocked to a Religious Festival, Thieves Broke Into a Nearby Museum and Stole Four Renaissance Paintings",
+      "originalExcerpt": "The missing works include three panels from a 15th-century altarpiece by Antonello da Messina, as well as a two-sided devotional painting by the artist",
       "source": "Smithsonian Magazine",
-      "sourceUrl": "https://www.smithsonianmag.com/smart-news/when-did-animals-start-giving-birth-to-live-young-this-236-million-year-old-fossil-might-rewrite-mammals-evolutionary-history-180989343/",
+      "sourceUrl": "https://www.smithsonianmag.com/smart-news/as-sicilians-flocked-to-religious-festival-thieves-broke-into-nearby-museum-stole-four-renaissance-paintings-180989352/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -2894,20 +2894,20 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Mon, 17 Aug 2026 16:23:49 +0000",
-      "sourcePublishedAt": "2026-08-17T16:23:49+00:00",
-      "collectedAt": "2026-08-17T17:49:19.071345+00:00",
+      "originalPublishedAt": "Mon, 17 Aug 2026 19:36:01 +0000",
+      "sourcePublishedAt": "2026-08-17T19:36:01+00:00",
+      "collectedAt": "2026-08-17T21:13:17.607221+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "A bone feature found in a mammal ancestor hints that the creature was relatively large as a newborn, more in line with the size of a creature birthed live than hatched from an egg. Still, it provides only indirect evidence",
+      "sourceMaterial": "The missing works include three panels from a 15th-century altarpiece by Antonello da Messina, as well as a two-sided devotional painting by the artist",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "动物是什么时候开始分娩的？这块有2.36亿年历史的化石可能会改写哺乳动物的进化史",
-      "translatedSourceMaterial": "在哺乳动物祖先身上发现的一个骨骼特征暗示，这种生物作为新生儿相对较大，更符合活生生的生物的大小，而不是从卵中孵化出来的。尽管如此，它只提供了间接的证据",
+      "translatedSourceTitle": "当西西里人涌向宗教节日时，盗贼闯入附近的博物馆，偷走了四幅文艺复兴时期的画作",
+      "translatedSourceMaterial": "失踪的作品包括安东内罗·达·梅西纳（ Antonello da Messina ）的15世纪祭坛画的三幅面板，以及艺术家的双面灵修画",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 894
+      "contentCharacterCount": 881
     },
     {
       "id": 187,
@@ -2963,20 +2963,20 @@
     {
       "id": 96,
       "category": "科技",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 5,
       "categoryScores": {
         "金融": 0,
-        "科技": 9,
+        "科技": 8,
         "工业": 1,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 8,
+      "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "科技前沿观察：IEEE会长奖学金表彰青少年创新者",
       "excerpt": "根据世界卫生组织的数据，全球约有16%的人口（超过10亿人）患有某种形式的残疾。许多残疾会影响独立性和行动能力。三名高中生致力于帮助残疾人恢复运动、转化思想和驾驭崎岖地形的发明，他们的作品在Regeneron的国际科学和 工程博览会（ ISEF ）于5月在凤凰城举行。他们的项目为他们赢得了今年的IEEE总统奖学金。IEEE总裁玛丽·艾伦·兰德尔（ Mary…",
-      "body": "核心进展\n\n根据世界卫生组织的数据，全球约有16%的人口（超过10亿人）患有某种形式的残疾。许多残疾会影响独立性和行动能力。三名高中生致力于帮助残疾人恢复运动、转化思想和驾驭崎岖地形的发明，他们的作品在Regeneron的国际科学和 工程博览会（ ISEF ）于5月在凤凰城举行。他们的项目为他们赢得了今年的IEEE总统奖学金。IEEE总裁玛丽·艾伦·兰德尔（ Mary Ellen Randall ）在展会期间举行的颁奖典礼上颁发了他们还收到了IEEE会长的硬币，学生们说这是他们经历的亮点。 Hollie Tang凭借她的轮椅导航系统赢得了今年的IEEE总统奖学金，奖金为10,000 $。该奖项适用于四年的大学本科学习，包括免费的IEEE学生会员资格。第二名的Partap Sidhum因其精神控制的下肢外骨骼获得了600 $的奖学金。 第三名的Calvin Shang Hung因其崎岖不平的机器人获得了400 $的奖学金。Sidhum和Hung还获得了免费的IEEE学生会员资格。总统奖学金由IEEE基金会设立，由IEEE教育活动管理，旨在表彰在电气工程、计算机科学或其他IEEE领域表现出色的高中生……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 根据世界卫生组织的数据，全球约有16%的人口（超过10亿人）患有某种形式的残疾。许多残疾会影响独立性和行动能力。三名高中生致力于帮助残疾人恢复运动、转化思想和驾驭崎岖地形的发明，他们的作品在Regeneron的国际科学和 工程博览会（ ISEF ）于5月在凤凰城举行。他们的项目为他们赢得了今年的IEEE总统奖学金。IEEE总裁玛丽·艾伦·兰德尔（ Mary Ellen Randall ）在展会期间举行的颁奖典礼上颁发了他们还收到了IEEE会长的硬币，学生们说这是他们经历的亮点。 Hollie Tang凭借她的轮椅导航系统赢得了今年的IEEE总统奖学金，奖金为10,000 $。该奖项适用于四年的大学本科学习，包括免费的IEEE学生会员资格。第二名的Partap Sidhum因其精神控制的下肢外骨骼获得了600 $的奖学金。 第三名的Calvin Shang Hung因其崎岖不平的机器人获得了400 $的奖学金。Sidhum和Hung还获得了免费的IEEE学生会员资格。总统奖学金由IEEE基金会设立，由IEEE教育活动管理，旨在表彰在电气工程、计算机科学或其他IEEE领域表现出色的高中生……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。 关键内容 理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://spectrum.ieee.org/media-library/three-high-school-students-posing-with-their-individual-award-plaques-next-to-a-middle-aged-white-woman.jpg?id=67634200&width=980",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3177,34 +3177,34 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 136,
+      "id": 221,
       "category": "人文",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 3,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 8
+        "人文": 7
       },
-      "categoryClassificationMargin": 8,
+      "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "人文前沿观察：阿姆斯特丹国立博物馆已将84万件艺术品数字化，其中包括伦勃朗和维米尔的伟大作品",
-      "excerpt": "对于那些在危机时期做出重大决定的人来说，艺术似乎是不必要的。但对于在瘟疫时代工作的艺术家来说，这似乎从未如此必要。因此， 366年前，伦勃朗在1660年为他的儿子提图斯画了一幅穿着僧侣长袍的肖像。八年后，泰特斯[…]对于那些在危机时期做出重大决定的人来说，艺术可能显得无关紧要。 但对于在瘟疫时代工作的艺术家来说，这似乎从未如此必要。因此， 366年前…",
-      "body": "核心进展 对于那些在危机时期做出重大决定的人来说，艺术似乎是不必要的。但对于在瘟疫时代工作的艺术家来说，这似乎从未如此必要。因此， 366年前，伦勃朗在1660年为他的儿子提图斯画了一幅穿着僧侣长袍的肖像。八年后，泰特斯[…]对于那些在危机时期做出重大决定的人来说，艺术可能显得无关紧要。 但对于在瘟疫时代工作的艺术家来说，这似乎从未如此必要。因此， 366年前，伦勃朗在1660年为他的儿子提图斯画了一幅穿着僧侣长袍的肖像。。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：开放文化资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://cdn8.openculture.com/2021/01/06081105/titus-scaled.jpg",
+      "title": "人文前沿观察：动物是什么时候开始分娩的？这块有2.36亿年历史的化石可能会改写哺乳动物的进化史",
+      "excerpt": "在哺乳动物祖先身上发现的一个骨骼特征暗示，这种生物作为新生儿相对较大，更符合活生生的生物的大小，而不是从卵中孵化出来的。尽管如此，它只提供了间接的证据人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
+      "body": "核心进展 在哺乳动物祖先身上发现的一个骨骼特征暗示，这种生物作为新生儿相对较大，更符合活生生的生物的大小，而不是从卵中孵化出来的。尽管如此，它只提供了间接的证据。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://th-thumbnailer.cdn-si-edu.com/VnC0lO0l5vFx4xdYNUiH2_Ttk44=/420x240/filters:focal(960x677:961x678)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/aa/5c/aa5cdffc-5bdb-4949-bd7c-03e89903fd60/life_reconstruction_hd.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "Open Culture",
-      "originalTitle": "The Rijksmuseum in Amsterdam Has Digitized 840,000 Works of Art, Including Great Works by Rembrandt and Vermeer",
-      "originalExcerpt": "Art may seem inessential to those who make the big decisions in times of crisis. But it never seemed more necessary to artists working in the time of plague. So it was 366 years ago when Rembrandt painted a portrait of his son, Titus, in a monk’s robe in 1660. Eight years later, Titus was […]",
-      "source": "Open Culture",
-      "sourceUrl": "https://www.openculture.com/2026/08/the-rijksmuseum-in-amsterdam-has-digitized-818000-works-of-art.html",
+      "imageAttribution": "Smithsonian Magazine",
+      "originalTitle": "When Did Animals Start Giving Birth to Live Young? This 236-Million-Year-Old Fossil Might Rewrite Mammals' Evolutionary History",
+      "originalExcerpt": "A bone feature found in a mammal ancestor hints that the creature was relatively large as a newborn, more in line with the size of a creature birthed live than hatched from an egg. Still, it provides only indirect evidence",
+      "source": "Smithsonian Magazine",
+      "sourceUrl": "https://www.smithsonianmag.com/smart-news/when-did-animals-start-giving-birth-to-live-young-this-236-million-year-old-fossil-might-rewrite-mammals-evolutionary-history-180989343/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 78,
+      "confidence": 89,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -3212,25 +3212,25 @@
       "tags": [
         "人文"
       ],
-      "status": "draft",
-      "collectionSourceId": "open-culture",
-      "sourceType": "professional",
+      "status": "review",
+      "collectionSourceId": "smithsonian-magazine",
+      "sourceType": "research",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "standard",
-      "originalPublishedAt": "Mon, 17 Aug 2026 08:00:01 +0000",
-      "sourcePublishedAt": "2026-08-17T08:00:01+00:00",
-      "collectedAt": "2026-08-17T08:26:14.745370+00:00",
+      "sourceTrustLevel": "professional",
+      "originalPublishedAt": "Mon, 17 Aug 2026 16:23:49 +0000",
+      "sourcePublishedAt": "2026-08-17T16:23:49+00:00",
+      "collectedAt": "2026-08-17T17:49:19.071345+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Art may seem inessential to those who make the big decisions in times of crisis. But it never seemed more necessary to artists working in the time of plague. So it was 366 years ago when Rembrandt painted a portrait of his son, Titus, in a monk’s robe in 1660. Eight years later, Titus was […] Art may seem inessential to those who make the big decisions in times of crisis. But it never seemed more necessary to artists working in the time of plague. So it was 366 years ago when Rembrandt painted a portrait of his son, Titus, in a monk's robe in 1660.",
+      "sourceMaterial": "A bone feature found in a mammal ancestor hints that the creature was relatively large as a newborn, more in line with the size of a creature birthed live than hatched from an egg. Still, it provides only indirect evidence",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "阿姆斯特丹国立博物馆已将84万件艺术品数字化，其中包括伦勃朗和维米尔的伟大作品",
-      "translatedSourceMaterial": "对于那些在危机时期做出重大决定的人来说，艺术似乎是不必要的。但对于在瘟疫时代工作的艺术家来说，这似乎从未如此必要。因此， 366年前，伦勃朗在1660年为他的儿子提图斯画了一幅穿着僧侣长袍的肖像。八年后，泰特斯[…]对于那些在危机时期做出重大决定的人来说，艺术可能显得无关紧要。 但对于在瘟疫时代工作的艺术家来说，这似乎从未如此必要。因此， 366年前，伦勃朗在1660年为他的儿子提图斯画了一幅穿着僧侣长袍的肖像。",
+      "translatedSourceTitle": "动物是什么时候开始分娩的？这块有2.36亿年历史的化石可能会改写哺乳动物的进化史",
+      "translatedSourceMaterial": "在哺乳动物祖先身上发现的一个骨骼特征暗示，这种生物作为新生儿相对较大，更符合活生生的生物的大小，而不是从卵中孵化出来的。尽管如此，它只提供了间接的证据",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1010
+      "contentCharacterCount": 894
     },
     {
       "id": 72,
@@ -3987,9 +3987,9 @@
   ],
   "errors": [],
   "collection": {
-    "id": "2026-08-17T19:45:25.102612+00:00",
-    "startedAt": "2026-08-17T19:45:10.495060+00:00",
-    "finishedAt": "2026-08-17T19:45:25.102612+00:00",
+    "id": "2026-08-17T21:13:17.627266+00:00",
+    "startedAt": "2026-08-17T21:13:03.326788+00:00",
+    "finishedAt": "2026-08-17T21:13:17.627266+00:00",
     "status": "success",
     "sourcesTotal": 36,
     "sourcesSucceeded": 36,
@@ -4007,7 +4007,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1332,
+        "durationMs": 1108,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4017,7 +4017,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1156,
+        "durationMs": 1657,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4027,7 +4027,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1523,
+        "durationMs": 1762,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4037,7 +4037,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 705,
+        "durationMs": 765,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4047,7 +4047,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 709,
+        "durationMs": 879,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4057,7 +4057,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 767,
+        "durationMs": 757,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4067,7 +4067,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 675,
+        "durationMs": 859,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4077,7 +4077,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 719,
+        "durationMs": 941,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4087,7 +4087,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 667,
+        "durationMs": 547,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4097,7 +4097,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2975,
+        "durationMs": 3078,
         "fetched": 3,
         "added": 3,
         "duplicates": 0
@@ -4107,7 +4107,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 847,
+        "durationMs": 1028,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4117,7 +4117,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4158,
+        "durationMs": 3727,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4127,7 +4127,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1430,
+        "durationMs": 1572,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4137,7 +4137,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2061,
+        "durationMs": 1486,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4147,7 +4147,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 714,
+        "durationMs": 825,
         "fetched": 10,
         "added": 1,
         "duplicates": 5
@@ -4157,17 +4157,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 82,
+        "durationMs": 64,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 529,
+        "durationMs": 238,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4177,7 +4177,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 84,
+        "durationMs": 161,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4187,7 +4187,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 874,
+        "durationMs": 883,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4197,7 +4197,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 198,
+        "durationMs": 262,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4207,7 +4207,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1449,
+        "durationMs": 887,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4217,7 +4217,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 878,
+        "durationMs": 873,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4227,7 +4227,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 152,
+        "durationMs": 153,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4237,7 +4237,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 51,
+        "durationMs": 134,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4247,7 +4247,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 773,
+        "durationMs": 1805,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4257,17 +4257,17 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 48,
+        "durationMs": 144,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "us-national-institute-standards-technology",
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 63,
+        "durationMs": 79,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4277,7 +4277,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 25,
+        "durationMs": 111,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4287,7 +4287,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 930,
+        "durationMs": 746,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4297,7 +4297,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 474,
+        "durationMs": 585,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4307,7 +4307,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1172,
+        "durationMs": 105,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4317,7 +4317,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 160,
+        "durationMs": 140,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4327,7 +4327,7 @@
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 770,
+        "durationMs": 783,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4337,7 +4337,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 723,
+        "durationMs": 158,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4347,7 +4347,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1270,
+        "durationMs": 1350,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4357,7 +4357,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 55,
+        "durationMs": 104,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4375,7 +4375,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
