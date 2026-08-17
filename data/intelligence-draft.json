@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T17:49:19.100476+00:00",
+  "generatedAt": "2026-08-17T19:45:25.102612+00:00",
   "stories": [
     {
       "id": 1,
@@ -2640,34 +2640,34 @@
       "contentCharacterCount": 1107
     },
     {
-      "id": 168,
+      "id": 86,
       "category": "科技",
-      "categoryEvidenceScore": 5,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
-        "科技": 9,
+        "科技": 5,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 9,
+      "categoryClassificationMargin": 5,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：NSF宣布投入15亿美元用于基础研究，以推动美国技术领先地位的科学突破",
-      "excerpt": "美国国家科学基金会今天发布了12项新的资助机会通知（ NOFO ） ，为基础研究提供了超过15亿美元（ $ ）的资金，包括基础研究和基于用途的研究...技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。",
-      "body": "核心进展\n\n美国国家科学基金会今天发布了12项新的资助机会通知（ NOFO ） ，为基础研究提供了超过15亿美元（ $ ）的资金，包括基础研究和基于用途的研究...。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家科学基金会公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.nsf.gov/themes/custom/nsf_theme/logo-200x200.png",
+      "title": "科技前沿观察：弗洛克的防御者缺少什么",
+      "excerpt": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。Flock是一家以其在美国各地拥有约12万个自动车牌阅读器的网络而闻名的警察科技巨头，上周四宣布对其平台进行了一些更改。 这些更新是为了防止……随着城市重新考虑这项技术，值得一问的是，该公司的设计选择如何在解决犯罪和保护公民自由之间形成了权衡。技术是否产生行业影响…",
+      "body": "核心进展\n\n这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。Flock是一家以其在美国各地拥有约12万个自动车牌阅读器的网络而闻名的警察科技巨头，上周四宣布对其平台进行了一些更改。 这些更新是为了防止……随着城市重新考虑这项技术，值得一问的是，该公司的设计选择如何在解决犯罪和保护公民自由之间形成了权衡。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：麻省理工科技评论公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/AP26153043646326.jpg?resize=1200,600",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "source-page",
-      "imageAttribution": "U.S. National Science Foundation",
-      "originalTitle": "NSF announces $1.5B for foundational research to drive scientific breakthroughs for American technological leadership",
-      "originalExcerpt": "The U.S. National Science Foundation today released 12 new notices of funding opportunities (NOFOs) providing over $1.5 billion for foundational research, including basic and use-inspired inquiry...",
-      "source": "U.S. National Science Foundation",
-      "sourceUrl": "https://www.nsf.gov/news/nsf-announces-15b-foundational-research-drive-scientific",
+      "imageAttribution": "MIT Technology Review",
+      "originalTitle": "What Flock’s defenders are missing",
+      "originalExcerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent…",
+      "source": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 94,
+      "confidence": 88,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -2676,24 +2676,24 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "us-national-science-foundation",
-      "sourceType": "research",
-      "sourceRegion": "北美",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Mon, 17 Aug 2026 11:00:07 -0400",
-      "sourcePublishedAt": "2026-08-17T15:00:07+00:00",
-      "collectedAt": "2026-08-17T17:49:18.844634+00:00",
+      "collectionSourceId": "mit-technology-review",
+      "sourceType": "professional",
+      "sourceRegion": "全球",
+      "sourceTrustLevel": "professional",
+      "originalPublishedAt": "Mon, 17 Aug 2026 19:16:09 +0000",
+      "sourcePublishedAt": "2026-08-17T19:16:09+00:00",
+      "collectedAt": "2026-08-17T19:45:24.329978+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "The U.S. National Science Foundation today released 12 new notices of funding opportunities (NOFOs) providing over $1.5 billion for foundational research, including basic and use-inspired inquiry...",
+      "sourceMaterial": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent… As cities reconsider the technology, it’s worth asking how the company’s design choices have shaped the trade-off between solving crimes and protecting civil liberties.",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "NSF宣布投入15亿美元用于基础研究，以推动美国技术领先地位的科学突破",
-      "translatedSourceMaterial": "美国国家科学基金会今天发布了12项新的资助机会通知（ NOFO ） ，为基础研究提供了超过15亿美元（ $ ）的资金，包括基础研究和基于用途的研究...",
+      "translatedSourceTitle": "弗洛克的防御者缺少什么",
+      "translatedSourceMaterial": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。Flock是一家以其在美国各地拥有约12万个自动车牌阅读器的网络而闻名的警察科技巨头，上周四宣布对其平台进行了一些更改。 这些更新是为了防止……随着城市重新考虑这项技术，值得一问的是，该公司的设计选择如何在解决犯罪和保护公民自由之间形成了权衡。",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 905
+      "contentCharacterCount": 999
     },
     {
       "id": 106,
@@ -2869,7 +2869,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "人文前沿观察：动物是什么时候开始分娩的？这块有2.36亿年历史的化石可能会改写哺乳动物的进化史",
       "excerpt": "在哺乳动物祖先身上发现的一个骨骼特征暗示，这种生物作为新生儿相对较大，更符合活生生的生物的大小，而不是从卵中孵化出来的。尽管如此，它只提供了间接的证据人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
-      "body": "核心进展\n\n在哺乳动物祖先身上发现的一个骨骼特征暗示，这种生物作为新生儿相对较大，更符合活生生的生物的大小，而不是从卵中孵化出来的。尽管如此，它只提供了间接的证据。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 在哺乳动物祖先身上发现的一个骨骼特征暗示，这种生物作为新生儿相对较大，更符合活生生的生物的大小，而不是从卵中孵化出来的。尽管如此，它只提供了间接的证据。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/VnC0lO0l5vFx4xdYNUiH2_Ttk44=/420x240/filters:focal(960x677:961x678)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/aa/5c/aa5cdffc-5bdb-4949-bd7c-03e89903fd60/life_reconstruction_hd.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2961,30 +2961,30 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 95,
+      "id": 96,
       "category": "科技",
       "categoryEvidenceScore": 6,
       "categoryScores": {
         "金融": 0,
-        "科技": 10,
-        "工业": 3,
+        "科技": 9,
+        "工业": 1,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：从人工智能副驾驶到特工群体",
-      "excerpt": "人工智能对软件开发的影响既深刻又不断发展。去年，我写了一篇关于AMD计划使用人工智能不仅用于生成新的代码行，而且还用于软件开发生命周期（ SDLC ）中的其他步骤，例如分类问题，调试代码和测试软件。 当时，我们希望在两三年内通过使用人工智能将生产力提高25 ％。但是，随着每个新版本的发布，大型语言模型（ LLM ）的功能都得到了显着改善--加速了软件开发…",
-      "body": "核心进展 人工智能对软件开发的影响既深刻又不断发展。去年，我写了一篇关于AMD计划使用人工智能不仅用于生成新的代码行，而且还用于软件开发生命周期（ SDLC ）中的其他步骤，例如分类问题，调试代码和测试软件。 当时，我们希望在两三年内通过使用人工智能将生产力提高25 ％。但是，随着每个新版本的发布，大型语言模型（ LLM ）的功能都得到了显着改善--加速了软件开发，提高了AI生成代码的质量，并从根本上重塑了软件的工程设计方式。 现在，仅仅一年之后，我们就超额完成了生产力目标，通过人工智能实现了30%的整体生产力提升。最重要的是，我们不仅要重新考虑如何在SDLC中使用AI ，还要重新考虑SDLC本身的结构。我们认为，软件工程领域最大的人工智能革命仍在前方。 到目前为止，我们主要是教人工智能如何执行任务，并要求它模仿现有的工作流程。在许多方面，这使人工智能受限于人类的思维模式。下一个转变将来自能够独立发现解决方案的协作人工智能代理。今天的AMD代理商于2024年开始开发用于代码生成、测试自动化、缺陷分析和代码审查的人工智能系统。 当时，我们的目标是到2027年实现25%的人工智能生成生产代码，同时……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。 关键内容 理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://spectrum.ieee.org/media-library/colorful-3d-blocks-piled-behind-glass-panels-displaying-white-code-snippets.jpg?id=67609515&width=980",
+      "title": "科技前沿观察：IEEE会长奖学金表彰青少年创新者",
+      "excerpt": "根据世界卫生组织的数据，全球约有16%的人口（超过10亿人）患有某种形式的残疾。许多残疾会影响独立性和行动能力。三名高中生致力于帮助残疾人恢复运动、转化思想和驾驭崎岖地形的发明，他们的作品在Regeneron的国际科学和 工程博览会（ ISEF ）于5月在凤凰城举行。他们的项目为他们赢得了今年的IEEE总统奖学金。IEEE总裁玛丽·艾伦·兰德尔（ Mary…",
+      "body": "核心进展\n\n根据世界卫生组织的数据，全球约有16%的人口（超过10亿人）患有某种形式的残疾。许多残疾会影响独立性和行动能力。三名高中生致力于帮助残疾人恢复运动、转化思想和驾驭崎岖地形的发明，他们的作品在Regeneron的国际科学和 工程博览会（ ISEF ）于5月在凤凰城举行。他们的项目为他们赢得了今年的IEEE总统奖学金。IEEE总裁玛丽·艾伦·兰德尔（ Mary Ellen Randall ）在展会期间举行的颁奖典礼上颁发了他们还收到了IEEE会长的硬币，学生们说这是他们经历的亮点。 Hollie Tang凭借她的轮椅导航系统赢得了今年的IEEE总统奖学金，奖金为10,000 $。该奖项适用于四年的大学本科学习，包括免费的IEEE学生会员资格。第二名的Partap Sidhum因其精神控制的下肢外骨骼获得了600 $的奖学金。 第三名的Calvin Shang Hung因其崎岖不平的机器人获得了400 $的奖学金。Sidhum和Hung还获得了免费的IEEE学生会员资格。总统奖学金由IEEE基金会设立，由IEEE教育活动管理，旨在表彰在电气工程、计算机科学或其他IEEE领域表现出色的高中生……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://spectrum.ieee.org/media-library/three-high-school-students-posing-with-their-individual-award-plaques-next-to-a-middle-aged-white-woman.jpg?id=67634200&width=980",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "IEEE Spectrum",
-      "originalTitle": "From AI Copilots to Agent Swarms",
-      "originalExcerpt": "The impact of AI on software development has been both profound and ever-evolving. Last year, I wrote about AMD’s plans to use AI not just for generating new lines of code, but also for other steps in the software development lifecycle (SDLC), such as triaging problems, debugging code, and testing the software. At the time, we were hoping for a 25 percent productivity boost from AI use over the course of two or three years. But with each new release, the capabilities of Large Language Models (LLMs) improve dramatically—accelerating software development, increasing the quality of AI-generated code, and fundamentally reshaping how software is engineered. Now, just one year later, we have surpassed our productivity target, achieving a 30 percent overall productivity boost through AI. On top of that, we are rethinking not only how we use AI within the SDLC, but the structure of the SDLC itself. We believe that the biggest AI revolution in software engineering is still ahead. So far, we have largely been teaching AI how we perform tasks and asking it to mimic existing workflows. In many ways, this constrains AI to human patterns of thinking. The next transformation will come from collaborative swarms of AI agents capable of discovering solutions independently. Agents of today AMD began developing AI systems for code generation, testing automation, bug analysis, and code review in 2024. At the time, our objective was to achieve 25 percent AI-generated production code by 2027 while gradually automating larger portions of the SDLC. Measuring productivity is inherently challenging , but from the outset we have consistently tracked one objective metric: the percentage of source code generated by AI. Importantly, we count only code that passes all reviews and testing and is ultimately included in the final product. While AI-generated code is certainly not the only contributor to productivity gains, it is one of the few metrics that can be measured objectively and consistently.…",
+      "originalTitle": "IEEE Presidents’ Scholarship Honors Teen Innovators",
+      "originalExcerpt": "About 16 percent of the global population—more than 1 billion people—live with some form of disability, according to the World Health Organization . Many of the disabilities affect independence and mobility. Three high school students working on inventions to help people with disabilities restore movement, translate thoughts, and navigate rough terrain had their work showcased at Regeneron’s International Science and Engineering Fair (ISEF) , held in May in Phoenix. Their projects earned them this year’s IEEE Presidents’ Scholarship awards. IEEE President Mary Ellen Randall presented the awards at a ceremony held during the fair. They also received an IEEE President’s coin, which students said was a highlight of their experience. Hollie Tang won this year’s IEEE Presidents’ Scholarship of US $10,000 for her wheelchair navigation system . The award is payable over four years of undergraduate university study and includes a complimentary IEEE student membership. Partap Sidhum , the second-place winner, received a $600 scholarship for his mind-controlled lower-limb exoskeleton. Third-place winner Calvin Shang Hung received a $400 scholarship for his rough-terrain robot. Sidhum and Hung also got complimentary IEEE student memberships. Established by the IEEE Foundation and administered by IEEE Educational Activities , the Presidents’ Scholarship recognizes high school students who demonstrate an exceptional grasp of electrical engineering, computer science, or another IEEE field of interest. Controlling movements with a tongue Holly Tang won the 2026 IEEE Presidents’ Scholarship of US $10,000 for her Tonguage project, which is a noninvasive, computer-vision-based human-machine interface. Lynn Bowlby Tang, a sophomore at Wilson High School in Hacienda Heights, Calif., secured the top prize for her Tonguage project: a noninvasive, computer-vision-based human-machine interface. Using tongue movements and a standard camera, the interface lets users control a computer and…",
       "source": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/amd-agent-swarms",
+      "sourceUrl": "https://spectrum.ieee.org/ieee-presidents-scholarship-2026",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -3001,20 +3001,20 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Mon, 17 Aug 2026 14:00:01 +0000",
-      "sourcePublishedAt": "2026-08-17T14:00:01+00:00",
-      "collectedAt": "2026-08-17T15:13:07.719826+00:00",
+      "originalPublishedAt": "Mon, 17 Aug 2026 18:00:04 +0000",
+      "sourcePublishedAt": "2026-08-17T18:00:04+00:00",
+      "collectedAt": "2026-08-17T19:45:24.402021+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "The impact of AI on software development has been both profound and ever-evolving. Last year, I wrote about AMD’s plans to use AI not just for generating new lines of code, but also for other steps in the software development lifecycle (SDLC), such as triaging problems, debugging code, and testing the software. At the time, we were hoping for a 25 percent productivity boost from AI use over the course of two or three years. But with each new release, the capabilities of Large Language Models (LLMs) improve dramatically—accelerating software development, increasing the quality of AI-generated code, and fundamentally reshaping how software is engineered. Now, just one year later, we have surpassed our productivity target, achieving a 30 percent overall productivity boost through AI. On top of that, we are rethinking not only how we use AI within the SDLC, but the structure of the SDLC itself. We believe that the biggest AI revolution in software engineering is still ahead. So far, we have largely been teaching AI how we perform tasks and asking it to mimic existing workflows. In many ways, this constrains AI to human patterns of thinking. The next transformation will come from collaborative swarms of AI agents capable of discovering solutions independently. Agents of today AMD began developing AI systems for code generation, testing automation, bug analysis, and code review in 2024. At the time, our objective was to achieve 25 percent AI-generated production code by 2027 while gradually automating larger portions of the SDLC. Measuring productivity is inherently challenging , but from the outset we have consistently tracked one objective metric: the percentage of source code generated by AI. Importantly, we count only code that passes all reviews and testing and is ultimately included in the final product. While AI-generated code is certainly not the only contributor to productivity gains, it is one of the few metrics that can be measured objectively and consistently. By this metric, we have crossed the 20 percent mark at the beginning of this year and are now progressing toward 50 percent across entire codebase. In some software components, more than 80 percent of the code is now generated using AI. Agentic AI has enabled us to include AI in every step of the lifecycle: For code analysis and triage , agents are trained to analyze problem reports, identify and group similar requests, and highlight which code snippets are likely to need modification. For debugging and code generation , agents are directed to analyze a bug request and implement required code changes. For testing , the agents generate unit tests, and if those are passed, identify necessary integration and product-level tests. And finally, for the approval and release stage, agents prepare architecture summary, code change review and full test results for engineers’ review and approval and if approved, integrate the changes into the next release. Agents of tomorrow Today, engineers create AI agents in their own image: they teach AI what they know about the system, how they would fix an issue, and how they would implement a change. This is already a major technological advancement. Engineers can create multiple “AI versions” of themselves, allowing these agents to work in parallel, scaling their expertise far beyond the limits of individual productivity. The limitation, however, is that these AI agents are still constrained by human thinking and human-defined approaches. AMD We believe the next major transformation in software engineering will occur when collaborative AI agent swarms can independently identify and develop solutions, guided by humans on what to solve rather than constrained by human assumptions about how the job should be done. Instead of providing detailed instructions on how to solve a problem, engineers will define the issue, the desired outcome and the quality, performance, and system constraints allowing AI agents to determine the optimal path to a solution. A swarm of AI agents will then work in parallel to generate, evaluate, and refine multiple solution approaches. These agents will automatically validate correctness, measure performance, test trade-offs, and compare alternative implementations against defined success criteria. Finally, AI agents will prepare ranked solution options, along with validation results and performance metrics, for engineer review and approval. The agents won’t be enhancing each step of the SDLC—they will be rewriting the SLDC themselves. To get to this point, we need to change how agents are trained. Today, improvement occurs one engineer and one agent at a time: an engineer reviews the output, refines the prompt, and repeats the process. To scale beyond this model, agents must continuously learn from one another, reuse successful strategies, and improve collaboratively across projects and teams. We are already moving in this direction by using multi-agent workflows extensively through agentic harnesses, such as Codex and Claude Code, while simultaneously developing our own internal multi-agent systems to support the next generation of AI-driven software engineering. A good example is our AI-driven effort to resolve issues in our Radeon Software eXperience (RSX). RSX is a user interface component that allows users to configure and monitor graphics driver behavior. In October 2025, we began using AI agents to automatically debug and fix reported RSX issues. Out-of-the-box AI tools delivered limited results, resolving only 6% of issues. The percentage of software issues fixed automatically by AI agents in AMD’s Radeon Software eXperience (RSX) has been growing steadily, reaching 75 percent in June 2026. As we analyzed failures and identified ways to improve, we built a learning loop—initially a largely manual process—to understand where the agents were falling short and how to improve them. Rather than retraining the underlying models, we refined the objectives given to the…",
+      "sourceMaterial": "About 16 percent of the global population—more than 1 billion people—live with some form of disability, according to the World Health Organization . Many of the disabilities affect independence and mobility. Three high school students working on inventions to help people with disabilities restore movement, translate thoughts, and navigate rough terrain had their work showcased at Regeneron’s International Science and Engineering Fair (ISEF) , held in May in Phoenix. Their projects earned them this year’s IEEE Presidents’ Scholarship awards. IEEE President Mary Ellen Randall presented the awards at a ceremony held during the fair. They also received an IEEE President’s coin, which students said was a highlight of their experience. Hollie Tang won this year’s IEEE Presidents’ Scholarship of US $10,000 for her wheelchair navigation system . The award is payable over four years of undergraduate university study and includes a complimentary IEEE student membership. Partap Sidhum , the second-place winner, received a $600 scholarship for his mind-controlled lower-limb exoskeleton. Third-place winner Calvin Shang Hung received a $400 scholarship for his rough-terrain robot. Sidhum and Hung also got complimentary IEEE student memberships. Established by the IEEE Foundation and administered by IEEE Educational Activities , the Presidents’ Scholarship recognizes high school students who demonstrate an exceptional grasp of electrical engineering, computer science, or another IEEE field of interest. Controlling movements with a tongue Holly Tang won the 2026 IEEE Presidents’ Scholarship of US $10,000 for her Tonguage project, which is a noninvasive, computer-vision-based human-machine interface. Lynn Bowlby Tang, a sophomore at Wilson High School in Hacienda Heights, Calif., secured the top prize for her Tonguage project: a noninvasive, computer-vision-based human-machine interface. Using tongue movements and a standard camera, the interface lets users control a computer and other digital tools as well as assistive technologies including wheelchairs. The tongue pad, one of the system’s core features, allows the user’s tongue to function as a directional cursor, while eye blinks serve as mouse clicks. Tonguage translates the person’s tongue and eye motions into actionable commands in several ways, such as the tongue’s position inside the mouth and continuous movement patterns. The system’s multimodality combines input from the tongue with other facial cues. The system includes a face-tracking feature for error prevention that verifies commands are coming from the intended user, disregarding anyone else who moves into the camera’s frame. That is a critical safety measure for a wheelchair-navigation application, Tang says. Accessibility was central to Tang’s mission. She built the system to run on relatively affordable, readily available laptop cameras rather than more costly specialized hardware. “Mobility conditions don’t discriminate,” she says. “They can affect anyone of any income, gender, and socioeconomic status.” Tang initially imagined Tonguage as a simple substitute for a keyboard and mouse. The more research she did, though, the more she realized that it could offer autonomy through applications such as wheelchair navigation, robotic arm control, and gaming, she says. “We’re so focused on trying to give people autonomy over just basic human tasks that we often leave out things like gaming,” she says. “They deserve the freedom to play games and enjoy entertainment as well.” Tang, who plans to pursue biomedical engineering, says a visit to a rehabilitation center solidified her purpose. “Including empathy in your technological solution is so important,” she says. “Empathy is hard to teach in a classroom, but it can be learned through experience, and through actually meeting people whose lives your work might change.” Mind-controlled exoskeleton Sidhu, a junior at Bethpage High School , in New York, took second place for NeuroGait , a mind-controlled, lower-limb exoskeleton . He says he was inspired by his volunteer work at a community center that lacked elevators. He saw individuals with mobility issues struggle to navigate the three flights of stairs. NeuroGait operates by reading the Bereitschaftspotential (BP), a faint electrical pattern that emerges one to two seconds before a person consciously initiates movement. Using a custom electroencephalogram (EEG) headset and a convolutional neural network (CNN), the system classifies intended movements and sends commands to a 3D-printed exoskeleton. Rather than rigid motors, the suit relies on pneumatic artificial muscles that Sidhu designed to mimic human anatomy. “The pneumatic artificial muscle in itself is so compliant that it’s able to adjust to the limitations of the human body,” he says. The technical specifications are striking: The CNN achieves a 99.9 percent accuracy in detecting a person’s intended movement, while the full system—from the brain’s signal to physical movement—operates at 95.2 percent accuracy, according to the results from 500 trials Sidhu conducted. Perhaps most impressively, Sidhu built the entire system for about $276, less than 1 percent of the $40,000 to $100,000 price tag of commercial exoskeletons, according to a 2025 revenue report from Roots Analysis. He says he hopes to bring NeuroGait to the community center where the idea for the project began. He attributes his success to staying current with research from institutions and organizations such as Boston Dynamics and MIT . “To be successful in research,” he says, “you have to know what’s being done right now.” A spider-inspired robot Hung, a sophomore at El Cerrito High School , in California, took third place for Math Into Motion: Robotic Hexapod for Hazardous Environments . The six-legged robot is designed to traverse terrain too unstable for humans or conventional robotic systems. With only weeks before the science fair deadline for entries and no prior…",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "从人工智能副驾驶到特工群体",
-      "translatedSourceMaterial": "人工智能对软件开发的影响既深刻又不断发展。去年，我写了一篇关于AMD计划使用人工智能不仅用于生成新的代码行，而且还用于软件开发生命周期（ SDLC ）中的其他步骤，例如分类问题，调试代码和测试软件。 当时，我们希望在两三年内通过使用人工智能将生产力提高25 ％。但是，随着每个新版本的发布，大型语言模型（ LLM ）的功能都得到了显着改善--加速了软件开发，提高了AI生成代码的质量，并从根本上重塑了软件的工程设计方式。 现在，仅仅一年之后，我们就超额完成了生产力目标，通过人工智能实现了30%的整体生产力提升。最重要的是，我们不仅要重新考虑如何在SDLC中使用AI ，还要重新考虑SDLC本身的结构。我们认为，软件工程领域最大的人工智能革命仍在前方。 到目前为止，我们主要是教人工智能如何执行任务，并要求它模仿现有的工作流程。在许多方面，这使人工智能受限于人类的思维模式。下一个转变将来自能够独立发现解决方案的协作人工智能代理。今天的AMD代理商于2024年开始开发用于代码生成、测试自动化、缺陷分析和代码审查的人工智能系统。 当时，我们的目标是到2027年实现25%的人工智能生成生产代码，同时……",
+      "translatedSourceTitle": "IEEE会长奖学金表彰青少年创新者",
+      "translatedSourceMaterial": "根据世界卫生组织的数据，全球约有16%的人口（超过10亿人）患有某种形式的残疾。许多残疾会影响独立性和行动能力。三名高中生致力于帮助残疾人恢复运动、转化思想和驾驭崎岖地形的发明，他们的作品在Regeneron的国际科学和 工程博览会（ ISEF ）于5月在凤凰城举行。他们的项目为他们赢得了今年的IEEE总统奖学金。IEEE总裁玛丽·艾伦·兰德尔（ Mary Ellen Randall ）在展会期间举行的颁奖典礼上颁发了他们还收到了IEEE会长的硬币，学生们说这是他们经历的亮点。 Hollie Tang凭借她的轮椅导航系统赢得了今年的IEEE总统奖学金，奖金为10,000 $。该奖项适用于四年的大学本科学习，包括免费的IEEE学生会员资格。第二名的Partap Sidhum因其精神控制的下肢外骨骼获得了600 $的奖学金。 第三名的Calvin Shang Hung因其崎岖不平的机器人获得了400 $的奖学金。Sidhum和Hung还获得了免费的IEEE学生会员资格。总统奖学金由IEEE基金会设立，由IEEE教育活动管理，旨在表彰在电气工程、计算机科学或其他IEEE领域表现出色的高中生……",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1295
+      "contentCharacterCount": 1299
     },
     {
       "id": 185,
@@ -3854,7 +3854,9 @@
       "videoDuration": "00:18:48",
       "videoExternalId": "858ee675c28149f3966924f77c55c76e",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 154
+      "contentCharacterCount": 154,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 54,
@@ -3983,39 +3985,29 @@
       "translatedSourceMaterial": ""
     }
   ],
-  "errors": [
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-08-17T17:49:19.100476+00:00",
-    "startedAt": "2026-08-17T17:49:02.062056+00:00",
-    "finishedAt": "2026-08-17T17:49:19.100476+00:00",
-    "status": "partial",
+    "id": "2026-08-17T19:45:25.102612+00:00",
+    "startedAt": "2026-08-17T19:45:10.495060+00:00",
+    "finishedAt": "2026-08-17T19:45:25.102612+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 339,
-    "added": 230,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 349,
+    "added": 240,
     "duplicates": 59,
     "invalid": 2,
     "staleSkipped": 48,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1801,
+        "durationMs": 1332,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4025,7 +4017,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1285,
+        "durationMs": 1156,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4035,7 +4027,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1999,
+        "durationMs": 1523,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4045,7 +4037,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 404,
+        "durationMs": 705,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4055,17 +4047,17 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1255,
+        "durationMs": 709,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-cctv-new-technology-video",
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1351,
+        "durationMs": 767,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4075,7 +4067,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1327,
+        "durationMs": 675,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4085,7 +4077,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1419,
+        "durationMs": 719,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4095,17 +4087,17 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 836,
+        "durationMs": 667,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 1
+        "added": 9,
+        "duplicates": 0
       },
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3567,
+        "durationMs": 2975,
         "fetched": 3,
         "added": 3,
         "duplicates": 0
@@ -4115,7 +4107,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1143,
+        "durationMs": 847,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4125,7 +4117,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4076,
+        "durationMs": 4158,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4135,7 +4127,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1556,
+        "durationMs": 1430,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4145,7 +4137,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1884,
+        "durationMs": 2061,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4155,7 +4147,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 971,
+        "durationMs": 714,
         "fetched": 10,
         "added": 1,
         "duplicates": 5
@@ -4165,7 +4157,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 18,
+        "durationMs": 82,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4175,7 +4167,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 180,
+        "durationMs": 529,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4185,7 +4177,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 103,
+        "durationMs": 84,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4195,7 +4187,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1090,
+        "durationMs": 874,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4205,7 +4197,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 116,
+        "durationMs": 198,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4215,17 +4207,17 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 778,
+        "durationMs": 1449,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 900,
+        "durationMs": 878,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4235,7 +4227,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 53,
+        "durationMs": 152,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4245,7 +4237,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 41,
+        "durationMs": 51,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4255,7 +4247,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 528,
+        "durationMs": 773,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4265,17 +4257,17 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 115,
+        "durationMs": 48,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "us-national-institute-standards-technology",
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 72,
+        "durationMs": 63,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4285,7 +4277,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 94,
+        "durationMs": 25,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4295,7 +4287,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 410,
+        "durationMs": 930,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4305,7 +4297,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 303,
+        "durationMs": 474,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4315,7 +4307,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1297,
+        "durationMs": 1172,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4323,30 +4315,29 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 853,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 160,
+        "fetched": 10,
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 611,
+        "durationMs": 770,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "cgiar",
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 668,
+        "durationMs": 723,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4356,7 +4347,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 913,
+        "durationMs": 1270,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4366,10 +4357,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 118,
+        "durationMs": 55,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       }
     ],
     "queueCount": 72,
