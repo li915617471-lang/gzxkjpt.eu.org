@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T19:41:23.679789+00:00",
+  "generatedAt": "2026-08-18T21:00:56.612777+00:00",
   "stories": [
     {
       "id": 1,
@@ -2881,7 +2881,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "‘Pop Culture Jeopardy!’ champs knew they had film covered. TV? Not so much.",
       "excerpt": "How former Harvard classmates binge-watched and buzzed their way to victory",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“哈佛大学人文艺术资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“哈佛大学人文艺术资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://news.harvard.edu/wp-content/uploads/2026/08/PCJ_S02-Game_11-010926_00155_f.jpg?w=2500",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2914,7 +2914,9 @@
       "sourceMaterial": "How former Harvard classmates binge-watched and buzzed their way to victory",
       "sourceMaterialType": "rss",
       "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "外文来源未取得完整中文译文"
+      "contentGenerationError": "外文来源未取得完整中文译文",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 187,
@@ -3990,29 +3992,39 @@
       "translatedSourceMaterial": ""
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（1096ms）：HTTP Error 429: Too Many Requests"
+    }
+  ],
   "collection": {
-    "id": "2026-08-18T19:41:23.679789+00:00",
-    "startedAt": "2026-08-18T19:41:05.247214+00:00",
-    "finishedAt": "2026-08-18T19:41:23.679789+00:00",
-    "status": "success",
+    "id": "2026-08-18T21:00:56.612777+00:00",
+    "startedAt": "2026-08-18T21:00:36.123522+00:00",
+    "finishedAt": "2026-08-18T21:00:56.612777+00:00",
+    "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 36,
-    "sourcesFailed": 0,
-    "fetched": 347,
-    "added": 240,
-    "duplicates": 58,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 337,
+    "added": 231,
+    "duplicates": 57,
     "invalid": 2,
     "staleSkipped": 47,
     "maxSourceAgeDays": 45,
-    "errors": [],
+    "errors": [
+      {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（1096ms）：HTTP Error 429: Too Many Requests"
+      }
+    ],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1685,
+        "durationMs": 1515,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4022,7 +4034,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1549,
+        "durationMs": 1286,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4032,7 +4044,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2579,
+        "durationMs": 2375,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4042,7 +4054,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 496,
+        "durationMs": 745,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4052,7 +4064,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1466,
+        "durationMs": 853,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4062,7 +4074,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1392,
+        "durationMs": 884,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4072,7 +4084,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1378,
+        "durationMs": 880,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4082,7 +4094,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1286,
+        "durationMs": 1430,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4092,7 +4104,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 940,
+        "durationMs": 915,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4102,7 +4114,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3533,
+        "durationMs": 3590,
         "fetched": 1,
         "added": 0,
         "duplicates": 1
@@ -4112,7 +4124,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1321,
+        "durationMs": 1144,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4122,7 +4134,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3669,
+        "durationMs": 6095,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4132,7 +4144,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1288,
+        "durationMs": 1705,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4142,7 +4154,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1932,
+        "durationMs": 2119,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4152,7 +4164,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 916,
+        "durationMs": 783,
         "fetched": 10,
         "added": 1,
         "duplicates": 5
@@ -4162,7 +4174,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 23,
+        "durationMs": 151,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4172,7 +4184,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 121,
+        "durationMs": 386,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4182,7 +4194,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 79,
+        "durationMs": 221,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4192,7 +4204,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1214,
+        "durationMs": 950,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4202,7 +4214,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 118,
+        "durationMs": 324,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4212,17 +4224,17 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 790,
+        "durationMs": 1149,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 803,
+        "durationMs": 665,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4232,7 +4244,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 123,
+        "durationMs": 201,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4242,7 +4254,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 52,
+        "durationMs": 252,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4252,7 +4264,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 601,
+        "durationMs": 702,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4262,7 +4274,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 74,
+        "durationMs": 189,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4272,7 +4284,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 36,
+        "durationMs": 152,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4282,7 +4294,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 171,
+        "durationMs": 153,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4292,7 +4304,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 580,
+        "durationMs": 637,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4302,7 +4314,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 592,
+        "durationMs": 673,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4312,27 +4324,28 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1199,
+        "durationMs": 1405,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 0
+        "added": 7,
+        "duplicates": 1
       },
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 40,
-        "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 1096,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（1096ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 324,
+        "durationMs": 630,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4342,7 +4355,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 612,
+        "durationMs": 762,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4352,7 +4365,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 852,
+        "durationMs": 1537,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4362,7 +4375,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 38,
+        "durationMs": 218,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
