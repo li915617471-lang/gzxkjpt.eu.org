@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T09:56:39.368822+00:00",
+  "generatedAt": "2026-08-18T11:14:05.339620+00:00",
   "stories": [
     {
       "id": 1,
@@ -2642,7 +2642,7 @@
       "contentCharacterCount": 1107
     },
     {
-      "id": 113,
+      "id": 86,
       "category": "科技",
       "categoryEvidenceScore": 6,
       "categoryScores": {
@@ -2655,48 +2655,47 @@
       },
       "categoryClassificationMargin": 10,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：芯片行业技术论文综述： 8月18日",
-      "excerpt": "2D CFET缩放； PIM小芯片压降控制；高级节点布局修复；光刻缺陷预测； 3D-IC故障分析；小芯片和内插层优化； 4H-SiC晶圆切片。芯片行业技术论文综述后： 8月18日首次亮相半导体工程；二维CFET缩放； PIM小芯片压降控制；先进节点布局修复；光刻缺陷预测； 3D-IC故障分析；小芯片和插层优化； 4H-SiC晶圆切片。技术是否产生行业影响…",
-      "body": "核心进展 2D CFET缩放； PIM小芯片压降控制；高级节点布局修复；光刻缺陷预测； 3D-IC故障分析；小芯片和内插层优化； 4H-SiC晶圆切片。芯片行业技术论文综述后： 8月18日首次亮相半导体工程；二维CFET缩放； PIM小芯片压降控制；先进节点布局修复；光刻缺陷预测； 3D-IC故障分析；小芯片和插层优化； 4H-SiC晶圆切片。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。 关键内容 理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/08/Static-08-26-sie-banner-calibre-1270x240px-performance_V1_static.jpg.jpeg?resize=832%2C158&ssl=1",
+      "title": "科技前沿观察：我们仍然不知道人们是如何真正使用人工智能的",
+      "excerpt": "人工智能研究人员表示，像Anthropic和OpenAI这样的人工智能公司定期发布有关人们如何使用Claude和ChatGPT等产品的报告，但他们只发布他们希望我们看到的数据。“没有独立的消息来源来证实这一点，”斯坦福大学可信赖的人工智能研究所的计算机科学博士候选人Anka Reuel说……我们仍然不知道人们是如何真正使用人工智能的技术是否产生行业影响…",
+      "body": "核心进展\n\n人工智能研究人员表示，像Anthropic和OpenAI这样的人工智能公司定期发布有关人们如何使用Claude和ChatGPT等产品的报告，但他们只发布他们希望我们看到的数据。“没有独立的消息来源来证实这一点，”斯坦福大学可信赖的人工智能研究所的计算机科学博士候选人Anka Reuel说……我们仍然不知道人们是如何真正使用人工智能的。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：麻省理工科技评论公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/arm-around2.jpg?resize=1200,600",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "Semiconductor Engineering",
-      "originalTitle": "Chip Industry Technical Paper Roundup: Aug. 18",
-      "originalExcerpt": "2D CFET scaling; PIM chiplet voltage-droop control; advanced-node layout repair; lithography defect prediction; 3D-IC failure analysis; chiplet and interposer optimization; 4H-SiC wafer slicing. The post Chip Industry Technical Paper Roundup: Aug. 18 appeared first on Semiconductor Engineering .",
-      "source": "Semiconductor Engineering",
-      "sourceUrl": "https://semiengineering.com/chip-industry-technical-paper-roundup-aug-18/",
+      "imageSourceType": "source-page",
+      "imageAttribution": "MIT Technology Review",
+      "originalTitle": "We still don’t know how people are really using AI",
+      "originalExcerpt": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent source to corroborate it,” says Anka Reuel, a Computer Science PhD candidate at the Stanford Trustworthy AI Research…",
+      "source": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 86,
+      "confidence": 88,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
       "date": "2026-08-18",
       "tags": [
-        "科技",
-        "Chiplet"
+        "科技"
       ],
       "status": "review",
-      "collectionSourceId": "semiconductor-engineering",
-      "sourceType": "industry",
+      "collectionSourceId": "mit-technology-review",
+      "sourceType": "professional",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Tue, 18 Aug 2026 07:01:59 +0000",
-      "sourcePublishedAt": "2026-08-18T07:01:59+00:00",
-      "collectedAt": "2026-08-18T08:04:54.821578+00:00",
+      "originalPublishedAt": "Tue, 18 Aug 2026 10:06:43 +0000",
+      "sourcePublishedAt": "2026-08-18T10:06:43+00:00",
+      "collectedAt": "2026-08-18T11:14:04.582143+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "2D CFET scaling; PIM chiplet voltage-droop control; advanced-node layout repair; lithography defect prediction; 3D-IC failure analysis; chiplet and interposer optimization; 4H-SiC wafer slicing. The post Chip Industry Technical Paper Roundup: Aug. 18 appeared first on Semiconductor Engineering . 2D CFET scaling; PIM chiplet voltage-droop control; advanced-node layout repair; lithography defect prediction; 3D-IC failure analysis; chiplet and interposer optimization; 4H-SiC wafer slicing.",
+      "sourceMaterial": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent source to corroborate it,” says Anka Reuel, a Computer Science PhD candidate at the Stanford Trustworthy AI Research… We still don’t know how people are really using AI",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "芯片行业技术论文综述： 8月18日",
-      "translatedSourceMaterial": "2D CFET缩放； PIM小芯片压降控制；高级节点布局修复；光刻缺陷预测； 3D-IC故障分析；小芯片和内插层优化； 4H-SiC晶圆切片。芯片行业技术论文综述后： 8月18日首次亮相半导体工程；二维CFET缩放； PIM小芯片压降控制；先进节点布局修复；光刻缺陷预测； 3D-IC故障分析；小芯片和插层优化； 4H-SiC晶圆切片。",
+      "translatedSourceTitle": "我们仍然不知道人们是如何真正使用人工智能的",
+      "translatedSourceMaterial": "人工智能研究人员表示，像Anthropic和OpenAI这样的人工智能公司定期发布有关人们如何使用Claude和ChatGPT等产品的报告，但他们只发布他们希望我们看到的数据。“没有独立的消息来源来证实这一点，”斯坦福大学可信赖的人工智能研究所的计算机科学博士候选人Anka Reuel说……我们仍然不知道人们是如何真正使用人工智能的",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 982
+      "contentCharacterCount": 1001
     },
     {
       "id": 106,
@@ -2877,7 +2876,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "人文前沿观察：5000张经典电影海报数字化并上线：免费浏览和下载",
       "excerpt": "谁没有把索尔·巴斯（ Saul Bass ）优雅的电影海报固定在墙上--无论是在宿舍的床上，还是在成人周围的框架和玻璃中？或者你更喜欢70年代的媚俗--研磨坊的艺术和耸人听闻的汽车驾驶剥削电影？ 或20年代的无声前卫， 30年代的酷黑色和[…]谁没有将Saul…",
-      "body": "核心进展\n\n谁没有把索尔·巴斯（ Saul Bass ）优雅的电影海报固定在墙上--无论是在宿舍的床上，还是在成人周围的框架和玻璃中？或者你更喜欢70年代的媚俗--研磨坊的艺术和耸人听闻的汽车驾驶剥削电影？ 或20年代的无声前卫， 30年代的酷黑色和[…]谁没有将Saul Bass优雅的电影海报固定在墙上-无论是用拇指钉在宿舍床上还是在成人环境中的框架和玻璃中？或者你更喜欢70年代的媚俗--研磨坊的艺术和耸人听闻的汽车驾驶剥削电影？。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：开放文化资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 谁没有把索尔·巴斯（ Saul Bass ）优雅的电影海报固定在墙上--无论是在宿舍的床上，还是在成人周围的框架和玻璃中？或者你更喜欢70年代的媚俗--研磨坊的艺术和耸人听闻的汽车驾驶剥削电影？ 或20年代的无声前卫， 30年代的酷黑色和[…]谁没有将Saul Bass优雅的电影海报固定在墙上-无论是用拇指钉在宿舍床上还是在成人环境中的框架和玻璃中？或者你更喜欢70年代的媚俗--研磨坊的艺术和耸人听闻的汽车驾驶剥削电影？。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：开放文化资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://cdn8.openculture.com/2018/01/18224724/Naked-Edge-e1516348064733.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2969,34 +2968,34 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 114,
+      "id": 88,
       "category": "科技",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 5,
       "categoryScores": {
         "金融": 0,
-        "科技": 10,
-        "工业": 5,
+        "科技": 9,
+        "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 5,
+      "categoryClassificationMargin": 9,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Semiconductor Earnings Roundup: Revenue, Growth and Takeaways",
-      "excerpt": "Company-by-company breakdown: Earnings across 80 semiconductor companies show AI-driven demand extending well beyond the usual suspects. The post Semiconductor Earnings Roundup: Revenue, Growth and Takeaways appeared first on Semiconductor Engineering .",
-      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "AI’s recursive self-improvement might not come so quickly after all",
+      "excerpt": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict…",
+      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "Semiconductor Earnings Roundup: Revenue, Growth and Takeaways",
-      "originalExcerpt": "Company-by-company breakdown: Earnings across 80 semiconductor companies show AI-driven demand extending well beyond the usual suspects. The post Semiconductor Earnings Roundup: Revenue, Growth and Takeaways appeared first on Semiconductor Engineering .",
-      "source": "Semiconductor Engineering",
-      "sourceUrl": "https://semiengineering.com/chip-industry-earnings-roundup/",
+      "originalTitle": "AI’s recursive self-improvement might not come so quickly after all",
+      "originalExcerpt": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
+      "source": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
       "author": "",
       "language": "en",
       "sourceLanguage": "en",
-      "confidence": 86,
+      "confidence": 88,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
@@ -3005,19 +3004,17 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "semiconductor-engineering",
-      "sourceType": "industry",
+      "collectionSourceId": "mit-technology-review",
+      "sourceType": "professional",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Tue, 18 Aug 2026 07:01:24 +0000",
-      "sourcePublishedAt": "2026-08-18T07:01:24+00:00",
-      "collectedAt": "2026-08-18T08:04:54.823756+00:00",
+      "originalPublishedAt": "Tue, 18 Aug 2026 09:00:00 +0000",
+      "sourcePublishedAt": "2026-08-18T09:00:00+00:00",
+      "collectedAt": "2026-08-18T11:14:04.588660+00:00",
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "Company-by-company breakdown: Earnings across 80 semiconductor companies show AI-driven demand extending well beyond the usual suspects. The post Semiconductor Earnings Roundup: Revenue, Growth and Takeaways appeared first on Semiconductor Engineering .",
-      "sourceMaterialType": "rss",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "sourceMaterial": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
+      "sourceMaterialType": "rss"
     },
     {
       "id": 185,
@@ -3314,7 +3311,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "量子力学不是“玄学”！四条假设，讲清这门“反直觉”的科学",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/19/14/1787030840774.png",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3355,7 +3352,9 @@
       "homeVideoFeatured": true,
       "homeVideoPriority": 72,
       "videoDuration": "",
-      "videoExternalId": "728924"
+      "videoExternalId": "728924",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 72,
@@ -3921,91 +3920,91 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 70,
-      "category": "科技",
+      "id": 46,
+      "category": "人文",
       "categoryEvidenceScore": 0,
       "categoryScores": {
         "金融": 0,
-        "科技": 3,
+        "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 3
       },
       "categoryClassificationMargin": 3,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "基因编辑真的能“定制完美人类”吗？",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/18/15/1786946918566.png",
-      "imageFallback": "assets/datacenter.jpg",
+      "title": "《地理·中国》 20260818 神奇大自然3",
+      "excerpt": "本期节目主要内容：在全世界范围内猫眼石都极为罕见，然而在河南省叶县，长久以来却一直都有关于猫眼石的传说，据当地人说，他们那里的猫眼石不仅与猫的眼睛更为相像，而且密密麻麻地分布在一块颜色鲜艳的红色巨石上。（《地理·中国》 20260818 神奇大自然3）",
+      "body": "视频简介\n\n本期节目主要内容：在全世界范围内猫眼石都极为罕见，然而在河南省叶县，长久以来却一直都有关于猫眼石的传说，据当地人说，他们那里的猫眼石不仅与猫的眼睛更为相像，而且密密麻麻地分布在一块颜色鲜艳的红色巨石上。（《地理·中国》 20260818 神奇大自然3）\n\n简要来源\n\n本视频来自“中央广播电视总台《地理·中国》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p1.img.cctvpic.com/fmspic/2026/08/18/31659503a6cc4b35a4ca626129b261dc-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "科普中国",
-      "originalTitle": "基因编辑真的能“定制完美人类”吗？",
-      "originalExcerpt": "",
-      "source": "科普中国",
-      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=728568",
+      "imageAttribution": "中央广播电视总台《地理·中国》",
+      "originalTitle": "《地理·中国》 20260818 神奇大自然3",
+      "originalExcerpt": "本期节目主要内容：在全世界范围内猫眼石都极为罕见，然而在河南省叶县，长久以来却一直都有关于猫眼石的传说，据当地人说，他们那里的猫眼石不仅与猫的眼睛更为相像，而且密密麻麻地分布在一块颜色鲜艳的红色巨石上。（《地理·中国》 20260818 神奇大自然3）",
+      "source": "中央广播电视总台《地理·中国》",
+      "sourceUrl": "https://tv.cctv.com/2026/08/18/VIDExfWr15nldCQWvnLgazJ9260818.shtml",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
-      "confidence": 96,
+      "confidence": 97,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 1,
       "heat": 78,
       "date": "2026-08-18",
       "tags": [
-        "科技"
+        "人文"
       ],
       "status": "review",
-      "collectionSourceId": "china-kepuchina-video",
+      "collectionSourceId": "china-cctv-geography-video",
       "sourceType": "official",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-08-18T03:13:27.960920+00:00",
-      "freshnessDays": null,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
+      "originalPublishedAt": "2026-08-18 17:26:00",
+      "sourcePublishedAt": "2026-08-18T17:26:00+00:00",
+      "collectedAt": "2026-08-18T11:14:04.381752+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：在全世界范围内猫眼石都极为罕见，然而在河南省叶县，长久以来却一直都有关于猫眼石的传说，据当地人说，他们那里的猫眼石不仅与猫的眼睛更为相像，而且密密麻麻地分布在一块颜色鲜艳的红色巨石上。（《地理·中国》 20260818 神奇大自然3）",
       "sourceMaterialType": "rss",
       "contentKind": "video",
       "videoType": "external",
-      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=728568",
-      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/18/15/1786946918566.png",
+      "videoUrl": "https://tv.cctv.com/2026/08/18/VIDExfWr15nldCQWvnLgazJ9260818.shtml",
+      "videoPoster": "https://p1.img.cctvpic.com/fmspic/2026/08/18/31659503a6cc4b35a4ca626129b261dc-1.jpg",
       "videoRightsConfirmed": true,
       "videoLinkOnly": true,
       "homeVideoFeatured": true,
-      "homeVideoPriority": 72,
-      "videoDuration": "",
-      "videoExternalId": "728568",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "homeVideoPriority": 78,
+      "videoDuration": "00:28:32",
+      "videoExternalId": "31659503a6cc4b35a4ca626129b261dc",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 153
     }
   ],
   "errors": [
     {
       "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（945ms）：HTTP Error 429: Too Many Requests"
+      "error": "连续 2 次请求失败（1161ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-08-18T09:56:39.368822+00:00",
-    "startedAt": "2026-08-18T09:56:20.995744+00:00",
-    "finishedAt": "2026-08-18T09:56:39.368822+00:00",
+    "id": "2026-08-18T11:14:05.339620+00:00",
+    "startedAt": "2026-08-18T11:12:48.556577+00:00",
+    "finishedAt": "2026-08-18T11:14:05.339620+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 35,
     "sourcesFailed": 1,
     "fetched": 337,
-    "added": 230,
-    "duplicates": 57,
+    "added": 229,
+    "duplicates": 58,
     "invalid": 2,
     "staleSkipped": 48,
     "maxSourceAgeDays": 45,
     "errors": [
       {
         "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（945ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（1161ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4014,7 +4013,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1072,
+        "durationMs": 1213,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4024,7 +4023,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1533,
+        "durationMs": 1351,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4034,7 +4033,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2141,
+        "durationMs": 2258,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4044,7 +4043,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 544,
+        "durationMs": 673,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4054,7 +4053,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1238,
+        "durationMs": 1246,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4064,7 +4063,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 960,
+        "durationMs": 1270,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4074,7 +4073,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1056,
+        "durationMs": 1288,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4084,7 +4083,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1102,
+        "durationMs": 1277,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4094,7 +4093,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 727,
+        "durationMs": 684,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4104,27 +4103,27 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2898,
+        "durationMs": 3480,
         "fetched": 1,
-        "added": 1,
-        "duplicates": 0
+        "added": 0,
+        "duplicates": 1
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1074,
+        "durationMs": 20900,
         "fetched": 6,
-        "added": 0,
-        "duplicates": 4
+        "added": 1,
+        "duplicates": 3
       },
       {
         "sourceId": "china-stats-releases",
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 5156,
+        "durationMs": 3778,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4134,7 +4133,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1703,
+        "durationMs": 1075,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4144,7 +4143,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2667,
+        "durationMs": 1596,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4154,7 +4153,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 772,
+        "durationMs": 998,
         "fetched": 10,
         "added": 1,
         "duplicates": 5
@@ -4164,7 +4163,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 96,
+        "durationMs": 367,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4174,7 +4173,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 82,
+        "durationMs": 111,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4184,7 +4183,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 256,
+        "durationMs": 166,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4194,7 +4193,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1066,
+        "durationMs": 938,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4204,7 +4203,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 213,
+        "durationMs": 98,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4214,7 +4213,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1599,
+        "durationMs": 959,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4224,7 +4223,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 929,
+        "durationMs": 575,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4234,7 +4233,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 217,
+        "durationMs": 79,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4244,7 +4243,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 51,
+        "durationMs": 68,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4254,7 +4253,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 785,
+        "durationMs": 502,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4264,7 +4263,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 102,
+        "durationMs": 127,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4274,7 +4273,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 35,
+        "durationMs": 95,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4284,7 +4283,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 50,
+        "durationMs": 82,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4294,7 +4293,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 822,
+        "durationMs": 465,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4304,7 +4303,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 369,
+        "durationMs": 381,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4314,7 +4313,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 137,
+        "durationMs": 266,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4324,18 +4323,18 @@
         "source": "NASA Breaking News",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 945,
+        "durationMs": 1161,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（945ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（1161ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 471,
+        "durationMs": 541,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4345,17 +4344,17 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 915,
+        "durationMs": 390,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 1
       },
       {
         "sourceId": "ipcc",
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1367,
+        "durationMs": 1294,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4365,7 +4364,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 79,
+        "durationMs": 103,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4374,11 +4373,11 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 14,
+      "科技": 13,
       "工业": 11,
       "能源": 14,
       "农业": 10,
-      "人文": 13
+      "人文": 14
     },
     "articleGeneration": {
       "requested": 32,
@@ -4387,7 +4386,7 @@
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
-      "videosPrepared": 4,
+      "videosPrepared": 5,
       "minimumCharacters": 800
     }
   }
