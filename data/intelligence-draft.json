@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T11:14:05.339620+00:00",
+  "generatedAt": "2026-08-18T14:09:54.498802+00:00",
   "stories": [
     {
       "id": 1,
@@ -2642,34 +2642,34 @@
       "contentCharacterCount": 1107
     },
     {
-      "id": 86,
+      "id": 198,
       "category": "科技",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
-        "科技": 10,
+        "科技": 8,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 10,
+      "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：我们仍然不知道人们是如何真正使用人工智能的",
-      "excerpt": "人工智能研究人员表示，像Anthropic和OpenAI这样的人工智能公司定期发布有关人们如何使用Claude和ChatGPT等产品的报告，但他们只发布他们希望我们看到的数据。“没有独立的消息来源来证实这一点，”斯坦福大学可信赖的人工智能研究所的计算机科学博士候选人Anka Reuel说……我们仍然不知道人们是如何真正使用人工智能的技术是否产生行业影响…",
-      "body": "核心进展\n\n人工智能研究人员表示，像Anthropic和OpenAI这样的人工智能公司定期发布有关人们如何使用Claude和ChatGPT等产品的报告，但他们只发布他们希望我们看到的数据。“没有独立的消息来源来证实这一点，”斯坦福大学可信赖的人工智能研究所的计算机科学博士候选人Anka Reuel说……我们仍然不知道人们是如何真正使用人工智能的。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：麻省理工科技评论公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/arm-around2.jpg?resize=1200,600",
+      "title": "科技前沿观察：美国宇航局格伦的遗产通过数十年的飞行研究而形成",
+      "excerpt": "美国宇航局在实验室中开始的许多最重要的航空航天突破最终在天空中得到证实。几十年来，美国宇航局位于克利夫兰的格伦研究中心的专家进行了飞行测试—将飞机引导到目标环境，如结冰云和精心定义的大气路线。 这种方法使他们能够直接在飞行中收集测量数据，提供关键数据[…] 80多年来，美国宇航局位于克利夫兰的格伦研究中心利用飞行研究将实验室发现转化为现实世界的航空航天创新…",
+      "body": "核心进展\n\n美国宇航局在实验室中开始的许多最重要的航空航天突破最终在天空中得到证实。几十年来，美国宇航局位于克利夫兰的格伦研究中心的专家进行了飞行测试—将飞机引导到目标环境，如结冰云和精心定义的大气路线。 这种方法使他们能够直接在飞行中收集测量数据，提供关键数据[…] 80多年来，美国宇航局位于克利夫兰的格伦研究中心利用飞行研究将实验室发现转化为现实世界的航空航天创新。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/08/grc-1956-c-43327-feature-image.jpg?w=2048",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "source-page",
-      "imageAttribution": "MIT Technology Review",
-      "originalTitle": "We still don’t know how people are really using AI",
-      "originalExcerpt": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent source to corroborate it,” says Anka Reuel, a Computer Science PhD candidate at the Stanford Trustworthy AI Research…",
-      "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
+      "imageSourceType": "rss",
+      "imageAttribution": "NASA Breaking News",
+      "originalTitle": "NASA Glenn’s Legacy Forged Through Decades of Flight Research",
+      "originalExcerpt": "Many of NASA’s most important aerospace breakthroughs that began in the laboratory were ultimately proven in the sky. For decades, experts at NASA’s Glenn Research Center in Cleveland conducted flight tests — piloting aircraft into targeted environments such as icing clouds and carefully defined atmospheric routes. This approach allowed them to collect measurements directly in flight, providing critical data […]",
+      "source": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/general/nasa-glenn-inflight-research/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 88,
+      "confidence": 95,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -2678,24 +2678,24 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "mit-technology-review",
-      "sourceType": "professional",
+      "collectionSourceId": "nasa-breaking-news",
+      "sourceType": "official",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Tue, 18 Aug 2026 10:06:43 +0000",
-      "sourcePublishedAt": "2026-08-18T10:06:43+00:00",
-      "collectedAt": "2026-08-18T11:14:04.582143+00:00",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "Tue, 18 Aug 2026 14:00:00 +0000",
+      "sourcePublishedAt": "2026-08-18T14:00:00+00:00",
+      "collectedAt": "2026-08-18T14:09:54.310957+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent source to corroborate it,” says Anka Reuel, a Computer Science PhD candidate at the Stanford Trustworthy AI Research… We still don’t know how people are really using AI",
+      "sourceMaterial": "Many of NASA’s most important aerospace breakthroughs that began in the laboratory were ultimately proven in the sky. For decades, experts at NASA’s Glenn Research Center in Cleveland conducted flight tests — piloting aircraft into targeted environments such as icing clouds and carefully defined atmospheric routes. This approach allowed them to collect measurements directly in flight, providing critical data […] For more than 80 years, NASA’s Glenn Research Center in Cleveland has used flight research to transform lab discoveries into real-world aerospace innovations.",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "我们仍然不知道人们是如何真正使用人工智能的",
-      "translatedSourceMaterial": "人工智能研究人员表示，像Anthropic和OpenAI这样的人工智能公司定期发布有关人们如何使用Claude和ChatGPT等产品的报告，但他们只发布他们希望我们看到的数据。“没有独立的消息来源来证实这一点，”斯坦福大学可信赖的人工智能研究所的计算机科学博士候选人Anka Reuel说……我们仍然不知道人们是如何真正使用人工智能的",
+      "translatedSourceTitle": "美国宇航局格伦的遗产通过数十年的飞行研究而形成",
+      "translatedSourceMaterial": "美国宇航局在实验室中开始的许多最重要的航空航天突破最终在天空中得到证实。几十年来，美国宇航局位于克利夫兰的格伦研究中心的专家进行了飞行测试—将飞机引导到目标环境，如结冰云和精心定义的大气路线。 这种方法使他们能够直接在飞行中收集测量数据，提供关键数据[…] 80多年来，美国宇航局位于克利夫兰的格伦研究中心利用飞行研究将实验室发现转化为现实世界的航空航天创新。",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1001
+      "contentCharacterCount": 1011
     },
     {
       "id": 106,
@@ -2820,7 +2820,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "农业前沿观察：通过坦桑尼亚种子部门发展战略建设气候适应性农业",
       "excerpt": "由坦桑尼亚政府、CGIAR的Ukama Ustawi倡议和美国国际开发署共同制定的坦桑尼亚种子部门发展战略提供了一个统一的国家框架，以实现种子系统的现代化，调整公私伙伴关系，并在2030年之前为数百万小农户扩大获得气候适应性种子的机会。农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字…",
-      "body": "核心进展\n\n由坦桑尼亚政府、CGIAR的Ukama Ustawi倡议和美国国际开发署共同制定的坦桑尼亚种子部门发展战略提供了一个统一的国家框架，以实现种子系统的现代化，调整公私伙伴关系，并在2030年之前为数百万小农户扩大获得气候适应性种子的机会。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。\n\n关键内容\n\n分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：国际农业研究磋商组织公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 由坦桑尼亚政府、CGIAR的Ukama Ustawi倡议和美国国际开发署共同制定的坦桑尼亚种子部门发展战略提供了一个统一的国家框架，以实现种子系统的现代化，调整公私伙伴关系，并在2030年之前为数百万小农户扩大获得气候适应性种子的机会。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。 关键内容 分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：国际农业研究磋商组织公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://www.cgiar.org/sites/g/files/fvypus371/files/styles/ogimage_1200x630/public/2026-08/new%20header%20blog5.jpg.webp?itok=5EKgUrLz",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "source-page",
@@ -2968,7 +2968,7 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 88,
+      "id": 85,
       "category": "科技",
       "categoryEvidenceScore": 5,
       "categoryScores": {
@@ -2981,23 +2981,23 @@
       },
       "categoryClassificationMargin": 9,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "AI’s recursive self-improvement might not come so quickly after all",
-      "excerpt": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/datacenter.jpg",
+      "title": "科技前沿观察：下载：人们如何真正使用人工智能，以及Flock的设计选择",
+      "excerpt": "这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。我们仍然不知道人们如何真正使用像Anthropic和OpenAI这样的人工智能公司定期发布有关人们如何使用其产品的报告。但他们只发布了……从今天开始的儿童隐私试验可能会永远改变Meta。技术是否产生行业影响…",
+      "body": "核心进展\n\n这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。我们仍然不知道人们如何真正使用像Anthropic和OpenAI这样的人工智能公司定期发布有关人们如何使用其产品的报告。但他们只发布了……从今天开始的儿童隐私试验可能会永远改变Meta。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：麻省理工科技评论公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/06/DSF3850.jpg?w=840",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
-      "originalTitle": "AI’s recursive self-improvement might not come so quickly after all",
-      "originalExcerpt": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
+      "imageSourceType": "rss",
+      "imageAttribution": "MIT Technology Review",
+      "originalTitle": "The Download: how people really use AI, and Flock’s design choices",
+      "originalExcerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We still don’t know how people are really using AI AI companies like Anthropic and OpenAI regularly publish reports on how people are using their products. But they only release the…",
       "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 88,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-08-18",
       "tags": [
@@ -3008,13 +3008,20 @@
       "sourceType": "professional",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Tue, 18 Aug 2026 09:00:00 +0000",
-      "sourcePublishedAt": "2026-08-18T09:00:00+00:00",
-      "collectedAt": "2026-08-18T11:14:04.588660+00:00",
+      "originalPublishedAt": "Tue, 18 Aug 2026 12:10:00 +0000",
+      "sourcePublishedAt": "2026-08-18T12:10:00+00:00",
+      "collectedAt": "2026-08-18T14:09:53.732380+00:00",
       "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
-      "sourceMaterialType": "rss"
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We still don’t know how people are really using AI AI companies like Anthropic and OpenAI regularly publish reports on how people are using their products. But they only release the… A child privacy trial starting today could change Meta forever.",
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "下载：人们如何真正使用人工智能，以及Flock的设计选择",
+      "translatedSourceMaterial": "这是今天的The Download版本，我们的工作日时事通讯，提供有关技术世界每日发生的事情的信息。我们仍然不知道人们如何真正使用像Anthropic和OpenAI这样的人工智能公司定期发布有关人们如何使用其产品的报告。但他们只发布了……从今天开始的儿童隐私试验可能会永远改变Meta。",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 978
     },
     {
       "id": 185,
@@ -3978,42 +3985,34 @@
       "videoDuration": "00:28:32",
       "videoExternalId": "31659503a6cc4b35a4ca626129b261dc",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 153
+      "contentCharacterCount": 153,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     }
   ],
-  "errors": [
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（1161ms）：HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-08-18T11:14:05.339620+00:00",
-    "startedAt": "2026-08-18T11:12:48.556577+00:00",
-    "finishedAt": "2026-08-18T11:14:05.339620+00:00",
-    "status": "partial",
+    "id": "2026-08-18T14:09:54.498802+00:00",
+    "startedAt": "2026-08-18T14:09:35.021593+00:00",
+    "finishedAt": "2026-08-18T14:09:54.498802+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 337,
-    "added": 229,
-    "duplicates": 58,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 347,
+    "added": 238,
+    "duplicates": 59,
     "invalid": 2,
     "staleSkipped": 48,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（1161ms）：HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1213,
+        "durationMs": 2487,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4023,7 +4022,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1351,
+        "durationMs": 1208,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4033,7 +4032,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2258,
+        "durationMs": 2375,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4043,7 +4042,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 673,
+        "durationMs": 883,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4053,7 +4052,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1246,
+        "durationMs": 1147,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4063,7 +4062,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1270,
+        "durationMs": 1109,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4073,17 +4072,17 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1288,
+        "durationMs": 1079,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-cctv-discovery-video",
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1277,
+        "durationMs": 996,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4093,7 +4092,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 684,
+        "durationMs": 726,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4103,7 +4102,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3480,
+        "durationMs": 3470,
         "fetched": 1,
         "added": 0,
         "duplicates": 1
@@ -4113,7 +4112,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 20900,
+        "durationMs": 1357,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4123,7 +4122,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3778,
+        "durationMs": 4922,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4133,7 +4132,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1075,
+        "durationMs": 2792,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4143,7 +4142,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1596,
+        "durationMs": 4405,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4153,7 +4152,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 998,
+        "durationMs": 2272,
         "fetched": 10,
         "added": 1,
         "duplicates": 5
@@ -4163,17 +4162,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 367,
+        "durationMs": 18,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 111,
+        "durationMs": 150,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4183,7 +4182,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 166,
+        "durationMs": 147,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4193,17 +4192,17 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 938,
+        "durationMs": 1000,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 98,
+        "durationMs": 109,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4213,7 +4212,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 959,
+        "durationMs": 1055,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4223,7 +4222,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 575,
+        "durationMs": 753,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4233,7 +4232,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 79,
+        "durationMs": 54,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4243,7 +4242,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 68,
+        "durationMs": 127,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4253,7 +4252,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 502,
+        "durationMs": 661,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4263,7 +4262,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 127,
+        "durationMs": 110,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4273,7 +4272,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 95,
+        "durationMs": 50,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4283,7 +4282,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 82,
+        "durationMs": 81,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4293,7 +4292,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 465,
+        "durationMs": 488,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4303,7 +4302,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 381,
+        "durationMs": 470,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4313,7 +4312,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 266,
+        "durationMs": 27,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4321,20 +4320,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 1161,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（1161ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 48,
+        "fetched": 10,
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 541,
+        "durationMs": 355,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4344,7 +4342,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 390,
+        "durationMs": 332,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4354,7 +4352,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1294,
+        "durationMs": 976,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4364,7 +4362,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 103,
+        "durationMs": 146,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4382,7 +4380,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 1,
+      "translated": 2,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
