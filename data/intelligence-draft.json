@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T03:26:26.260719+00:00",
+  "generatedAt": "2026-08-19T05:52:17.152291+00:00",
   "stories": [
     {
       "id": 1,
@@ -3242,6 +3242,66 @@
       "contentCharacterCount": 897
     },
     {
+      "id": 74,
+      "category": "科技",
+      "categoryEvidenceScore": 9,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 15,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 0
+      },
+      "categoryClassificationMargin": 15,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "2000瓦的“电炉子”芯片：AI算力的功耗困局",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/20/12/1787109569466.png",
+      "imageFallback": "assets/datacenter.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "科普中国",
+      "originalTitle": "2000瓦的“电炉子”芯片：AI算力的功耗困局",
+      "originalExcerpt": "",
+      "source": "科普中国",
+      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=729280",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 96,
+      "time": "待审核",
+      "readMinutes": 6,
+      "heat": 78,
+      "date": "2026-08-19",
+      "tags": [
+        "科技",
+        "算力"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-kepuchina-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "",
+      "sourcePublishedAt": "",
+      "collectedAt": "2026-08-19T05:52:16.673802+00:00",
+      "freshnessDays": null,
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "sourceMaterial": "",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=729280",
+      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/20/12/1787109569466.png",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 72,
+      "videoDuration": "",
+      "videoExternalId": "729280"
+    },
+    {
       "id": 63,
       "category": "人文",
       "categoryEvidenceScore": 3,
@@ -3927,100 +3987,31 @@
       "contentCharacterCount": 203,
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 73,
-      "category": "科技",
-      "categoryEvidenceScore": 0,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 3,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 3,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "【榕哥烙科】第631期：战略气体氦打哪儿来？",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国数字科技馆”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20267/786995ed6e7f47f59bc8fe78074fc263.png",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "中国数字科技馆",
-      "originalTitle": "【榕哥烙科】第631期：战略气体氦打哪儿来？",
-      "originalExcerpt": "",
-      "source": "中国数字科技馆",
-      "sourceUrl": "https://www.cdstm.cn/videos/Tops/v600/art/2026/art_359ded6f0fd14a6c97a2b62070a2c6c5.html",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 6,
-      "heat": 78,
-      "date": "2026-08-19",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-digital-science-museum-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-08-19T03:26:25.392259+00:00",
-      "freshnessDays": null,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.cdstm.cn/videos/Tops/v600/art/2026/art_359ded6f0fd14a6c97a2b62070a2c6c5.html",
-      "videoPoster": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20267/786995ed6e7f47f59bc8fe78074fc263.png",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 70,
-      "videoDuration": "",
-      "videoExternalId": ""
     }
   ],
-  "errors": [
-    {
-      "source": "科普中国",
-      "error": "连续 2 次请求失败（3400ms）：HTTP Error 405: Not Allowed"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-08-19T03:26:26.260719+00:00",
-    "startedAt": "2026-08-19T03:26:06.122198+00:00",
-    "finishedAt": "2026-08-19T03:26:26.260719+00:00",
-    "status": "partial",
+    "id": "2026-08-19T05:52:17.152291+00:00",
+    "startedAt": "2026-08-19T05:51:59.432538+00:00",
+    "finishedAt": "2026-08-19T05:52:17.152291+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 346,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 347,
     "added": 240,
     "duplicates": 57,
     "invalid": 2,
-    "staleSkipped": 47,
+    "staleSkipped": 48,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "科普中国",
-        "error": "连续 2 次请求失败（3400ms）：HTTP Error 405: Not Allowed"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3088,
+        "durationMs": 997,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4030,7 +4021,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1568,
+        "durationMs": 1193,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4040,7 +4031,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2503,
+        "durationMs": 5823,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4050,7 +4041,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 673,
+        "durationMs": 830,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4060,17 +4051,17 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1305,
+        "durationMs": 1691,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "china-cctv-new-technology-video",
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1449,
+        "durationMs": 1543,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4080,7 +4071,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1219,
+        "durationMs": 1685,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4090,7 +4081,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1303,
+        "durationMs": 1792,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4100,7 +4091,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 654,
+        "durationMs": 2067,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4108,30 +4099,29 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 3400,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（3400ms）：HTTP Error 405: Not Allowed"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 3457,
+        "fetched": 1,
+        "added": 1,
+        "duplicates": 0
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1377,
+        "durationMs": 1101,
         "fetched": 6,
-        "added": 1,
-        "duplicates": 3
+        "added": 0,
+        "duplicates": 4
       },
       {
         "sourceId": "china-stats-releases",
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 5574,
+        "durationMs": 4069,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4141,7 +4131,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1588,
+        "durationMs": 1424,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4151,7 +4141,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1520,
+        "durationMs": 1826,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4161,7 +4151,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1754,
+        "durationMs": 768,
         "fetched": 10,
         "added": 1,
         "duplicates": 5
@@ -4171,7 +4161,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 87,
+        "durationMs": 125,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4181,7 +4171,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 172,
+        "durationMs": 227,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4191,7 +4181,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 38,
+        "durationMs": 149,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4201,7 +4191,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 7014,
+        "durationMs": 1035,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4211,7 +4201,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 94,
+        "durationMs": 149,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4221,7 +4211,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 674,
+        "durationMs": 966,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4231,7 +4221,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 577,
+        "durationMs": 713,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4241,7 +4231,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 309,
+        "durationMs": 130,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4251,7 +4241,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 42,
+        "durationMs": 114,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4261,7 +4251,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 553,
+        "durationMs": 751,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4271,7 +4261,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 104,
+        "durationMs": 137,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4281,7 +4271,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 33,
+        "durationMs": 102,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4291,7 +4281,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 132,
+        "durationMs": 59,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4301,7 +4291,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 364,
+        "durationMs": 795,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4311,7 +4301,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 640,
+        "durationMs": 457,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4321,7 +4311,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 991,
+        "durationMs": 1295,
         "fetched": 10,
         "added": 7,
         "duplicates": 1
@@ -4331,7 +4321,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 40,
+        "durationMs": 271,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4341,7 +4331,7 @@
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 447,
+        "durationMs": 718,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4351,9 +4341,9 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 425,
+        "durationMs": 174,
         "fetched": 10,
-        "added": 8,
+        "added": 7,
         "duplicates": 1
       },
       {
@@ -4361,7 +4351,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 973,
+        "durationMs": 1383,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4371,7 +4361,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 130,
+        "durationMs": 110,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
