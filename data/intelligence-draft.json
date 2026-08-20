@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T23:02:44.254553+00:00",
+  "generatedAt": "2026-08-20T03:26:18.794020+00:00",
   "stories": [
     {
       "id": 1,
@@ -3254,6 +3254,65 @@
       "contentCharacterCount": 856
     },
     {
+      "id": 75,
+      "category": "科技",
+      "categoryEvidenceScore": 3,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 7,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 0
+      },
+      "categoryClassificationMargin": 7,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "被高估还是低估？视觉大模型的真实能力边界",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/15/14/1786685075918.png",
+      "imageFallback": "assets/datacenter.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "科普中国",
+      "originalTitle": "被高估还是低估？视觉大模型的真实能力边界",
+      "originalExcerpt": "",
+      "source": "科普中国",
+      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=727981",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 96,
+      "time": "待审核",
+      "readMinutes": 6,
+      "heat": 78,
+      "date": "2026-08-20",
+      "tags": [
+        "科技"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-kepuchina-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "",
+      "sourcePublishedAt": "",
+      "collectedAt": "2026-08-20T03:26:17.934737+00:00",
+      "freshnessDays": null,
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "sourceMaterial": "",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=727981",
+      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/15/14/1786685075918.png",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 72,
+      "videoDuration": "",
+      "videoExternalId": "727981"
+    },
+    {
       "id": 74,
       "category": "科技",
       "categoryEvidenceScore": 12,
@@ -3939,94 +3998,41 @@
       "contentCharacterCount": 141,
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation"
-    },
-    {
-      "id": 55,
-      "category": "人文",
-      "categoryEvidenceScore": 3,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 0,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 6
-      },
-      "categoryClassificationMargin": 6,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "《百家讲坛》 20260728 国色天衣 1 红衣映朱门",
-      "excerpt": "本期节目主要内容：在我国绚烂的文明色谱中，色彩不仅是视觉的装饰，更是精神的载体、诗意的表达与历史的印记，那些温润而雅致的传统色与礼制关联、与诗词相映、与艺术交融，共同诉说着国人千年以来对美的感知与追求，而其中有一抹颜色尤为特别——红色，它跳脱出我国传统含蓄的美学框架，以“国色”之姿，深深嵌入了中华民族的文化基因。（《百家讲坛》 20260728 国色天衣 1 红衣映朱门）",
-      "body": "视频简介\n\n本期节目主要内容：在我国绚烂的文明色谱中，色彩不仅是视觉的装饰，更是精神的载体、诗意的表达与历史的印记，那些温润而雅致的传统色与礼制关联、与诗词相映、与艺术交融，共同诉说着国人千年以来对美的感知与追求，而其中有一抹颜色尤为特别——红色，它跳脱出我国传统含蓄的美学框架，以“国色”之姿，深深嵌入了中华民族的文化基因。（《百家讲坛》 20260728 国色天衣 1 红衣映朱门）\n\n简要来源\n\n本视频来自“中央广播电视总台《百家讲坛》”公开发布页面，仅在平台视频区域展示。",
-      "image": "https://p5.img.cctvpic.com/fmspic/2026/07/28/b3998ed4e3e24e908b0b069d69934c41-1.jpg",
-      "imageFallback": "assets/semiconductor.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "中央广播电视总台《百家讲坛》",
-      "originalTitle": "《百家讲坛》 20260728 国色天衣 1 红衣映朱门",
-      "originalExcerpt": "本期节目主要内容：在我国绚烂的文明色谱中，色彩不仅是视觉的装饰，更是精神的载体、诗意的表达与历史的印记，那些温润而雅致的传统色与礼制关联、与诗词相映、与艺术交融，共同诉说着国人千年以来对美的感知与追求，而其中有一抹颜色尤为特别——红色，它跳脱出我国传统含蓄的美学框架，以“国色”之姿，深深嵌入了中华民族的文化基因。（《百家讲坛》 20260728 国色天衣 1 红衣映朱门）",
-      "source": "中央广播电视总台《百家讲坛》",
-      "sourceUrl": "https://tv.cctv.com/2026/07/28/VIDEjXvqqPopLOiK7fadqHlF260728.shtml",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 97,
-      "time": "待审核",
-      "readMinutes": 1,
-      "heat": 78,
-      "date": "2026-07-28",
-      "tags": [
-        "人文"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-cctv-humanities-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-07-28 12:00:00",
-      "sourcePublishedAt": "2026-07-28T12:00:00+00:00",
-      "collectedAt": "2026-08-06T02:58:36.190924+00:00",
-      "freshnessDays": 9,
-      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
-      "sourceMaterial": "本期节目主要内容：在我国绚烂的文明色谱中，色彩不仅是视觉的装饰，更是精神的载体、诗意的表达与历史的印记，那些温润而雅致的传统色与礼制关联、与诗词相映、与艺术交融，共同诉说着国人千年以来对美的感知与追求，而其中有一抹颜色尤为特别——红色，它跳脱出我国传统含蓄的美学框架，以“国色”之姿，深深嵌入了中华民族的文化基因。（《百家讲坛》 20260728 国色天衣 1 红衣映朱门）",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://tv.cctv.com/2026/07/28/VIDEjXvqqPopLOiK7fadqHlF260728.shtml",
-      "videoPoster": "https://p5.img.cctvpic.com/fmspic/2026/07/28/b3998ed4e3e24e908b0b069d69934c41-1.jpg",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 76,
-      "videoDuration": "00:38:31",
-      "videoExternalId": "b3998ed4e3e24e908b0b069d69934c41",
-      "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 203,
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（947ms）：HTTP Error 429: Too Many Requests"
+    }
+  ],
   "collection": {
-    "id": "2026-08-19T23:02:44.254553+00:00",
-    "startedAt": "2026-08-19T23:02:21.916607+00:00",
-    "finishedAt": "2026-08-19T23:02:44.254553+00:00",
-    "status": "success",
+    "id": "2026-08-20T03:26:18.794020+00:00",
+    "startedAt": "2026-08-20T03:25:55.186615+00:00",
+    "finishedAt": "2026-08-20T03:26:18.794020+00:00",
+    "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 36,
-    "sourcesFailed": 0,
-    "fetched": 347,
-    "added": 242,
-    "duplicates": 56,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 339,
+    "added": 236,
+    "duplicates": 54,
     "invalid": 2,
     "staleSkipped": 47,
     "maxSourceAgeDays": 45,
-    "errors": [],
+    "errors": [
+      {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（947ms）：HTTP Error 429: Too Many Requests"
+      }
+    ],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1398,
+        "durationMs": 1133,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4036,7 +4042,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2100,
+        "durationMs": 1208,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4046,17 +4052,17 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2748,
+        "durationMs": 2158,
         "fetched": 10,
-        "added": 7,
-        "duplicates": 3
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "china-ndrc-releases",
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1170,
+        "durationMs": 615,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4066,7 +4072,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 944,
+        "durationMs": 3992,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4076,7 +4082,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 865,
+        "durationMs": 3775,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4086,7 +4092,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 961,
+        "durationMs": 1910,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4096,7 +4102,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 987,
+        "durationMs": 3486,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4106,7 +4112,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 670,
+        "durationMs": 2268,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4116,9 +4122,9 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4247,
-        "fetched": 1,
-        "added": 1,
+        "durationMs": 3125,
+        "fetched": 3,
+        "added": 3,
         "duplicates": 0
       },
       {
@@ -4126,7 +4132,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1327,
+        "durationMs": 1012,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4136,7 +4142,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 6865,
+        "durationMs": 10615,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4146,7 +4152,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 867,
+        "durationMs": 1523,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4156,7 +4162,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1415,
+        "durationMs": 2136,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4166,7 +4172,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 906,
+        "durationMs": 711,
         "fetched": 10,
         "added": 1,
         "duplicates": 5
@@ -4176,7 +4182,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 23,
+        "durationMs": 131,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4186,7 +4192,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 315,
+        "durationMs": 122,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4196,7 +4202,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 108,
+        "durationMs": 51,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4206,7 +4212,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2177,
+        "durationMs": 1078,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4216,7 +4222,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 62,
+        "durationMs": 233,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4226,7 +4232,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 765,
+        "durationMs": 1051,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4236,7 +4242,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 599,
+        "durationMs": 733,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4246,7 +4252,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 123,
+        "durationMs": 136,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4256,7 +4262,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 50,
+        "durationMs": 76,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4266,7 +4272,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 654,
+        "durationMs": 1881,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4276,7 +4282,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 66,
+        "durationMs": 129,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4286,7 +4292,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 66,
+        "durationMs": 52,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4296,7 +4302,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 196,
+        "durationMs": 38,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4306,7 +4312,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 348,
+        "durationMs": 865,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4316,7 +4322,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 427,
+        "durationMs": 462,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4326,7 +4332,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 960,
+        "durationMs": 159,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4334,19 +4340,20 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 39,
-        "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 947,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（947ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 365,
+        "durationMs": 640,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4356,7 +4363,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 569,
+        "durationMs": 596,
         "fetched": 10,
         "added": 7,
         "duplicates": 1
@@ -4366,7 +4373,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 821,
+        "durationMs": 492,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4376,7 +4383,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 96,
+        "durationMs": 76,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4385,11 +4392,11 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 14,
+      "科技": 15,
       "工业": 11,
       "能源": 14,
       "农业": 10,
-      "人文": 13
+      "人文": 12
     },
     "articleGeneration": {
       "requested": 32,
@@ -4398,7 +4405,7 @@
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
-      "videosPrepared": 4,
+      "videosPrepared": 3,
       "minimumCharacters": 800
     }
   }
