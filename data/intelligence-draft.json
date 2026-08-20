@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T19:50:32.008332+00:00",
+  "generatedAt": "2026-08-20T21:48:17.155596+00:00",
   "stories": [
     {
       "id": 1,
@@ -2587,7 +2587,7 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 152,
+      "id": 162,
       "category": "金融",
       "categoryEvidenceScore": 4,
       "categoryScores": {
@@ -2600,23 +2600,23 @@
       },
       "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA…",
-      "excerpt": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
-      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“美国联邦储备委员会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/network.jpg",
+      "title": "金融前沿观察：联邦储备委员会宣布批准National Westminster Bank Plc的申请",
+      "excerpt": "联邦储备委员会宣布批准国家威斯敏斯特银行的申请联邦储备委员会周四宣布批准英国伦敦国家威斯敏斯特银行的申请，以建立对普通读者而言，重点不是预测涨跌，而是识别谁会受到影响、影响通过什么渠道传递、是否存在新的合规要求，以及公开材料是否给出了可复核的时间表、样本和定义。",
+      "body": "核心进展\n\n联邦储备委员会宣布批准国家威斯敏斯特银行的申请联邦储备委员会周四宣布批准英国伦敦国家威斯敏斯特银行的申请，以建立。这一进展属于金融领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n金融新闻需要同时看政策目标、传导渠道和受影响主体。利率、支付、资本充足率、流动性和风险管理并不是孤立指标，任何单一数字都不能直接等同于市场结果。阅读这类材料时，应先区分监管公告、机构研究和媒体解释，再确认统计口径、时间窗口与适用地区。分析金融进展可以沿着政策工具、机构行为和实体经济三个层次展开：政策改变规则或价格，机构根据成本与风险调整业务，企业和居民再通过融资、支付、储蓄和投资感受到变化。这个框架有助于避免把相关关系误读成因果关系。\n\n关键内容\n\n分析金融进展可以沿着政策工具、机构行为和实体经济三个层次展开：政策改变规则或价格，机构根据成本与风险调整业务，企业和居民再通过融资、支付、储蓄和投资感受到变化。这个框架有助于避免把相关关系误读成因果关系。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n对普通读者而言，重点不是预测涨跌，而是识别谁会受到影响、影响通过什么渠道传递、是否存在新的合规要求，以及公开材料是否给出了可复核的时间表、样本和定义。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国联邦储备委员会公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg",
       "imageFallback": "assets/network.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
-      "originalTitle": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
-      "originalExcerpt": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "imageSourceType": "source-page",
+      "imageAttribution": "U.S. Federal Reserve",
+      "originalTitle": "Federal Reserve Board announces approval of application by National Westminster Bank Plc",
+      "originalExcerpt": "Federal Reserve Board announces approval of application by National Westminster Bank Plc",
       "source": "U.S. Federal Reserve",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260820a.htm",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 95,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-08-20",
       "tags": [
@@ -2627,15 +2627,20 @@
       "sourceType": "official",
       "sourceRegion": "北美",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Thu, 20 Aug 2026 15:00:00 GMT",
-      "sourcePublishedAt": "2026-08-20T15:00:00+00:00",
-      "collectedAt": "2026-08-20T17:52:17.223915+00:00",
+      "originalPublishedAt": "Thu, 20 Aug 2026 20:00:00 GMT",
+      "sourcePublishedAt": "2026-08-20T20:00:00+00:00",
+      "collectedAt": "2026-08-20T21:48:16.877791+00:00",
       "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "Federal Reserve Board announces approval of application by National Westminster Bank Plc The Federal Reserve Board on Thursday announced its approval of the application by National Westminster Bank Plc, of London, England, to establish a representa",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "translatedSourceTitle": "联邦储备委员会宣布批准National Westminster Bank Plc的申请",
+      "translatedSourceMaterial": "联邦储备委员会宣布批准国家威斯敏斯特银行的申请联邦储备委员会周四宣布批准英国伦敦国家威斯敏斯特银行的申请，以建立",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 942
     },
     {
       "id": 225,
@@ -2913,7 +2918,7 @@
       "contentCharacterCount": 867
     },
     {
-      "id": 153,
+      "id": 152,
       "category": "金融",
       "categoryEvidenceScore": 4,
       "categoryScores": {
@@ -2926,17 +2931,17 @@
       },
       "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-      "excerpt": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA…",
+      "excerpt": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
       "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“美国联邦储备委员会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/network.jpg",
       "imageFallback": "assets/network.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-      "originalExcerpt": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+      "originalTitle": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "originalExcerpt": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
       "source": "U.S. Federal Reserve",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
       "author": "",
       "language": "en",
       "sourceLanguage": "en",
@@ -2955,10 +2960,10 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "Thu, 20 Aug 2026 15:00:00 GMT",
       "sourcePublishedAt": "2026-08-20T15:00:00+00:00",
-      "collectedAt": "2026-08-20T17:52:17.226341+00:00",
+      "collectedAt": "2026-08-20T17:52:17.223915+00:00",
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+      "sourceMaterial": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
@@ -2979,7 +2984,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "科技前沿观察：SandboxAQ的目标是为半导体行业寻找不含PFAS的替代品",
       "excerpt": "工程副总裁Stefan Leichenauer表示，这家硅谷初创公司开发了一种先进的计算方法，以帮助在该领域寻找无稀土磁铁、催化剂和电池的替代品。技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。",
-      "body": "核心进展\n\n工程副总裁Stefan Leichenauer表示，这家硅谷初创公司开发了一种先进的计算方法，以帮助在该领域寻找无稀土磁铁、催化剂和电池的替代品。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 工程副总裁Stefan Leichenauer表示，这家硅谷初创公司开发了一种先进的计算方法，以帮助在该领域寻找无稀土磁铁、催化剂和电池的替代品。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。 关键内容 理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://imgproxy.divecdn.com/ZjDwUaNY90ywu7TiX4MFD9SJ38lSsovW1TeTIfb1hvE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjgwNDU5ODgxLmpwZw==.webp",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3995,13 +4000,13 @@
     },
     {
       "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（1228ms）：HTTP Error 429: Too Many Requests"
+      "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-08-20T19:50:32.008332+00:00",
-    "startedAt": "2026-08-20T19:50:14.324177+00:00",
-    "finishedAt": "2026-08-20T19:50:32.008332+00:00",
+    "id": "2026-08-20T21:48:17.155596+00:00",
+    "startedAt": "2026-08-20T21:47:56.272052+00:00",
+    "finishedAt": "2026-08-20T21:48:17.155596+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 34,
@@ -4019,7 +4024,7 @@
       },
       {
         "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（1228ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4028,7 +4033,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1642,
+        "durationMs": 1788,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4038,7 +4043,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1131,
+        "durationMs": 1567,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4048,7 +4053,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1888,
+        "durationMs": 2436,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4058,7 +4063,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 736,
+        "durationMs": 371,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4068,7 +4073,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1645,
+        "durationMs": 1360,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4078,7 +4083,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1452,
+        "durationMs": 1281,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4088,7 +4093,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1652,
+        "durationMs": 1380,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4098,7 +4103,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1458,
+        "durationMs": 1273,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4108,7 +4113,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1046,
+        "durationMs": 942,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4118,7 +4123,7 @@
         "source": "科普中国",
         "status": "failed",
         "attempts": 1,
-        "durationMs": 3136,
+        "durationMs": 2909,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
@@ -4129,7 +4134,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 818,
+        "durationMs": 1305,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4139,7 +4144,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2510,
+        "durationMs": 4304,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4149,7 +4154,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1918,
+        "durationMs": 1831,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4159,7 +4164,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2503,
+        "durationMs": 1614,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4169,7 +4174,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 729,
+        "durationMs": 934,
         "fetched": 10,
         "added": 1,
         "duplicates": 5
@@ -4179,17 +4184,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 226,
+        "durationMs": 56,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 99,
+        "durationMs": 576,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4199,7 +4204,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 124,
+        "durationMs": 37,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4209,7 +4214,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 892,
+        "durationMs": 944,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4219,7 +4224,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 150,
+        "durationMs": 74,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4229,7 +4234,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1143,
+        "durationMs": 723,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4239,7 +4244,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 835,
+        "durationMs": 405,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4249,7 +4254,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 198,
+        "durationMs": 264,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4259,7 +4264,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 130,
+        "durationMs": 76,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4269,7 +4274,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1773,
+        "durationMs": 571,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4279,7 +4284,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 85,
+        "durationMs": 77,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4289,7 +4294,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 61,
+        "durationMs": 51,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4299,7 +4304,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 103,
+        "durationMs": 134,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4309,7 +4314,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 770,
+        "durationMs": 433,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4319,7 +4324,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 339,
+        "durationMs": 206,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4329,7 +4334,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 298,
+        "durationMs": 228,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4339,18 +4344,18 @@
         "source": "NASA Breaking News",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 1228,
+        "durationMs": 853,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（1228ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 943,
+        "durationMs": 598,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4360,7 +4365,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 692,
+        "durationMs": 434,
         "fetched": 10,
         "added": 7,
         "duplicates": 1
@@ -4370,7 +4375,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1359,
+        "durationMs": 397,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4380,10 +4385,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 111,
+        "durationMs": 94,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 7,
+        "duplicates": 3
       }
     ],
     "queueCount": 72,
