@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T08:08:24.596213+00:00",
+  "generatedAt": "2026-08-20T10:01:17.824503+00:00",
   "stories": [
     {
       "id": 1,
@@ -2658,7 +2658,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Don’t Scrap It, Save It: Feedforward Control For Modern Semiconductor Manufacturing",
       "excerpt": "By measuring each wafer after lithography and adjusting the next etch step, fabs can pull more wafers back into spec. The post Don’t Scrap It, Save It: Feedforward Control For Modern Semiconductor Manufacturing appeared first on Semiconductor Engineering .",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/08/Lam_Dont-Scrap-It-Feedforward-Control-fig1.webp?resize=886%2C342&ssl=1",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -2698,60 +2698,60 @@
       "contentGenerationError": "结构化整理正文未达到 800 字标准"
     },
     {
-      "id": 107,
+      "id": 89,
       "category": "工业",
-      "categoryEvidenceScore": 5,
+      "categoryEvidenceScore": 3,
       "categoryScores": {
         "金融": 0,
-        "科技": 0,
-        "工业": 9,
+        "科技": 3,
+        "工业": 4,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 9,
+      "categoryClassificationMargin": 1,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "工业前沿观察：Bristol Myers Squibb将在休斯顿建造$ 23亿制造业园区",
-      "excerpt": "这座占地60万平方英尺的校园将生产多种类型的药物，随着数字集成和自动化能力的发展，这些药物还有扩展的空间。工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。",
-      "body": "核心进展 这座占地60万平方英尺的校园将生产多种类型的药物，随着数字集成和自动化能力的发展，这些药物还有扩展的空间。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。 关键内容 分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://imgproxy.divecdn.com/UQ92EhXp9yabvVV7Hrbal3BCE6siaYLSke5pWpIGXoI/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9CTVNob3VzdG9uLmpwZw==.webp",
+      "title": "工业前沿观察：通过市场模型解锁隐藏的收入来源",
+      "excerpt": "每天，一家航空公司在数百个航班上运送成千上万的乘客。这些路线通常不是简单的点对点路线，乘客需要多次转机。航空公司可以考虑潜在的数百个变量来为这些旅程定价：需求、季节、一天中的时间、时事、全球市场和竞争对手的航空公司活动等等……工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字…",
+      "body": "核心进展\n\n每天，一家航空公司在数百个航班上运送成千上万的乘客。这些路线通常不是简单的点对点路线，乘客需要多次转机。航空公司可以考虑潜在的数百个变量来为这些旅程定价：需求、季节、一天中的时间、时事、全球市场和竞争对手的航空公司活动等等……。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。\n\n关键内容\n\n分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：麻省理工科技评论公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/MIT_Fetcherr-COVERV9_81426.png?w=840",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "Manufacturing Dive",
-      "originalTitle": "Bristol Myers Squibb to build $2.3B manufacturing campus in Houston",
-      "originalExcerpt": "The 600,000-square-foot campus will produce several types of medicines with room for expansion as digital integration and automation capabilities evolve.",
-      "source": "Manufacturing Dive",
-      "sourceUrl": "https://www.manufacturingdive.com/news/bristol-myers-squibb-invest-2b-manufacturing-campus-houston/828245/",
+      "imageAttribution": "MIT Technology Review",
+      "originalTitle": "Unlocking hidden revenue streams with market models",
+      "originalExcerpt": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name…",
+      "source": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 82,
+      "confidence": 88,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "tags": [
         "工业"
       ],
       "status": "review",
-      "collectionSourceId": "manufacturing-dive",
+      "collectionSourceId": "mit-technology-review",
       "sourceType": "professional",
-      "sourceRegion": "北美",
+      "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Wed, 19 Aug 2026 11:34:00 -0400",
-      "sourcePublishedAt": "2026-08-19T15:34:00+00:00",
-      "collectedAt": "2026-08-19T15:52:29.456711+00:00",
+      "originalPublishedAt": "Thu, 20 Aug 2026 09:47:22 +0000",
+      "sourcePublishedAt": "2026-08-20T09:47:22+00:00",
+      "collectedAt": "2026-08-20T10:01:17.050298+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "The 600,000-square-foot campus will produce several types of medicines with room for expansion as digital integration and automation capabilities evolve.",
+      "sourceMaterial": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name…",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "Bristol Myers Squibb将在休斯顿建造$ 23亿制造业园区",
-      "translatedSourceMaterial": "这座占地60万平方英尺的校园将生产多种类型的药物，随着数字集成和自动化能力的发展，这些药物还有扩展的空间。",
+      "translatedSourceTitle": "通过市场模型解锁隐藏的收入来源",
+      "translatedSourceMaterial": "每天，一家航空公司在数百个航班上运送成千上万的乘客。这些路线通常不是简单的点对点路线，乘客需要多次转机。航空公司可以考虑潜在的数百个变量来为这些旅程定价：需求、季节、一天中的时间、时事、全球市场和竞争对手的航空公司活动等等……",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 906
+      "contentCharacterCount": 959
     },
     {
       "id": 151,
@@ -2911,7 +2911,7 @@
       "collectedAt": "2026-08-20T08:08:24.180771+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Harlem’s undergoing another Renaissance, and has been for years now. Crime’s down, real estate prices are up, and throngs of pale-faced hipsters are descending to check the area out. Sure, something’s gained, but something’s lost, too. For today’s holiday in Harlem, we’re going to climb in the Wayback Machine. Set the dial for 1932. Don’t […] Harlem’s undergoing another Renaissance, and has been for years now. Crime’s down, real estate prices are up, and throngs of pale-faced hipsters are descending to check the area out. Sure, something’s gained, but something’s lost, too.",
+      "sourceMaterial": "Harlem’s undergoing another Renaissance, and has been for years now. Crime’s down, real estate prices are up, and throngs of pale-faced hipsters are descending to check the area out. Sure, something’s gained, but something’s lost, too. For today’s holiday in Harlem, we’re going to climb in the Wayback Machine. Set the dial for 1932. Don’t […] Harlem’s undergoing another Renaissance, and has been for years now. Crime’s down, real estate prices are up, and throngs of pale-faced hipsters are descending to check the area out. Sure, something’s gained, but something’s lost, too. Harlem’s undergoing another Renaissance, and has been for years now. Crime’s down, real estate prices are up, and throngs of pale-faced hipsters are descending to check the area out. Sure, something’s gained, but something’s lost, too.",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "1932年哈莱姆夜总会插图地图：从棉花俱乐部到萨沃伊宴会厅",
       "translatedSourceMaterial": "哈莱姆正在经历另一场文艺复兴，至今已持续多年。犯罪率下降，房地产价格上涨，一大群脸色苍白的时髦人士正在下行查看该地区。当然，有些东西得到了，但也有些东西丢失了。在今天的哈莱姆假期，我们将乘坐Wayback Machine攀登。将表盘设置为1932年。不要[…]哈莱姆正在经历另一场文艺复兴，而且已经有好几年了。 犯罪率下降，房地产价格上涨，一大群脸色苍白的时髦人士正在下行查看该地区。当然，有些东西得到了，但也有些东西丢失了。",
@@ -2993,7 +2993,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "From Research To Production: Collaboration Is Key For Semiconductor Innovation",
       "excerpt": "Semiconductor R&D depends on access to high-quality data, realistic process assumptions, and practical learning from silicon. The post From Research To Production: Collaboration Is Key For Semiconductor Innovation appeared first on Semiconductor Engineering .",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/08/Synopsys_From-Research-to-Production-Collab-fig1.webp?resize=1400%2C520&ssl=1",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3024,33 +3024,35 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Semiconductor R&D depends on access to high-quality data, realistic process assumptions, and practical learning from silicon. The post From Research To Production: Collaboration Is Key For Semiconductor Innovation appeared first on Semiconductor Engineering .",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
-      "id": 105,
+      "id": 107,
       "category": "工业",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 5,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
-        "工业": 8,
+        "工业": 9,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 8,
+      "categoryClassificationMargin": 9,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "工业前沿观察：雷神公司获得$ 230亿的海军合同，以促进战斧导弹的生产",
-      "excerpt": "此外，该武器制造商的母公司RTX和波音签署了协议，以加速SM-3 Block IIA和SM-3 Block IB弹药的组件制造。工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。",
-      "body": "核心进展 此外，该武器制造商的母公司RTX和波音签署了协议，以加速SM-3 Block IIA和SM-3 Block IB弹药的组件制造。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。 关键内容 分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://imgproxy.divecdn.com/TCy8tKpPW8JcVzwDgHbLoJ34clop-_UfsCfSeXpbZKk/g:nowe:0:0/c:2500:1412/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Ub21haGF3a18xODA5MTgtTi1WRzcyNy0xMDQzLmpwZw==.webp",
+      "title": "工业前沿观察：Bristol Myers Squibb将在休斯顿建造$ 23亿制造业园区",
+      "excerpt": "这座占地60万平方英尺的校园将生产多种类型的药物，随着数字集成和自动化能力的发展，这些药物还有扩展的空间。工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。",
+      "body": "核心进展 这座占地60万平方英尺的校园将生产多种类型的药物，随着数字集成和自动化能力的发展，这些药物还有扩展的空间。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。 关键内容 分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://imgproxy.divecdn.com/UQ92EhXp9yabvVV7Hrbal3BCE6siaYLSke5pWpIGXoI/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9CTVNob3VzdG9uLmpwZw==.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "Manufacturing Dive",
-      "originalTitle": "Raytheon gets $23B Navy contract to boost Tomahawk missile production",
-      "originalExcerpt": "Additionally, the weapons maker’s parent company, RTX, and Boeing signed agreements to accelerate component manufacturing for SM-3 Block IIA and SM-3 Block IB munitions.",
+      "originalTitle": "Bristol Myers Squibb to build $2.3B manufacturing campus in Houston",
+      "originalExcerpt": "The 600,000-square-foot campus will produce several types of medicines with room for expansion as digital integration and automation capabilities evolve.",
       "source": "Manufacturing Dive",
-      "sourceUrl": "https://www.manufacturingdive.com/news/us-navy-raytheon-23b-contract-rtx-tomahawk-missile-production/828047/",
+      "sourceUrl": "https://www.manufacturingdive.com/news/bristol-myers-squibb-invest-2b-manufacturing-campus-houston/828245/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -3058,7 +3060,7 @@
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "tags": [
         "工业"
       ],
@@ -3067,20 +3069,20 @@
       "sourceType": "professional",
       "sourceRegion": "北美",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Tue, 18 Aug 2026 12:25:15 -0400",
-      "sourcePublishedAt": "2026-08-18T16:25:15+00:00",
-      "collectedAt": "2026-08-18T17:48:18.223140+00:00",
+      "originalPublishedAt": "Wed, 19 Aug 2026 11:34:00 -0400",
+      "sourcePublishedAt": "2026-08-19T15:34:00+00:00",
+      "collectedAt": "2026-08-19T15:52:29.456711+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Additionally, the weapons maker’s parent company, RTX, and Boeing signed agreements to accelerate component manufacturing for SM-3 Block IIA and SM-3 Block IB munitions.",
+      "sourceMaterial": "The 600,000-square-foot campus will produce several types of medicines with room for expansion as digital integration and automation capabilities evolve.",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "雷神公司获得$ 230亿的海军合同，以促进战斧导弹的生产",
-      "translatedSourceMaterial": "此外，该武器制造商的母公司RTX和波音签署了协议，以加速SM-3 Block IIA和SM-3 Block IB弹药的组件制造。",
+      "translatedSourceTitle": "Bristol Myers Squibb将在休斯顿建造$ 23亿制造业园区",
+      "translatedSourceMaterial": "这座占地60万平方英尺的校园将生产多种类型的药物，随着数字集成和自动化能力的发展，这些药物还有扩展的空间。",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 911
+      "contentCharacterCount": 906
     },
     {
       "id": 150,
@@ -3995,29 +3997,47 @@
       "translationMode": "machine-translation"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "科普中国",
+      "error": "订阅未返回可解析条目"
+    },
+    {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（841ms）：HTTP Error 429: Too Many Requests"
+    }
+  ],
   "collection": {
-    "id": "2026-08-20T08:08:24.596213+00:00",
-    "startedAt": "2026-08-20T08:08:03.389214+00:00",
-    "finishedAt": "2026-08-20T08:08:24.596213+00:00",
-    "status": "success",
+    "id": "2026-08-20T10:01:17.824503+00:00",
+    "startedAt": "2026-08-20T10:00:55.298545+00:00",
+    "finishedAt": "2026-08-20T10:01:17.824503+00:00",
+    "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 36,
-    "sourcesFailed": 0,
-    "fetched": 347,
-    "added": 244,
+    "sourcesSucceeded": 34,
+    "sourcesFailed": 2,
+    "fetched": 336,
+    "added": 233,
     "duplicates": 54,
     "invalid": 2,
     "staleSkipped": 47,
     "maxSourceAgeDays": 45,
-    "errors": [],
+    "errors": [
+      {
+        "source": "科普中国",
+        "error": "订阅未返回可解析条目"
+      },
+      {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（841ms）：HTTP Error 429: Too Many Requests"
+      }
+    ],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1873,
+        "durationMs": 1540,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4027,7 +4047,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1245,
+        "durationMs": 1307,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4037,7 +4057,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1587,
+        "durationMs": 2779,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4047,7 +4067,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 541,
+        "durationMs": 165,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4057,7 +4077,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 931,
+        "durationMs": 1053,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4067,7 +4087,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 944,
+        "durationMs": 803,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4077,7 +4097,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1088,
+        "durationMs": 969,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4087,7 +4107,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 714,
+        "durationMs": 919,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4097,7 +4117,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 830,
+        "durationMs": 834,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4105,19 +4125,20 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "success",
+        "status": "failed",
         "attempts": 1,
-        "durationMs": 3121,
-        "fetched": 1,
-        "added": 1,
-        "duplicates": 0
+        "durationMs": 4256,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "订阅未返回可解析条目"
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 856,
+        "durationMs": 1327,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4127,7 +4148,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 8146,
+        "durationMs": 5783,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4137,7 +4158,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1473,
+        "durationMs": 1436,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4147,7 +4168,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2020,
+        "durationMs": 2512,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4157,7 +4178,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 729,
+        "durationMs": 1062,
         "fetched": 10,
         "added": 1,
         "duplicates": 5
@@ -4167,7 +4188,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 70,
+        "durationMs": 91,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4177,17 +4198,17 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 90,
+        "durationMs": 104,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 101,
+        "durationMs": 100,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4197,17 +4218,17 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1121,
+        "durationMs": 926,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 241,
+        "durationMs": 119,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4217,17 +4238,17 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1163,
+        "durationMs": 1240,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 750,
+        "durationMs": 519,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4237,7 +4258,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 117,
+        "durationMs": 55,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4247,7 +4268,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 97,
+        "durationMs": 42,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4257,7 +4278,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 762,
+        "durationMs": 545,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4267,7 +4288,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 133,
+        "durationMs": 72,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4277,7 +4298,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 199,
+        "durationMs": 35,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4287,7 +4308,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 51,
+        "durationMs": 167,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4297,7 +4318,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 825,
+        "durationMs": 385,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4307,7 +4328,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 187,
+        "durationMs": 346,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4317,7 +4338,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 109,
+        "durationMs": 25,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4325,19 +4346,20 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 133,
-        "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 841,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（841ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 473,
+        "durationMs": 388,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4347,7 +4369,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 130,
+        "durationMs": 276,
         "fetched": 10,
         "added": 7,
         "duplicates": 1
@@ -4357,7 +4379,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1496,
+        "durationMs": 930,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4367,10 +4389,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 133,
+        "durationMs": 139,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       }
     ],
     "queueCount": 72,
@@ -4384,11 +4406,11 @@
     },
     "articleGeneration": {
       "requested": 32,
-      "generated": 31,
-      "translated": 2,
-      "failed": 1,
+      "generated": 32,
+      "translated": 1,
+      "failed": 0,
       "chineseArticlesPrepared": 30,
-      "foreignArticlesPrepared": 1,
+      "foreignArticlesPrepared": 2,
       "videosPrepared": 3,
       "minimumCharacters": 800
     }
