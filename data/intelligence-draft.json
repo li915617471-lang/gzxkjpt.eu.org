@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T17:52:17.563944+00:00",
+  "generatedAt": "2026-08-20T19:50:32.008332+00:00",
   "stories": [
     {
       "id": 1,
@@ -2602,7 +2602,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA…",
       "excerpt": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国联邦储备委员会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“美国联邦储备委员会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/network.jpg",
       "imageFallback": "assets/network.jpg",
       "imageSourceType": "category-cover",
@@ -2633,37 +2633,39 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
-      "id": 102,
+      "id": 225,
       "category": "科技",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 3,
       "categoryScores": {
         "金融": 0,
-        "科技": 5,
-        "工业": 3,
+        "科技": 4,
+        "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 3
       },
-      "categoryClassificationMargin": 2,
+      "categoryClassificationMargin": 1,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：SandboxAQ的目标是为半导体行业寻找不含PFAS的替代品",
-      "excerpt": "工程副总裁Stefan Leichenauer表示，这家硅谷初创公司开发了一种先进的计算方法，以帮助在该领域寻找无稀土磁铁、催化剂和电池的替代品。技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。",
-      "body": "核心进展\n\n工程副总裁Stefan Leichenauer表示，这家硅谷初创公司开发了一种先进的计算方法，以帮助在该领域寻找无稀土磁铁、催化剂和电池的替代品。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://imgproxy.divecdn.com/ZjDwUaNY90ywu7TiX4MFD9SJ38lSsovW1TeTIfb1hvE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjgwNDU5ODgxLmpwZw==.webp",
+      "title": "科技前沿观察：NASA资助的救援坠落太空望远镜任务正式以失败告终",
+      "excerpt": "这艘商业LINK航天器本应为美国宇航局的斯威夫特天文台提供动力，将其推入更高的轨道以延长其寿命。但在推出后， LINK遇到了几个问题。预计SWIFT将在今年年底前重新进入地球大气层并燃烧殆尽技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。",
+      "body": "核心进展\n\n这艘商业LINK航天器本应为美国宇航局的斯威夫特天文台提供动力，将其推入更高的轨道以延长其寿命。但在推出后， LINK遇到了几个问题。预计SWIFT将在今年年底前重新进入地球大气层并燃烧殆尽。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://th-thumbnailer.cdn-si-edu.com/Wg5hFcVdcIapCuKVkjgncI4hUxw=/420x240/filters:focal(450x257:451x258)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/d5/77/d577c5f5-9e56-46b8-b772-eee37d2964f4/swift-over-earth-animation-2025.webp",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "Manufacturing Dive",
-      "originalTitle": "SandboxAQ’s goal to find PFAS-free alternatives for the semiconductor industry",
-      "originalExcerpt": "The Silicon Valley startup developed an advanced computational method to also help find alternatives for rare-earth-free magnets, catalysts and batteries in the sector, said Stefan Leichenauer, VP of engineering.",
-      "source": "Manufacturing Dive",
-      "sourceUrl": "https://www.manufacturingdive.com/news/chips-act-pfas-sandboxaq-ai-lqm-stefan-leichenauer-engineering/828283/",
+      "imageAttribution": "Smithsonian Magazine",
+      "originalTitle": "NASA-Funded Mission to Rescue a Falling Space Telescope Officially Ends in Failure",
+      "originalExcerpt": "The commercial LINK spacecraft was supposed to give NASA's Swift observatory a boost, pushing it higher into orbit to extend its life. But after launch, LINK experienced several problems. Swift is expected to re-enter Earth's atmosphere and burn up by the end of this year",
+      "source": "Smithsonian Magazine",
+      "sourceUrl": "https://www.smithsonianmag.com/smart-news/nasa-funded-mission-to-rescue-a-falling-space-telescope-officially-ends-in-failure-180989376/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 82,
+      "confidence": 89,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -2672,24 +2674,24 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "manufacturing-dive",
-      "sourceType": "professional",
-      "sourceRegion": "北美",
+      "collectionSourceId": "smithsonian-magazine",
+      "sourceType": "research",
+      "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Thu, 20 Aug 2026 12:10:56 -0400",
-      "sourcePublishedAt": "2026-08-20T16:10:56+00:00",
-      "collectedAt": "2026-08-20T17:52:17.071210+00:00",
+      "originalPublishedAt": "Thu, 20 Aug 2026 19:35:40 +0000",
+      "sourcePublishedAt": "2026-08-20T19:35:40+00:00",
+      "collectedAt": "2026-08-20T19:50:31.985236+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "The Silicon Valley startup developed an advanced computational method to also help find alternatives for rare-earth-free magnets, catalysts and batteries in the sector, said Stefan Leichenauer, VP of engineering.",
+      "sourceMaterial": "The commercial LINK spacecraft was supposed to give NASA's Swift observatory a boost, pushing it higher into orbit to extend its life. But after launch, LINK experienced several problems. Swift is expected to re-enter Earth's atmosphere and burn up by the end of this year",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "SandboxAQ的目标是为半导体行业寻找不含PFAS的替代品",
-      "translatedSourceMaterial": "工程副总裁Stefan Leichenauer表示，这家硅谷初创公司开发了一种先进的计算方法，以帮助在该领域寻找无稀土磁铁、催化剂和电池的替代品。",
+      "translatedSourceTitle": "NASA资助的救援坠落太空望远镜任务正式以失败告终",
+      "translatedSourceMaterial": "这艘商业LINK航天器本应为美国宇航局的斯威夫特天文台提供动力，将其推入更高的轨道以延长其寿命。但在推出后， LINK遇到了几个问题。预计SWIFT将在今年年底前重新进入地球大气层并燃烧殆尽",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 910
+      "contentCharacterCount": 932
     },
     {
       "id": 103,
@@ -2707,7 +2709,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "工业前沿观察：特斯拉计划在德克萨斯州建设价值$ 100亿的太阳能电池生产基地",
       "excerpt": "这家汽车制造商正在评估水晶太阳项目的多个州。本德堡县工地将创造超过9,712个工作岗位，并于今年开始建设。工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。",
-      "body": "核心进展\n\n这家汽车制造商正在评估水晶太阳项目的多个州。本德堡县工地将创造超过9,712个工作岗位，并于今年开始建设。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。\n\n关键内容\n\n分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 这家汽车制造商正在评估水晶太阳项目的多个州。本德堡县工地将创造超过9,712个工作岗位，并于今年开始建设。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。 关键内容 分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://www.manufacturingdive.com/news/tesla-eyes-10b-solar-cell-manufacturing-site-fort-bend-county-texas/828372/assets/factory.jpg",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "source-page",
@@ -2819,7 +2821,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Ireland's 'Kerry Cow' Bones Are Actually Wild Boar and Bear, Shaking Up the Story of Farming's Arrival on the Island",
       "excerpt": "The bones were discovered on the Dingle Peninsula more than 30 years ago, but scientists recently decided to take another look at them, this time using modern techniques",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/k1OFgkJ__87vUlNgRI0EHHyVemw=/420x240/filters:focal(967x732:968x733)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/2d/8b/2d8b867b-7d9b-4818-88ed-eaf99aea0aaa/brown_bear_ursus_arctos_arctos_running.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "rss",
@@ -2850,7 +2852,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The bones were discovered on the Dingle Peninsula more than 30 years ago, but scientists recently decided to take another look at them, this time using modern techniques",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 223,
@@ -2924,7 +2928,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
       "excerpt": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国联邦储备委员会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“美国联邦储备委员会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/network.jpg",
       "imageFallback": "assets/network.jpg",
       "imageSourceType": "category-cover",
@@ -2955,56 +2959,65 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
-      "id": 83,
+      "id": 102,
       "category": "科技",
       "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
-        "科技": 8,
-        "工业": 0,
+        "科技": 5,
+        "工业": 3,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 8,
+      "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Debates over AI consciousness are a trap",
-      "excerpt": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/datacenter.jpg",
+      "title": "科技前沿观察：SandboxAQ的目标是为半导体行业寻找不含PFAS的替代品",
+      "excerpt": "工程副总裁Stefan Leichenauer表示，这家硅谷初创公司开发了一种先进的计算方法，以帮助在该领域寻找无稀土磁铁、催化剂和电池的替代品。技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。",
+      "body": "核心进展\n\n工程副总裁Stefan Leichenauer表示，这家硅谷初创公司开发了一种先进的计算方法，以帮助在该领域寻找无稀土磁铁、催化剂和电池的替代品。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://imgproxy.divecdn.com/ZjDwUaNY90ywu7TiX4MFD9SJ38lSsovW1TeTIfb1hvE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjgwNDU5ODgxLmpwZw==.webp",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
-      "originalTitle": "Debates over AI consciousness are a trap",
-      "originalExcerpt": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman” systems, while a separate faction, led by policy organizations…",
-      "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+      "imageSourceType": "rss",
+      "imageAttribution": "Manufacturing Dive",
+      "originalTitle": "SandboxAQ’s goal to find PFAS-free alternatives for the semiconductor industry",
+      "originalExcerpt": "The Silicon Valley startup developed an advanced computational method to also help find alternatives for rare-earth-free magnets, catalysts and batteries in the sector, said Stefan Leichenauer, VP of engineering.",
+      "source": "Manufacturing Dive",
+      "sourceUrl": "https://www.manufacturingdive.com/news/chips-act-pfas-sandboxaq-ai-lqm-stefan-leichenauer-engineering/828283/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 88,
+      "confidence": 82,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-08-20",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "mit-technology-review",
+      "collectionSourceId": "manufacturing-dive",
       "sourceType": "professional",
-      "sourceRegion": "全球",
+      "sourceRegion": "北美",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Thu, 20 Aug 2026 15:42:39 +0000",
-      "sourcePublishedAt": "2026-08-20T15:42:39+00:00",
-      "collectedAt": "2026-08-20T17:52:16.758973+00:00",
+      "originalPublishedAt": "Thu, 20 Aug 2026 12:10:56 -0400",
+      "sourcePublishedAt": "2026-08-20T16:10:56+00:00",
+      "collectedAt": "2026-08-20T17:52:17.071210+00:00",
       "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman” systems, while a separate faction, led by policy organizations…",
-      "sourceMaterialType": "rss"
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "The Silicon Valley startup developed an advanced computational method to also help find alternatives for rare-earth-free magnets, catalysts and batteries in the sector, said Stefan Leichenauer, VP of engineering.",
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "SandboxAQ的目标是为半导体行业寻找不含PFAS的替代品",
+      "translatedSourceMaterial": "工程副总裁Stefan Leichenauer表示，这家硅谷初创公司开发了一种先进的计算方法，以帮助在该领域寻找无稀土磁铁、催化剂和电池的替代品。",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 910
     },
     {
       "id": 104,
@@ -3022,7 +3035,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Illinois bill streamlines manufacturing career paths for high schoolers",
       "excerpt": "The legislation aims to ensure students have access to hands-on training for jobs in CNC machining, welding and other fields.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://imgproxy.divecdn.com/FQY7weytNKPQNpKJpYFJuLNRswBVYb02Raxp8JxBM6Q/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS93ZWxkZXIuanBn.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -3053,7 +3066,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The legislation aims to ensure students have access to hands-on training for jobs in CNC machining, welding and other fields.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 150,
@@ -3975,36 +3990,36 @@
   ],
   "errors": [
     {
-      "source": "中华人民共和国科学技术部",
-      "error": "连续 2 次请求失败（41205ms）：<urlopen error [Errno 101] Network is unreachable>"
-    },
-    {
       "source": "科普中国",
       "error": "订阅未返回可解析条目"
+    },
+    {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（1228ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-08-20T17:52:17.563944+00:00",
-    "startedAt": "2026-08-20T17:51:21.809301+00:00",
-    "finishedAt": "2026-08-20T17:52:17.563944+00:00",
+    "id": "2026-08-20T19:50:32.008332+00:00",
+    "startedAt": "2026-08-20T19:50:14.324177+00:00",
+    "finishedAt": "2026-08-20T19:50:32.008332+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 34,
     "sourcesFailed": 2,
     "fetched": 336,
-    "added": 235,
-    "duplicates": 51,
+    "added": 232,
+    "duplicates": 54,
     "invalid": 2,
     "staleSkipped": 48,
     "maxSourceAgeDays": 45,
     "errors": [
       {
-        "source": "中华人民共和国科学技术部",
-        "error": "连续 2 次请求失败（41205ms）：<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
         "source": "科普中国",
         "error": "订阅未返回可解析条目"
+      },
+      {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（1228ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4013,7 +4028,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1126,
+        "durationMs": 1642,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4021,20 +4036,19 @@
       {
         "sourceId": "china-most-news",
         "source": "中华人民共和国科学技术部",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 41205,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（41205ms）：<urlopen error [Errno 101] Network is unreachable>"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 1131,
+        "fetched": 10,
+        "added": 7,
+        "duplicates": 3
       },
       {
         "sourceId": "china-cas-science",
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2114,
+        "durationMs": 1888,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4044,7 +4058,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 551,
+        "durationMs": 736,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4054,7 +4068,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 666,
+        "durationMs": 1645,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4064,7 +4078,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 594,
+        "durationMs": 1452,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4074,7 +4088,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 659,
+        "durationMs": 1652,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4084,7 +4098,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 495,
+        "durationMs": 1458,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4094,7 +4108,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 458,
+        "durationMs": 1046,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4104,7 +4118,7 @@
         "source": "科普中国",
         "status": "failed",
         "attempts": 1,
-        "durationMs": 3387,
+        "durationMs": 3136,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
@@ -4115,7 +4129,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 999,
+        "durationMs": 818,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4125,7 +4139,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2988,
+        "durationMs": 2510,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4135,7 +4149,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1400,
+        "durationMs": 1918,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4145,7 +4159,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1973,
+        "durationMs": 2503,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4155,7 +4169,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 832,
+        "durationMs": 729,
         "fetched": 10,
         "added": 1,
         "duplicates": 5
@@ -4165,7 +4179,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 82,
+        "durationMs": 226,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4175,7 +4189,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 105,
+        "durationMs": 99,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4185,37 +4199,37 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 118,
+        "durationMs": 124,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 7,
+        "duplicates": 3
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 974,
+        "durationMs": 892,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 182,
+        "durationMs": 150,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "open-culture",
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1158,
+        "durationMs": 1143,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4225,17 +4239,17 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 870,
+        "durationMs": 835,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "us-energy-information-administration",
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 179,
+        "durationMs": 198,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4245,17 +4259,17 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 71,
+        "durationMs": 130,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "bank-for-international-settlements",
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 771,
+        "durationMs": 1773,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4265,7 +4279,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 103,
+        "durationMs": 85,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4275,7 +4289,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 45,
+        "durationMs": 61,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4285,7 +4299,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 37,
+        "durationMs": 103,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4295,7 +4309,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 808,
+        "durationMs": 770,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4305,17 +4319,17 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 279,
+        "durationMs": 339,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 142,
+        "durationMs": 298,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4323,19 +4337,20 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 145,
-        "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 1228,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（1228ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 488,
+        "durationMs": 943,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4345,7 +4360,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 675,
+        "durationMs": 692,
         "fetched": 10,
         "added": 7,
         "duplicates": 1
@@ -4355,7 +4370,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1506,
+        "durationMs": 1359,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4365,10 +4380,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 72,
+        "durationMs": 111,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       }
     ],
     "queueCount": 72,
@@ -4383,7 +4398,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
