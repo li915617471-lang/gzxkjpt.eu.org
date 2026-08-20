@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T03:26:18.794020+00:00",
+  "generatedAt": "2026-08-20T05:51:56.755467+00:00",
   "stories": [
     {
       "id": 1,
@@ -2643,60 +2643,60 @@
       "contentCharacterCount": 960
     },
     {
-      "id": 97,
+      "id": 205,
       "category": "科技",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
-        "科技": 7,
+        "科技": 5,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 5
+        "人文": 1
       },
-      "categoryClassificationMargin": 2,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：为您的创新赢得领导力支持",
-      "excerpt": "本文是我们与IEEE技术与工程管理学会合作的独家职业建议系列的一部分。想象一下：您对公司的新产品有很强的想法。您的同事鼓励您向前迈进，因为他们认为这可能是组织的下一个重大成功。 然而，这个想法显然不属于您所在部门的职责范围，您在产品线中没有任何角色。您应该怎么做？坐下来等待“合适的小组”拿起它…",
-      "body": "核心进展\n\n本文是我们与IEEE技术与工程管理学会合作的独家职业建议系列的一部分。想象一下：您对公司的新产品有很强的想法。您的同事鼓励您向前迈进，因为他们认为这可能是组织的下一个重大成功。 然而，这个想法显然不属于您所在部门的职责范围，您在产品线中没有任何角色。您应该怎么做？坐下来等待“合适的小组”拿起它，或者在不知道它对您当前职位意味着什么或意味着什么的情况下推动这个想法？这种情况经常发生。 许多人最终错失了机会，尽管他们本可以大大提高公司的技术或市场地位。一些组织积极支持此类举措，在工作日分配特定时间让员工专注于发展自己的想法。以此闻名的公司包括谷歌和3M。 它们允许员工利用部分时间（例如每周一天）进行项目。我进行的研究表明，这对员工的绩效是有回报的。私酒和臭鼬在一些公司，经理们知道有这样的项目存在，但他们故意视而不见，让他们继续下去。一些员工坚持通过私酒或臭鼬工厂项目。 Bootlegging项目未经经理批准或公司资助。Skunkworks项目涉及一个小型团队……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://spectrum.ieee.org/media-library/conceptual-illustration-of-three-different-hands-placing-puzzle-pieces-together-in-the-shape-of-a-lightbulb.jpg?id=67643651&width=980",
+      "title": "科技前沿观察：APOD ： 2026年8月20日– Cepheus的大象树干",
+      "excerpt": "APOD Science APOD APOD ： 2026年8月20日–今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。大象的[…]技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来…",
+      "body": "核心进展\n\nAPOD Science APOD APOD ： 2026年8月20日–今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。大象的[…]。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/august/IMG_5201_sgarbossa.jpeg?w=1208&h=1800&fit=clip&crop=faces%2Cfocalpoint",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "IEEE Spectrum",
-      "originalTitle": "Gaining Leadership Backing for Your Innovations",
-      "originalExcerpt": "This article is part of our exclusive career advice series in partnership with the IEEE Technology and Engineering Management Society. Imagine this: You have a strong idea for a new product for your company. Your coworkers encourage you to move forward because they believe it could be the organization’s next big success. The idea clearly falls outside your department’s responsibilities, however, and you have no role in the product line. What should you do? Sit and wait for “the right group” to pick it up, or push the idea forward without knowing how or what it might mean for your current position? Such situations occur frequently. Many end up as missed opportunities, even though they could have significantly advanced the company’s technological or market position. Some organizations actively support such initiatives, allocating specific periods during the workday for employees to focus on developing their own ideas. Companies known for that include Google and 3M . They allow employees to pursue projects with a portion of their time, such as one day per week. Research that I conducted indicates it pays off for employee performance. Bootlegging and skunkworks At some companies, managers know such projects exist, but they deliberately turn a blind eye, allowing them to continue. Some employees persist through bootlegging or skunkworks projects. Bootlegging projects have not been approved by a manager or funded by the company. Skunkworks projects involve a small team within the company that has been given authority and funding to secretly research and develop potentially groundbreaking innovations during their off-hours. The term comes from Lockheed’s Skunk Works division, set up in 1943 in a rented circus tent to build the P-80 fighter jet in secret. It took just 143 days. The 3M Post-it Note came out of the company’s “15 percent culture,” described as a permitted bootlegging policy. It gives employees paid time off to pursue their own ideas. The company traces the…",
-      "source": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/leadership-backing-innovation",
+      "imageAttribution": "NASA Breaking News",
+      "originalTitle": "APOD: 2026 August 20 – The Elephant’s Trunk in Cepheus",
+      "originalExcerpt": "APOD Science APOD APOD: 2026 August 20 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Elephant’s […]",
+      "source": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod/apod-2026-august-20-the-elephants-trunk-in-cepheus/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 90,
+      "confidence": 95,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "ieee-spectrum",
-      "sourceType": "research",
+      "collectionSourceId": "nasa-breaking-news",
+      "sourceType": "official",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Wed, 19 Aug 2026 18:00:02 +0000",
-      "sourcePublishedAt": "2026-08-19T18:00:02+00:00",
-      "collectedAt": "2026-08-19T19:36:54.853481+00:00",
+      "originalPublishedAt": "Thu, 20 Aug 2026 04:05:00 +0000",
+      "sourcePublishedAt": "2026-08-20T04:05:00+00:00",
+      "collectedAt": "2026-08-20T05:51:56.571278+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "This article is part of our exclusive career advice series in partnership with the IEEE Technology and Engineering Management Society. Imagine this: You have a strong idea for a new product for your company. Your coworkers encourage you to move forward because they believe it could be the organization’s next big success. The idea clearly falls outside your department’s responsibilities, however, and you have no role in the product line. What should you do? Sit and wait for “the right group” to pick it up, or push the idea forward without knowing how or what it might mean for your current position? Such situations occur frequently. Many end up as missed opportunities, even though they could have significantly advanced the company’s technological or market position. Some organizations actively support such initiatives, allocating specific periods during the workday for employees to focus on developing their own ideas. Companies known for that include Google and 3M . They allow employees to pursue projects with a portion of their time, such as one day per week. Research that I conducted indicates it pays off for employee performance. Bootlegging and skunkworks At some companies, managers know such projects exist, but they deliberately turn a blind eye, allowing them to continue. Some employees persist through bootlegging or skunkworks projects. Bootlegging projects have not been approved by a manager or funded by the company. Skunkworks projects involve a small team within the company that has been given authority and funding to secretly research and develop potentially groundbreaking innovations during their off-hours. The term comes from Lockheed’s Skunk Works division, set up in 1943 in a rented circus tent to build the P-80 fighter jet in secret. It took just 143 days. The 3M Post-it Note came out of the company’s “15 percent culture,” described as a permitted bootlegging policy. It gives employees paid time off to pursue their own ideas. The company traces the philosophy to its longtime president and later chairman William L. McKnight . Company scientist Arthur Fry used the policy in 1974 to turn a colleague’s dormant adhesive into the first Post-it prototypes, after his own bookmarks kept falling out of his hymnal. There are several examples of high-visibility skunkworks projects. At Apple , Steve Jobs pulled roughly 20 people— pirates , as he called them—out of the company to build the original Macintosh computer in a building nicknamed Texaco Towers. In Walter Isaacson ’s biography Steve Jobs , he frames the idea as modeled on the skunkworks approach. Google’s Gmail system is frequently—and incorrectly—cited as a product of the company’s “20% time” policy. In a 2014 interview with Time magazine, the system’s creator, Paul Buchheit , said Gmail was in fact an official assignment. What the Gmail incubation did share with classic skunkworks projects was secrecy: For much of its three years in development, it was kept hidden from most people inside the company. If you want to drive change in your organization, build a promoter triad around your idea. At Alphabet , Google X—now known simply as X —operated as a secretive “ moonshot ” lab, kept hidden from most Google employees, according to a 2011 article in The New York Times . Google’s self-driving car project graduated from X to become Waymo , and Google Glass was likewise incubated there. The X team is now developing the second edition of Glass Enterprise , a successor aimed at industrial rather than consumer use. Amazon runs a comparable model through Lab126 , which, according to an article in Fast Company , evolved from a small skunkworks Amazon subsidiary into a hardware maker with nearly 3,000 employees. Lab126 delivered the Kindle in 2007 and the Echo in 2015. Then there are so-called submarine projects , which employees work on without permission and despite explicit disapproval. They can lead to disciplinary action and termination. Innovation management Innovation management theory offers a more structured and robust approach. It argues that successful organizational change requires support at several levels, according to “Teamwork for Innovation: The ‘Troika’ of Promoters,” published in R&D Management . The promoter theory, developed around 25 years ago, consistently shows that change projects are far more likely to succeed when they are supported on multiple organizational levels. A good idea alone is not enough; you need a network of technology, process, and power promoters to turn a concept into a fully implemented, scalable solution. First, you need a technology promoter: the person who has the idea, such as a new product, and possesses technical expertise and specific knowledge about the field or industry. Art Fry at 3M would be such an individual. How can you put that into practice as an individual? Start by clearly formulating your idea into a concise concept paper or one-page summary including benefits, technical feasibility, and potential business impact. Identify potential technology promoters (experts who can validate and refine your idea), and approach them early to strengthen the technical foundation. In parallel, map the relevant stakeholders and decision-makers, and identify process promoters who understand how decisions are made in your company. They could be colleagues in innovation, R&D, or business development who understand your idea and how it can benefit the company. The second is a process promoter: someone who might not know all the technical details but understands the organization’s formal and informal networks and knows how to navigate its processes, committees, and decision-making paths. This person can ensure the idea reaches the right stakeholders at the right time. In the 3M case, it would be a person from the organizational management department, often called an innovation manager . The key role here is to connect inventors such as Fry with people from other departments needed for further…",
+      "sourceMaterial": "APOD Science APOD APOD: 2026 August 20 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Elephant’s […]",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "为您的创新赢得领导力支持",
-      "translatedSourceMaterial": "本文是我们与IEEE技术与工程管理学会合作的独家职业建议系列的一部分。想象一下：您对公司的新产品有很强的想法。您的同事鼓励您向前迈进，因为他们认为这可能是组织的下一个重大成功。 然而，这个想法显然不属于您所在部门的职责范围，您在产品线中没有任何角色。您应该怎么做？坐下来等待“合适的小组”拿起它，或者在不知道它对您当前职位意味着什么或意味着什么的情况下推动这个想法？这种情况经常发生。 许多人最终错失了机会，尽管他们本可以大大提高公司的技术或市场地位。一些组织积极支持此类举措，在工作日分配特定时间让员工专注于发展自己的想法。以此闻名的公司包括谷歌和3M。 它们允许员工利用部分时间（例如每周一天）进行项目。我进行的研究表明，这对员工的绩效是有回报的。私酒和臭鼬在一些公司，经理们知道有这样的项目存在，但他们故意视而不见，让他们继续下去。一些员工坚持通过私酒或臭鼬工厂项目。 Bootlegging项目未经经理批准或公司资助。Skunkworks项目涉及一个小型团队……",
+      "translatedSourceTitle": "APOD ： 2026年8月20日– Cepheus的大象树干",
+      "translatedSourceMaterial": "APOD Science APOD APOD ： 2026年8月20日–今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。大象的[…]",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1247
+      "contentCharacterCount": 953
     },
     {
       "id": 107,
@@ -2882,7 +2882,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "人文前沿观察：作者说，家是Parton音乐的核心",
       "excerpt": "玛莎·阿克曼（ Martha Ackmann ）向拉德克利夫（ Radcliffe ）观众讲述了一个歌曲创作传奇人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
-      "body": "核心进展\n\n玛莎·阿克曼（ Martha Ackmann ）向拉德克利夫（ Radcliffe ）观众讲述了一个歌曲创作传奇。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：哈佛大学人文艺术资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 玛莎·阿克曼（ Martha Ackmann ）向拉德克利夫（ Radcliffe ）观众讲述了一个歌曲创作传奇。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：哈佛大学人文艺术资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://news.harvard.edu/wp-content/uploads/2026/08/baccalaureate-3.png",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2979,34 +2979,34 @@
       "contentCharacterCount": 1107
     },
     {
-      "id": 203,
+      "id": 97,
       "category": "科技",
-      "categoryEvidenceScore": 2,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
-        "科技": 5,
+        "科技": 7,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 4
+        "人文": 5
       },
-      "categoryClassificationMargin": 1,
+      "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：古代银河合并",
-      "excerpt": "这位艺术家的概念于2026年8月17日发布，描绘了我们的银河系与大约120亿年前发生的矮星系LKH之间的碰撞。最近发表在“自然天文学”杂志上的一项对美国宇航局哈勃太空望远镜数据的研究表明，矮星系与年轻的[...]这位艺术家的概念于8月发布。 17 ， 2026 ，描绘了我们的银河系与被称为LKH的矮星系之间的碰撞，发生在大约12技术是否产生行业影响…",
-      "body": "核心进展 这位艺术家的概念于2026年8月17日发布，描绘了我们的银河系与大约120亿年前发生的矮星系LKH之间的碰撞。最近发表在“自然天文学”杂志上的一项对美国宇航局哈勃太空望远镜数据的研究表明，矮星系与年轻的[...]这位艺术家的概念于8月发布。 17 ， 2026 ，描绘了我们的银河系与被称为LKH的矮星系之间的碰撞，发生在大约12。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。 关键内容 理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/08/stsci-01kz4n4d8g9ak26cf28hd5nt5n-d2d764.png?w=2048",
+      "title": "科技前沿观察：为您的创新赢得领导力支持",
+      "excerpt": "本文是我们与IEEE技术与工程管理学会合作的独家职业建议系列的一部分。想象一下：您对公司的新产品有很强的想法。您的同事鼓励您向前迈进，因为他们认为这可能是组织的下一个重大成功。 然而，这个想法显然不属于您所在部门的职责范围，您在产品线中没有任何角色。您应该怎么做？坐下来等待“合适的小组”拿起它…",
+      "body": "核心进展\n\n本文是我们与IEEE技术与工程管理学会合作的独家职业建议系列的一部分。想象一下：您对公司的新产品有很强的想法。您的同事鼓励您向前迈进，因为他们认为这可能是组织的下一个重大成功。 然而，这个想法显然不属于您所在部门的职责范围，您在产品线中没有任何角色。您应该怎么做？坐下来等待“合适的小组”拿起它，或者在不知道它对您当前职位意味着什么或意味着什么的情况下推动这个想法？这种情况经常发生。 许多人最终错失了机会，尽管他们本可以大大提高公司的技术或市场地位。一些组织积极支持此类举措，在工作日分配特定时间让员工专注于发展自己的想法。以此闻名的公司包括谷歌和3M。 它们允许员工利用部分时间（例如每周一天）进行项目。我进行的研究表明，这对员工的绩效是有回报的。私酒和臭鼬在一些公司，经理们知道有这样的项目存在，但他们故意视而不见，让他们继续下去。一些员工坚持通过私酒或臭鼬工厂项目。 Bootlegging项目未经经理批准或公司资助。Skunkworks项目涉及一个小型团队……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://spectrum.ieee.org/media-library/conceptual-illustration-of-three-different-hands-placing-puzzle-pieces-together-in-the-shape-of-a-lightbulb.jpg?id=67643651&width=980",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "NASA Breaking News",
-      "originalTitle": "Ancient Milky Way Merger",
-      "originalExcerpt": "This artist’s concept, released on Aug. 17, 2026, depicts a collision between our Milky Way galaxy and a dwarf galaxy known as LKH that happened about 12 billion years ago. A study of data from NASA’s Hubble Space Telescope, recently published in the journal Nature Astronomy, shows definitive evidence of a dwarf galaxy merging with the young […]",
-      "source": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/image-article/ancient-milky-way-merger/",
+      "imageAttribution": "IEEE Spectrum",
+      "originalTitle": "Gaining Leadership Backing for Your Innovations",
+      "originalExcerpt": "This article is part of our exclusive career advice series in partnership with the IEEE Technology and Engineering Management Society. Imagine this: You have a strong idea for a new product for your company. Your coworkers encourage you to move forward because they believe it could be the organization’s next big success. The idea clearly falls outside your department’s responsibilities, however, and you have no role in the product line. What should you do? Sit and wait for “the right group” to pick it up, or push the idea forward without knowing how or what it might mean for your current position? Such situations occur frequently. Many end up as missed opportunities, even though they could have significantly advanced the company’s technological or market position. Some organizations actively support such initiatives, allocating specific periods during the workday for employees to focus on developing their own ideas. Companies known for that include Google and 3M . They allow employees to pursue projects with a portion of their time, such as one day per week. Research that I conducted indicates it pays off for employee performance. Bootlegging and skunkworks At some companies, managers know such projects exist, but they deliberately turn a blind eye, allowing them to continue. Some employees persist through bootlegging or skunkworks projects. Bootlegging projects have not been approved by a manager or funded by the company. Skunkworks projects involve a small team within the company that has been given authority and funding to secretly research and develop potentially groundbreaking innovations during their off-hours. The term comes from Lockheed’s Skunk Works division, set up in 1943 in a rented circus tent to build the P-80 fighter jet in secret. It took just 143 days. The 3M Post-it Note came out of the company’s “15 percent culture,” described as a permitted bootlegging policy. It gives employees paid time off to pursue their own ideas. The company traces the…",
+      "source": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/leadership-backing-innovation",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 95,
+      "confidence": 90,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -3015,24 +3015,24 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "nasa-breaking-news",
-      "sourceType": "official",
+      "collectionSourceId": "ieee-spectrum",
+      "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Wed, 19 Aug 2026 16:18:48 +0000",
-      "sourcePublishedAt": "2026-08-19T16:18:48+00:00",
-      "collectedAt": "2026-08-19T17:42:44.828423+00:00",
+      "originalPublishedAt": "Wed, 19 Aug 2026 18:00:02 +0000",
+      "sourcePublishedAt": "2026-08-19T18:00:02+00:00",
+      "collectedAt": "2026-08-19T19:36:54.853481+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "This artist’s concept, released on Aug. 17, 2026, depicts a collision between our Milky Way galaxy and a dwarf galaxy known as LKH that happened about 12 billion years ago. A study of data from NASA’s Hubble Space Telescope, recently published in the journal Nature Astronomy, shows definitive evidence of a dwarf galaxy merging with the young […] This artist's concept, released on Aug. 17, 2026, depicts a collision between our Milky Way galaxy and a dwarf galaxy known as LKH that happened about 12",
+      "sourceMaterial": "This article is part of our exclusive career advice series in partnership with the IEEE Technology and Engineering Management Society. Imagine this: You have a strong idea for a new product for your company. Your coworkers encourage you to move forward because they believe it could be the organization’s next big success. The idea clearly falls outside your department’s responsibilities, however, and you have no role in the product line. What should you do? Sit and wait for “the right group” to pick it up, or push the idea forward without knowing how or what it might mean for your current position? Such situations occur frequently. Many end up as missed opportunities, even though they could have significantly advanced the company’s technological or market position. Some organizations actively support such initiatives, allocating specific periods during the workday for employees to focus on developing their own ideas. Companies known for that include Google and 3M . They allow employees to pursue projects with a portion of their time, such as one day per week. Research that I conducted indicates it pays off for employee performance. Bootlegging and skunkworks At some companies, managers know such projects exist, but they deliberately turn a blind eye, allowing them to continue. Some employees persist through bootlegging or skunkworks projects. Bootlegging projects have not been approved by a manager or funded by the company. Skunkworks projects involve a small team within the company that has been given authority and funding to secretly research and develop potentially groundbreaking innovations during their off-hours. The term comes from Lockheed’s Skunk Works division, set up in 1943 in a rented circus tent to build the P-80 fighter jet in secret. It took just 143 days. The 3M Post-it Note came out of the company’s “15 percent culture,” described as a permitted bootlegging policy. It gives employees paid time off to pursue their own ideas. The company traces the philosophy to its longtime president and later chairman William L. McKnight . Company scientist Arthur Fry used the policy in 1974 to turn a colleague’s dormant adhesive into the first Post-it prototypes, after his own bookmarks kept falling out of his hymnal. There are several examples of high-visibility skunkworks projects. At Apple , Steve Jobs pulled roughly 20 people— pirates , as he called them—out of the company to build the original Macintosh computer in a building nicknamed Texaco Towers. In Walter Isaacson ’s biography Steve Jobs , he frames the idea as modeled on the skunkworks approach. Google’s Gmail system is frequently—and incorrectly—cited as a product of the company’s “20% time” policy. In a 2014 interview with Time magazine, the system’s creator, Paul Buchheit , said Gmail was in fact an official assignment. What the Gmail incubation did share with classic skunkworks projects was secrecy: For much of its three years in development, it was kept hidden from most people inside the company. If you want to drive change in your organization, build a promoter triad around your idea. At Alphabet , Google X—now known simply as X —operated as a secretive “ moonshot ” lab, kept hidden from most Google employees, according to a 2011 article in The New York Times . Google’s self-driving car project graduated from X to become Waymo , and Google Glass was likewise incubated there. The X team is now developing the second edition of Glass Enterprise , a successor aimed at industrial rather than consumer use. Amazon runs a comparable model through Lab126 , which, according to an article in Fast Company , evolved from a small skunkworks Amazon subsidiary into a hardware maker with nearly 3,000 employees. Lab126 delivered the Kindle in 2007 and the Echo in 2015. Then there are so-called submarine projects , which employees work on without permission and despite explicit disapproval. They can lead to disciplinary action and termination. Innovation management Innovation management theory offers a more structured and robust approach. It argues that successful organizational change requires support at several levels, according to “Teamwork for Innovation: The ‘Troika’ of Promoters,” published in R&D Management . The promoter theory, developed around 25 years ago, consistently shows that change projects are far more likely to succeed when they are supported on multiple organizational levels. A good idea alone is not enough; you need a network of technology, process, and power promoters to turn a concept into a fully implemented, scalable solution. First, you need a technology promoter: the person who has the idea, such as a new product, and possesses technical expertise and specific knowledge about the field or industry. Art Fry at 3M would be such an individual. How can you put that into practice as an individual? Start by clearly formulating your idea into a concise concept paper or one-page summary including benefits, technical feasibility, and potential business impact. Identify potential technology promoters (experts who can validate and refine your idea), and approach them early to strengthen the technical foundation. In parallel, map the relevant stakeholders and decision-makers, and identify process promoters who understand how decisions are made in your company. They could be colleagues in innovation, R&D, or business development who understand your idea and how it can benefit the company. The second is a process promoter: someone who might not know all the technical details but understands the organization’s formal and informal networks and knows how to navigate its processes, committees, and decision-making paths. This person can ensure the idea reaches the right stakeholders at the right time. In the 3M case, it would be a person from the organizational management department, often called an innovation manager . The key role here is to connect inventors such as Fry with people from other departments needed for further…",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "古代银河合并",
-      "translatedSourceMaterial": "这位艺术家的概念于2026年8月17日发布，描绘了我们的银河系与大约120亿年前发生的矮星系LKH之间的碰撞。最近发表在“自然天文学”杂志上的一项对美国宇航局哈勃太空望远镜数据的研究表明，矮星系与年轻的[...]这位艺术家的概念于8月发布。 17 ， 2026 ，描绘了我们的银河系与被称为LKH的矮星系之间的碰撞，发生在大约12",
+      "translatedSourceTitle": "为您的创新赢得领导力支持",
+      "translatedSourceMaterial": "本文是我们与IEEE技术与工程管理学会合作的独家职业建议系列的一部分。想象一下：您对公司的新产品有很强的想法。您的同事鼓励您向前迈进，因为他们认为这可能是组织的下一个重大成功。 然而，这个想法显然不属于您所在部门的职责范围，您在产品线中没有任何角色。您应该怎么做？坐下来等待“合适的小组”拿起它，或者在不知道它对您当前职位意味着什么或意味着什么的情况下推动这个想法？这种情况经常发生。 许多人最终错失了机会，尽管他们本可以大大提高公司的技术或市场地位。一些组织积极支持此类举措，在工作日分配特定时间让员工专注于发展自己的想法。以此闻名的公司包括谷歌和3M。 它们允许员工利用部分时间（例如每周一天）进行项目。我进行的研究表明，这对员工的绩效是有回报的。私酒和臭鼬在一些公司，经理们知道有这样的项目存在，但他们故意视而不见，让他们继续下去。一些员工坚持通过私酒或臭鼬工厂项目。 Bootlegging项目未经经理批准或公司资助。Skunkworks项目涉及一个小型团队……",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 991
+      "contentCharacterCount": 1247
     },
     {
       "id": 105,
@@ -3256,20 +3256,20 @@
     {
       "id": 75,
       "category": "科技",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
-        "科技": 7,
+        "科技": 8,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "被高估还是低估？视觉大模型的真实能力边界",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "视觉大模型真像看着那么厉害？西安交大教授黄华表示：物理一致性被严重高估；但底层泛化能力又被低估了，没见过的图片它也能提取边缘纹理。真正的难点在于如何处理开放空间。出品：科普中国",
+      "body": "核心信息 视觉大模型真像看着那么厉害？西安交大教授黄华表示：物理一致性被严重高估；但底层泛化能力又被低估了，没见过的图片它也能提取边缘纹理。真正的难点在于如何处理开放空间。出品：科普中国 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/15/14/1786685075918.png",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3310,7 +3310,10 @@
       "homeVideoFeatured": true,
       "homeVideoPriority": 72,
       "videoDuration": "",
-      "videoExternalId": "727981"
+      "videoExternalId": "727981",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 74,
@@ -4000,39 +4003,29 @@
       "translationMode": "machine-translation"
     }
   ],
-  "errors": [
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（947ms）：HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-08-20T03:26:18.794020+00:00",
-    "startedAt": "2026-08-20T03:25:55.186615+00:00",
-    "finishedAt": "2026-08-20T03:26:18.794020+00:00",
-    "status": "partial",
+    "id": "2026-08-20T05:51:56.755467+00:00",
+    "startedAt": "2026-08-20T05:51:36.944685+00:00",
+    "finishedAt": "2026-08-20T05:51:56.755467+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 339,
-    "added": 236,
-    "duplicates": 54,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 347,
+    "added": 243,
+    "duplicates": 55,
     "invalid": 2,
     "staleSkipped": 47,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（947ms）：HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1133,
+        "durationMs": 3335,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4042,7 +4035,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1208,
+        "durationMs": 989,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4052,7 +4045,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2158,
+        "durationMs": 1856,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4062,7 +4055,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 615,
+        "durationMs": 566,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4072,7 +4065,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3992,
+        "durationMs": 997,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4082,7 +4075,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3775,
+        "durationMs": 1269,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4092,7 +4085,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1910,
+        "durationMs": 976,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4102,7 +4095,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3486,
+        "durationMs": 1036,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4112,7 +4105,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2268,
+        "durationMs": 570,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4122,9 +4115,9 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3125,
-        "fetched": 3,
-        "added": 3,
+        "durationMs": 2574,
+        "fetched": 1,
+        "added": 1,
         "duplicates": 0
       },
       {
@@ -4132,7 +4125,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1012,
+        "durationMs": 947,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4142,7 +4135,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 10615,
+        "durationMs": 4027,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4152,7 +4145,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1523,
+        "durationMs": 1569,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4162,7 +4155,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2136,
+        "durationMs": 1715,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4172,7 +4165,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 711,
+        "durationMs": 761,
         "fetched": 10,
         "added": 1,
         "duplicates": 5
@@ -4182,7 +4175,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 131,
+        "durationMs": 244,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4192,7 +4185,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 122,
+        "durationMs": 152,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4202,7 +4195,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 51,
+        "durationMs": 90,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4212,7 +4205,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1078,
+        "durationMs": 981,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4222,7 +4215,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 233,
+        "durationMs": 236,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4232,7 +4225,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1051,
+        "durationMs": 1247,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4242,7 +4235,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 733,
+        "durationMs": 886,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4252,7 +4245,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 136,
+        "durationMs": 316,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4262,7 +4255,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 76,
+        "durationMs": 74,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4272,7 +4265,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1881,
+        "durationMs": 748,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4282,7 +4275,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 129,
+        "durationMs": 165,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4292,7 +4285,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 52,
+        "durationMs": 67,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4302,7 +4295,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 38,
+        "durationMs": 112,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4312,7 +4305,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 865,
+        "durationMs": 809,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4322,7 +4315,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 462,
+        "durationMs": 418,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4332,7 +4325,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 159,
+        "durationMs": 328,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4340,20 +4333,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 947,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（947ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 362,
+        "fetched": 10,
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 640,
+        "durationMs": 516,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4363,7 +4355,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 596,
+        "durationMs": 689,
         "fetched": 10,
         "added": 7,
         "duplicates": 1
@@ -4373,7 +4365,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 492,
+        "durationMs": 1661,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4383,7 +4375,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 76,
+        "durationMs": 134,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4401,7 +4393,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 0,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
