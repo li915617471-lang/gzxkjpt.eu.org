@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T17:50:58.936020+00:00",
+  "generatedAt": "2026-08-21T19:35:47.336458+00:00",
   "stories": [
     {
       "id": 1,
@@ -2689,7 +2689,7 @@
       "collectedAt": "2026-08-21T17:50:58.822412+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "For more information, contact Mark K. Leader, Glenn Research Center, mark.leader@nasa.gov Download the PDF version NASA’s Chemical Equilibrium with Applications (CEA) code is a foundational tool for propulsion system analysis. It provides equilibrium chemistry, rocket performance, shock, and detonation calculations used across NASA and the broader aerospace community. NASA Engineering and Safety Center (NESC) Activity […] For more information, contact Mark K. Leader, Glenn Research Center, mark.leader@nasa.gov",
+      "sourceMaterial": "For more information, contact Mark K. Leader, Glenn Research Center, mark.leader@nasa.gov Download the PDF version NASA’s Chemical Equilibrium with Applications (CEA) code is a foundational tool for propulsion system analysis. It provides equilibrium chemistry, rocket performance, shock, and detonation calculations used across NASA and the broader aerospace community. NASA Engineering and Safety Center (NESC) Activity […] For more information, contact Mark K. Leader, Glenn Research Center, mark.leader@nasa.gov For more information, contact Mark K. Leader, Glenn Research Center, mark.leader@nasa.gov",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "TB 26-04美国宇航局化学平衡与应用（ CEA ）代码的更新和现代化",
       "translatedSourceMaterial": "有关更多信息，请联系格伦研究中心的Mark K. Leader ， mark.leader@nasa.gov下载PDF版本NASA的化学平衡应用（ CEA ）代码是推进系统分析的基础工具。它提供了NASA和更广泛的航空航天界使用的平衡化学、火箭性能、冲击和爆炸计算。 NASA工程和安全中心（ NESC ）活动[…]如需了解更多信息，请联系格伦研究中心的Mark K. Leader ， mark.leader@nasa.gov",
@@ -2715,7 +2715,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Micron adds $10B memory lab to its Idaho expansion plans",
       "excerpt": "The research facility will bring together industry, government, academia and other stakeholders to pursue AI memory compute breakthroughs. Construction is expected to begin next year.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://imgproxy.divecdn.com/u5uLK02TUsSAourpncabEX5HMB_yhx83MwAHXVFa2BU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjIyMTIwNjQ0LmpwZw==.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -2746,7 +2746,9 @@
       "freshnessDays": 1,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The research facility will bring together industry, government, academia and other stakeholders to pursue AI memory compute breakthroughs. Construction is expected to begin next year.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 151,
@@ -2820,7 +2822,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "AGCO Brings Fendt and Massey Ferguson Machinery to SquadBuilt’s ‘American Farming 2’ Mobile Game",
       "excerpt": "AGCO Corporation announced officially licensed equipment from its Fendt and Massey Ferguson brands will be featured in “American Farming 2,” the free-to-play mobile farming simulation […] The post AGCO Brings Fendt and Massey Ferguson Machinery to SquadBuilt’s ‘American Farming…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“全球农业科技资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“全球农业科技资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2026/08/American-Farming-2-Game-150x150.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "rss",
@@ -2851,7 +2853,9 @@
       "freshnessDays": 1,
       "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
       "sourceMaterial": "AGCO Corporation announced officially licensed equipment from its Fendt and Massey Ferguson brands will be featured in “American Farming 2,” the free-to-play mobile farming simulation […] The post AGCO Brings Fendt and Massey Ferguson Machinery to SquadBuilt’s ‘American Farming 2’ Mobile Game appeared first on Global Ag Tech Initiative .",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 238,
@@ -3011,7 +3015,7 @@
       "collectedAt": "2026-08-21T17:50:58.663603+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Gain insights from a leading grower and retailer on earning trust, proving ROI, and accelerating on-farm innovation success. The post Growing Value: What Ag Retailers Need to Know About Farmers and Technology Adoption appeared first on Global Ag Tech Initiative . Gain insights from a leading grower and retailer on earning trust, proving ROI, and accelerating on-farm innovation success.",
+      "sourceMaterial": "Gain insights from a leading grower and retailer on earning trust, proving ROI, and accelerating on-farm innovation success. The post Growing Value: What Ag Retailers Need to Know About Farmers and Technology Adoption appeared first on Global Ag Tech Initiative . Gain insights from a leading grower and retailer on earning trust, proving ROI, and accelerating on-farm innovation success. Gain insights from a leading grower and retailer on earning trust, proving ROI, and accelerating on-farm innovation success.",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "不断增长的价值：农业零售商需要了解的关于农民和技术采用的知识",
       "translatedSourceMaterial": "从领先的种植商和零售商那里获得关于赢得信任、证明投资回报率和加速农场创新成功的见解。“增长价值：农业零售商需要了解的关于农民和技术采用的知识”一文首次出现在全球农业技术倡议中。从领先的种植商和零售商那里获得关于赢得信任、证明投资回报率和加速农场创新成功的见解。",
@@ -3992,16 +3996,16 @@
   ],
   "errors": [],
   "collection": {
-    "id": "2026-08-21T17:50:58.936020+00:00",
-    "startedAt": "2026-08-21T17:50:38.106009+00:00",
-    "finishedAt": "2026-08-21T17:50:58.936020+00:00",
+    "id": "2026-08-21T19:35:47.336458+00:00",
+    "startedAt": "2026-08-21T19:35:08.480145+00:00",
+    "finishedAt": "2026-08-21T19:35:47.336458+00:00",
     "status": "success",
     "sourcesTotal": 36,
     "sourcesSucceeded": 36,
     "sourcesFailed": 0,
     "fetched": 348,
-    "added": 246,
-    "duplicates": 52,
+    "added": 247,
+    "duplicates": 51,
     "invalid": 2,
     "staleSkipped": 48,
     "maxSourceAgeDays": 45,
@@ -4012,7 +4016,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1738,
+        "durationMs": 1558,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4022,7 +4026,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1152,
+        "durationMs": 1573,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4032,7 +4036,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2007,
+        "durationMs": 2349,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4042,7 +4046,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 702,
+        "durationMs": 1369,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4052,7 +4056,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1307,
+        "durationMs": 976,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4062,7 +4066,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1222,
+        "durationMs": 872,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4072,7 +4076,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1273,
+        "durationMs": 952,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4082,7 +4086,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1255,
+        "durationMs": 897,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4092,7 +4096,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 751,
+        "durationMs": 726,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4102,7 +4106,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3736,
+        "durationMs": 4154,
         "fetched": 2,
         "added": 2,
         "duplicates": 0
@@ -4112,7 +4116,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1153,
+        "durationMs": 1324,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4122,7 +4126,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 6609,
+        "durationMs": 3472,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4132,7 +4136,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2339,
+        "durationMs": 1477,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4141,8 +4145,8 @@
         "sourceId": "china-moa-news",
         "source": "中华人民共和国农业农村部",
         "status": "success",
-        "attempts": 1,
-        "durationMs": 2623,
+        "attempts": 2,
+        "durationMs": 22925,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4152,7 +4156,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1622,
+        "durationMs": 971,
         "fetched": 10,
         "added": 1,
         "duplicates": 5
@@ -4162,17 +4166,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 104,
+        "durationMs": 53,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 257,
+        "durationMs": 106,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4182,7 +4186,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 104,
+        "durationMs": 109,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4192,7 +4196,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1050,
+        "durationMs": 1077,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4202,17 +4206,17 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 468,
+        "durationMs": 117,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 7,
+        "duplicates": 3
       },
       {
         "sourceId": "open-culture",
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 919,
+        "durationMs": 672,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4222,7 +4226,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 606,
+        "durationMs": 771,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4232,7 +4236,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 212,
+        "durationMs": 156,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4242,7 +4246,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 127,
+        "durationMs": 66,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4252,7 +4256,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 681,
+        "durationMs": 419,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4262,7 +4266,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 164,
+        "durationMs": 71,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4272,7 +4276,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 115,
+        "durationMs": 63,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4282,7 +4286,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 127,
+        "durationMs": 119,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4292,7 +4296,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 601,
+        "durationMs": 363,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4302,7 +4306,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 401,
+        "durationMs": 208,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4312,7 +4316,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 127,
+        "durationMs": 35,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4322,17 +4326,17 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 150,
+        "durationMs": 37,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 593,
+        "durationMs": 240,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4342,17 +4346,17 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 301,
+        "durationMs": 2430,
         "fetched": 10,
-        "added": 6,
-        "duplicates": 2
+        "added": 8,
+        "duplicates": 0
       },
       {
         "sourceId": "ipcc",
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1158,
+        "durationMs": 955,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4362,10 +4366,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 148,
+        "durationMs": 65,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       }
     ],
     "queueCount": 72,
@@ -4380,7 +4384,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 0,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
