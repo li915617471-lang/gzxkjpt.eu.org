@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T03:11:39.146570+00:00",
+  "generatedAt": "2026-08-22T05:47:12.358415+00:00",
   "stories": [
     {
       "id": 1,
@@ -2645,7 +2645,7 @@
       "contentCharacterCount": 960
     },
     {
-      "id": 210,
+      "id": 206,
       "category": "科技",
       "categoryEvidenceScore": 2,
       "categoryScores": {
@@ -2654,21 +2654,21 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 5,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：TB 26-04美国宇航局化学平衡与应用（ CEA ）代码的更新和现代化",
-      "excerpt": "有关更多信息，请联系格伦研究中心的Mark K. Leader ， mark.leader@nasa.gov下载PDF版本NASA的化学平衡应用（ CEA ）代码是推进系统分析的基础工具。它提供了NASA和更广泛的航空航天界使用的平衡化学、火箭性能、冲击和爆炸计算。 NASA工程和安全中心（ NESC ）活动[…]如需了解更多信息…",
-      "body": "核心进展\n\n有关更多信息，请联系格伦研究中心的Mark K. Leader ， mark.leader@nasa.gov下载PDF版本NASA的化学平衡应用（ CEA ）代码是推进系统分析的基础工具。它提供了NASA和更广泛的航空航天界使用的平衡化学、火箭性能、冲击和爆炸计算。 NASA工程和安全中心（ NESC ）活动[…]如需了解更多信息，请联系格伦研究中心的Mark K. Leader ， mark.leader@nasa.gov。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.nasa.gov/wp-content/uploads/2023/10/nhq202211160203.jpg",
+      "title": "科技前沿观察：APOD ： 2026年8月22日–主要是英仙座流星雨",
+      "excerpt": "APOD Science APOD APOD ： 2026年8月22日……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片探索宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。主要是英仙座流星雨解释：记录[…]技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件…",
+      "body": "核心进展\n\nAPOD Science APOD APOD ： 2026年8月22日……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片探索宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。主要是英仙座流星雨解释：记录[…]。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/august/allsky_CEMeNt_Aug12-13final_pretty_8bit.jpg?w=4457&h=4457&fit=clip&crop=faces%2Cfocalpoint",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "source-page",
+      "imageSourceType": "rss",
       "imageAttribution": "NASA Breaking News",
-      "originalTitle": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
-      "originalExcerpt": "For more information, contact Mark K. Leader, Glenn Research Center, mark.leader@nasa.gov Download the PDF version NASA’s Chemical Equilibrium with Applications (CEA) code is a foundational tool for propulsion system analysis. It provides equilibrium chemistry, rocket performance, shock, and detonation calculations used across NASA and the broader aerospace community. NASA Engineering and Safety Center (NESC) Activity […]",
+      "originalTitle": "APOD: 2026 August 22 – Mostly Perseids",
+      "originalExcerpt": "APOD Science APOD APOD: 2026 August 22… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Mostly Perseids Explanation: Recorded […]",
       "source": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code/",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod/apod-2026-august-22-mostly-perseids/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -2676,7 +2676,7 @@
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "tags": [
         "科技"
       ],
@@ -2685,20 +2685,20 @@
       "sourceType": "official",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Fri, 21 Aug 2026 17:41:00 +0000",
-      "sourcePublishedAt": "2026-08-21T17:41:00+00:00",
-      "collectedAt": "2026-08-21T17:50:58.822412+00:00",
+      "originalPublishedAt": "Sat, 22 Aug 2026 04:05:00 +0000",
+      "sourcePublishedAt": "2026-08-22T04:05:00+00:00",
+      "collectedAt": "2026-08-22T05:47:12.240385+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "For more information, contact Mark K. Leader, Glenn Research Center, mark.leader@nasa.gov Download the PDF version NASA’s Chemical Equilibrium with Applications (CEA) code is a foundational tool for propulsion system analysis. It provides equilibrium chemistry, rocket performance, shock, and detonation calculations used across NASA and the broader aerospace community. NASA Engineering and Safety Center (NESC) Activity […] For more information, contact Mark K. Leader, Glenn Research Center, mark.leader@nasa.gov For more information, contact Mark K. Leader, Glenn Research Center, mark.leader@nasa.gov",
+      "sourceMaterial": "APOD Science APOD APOD: 2026 August 22… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Mostly Perseids Explanation: Recorded […]",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "TB 26-04美国宇航局化学平衡与应用（ CEA ）代码的更新和现代化",
-      "translatedSourceMaterial": "有关更多信息，请联系格伦研究中心的Mark K. Leader ， mark.leader@nasa.gov下载PDF版本NASA的化学平衡应用（ CEA ）代码是推进系统分析的基础工具。它提供了NASA和更广泛的航空航天界使用的平衡化学、火箭性能、冲击和爆炸计算。 NASA工程和安全中心（ NESC ）活动[…]如需了解更多信息，请联系格伦研究中心的Mark K. Leader ， mark.leader@nasa.gov",
+      "translatedSourceTitle": "APOD ： 2026年8月22日–主要是英仙座流星雨",
+      "translatedSourceMaterial": "APOD Science APOD APOD ： 2026年8月22日……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片探索宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。主要是英仙座流星雨解释：记录[…]",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1022
+      "contentCharacterCount": 963
     },
     {
       "id": 113,
@@ -2971,34 +2971,34 @@
       "contentCharacterCount": 942
     },
     {
-      "id": 130,
+      "id": 207,
       "category": "科技",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
-        "科技": 4,
+        "科技": 8,
         "工业": 0,
-        "能源": 0,
-        "农业": 4,
+        "能源": 5,
+        "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 0,
+      "categoryClassificationMargin": 3,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：不断增长的价值：农业零售商需要了解的关于农民和技术采用的知识",
-      "excerpt": "从领先的种植商和零售商那里获得关于赢得信任、证明投资回报率和加速农场创新成功的见解。“增长价值：农业零售商需要了解的关于农民和技术采用的知识”一文首次出现在全球农业技术倡议中。从领先的种植商和零售商那里获得关于赢得信任、证明投资回报率和加速农场创新成功的见解。技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来…",
-      "body": "核心进展\n\n从领先的种植商和零售商那里获得关于赢得信任、证明投资回报率和加速农场创新成功的见解。“增长价值：农业零售商需要了解的关于农民和技术采用的知识”一文首次出现在全球农业技术倡议中。从领先的种植商和零售商那里获得关于赢得信任、证明投资回报率和加速农场创新成功的见解。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：全球农业科技资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2023/09/Intelinair-grower-retailer-150x150.jpg",
+      "title": "科技前沿观察：美国宇航局从地面、空中、太空分享8月日食的观点",
+      "excerpt": "8月12日，日全食使格陵兰岛、冰岛和西班牙的天空变暗。当月亮覆盖太阳时，它短暂地向那些幸运地拥有晴朗天空的人揭示了太阳的薄薄的外层大气--日冕。美国宇航局的研究人员和摄影师沿着日食[…] 8月12日，日全食使格陵兰岛、冰岛和西班牙的天空变暗。 当月亮覆盖太阳时，它短暂地揭示了太阳的薄薄外表技术是否产生行业影响…",
+      "body": "核心进展\n\n8月12日，日全食使格陵兰岛、冰岛和西班牙的天空变暗。当月亮覆盖太阳时，它短暂地向那些幸运地拥有晴朗天空的人揭示了太阳的薄薄的外层大气--日冕。美国宇航局的研究人员和摄影师沿着日食[…] 8月12日，日全食使格陵兰岛、冰岛和西班牙的天空变暗。 当月亮覆盖太阳时，它短暂地揭示了太阳的薄薄外表。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/eclipse/NHQ202608120208.jpg?w=25145&h=17074&fit=clip&crop=faces%2Cfocalpoint",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "Global Ag Tech Initiative",
-      "originalTitle": "Growing Value: What Ag Retailers Need to Know About Farmers and Technology Adoption",
-      "originalExcerpt": "Gain insights from a leading grower and retailer on earning trust, proving ROI, and accelerating on-farm innovation success. The post Growing Value: What Ag Retailers Need to Know About Farmers and Technology Adoption appeared first on Global Ag Tech Initiative .",
-      "source": "Global Ag Tech Initiative",
-      "sourceUrl": "https://www.globalagtechinitiative.com/digital-farming/growing-value-what-ag-retailers-need-to-know-about-farmers-and-technology-adoption/",
+      "imageAttribution": "NASA Breaking News",
+      "originalTitle": "NASA Shares Views of August Solar Eclipse from Ground, Air, Space",
+      "originalExcerpt": "On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain. As the Moon covered the Sun, it briefly revealed the Sun’s wispy outer atmosphere — the corona — to those in the path of totality who were lucky enough to have clear skies. NASA researchers and photographers were along the eclipse […]",
+      "source": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 80,
+      "confidence": 95,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -3006,25 +3006,25 @@
       "tags": [
         "科技"
       ],
-      "status": "draft",
-      "collectionSourceId": "global-ag-tech-initiative",
-      "sourceType": "industry",
+      "status": "review",
+      "collectionSourceId": "nasa-breaking-news",
+      "sourceType": "official",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "standard",
-      "originalPublishedAt": "Fri, 21 Aug 2026 15:30:47 +0000",
-      "sourcePublishedAt": "2026-08-21T15:30:47+00:00",
-      "collectedAt": "2026-08-21T17:50:58.663603+00:00",
-      "freshnessDays": 0,
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "Fri, 21 Aug 2026 18:43:40 +0000",
+      "sourcePublishedAt": "2026-08-21T18:43:40+00:00",
+      "collectedAt": "2026-08-22T05:47:12.242824+00:00",
+      "freshnessDays": 1,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Gain insights from a leading grower and retailer on earning trust, proving ROI, and accelerating on-farm innovation success.",
+      "sourceMaterial": "On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain. As the Moon covered the Sun, it briefly revealed the Sun’s wispy outer atmosphere — the corona — to those in the path of totality who were lucky enough to have clear skies. NASA researchers and photographers were along the eclipse […] On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain. As the Moon covered the Sun, it briefly revealed the Sun’s wispy outer",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "不断增长的价值：农业零售商需要了解的关于农民和技术采用的知识",
-      "translatedSourceMaterial": "从领先的种植商和零售商那里获得关于赢得信任、证明投资回报率和加速农场创新成功的见解。“增长价值：农业零售商需要了解的关于农民和技术采用的知识”一文首次出现在全球农业技术倡议中。从领先的种植商和零售商那里获得关于赢得信任、证明投资回报率和加速农场创新成功的见解。",
+      "translatedSourceTitle": "美国宇航局从地面、空中、太空分享8月日食的观点",
+      "translatedSourceMaterial": "8月12日，日全食使格陵兰岛、冰岛和西班牙的天空变暗。当月亮覆盖太阳时，它短暂地向那些幸运地拥有晴朗天空的人揭示了太阳的薄薄的外层大气--日冕。美国宇航局的研究人员和摄影师沿着日食[…] 8月12日，日全食使格陵兰岛、冰岛和西班牙的天空变暗。 当月亮覆盖太阳时，它短暂地揭示了太阳的薄薄外表",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 965
+      "contentCharacterCount": 973
     },
     {
       "id": 103,
@@ -3205,7 +3205,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "A 1932 Illustrated Map of Harlem’s Night Clubs: From the Cotton Club to the Savoy Ballroom",
       "excerpt": "Harlem’s undergoing another Renaissance, and has been for years now. Crime’s down, real estate prices are up, and throngs of pale-faced hipsters are descending to check the area out. Sure, something’s gained, but something’s lost, too. For today’s holiday in Harlem, we’re going…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“开放文化资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“开放文化资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://cdn8.openculture.com/wp-content/uploads/2014/09/32-Harlem-Map.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -3236,7 +3236,9 @@
       "freshnessDays": 2,
       "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
       "sourceMaterial": "Harlem’s undergoing another Renaissance, and has been for years now. Crime’s down, real estate prices are up, and throngs of pale-faced hipsters are descending to check the area out. Sure, something’s gained, but something’s lost, too. For today’s holiday in Harlem, we’re going to climb in the Wayback Machine. Set the dial for 1932. Don’t […]",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 38,
@@ -3298,7 +3300,9 @@
       "videoDuration": "00:28:28",
       "videoExternalId": "63688f221c5641cbb455bc84c6fa391e",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 148
+      "contentCharacterCount": 148,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 75,
@@ -3984,39 +3988,29 @@
       "translationMode": "machine-translation"
     }
   ],
-  "errors": [
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（1093ms）：HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-08-22T03:11:39.146570+00:00",
-    "startedAt": "2026-08-22T03:11:21.808010+00:00",
-    "finishedAt": "2026-08-22T03:11:39.146570+00:00",
-    "status": "partial",
+    "id": "2026-08-22T05:47:12.358415+00:00",
+    "startedAt": "2026-08-22T05:46:54.673439+00:00",
+    "finishedAt": "2026-08-22T05:47:12.358415+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 337,
-    "added": 237,
-    "duplicates": 49,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 347,
+    "added": 244,
+    "duplicates": 52,
     "invalid": 2,
     "staleSkipped": 49,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（1093ms）：HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1679,
+        "durationMs": 1326,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4026,7 +4020,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1236,
+        "durationMs": 1279,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4036,7 +4030,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2351,
+        "durationMs": 2151,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4046,7 +4040,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 927,
+        "durationMs": 522,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4056,7 +4050,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2679,
+        "durationMs": 1417,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4066,17 +4060,17 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1561,
+        "durationMs": 1402,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-cctv-geography-video",
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1069,
+        "durationMs": 1469,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4086,7 +4080,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1068,
+        "durationMs": 1290,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4096,7 +4090,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 816,
+        "durationMs": 870,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4106,7 +4100,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2515,
+        "durationMs": 3403,
         "fetched": 1,
         "added": 1,
         "duplicates": 0
@@ -4116,7 +4110,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 980,
+        "durationMs": 1173,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4126,7 +4120,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4307,
+        "durationMs": 2919,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4136,7 +4130,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1246,
+        "durationMs": 1511,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4146,7 +4140,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1758,
+        "durationMs": 2353,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4156,7 +4150,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 874,
+        "durationMs": 827,
         "fetched": 10,
         "added": 1,
         "duplicates": 4
@@ -4166,7 +4160,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 148,
+        "durationMs": 179,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4176,7 +4170,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 278,
+        "durationMs": 686,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4186,7 +4180,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 165,
+        "durationMs": 234,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4196,7 +4190,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 949,
+        "durationMs": 1068,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4206,7 +4200,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 190,
+        "durationMs": 257,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4216,17 +4210,17 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 929,
+        "durationMs": 1053,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 924,
+        "durationMs": 929,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4236,7 +4230,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 287,
+        "durationMs": 286,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4246,7 +4240,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 131,
+        "durationMs": 125,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4256,7 +4250,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 770,
+        "durationMs": 552,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4266,7 +4260,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 177,
+        "durationMs": 160,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4276,7 +4270,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 135,
+        "durationMs": 109,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4286,7 +4280,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 166,
+        "durationMs": 132,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4296,7 +4290,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 791,
+        "durationMs": 595,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4306,7 +4300,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 474,
+        "durationMs": 481,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4316,7 +4310,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1090,
+        "durationMs": 229,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4324,20 +4318,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 1093,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（1093ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 558,
+        "fetched": 10,
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 868,
+        "durationMs": 802,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4347,7 +4340,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 283,
+        "durationMs": 526,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4357,7 +4350,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1231,
+        "durationMs": 1281,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4367,7 +4360,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 211,
+        "durationMs": 192,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4385,7 +4378,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 0,
+      "translated": 2,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
