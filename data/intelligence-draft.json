@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:48:12.292266+00:00",
+  "generatedAt": "2026-08-25T23:35:39.797654+00:00",
   "stories": [
     {
       "id": 1,
@@ -2646,34 +2646,34 @@
       "contentCharacterCount": 960
     },
     {
-      "id": 92,
+      "id": 207,
       "category": "科技",
       "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
         "科技": 8,
         "工业": 0,
-        "能源": 0,
+        "能源": 1,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 8,
+      "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：AgeLab研究激发了A I创业公司的灵感",
-      "excerpt": "当Don Yansen ’63来到麻省理工学院AgeLab进行一项关于老年人护理技术的研究时，他并没有计划推出另一家公司。但是，当他听到与会者谈论现代设备的使用难度时，他决定开发一种替代方案。延森是一位连续创业者，他退休是为了照顾……技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来…",
-      "body": "核心进展\n\n当Don Yansen ’63来到麻省理工学院AgeLab进行一项关于老年人护理技术的研究时，他并没有计划推出另一家公司。但是，当他听到与会者谈论现代设备的使用难度时，他决定开发一种替代方案。延森是一位连续创业者，他退休是为了照顾……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：麻省理工科技评论公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/YansenLeft_photo-by-Chris-Frontiero.jpg?resize=1200,600",
+      "title": "科技前沿观察：新的下一代培养皿为NASA的深空网络增添了力量",
+      "excerpt": "美国宇航局在加利福尼亚州的深空网络设施标志着该机构的深空通信和导航系统增加了一个全新的34米宽（ 114英尺宽）射频天线。该网络使用位于三个全球设施的巨型碟形天线，支持40多个探索太阳系和星际空间的航天器。 美国宇航局在加利福尼亚州的新的[…]深空网络设施标志着该机构的深空无线电天线增加了一个全新的34米宽（ 114英尺宽）的射频天线，技术是否产生行业影响…",
+      "body": "核心进展\n\n美国宇航局在加利福尼亚州的深空网络设施标志着该机构的深空通信和导航系统增加了一个全新的34米宽（ 114英尺宽）射频天线。该网络使用位于三个全球设施的巨型碟形天线，支持40多个探索太阳系和星际空间的航天器。 美国宇航局在加利福尼亚州的新的[…]深空网络设施标志着该机构的深空无线电天线增加了一个全新的34米宽（ 114英尺宽）的射频天线，。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/08/1-pia26777-d2026-0824-rl0031661-pano-med.jpg?w=2048",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "source-page",
-      "imageAttribution": "MIT Technology Review",
-      "originalTitle": "AgeLab research inspires an A I startup",
-      "originalExcerpt": "When Don Yansen ’63 arrived at the MIT AgeLab for a study on technology in care­giving for older adults, he didn’t plan to launch another company. But when he heard participants talk about how hard modern devices can be to use, he decided to develop an alternative. Yansen, a serial entrepreneur who retired to care for…",
-      "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/25/1140917/agelab-research-inspires-an-a-i-startup/",
+      "imageSourceType": "rss",
+      "imageAttribution": "NASA Breaking News",
+      "originalTitle": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
+      "originalExcerpt": "NASA’s Deep Space Network facility in California is marking the addition of a brand new 34-meter-wide (114-foot-wide) radio frequency antenna to the agency’s deep space communications and navigation system. The network uses giant dish antennas located at three global facilities to support more than 40 spacecraft exploring the solar system and interstellar space. The new […]",
+      "source": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 88,
+      "confidence": 95,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -2682,24 +2682,24 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "mit-technology-review",
-      "sourceType": "professional",
+      "collectionSourceId": "nasa-breaking-news",
+      "sourceType": "official",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Tue, 25 Aug 2026 21:00:00 +0000",
-      "sourcePublishedAt": "2026-08-25T21:00:00+00:00",
-      "collectedAt": "2026-08-25T21:48:11.503490+00:00",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "Tue, 25 Aug 2026 22:28:34 +0000",
+      "sourcePublishedAt": "2026-08-25T22:28:34+00:00",
+      "collectedAt": "2026-08-25T23:35:39.604483+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "When Don Yansen ’63 arrived at the MIT AgeLab for a study on technology in care­giving for older adults, he didn’t plan to launch another company. But when he heard participants talk about how hard modern devices can be to use, he decided to develop an alternative. Yansen, a serial entrepreneur who retired to care for…",
+      "sourceMaterial": "NASA’s Deep Space Network facility in California is marking the addition of a brand new 34-meter-wide (114-foot-wide) radio frequency antenna to the agency’s deep space communications and navigation system. The network uses giant dish antennas located at three global facilities to support more than 40 spacecraft exploring the solar system and interstellar space. The new […] NASA’s Deep Space Network facility in California is marking the addition of a brand new 34-meter-wide (114-foot-wide) radio frequency antenna to the agency’s",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "AgeLab研究激发了A I创业公司的灵感",
-      "translatedSourceMaterial": "当Don Yansen ’63来到麻省理工学院AgeLab进行一项关于老年人护理技术的研究时，他并没有计划推出另一家公司。但是，当他听到与会者谈论现代设备的使用难度时，他决定开发一种替代方案。延森是一位连续创业者，他退休是为了照顾……",
+      "translatedSourceTitle": "新的下一代培养皿为NASA的深空网络增添了力量",
+      "translatedSourceMaterial": "美国宇航局在加利福尼亚州的深空网络设施标志着该机构的深空通信和导航系统增加了一个全新的34米宽（ 114英尺宽）射频天线。该网络使用位于三个全球设施的巨型碟形天线，支持40多个探索太阳系和星际空间的航天器。 美国宇航局在加利福尼亚州的新的[…]深空网络设施标志着该机构的深空无线电天线增加了一个全新的34米宽（ 114英尺宽）的射频天线，",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 949
+      "contentCharacterCount": 999
     },
     {
       "id": 215,
@@ -2972,7 +2972,7 @@
       "contentCharacterCount": 942
     },
     {
-      "id": 96,
+      "id": 92,
       "category": "科技",
       "categoryEvidenceScore": 4,
       "categoryScores": {
@@ -2985,17 +2985,17 @@
       },
       "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：你的大脑在人工智能上",
-      "excerpt": "许多人发现基于人工智能的聊天机器人有助于跟上新闻，但麻省理工学院媒体实验室的Pattie Maes及其同事的一项研究表明，这种策略存在一个大问题。在四周内评估配对新闻标题和图片的参与者最初的判断准确率提高了21% ……就像GPS削弱了我们的导航技能一样，依靠聊天机器人可能会破坏我们的检测能力 假新闻。技术是否产生行业影响…",
-      "body": "核心进展\n\n许多人发现基于人工智能的聊天机器人有助于跟上新闻，但麻省理工学院媒体实验室的Pattie Maes及其同事的一项研究表明，这种策略存在一个大问题。在四周内评估配对新闻标题和图片的参与者最初的判断准确率提高了21% ……就像GPS削弱了我们的导航技能一样，依靠聊天机器人可能会破坏我们的检测能力 假新闻。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：麻省理工科技评论公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/07/GettyImages-2171044401.jpg?resize=1200,600",
+      "title": "科技前沿观察：AgeLab研究激发了A I创业公司的灵感",
+      "excerpt": "当Don Yansen ’63来到麻省理工学院AgeLab进行一项关于老年人护理技术的研究时，他并没有计划推出另一家公司。但是，当他听到与会者谈论现代设备的使用难度时，他决定开发一种替代方案。延森是一位连续创业者，他退休是为了照顾……技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来…",
+      "body": "核心进展\n\n当Don Yansen ’63来到麻省理工学院AgeLab进行一项关于老年人护理技术的研究时，他并没有计划推出另一家公司。但是，当他听到与会者谈论现代设备的使用难度时，他决定开发一种替代方案。延森是一位连续创业者，他退休是为了照顾……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：麻省理工科技评论公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/YansenLeft_photo-by-Chris-Frontiero.jpg?resize=1200,600",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "source-page",
       "imageAttribution": "MIT Technology Review",
-      "originalTitle": "Your brain on AI",
-      "originalExcerpt": "Many people find AI-based chatbots helpful in keeping up with news, but a study by Pattie Maes and her colleagues at the MIT Media Lab points to a big problem with this strategy. Participants who evaluated paired news headlines and images over the course of four weeks were initially 21% percent more accurate at telling…",
+      "originalTitle": "AgeLab research inspires an A I startup",
+      "originalExcerpt": "When Don Yansen ’63 arrived at the MIT AgeLab for a study on technology in care­giving for older adults, he didn’t plan to launch another company. But when he heard participants talk about how hard modern devices can be to use, he decided to develop an alternative. Yansen, a serial entrepreneur who retired to care for…",
       "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/25/1140958/your-brain-on-ai/",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/25/1140917/agelab-research-inspires-an-a-i-startup/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -3014,18 +3014,18 @@
       "sourceTrustLevel": "professional",
       "originalPublishedAt": "Tue, 25 Aug 2026 21:00:00 +0000",
       "sourcePublishedAt": "2026-08-25T21:00:00+00:00",
-      "collectedAt": "2026-08-25T21:48:11.515831+00:00",
+      "collectedAt": "2026-08-25T21:48:11.503490+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Many people find AI-based chatbots helpful in keeping up with news, but a study by Pattie Maes and her colleagues at the MIT Media Lab points to a big problem with this strategy. Participants who evaluated paired news headlines and images over the course of four weeks were initially 21% percent more accurate at telling… Much as GPS weakens our navigation skills, relying on chatbots can undermine our ability to detect fake news.",
+      "sourceMaterial": "When Don Yansen ’63 arrived at the MIT AgeLab for a study on technology in care­giving for older adults, he didn’t plan to launch another company. But when he heard participants talk about how hard modern devices can be to use, he decided to develop an alternative. Yansen, a serial entrepreneur who retired to care for…",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "你的大脑在人工智能上",
-      "translatedSourceMaterial": "许多人发现基于人工智能的聊天机器人有助于跟上新闻，但麻省理工学院媒体实验室的Pattie Maes及其同事的一项研究表明，这种策略存在一个大问题。在四周内评估配对新闻标题和图片的参与者最初的判断准确率提高了21% ……就像GPS削弱了我们的导航技能一样，依靠聊天机器人可能会破坏我们的检测能力 假新闻。",
+      "translatedSourceTitle": "AgeLab研究激发了A I创业公司的灵感",
+      "translatedSourceMaterial": "当Don Yansen ’63来到麻省理工学院AgeLab进行一项关于老年人护理技术的研究时，他并没有计划推出另一家公司。但是，当他听到与会者谈论现代设备的使用难度时，他决定开发一种替代方案。延森是一位连续创业者，他退休是为了照顾……",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 983
+      "contentCharacterCount": 949
     },
     {
       "id": 107,
@@ -3994,39 +3994,29 @@
       "categoryChanged": true
     }
   ],
-  "errors": [
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（856ms）：HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-08-25T21:48:12.292266+00:00",
-    "startedAt": "2026-08-25T21:47:56.274515+00:00",
-    "finishedAt": "2026-08-25T21:48:12.292266+00:00",
-    "status": "partial",
+    "id": "2026-08-25T23:35:39.797654+00:00",
+    "startedAt": "2026-08-25T23:35:21.289687+00:00",
+    "finishedAt": "2026-08-25T23:35:39.797654+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 339,
-    "added": 237,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 349,
+    "added": 247,
     "duplicates": 55,
     "invalid": 2,
     "staleSkipped": 45,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（856ms）：HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1662,
+        "durationMs": 1810,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4036,7 +4026,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1529,
+        "durationMs": 1327,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4046,7 +4036,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2452,
+        "durationMs": 2267,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4056,7 +4046,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1238,
+        "durationMs": 517,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4066,7 +4056,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1139,
+        "durationMs": 776,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4076,7 +4066,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1088,
+        "durationMs": 860,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4086,7 +4076,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1140,
+        "durationMs": 843,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4096,7 +4086,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1099,
+        "durationMs": 1044,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4106,7 +4096,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 749,
+        "durationMs": 680,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4116,7 +4106,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3717,
+        "durationMs": 3558,
         "fetched": 3,
         "added": 0,
         "duplicates": 3
@@ -4126,7 +4116,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1401,
+        "durationMs": 1111,
         "fetched": 6,
         "added": 1,
         "duplicates": 3
@@ -4136,7 +4126,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4788,
+        "durationMs": 7402,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4146,7 +4136,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1447,
+        "durationMs": 1470,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4156,7 +4146,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1760,
+        "durationMs": 1627,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4166,7 +4156,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 961,
+        "durationMs": 955,
         "fetched": 10,
         "added": 1,
         "duplicates": 4
@@ -4176,17 +4166,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 18,
+        "durationMs": 20,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 209,
+        "durationMs": 878,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4196,7 +4186,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 115,
+        "durationMs": 110,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4206,7 +4196,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 939,
+        "durationMs": 1074,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4216,7 +4206,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 75,
+        "durationMs": 109,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4226,7 +4216,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 762,
+        "durationMs": 648,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4236,7 +4226,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 442,
+        "durationMs": 595,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4246,7 +4236,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 76,
+        "durationMs": 561,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4256,7 +4246,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 42,
+        "durationMs": 59,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4266,7 +4256,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 408,
+        "durationMs": 504,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4276,17 +4266,17 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 133,
+        "durationMs": 163,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "us-national-institute-standards-technology",
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 51,
+        "durationMs": 43,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4296,7 +4286,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 125,
+        "durationMs": 112,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4306,7 +4296,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 412,
+        "durationMs": 356,
         "fetched": 10,
         "added": 0,
         "duplicates": 1
@@ -4316,7 +4306,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 252,
+        "durationMs": 331,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4326,7 +4316,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 835,
+        "durationMs": 56,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4334,20 +4324,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 856,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（856ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 36,
+        "fetched": 10,
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 448,
+        "durationMs": 356,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4357,7 +4346,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 518,
+        "durationMs": 808,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4377,7 +4366,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 51,
+        "durationMs": 79,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4395,7 +4384,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
