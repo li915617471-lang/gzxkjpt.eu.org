@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T12:24:12.074772+00:00",
+  "generatedAt": "2026-08-29T14:24:10.916137+00:00",
   "stories": [
     {
       "id": 1,
@@ -3233,6 +3233,67 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 59,
+      "category": "人文",
+      "categoryEvidenceScore": 4,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 0,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 8
+      },
+      "categoryClassificationMargin": 8,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《探索·发现》 20260829 历史探谜：元青花之谜（下）",
+      "excerpt": "本期节目主要内容：1980年冬，江西高安一处寻常工地意外打开了一个尘封数百年的秘密，两百多件元代古瓷破土而出，其中就包括19件元青花。举世罕见的元青花窖藏像一把钥匙，解开了被时间锁住的真相，成熟青花瓷并非始于明清，而是元代。（《探索·发现》 20260829 历史探谜：元青花之谜（下））",
+      "body": "视频简介\n\n本期节目主要内容：1980年冬，江西高安一处寻常工地意外打开了一个尘封数百年的秘密，两百多件元代古瓷破土而出，其中就包括19件元青花。举世罕见的元青花窖藏像一把钥匙，解开了被时间锁住的真相，成熟青花瓷并非始于明清，而是元代。（《探索·发现》 20260829 历史探谜：元青花之谜（下））\n\n简要来源\n\n本视频来自“中央广播电视总台《探索·发现》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p5.img.cctvpic.com/fmspic/2026/08/29/d616c8e9e6c14b9bb84bcf5c19b8e333-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中央广播电视总台《探索·发现》",
+      "originalTitle": "《探索·发现》 20260829 历史探谜：元青花之谜（下）",
+      "originalExcerpt": "本期节目主要内容：1980年冬，江西高安一处寻常工地意外打开了一个尘封数百年的秘密，两百多件元代古瓷破土而出，其中就包括19件元青花。举世罕见的元青花窖藏像一把钥匙，解开了被时间锁住的真相，成熟青花瓷并非始于明清，而是元代。（《探索·发现》 20260829 历史探谜：元青花之谜（下））",
+      "source": "中央广播电视总台《探索·发现》",
+      "sourceUrl": "https://tv.cctv.com/2026/08/29/VIDEbiLsTTC6LFfRKNUm8BTq260829.shtml",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 97,
+      "time": "待审核",
+      "readMinutes": 1,
+      "heat": 78,
+      "date": "2026-08-29",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-cctv-discovery-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "2026-08-29 20:32:00",
+      "sourcePublishedAt": "2026-08-29T20:32:00+00:00",
+      "collectedAt": "2026-08-29T14:24:09.985760+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：1980年冬，江西高安一处寻常工地意外打开了一个尘封数百年的秘密，两百多件元代古瓷破土而出，其中就包括19件元青花。举世罕见的元青花窖藏像一把钥匙，解开了被时间锁住的真相，成熟青花瓷并非始于明清，而是元代。（《探索·发现》 20260829 历史探谜：元青花之谜（下））",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://tv.cctv.com/2026/08/29/VIDEbiLsTTC6LFfRKNUm8BTq260829.shtml",
+      "videoPoster": "https://p5.img.cctvpic.com/fmspic/2026/08/29/d616c8e9e6c14b9bb84bcf5c19b8e333-1.jpg",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 77,
+      "videoDuration": "00:38:20",
+      "videoExternalId": "d616c8e9e6c14b9bb84bcf5c19b8e333",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 166
+    },
+    {
       "id": 50,
       "category": "人文",
       "categoryEvidenceScore": 2,
@@ -3291,7 +3352,9 @@
       "videoDuration": "00:27:38",
       "videoExternalId": "87b970e9312d41b3916976b58c1df378",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 185
+      "contentCharacterCount": 185,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 76,
@@ -3916,81 +3979,20 @@
       "summarySourceType": "source-page",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 72,
-      "category": "能源",
-      "categoryEvidenceScore": 3,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 3,
-        "工业": 0,
-        "能源": 4,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 1,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "【榕哥烙科】第634期：氢能的正确打开方式",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国数字科技馆”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20267/8395e5a4a796429d8d95e584b5dcd5b6.jpg",
-      "imageFallback": "assets/energy.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "中国数字科技馆",
-      "originalTitle": "【榕哥烙科】第634期：氢能的正确打开方式",
-      "originalExcerpt": "",
-      "source": "中国数字科技馆",
-      "sourceUrl": "https://www.cdstm.cn/videos/Tops/v600/art/2026/art_36613048c4d942bfb5f265496e059239.html",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 6,
-      "heat": 78,
-      "date": "2026-08-25",
-      "tags": [
-        "能源"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-digital-science-museum-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-08-25T05:53:19.348971+00:00",
-      "freshnessDays": null,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.cdstm.cn/videos/Tops/v600/art/2026/art_36613048c4d942bfb5f265496e059239.html",
-      "videoPoster": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20267/8395e5a4a796429d8d95e584b5dcd5b6.jpg",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 70,
-      "videoDuration": "",
-      "videoExternalId": "",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
   "errors": [],
   "collection": {
-    "id": "2026-08-29T12:24:12.074772+00:00",
-    "startedAt": "2026-08-29T12:23:59.337785+00:00",
-    "finishedAt": "2026-08-29T12:24:12.074772+00:00",
+    "id": "2026-08-29T14:24:10.916137+00:00",
+    "startedAt": "2026-08-29T14:23:59.363998+00:00",
+    "finishedAt": "2026-08-29T14:24:10.916137+00:00",
     "status": "success",
     "sourcesTotal": 36,
     "sourcesSucceeded": 36,
     "sourcesFailed": 0,
     "fetched": 348,
-    "added": 249,
-    "duplicates": 50,
+    "added": 248,
+    "duplicates": 51,
     "invalid": 1,
     "staleSkipped": 48,
     "maxSourceAgeDays": 45,
@@ -4001,7 +4003,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2530,
+        "durationMs": 1455,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4011,7 +4013,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1176,
+        "durationMs": 1080,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4021,7 +4023,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2224,
+        "durationMs": 1900,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4031,7 +4033,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 299,
+        "durationMs": 1244,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4041,7 +4043,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 940,
+        "durationMs": 1959,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4051,7 +4053,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 768,
+        "durationMs": 738,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4061,17 +4063,17 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 5850,
+        "durationMs": 916,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-cctv-discovery-video",
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 778,
+        "durationMs": 888,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4081,7 +4083,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 984,
+        "durationMs": 828,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4091,7 +4093,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3517,
+        "durationMs": 3416,
         "fetched": 2,
         "added": 1,
         "duplicates": 1
@@ -4101,7 +4103,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1221,
+        "durationMs": 1041,
         "fetched": 6,
         "added": 2,
         "duplicates": 3
@@ -4111,7 +4113,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3918,
+        "durationMs": 3422,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4121,7 +4123,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3709,
+        "durationMs": 1350,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4131,7 +4133,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1883,
+        "durationMs": 2045,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4141,7 +4143,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 896,
+        "durationMs": 843,
         "fetched": 10,
         "added": 0,
         "duplicates": 4
@@ -4151,7 +4153,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 90,
+        "durationMs": 116,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4161,7 +4163,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 217,
+        "durationMs": 717,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4171,7 +4173,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 136,
+        "durationMs": 105,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4181,7 +4183,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 969,
+        "durationMs": 965,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4191,7 +4193,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 162,
+        "durationMs": 260,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4201,7 +4203,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 867,
+        "durationMs": 1349,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4211,7 +4213,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1076,
+        "durationMs": 736,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4221,7 +4223,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 159,
+        "durationMs": 184,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4231,7 +4233,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 134,
+        "durationMs": 157,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4241,7 +4243,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 541,
+        "durationMs": 729,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4251,7 +4253,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 178,
+        "durationMs": 138,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4261,7 +4263,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 106,
+        "durationMs": 203,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4271,7 +4273,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 151,
+        "durationMs": 73,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4281,7 +4283,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 616,
+        "durationMs": 790,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4291,7 +4293,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 344,
+        "durationMs": 613,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4301,7 +4303,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1136,
+        "durationMs": 330,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4310,8 +4312,8 @@
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
         "status": "success",
-        "attempts": 2,
-        "durationMs": 1222,
+        "attempts": 1,
+        "durationMs": 119,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4321,7 +4323,7 @@
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 691,
+        "durationMs": 819,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4331,7 +4333,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 546,
+        "durationMs": 390,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4341,7 +4343,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1308,
+        "durationMs": 1334,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4351,7 +4353,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 132,
+        "durationMs": 136,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4362,9 +4364,9 @@
       "金融": 10,
       "科技": 12,
       "工业": 10,
-      "能源": 14,
+      "能源": 13,
       "农业": 11,
-      "人文": 15
+      "人文": 16
     },
     "articleGeneration": {
       "requested": 32,
@@ -4373,7 +4375,7 @@
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
-      "videosPrepared": 5,
+      "videosPrepared": 6,
       "minimumCharacters": 800
     }
   }
