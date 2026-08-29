@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T06:24:12.300583+00:00",
+  "generatedAt": "2026-08-29T08:24:16.413320+00:00",
   "stories": [
     {
       "id": 1,
@@ -2642,7 +2642,7 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 222,
+      "id": 119,
       "category": "科技",
       "categoryEvidenceScore": 2,
       "categoryScores": {
@@ -2655,47 +2655,47 @@
       },
       "categoryClassificationMargin": 5,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：NASA颁发LunaRecycle挑战赛第二阶段一等奖",
-      "excerpt": "美国宇航局指定麻省理工学院（ MIT ）的一个团队为该机构LunaRecycle挑战赛第二阶段的一等奖得主，该挑战赛的重点是通过回收织物、塑料、泡沫和金属等常见材料，开发减少月球或深空任务期间浪费的解决方案。 由麻省理工学院的本科生，研究生和博士生组成的Zotek （ CERBERUZ ）团队的工程外星回收复合材料获得了总计$ 775,000的奖励…",
-      "body": "核心进展\n\n美国宇航局指定麻省理工学院（ MIT ）的一个团队为该机构LunaRecycle挑战赛第二阶段的一等奖得主，该挑战赛的重点是通过回收织物、塑料、泡沫和金属等常见材料，开发减少月球或深空任务期间浪费的解决方案。 由麻省理工学院的本科生，研究生和博士生组成的Zotek （ CERBERUZ ）团队的工程外星回收复合材料获得了总计$ 775,000的奖励。该技术将混合垃圾粉碎成细粉， […]美国宇航局任命麻省理工学院（ MIT ）的一个团队为Phase项目的一等奖得主。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/08/cerberuz-lunarecycle-winners.jpg?w=2048",
+      "title": "科技前沿观察：推理期间的Rowhammer后门注入攻击（东北）",
+      "excerpt": "东北大学的研究人员发表了一篇名为“ROBBIN ：推理过程中基于Rowhammer的后门注入”的技术论文。摘要摘要： “这项工作提出了ROBBIN ，这是一种基于硬件感知的Rowhammer后门注入攻击，将设备特定的漏洞集成到后门构建过程中。 ROBBIN首先描述了目标DRAM的位翻转模式，并使用此信息迭代选择DRAM...…",
+      "body": "核心进展\n\n东北大学的研究人员发表了一篇名为“ROBBIN ：推理过程中基于Rowhammer的后门注入”的技术论文。摘要摘要： “这项工作提出了ROBBIN ，这是一种基于硬件感知的Rowhammer后门注入攻击，将设备特定的漏洞集成到后门构建过程中。 ROBBIN首先描述了目标DRAM的位翻转模式，并使用此信息迭代选择DRAM... »阅读更多推理期间的后Rowhammer后门注入攻击（东北）首先出现在半导体工程上。 东北大学的研究人员发表了一篇名为“ROBBIN ：推理过程中基于Rowhammer的后门注入”的技术论文。摘要摘要： “这项工作提出了ROBBIN ，这是一种基于硬件感知的Rowhammer后门注入攻击，将设备特定的漏洞集成到后门构建过程中。 ROBBIN首先表征目标DRAM的位翻转模式，并使用此信息迭代选择DRAM... »阅读更多。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://semiengineering.com/wp-content/uploads/2025/08/AdobeStock_716241307-security-scaled.jpeg?fit=2560%2C1280&ssl=1",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "NASA Breaking News",
-      "originalTitle": "NASA Awards First Prize in Phase 2 of Agency’s LunaRecycle Challenge",
-      "originalExcerpt": "NASA named a team from the Massachusetts Institute of Technology (MIT) as the first prize winner for Phase 2 of the agency’s LunaRecycle Challenge, which focused on developing solutions for reducing waste during missions to the Moon or deep space by recycling common materials, like fabrics, plastics, foam, and metals. The Composites for Extraterrestrial Recycling By Engineering the Reuse and Upcycling of Zotek (CERBERUZ) team, comprised of undergraduate, graduate, and doctoral students at MIT, received a total of $775,000 in awards. The technology grinds mixed trash into a fine powder, […]",
-      "source": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/centennial-challenges/nasa-awards-first-prize-in-phase-2-of-agencys-lunarecycle-challenge/",
+      "imageSourceType": "source-page",
+      "imageAttribution": "Semiconductor Engineering",
+      "originalTitle": "Rowhammer Backdoor Injection Attack During Inference (Northeastern)",
+      "originalExcerpt": "Researchers from Northeastern University published a technical paper titled “ROBBIN: Rowhammer-Based Backdoor Injection during Inference.” Abstract excerpt: “This work presents ROBBIN, a hardware-aware Rowhammer-based backdoor injection attack that integrates the device-specific vulnerability into the backdoor construction process. ROBBIN first characterizes the bit-flip patterns of a target DRAM and uses this information to iteratively select DRAM... » read more The post Rowhammer Backdoor Injection Attack During Inference (Northeastern) appeared first on Semiconductor Engineering .",
+      "source": "Semiconductor Engineering",
+      "sourceUrl": "https://semiengineering.com/rowhammer-backdoor-injection-attack-during-inference-northeastern/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 95,
+      "confidence": 86,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-08-28",
+      "date": "2026-08-29",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "nasa-breaking-news",
-      "sourceType": "official",
+      "collectionSourceId": "semiconductor-engineering",
+      "sourceType": "industry",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Fri, 28 Aug 2026 20:30:52 +0000",
-      "sourcePublishedAt": "2026-08-28T20:30:52+00:00",
-      "collectedAt": "2026-08-28T21:56:17.496236+00:00",
+      "sourceTrustLevel": "professional",
+      "originalPublishedAt": "Sat, 29 Aug 2026 07:01:49 +0000",
+      "sourcePublishedAt": "2026-08-29T07:01:49+00:00",
+      "collectedAt": "2026-08-29T08:24:15.895288+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "NASA named a team from the Massachusetts Institute of Technology (MIT) as the first prize winner for Phase 2 of the agency’s LunaRecycle Challenge, which focused on developing solutions for reducing waste during missions to the Moon or deep space by recycling common materials, like fabrics, plastics, foam, and metals. The Composites for Extraterrestrial Recycling By Engineering the Reuse and Upcycling of Zotek (CERBERUZ) team, comprised of undergraduate, graduate, and doctoral students at MIT, received a total of $775,000 in awards. The technology grinds mixed trash into a fine powder, […] NASA named a team from the Massachusetts Institute of Technology (MIT) as the first prize winner for Phase",
+      "sourceMaterial": "Researchers from Northeastern University published a technical paper titled “ROBBIN: Rowhammer-Based Backdoor Injection during Inference.” Abstract excerpt: “This work presents ROBBIN, a hardware-aware Rowhammer-based backdoor injection attack that integrates the device-specific vulnerability into the backdoor construction process. ROBBIN first characterizes the bit-flip patterns of a target DRAM and uses this information to iteratively select DRAM... » read more The post Rowhammer Backdoor Injection Attack During Inference (Northeastern) appeared first on Semiconductor Engineering . Researchers from Northeastern University published a technical paper titled “ROBBIN: Rowhammer-Based Backdoor Injection during Inference.” Abstract excerpt: “This work presents ROBBIN, a hardware-aware Rowhammer-based backdoor injection attack that integrates the device-specific vulnerability into the backdoor construction process. ROBBIN first characterizes the bit-flip patterns of a target DRAM and uses this information to iteratively select DRAM... » read more",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "NASA颁发LunaRecycle挑战赛第二阶段一等奖",
-      "translatedSourceMaterial": "美国宇航局指定麻省理工学院（ MIT ）的一个团队为该机构LunaRecycle挑战赛第二阶段的一等奖得主，该挑战赛的重点是通过回收织物、塑料、泡沫和金属等常见材料，开发减少月球或深空任务期间浪费的解决方案。 由麻省理工学院的本科生，研究生和博士生组成的Zotek （ CERBERUZ ）团队的工程外星回收复合材料获得了总计$ 775,000的奖励。该技术将混合垃圾粉碎成细粉， […]美国宇航局任命麻省理工学院（ MIT ）的一个团队为Phase项目的一等奖得主。",
+      "translatedSourceTitle": "推理期间的Rowhammer后门注入攻击（东北）",
+      "translatedSourceMaterial": "东北大学的研究人员发表了一篇名为“ROBBIN ：推理过程中基于Rowhammer的后门注入”的技术论文。摘要摘要： “这项工作提出了ROBBIN ，这是一种基于硬件感知的Rowhammer后门注入攻击，将设备特定的漏洞集成到后门构建过程中。 ROBBIN首先描述了目标DRAM的位翻转模式，并使用此信息迭代选择DRAM... »阅读更多推理期间的后Rowhammer后门注入攻击（东北）首先出现在半导体工程上。 东北大学的研究人员发表了一篇名为“ROBBIN ：推理过程中基于Rowhammer的后门注入”的技术论文。摘要摘要： “这项工作提出了ROBBIN ，这是一种基于硬件感知的Rowhammer后门注入攻击，将设备特定的漏洞集成到后门构建过程中。 ROBBIN首先表征目标DRAM的位翻转模式，并使用此信息迭代选择DRAM... »阅读更多",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1048
+      "contentCharacterCount": 1175
     },
     {
       "id": 205,
@@ -2871,7 +2871,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "人文前沿观察：森林在古老的全球变暖事件中表现不佳，为今天的气候变化提供了一个“警示”故事",
       "excerpt": "一项研究表明， 5600万年前的一次强烈的全球变暖事件导致现代怀俄明州的一片森林失去了大约60%的树冠覆盖，并且花了超过10万年的时间才恢复过来。人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
-      "body": "核心进展\n\n一项研究表明， 5600万年前的一次强烈的全球变暖事件导致现代怀俄明州的一片森林失去了大约60%的树冠覆盖，并且花了超过10万年的时间才恢复过来。。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 一项研究表明， 5600万年前的一次强烈的全球变暖事件导致现代怀俄明州的一片森林失去了大约60%的树冠覆盖，并且花了超过10万年的时间才恢复过来。。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/R24DK6D7rmaZwnU-8WQOiPKUSuA=/420x240/filters:focal(350x263:351x264)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/f9/a1/f9a1f6a6-893d-43dc-a48a-6386c8defe01/low-res_example_of_carbonaceous_shale_img_6878.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2968,55 +2968,60 @@
       "contentCharacterCount": 960
     },
     {
-      "id": 112,
+      "id": 222,
       "category": "科技",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
-        "科技": 7,
-        "工业": 2,
+        "科技": 5,
+        "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 2
+        "人文": 0
       },
       "categoryClassificationMargin": 5,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Oscar Winner Brings Monsters to Life With His Simulation Software",
-      "excerpt": "While walking to school as a child, Jernej Barbič would marvel at how beautiful his home was. He was born and raised in a picturesque village in northwestern Slovenia (formerly Yugoslavia), located in the European Alps. Surrounded by alpine and beech trees, Barbic dreamed of…",
-      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“电气电子工程师学会科技观察”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://spectrum.ieee.org/media-library/a-white-man-in-business-casual-attire-seated-at-his-desk-with-a-laptop-and-desktop-computer-each-playing-a-different-movie-on-t.jpg?id=67690500&width=980",
+      "title": "科技前沿观察：NASA颁发LunaRecycle挑战赛第二阶段一等奖",
+      "excerpt": "美国宇航局指定麻省理工学院（ MIT ）的一个团队为该机构LunaRecycle挑战赛第二阶段的一等奖得主，该挑战赛的重点是通过回收织物、塑料、泡沫和金属等常见材料，开发减少月球或深空任务期间浪费的解决方案。 由麻省理工学院的本科生，研究生和博士生组成的Zotek （ CERBERUZ ）团队的工程外星回收复合材料获得了总计$ 775,000的奖励…",
+      "body": "核心进展\n\n美国宇航局指定麻省理工学院（ MIT ）的一个团队为该机构LunaRecycle挑战赛第二阶段的一等奖得主，该挑战赛的重点是通过回收织物、塑料、泡沫和金属等常见材料，开发减少月球或深空任务期间浪费的解决方案。 由麻省理工学院的本科生，研究生和博士生组成的Zotek （ CERBERUZ ）团队的工程外星回收复合材料获得了总计$ 775,000的奖励。该技术将混合垃圾粉碎成细粉， […]美国宇航局任命麻省理工学院（ MIT ）的一个团队为Phase项目的一等奖得主。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/08/cerberuz-lunarecycle-winners.jpg?w=2048",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "IEEE Spectrum",
-      "originalTitle": "Oscar Winner Brings Monsters to Life With His Simulation Software",
-      "originalExcerpt": "While walking to school as a child, Jernej Barbič would marvel at how beautiful his home was. He was born and raised in a picturesque village in northwestern Slovenia (formerly Yugoslavia), located in the European Alps. Surrounded by alpine and beech trees, Barbic dreamed of replicating their swaying in the wind for others to enjoy. At the time, he didn’t have the tools or the knowledge to create a system that could do that, but it sparked his interest in computer graphics , he says. Jernej Barbič Employer University of Southern California, in Los Angeles Title Professor of computer science Member grade Senior member Alma maters University of Ljubljana, in Slovenia; Carnegie Mellon Twenty years later, in 2016, Barbič, a professor of computer science at the University of Southern California , in Los Angeles, made his mark. His Ziva VFX software system allows for the creation of realistic muscle, fat, and skin simulations for 3D digital humans and creatures. The technology was launched in 2016 by a startup he helped found, Ziva Dynamics , headquartered in Vancouver. It was acquired in 2021 by Unity Technologies of San Francisco. Ziva VFX has been used in more than 60 movies including Aquaman and the Lost Kingdom ; Godzilla x Kong: The New Empire ; and Venom: Let There Be Carnage . For the design and development of Ziva VFX, Barbič, an IEEE senior member, received a 2025 technical achievement Academy Award . It was a “tremendous honor,” he says, as the award recognizes technologies that have had a significant impact on motion picture production. “Computer graphics and simulation can sometimes feel like a specialized technical field,” he says, “but the award showed that these ideas affect not just science but also art and how stories are told on screen. “The digital characters enabled by mathematics become important parts of people’s lives.” Sparking an interest in computer graphics Barbič says he was inspired to pursue engineering by his father, an engineer who headed…",
-      "source": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/oscar-winner-jernej-barbic",
+      "imageAttribution": "NASA Breaking News",
+      "originalTitle": "NASA Awards First Prize in Phase 2 of Agency’s LunaRecycle Challenge",
+      "originalExcerpt": "NASA named a team from the Massachusetts Institute of Technology (MIT) as the first prize winner for Phase 2 of the agency’s LunaRecycle Challenge, which focused on developing solutions for reducing waste during missions to the Moon or deep space by recycling common materials, like fabrics, plastics, foam, and metals. The Composites for Extraterrestrial Recycling By Engineering the Reuse and Upcycling of Zotek (CERBERUZ) team, comprised of undergraduate, graduate, and doctoral students at MIT, received a total of $775,000 in awards. The technology grinds mixed trash into a fine powder, […]",
+      "source": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/centennial-challenges/nasa-awards-first-prize-in-phase-2-of-agencys-lunarecycle-challenge/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 90,
+      "confidence": 95,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-08-28",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "ieee-spectrum",
-      "sourceType": "research",
+      "collectionSourceId": "nasa-breaking-news",
+      "sourceType": "official",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Fri, 28 Aug 2026 18:00:04 +0000",
-      "sourcePublishedAt": "2026-08-28T18:00:04+00:00",
-      "collectedAt": "2026-08-28T21:56:17.132642+00:00",
+      "originalPublishedAt": "Fri, 28 Aug 2026 20:30:52 +0000",
+      "sourcePublishedAt": "2026-08-28T20:30:52+00:00",
+      "collectedAt": "2026-08-28T21:56:17.496236+00:00",
       "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "While walking to school as a child, Jernej Barbič would marvel at how beautiful his home was. He was born and raised in a picturesque village in northwestern Slovenia (formerly Yugoslavia), located in the European Alps. Surrounded by alpine and beech trees, Barbic dreamed of replicating their swaying in the wind for others to enjoy. At the time, he didn’t have the tools or the knowledge to create a system that could do that, but it sparked his interest in computer graphics , he says. Jernej Barbič Employer University of Southern California, in Los Angeles Title Professor of computer science Member grade Senior member Alma maters University of Ljubljana, in Slovenia; Carnegie Mellon Twenty years later, in 2016, Barbič, a professor of computer science at the University of Southern California , in Los Angeles, made his mark. His Ziva VFX software system allows for the creation of realistic muscle, fat, and skin simulations for 3D digital humans and creatures. The technology was launched in 2016 by a startup he helped found, Ziva Dynamics , headquartered in Vancouver. It was acquired in 2021 by Unity Technologies of San Francisco. Ziva VFX has been used in more than 60 movies including Aquaman and the Lost Kingdom ; Godzilla x Kong: The New Empire ; and Venom: Let There Be Carnage . For the design and development of Ziva VFX, Barbič, an IEEE senior member, received a 2025 technical achievement Academy Award . It was a “tremendous honor,” he says, as the award recognizes technologies that have had a significant impact on motion picture production. “Computer graphics and simulation can sometimes feel like a specialized technical field,” he says, “but the award showed that these ideas affect not just science but also art and how stories are told on screen. “The digital characters enabled by mathematics become important parts of people’s lives.” Sparking an interest in computer graphics Barbič says he was inspired to pursue engineering by his father, an engineer who headed a cement factory’s research department and invented a technology that uses magnetic resonance imaging to test the integrity of cement. His father’s work showed him that “mathematics and physics are beautiful on their own, but engineering lets you build something that other people can use,” he says. It was Barbič’s mother, an elementary school teacher, who introduced him to computer science. When he was 8 years old, the school his mother taught at bought a ZX Spectrum computer . With permission from the principal, she brought it home for her son to play on for two weeks. But he didn’t just play games; he created his own game using the BASIC programming language. The machine came with a booklet that contained instructions on how to write a computer program, he says. “At first,” he says, “I copied them verbatim without understanding what they did. But then I started realizing there is structure, and I modified the instructions.” Of all the creatures brought to life using his technology, Barbič is particularly enamored with King Kong from 2024’s Godzilla vs. Kong. DNEG/Warner Bros. Entertainment Inc./Legendary By the end of the two weeks, he’d developed a computer game where players guided a snowman along a winding road. It shifted unpredictably to the left or right, and players accumulated points by remaining on the road for as long as possible. Barbič went on to earn a bachelor’s degree in mathematics in 2000 from the University of Ljubljana , in Slovenia. The following year, he moved to the United States to begin a doctoral program in computer science at Carnegie Mellon . It was a major turning point in his life, he says. His doctoral research focused on developing simulation methods for objects that can change their shape when an outside force is applied to them, known as “deformable objects.” That project shaped much of his later research, he says: “I became interested not only in making simulations accurate but also in making them practical: fast enough, robust enough, and controllable enough to be used in real applications.” After earning his Ph.D. in computer science in 2007, he worked as a postdoctoral researcher at MIT . Two years later, he joined USC as an assistant professor. Making movie magic possible It was at USC that Barbič merged his passion for computer science with film. He developed Vega FEM, an open-source software program that allowed people to animate realistic 3D deformable objects. But Vega FEM was narrow in scope and not exactly what filmmakers needed, he says, so he started exploring how to create a version suitable for the movie industry. “A major theme of my career has been the translation of research ideas into practical tools,” he says. “Academic research often produces beautiful algorithms, but it can be difficult to make those algorithms usable by artists, engineers, or production teams. I have always been interested in that bridge: taking rigorous computational methods and turning them into systems that people can actually use.” In 2011 he attended an Association for Computing Machinery conference presented by its Special Interest Group on Computer Graphics and Interactive Techniques (SIGGraph). There he met James Jacobs , the creature supervisor at visual effects company Weta FX of Wellington, New Zealand. The company is behind the effects in the Lord of the Rings and Hobbit trilogies and other movies. Jacobs used Barbič’s software to create animals and fantastical creatures. Two years later, Weta FX offered Barbič a summerlong research position in New Zealand. He accepted and spent the time studying the process of creating visual effects and learning what roadblocks existed in the film industry, he says. At the time, the technology to create realistic soft-tissue and anatomical simulation for digital characters didn’t exist. “The visual effects industry had reached a point where surface-level realism was not enough,” Barbič says. “A creature could have beautiful skin textures and detailed…",
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "NASA named a team from the Massachusetts Institute of Technology (MIT) as the first prize winner for Phase 2 of the agency’s LunaRecycle Challenge, which focused on developing solutions for reducing waste during missions to the Moon or deep space by recycling common materials, like fabrics, plastics, foam, and metals. The Composites for Extraterrestrial Recycling By Engineering the Reuse and Upcycling of Zotek (CERBERUZ) team, comprised of undergraduate, graduate, and doctoral students at MIT, received a total of $775,000 in awards. The technology grinds mixed trash into a fine powder, […] NASA named a team from the Massachusetts Institute of Technology (MIT) as the first prize winner for Phase",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "translatedSourceTitle": "NASA颁发LunaRecycle挑战赛第二阶段一等奖",
+      "translatedSourceMaterial": "美国宇航局指定麻省理工学院（ MIT ）的一个团队为该机构LunaRecycle挑战赛第二阶段的一等奖得主，该挑战赛的重点是通过回收织物、塑料、泡沫和金属等常见材料，开发减少月球或深空任务期间浪费的解决方案。 由麻省理工学院的本科生，研究生和博士生组成的Zotek （ CERBERUZ ）团队的工程外星回收复合材料获得了总计$ 775,000的奖励。该技术将混合垃圾粉碎成细粉， […]美国宇航局任命麻省理工学院（ MIT ）的一个团队为Phase项目的一等奖得主。",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 1048
     },
     {
       "id": 122,
@@ -3975,29 +3980,39 @@
       "translatedSourceMaterial": ""
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "科普中国",
+      "error": "连续 2 次请求失败（3282ms）：HTTP Error 405: Not Allowed"
+    }
+  ],
   "collection": {
-    "id": "2026-08-29T06:24:12.300583+00:00",
-    "startedAt": "2026-08-29T06:23:58.523245+00:00",
-    "finishedAt": "2026-08-29T06:24:12.300583+00:00",
-    "status": "success",
+    "id": "2026-08-29T08:24:16.413320+00:00",
+    "startedAt": "2026-08-29T08:24:01.529158+00:00",
+    "finishedAt": "2026-08-29T08:24:16.413320+00:00",
+    "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 36,
-    "sourcesFailed": 0,
-    "fetched": 348,
-    "added": 250,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 346,
+    "added": 248,
     "duplicates": 49,
     "invalid": 1,
     "staleSkipped": 48,
     "maxSourceAgeDays": 45,
-    "errors": [],
+    "errors": [
+      {
+        "source": "科普中国",
+        "error": "连续 2 次请求失败（3282ms）：HTTP Error 405: Not Allowed"
+      }
+    ],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1196,
+        "durationMs": 1716,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4007,7 +4022,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1289,
+        "durationMs": 1701,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4017,7 +4032,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1952,
+        "durationMs": 2329,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4027,7 +4042,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 416,
+        "durationMs": 612,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4037,7 +4052,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 864,
+        "durationMs": 1501,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4047,7 +4062,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 865,
+        "durationMs": 1363,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4057,7 +4072,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1266,
+        "durationMs": 1432,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4067,7 +4082,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1108,
+        "durationMs": 1275,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4077,7 +4092,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 649,
+        "durationMs": 909,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4085,19 +4100,20 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 3719,
-        "fetched": 2,
-        "added": 1,
-        "duplicates": 1
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 3282,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（3282ms）：HTTP Error 405: Not Allowed"
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1229,
+        "durationMs": 1308,
         "fetched": 6,
         "added": 2,
         "duplicates": 3
@@ -4107,7 +4123,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 6367,
+        "durationMs": 3856,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4117,7 +4133,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1547,
+        "durationMs": 1097,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4127,17 +4143,17 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1693,
+        "durationMs": 1558,
         "fetched": 10,
-        "added": 4,
-        "duplicates": 6
+        "added": 3,
+        "duplicates": 7
       },
       {
         "sourceId": "china-mct-culture-news",
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1076,
+        "durationMs": 1064,
         "fetched": 10,
         "added": 0,
         "duplicates": 4
@@ -4147,7 +4163,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 236,
+        "durationMs": 46,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4157,7 +4173,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 120,
+        "durationMs": 599,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4167,7 +4183,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 198,
+        "durationMs": 108,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4177,7 +4193,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 869,
+        "durationMs": 767,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4187,7 +4203,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 256,
+        "durationMs": 125,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4197,7 +4213,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1017,
+        "durationMs": 843,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4207,7 +4223,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 725,
+        "durationMs": 518,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4217,7 +4233,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 221,
+        "durationMs": 84,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4227,7 +4243,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 179,
+        "durationMs": 39,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4237,7 +4253,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 672,
+        "durationMs": 440,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4247,7 +4263,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 288,
+        "durationMs": 107,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4257,7 +4273,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 214,
+        "durationMs": 45,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4267,7 +4283,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 257,
+        "durationMs": 99,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4277,7 +4293,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 883,
+        "durationMs": 469,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4287,7 +4303,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3767,
+        "durationMs": 280,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4297,7 +4313,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 337,
+        "durationMs": 32,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4307,7 +4323,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 357,
+        "durationMs": 39,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4317,7 +4333,7 @@
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 680,
+        "durationMs": 213,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4327,7 +4343,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 715,
+        "durationMs": 436,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4337,7 +4353,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 891,
+        "durationMs": 2465,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4347,7 +4363,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 244,
+        "durationMs": 77,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4365,7 +4381,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 0,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
