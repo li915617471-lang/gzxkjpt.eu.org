@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T10:24:07.839966+00:00",
+  "generatedAt": "2026-08-29T12:24:12.074772+00:00",
   "stories": [
     {
       "id": 1,
@@ -3233,6 +3233,67 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 50,
+      "category": "人文",
+      "categoryEvidenceScore": 2,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 0,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 5
+      },
+      "categoryClassificationMargin": 5,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《地理·中国》 20260829 金牌讲解员·“国宝”小城（上）",
+      "excerpt": "本期节目主要内容：随着北京中轴线被正式列入《世界遗产名录》，人们对中轴线文化更多关注起来，就在离北京西南大约280千米的地方，有这样一座古城，它的中轴线建成历史比北京还要悠久，历经战火之后竟然还有10处全国重点文物保护单位得以保存，并且全部都位于古城的中轴线两侧。（《地理·中国》 20260829 金牌讲解员·“国宝”小城（上））",
+      "body": "视频简介\n\n本期节目主要内容：随着北京中轴线被正式列入《世界遗产名录》，人们对中轴线文化更多关注起来，就在离北京西南大约280千米的地方，有这样一座古城，它的中轴线建成历史比北京还要悠久，历经战火之后竟然还有10处全国重点文物保护单位得以保存，并且全部都位于古城的中轴线两侧。（《地理·中国》 20260829 金牌讲解员·“国宝”小城（上））\n\n简要来源\n\n本视频来自“中央广播电视总台《地理·中国》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p4.img.cctvpic.com/fmspic/2026/08/29/87b970e9312d41b3916976b58c1df378-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中央广播电视总台《地理·中国》",
+      "originalTitle": "《地理·中国》 20260829 金牌讲解员·“国宝”小城（上）",
+      "originalExcerpt": "本期节目主要内容：随着北京中轴线被正式列入《世界遗产名录》，人们对中轴线文化更多关注起来，就在离北京西南大约280千米的地方，有这样一座古城，它的中轴线建成历史比北京还要悠久，历经战火之后竟然还有10处全国重点文物保护单位得以保存，并且全部都位于古城的中轴线两侧。（《地理·中国》 20260829 金牌讲解员·“国宝”小城（上））",
+      "source": "中央广播电视总台《地理·中国》",
+      "sourceUrl": "https://tv.cctv.com/2026/08/29/VIDELBa3hb9BAzYEvhyXpVJa260829.shtml",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 97,
+      "time": "待审核",
+      "readMinutes": 1,
+      "heat": 78,
+      "date": "2026-08-29",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-cctv-geography-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "2026-08-29 17:26:00",
+      "sourcePublishedAt": "2026-08-29T17:26:00+00:00",
+      "collectedAt": "2026-08-29T12:24:11.165123+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：随着北京中轴线被正式列入《世界遗产名录》，人们对中轴线文化更多关注起来，就在离北京西南大约280千米的地方，有这样一座古城，它的中轴线建成历史比北京还要悠久，历经战火之后竟然还有10处全国重点文物保护单位得以保存，并且全部都位于古城的中轴线两侧。（《地理·中国》 20260829 金牌讲解员·“国宝”小城（上））",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://tv.cctv.com/2026/08/29/VIDELBa3hb9BAzYEvhyXpVJa260829.shtml",
+      "videoPoster": "https://p4.img.cctvpic.com/fmspic/2026/08/29/87b970e9312d41b3916976b58c1df378-1.jpg",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 78,
+      "videoDuration": "00:27:38",
+      "videoExternalId": "87b970e9312d41b3916976b58c1df378",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 185
+    },
+    {
       "id": 76,
       "category": "科技",
       "categoryEvidenceScore": 3,
@@ -3916,103 +3977,31 @@
       "videoExternalId": "",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 71,
-      "category": "科技",
-      "categoryEvidenceScore": 3,
-      "categoryScores": {
-        "金融": 1,
-        "科技": 7,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 6,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "AI在你看不到的地方给你打分？！",
-      "excerpt": "信用评估、求职筛选、保险定价。这些决定你生活的重要关口，背后往往站着一个算法。一个数字，可能决定你能不能贷款，能不能拿到一次面试，能不能用更合理的价格买到保险。算法越来越聪明，被算法做决定的人越来越多，而",
-      "body": "核心信息 信用评估、求职筛选、保险定价。这些决定你生活的重要关口，背后往往站着一个算法。一个数字，可能决定你能不能贷款，能不能拿到一次面试，能不能用更合理的价格买到保险。算法越来越聪明，被算法做决定的人越来越多，而 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/26/15/1787638330587.png",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "科普中国",
-      "originalTitle": "AI在你看不到的地方给你打分？！",
-      "originalExcerpt": "",
-      "source": "科普中国",
-      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=730990",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 6,
-      "heat": 78,
-      "date": "2026-08-25",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-kepuchina-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-08-25T08:24:03.077350+00:00",
-      "freshnessDays": null,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=730990",
-      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/26/15/1787638330587.png",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 72,
-      "videoDuration": "",
-      "videoExternalId": "730990",
-      "summarySourceType": "source-page",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
-  "errors": [
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（1082ms）：HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-08-29T10:24:07.839966+00:00",
-    "startedAt": "2026-08-29T10:23:56.301111+00:00",
-    "finishedAt": "2026-08-29T10:24:07.839966+00:00",
-    "status": "partial",
+    "id": "2026-08-29T12:24:12.074772+00:00",
+    "startedAt": "2026-08-29T12:23:59.337785+00:00",
+    "finishedAt": "2026-08-29T12:24:12.074772+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 338,
-    "added": 240,
-    "duplicates": 49,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 348,
+    "added": 249,
+    "duplicates": 50,
     "invalid": 1,
     "staleSkipped": 48,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（1082ms）：HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1293,
+        "durationMs": 2530,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4022,7 +4011,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1349,
+        "durationMs": 1176,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4032,7 +4021,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1873,
+        "durationMs": 2224,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4042,7 +4031,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1082,
+        "durationMs": 299,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4052,7 +4041,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 795,
+        "durationMs": 940,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4062,7 +4051,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 834,
+        "durationMs": 768,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4072,7 +4061,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 968,
+        "durationMs": 5850,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4082,7 +4071,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 765,
+        "durationMs": 778,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4092,7 +4081,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1115,
+        "durationMs": 984,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4102,7 +4091,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3184,
+        "durationMs": 3517,
         "fetched": 2,
         "added": 1,
         "duplicates": 1
@@ -4112,7 +4101,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 868,
+        "durationMs": 1221,
         "fetched": 6,
         "added": 2,
         "duplicates": 3
@@ -4122,7 +4111,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4274,
+        "durationMs": 3918,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4132,7 +4121,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2214,
+        "durationMs": 3709,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4142,7 +4131,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1914,
+        "durationMs": 1883,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4152,7 +4141,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1089,
+        "durationMs": 896,
         "fetched": 10,
         "added": 0,
         "duplicates": 4
@@ -4162,7 +4151,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 75,
+        "durationMs": 90,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4172,7 +4161,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 183,
+        "durationMs": 217,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4182,7 +4171,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 128,
+        "durationMs": 136,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4192,7 +4181,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1014,
+        "durationMs": 969,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4202,7 +4191,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 274,
+        "durationMs": 162,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4212,7 +4201,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1153,
+        "durationMs": 867,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4222,7 +4211,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 880,
+        "durationMs": 1076,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4232,7 +4221,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 185,
+        "durationMs": 159,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4242,7 +4231,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 83,
+        "durationMs": 134,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4252,7 +4241,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 827,
+        "durationMs": 541,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4262,7 +4251,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 125,
+        "durationMs": 178,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4272,7 +4261,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 131,
+        "durationMs": 106,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4282,7 +4271,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 85,
+        "durationMs": 151,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4292,7 +4281,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 801,
+        "durationMs": 616,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4302,7 +4291,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 429,
+        "durationMs": 344,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4312,7 +4301,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 318,
+        "durationMs": 1136,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4320,20 +4309,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
+        "status": "success",
         "attempts": 2,
-        "durationMs": 1082,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（1082ms）：HTTP Error 429: Too Many Requests"
+        "durationMs": 1222,
+        "fetched": 10,
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 750,
+        "durationMs": 691,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4343,7 +4331,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 599,
+        "durationMs": 546,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4353,7 +4341,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1222,
+        "durationMs": 1308,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4363,7 +4351,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 94,
+        "durationMs": 132,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4372,11 +4360,11 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 13,
+      "科技": 12,
       "工业": 10,
       "能源": 14,
       "农业": 11,
-      "人文": 14
+      "人文": 15
     },
     "articleGeneration": {
       "requested": 32,
@@ -4385,7 +4373,7 @@
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
-      "videosPrepared": 4,
+      "videosPrepared": 5,
       "minimumCharacters": 800
     }
   }
