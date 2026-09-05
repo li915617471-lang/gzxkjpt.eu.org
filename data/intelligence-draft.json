@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T20:49:04.013047+00:00",
+  "generatedAt": "2026-09-05T00:09:03.650398+00:00",
   "stories": [
     {
       "id": 1,
@@ -2535,7 +2535,7 @@
       "contentCharacterCount": 846
     },
     {
-      "id": 243,
+      "id": 235,
       "category": "人文",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -2548,23 +2548,23 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Kermit the Frog Was Just Trying to Put on a Variety Show. Fifty Years Later, the Muppets Are Some of the Biggest Stars in Television History",
-      "excerpt": "The first episode of Jim Henson's \"The Muppet Show\" premiered in the United Kingdom on September 5, 1976. Enthusiasm for the eclectic ensemble has endured ever since",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/semiconductor.jpg",
+      "title": "人文前沿观察：纽约市展览庆祝史努比对艺术和时尚的持久影响",
+      "excerpt": "备受喜爱的“花生”角色的许多服装和品牌合作在一个新的展示中展出人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
+      "body": "核心进展\n\n备受喜爱的“花生”角色的许多服装和品牌合作在一个新的展示中展出。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://th-thumbnailer.cdn-si-edu.com/eaZmeViS7GzNv80O8KfsyF2QGw8=/420x240/filters:focal(960x681:961x682)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/c9/05/c905a52f-0314-4ce0-993c-206eadb5d2c4/grc-2019-c-00772large.jpg",
       "imageFallback": "assets/semiconductor.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
-      "originalTitle": "Kermit the Frog Was Just Trying to Put on a Variety Show. Fifty Years Later, the Muppets Are Some of the Biggest Stars in Television History",
-      "originalExcerpt": "The first episode of Jim Henson's \"The Muppet Show\" premiered in the United Kingdom on September 5, 1976. Enthusiasm for the eclectic ensemble has endured ever since",
+      "imageSourceType": "rss",
+      "imageAttribution": "Smithsonian Magazine",
+      "originalTitle": "A New York City Exhibition Celebrates Snoopy’s Enduring Influence on Art and Fashion",
+      "originalExcerpt": "The beloved \"Peanuts\" character’s many costumes and brand collaborations are featured in a new showcase",
       "source": "Smithsonian Magazine",
-      "sourceUrl": "https://www.smithsonianmag.com/smithsonian-institution/kermit-the-frog-was-just-trying-to-put-on-a-variety-show-fifty-years-later-the-muppets-are-some-of-the-biggest-stars-in-television-history-180989451/",
+      "sourceUrl": "https://www.smithsonianmag.com/smart-news/a-new-york-city-exhibition-celebrates-snoopys-enduring-influence-on-art-and-fashion-180989455/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 89,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-09-04",
       "tags": [
@@ -2575,13 +2575,20 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 04 Sep 2026 19:21:00 +0000",
-      "sourcePublishedAt": "2026-09-04T19:21:00+00:00",
-      "collectedAt": "2026-09-04T20:49:03.998833+00:00",
-      "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "The first episode of Jim Henson's \"The Muppet Show\" premiered in the United Kingdom on September 5, 1976. Enthusiasm for the eclectic ensemble has endured ever since",
-      "sourceMaterialType": "rss"
+      "originalPublishedAt": "Fri, 04 Sep 2026 21:22:36 +0000",
+      "sourcePublishedAt": "2026-09-04T21:22:36+00:00",
+      "collectedAt": "2026-09-05T00:09:03.630844+00:00",
+      "freshnessDays": 1,
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "The beloved \"Peanuts\" character’s many costumes and brand collaborations are featured in a new showcase",
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "纽约市展览庆祝史努比对艺术和时尚的持久影响",
+      "translatedSourceMaterial": "备受喜爱的“花生”角色的许多服装和品牌合作在一个新的展示中展出",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 853
     },
     {
       "id": 166,
@@ -2655,7 +2662,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Architecting memory and storage in the AI era",
       "excerpt": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/07/iStock-2239372581.jpg?w=840",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -2686,7 +2693,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while…",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 193,
@@ -2704,7 +2713,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "工业前沿观察：ConocoPhillips阿拉斯加项目早日实现首个石油开采",
       "excerpt": "《石油与天然气杂志》）。正在发生的事情：这座约8亿美元的开发项目位于国有土地上，于8月7日达到里程碑。预计将达到每天约12,000桶的石油产量峰值。 虽然该开发项目使用了现有的基础设施，但它也“包括PAD扩建，安装了更多……后ConocoPhillips阿拉斯加项目实现了First Oil Early首次出现在NAM。《石油与天然气杂志》）…",
-      "body": "核心进展\n\n《石油与天然气杂志》）。正在发生的事情：这座约8亿美元的开发项目位于国有土地上，于8月7日达到里程碑。预计将达到每天约12,000桶的石油产量峰值。 虽然该开发项目使用了现有的基础设施，但它也“包括PAD扩建，安装了更多……后ConocoPhillips阿拉斯加项目实现了First Oil Early首次出现在NAM。《石油与天然气杂志》）。正在发生的事情：这座约8亿美元的开发项目位于国有土地上，于8月7日达到里程碑。 预计将达到每天约12,000桶的石油产量峰值。在开发使用现有基础设施的同时，它还“包括PAD扩展，安装超过……。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。\n\n关键内容\n\n分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 《石油与天然气杂志》）。正在发生的事情：这座约8亿美元的开发项目位于国有土地上，于8月7日达到里程碑。预计将达到每天约12,000桶的石油产量峰值。 虽然该开发项目使用了现有的基础设施，但它也“包括PAD扩建，安装了更多……后ConocoPhillips阿拉斯加项目实现了First Oil Early首次出现在NAM。《石油与天然气杂志》）。正在发生的事情：这座约8亿美元的开发项目位于国有土地上，于8月7日达到里程碑。 预计将达到每天约12,000桶的石油产量峰值。在开发使用现有基础设施的同时，它还“包括PAD扩展，安装超过……。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。 关键内容 分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://nam.org/wp-content/uploads/2026/09/quickbuild-4-3.jpg",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -2857,7 +2866,7 @@
       "contentCharacterCount": 913
     },
     {
-      "id": 237,
+      "id": 243,
       "category": "人文",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -2870,17 +2879,17 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Researchers Have Figured Out How to Spot Fake Ancient Pottery Using the Earth's Magnetic Field",
-      "excerpt": "The magnetic North Pole has shifted over the millennia, leaving clues in the minerals that make up clay antiquities",
+      "title": "Kermit the Frog Was Just Trying to Put on a Variety Show. Fifty Years Later, the Muppets Are Some of the Biggest Stars in Television History",
+      "excerpt": "The first episode of Jim Henson's \"The Muppet Show\" premiered in the United Kingdom on September 5, 1976. Enthusiasm for the eclectic ensemble has endured ever since",
       "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://th-thumbnailer.cdn-si-edu.com/aWufYkAc5iqD3aOGX1QVjLT7q48=/420x240/filters:focal(750x500:751x501)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/cf/4d/cf4d3176-9efd-4c9f-b643-2bc4f16839b6/scripps_oceanography_geoscientist_lisa_tauxe_inserts_samples_i-32fad9c82902379b111b3658ab9c8a35.jpeg",
+      "image": "assets/semiconductor.jpg",
       "imageFallback": "assets/semiconductor.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "Smithsonian Magazine",
-      "originalTitle": "Researchers Have Figured Out How to Spot Fake Ancient Pottery Using the Earth's Magnetic Field",
-      "originalExcerpt": "The magnetic North Pole has shifted over the millennia, leaving clues in the minerals that make up clay antiquities",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "Kermit the Frog Was Just Trying to Put on a Variety Show. Fifty Years Later, the Muppets Are Some of the Biggest Stars in Television History",
+      "originalExcerpt": "The first episode of Jim Henson's \"The Muppet Show\" premiered in the United Kingdom on September 5, 1976. Enthusiasm for the eclectic ensemble has endured ever since",
       "source": "Smithsonian Magazine",
-      "sourceUrl": "https://www.smithsonianmag.com/smart-news/researchers-determine-how-to-spot-fake-ancient-pottery-using-the-earths-magnetic-field-180989441/",
+      "sourceUrl": "https://www.smithsonianmag.com/smithsonian-institution/kermit-the-frog-was-just-trying-to-put-on-a-variety-show-fifty-years-later-the-muppets-are-some-of-the-biggest-stars-in-television-history-180989451/",
       "author": "",
       "language": "en",
       "sourceLanguage": "en",
@@ -2897,12 +2906,12 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 04 Sep 2026 11:45:00 +0000",
-      "sourcePublishedAt": "2026-09-04T11:45:00+00:00",
-      "collectedAt": "2026-09-04T16:25:43.896436+00:00",
+      "originalPublishedAt": "Fri, 04 Sep 2026 19:21:00 +0000",
+      "sourcePublishedAt": "2026-09-04T19:21:00+00:00",
+      "collectedAt": "2026-09-04T20:49:03.998833+00:00",
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "The magnetic North Pole has shifted over the millennia, leaving clues in the minerals that make up clay antiquities",
+      "sourceMaterial": "The first episode of Jim Henson's \"The Muppet Show\" premiered in the United Kingdom on September 5, 1976. Enthusiasm for the eclectic ensemble has endured ever since",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
@@ -3086,7 +3095,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "After an Eight-Year Journey, Two Spacecraft Have Begun Their Arrival to Mercury, the Inner Solar System's Most Mysterious Planet",
       "excerpt": "The BepiColombo mission, by the European Space Agency and the Japan Aerospace Exploration Agency, is only the third to study our smallest planetary neighbor",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/S5B7AQ_n4uVEthi9MGd_sBFoluM=/420x240/filters:focal(750x500:751x501)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/31/eb/31ebdfc9-0df0-4f8b-9103-77d6dfdb4483/smithsonian_feature_images_15.png",
       "imageFallback": "assets/energy.jpg",
       "imageSourceType": "rss",
@@ -3117,7 +3126,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The BepiColombo mission, by the European Space Agency and the Japan Aerospace Exploration Agency, is only the third to study our smallest planetary neighbor",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 227,
@@ -3171,7 +3182,7 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 242,
+      "id": 237,
       "category": "人文",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -3184,25 +3195,25 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "人文前沿观察：历史悠久的夏威夷标志性纺织品在时尚界大放异彩",
-      "excerpt": "块状格子帕拉卡设计已经超越了其作为简单工作服的根源，跨越了种族和阶级界限，成为当地自豪感的象征人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
-      "body": "核心进展 块状格子帕拉卡设计已经超越了其作为简单工作服的根源，跨越了种族和阶级界限，成为当地自豪感的象征。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://th-thumbnailer.cdn-si-edu.com/0B_UW-3dDJZLtOs3S3xNXkAOh6w=/420x240/filters:focal(1028x724:1029x725)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/d4/65/d4658cbb-a59c-48fd-a30e-d0405f9c5a46/gettyimages-2266112088.jpg",
+      "title": "Researchers Have Figured Out How to Spot Fake Ancient Pottery Using the Earth's Magnetic Field",
+      "excerpt": "The magnetic North Pole has shifted over the millennia, leaving clues in the minerals that make up clay antiquities",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://th-thumbnailer.cdn-si-edu.com/aWufYkAc5iqD3aOGX1QVjLT7q48=/420x240/filters:focal(750x500:751x501)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/cf/4d/cf4d3176-9efd-4c9f-b643-2bc4f16839b6/scripps_oceanography_geoscientist_lisa_tauxe_inserts_samples_i-32fad9c82902379b111b3658ab9c8a35.jpeg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "Smithsonian Magazine",
-      "originalTitle": "A Signature Hawaiian Textile With a Rich History Is Making a Splash in the Fashion World",
-      "originalExcerpt": "The blocky, plaid palaka design has evolved beyond its roots as simple workwear, crossing over ethnic and class lines as a symbol of local pride",
+      "originalTitle": "Researchers Have Figured Out How to Spot Fake Ancient Pottery Using the Earth's Magnetic Field",
+      "originalExcerpt": "The magnetic North Pole has shifted over the millennia, leaving clues in the minerals that make up clay antiquities",
       "source": "Smithsonian Magazine",
-      "sourceUrl": "https://www.smithsonianmag.com/travel/a-signature-hawaiian-textile-with-a-rich-history-is-making-a-splash-in-the-fashion-world-180989443/",
+      "sourceUrl": "https://www.smithsonianmag.com/smart-news/researchers-determine-how-to-spot-fake-ancient-pottery-using-the-earths-magnetic-field-180989441/",
       "author": "",
-      "language": "zh-CN",
+      "language": "en",
       "sourceLanguage": "en",
       "confidence": 89,
       "time": "待审核",
-      "readMinutes": 4,
+      "readMinutes": 6,
       "heat": 78,
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "tags": [
         "人文"
       ],
@@ -3211,20 +3222,15 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Thu, 03 Sep 2026 15:27:12 +0000",
-      "sourcePublishedAt": "2026-09-03T15:27:12+00:00",
-      "collectedAt": "2026-09-03T17:53:26.897673+00:00",
+      "originalPublishedAt": "Fri, 04 Sep 2026 11:45:00 +0000",
+      "sourcePublishedAt": "2026-09-04T11:45:00+00:00",
+      "collectedAt": "2026-09-04T16:25:43.896436+00:00",
       "freshnessDays": 0,
-      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "The blocky, plaid palaka design has evolved beyond its roots as simple workwear, crossing over ethnic and class lines as a symbol of local pride",
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "sourceMaterial": "The magnetic North Pole has shifted over the millennia, leaving clues in the minerals that make up clay antiquities",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "历史悠久的夏威夷标志性纺织品在时尚界大放异彩",
-      "translatedSourceMaterial": "块状格子帕拉卡设计已经超越了其作为简单工作服的根源，跨越了种族和阶级界限，成为当地自豪感的象征",
-      "translationProvider": "MyMemory 公共翻译服务",
-      "translationMode": "machine-translation",
-      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
-      "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 869
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 73,
@@ -3978,18 +3984,22 @@
     {
       "source": "科普中国",
       "error": "订阅未返回可解析条目"
+    },
+    {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（859ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-09-04T20:49:04.013047+00:00",
-    "startedAt": "2026-09-04T20:48:29.612133+00:00",
-    "finishedAt": "2026-09-04T20:49:04.013047+00:00",
+    "id": "2026-09-05T00:09:03.650398+00:00",
+    "startedAt": "2026-09-05T00:08:51.467982+00:00",
+    "finishedAt": "2026-09-05T00:09:03.650398+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 346,
-    "added": 251,
+    "sourcesSucceeded": 34,
+    "sourcesFailed": 2,
+    "fetched": 336,
+    "added": 241,
     "duplicates": 49,
     "invalid": 1,
     "staleSkipped": 45,
@@ -3998,6 +4008,10 @@
       {
         "source": "科普中国",
         "error": "订阅未返回可解析条目"
+      },
+      {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（859ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4006,7 +4020,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1442,
+        "durationMs": 1866,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4016,7 +4030,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 998,
+        "durationMs": 1285,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4026,7 +4040,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2114,
+        "durationMs": 2509,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4036,7 +4050,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1018,
+        "durationMs": 767,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4046,7 +4060,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1194,
+        "durationMs": 716,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4056,7 +4070,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1263,
+        "durationMs": 741,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4066,7 +4080,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1178,
+        "durationMs": 733,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4076,7 +4090,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1151,
+        "durationMs": 612,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4086,7 +4100,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 534,
+        "durationMs": 656,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4096,7 +4110,7 @@
         "source": "科普中国",
         "status": "failed",
         "attempts": 1,
-        "durationMs": 2737,
+        "durationMs": 3768,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
@@ -4107,7 +4121,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1005,
+        "durationMs": 1313,
         "fetched": 6,
         "added": 2,
         "duplicates": 3
@@ -4117,7 +4131,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3648,
+        "durationMs": 4685,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4127,7 +4141,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1424,
+        "durationMs": 1797,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4137,7 +4151,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1870,
+        "durationMs": 1529,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4147,7 +4161,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1558,
+        "durationMs": 2004,
         "fetched": 10,
         "added": 0,
         "duplicates": 4
@@ -4157,17 +4171,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 265,
+        "durationMs": 20,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 7,
+        "duplicates": 3
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 212,
+        "durationMs": 851,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4177,27 +4191,27 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 202,
+        "durationMs": 119,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1107,
+        "durationMs": 1024,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1954,
+        "durationMs": 119,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4207,17 +4221,17 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1082,
+        "durationMs": 1117,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 814,
+        "durationMs": 611,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4227,17 +4241,17 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 159,
+        "durationMs": 66,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "us-federal-reserve",
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 145,
+        "durationMs": 41,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4247,7 +4261,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 801,
+        "durationMs": 558,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4257,7 +4271,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 202,
+        "durationMs": 167,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4267,7 +4281,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 61,
+        "durationMs": 87,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4277,7 +4291,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 107,
+        "durationMs": 93,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4287,7 +4301,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 869,
+        "durationMs": 553,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4297,17 +4311,17 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 347,
+        "durationMs": 332,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1414,
+        "durationMs": 48,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4315,19 +4329,20 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 354,
-        "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 859,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（859ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1108,
+        "durationMs": 532,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4337,7 +4352,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 630,
+        "durationMs": 303,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4347,7 +4362,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 25853,
+        "durationMs": 748,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4357,10 +4372,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 170,
+        "durationMs": 94,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 7,
+        "duplicates": 3
       }
     ],
     "queueCount": 72,
@@ -4375,7 +4390,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
