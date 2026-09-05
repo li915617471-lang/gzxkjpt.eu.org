@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T04:35:32.085705+00:00",
+  "generatedAt": "2026-09-05T10:41:06.310887+00:00",
   "stories": [
     {
       "id": 1,
@@ -3233,6 +3233,67 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 64,
+      "category": "人文",
+      "categoryEvidenceScore": 2,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 0,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 5
+      },
+      "categoryClassificationMargin": 5,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "《百家讲坛》 20260905 古代名医那些事儿（第二部） 7 补土宗师论脾胃",
+      "excerpt": "本期节目主要内容：在中国医学发展的漫长历史中，金元时期是一个承前启后、思想激荡的时代。那个时期，社会经历着剧烈的变迁，传统的医理与诊疗经验迎来了前所未有的挑战与革新，一时间，名医并起，学说纷呈。李东垣，正是在这场医学变革中脱颖而出。他以脾胃为本，系统阐发内伤病机，建立脾胃学说，开创补土一派，被尊为“补土宗师”。（《百家讲坛》 20260905 古代名医那些事儿（第二部） 7 补土宗师论脾胃）",
+      "body": "视频简介\n\n本期节目主要内容：在中国医学发展的漫长历史中，金元时期是一个承前启后、思想激荡的时代。那个时期，社会经历着剧烈的变迁，传统的医理与诊疗经验迎来了前所未有的挑战与革新，一时间，名医并起，学说纷呈。李东垣，正是在这场医学变革中脱颖而出。他以脾胃为本，系统阐发内伤病机，建立脾胃学说，开创补土一派，被尊为“补土宗师”。（《百家讲坛》 20260905 古代名医那些事儿（第二部） 7 补土宗师论脾胃）\n\n简要来源\n\n本视频来自“中央广播电视总台《百家讲坛》”公开发布页面，仅在平台视频区域展示。",
+      "image": "https://p2.img.cctvpic.com/fmspic/2026/09/05/1c0ffc9b3c634651bf6c4359eeb4f7e5-1.jpg",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中央广播电视总台《百家讲坛》",
+      "originalTitle": "《百家讲坛》 20260905 古代名医那些事儿（第二部） 7 补土宗师论脾胃",
+      "originalExcerpt": "本期节目主要内容：在中国医学发展的漫长历史中，金元时期是一个承前启后、思想激荡的时代。那个时期，社会经历着剧烈的变迁，传统的医理与诊疗经验迎来了前所未有的挑战与革新，一时间，名医并起，学说纷呈。李东垣，正是在这场医学变革中脱颖而出。他以脾胃为本，系统阐发内伤病机，建立脾胃学说，开创补土一派，被尊为“补土宗师”。（《百家讲坛》 20260905 古代名医那些事儿（第二部） 7 补土宗师论脾胃）",
+      "source": "中央广播电视总台《百家讲坛》",
+      "sourceUrl": "https://tv.cctv.com/2026/09/05/VIDEXNUw6YPHGnU9TSaWkIrD260905.shtml",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 97,
+      "time": "待审核",
+      "readMinutes": 1,
+      "heat": 78,
+      "date": "2026-09-05",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-cctv-humanities-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "2026-09-05 12:00:00",
+      "sourcePublishedAt": "2026-09-05T12:00:00+00:00",
+      "collectedAt": "2026-09-05T10:41:05.548084+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
+      "sourceMaterial": "本期节目主要内容：在中国医学发展的漫长历史中，金元时期是一个承前启后、思想激荡的时代。那个时期，社会经历着剧烈的变迁，传统的医理与诊疗经验迎来了前所未有的挑战与革新，一时间，名医并起，学说纷呈。李东垣，正是在这场医学变革中脱颖而出。他以脾胃为本，系统阐发内伤病机，建立脾胃学说，开创补土一派，被尊为“补土宗师”。（《百家讲坛》 20260905 古代名医那些事儿（第二部） 7 补土宗师论脾胃）",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://tv.cctv.com/2026/09/05/VIDEXNUw6YPHGnU9TSaWkIrD260905.shtml",
+      "videoPoster": "https://p2.img.cctvpic.com/fmspic/2026/09/05/1c0ffc9b3c634651bf6c4359eeb4f7e5-1.jpg",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 76,
+      "videoDuration": "00:38:22",
+      "videoExternalId": "1c0ffc9b3c634651bf6c4359eeb4f7e5",
+      "contentGenerationMode": "official-video-metadata",
+      "contentCharacterCount": 209
+    },
+    {
       "id": 73,
       "category": "科技",
       "categoryEvidenceScore": 4,
@@ -3915,104 +3976,31 @@
       "contentCharacterCount": 166,
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 50,
-      "category": "人文",
-      "categoryEvidenceScore": 2,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 0,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 5
-      },
-      "categoryClassificationMargin": 5,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "《地理·中国》 20260829 金牌讲解员·“国宝”小城（上）",
-      "excerpt": "本期节目主要内容：随着北京中轴线被正式列入《世界遗产名录》，人们对中轴线文化更多关注起来，就在离北京西南大约280千米的地方，有这样一座古城，它的中轴线建成历史比北京还要悠久，历经战火之后竟然还有10处全国重点文物保护单位得以保存，并且全部都位于古城的中轴线两侧。（《地理·中国》 20260829 金牌讲解员·“国宝”小城（上））",
-      "body": "视频简介\n\n本期节目主要内容：随着北京中轴线被正式列入《世界遗产名录》，人们对中轴线文化更多关注起来，就在离北京西南大约280千米的地方，有这样一座古城，它的中轴线建成历史比北京还要悠久，历经战火之后竟然还有10处全国重点文物保护单位得以保存，并且全部都位于古城的中轴线两侧。（《地理·中国》 20260829 金牌讲解员·“国宝”小城（上））\n\n简要来源\n\n本视频来自“中央广播电视总台《地理·中国》”公开发布页面，仅在平台视频区域展示。",
-      "image": "https://p4.img.cctvpic.com/fmspic/2026/08/29/87b970e9312d41b3916976b58c1df378-1.jpg",
-      "imageFallback": "assets/semiconductor.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "中央广播电视总台《地理·中国》",
-      "originalTitle": "《地理·中国》 20260829 金牌讲解员·“国宝”小城（上）",
-      "originalExcerpt": "本期节目主要内容：随着北京中轴线被正式列入《世界遗产名录》，人们对中轴线文化更多关注起来，就在离北京西南大约280千米的地方，有这样一座古城，它的中轴线建成历史比北京还要悠久，历经战火之后竟然还有10处全国重点文物保护单位得以保存，并且全部都位于古城的中轴线两侧。（《地理·中国》 20260829 金牌讲解员·“国宝”小城（上））",
-      "source": "中央广播电视总台《地理·中国》",
-      "sourceUrl": "https://tv.cctv.com/2026/08/29/VIDELBa3hb9BAzYEvhyXpVJa260829.shtml",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 97,
-      "time": "待审核",
-      "readMinutes": 1,
-      "heat": 78,
-      "date": "2026-08-29",
-      "tags": [
-        "人文"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-cctv-geography-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-08-29 17:26:00",
-      "sourcePublishedAt": "2026-08-29T17:26:00+00:00",
-      "collectedAt": "2026-08-29T12:24:11.165123+00:00",
-      "freshnessDays": 0,
-      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
-      "sourceMaterial": "本期节目主要内容：随着北京中轴线被正式列入《世界遗产名录》，人们对中轴线文化更多关注起来，就在离北京西南大约280千米的地方，有这样一座古城，它的中轴线建成历史比北京还要悠久，历经战火之后竟然还有10处全国重点文物保护单位得以保存，并且全部都位于古城的中轴线两侧。（《地理·中国》 20260829 金牌讲解员·“国宝”小城（上））",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://tv.cctv.com/2026/08/29/VIDELBa3hb9BAzYEvhyXpVJa260829.shtml",
-      "videoPoster": "https://p4.img.cctvpic.com/fmspic/2026/08/29/87b970e9312d41b3916976b58c1df378-1.jpg",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 78,
-      "videoDuration": "00:27:38",
-      "videoExternalId": "87b970e9312d41b3916976b58c1df378",
-      "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 185,
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
-  "errors": [
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（989ms）：HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-09-05T04:35:32.085705+00:00",
-    "startedAt": "2026-09-05T04:35:18.473015+00:00",
-    "finishedAt": "2026-09-05T04:35:32.085705+00:00",
-    "status": "partial",
+    "id": "2026-09-05T10:41:06.310887+00:00",
+    "startedAt": "2026-09-05T10:40:54.593979+00:00",
+    "finishedAt": "2026-09-05T10:41:06.310887+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 338,
-    "added": 242,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 348,
+    "added": 252,
     "duplicates": 50,
     "invalid": 1,
     "staleSkipped": 45,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（989ms）：HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1043,
+        "durationMs": 1321,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4022,7 +4010,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1115,
+        "durationMs": 1425,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4032,7 +4020,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1894,
+        "durationMs": 2660,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4042,7 +4030,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 675,
+        "durationMs": 823,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4052,7 +4040,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1207,
+        "durationMs": 1433,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4062,7 +4050,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1019,
+        "durationMs": 1303,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4072,7 +4060,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 863,
+        "durationMs": 1511,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4082,7 +4070,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1021,
+        "durationMs": 1586,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4092,7 +4080,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 598,
+        "durationMs": 772,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4102,7 +4090,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3384,
+        "durationMs": 3740,
         "fetched": 2,
         "added": 2,
         "duplicates": 0
@@ -4112,7 +4100,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 986,
+        "durationMs": 1354,
         "fetched": 6,
         "added": 2,
         "duplicates": 3
@@ -4122,7 +4110,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 6787,
+        "durationMs": 3981,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4132,7 +4120,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1412,
+        "durationMs": 1340,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4142,7 +4130,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2030,
+        "durationMs": 2231,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4152,7 +4140,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1461,
+        "durationMs": 1995,
         "fetched": 10,
         "added": 0,
         "duplicates": 4
@@ -4162,7 +4150,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 129,
+        "durationMs": 52,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4172,7 +4160,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 222,
+        "durationMs": 666,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4182,7 +4170,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 110,
+        "durationMs": 50,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4192,7 +4180,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1076,
+        "durationMs": 836,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4202,7 +4190,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 241,
+        "durationMs": 144,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4212,7 +4200,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1108,
+        "durationMs": 788,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4222,7 +4210,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 726,
+        "durationMs": 468,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4232,7 +4220,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 129,
+        "durationMs": 87,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4242,7 +4230,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 47,
+        "durationMs": 46,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4252,7 +4240,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 799,
+        "durationMs": 455,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4262,7 +4250,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 101,
+        "durationMs": 121,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4272,7 +4260,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 47,
+        "durationMs": 32,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4282,7 +4270,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 45,
+        "durationMs": 82,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4292,7 +4280,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 776,
+        "durationMs": 466,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4302,7 +4290,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 563,
+        "durationMs": 209,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4312,7 +4300,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 154,
+        "durationMs": 866,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4320,20 +4308,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 989,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（989ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 45,
+        "fetched": 10,
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 623,
+        "durationMs": 528,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4343,7 +4330,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 676,
+        "durationMs": 567,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4353,7 +4340,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1251,
+        "durationMs": 1052,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4363,7 +4350,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 71,
+        "durationMs": 103,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
