@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T18:45:25.486439+00:00",
+  "generatedAt": "2026-09-07T22:52:48.213724+00:00",
   "stories": [
     {
       "id": 1,
@@ -2331,13 +2331,13 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 3,
+      "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "科技部部长阴和俊访问墨西哥并出席中国—墨西哥政府间常设委员会科技分委会第九次会议",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "2026年9月2—4日，应墨西哥科学、人文、技术和创新部部长鲁伊斯邀请，科技部部长阴和俊率团访问墨西哥，并在墨西哥城共同主持召开中墨政府间常设委员会科技分委会第九次会议。会上，双方回顾了科技分委会第八次会议以来取得的成效，交流了两国科技发展战略和政策，探讨了下一步中墨科技创新合作的优先领域方向并达成共识。会后，双方签署《中华人民共和国科学技术部与墨西哥合众国科学、人文、技术和创新部关于科技创新合作的谅解备忘录》及科技分委会会议纪要…",
+      "body": "核心信息 2026年9月2—4日，应墨西哥科学、人文、技术和创新部部长鲁伊斯邀请，科技部部长阴和俊率团访问墨西哥，并在墨西哥城共同主持召开中墨政府间常设委员会科技分委会第九次会议。会上，双方回顾了科技分委会第八次会议以来取得的成效，交流了两国科技发展战略和政策，探讨了下一步中墨科技创新合作的优先领域方向并达成共识。会后，双方签署《中华人民共和国科学技术部与墨西哥合众国科学、人文、技术和创新部关于科技创新合作的谅解备忘录》及科技分委会会议纪要… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -2368,7 +2368,10 @@
       "freshnessDays": 2,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 27,
@@ -2547,7 +2550,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Bertrand Russell Explains Why Karl Marx’s Philosophy Produced the Disaster of Communism",
       "excerpt": "In 1927, Bertrand Russell delivered a lecture titled “Why I Am Not a Christian.” At the time, such a declaration was still fairly bold, as was the reasoning he provided for it. Nearly three decades thereafter, he included in his collection Portraits from Memory another, shorter…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“开放文化资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“开放文化资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://i.ytimg.com/vi/eZlbQqXBsn0/maxresdefault.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2578,7 +2581,9 @@
       "freshnessDays": 0,
       "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
       "sourceMaterial": "In 1927, Bertrand Russell delivered a lecture titled “Why I Am Not a Christian.” At the time, such a declaration was still fairly bold, as was the reasoning he provided for it. Nearly three decades thereafter, he included in his collection Portraits from Memory another, shorter piece, “Why I Am Not a Communist.” That description […]",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 166,
@@ -2646,9 +2651,9 @@
         "工业": 1,
         "能源": 0,
         "农业": 0,
-        "人文": 3
+        "人文": 1
       },
-      "categoryClassificationMargin": 4,
+      "categoryClassificationMargin": 6,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "科技前沿观察：研讨会教育非洲研究人员如何使用IEEE进行出版",
       "excerpt": "肯尼亚、卢旺达和乌干达的许多研究人员和学生由于出版费和研究图书馆订阅费等财务障碍而难以访问和发表科技文章。为了提供帮助， IEEE通过提供订阅折扣和降低发表文章的费用，使其Xplore数字图书馆更容易访问。 但是，这三个国家的技术专家发表的论文数量仍然落后于其他发展中国家。可能是许多研究人员没有接受过方法论培训，没有接受过如何撰写学术论文的指导…",
@@ -3981,16 +3986,16 @@
   ],
   "errors": [],
   "collection": {
-    "id": "2026-09-07T18:45:25.486439+00:00",
-    "startedAt": "2026-09-07T18:45:13.145608+00:00",
-    "finishedAt": "2026-09-07T18:45:25.486439+00:00",
+    "id": "2026-09-07T22:52:48.213724+00:00",
+    "startedAt": "2026-09-07T22:52:15.626766+00:00",
+    "finishedAt": "2026-09-07T22:52:48.213724+00:00",
     "status": "success",
     "sourcesTotal": 36,
     "sourcesSucceeded": 36,
     "sourcesFailed": 0,
     "fetched": 347,
-    "added": 251,
-    "duplicates": 48,
+    "added": 250,
+    "duplicates": 49,
     "invalid": 1,
     "staleSkipped": 47,
     "maxSourceAgeDays": 45,
@@ -4001,7 +4006,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1649,
+        "durationMs": 1360,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4011,17 +4016,17 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1148,
+        "durationMs": 977,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 7,
+        "duplicates": 3
       },
       {
         "sourceId": "china-cas-science",
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2192,
+        "durationMs": 1747,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4031,7 +4036,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 580,
+        "durationMs": 1657,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4041,7 +4046,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1217,
+        "durationMs": 1249,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4051,7 +4056,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1102,
+        "durationMs": 1187,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4061,7 +4066,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1405,
+        "durationMs": 1307,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4071,7 +4076,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1220,
+        "durationMs": 1202,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4081,7 +4086,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 994,
+        "durationMs": 522,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4091,7 +4096,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2948,
+        "durationMs": 3467,
         "fetched": 1,
         "added": 1,
         "duplicates": 0
@@ -4101,7 +4106,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1143,
+        "durationMs": 1169,
         "fetched": 6,
         "added": 2,
         "duplicates": 3
@@ -4111,7 +4116,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4222,
+        "durationMs": 5032,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4121,7 +4126,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1497,
+        "durationMs": 1276,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4130,8 +4135,8 @@
         "sourceId": "china-moa-news",
         "source": "中华人民共和国农业农村部",
         "status": "success",
-        "attempts": 1,
-        "durationMs": 1719,
+        "attempts": 2,
+        "durationMs": 22224,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4141,7 +4146,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1720,
+        "durationMs": 2684,
         "fetched": 10,
         "added": 0,
         "duplicates": 4
@@ -4151,7 +4156,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 154,
+        "durationMs": 186,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4161,17 +4166,17 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 400,
+        "durationMs": 231,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 272,
+        "durationMs": 254,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4181,7 +4186,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1028,
+        "durationMs": 1004,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4201,17 +4206,17 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1097,
+        "durationMs": 951,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 743,
+        "durationMs": 853,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4221,7 +4226,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 184,
+        "durationMs": 272,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4231,7 +4236,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 89,
+        "durationMs": 116,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4241,7 +4246,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 708,
+        "durationMs": 940,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4251,7 +4256,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 47,
+        "durationMs": 157,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4261,7 +4266,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 117,
+        "durationMs": 99,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4271,7 +4276,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 139,
+        "durationMs": 141,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4281,7 +4286,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 582,
+        "durationMs": 630,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4291,7 +4296,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 348,
+        "durationMs": 386,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4301,7 +4306,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1272,
+        "durationMs": 294,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4311,17 +4316,17 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 187,
+        "durationMs": 445,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 620,
+        "durationMs": 773,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4331,7 +4336,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 278,
+        "durationMs": 613,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4341,7 +4346,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1278,
+        "durationMs": 1225,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4351,10 +4356,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 237,
+        "durationMs": 199,
         "fetched": 10,
-        "added": 6,
-        "duplicates": 4
+        "added": 7,
+        "duplicates": 3
       }
     ],
     "queueCount": 72,
@@ -4369,7 +4374,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 1,
+      "translated": 0,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
