@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T20:55:43.110163+00:00",
+  "generatedAt": "2026-09-11T00:13:32.053818+00:00",
   "stories": [
     {
       "id": 2,
@@ -2647,34 +2647,34 @@
       "contentCharacterCount": 1162
     },
     {
-      "id": 105,
+      "id": 216,
       "category": "科技",
-      "categoryEvidenceScore": 5,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
         "科技": 8,
-        "工业": 2,
+        "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 2
+        "人文": 0
       },
-      "categoryClassificationMargin": 6,
+      "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：以太网前身的代码开发人员去世，享年91岁",
-      "excerpt": "富兰克林· “弗兰克” ·郭（ Franklin “Frank” Kuo ） ALOHAnet Fellow的代码开发者， 91岁； 4月14日逝世，郭帮助开发了ALOHAnet ，这是夏威夷大学马诺阿分校的开创性计算机系统，位于檀香山。该系统于1971年上线，是无线分组数据网络的首次公开演示。这是Robert Metcalfe几年后开发以太网的灵感来源…",
-      "body": "核心进展\n\n富兰克林· “弗兰克” ·郭（ Franklin “Frank” Kuo ） ALOHAnet Fellow的代码开发者， 91岁； 4月14日逝世，郭帮助开发了ALOHAnet ，这是夏威夷大学马诺阿分校的开创性计算机系统，位于檀香山。该系统于1971年上线，是无线分组数据网络的首次公开演示。这是Robert Metcalfe几年后开发以太网的灵感来源。 2020年， ALOHAnet被指定为IEEE里程碑。Kuo在伊利诺伊大学香槟分校获得电气工程学士、硕士和博士学位。1960年获得博士学位后，他加入了新泽西州默里山的贝尔实验室，在那里他进行了计算机通信研究。 在公司工作六年后，郭离开，成为夏威夷大学的电气工程教授。从1968年到1971年，他和他的同事之一， IEEE Life Fellow Norman Abramson开发了ALOHAnet。该网络使用超高频无线电连接夏威夷群岛上的计算机，通过无线电波而不是电缆传输信息。ALOHAnet成为现代网络的基础。 Kuo开创了随机接入协议的概念，即在没有中央协调的情况下共享单个信道，这导致了支持现代Wi-Fi和移动网络的分组交换原则。Kuo撰写或合著了几本书，包括《计算机通信网络》。这本书出版于1972年，是关于这个主题的最早的教科书之一。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://spectrum.ieee.org/media-library/black-and-white-photograph-of-a-young-asian-man-in-a-suit-and-tie.jpg?id=67750969&width=980",
+      "title": "科技前沿观察：美国宇航局的拯救生命的技术，细胞信号不能去",
+      "excerpt": "美国国家航空航天局部分开发的搜索和救援技术挽救了五条生命技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。",
+      "body": "核心进展\n\n美国国家航空航天局部分开发的搜索和救援技术挽救了五条生命。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://www.nasa.gov/wp-content/uploads/2025/12/on-coast-guard-boat.png?w=1536",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "IEEE Spectrum",
-      "originalTitle": "Codeveloper of Ethernet Predecessor Dies at 91",
-      "originalExcerpt": "Franklin “Frank” Kuo Codeveloper of ALOHAnet Fellow, 91; died 14 April Kuo helped develop ALOHAnet , a pioneering computer system at the University of Hawaii at Mānoa , in Honolulu. The system went online in 1971 and represented the first public demonstration of a wireless packet data network . It was an inspiration for Robert Metcalfe ’s development of Ethernet a couple of years later. In 2020 ALOHAnet was designated as an IEEE Milestone . Kuo earned bachelor’s, master’s, and doctoral degrees in electrical engineering from the University of Illinois , Urbana-Champaign. After earning his Ph.D. in 1960, he joined Bell Labs in Murray Hill, N.J. , where he conducted research in computer communications. After six years at the company, Kuo left to become a professor of electrical engineering at the University of Hawaii. From 1968 to 1971 he and one of his colleagues, IEEE Life Fellow Norman Abramson , developed ALOHAnet. The network connected computers on Hawaiian islands using ultrahigh-frequency radio, transmitting information over radio waves instead of cables. ALOHAnet became the foundation for modern networks. Kuo pioneered the concept of a random-access protocol, or sharing a single channel without central coordination—which led to the packet-switching principles that underpin modern Wi-Fi and mobile networks. Kuo authored or coauthored several books including Computer Communication Networks . Published in 1972, it was one of the earliest textbooks on the subject. He served as director of the university’s Cosine committee , a project funded by the U.S. National Science Foundation to develop computer engineering courses. He took a sabbatical from 1975 to 1977 to work at the U.S. Pentagon as director of information systems in the defense secretary’s office . He oversaw computer communications applications used in command, control, and intelligence programs. During the 1980s and ’90s, he helped develop China’s Internet. In 1982 he joined SRI International (formerly…",
-      "source": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies",
+      "imageAttribution": "NASA Breaking News",
+      "originalTitle": "NASA’s Life-Saving Technology Where Cell Signals Can’t Go",
+      "originalExcerpt": "Search and rescue technology developed in part by NASA saved five lives",
+      "source": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-life-saving-technology-where-cell-signals-cant-go/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 90,
+      "confidence": 95,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -2683,24 +2683,24 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "ieee-spectrum",
-      "sourceType": "research",
+      "collectionSourceId": "nasa-breaking-news",
+      "sourceType": "official",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Thu, 10 Sep 2026 20:00:04 +0000",
-      "sourcePublishedAt": "2026-09-10T20:00:04+00:00",
-      "collectedAt": "2026-09-10T20:55:42.302770+00:00",
-      "freshnessDays": 0,
+      "originalPublishedAt": "Thu, 10 Sep 2026 20:12:39 +0000",
+      "sourcePublishedAt": "2026-09-10T20:12:39+00:00",
+      "collectedAt": "2026-09-11T00:13:31.868808+00:00",
+      "freshnessDays": 1,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Franklin “Frank” Kuo Codeveloper of ALOHAnet Fellow, 91; died 14 April Kuo helped develop ALOHAnet , a pioneering computer system at the University of Hawaii at Mānoa , in Honolulu. The system went online in 1971 and represented the first public demonstration of a wireless packet data network . It was an inspiration for Robert Metcalfe ’s development of Ethernet a couple of years later. In 2020 ALOHAnet was designated as an IEEE Milestone . Kuo earned bachelor’s, master’s, and doctoral degrees in electrical engineering from the University of Illinois , Urbana-Champaign. After earning his Ph.D. in 1960, he joined Bell Labs in Murray Hill, N.J. , where he conducted research in computer communications. After six years at the company, Kuo left to become a professor of electrical engineering at the University of Hawaii. From 1968 to 1971 he and one of his colleagues, IEEE Life Fellow Norman Abramson , developed ALOHAnet. The network connected computers on Hawaiian islands using ultrahigh-frequency radio, transmitting information over radio waves instead of cables. ALOHAnet became the foundation for modern networks. Kuo pioneered the concept of a random-access protocol, or sharing a single channel without central coordination—which led to the packet-switching principles that underpin modern Wi-Fi and mobile networks. Kuo authored or coauthored several books including Computer Communication Networks . Published in 1972, it was one of the earliest textbooks on the subject. He served as director of the university’s Cosine committee , a project funded by the U.S. National Science Foundation to develop computer engineering courses. He took a sabbatical from 1975 to 1977 to work at the U.S. Pentagon as director of information systems in the defense secretary’s office . He oversaw computer communications applications used in command, control, and intelligence programs. During the 1980s and ’90s, he helped develop China’s Internet. In 1982 he joined SRI International (formerly the Stanford Research Institute), in Menlo Park, Calif., as a researcher. He also was a consulting professor in Stanford ’s electrical engineering department and taught computer networking at Shanghai Jiao Tong University . As a UNESCO lecturer in Beijing in 1994, he helped Peking University , Tsinghua University , and the Chinese Academy of Sciences connect to the Internet. He also worked with Tsinghua University to develop CERNET , the country’s first nationwide education and research computer network , which was managed by the Chinese Ministry of Education . For his work, he received an honorary degree from Shanghai Jiao Tong University. In the mid-1990s, Kuo helped found General Wireless Communications, a developer of mobile phone messaging services and games that was renamed Mtone Wireless. Muhammad Rezaul Karim Bell Labs researcher Life senior member, 86; died 18 May Karim was a distinguished member of the technical staff at Bell Labs in Murray Hill, N.J. His work was instrumental in the development of modern cellular communications technology. He joined Bell Labs in 1972 and worked in its mobile telecommunications laboratory as part of the team tasked with creating one of the earliest cellular networks. In 1975 Illinois Bell Telephone petitioned the U.S. Federal Communications Commission to develop and test a cellular system. The FCC, which now regulates radio, TV, telephone, Internet, satellite, and wireless services, authorized the project in March 1977. Karim and his team helped develop key elements of the technology, including the Bell Labs logic that controlled the cellular system, turning the concept into a working one. They also built radio receivers, transmitters, control systems, and cell-site equipment used in the first trial of the cellular system. The following year, Bell Labs and Illinois Bell deployed the Advanced Mobile Phone Service system across Chicago, with its switching office located in Oak Park, Ill. The initial test used approximately 100 mobile phones to work through hardware, software, and system-design problems. A subsequent test in 1979 involved 2,500 mobile users, providing a demonstration of the cellular technology in practice. The trials in Illinois helped establish the technical foundation for the commercial cellular networks that followed. Later in his career, Karim worked on the asynchronous transfer mode (ATM) technique, a high-speed networking technology crucial to the transition from traditional telephone networks to broadband and digital ones. In 2000 he published ATM Networks: Application, Systems, and Design , a textbook that served as a guide for designing and implementing ATM-based services. Karim received a bachelor’s degree in electrical engineering from the Bangladesh University of Engineering and Technology , in Dhaka. He then earned a master’s degree in EE from the University of Manchester , England, and a Ph.D. in EE from Stevens Institute of Technology , in Hoboken, N.J. Harry Bostic Former IEEE Region 4 director Life senior member, 86; died 18 March Bostic was an active IEEE volunteer who served as the 1998–1999 director of IEEE Region 4 . In 2007 he received a lifetime achievement award from the IEEE Central Indiana Section for “outstanding commitment and dedicated service as regional advisor to the volunteers and members of Region 4 and the Institute.” He was an engineer for 30 years at U.S. Navy’s avionics facility , a research, development, and manufacturing concern in Indianapolis. He worked on flight control, navigation, and weapons systems there. (The facility closed in 1996.) Edwin C. Jones Jr. Professor Life Fellow, 91; died 10 March Jones was widely recognized for his contributions to engineering education, curriculum development, and accreditation through decades of service to IEEE, ABET , and the American Society for Engineering Education . He earned a bachelor’s degree in electrical engineering in 1955 from West Virginia University in Morgantown. The following…",
+      "sourceMaterial": "Search and rescue technology developed in part by NASA saved five lives",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "以太网前身的代码开发人员去世，享年91岁",
-      "translatedSourceMaterial": "富兰克林· “弗兰克” ·郭（ Franklin “Frank” Kuo ） ALOHAnet Fellow的代码开发者， 91岁； 4月14日逝世，郭帮助开发了ALOHAnet ，这是夏威夷大学马诺阿分校的开创性计算机系统，位于檀香山。该系统于1971年上线，是无线分组数据网络的首次公开演示。这是Robert Metcalfe几年后开发以太网的灵感来源。 2020年， ALOHAnet被指定为IEEE里程碑。Kuo在伊利诺伊大学香槟分校获得电气工程学士、硕士和博士学位。1960年获得博士学位后，他加入了新泽西州默里山的贝尔实验室，在那里他进行了计算机通信研究。 在公司工作六年后，郭离开，成为夏威夷大学的电气工程教授。从1968年到1971年，他和他的同事之一， IEEE Life Fellow Norman Abramson开发了ALOHAnet。该网络使用超高频无线电连接夏威夷群岛上的计算机，通过无线电波而不是电缆传输信息。ALOHAnet成为现代网络的基础。 Kuo开创了随机接入协议的概念，即在没有中央协调的情况下共享单个信道，这导致了支持现代Wi-Fi和移动网络的分组交换原则。Kuo撰写或合著了几本书，包括《计算机通信网络》。这本书出版于1972年，是关于这个主题的最早的教科书之一。",
+      "translatedSourceTitle": "美国宇航局的拯救生命的技术，细胞信号不能去",
+      "translatedSourceMaterial": "美国国家航空航天局部分开发的搜索和救援技术挽救了五条生命",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
-      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
+      "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1338
+      "contentCharacterCount": 872
     },
     {
       "id": 201,
@@ -2718,7 +2718,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Manufacturer Bolsters U.S. Pharma Supply Chain",
       "excerpt": "PR Newswire). What’s going on: The Alliance for Building Better Medicine, a group co-founded by Phlow, will receive a $15.97 million investment from the U.S. Economic Development Administration to establish a wholly domestic route for pharmaceutical commercialization in Virginia…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国制造商协会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“美国制造商协会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://nam.org/wp-content/uploads/2026/09/quickbuild-4-4.jpg",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -2749,7 +2749,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "PR Newswire). What’s going on: The Alliance for Building Better Medicine, a group co-founded by Phlow, will receive a $15.97 million investment from the U.S. Economic Development Administration to establish a wholly domestic route for pharmaceutical commercialization in Virginia, it announced in late July. Led by nonprofit drug manufacturer Civica and supported by Phlow and … The post Manufacturer Bolsters U.S. Pharma Supply Chain appeared first on NAM .",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 165,
@@ -2962,53 +2964,60 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 199,
+      "id": 105,
       "category": "科技",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 5,
       "categoryScores": {
         "金融": 0,
-        "科技": 5,
-        "工业": 3,
+        "科技": 8,
+        "工业": 1,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 2
       },
-      "categoryClassificationMargin": 2,
+      "categoryClassificationMargin": 6,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "MI, Deloitte Study: AI Could Help Close Skills Gap",
-      "excerpt": "The post MI, Deloitte Study: AI Could Help Close Skills Gap appeared first on NAM .",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国制造商协会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://nam.org/wp-content/uploads/2026/09/quickbuild-1-4.jpg",
+      "title": "科技前沿观察：以太网前身的代码开发人员去世，享年91岁",
+      "excerpt": "富兰克林· “弗兰克” ·郭（ Franklin “Frank” Kuo ） ALOHAnet Fellow的代码开发者， 91岁； 4月14日逝世，郭帮助开发了ALOHAnet ，这是夏威夷大学马诺阿分校的开创性计算机系统，位于檀香山。该系统于1971年上线，是无线分组数据网络的首次公开演示。这是Robert Metcalfe几年后开发以太网的灵感来源…",
+      "body": "核心进展 富兰克林· “弗兰克” ·郭（ Franklin “Frank” Kuo ） ALOHAnet Fellow的代码开发者， 91岁； 4月14日逝世，郭帮助开发了ALOHAnet ，这是夏威夷大学马诺阿分校的开创性计算机系统，位于檀香山。该系统于1971年上线，是无线分组数据网络的首次公开演示。这是Robert Metcalfe几年后开发以太网的灵感来源。 2020年， ALOHAnet被指定为IEEE里程碑。Kuo在伊利诺伊大学香槟分校获得电气工程学士、硕士和博士学位。1960年获得博士学位后，他加入了新泽西州默里山的贝尔实验室，在那里他进行了计算机通信研究。 在公司工作六年后，郭离开，成为夏威夷大学的电气工程教授。从1968年到1971年，他和他的同事之一， IEEE Life Fellow Norman Abramson开发了ALOHAnet。该网络使用超高频无线电连接夏威夷群岛上的计算机，通过无线电波而不是电缆传输信息。ALOHAnet成为现代网络的基础。 Kuo开创了随机接入协议的概念，即在没有中央协调的情况下共享单个信道，这导致了支持现代Wi-Fi和移动网络的分组交换原则。Kuo撰写或合著了几本书，包括《计算机通信网络》。这本书出版于1972年，是关于这个主题的最早的教科书之一。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。 关键内容 理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://spectrum.ieee.org/media-library/black-and-white-photograph-of-a-young-asian-man-in-a-suit-and-tie.jpg?id=67750969&width=980",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "National Association of Manufacturers",
-      "originalTitle": "MI, Deloitte Study: AI Could Help Close Skills Gap",
-      "originalExcerpt": "The post MI, Deloitte Study: AI Could Help Close Skills Gap appeared first on NAM .",
-      "source": "National Association of Manufacturers",
-      "sourceUrl": "https://nam.org/mi-deloitte-study-ai-could-help-close-skills-gap/",
+      "imageAttribution": "IEEE Spectrum",
+      "originalTitle": "Codeveloper of Ethernet Predecessor Dies at 91",
+      "originalExcerpt": "Franklin “Frank” Kuo Codeveloper of ALOHAnet Fellow, 91; died 14 April Kuo helped develop ALOHAnet , a pioneering computer system at the University of Hawaii at Mānoa , in Honolulu. The system went online in 1971 and represented the first public demonstration of a wireless packet data network . It was an inspiration for Robert Metcalfe ’s development of Ethernet a couple of years later. In 2020 ALOHAnet was designated as an IEEE Milestone . Kuo earned bachelor’s, master’s, and doctoral degrees in electrical engineering from the University of Illinois , Urbana-Champaign. After earning his Ph.D. in 1960, he joined Bell Labs in Murray Hill, N.J. , where he conducted research in computer communications. After six years at the company, Kuo left to become a professor of electrical engineering at the University of Hawaii. From 1968 to 1971 he and one of his colleagues, IEEE Life Fellow Norman Abramson , developed ALOHAnet. The network connected computers on Hawaiian islands using ultrahigh-frequency radio, transmitting information over radio waves instead of cables. ALOHAnet became the foundation for modern networks. Kuo pioneered the concept of a random-access protocol, or sharing a single channel without central coordination—which led to the packet-switching principles that underpin modern Wi-Fi and mobile networks. Kuo authored or coauthored several books including Computer Communication Networks . Published in 1972, it was one of the earliest textbooks on the subject. He served as director of the university’s Cosine committee , a project funded by the U.S. National Science Foundation to develop computer engineering courses. He took a sabbatical from 1975 to 1977 to work at the U.S. Pentagon as director of information systems in the defense secretary’s office . He oversaw computer communications applications used in command, control, and intelligence programs. During the 1980s and ’90s, he helped develop China’s Internet. In 1982 he joined SRI International (formerly…",
+      "source": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 86,
+      "confidence": 90,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-09-10",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "national-association-manufacturers",
-      "sourceType": "industry",
-      "sourceRegion": "北美",
-      "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Thu, 10 Sep 2026 19:52:53 +0000",
-      "sourcePublishedAt": "2026-09-10T19:52:53+00:00",
-      "collectedAt": "2026-09-10T20:55:42.908044+00:00",
+      "collectionSourceId": "ieee-spectrum",
+      "sourceType": "research",
+      "sourceRegion": "全球",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "Thu, 10 Sep 2026 20:00:04 +0000",
+      "sourcePublishedAt": "2026-09-10T20:00:04+00:00",
+      "collectedAt": "2026-09-10T20:55:42.302770+00:00",
       "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "The post MI, Deloitte Study: AI Could Help Close Skills Gap appeared first on NAM .",
-      "sourceMaterialType": "rss"
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "Franklin “Frank” Kuo Codeveloper of ALOHAnet Fellow, 91; died 14 April Kuo helped develop ALOHAnet , a pioneering computer system at the University of Hawaii at Mānoa , in Honolulu. The system went online in 1971 and represented the first public demonstration of a wireless packet data network . It was an inspiration for Robert Metcalfe ’s development of Ethernet a couple of years later. In 2020 ALOHAnet was designated as an IEEE Milestone . Kuo earned bachelor’s, master’s, and doctoral degrees in electrical engineering from the University of Illinois , Urbana-Champaign. After earning his Ph.D. in 1960, he joined Bell Labs in Murray Hill, N.J. , where he conducted research in computer communications. After six years at the company, Kuo left to become a professor of electrical engineering at the University of Hawaii. From 1968 to 1971 he and one of his colleagues, IEEE Life Fellow Norman Abramson , developed ALOHAnet. The network connected computers on Hawaiian islands using ultrahigh-frequency radio, transmitting information over radio waves instead of cables. ALOHAnet became the foundation for modern networks. Kuo pioneered the concept of a random-access protocol, or sharing a single channel without central coordination—which led to the packet-switching principles that underpin modern Wi-Fi and mobile networks. Kuo authored or coauthored several books including Computer Communication Networks . Published in 1972, it was one of the earliest textbooks on the subject. He served as director of the university’s Cosine committee , a project funded by the U.S. National Science Foundation to develop computer engineering courses. He took a sabbatical from 1975 to 1977 to work at the U.S. Pentagon as director of information systems in the defense secretary’s office . He oversaw computer communications applications used in command, control, and intelligence programs. During the 1980s and ’90s, he helped develop China’s Internet. In 1982 he joined SRI International (formerly the Stanford Research Institute), in Menlo Park, Calif., as a researcher. He also was a consulting professor in Stanford ’s electrical engineering department and taught computer networking at Shanghai Jiao Tong University . As a UNESCO lecturer in Beijing in 1994, he helped Peking University , Tsinghua University , and the Chinese Academy of Sciences connect to the Internet. He also worked with Tsinghua University to develop CERNET , the country’s first nationwide education and research computer network , which was managed by the Chinese Ministry of Education . For his work, he received an honorary degree from Shanghai Jiao Tong University. In the mid-1990s, Kuo helped found General Wireless Communications, a developer of mobile phone messaging services and games that was renamed Mtone Wireless. Muhammad Rezaul Karim Bell Labs researcher Life senior member, 86; died 18 May Karim was a distinguished member of the technical staff at Bell Labs in Murray Hill, N.J. His work was instrumental in the development of modern cellular communications technology. He joined Bell Labs in 1972 and worked in its mobile telecommunications laboratory as part of the team tasked with creating one of the earliest cellular networks. In 1975 Illinois Bell Telephone petitioned the U.S. Federal Communications Commission to develop and test a cellular system. The FCC, which now regulates radio, TV, telephone, Internet, satellite, and wireless services, authorized the project in March 1977. Karim and his team helped develop key elements of the technology, including the Bell Labs logic that controlled the cellular system, turning the concept into a working one. They also built radio receivers, transmitters, control systems, and cell-site equipment used in the first trial of the cellular system. The following year, Bell Labs and Illinois Bell deployed the Advanced Mobile Phone Service system across Chicago, with its switching office located in Oak Park, Ill. The initial test used approximately 100 mobile phones to work through hardware, software, and system-design problems. A subsequent test in 1979 involved 2,500 mobile users, providing a demonstration of the cellular technology in practice. The trials in Illinois helped establish the technical foundation for the commercial cellular networks that followed. Later in his career, Karim worked on the asynchronous transfer mode (ATM) technique, a high-speed networking technology crucial to the transition from traditional telephone networks to broadband and digital ones. In 2000 he published ATM Networks: Application, Systems, and Design , a textbook that served as a guide for designing and implementing ATM-based services. Karim received a bachelor’s degree in electrical engineering from the Bangladesh University of Engineering and Technology , in Dhaka. He then earned a master’s degree in EE from the University of Manchester , England, and a Ph.D. in EE from Stevens Institute of Technology , in Hoboken, N.J. Harry Bostic Former IEEE Region 4 director Life senior member, 86; died 18 March Bostic was an active IEEE volunteer who served as the 1998–1999 director of IEEE Region 4 . In 2007 he received a lifetime achievement award from the IEEE Central Indiana Section for “outstanding commitment and dedicated service as regional advisor to the volunteers and members of Region 4 and the Institute.” He was an engineer for 30 years at U.S. Navy’s avionics facility , a research, development, and manufacturing concern in Indianapolis. He worked on flight control, navigation, and weapons systems there. (The facility closed in 1996.) Edwin C. Jones Jr. Professor Life Fellow, 91; died 10 March Jones was widely recognized for his contributions to engineering education, curriculum development, and accreditation through decades of service to IEEE, ABET , and the American Society for Engineering Education . He earned a bachelor’s degree in electrical engineering in 1955 from West Virginia University in Morgantown. The following…",
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "以太网前身的代码开发人员去世，享年91岁",
+      "translatedSourceMaterial": "富兰克林· “弗兰克” ·郭（ Franklin “Frank” Kuo ） ALOHAnet Fellow的代码开发者， 91岁； 4月14日逝世，郭帮助开发了ALOHAnet ，这是夏威夷大学马诺阿分校的开创性计算机系统，位于檀香山。该系统于1971年上线，是无线分组数据网络的首次公开演示。这是Robert Metcalfe几年后开发以太网的灵感来源。 2020年， ALOHAnet被指定为IEEE里程碑。Kuo在伊利诺伊大学香槟分校获得电气工程学士、硕士和博士学位。1960年获得博士学位后，他加入了新泽西州默里山的贝尔实验室，在那里他进行了计算机通信研究。 在公司工作六年后，郭离开，成为夏威夷大学的电气工程教授。从1968年到1971年，他和他的同事之一， IEEE Life Fellow Norman Abramson开发了ALOHAnet。该网络使用超高频无线电连接夏威夷群岛上的计算机，通过无线电波而不是电缆传输信息。ALOHAnet成为现代网络的基础。 Kuo开创了随机接入协议的概念，即在没有中央协调的情况下共享单个信道，这导致了支持现代Wi-Fi和移动网络的分组交换原则。Kuo撰写或合著了几本书，包括《计算机通信网络》。这本书出版于1972年，是关于这个主题的最早的教科书之一。",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 1338
     },
     {
       "id": 193,
@@ -3968,23 +3977,19 @@
   "errors": [
     {
       "source": "中华人民共和国农业农村部",
-      "error": "连续 2 次请求失败（2289ms）：HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（858ms）：HTTP Error 429: Too Many Requests"
+      "error": "连续 2 次请求失败（2131ms）：HTTP Error 403: Forbidden"
     }
   ],
   "collection": {
-    "id": "2026-09-10T20:55:43.110163+00:00",
-    "startedAt": "2026-09-10T20:55:25.024102+00:00",
-    "finishedAt": "2026-09-10T20:55:43.110163+00:00",
+    "id": "2026-09-11T00:13:32.053818+00:00",
+    "startedAt": "2026-09-11T00:13:13.363130+00:00",
+    "finishedAt": "2026-09-11T00:13:32.053818+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 34,
-    "sourcesFailed": 2,
-    "fetched": 327,
-    "added": 245,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 337,
+    "added": 255,
     "duplicates": 36,
     "invalid": 1,
     "staleSkipped": 45,
@@ -3992,11 +3997,7 @@
     "errors": [
       {
         "source": "中华人民共和国农业农村部",
-        "error": "连续 2 次请求失败（2289ms）：HTTP Error 403: Forbidden"
-      },
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（858ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（2131ms）：HTTP Error 403: Forbidden"
       }
     ],
     "sourceResults": [
@@ -4005,7 +4006,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1611,
+        "durationMs": 1318,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4015,7 +4016,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1377,
+        "durationMs": 1431,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4025,7 +4026,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2799,
+        "durationMs": 2844,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4035,7 +4036,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2675,
+        "durationMs": 382,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4045,7 +4046,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 990,
+        "durationMs": 906,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4055,7 +4056,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1171,
+        "durationMs": 957,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4065,7 +4066,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1129,
+        "durationMs": 919,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4075,7 +4076,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1113,
+        "durationMs": 930,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4085,7 +4086,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 801,
+        "durationMs": 490,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4095,7 +4096,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3566,
+        "durationMs": 4114,
         "fetched": 1,
         "added": 1,
         "duplicates": 0
@@ -4105,7 +4106,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1583,
+        "durationMs": 1410,
         "fetched": 6,
         "added": 2,
         "duplicates": 3
@@ -4115,7 +4116,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 5015,
+        "durationMs": 6211,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4125,7 +4126,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1704,
+        "durationMs": 1610,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4135,18 +4136,18 @@
         "source": "中华人民共和国农业农村部",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 2290,
+        "durationMs": 2131,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（2289ms）：HTTP Error 403: Forbidden"
+        "error": "连续 2 次请求失败（2131ms）：HTTP Error 403: Forbidden"
       },
       {
         "sourceId": "china-mct-culture-news",
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1489,
+        "durationMs": 1371,
         "fetched": 10,
         "added": 0,
         "duplicates": 4
@@ -4156,37 +4157,37 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 107,
+        "durationMs": 19,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 176,
+        "durationMs": 116,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 80,
+        "durationMs": 119,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 922,
+        "durationMs": 3608,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4196,7 +4197,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 117,
+        "durationMs": 160,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4206,7 +4207,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 690,
+        "durationMs": 977,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4216,17 +4217,17 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 456,
+        "durationMs": 555,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "us-energy-information-administration",
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 85,
+        "durationMs": 139,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4236,7 +4237,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 48,
+        "durationMs": 42,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4246,7 +4247,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 450,
+        "durationMs": 533,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4256,7 +4257,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 55,
+        "durationMs": 72,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4266,7 +4267,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 58,
+        "durationMs": 51,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4276,7 +4277,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 105,
+        "durationMs": 66,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4286,7 +4287,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 351,
+        "durationMs": 748,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4296,17 +4297,17 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 282,
+        "durationMs": 213,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 6,
+        "duplicates": 4
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 107,
+        "durationMs": 156,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4314,20 +4315,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 858,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（858ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 44,
+        "fetched": 10,
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 456,
+        "durationMs": 495,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4337,7 +4337,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 695,
+        "durationMs": 376,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4347,7 +4347,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 700,
+        "durationMs": 380,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4357,7 +4357,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 157,
+        "durationMs": 224,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4375,7 +4375,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
