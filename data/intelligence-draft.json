@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T00:21:03.458430+00:00",
+  "generatedAt": "2026-09-12T07:12:07.410658+00:00",
   "stories": [
     {
       "id": 1,
@@ -2322,7 +2322,7 @@
       "contentCharacterCount": 1088
     },
     {
-      "id": 10,
+      "id": 5,
       "category": "科技",
       "categoryEvidenceScore": 0,
       "categoryScores": {
@@ -2331,47 +2331,44 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 1
+        "人文": 0
       },
-      "categoryClassificationMargin": 2,
+      "categoryClassificationMargin": 3,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "研究揭示中国南方丹尼索瓦人生存图景",
-      "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
-      "body": "核心信息 人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "科技部副部长张光军出席开放科学国际合作高级别会议",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "研究揭示中国南方丹尼索瓦人生存图景",
+      "originalTitle": "科技部副部长张光军出席开放科学国际合作高级别会议",
       "originalExcerpt": "",
-      "source": "中国科学院",
-      "sourceUrl": "https://www.cas.cn/syky/202609/t20260911_5120180.shtml",
+      "source": "中华人民共和国科学技术部",
+      "sourceUrl": "https://www.most.gov.cn/kjbgz/202609/t20260912_197313.html",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
-      "confidence": 97,
+      "confidence": 96,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "china-cas-science",
-      "sourceType": "research",
+      "collectionSourceId": "china-most-news",
+      "sourceType": "official",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-09-11",
-      "sourcePublishedAt": "2026-09-11T00:00:00+00:00",
-      "collectedAt": "2026-09-11T11:28:20.642151+00:00",
+      "originalPublishedAt": "2026-09-12",
+      "sourcePublishedAt": "2026-09-12T00:00:00+00:00",
+      "collectedAt": "2026-09-12T07:12:06.165696+00:00",
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "summarySourceType": "source-page",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "sourceMaterialType": "rss"
     },
     {
       "id": 26,
@@ -2655,7 +2652,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Heterogeneous Memory Chiplets Accelerate Multi-Request LLM Inference (NUS)",
       "excerpt": "Researchers at the National University of Singapore published a technical paper titled “CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration.” Abstract Excerpt: “This paper presents CHIPSMORE, a multi-mode and…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -2823,7 +2820,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Ag Tech Talk Podcast: Smart Seeding and the Future of AI on the Farm",
       "excerpt": "Discover how AI and machine learning are transforming precision agronomy, helping farmers make smarter, field-specific decisions for productivity and sustainability. The post Ag Tech Talk Podcast: Smart Seeding and the Future of AI on the Farm appeared first on Global Ag Tech…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“全球农业科技资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“全球农业科技资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2026/08/AgTechTalk-FeatureImage-Ep37-150x150.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "rss",
@@ -2854,7 +2851,9 @@
       "freshnessDays": 1,
       "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
       "sourceMaterial": "Discover how AI and machine learning are transforming precision agronomy, helping farmers make smarter, field-specific decisions for productivity and sustainability. The post Ag Tech Talk Podcast: Smart Seeding and the Future of AI on the Farm appeared first on Global Ag Tech Initiative .",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 241,
@@ -2979,7 +2978,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Reducing HBM ECC Controller Overhead For AI Inference (RPI, IBM)",
       "excerpt": "Researchers at Rensselaer Polytechnic Institute and IBM T.J. Watson Research Center published a technical paper titled “REACH: Controller-Managed Long-Span ECC for HBM AI Inference.” Abstract Excerpt: “High-Bandwidth Memory (HBM) cost motivates stronger controller protection that…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://semiengineering.com/wp-content/uploads/2026/08/AdobeStock_1748350067-08-26-tgreen-scaled.jpeg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "source-page",
@@ -3974,36 +3973,28 @@
   ],
   "errors": [
     {
-      "source": "U.S. Federal Reserve",
-      "error": "连续 2 次请求失败（912ms）：HTTP Error 404: Not Found"
-    },
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
+      "source": "科普中国",
+      "error": "订阅未返回可解析条目"
     }
   ],
   "collection": {
-    "id": "2026-09-12T00:21:03.458430+00:00",
-    "startedAt": "2026-09-12T00:20:45.017212+00:00",
-    "finishedAt": "2026-09-12T00:21:03.458430+00:00",
+    "id": "2026-09-12T07:12:07.410658+00:00",
+    "startedAt": "2026-09-12T07:11:41.160437+00:00",
+    "finishedAt": "2026-09-12T07:12:07.410658+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 34,
-    "sourcesFailed": 2,
-    "fetched": 328,
-    "added": 239,
-    "duplicates": 45,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 346,
+    "added": 256,
+    "duplicates": 46,
     "invalid": 1,
     "staleSkipped": 43,
     "maxSourceAgeDays": 45,
     "errors": [
       {
-        "source": "U.S. Federal Reserve",
-        "error": "连续 2 次请求失败（912ms）：HTTP Error 404: Not Found"
-      },
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
+        "source": "科普中国",
+        "error": "订阅未返回可解析条目"
       }
     ],
     "sourceResults": [
@@ -4012,7 +4003,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1274,
+        "durationMs": 1167,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4022,7 +4013,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1219,
+        "durationMs": 1349,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4032,7 +4023,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2594,
+        "durationMs": 2203,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4042,7 +4033,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 678,
+        "durationMs": 810,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4052,7 +4043,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 734,
+        "durationMs": 1419,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4062,7 +4053,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 835,
+        "durationMs": 1391,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4072,7 +4063,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 838,
+        "durationMs": 1248,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4082,7 +4073,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 776,
+        "durationMs": 1244,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4092,7 +4083,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 638,
+        "durationMs": 539,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4100,19 +4091,20 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "success",
+        "status": "failed",
         "attempts": 1,
-        "durationMs": 3599,
-        "fetched": 2,
-        "added": 2,
-        "duplicates": 0
+        "durationMs": 3662,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "订阅未返回可解析条目"
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1287,
+        "durationMs": 987,
         "fetched": 6,
         "added": 2,
         "duplicates": 3
@@ -4122,7 +4114,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4413,
+        "durationMs": 10516,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4132,7 +4124,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3297,
+        "durationMs": 1709,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4142,7 +4134,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2248,
+        "durationMs": 1998,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4152,7 +4144,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 866,
+        "durationMs": 816,
         "fetched": 10,
         "added": 1,
         "duplicates": 4
@@ -4162,7 +4154,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 23,
+        "durationMs": 149,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4172,7 +4164,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 160,
+        "durationMs": 298,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4182,7 +4174,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 136,
+        "durationMs": 202,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4192,7 +4184,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 938,
+        "durationMs": 1041,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4202,17 +4194,17 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 482,
+        "durationMs": 237,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "open-culture",
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 826,
+        "durationMs": 998,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4222,7 +4214,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 544,
+        "durationMs": 456,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4232,7 +4224,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 189,
+        "durationMs": 183,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4240,20 +4232,19 @@
       {
         "sourceId": "us-federal-reserve",
         "source": "U.S. Federal Reserve",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 912,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（912ms）：HTTP Error 404: Not Found"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 148,
+        "fetched": 10,
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "bank-for-international-settlements",
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 661,
+        "durationMs": 618,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4263,7 +4254,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 131,
+        "durationMs": 182,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4273,7 +4264,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 51,
+        "durationMs": 98,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4283,7 +4274,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 118,
+        "durationMs": 102,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4293,7 +4284,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 469,
+        "durationMs": 604,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4303,7 +4294,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 298,
+        "durationMs": 403,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4313,7 +4304,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 214,
+        "durationMs": 1051,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4321,20 +4312,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 853,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（853ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 359,
+        "fetched": 10,
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 26,
+        "durationMs": 503,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4344,17 +4334,17 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 777,
+        "durationMs": 243,
         "fetched": 10,
-        "added": 7,
-        "duplicates": 3
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "ipcc",
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 728,
+        "durationMs": 1003,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4364,7 +4354,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 188,
+        "durationMs": 196,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4382,7 +4372,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 30,
-      "translated": 2,
+      "translated": 0,
       "failed": 2,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 0,
