@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T07:12:07.410658+00:00",
+  "generatedAt": "2026-09-12T12:12:44.028486+00:00",
   "stories": [
     {
       "id": 1,
@@ -2331,13 +2331,13 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 3,
+      "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "科技部副部长张光军出席开放科学国际合作高级别会议",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "2026年9月11日，开放科学国际合作高级别会议在上海举行。科技部党组成员、副部长张光军出席开幕式并致辞。巴西科学、技术与创新部副部长安德烈娅·布里托·拉特赫，南非科学、技术与创新部司长安内琳·摩根，非盟委员会教育、科学、技术与创新司司长萨伊杜·马杜古出席开幕式并致辞。 张光军表示，中国始终是开放科学的坚定倡导者和积极践行者。2024年11月，习近平主席在二十国集团领导人第十九次峰会上宣布，中国同巴西、南非、非盟共同发起“开放科学国际合作倡议”。2025年，为落实“开放科学国际合作倡议”，李强总理在二十国集团领导人第二十次峰会上宣布…",
+      "body": "核心信息 2026年9月11日，开放科学国际合作高级别会议在上海举行。科技部党组成员、副部长张光军出席开幕式并致辞。巴西科学、技术与创新部副部长安德烈娅·布里托·拉特赫，南非科学、技术与创新部司长安内琳·摩根，非盟委员会教育、科学、技术与创新司司长萨伊杜·马杜古出席开幕式并致辞。 张光军表示，中国始终是开放科学的坚定倡导者和积极践行者。2024年11月，习近平主席在二十国集团领导人第十九次峰会上宣布，中国同巴西、南非、非盟共同发起“开放科学国际合作倡议”。2025年，为落实“开放科学国际合作倡议”，李强总理在二十国集团领导人第二十次峰会上宣布… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -2368,7 +2368,10 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 26,
@@ -3227,6 +3230,65 @@
       "contentGenerationError": "结构化整理正文未达到 800 字标准"
     },
     {
+      "id": 79,
+      "category": "科技",
+      "categoryEvidenceScore": 3,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 7,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 0
+      },
+      "categoryClassificationMargin": 7,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "可重复使用的航天密码：火箭回收究竟是如何实现的？",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/09/12/19/1789121863077.png",
+      "imageFallback": "assets/datacenter.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "科普中国",
+      "originalTitle": "可重复使用的航天密码：火箭回收究竟是如何实现的？",
+      "originalExcerpt": "",
+      "source": "科普中国",
+      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=736873",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 96,
+      "time": "待审核",
+      "readMinutes": 6,
+      "heat": 78,
+      "date": "2026-09-12",
+      "tags": [
+        "科技"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-kepuchina-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "",
+      "sourcePublishedAt": "",
+      "collectedAt": "2026-09-12T12:12:43.080406+00:00",
+      "freshnessDays": null,
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "sourceMaterial": "",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=736873",
+      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/09/12/19/1789121863077.png",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 72,
+      "videoDuration": "",
+      "videoExternalId": "736873"
+    },
+    {
       "id": 76,
       "category": "工业",
       "categoryEvidenceScore": 3,
@@ -3906,95 +3968,40 @@
       "contentCharacterCount": 121,
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 50,
-      "category": "人文",
-      "categoryEvidenceScore": 2,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 0,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 5
-      },
-      "categoryClassificationMargin": 5,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "《地理·中国》 20260830 金牌讲解员·“国宝”小城（下）",
-      "excerpt": "本期节目主要内容：滹沱河蜿蜒流淌，滋养了正定这片沃土，“九楼四塔八大寺”不仅镌刻着历史烽烟的流转印记，更成为今人探寻古建艺术、解码文明传承的珍贵实物档案。（《地理·中国》 20260830 金牌讲解员·“国宝”小城（下））",
-      "body": "视频简介\n\n本期节目主要内容：滹沱河蜿蜒流淌，滋养了正定这片沃土，“九楼四塔八大寺”不仅镌刻着历史烽烟的流转印记，更成为今人探寻古建艺术、解码文明传承的珍贵实物档案。（《地理·中国》 20260830 金牌讲解员·“国宝”小城（下））\n\n简要来源\n\n本视频来自“中央广播电视总台《地理·中国》”公开发布页面，仅在平台视频区域展示。",
-      "image": "https://p5.img.cctvpic.com/fmspic/2026/08/30/5845d972168342919a0b6550f5b2789c-1.jpg",
-      "imageFallback": "assets/semiconductor.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "中央广播电视总台《地理·中国》",
-      "originalTitle": "《地理·中国》 20260830 金牌讲解员·“国宝”小城（下）",
-      "originalExcerpt": "本期节目主要内容：滹沱河蜿蜒流淌，滋养了正定这片沃土，“九楼四塔八大寺”不仅镌刻着历史烽烟的流转印记，更成为今人探寻古建艺术、解码文明传承的珍贵实物档案。（《地理·中国》 20260830 金牌讲解员·“国宝”小城（下））",
-      "source": "中央广播电视总台《地理·中国》",
-      "sourceUrl": "https://tv.cctv.com/2026/08/30/VIDERD0DDzzBViiRvi1Vm7Gf260830.shtml",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 97,
-      "time": "待审核",
-      "readMinutes": 1,
-      "heat": 78,
-      "date": "2026-08-30",
-      "tags": [
-        "人文"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-cctv-geography-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-08-30 17:26:00",
-      "sourcePublishedAt": "2026-08-30T17:26:00+00:00",
-      "collectedAt": "2026-08-30T11:58:34.086519+00:00",
-      "freshnessDays": 0,
-      "reviewNote": "视频元数据已通过中文标题、官方链接与传播权限检查",
-      "sourceMaterial": "本期节目主要内容：滹沱河蜿蜒流淌，滋养了正定这片沃土，“九楼四塔八大寺”不仅镌刻着历史烽烟的流转印记，更成为今人探寻古建艺术、解码文明传承的珍贵实物档案。（《地理·中国》 20260830 金牌讲解员·“国宝”小城（下））",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://tv.cctv.com/2026/08/30/VIDERD0DDzzBViiRvi1Vm7Gf260830.shtml",
-      "videoPoster": "https://p5.img.cctvpic.com/fmspic/2026/08/30/5845d972168342919a0b6550f5b2789c-1.jpg",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 78,
-      "videoDuration": "00:28:33",
-      "videoExternalId": "5845d972168342919a0b6550f5b2789c",
-      "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 132,
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
   "errors": [
     {
-      "source": "科普中国",
-      "error": "订阅未返回可解析条目"
+      "source": "U.S. Federal Reserve",
+      "error": "连续 2 次请求失败（967ms）：HTTP Error 404: Not Found"
+    },
+    {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（911ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-09-12T07:12:07.410658+00:00",
-    "startedAt": "2026-09-12T07:11:41.160437+00:00",
-    "finishedAt": "2026-09-12T07:12:07.410658+00:00",
+    "id": "2026-09-12T12:12:44.028486+00:00",
+    "startedAt": "2026-09-12T12:12:21.580678+00:00",
+    "finishedAt": "2026-09-12T12:12:44.028486+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 346,
-    "added": 256,
-    "duplicates": 46,
+    "sourcesSucceeded": 34,
+    "sourcesFailed": 2,
+    "fetched": 327,
+    "added": 238,
+    "duplicates": 45,
     "invalid": 1,
     "staleSkipped": 43,
     "maxSourceAgeDays": 45,
     "errors": [
       {
-        "source": "科普中国",
-        "error": "订阅未返回可解析条目"
+        "source": "U.S. Federal Reserve",
+        "error": "连续 2 次请求失败（967ms）：HTTP Error 404: Not Found"
+      },
+      {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（911ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4003,7 +4010,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1167,
+        "durationMs": 1403,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4013,27 +4020,27 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1349,
+        "durationMs": 814,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 7,
+        "duplicates": 3
       },
       {
         "sourceId": "china-cas-science",
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2203,
+        "durationMs": 2375,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "china-ndrc-releases",
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 810,
+        "durationMs": 917,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4043,7 +4050,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1419,
+        "durationMs": 993,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4053,7 +4060,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1391,
+        "durationMs": 1140,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4063,7 +4070,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1248,
+        "durationMs": 985,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4073,7 +4080,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1244,
+        "durationMs": 1179,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4083,7 +4090,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 539,
+        "durationMs": 738,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4091,20 +4098,19 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "failed",
+        "status": "success",
         "attempts": 1,
-        "durationMs": 3662,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "订阅未返回可解析条目"
+        "durationMs": 2827,
+        "fetched": 1,
+        "added": 1,
+        "duplicates": 0
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 987,
+        "durationMs": 999,
         "fetched": 6,
         "added": 2,
         "duplicates": 3
@@ -4114,7 +4120,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 10516,
+        "durationMs": 7672,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4124,7 +4130,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1709,
+        "durationMs": 4443,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4134,7 +4140,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1998,
+        "durationMs": 2051,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4144,7 +4150,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 816,
+        "durationMs": 2663,
         "fetched": 10,
         "added": 1,
         "duplicates": 4
@@ -4154,7 +4160,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 149,
+        "durationMs": 134,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4164,7 +4170,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 298,
+        "durationMs": 50,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4174,7 +4180,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 202,
+        "durationMs": 31,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4184,7 +4190,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1041,
+        "durationMs": 1044,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4194,7 +4200,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 237,
+        "durationMs": 240,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4204,7 +4210,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 998,
+        "durationMs": 1136,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4214,7 +4220,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 456,
+        "durationMs": 683,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4224,7 +4230,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 183,
+        "durationMs": 320,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4232,19 +4238,20 @@
       {
         "sourceId": "us-federal-reserve",
         "source": "U.S. Federal Reserve",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 148,
-        "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 967,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（967ms）：HTTP Error 404: Not Found"
       },
       {
         "sourceId": "bank-for-international-settlements",
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 618,
+        "durationMs": 823,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4254,7 +4261,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 182,
+        "durationMs": 105,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4264,7 +4271,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 98,
+        "durationMs": 38,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4274,7 +4281,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 102,
+        "durationMs": 33,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4284,7 +4291,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 604,
+        "durationMs": 757,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4294,7 +4301,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 403,
+        "durationMs": 303,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4304,7 +4311,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1051,
+        "durationMs": 1247,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4312,19 +4319,20 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 359,
-        "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 911,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（911ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 503,
+        "durationMs": 588,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4334,7 +4342,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 243,
+        "durationMs": 261,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4344,7 +4352,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1003,
+        "durationMs": 1340,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4354,7 +4362,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 196,
+        "durationMs": 60,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4363,11 +4371,11 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 14,
+      "科技": 15,
       "工业": 11,
       "能源": 13,
       "农业": 10,
-      "人文": 14
+      "人文": 13
     },
     "articleGeneration": {
       "requested": 32,
@@ -4376,7 +4384,7 @@
       "failed": 2,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 0,
-      "videosPrepared": 4,
+      "videosPrepared": 3,
       "minimumCharacters": 800
     }
   }
