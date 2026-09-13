@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T04:54:02.301625+00:00",
+  "generatedAt": "2026-09-13T11:58:23.477928+00:00",
   "stories": [
     {
       "id": 1,
@@ -3141,7 +3141,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "From market stalls to healthier communities: Viwandani vendors leading the way to nutritious and safe food access in Nairobi's informal settlements",
       "excerpt": "In Nairobi’s Viwandani informal settlement, 100 fruit and vegetable vendors are co-creating solutions to improve food safety, nutrition, livelihoods, and access to affordable, healthy produce.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "category-cover",
@@ -3172,7 +3172,9 @@
       "freshnessDays": 2,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "In Nairobi’s Viwandani informal settlement, 100 fruit and vegetable vendors are co-creating solutions to improve food safety, nutrition, livelihoods, and access to affordable, healthy produce.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 145,
@@ -3190,7 +3192,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Download Hundreds of Issues of Jugend, Germany’s Pioneering Art Nouveau Magazine (1896–1940)",
       "excerpt": "It’s an ungainly word for English speakers, which is maybe why we do not hear it often: Gleichschaltung. Yet the concept remains central for a clear view of what happened to Germany in the 1930s. In 1933, the nation completely transformed, seemingly overnight, through “a…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“开放文化资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“开放文化资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://cdn8.openculture.com/2017/08/31225608/Jugend4.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -3221,7 +3223,9 @@
       "freshnessDays": 3,
       "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
       "sourceMaterial": "It’s an ungainly word for English speakers, which is maybe why we do not hear it often: Gleichschaltung. Yet the concept remains central for a clear view of what happened to Germany in the 1930s. In 1933, the nation completely transformed, seemingly overnight, through “a concerted policy of ‘coordination’ (Gleichschaltung),” the U.S. Holocaust Memorial Museum […]",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 79,
@@ -3239,7 +3243,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "AI能生成任何画面，我们还能相信“我看到了”吗？",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/08/27/15/1787726900255.png",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3280,7 +3284,9 @@
       "homeVideoFeatured": true,
       "homeVideoPriority": 72,
       "videoDuration": "",
-      "videoExternalId": "731497"
+      "videoExternalId": "731497",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 79,
@@ -3965,16 +3971,16 @@
   ],
   "errors": [],
   "collection": {
-    "id": "2026-09-13T04:54:02.301625+00:00",
-    "startedAt": "2026-09-13T04:53:41.736294+00:00",
-    "finishedAt": "2026-09-13T04:54:02.301625+00:00",
+    "id": "2026-09-13T11:58:23.477928+00:00",
+    "startedAt": "2026-09-13T11:58:01.915634+00:00",
+    "finishedAt": "2026-09-13T11:58:23.477928+00:00",
     "status": "success",
     "sourcesTotal": 36,
     "sourcesSucceeded": 36,
     "sourcesFailed": 0,
     "fetched": 347,
-    "added": 256,
-    "duplicates": 46,
+    "added": 254,
+    "duplicates": 48,
     "invalid": 1,
     "staleSkipped": 44,
     "maxSourceAgeDays": 45,
@@ -3985,7 +3991,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1098,
+        "durationMs": 1297,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -3995,7 +4001,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1363,
+        "durationMs": 1106,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4005,7 +4011,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1811,
+        "durationMs": 1754,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4015,7 +4021,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 671,
+        "durationMs": 745,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4025,7 +4031,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1193,
+        "durationMs": 626,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4035,7 +4041,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1386,
+        "durationMs": 703,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4045,7 +4051,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1213,
+        "durationMs": 825,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4055,7 +4061,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 912,
+        "durationMs": 672,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4065,7 +4071,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 858,
+        "durationMs": 634,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4075,17 +4081,17 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3283,
+        "durationMs": 3054,
         "fetched": 1,
-        "added": 1,
-        "duplicates": 0
+        "added": 0,
+        "duplicates": 1
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1249,
+        "durationMs": 924,
         "fetched": 6,
         "added": 2,
         "duplicates": 3
@@ -4095,7 +4101,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4388,
+        "durationMs": 6304,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4105,7 +4111,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1534,
+        "durationMs": 1373,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4115,7 +4121,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2213,
+        "durationMs": 2137,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4125,7 +4131,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 994,
+        "durationMs": 758,
         "fetched": 10,
         "added": 0,
         "duplicates": 4
@@ -4135,7 +4141,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 187,
+        "durationMs": 121,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4145,7 +4151,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 238,
+        "durationMs": 261,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4155,7 +4161,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 101,
+        "durationMs": 137,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4165,17 +4171,17 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1060,
+        "durationMs": 931,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 209,
+        "durationMs": 152,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4185,17 +4191,17 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 893,
+        "durationMs": 1033,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 486,
+        "durationMs": 563,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4205,7 +4211,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 195,
+        "durationMs": 204,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4215,7 +4221,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 127,
+        "durationMs": 159,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4225,7 +4231,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 504,
+        "durationMs": 573,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4235,7 +4241,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 170,
+        "durationMs": 171,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4245,7 +4251,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 105,
+        "durationMs": 155,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4255,7 +4261,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 151,
+        "durationMs": 156,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4265,7 +4271,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 607,
+        "durationMs": 680,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4275,7 +4281,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 451,
+        "durationMs": 337,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4285,7 +4291,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 149,
+        "durationMs": 375,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4295,17 +4301,17 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 498,
+        "durationMs": 359,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 716,
+        "durationMs": 758,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4315,7 +4321,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 636,
+        "durationMs": 734,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4325,7 +4331,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1045,
+        "durationMs": 730,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4335,7 +4341,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 219,
+        "durationMs": 174,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4353,7 +4359,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 31,
-      "translated": 1,
+      "translated": 0,
       "failed": 1,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 1,
