@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T18:13:35.288261+00:00",
+  "generatedAt": "2026-09-16T21:23:17.645843+00:00",
   "stories": [
     {
       "id": 1,
@@ -2720,7 +2720,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Humanoids ‘deviating’ attention from core manufacturing issues: Schneider",
       "excerpt": "Andre Marino, senior vice president of industrial automation at Schneider Electric, spoke with Manufacturing Dive about the future of the industry and the shift to a software-defined framework.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://imgproxy.divecdn.com/y5eRDwhxkyw4iP1A4OIGdwswrTuuVecLaW6xpYYBMeY/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9oeXVuZGFpcm9ib3QuanBn.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -2751,7 +2751,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Andre Marino, senior vice president of industrial automation at Schneider Electric, spoke with Manufacturing Dive about the future of the industry and the shift to a software-defined framework.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 165,
@@ -2876,7 +2878,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "This New Brain Map Shows Every Nerve Cell in an Adult Male Fruit Fly's Central Nervous System. Here's Why That Matters",
       "excerpt": "The recently released \"connectome\" joins a previously completed map of an adult female fruit fly’s brain. The digital 3D diagrams allow scientists to trace precise neural paths in the bugs’ brains, which can unlock secrets about the organ in humans",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/guNOla-4Oo9ndnYwDa19lmK5CXI=/420x240/filters:focal(960x649:961x650)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/a6/ce/a6cea92b-eaa2-4db6-8548-7259a539330c/connectome-nervous-system.webp",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2907,7 +2909,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The recently released \"connectome\" joins a previously completed map of an adult female fruit fly’s brain. The digital 3D diagrams allow scientists to trace precise neural paths in the bugs’ brains, which can unlock secrets about the organ in humans",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 196,
@@ -3032,7 +3036,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "NIST awards over $30M to 12 Manufacturing Extension Partnership sites",
       "excerpt": "The money will back MEP centers in 11 states and Puerto Rico to assist small- and medium-sized businesses with adopting advanced technologies such as AI, automation and robotics.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://imgproxy.divecdn.com/TS0jLFvD4wsHwDpJW-GxL-15QE6N26PlcK5uWu6elhI/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMjc1Nzg2ODkyLmpwZw==.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -3063,7 +3067,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The money will back MEP centers in 11 states and Puerto Rico to assist small- and medium-sized businesses with adopting advanced technologies such as AI, automation and robotics.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 197,
@@ -3961,18 +3967,18 @@
   ],
   "errors": [],
   "collection": {
-    "id": "2026-09-16T18:13:35.288261+00:00",
-    "startedAt": "2026-09-16T18:13:11.260750+00:00",
-    "finishedAt": "2026-09-16T18:13:35.288261+00:00",
+    "id": "2026-09-16T21:23:17.645843+00:00",
+    "startedAt": "2026-09-16T21:22:58.631546+00:00",
+    "finishedAt": "2026-09-16T21:23:17.645843+00:00",
     "status": "success",
     "sourcesTotal": 36,
     "sourcesSucceeded": 36,
     "sourcesFailed": 0,
     "fetched": 349,
-    "added": 263,
-    "duplicates": 44,
+    "added": 265,
+    "duplicates": 43,
     "invalid": 2,
-    "staleSkipped": 40,
+    "staleSkipped": 39,
     "maxSourceAgeDays": 45,
     "errors": [],
     "sourceResults": [
@@ -3981,7 +3987,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1890,
+        "durationMs": 1055,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -3991,7 +3997,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1493,
+        "durationMs": 1051,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4001,7 +4007,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2710,
+        "durationMs": 1994,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4011,7 +4017,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 858,
+        "durationMs": 842,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4021,7 +4027,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1053,
+        "durationMs": 733,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4031,7 +4037,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1102,
+        "durationMs": 1203,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4041,7 +4047,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1258,
+        "durationMs": 710,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4051,7 +4057,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1036,
+        "durationMs": 720,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4061,7 +4067,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 562,
+        "durationMs": 938,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4071,7 +4077,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3693,
+        "durationMs": 3538,
         "fetched": 3,
         "added": 1,
         "duplicates": 2
@@ -4081,7 +4087,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1274,
+        "durationMs": 1014,
         "fetched": 6,
         "added": 2,
         "duplicates": 2
@@ -4091,7 +4097,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4964,
+        "durationMs": 3948,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4101,7 +4107,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1704,
+        "durationMs": 1577,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4111,7 +4117,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2392,
+        "durationMs": 2173,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4121,7 +4127,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2587,
+        "durationMs": 1592,
         "fetched": 10,
         "added": 2,
         "duplicates": 3
@@ -4131,37 +4137,37 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 130,
+        "durationMs": 94,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 193,
+        "durationMs": 181,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 49,
+        "durationMs": 106,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1098,
+        "durationMs": 1082,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4171,7 +4177,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 477,
+        "durationMs": 290,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4181,7 +4187,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1188,
+        "durationMs": 3662,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4191,7 +4197,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 541,
+        "durationMs": 1087,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4201,7 +4207,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 177,
+        "durationMs": 115,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4211,7 +4217,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 75,
+        "durationMs": 88,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4221,7 +4227,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 597,
+        "durationMs": 4280,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4231,17 +4237,17 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 177,
+        "durationMs": 136,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "us-national-institute-standards-technology",
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 99,
+        "durationMs": 76,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4251,7 +4257,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 73,
+        "durationMs": 75,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4261,7 +4267,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 377,
+        "durationMs": 727,
         "fetched": 10,
         "added": 1,
         "duplicates": 1
@@ -4271,19 +4277,19 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 292,
+        "durationMs": 412,
         "fetched": 10,
-        "added": 6,
-        "duplicates": 4
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 894,
+        "durationMs": 1379,
         "fetched": 10,
-        "added": 8,
+        "added": 9,
         "duplicates": 0
       },
       {
@@ -4291,7 +4297,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 110,
+        "durationMs": 145,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4301,7 +4307,7 @@
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 245,
+        "durationMs": 864,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4311,7 +4317,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 432,
+        "durationMs": 455,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4321,7 +4327,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 775,
+        "durationMs": 1211,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4331,10 +4337,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 92,
+        "durationMs": 157,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       }
     ],
     "queueCount": 72,
@@ -4349,7 +4355,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 0,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
