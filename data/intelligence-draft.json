@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T17:18:43.615461+00:00",
+  "generatedAt": "2026-09-19T20:45:56.411040+00:00",
   "stories": [
     {
       "id": 1,
@@ -2654,34 +2654,34 @@
       "contentCharacterCount": 987
     },
     {
-      "id": 222,
+      "id": 123,
       "category": "科技",
-      "categoryEvidenceScore": 2,
+      "categoryEvidenceScore": 3,
       "categoryScores": {
         "金融": 0,
-        "科技": 5,
+        "科技": 6,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 1
+        "人文": 0
       },
-      "categoryClassificationMargin": 4,
+      "categoryClassificationMargin": 6,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：APOD ： 2026年9月19日–十二生肖之夜",
-      "excerpt": "APOD Science APOD APOD ： 2026年9月19日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。夜空注释A […]技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来…",
-      "body": "核心进展\n\nAPOD Science APOD APOD ： 2026年9月19日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。夜空注释A […]。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/september/2026-09-09ZodiacalLightHSP.jpg?w=2060&h=1393&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "科技前沿观察：先进BEOL互连堆栈导热系数预测（北京大学）",
+      "excerpt": "北京大学的研究人员发表了一篇名为《广泛层分辨热测量实现的先进技术节点中BEOL互连堆栈的热导率建模框架的预测结构》的技术论文。摘要： “先进集成电路中BEOL互连堆叠的结构复杂性日益增加，需要结构感知热导率（ κ ）模块 eling框架。然而，可推广... »阅读更多文章预测先进BEOL互连堆栈中的热导率（北京大学）首先出现在半导体工程上…",
+      "body": "核心进展\n\n北京大学的研究人员发表了一篇名为《广泛层分辨热测量实现的先进技术节点中BEOL互连堆栈的热导率建模框架的预测结构》的技术论文。摘要： “先进集成电路中BEOL互连堆叠的结构复杂性日益增加，需要结构感知热导率（ κ ）模块 eling框架。然而，可推广... »阅读更多文章预测先进BEOL互连堆栈中的热导率（北京大学）首先出现在半导体工程上。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "NASA Breaking News",
-      "originalTitle": "APOD: 2026 September 19 – A Zodiacal Night",
-      "originalExcerpt": "APOD Science APOD APOD: 2026 September 19 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night SkyAnnotation A […]",
-      "source": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-19-a-zodiacal-night/",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "Predicting Thermal Conductivity in Advanced BEOL Interconnect Stacks (Peking University)",
+      "originalExcerpt": "Researchers at Peking University published a technical paper titled “Predictive Structure to Thermal Conductivity Modeling Framework for BEOL Interconnect Stacks in Advanced Technology Nodes Enabled by Extensive Layer Resolved Thermal Measurements.” Abstract Excerpt: “The increasing structural complexity of BEOL interconnect stacks in advanced integrated circuits demands a structure-aware thermal conductivity (κ) modeling framework. However, generalizable... » read more The post Predicting Thermal Conductivity in Advanced BEOL Interconnect Stacks (Peking University) appeared first on Semiconductor Engineering .",
+      "source": "Semiconductor Engineering",
+      "sourceUrl": "https://semiengineering.com/predicting-thermal-conductivity-in-advanced-beol-interconnect-stacks-peking-university/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 95,
+      "confidence": 86,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -2690,24 +2690,24 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "nasa-breaking-news",
-      "sourceType": "official",
+      "collectionSourceId": "semiconductor-engineering",
+      "sourceType": "industry",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Sat, 19 Sep 2026 04:05:00 +0000",
-      "sourcePublishedAt": "2026-09-19T04:05:00+00:00",
-      "collectedAt": "2026-09-19T12:32:26.831689+00:00",
+      "sourceTrustLevel": "professional",
+      "originalPublishedAt": "Sat, 19 Sep 2026 20:05:04 +0000",
+      "sourcePublishedAt": "2026-09-19T20:05:04+00:00",
+      "collectedAt": "2026-09-19T20:45:55.984760+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "APOD Science APOD APOD: 2026 September 19 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night SkyAnnotation A […]",
+      "sourceMaterial": "Researchers at Peking University published a technical paper titled “Predictive Structure to Thermal Conductivity Modeling Framework for BEOL Interconnect Stacks in Advanced Technology Nodes Enabled by Extensive Layer Resolved Thermal Measurements.” Abstract Excerpt: “The increasing structural complexity of BEOL interconnect stacks in advanced integrated circuits demands a structure-aware thermal conductivity (κ) modeling framework. However, generalizable... » read more The post Predicting Thermal Conductivity in Advanced BEOL Interconnect Stacks (Peking University) appeared first on Semiconductor Engineering .",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "APOD ： 2026年9月19日–十二生肖之夜",
-      "translatedSourceMaterial": "APOD Science APOD APOD ： 2026年9月19日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。夜空注释A […]",
+      "translatedSourceTitle": "先进BEOL互连堆栈导热系数预测（北京大学）",
+      "translatedSourceMaterial": "北京大学的研究人员发表了一篇名为《广泛层分辨热测量实现的先进技术节点中BEOL互连堆栈的热导率建模框架的预测结构》的技术论文。摘要： “先进集成电路中BEOL互连堆叠的结构复杂性日益增加，需要结构感知热导率（ κ ）模块 eling框架。然而，可推广... »阅读更多文章预测先进BEOL互连堆栈中的热导率（北京大学）首先出现在半导体工程上。",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 955
+      "contentCharacterCount": 990
     },
     {
       "id": 119,
@@ -2878,7 +2878,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "人文前沿观察：本周末，一群40只真人大小的野牛偶人将在纽约踩踏，以纪念土著历史和复原力",
       "excerpt": "巨大的牛，每只都由三个木偶操纵者操纵，将在曼哈顿下城和布鲁克林漫步人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
-      "body": "核心进展\n\n巨大的牛，每只都由三个木偶操纵者操纵，将在曼哈顿下城和布鲁克林漫步。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 巨大的牛，每只都由三个木偶操纵者操纵，将在曼哈顿下城和布鲁克林漫步。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/Y5blksHg8mva4xIScy2TOISkRzk=/420x240/filters:focal(4128x2752:4129x2753)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/ee/af/eeaf8702-0ac4-473b-9399-aefed4f4c3ae/2026-08-26_return_of_the_buffalo_rush-10.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2970,60 +2970,59 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 107,
+      "id": 124,
       "category": "科技",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 6,
       "categoryScores": {
         "金融": 0,
-        "科技": 6,
+        "科技": 10,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 3
+        "人文": 0
       },
-      "categoryClassificationMargin": 3,
+      "categoryClassificationMargin": 10,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：将技术人才转化为领导力遗产",
-      "excerpt": "从多年的高级技术或行政职位过渡到领导职位是STEM职业生涯中最具挑战性的阶段之一。这需要从自己做决策转向指导他人，为组织制定战略决策，并与不同世代的同事合作。 思维模式的转变被称为“遗留领导力” ，即成功不再以个人成就来衡量，而是以高级领导者如何有效地赋予他人权力来衡量。为了帮助经验丰富的专业人士和资深专家应对转型，首届IEEE国际领导力会议（ ILC…",
-      "body": "核心进展 从多年的高级技术或行政职位过渡到领导职位是STEM职业生涯中最具挑战性的阶段之一。这需要从自己做决策转向指导他人，为组织制定战略决策，并与不同世代的同事合作。 思维模式的转变被称为“遗留领导力” ，即成功不再以个人成就来衡量，而是以高级领导者如何有效地赋予他人权力来衡量。为了帮助经验丰富的专业人士和资深专家应对转型，首届IEEE国际领导力会议（ ILC ）将为与会者提供有关培养合作和指导新兴人才的实用建议。 IEEE ILC项目委员会联合主席Jeewika Ranaweera表示： “在我们STEM职业生涯的早期，我们通过所取得的成就来衡量成功。“后来，我们应该通过我们能做什么、指导多少人、传授多少知识以及为下一代敞开多少扇门来衡量成功。“ILC定于10月3日和4日在布达佩斯举行。注册已开放。 几十年来，经验丰富的技术专家主要因其技术专长而受到重视。从这种身份转变可能会让人感到不舒服，但传统的领导力需要用不同的标准来衡量成功。其中包括领导者对员工的影响、坚持公司使命的能力……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。 关键内容 理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://spectrum.ieee.org/media-library/a-team-of-seven-people-having-a-work-meeting-in-an-open-concept-office-space.jpg?id=67787397&width=980",
+      "title": "Agentic AI Automates Design-Rule Repair While Preserving Layout Equivalence (Purdue University)",
+      "excerpt": "Researchers at Purdue University published a technical paper titled “DRC-Aid: Design-Rule Correction via Agentic Framework utilizing Inference-Time Large Language Models.” Abstract Excerpt: “We present DRC-Aid, a closed-loop agentic framework that automates local DRC repair by…",
+      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "IEEE Spectrum",
-      "originalTitle": "Turning Tech Talent Into Leadership Legacy",
-      "originalExcerpt": "Transitioning from years of working in a senior technical or executive role to a leadership position is one of the most challenging phases of a STEM career. It requires moving away from making decisions on your own to mentoring others, making strategic decisions for the organization, and collaborating with coworkers from different generations. The shift in mindset is known as “legacy leadership,” a philosophy whereby success is no longer measured by personal achievements but by how effectively a senior leader empowers others. To help seasoned professionals and senior experts navigate the transition, the inaugural IEEE International Leadership Conference (ILC) will provide attendees practical advice on cultivating collaborations and guiding emerging talent. “Early in our STEM careers, we measure success by what we have achieved,” says Jeewika Ranaweera , cochair of the IEEE ILC program committee. “Later, we should measure success by what we enable, how many people we mentor, how much knowledge we transfer, and how many doors we open for the next generation.” The ILC is scheduled for 3 and 4 October in Budapest. Registration is open . Letting go of the “expert” identity For decades, seasoned technologists have been valued primarily for their technical expertise. Shifting from that identity can feel uncomfortable, but legacy leadership requires measuring success by different standards. They include a leader’s influence on the staff, the ability to uphold the company’s mission, and empowering others to lead and succeed. The transition requires leaders to find purpose outside their corporate titles, shifting their focus to the long-term sustainability of their teams, their organization, and the broader technical community. “A professional legacy is not measured only by what we have achieved but also by sharing our knowledge, experience, and opportunities with others,” says Sudhanshu S. Jamuar , another program committee cochair. “The real transition from expert to a…",
-      "source": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/tech-talent-into-leadership-legacy",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "Agentic AI Automates Design-Rule Repair While Preserving Layout Equivalence (Purdue University)",
+      "originalExcerpt": "Researchers at Purdue University published a technical paper titled “DRC-Aid: Design-Rule Correction via Agentic Framework utilizing Inference-Time Large Language Models.” Abstract Excerpt: “We present DRC-Aid, a closed-loop agentic framework that automates local DRC repair by formulating it as verification-in-the-loop search. To constrain the combinatorial geometric repair space, a deterministic Rule Engine converts physical verification tool-reported... » read more The post Agentic AI Automates Design-Rule Repair While Preserving Layout Equivalence (Purdue University) appeared first on Semiconductor Engineering .",
+      "source": "Semiconductor Engineering",
+      "sourceUrl": "https://semiengineering.com/agentic-ai-automates-design-rule-repair-while-preserving-layout-equivalence/",
       "author": "",
-      "language": "zh-CN",
+      "language": "en",
       "sourceLanguage": "en",
-      "confidence": 90,
+      "confidence": 86,
       "time": "待审核",
-      "readMinutes": 4,
+      "readMinutes": 6,
       "heat": 78,
-      "date": "2026-09-18",
+      "date": "2026-09-19",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "ieee-spectrum",
-      "sourceType": "research",
+      "collectionSourceId": "semiconductor-engineering",
+      "sourceType": "industry",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Fri, 18 Sep 2026 18:00:04 +0000",
-      "sourcePublishedAt": "2026-09-18T18:00:04+00:00",
-      "collectedAt": "2026-09-18T20:57:34.953122+00:00",
+      "sourceTrustLevel": "professional",
+      "originalPublishedAt": "Sat, 19 Sep 2026 20:01:40 +0000",
+      "sourcePublishedAt": "2026-09-19T20:01:40+00:00",
+      "collectedAt": "2026-09-19T20:45:55.987933+00:00",
       "freshnessDays": 0,
-      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Transitioning from years of working in a senior technical or executive role to a leadership position is one of the most challenging phases of a STEM career. It requires moving away from making decisions on your own to mentoring others, making strategic decisions for the organization, and collaborating with coworkers from different generations. The shift in mindset is known as “legacy leadership,” a philosophy whereby success is no longer measured by personal achievements but by how effectively a senior leader empowers others. To help seasoned professionals and senior experts navigate the transition, the inaugural IEEE International Leadership Conference (ILC) will provide attendees practical advice on cultivating collaborations and guiding emerging talent. “Early in our STEM careers, we measure success by what we have achieved,” says Jeewika Ranaweera , cochair of the IEEE ILC program committee. “Later, we should measure success by what we enable, how many people we mentor, how much knowledge we transfer, and how many doors we open for the next generation.” The ILC is scheduled for 3 and 4 October in Budapest. Registration is open . Letting go of the “expert” identity For decades, seasoned technologists have been valued primarily for their technical expertise. Shifting from that identity can feel uncomfortable, but legacy leadership requires measuring success by different standards. They include a leader’s influence on the staff, the ability to uphold the company’s mission, and empowering others to lead and succeed. The transition requires leaders to find purpose outside their corporate titles, shifting their focus to the long-term sustainability of their teams, their organization, and the broader technical community. “A professional legacy is not measured only by what we have achieved but also by sharing our knowledge, experience, and opportunities with others,” says Sudhanshu S. Jamuar , another program committee cochair. “The real transition from expert to a legacy builder happens when we stop asking, ‘What more can I accomplish myself?’ and start asking, ‘How many others can I enable to accomplish more?’” Neeli Rashmi Prasad , IEEE ILC treasurer and sponsorship cochair, adds that the transition transforms a lifetime of technical work into a platform for future innovation. “The true value of experience is not in how much knowledge we accumulate but in how intentionally we transfer it,” Prasad says. “When we partner with, mentor, and create space for others to lead, our expertise becomes a foundation for progress far beyond our own careers.” Moving beyond advice-giving True knowledge transfer requires coaching rather than advising, and mastering the art of active listening. To build deep trust with early-career colleagues and ensure a seamless transfer of leadership to the next generation, senior leaders must avoid offering unsolicited or outdated anecdotes. Effective mentorship is a collaborative loop in which senior experts contribute hard-won industry wisdom while remaining curious and learning from the fresh, cutting-edge perspectives of talented coworkers. “Knowledge transfer is most powerful when it is a two-way bridge: experience flows from one generation to the next, while new ideas and perspectives flow back,” says Sudeendra Koushik, president of the IEEE Technology and Engineering Management Society and an ILC keynote speaker. “This approach transforms mentorship from simply passing on information into one where the next generation can question, experiment, innovate, and ultimately surpass what came before them.” Seasoned professionals should encourage independent, disruptive thinkers rather than carbon copies of themselves, Prasad says. “Legacy leadership is about building continuity,” she says. “We should not simply prepare the next generation to follow the paths we created; we should give them the confidence, knowledge, and networks to challenge those paths, create new ones, and take technology further than we imagined.” Designing your next chapter Leadership does not need to stop when one’s job ends; it can evolve. Seasoned, retired professionals can continue contributing meaningful service through pathways that align with their personal passions. They include: Advisory boards: steering corporate, technical, or community organizations. Civic engagement: applying engineering methodologies to solve community challenges. Volunteerism: mentoring the next generation of grassroots innovators through professional networks including IEEE. Those pathways offer experienced professionals an opportunity to redefine success, not in terms of position, authority, or personal achievement but in terms of sustained impact. “Retirement from a job should never mean retirement from purpose,” Koushik says. “Our experience becomes even more valuable when we use it in service of the profession, society, and the generation that follows.” At the same time, the collaborative continuum relies on a proactive younger generation. Emerging leaders need to take responsibility for building their professional connections, Prasad says, advising: “Be bold, stay curious, and build your network early!” A space for continuity The conference is designed to combine a drive to cultivate emerging innovators with a deep reservoir of industry stewardship and strategic perspective. Rather than a single classroom session, the conference will feature a dedicated career-readiness and mentorship track where attendees can explore practical frameworks for building strategic professional networks, connecting with peer advocates, and establishing reciprocal knowledge-sharing opportunities across generations. By participating, seasoned professionals can ensure their decades of expertise continue to yield dividends for generations to come. “Our professional legacy is not the technology we build, the titles we earn, or the awards we receive,” Ranaweera says. “It is the knowledge we share, the lives we influence, and the future…",
+      "reviewNote": "正文未达到 800 字公开标准，仅保留在待审核区",
+      "sourceMaterial": "Researchers at Purdue University published a technical paper titled “DRC-Aid: Design-Rule Correction via Agentic Framework utilizing Inference-Time Large Language Models.” Abstract Excerpt: “We present DRC-Aid, a closed-loop agentic framework that automates local DRC repair by formulating it as verification-in-the-loop search. To constrain the combinatorial geometric repair space, a deterministic Rule Engine converts physical verification tool-reported... » read more The post Agentic AI Automates Design-Rule Repair While Preserving Layout Equivalence (Purdue University) appeared first on Semiconductor Engineering .",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "将技术人才转化为领导力遗产",
-      "translatedSourceMaterial": "从多年的高级技术或行政职位过渡到领导职位是STEM职业生涯中最具挑战性的阶段之一。这需要从自己做决策转向指导他人，为组织制定战略决策，并与不同世代的同事合作。 思维模式的转变被称为“遗留领导力” ，即成功不再以个人成就来衡量，而是以高级领导者如何有效地赋予他人权力来衡量。为了帮助经验丰富的专业人士和资深专家应对转型，首届IEEE国际领导力会议（ ILC ）将为与会者提供有关培养合作和指导新兴人才的实用建议。 IEEE ILC项目委员会联合主席Jeewika Ranaweera表示： “在我们STEM职业生涯的早期，我们通过所取得的成就来衡量成功。“后来，我们应该通过我们能做什么、指导多少人、传授多少知识以及为下一代敞开多少扇门来衡量成功。“ILC定于10月3日和4日在布达佩斯举行。注册已开放。 几十年来，经验丰富的技术专家主要因其技术专长而受到重视。从这种身份转变可能会让人感到不舒服，但传统的领导力需要用不同的标准来衡量成功。其中包括领导者对员工的影响、坚持公司使命的能力……",
+      "translatedSourceTitle": "Agentic AI在保持布局等效的同时实现设计规则修复的自动化（普渡大学）",
+      "translatedSourceMaterial": "普渡大学的研究人员发表了一篇名为“DRC-Aid ： Design-Rule Correction via Agentic Framework using Inference-Time Large Language Models”的技术论文。摘要： “我们推出了DRC-Aid ，这是一个闭环代理框架，通过将其制定为循环验证搜索，实现本地DRC修复的自动化。 为了限制组合几何修复空间，确定性规则引擎转换物理验证工具-报告... »阅读更多文章Agentic AI在保持布局等效的同时自动进行设计-规则修复（普渡大学）首先出现在半导体工程上。",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
-      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
-      "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1251
+      "contentGenerationMode": "pending-editorial-expansion",
+      "contentGenerationError": "结构化整理正文未达到 800 字标准"
     },
     {
       "id": 203,
@@ -3979,29 +3978,39 @@
       "translatedSourceMaterial": ""
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "中华人民共和国农业农村部",
+      "error": "连续 2 次请求失败（2295ms）：HTTP Error 403: Forbidden"
+    }
+  ],
   "collection": {
-    "id": "2026-09-19T17:18:43.615461+00:00",
-    "startedAt": "2026-09-19T17:18:23.716069+00:00",
-    "finishedAt": "2026-09-19T17:18:43.615461+00:00",
-    "status": "success",
+    "id": "2026-09-19T20:45:56.411040+00:00",
+    "startedAt": "2026-09-19T20:45:36.378791+00:00",
+    "finishedAt": "2026-09-19T20:45:56.411040+00:00",
+    "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 36,
-    "sourcesFailed": 0,
-    "fetched": 347,
-    "added": 260,
-    "duplicates": 47,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 337,
+    "added": 258,
+    "duplicates": 39,
     "invalid": 2,
     "staleSkipped": 38,
     "maxSourceAgeDays": 45,
-    "errors": [],
+    "errors": [
+      {
+        "source": "中华人民共和国农业农村部",
+        "error": "连续 2 次请求失败（2295ms）：HTTP Error 403: Forbidden"
+      }
+    ],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1472,
+        "durationMs": 1218,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4011,7 +4020,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1236,
+        "durationMs": 1566,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4021,7 +4030,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1497,
+        "durationMs": 2291,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4031,7 +4040,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1830,
+        "durationMs": 542,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4041,7 +4050,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1011,
+        "durationMs": 962,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4051,7 +4060,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1108,
+        "durationMs": 969,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4061,7 +4070,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 990,
+        "durationMs": 992,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4071,7 +4080,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 920,
+        "durationMs": 1020,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4081,7 +4090,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 673,
+        "durationMs": 693,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4091,7 +4100,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2930,
+        "durationMs": 2705,
         "fetched": 1,
         "added": 0,
         "duplicates": 1
@@ -4101,7 +4110,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 947,
+        "durationMs": 1378,
         "fetched": 6,
         "added": 2,
         "duplicates": 2
@@ -4111,7 +4120,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3835,
+        "durationMs": 3819,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4121,7 +4130,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1444,
+        "durationMs": 1570,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4129,19 +4138,20 @@
       {
         "sourceId": "china-moa-news",
         "source": "中华人民共和国农业农村部",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 2022,
-        "fetched": 10,
-        "added": 2,
-        "duplicates": 8
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 2295,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（2295ms）：HTTP Error 403: Forbidden"
       },
       {
         "sourceId": "china-mct-culture-news",
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2312,
+        "durationMs": 1838,
         "fetched": 10,
         "added": 2,
         "duplicates": 5
@@ -4151,7 +4161,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 89,
+        "durationMs": 184,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4161,7 +4171,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 88,
+        "durationMs": 205,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4171,7 +4181,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 45,
+        "durationMs": 247,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4181,7 +4191,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1103,
+        "durationMs": 996,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4191,7 +4201,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 202,
+        "durationMs": 226,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4200,8 +4210,8 @@
         "sourceId": "open-culture",
         "source": "Open Culture",
         "status": "success",
-        "attempts": 1,
-        "durationMs": 1355,
+        "attempts": 2,
+        "durationMs": 2718,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4211,7 +4221,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 979,
+        "durationMs": 806,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4221,7 +4231,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 119,
+        "durationMs": 196,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4231,7 +4241,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 44,
+        "durationMs": 99,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4241,7 +4251,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 677,
+        "durationMs": 503,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4251,7 +4261,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 92,
+        "durationMs": 149,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4261,7 +4271,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 43,
+        "durationMs": 139,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4271,7 +4281,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 37,
+        "durationMs": 169,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4281,7 +4291,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 981,
+        "durationMs": 913,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4291,7 +4301,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 242,
+        "durationMs": 397,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4301,7 +4311,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 150,
+        "durationMs": 785,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4311,7 +4321,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 138,
+        "durationMs": 154,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4321,7 +4331,7 @@
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 329,
+        "durationMs": 568,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4331,7 +4341,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 258,
+        "durationMs": 305,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4341,7 +4351,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1371,
+        "durationMs": 1148,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4351,7 +4361,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 72,
+        "durationMs": 238,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4368,11 +4378,11 @@
     },
     "articleGeneration": {
       "requested": 32,
-      "generated": 32,
-      "translated": 0,
-      "failed": 0,
+      "generated": 31,
+      "translated": 2,
+      "failed": 1,
       "chineseArticlesPrepared": 30,
-      "foreignArticlesPrepared": 2,
+      "foreignArticlesPrepared": 1,
       "videosPrepared": 0,
       "minimumCharacters": 800
     }
