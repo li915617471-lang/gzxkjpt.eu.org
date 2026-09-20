@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T00:10:29.611664+00:00",
+  "generatedAt": "2026-09-20T04:58:31.547573+00:00",
   "stories": [
     {
       "id": 1,
@@ -2654,60 +2654,60 @@
       "contentCharacterCount": 987
     },
     {
-      "id": 123,
+      "id": 219,
       "category": "科技",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
-        "科技": 6,
+        "科技": 5,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 6,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：先进BEOL互连堆栈导热系数预测（北京大学）",
-      "excerpt": "北京大学的研究人员发表了一篇名为《广泛层分辨热测量实现的先进技术节点中BEOL互连堆栈的热导率建模框架的预测结构》的技术论文。摘要： “先进集成电路中BEOL互连堆叠的结构复杂性日益增加，需要结构感知热导率（ κ ）模块 eling框架。然而，可推广... »阅读更多文章预测先进BEOL互连堆栈中的热导率（北京大学）首先出现在半导体工程上…",
-      "body": "核心进展\n\n北京大学的研究人员发表了一篇名为《广泛层分辨热测量实现的先进技术节点中BEOL互连堆栈的热导率建模框架的预测结构》的技术论文。摘要： “先进集成电路中BEOL互连堆叠的结构复杂性日益增加，需要结构感知热导率（ κ ）模块 eling框架。然而，可推广... »阅读更多文章预测先进BEOL互连堆栈中的热导率（北京大学）首先出现在半导体工程上。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "assets/datacenter.jpg",
+      "title": "科技前沿观察：APOD ： 2026年9月20日– Analemma over the Callanish Stones",
+      "excerpt": "APOD Science APOD APOD ： 2026年9月20日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。Analemma over the […]技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件…",
+      "body": "核心进展\n\nAPOD Science APOD APOD ： 2026年9月20日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。Analemma over the […]。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/september/CallanishAnalemma_Petricca_1280.jpg?w=1280&h=1477&fit=clip&crop=faces%2Cfocalpoint",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
-      "originalTitle": "Predicting Thermal Conductivity in Advanced BEOL Interconnect Stacks (Peking University)",
-      "originalExcerpt": "Researchers at Peking University published a technical paper titled “Predictive Structure to Thermal Conductivity Modeling Framework for BEOL Interconnect Stacks in Advanced Technology Nodes Enabled by Extensive Layer Resolved Thermal Measurements.” Abstract Excerpt: “The increasing structural complexity of BEOL interconnect stacks in advanced integrated circuits demands a structure-aware thermal conductivity (κ) modeling framework. However, generalizable... » read more The post Predicting Thermal Conductivity in Advanced BEOL Interconnect Stacks (Peking University) appeared first on Semiconductor Engineering .",
-      "source": "Semiconductor Engineering",
-      "sourceUrl": "https://semiengineering.com/predicting-thermal-conductivity-in-advanced-beol-interconnect-stacks-peking-university/",
+      "imageSourceType": "rss",
+      "imageAttribution": "NASA Breaking News",
+      "originalTitle": "APOD: 2026 September 20 – Analemma over the Callanish Stones",
+      "originalExcerpt": "APOD Science APOD APOD: 2026 September 20 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Analemma over the […]",
+      "source": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-20-analemma-over-the-callanish-stones/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 86,
+      "confidence": 95,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "semiconductor-engineering",
-      "sourceType": "industry",
+      "collectionSourceId": "nasa-breaking-news",
+      "sourceType": "official",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Sat, 19 Sep 2026 20:05:04 +0000",
-      "sourcePublishedAt": "2026-09-19T20:05:04+00:00",
-      "collectedAt": "2026-09-19T20:45:55.984760+00:00",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "Sun, 20 Sep 2026 04:05:00 +0000",
+      "sourcePublishedAt": "2026-09-20T04:05:00+00:00",
+      "collectedAt": "2026-09-20T04:58:31.350098+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Researchers at Peking University published a technical paper titled “Predictive Structure to Thermal Conductivity Modeling Framework for BEOL Interconnect Stacks in Advanced Technology Nodes Enabled by Extensive Layer Resolved Thermal Measurements.” Abstract Excerpt: “The increasing structural complexity of BEOL interconnect stacks in advanced integrated circuits demands a structure-aware thermal conductivity (κ) modeling framework. However, generalizable... » read more The post Predicting Thermal Conductivity in Advanced BEOL Interconnect Stacks (Peking University) appeared first on Semiconductor Engineering .",
+      "sourceMaterial": "APOD Science APOD APOD: 2026 September 20 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Analemma over the […]",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "先进BEOL互连堆栈导热系数预测（北京大学）",
-      "translatedSourceMaterial": "北京大学的研究人员发表了一篇名为《广泛层分辨热测量实现的先进技术节点中BEOL互连堆栈的热导率建模框架的预测结构》的技术论文。摘要： “先进集成电路中BEOL互连堆叠的结构复杂性日益增加，需要结构感知热导率（ κ ）模块 eling框架。然而，可推广... »阅读更多文章预测先进BEOL互连堆栈中的热导率（北京大学）首先出现在半导体工程上。",
+      "translatedSourceTitle": "APOD ： 2026年9月20日– Analemma over the Callanish Stones",
+      "translatedSourceMaterial": "APOD Science APOD APOD ： 2026年9月20日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。Analemma over the […]",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 990
+      "contentCharacterCount": 965
     },
     {
       "id": 119,
@@ -2970,36 +2970,36 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 124,
+      "id": 123,
       "category": "科技",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 3,
       "categoryScores": {
         "金融": 0,
-        "科技": 10,
+        "科技": 6,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 10,
+      "categoryClassificationMargin": 6,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Agentic AI Automates Design-Rule Repair While Preserving Layout Equivalence (Purdue University)",
-      "excerpt": "Researchers at Purdue University published a technical paper titled “DRC-Aid: Design-Rule Correction via Agentic Framework utilizing Inference-Time Large Language Models.” Abstract Excerpt: “We present DRC-Aid, a closed-loop agentic framework that automates local DRC repair by…",
-      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "科技前沿观察：先进BEOL互连堆栈导热系数预测（北京大学）",
+      "excerpt": "北京大学的研究人员发表了一篇名为《广泛层分辨热测量实现的先进技术节点中BEOL互连堆栈的热导率建模框架的预测结构》的技术论文。摘要： “先进集成电路中BEOL互连堆叠的结构复杂性日益增加，需要结构感知热导率（ κ ）模块 eling框架。然而，可推广... »阅读更多文章预测先进BEOL互连堆栈中的热导率（北京大学）首先出现在半导体工程上…",
+      "body": "核心进展\n\n北京大学的研究人员发表了一篇名为《广泛层分辨热测量实现的先进技术节点中BEOL互连堆栈的热导率建模框架的预测结构》的技术论文。摘要： “先进集成电路中BEOL互连堆叠的结构复杂性日益增加，需要结构感知热导率（ κ ）模块 eling框架。然而，可推广... »阅读更多文章预测先进BEOL互连堆栈中的热导率（北京大学）首先出现在半导体工程上。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "Agentic AI Automates Design-Rule Repair While Preserving Layout Equivalence (Purdue University)",
-      "originalExcerpt": "Researchers at Purdue University published a technical paper titled “DRC-Aid: Design-Rule Correction via Agentic Framework utilizing Inference-Time Large Language Models.” Abstract Excerpt: “We present DRC-Aid, a closed-loop agentic framework that automates local DRC repair by formulating it as verification-in-the-loop search. To constrain the combinatorial geometric repair space, a deterministic Rule Engine converts physical verification tool-reported... » read more The post Agentic AI Automates Design-Rule Repair While Preserving Layout Equivalence (Purdue University) appeared first on Semiconductor Engineering .",
+      "originalTitle": "Predicting Thermal Conductivity in Advanced BEOL Interconnect Stacks (Peking University)",
+      "originalExcerpt": "Researchers at Peking University published a technical paper titled “Predictive Structure to Thermal Conductivity Modeling Framework for BEOL Interconnect Stacks in Advanced Technology Nodes Enabled by Extensive Layer Resolved Thermal Measurements.” Abstract Excerpt: “The increasing structural complexity of BEOL interconnect stacks in advanced integrated circuits demands a structure-aware thermal conductivity (κ) modeling framework. However, generalizable... » read more The post Predicting Thermal Conductivity in Advanced BEOL Interconnect Stacks (Peking University) appeared first on Semiconductor Engineering .",
       "source": "Semiconductor Engineering",
-      "sourceUrl": "https://semiengineering.com/agentic-ai-automates-design-rule-repair-while-preserving-layout-equivalence/",
+      "sourceUrl": "https://semiengineering.com/predicting-thermal-conductivity-in-advanced-beol-interconnect-stacks-peking-university/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 86,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-09-19",
       "tags": [
@@ -3010,19 +3010,20 @@
       "sourceType": "industry",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Sat, 19 Sep 2026 20:01:40 +0000",
-      "sourcePublishedAt": "2026-09-19T20:01:40+00:00",
-      "collectedAt": "2026-09-19T20:45:55.987933+00:00",
+      "originalPublishedAt": "Sat, 19 Sep 2026 20:05:04 +0000",
+      "sourcePublishedAt": "2026-09-19T20:05:04+00:00",
+      "collectedAt": "2026-09-19T20:45:55.984760+00:00",
       "freshnessDays": 0,
-      "reviewNote": "正文未达到 800 字公开标准，仅保留在待审核区",
-      "sourceMaterial": "Researchers at Purdue University published a technical paper titled “DRC-Aid: Design-Rule Correction via Agentic Framework utilizing Inference-Time Large Language Models.” Abstract Excerpt: “We present DRC-Aid, a closed-loop agentic framework that automates local DRC repair by formulating it as verification-in-the-loop search. To constrain the combinatorial geometric repair space, a deterministic Rule Engine converts physical verification tool-reported... » read more The post Agentic AI Automates Design-Rule Repair While Preserving Layout Equivalence (Purdue University) appeared first on Semiconductor Engineering .",
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "Researchers at Peking University published a technical paper titled “Predictive Structure to Thermal Conductivity Modeling Framework for BEOL Interconnect Stacks in Advanced Technology Nodes Enabled by Extensive Layer Resolved Thermal Measurements.” Abstract Excerpt: “The increasing structural complexity of BEOL interconnect stacks in advanced integrated circuits demands a structure-aware thermal conductivity (κ) modeling framework. However, generalizable... » read more The post Predicting Thermal Conductivity in Advanced BEOL Interconnect Stacks (Peking University) appeared first on Semiconductor Engineering .",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "Agentic AI在保持布局等效的同时实现设计规则修复的自动化（普渡大学）",
-      "translatedSourceMaterial": "普渡大学的研究人员发表了一篇名为“DRC-Aid ： Design-Rule Correction via Agentic Framework using Inference-Time Large Language Models”的技术论文。摘要： “我们推出了DRC-Aid ，这是一个闭环代理框架，通过将其制定为循环验证搜索，实现本地DRC修复的自动化。 为了限制组合几何修复空间，确定性规则引擎转换物理验证工具-报告... »阅读更多文章Agentic AI在保持布局等效的同时自动进行设计-规则修复（普渡大学）首先出现在半导体工程上。",
+      "translatedSourceTitle": "先进BEOL互连堆栈导热系数预测（北京大学）",
+      "translatedSourceMaterial": "北京大学的研究人员发表了一篇名为《广泛层分辨热测量实现的先进技术节点中BEOL互连堆栈的热导率建模框架的预测结构》的技术论文。摘要： “先进集成电路中BEOL互连堆叠的结构复杂性日益增加，需要结构感知热导率（ κ ）模块 eling框架。然而，可推广... »阅读更多文章预测先进BEOL互连堆栈中的热导率（北京大学）首先出现在半导体工程上。",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
-      "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "结构化整理正文未达到 800 字标准"
+      "contentGenerationFallbackReason": "GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}\n",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 990
     },
     {
       "id": 203,
@@ -3980,36 +3981,36 @@
   ],
   "errors": [
     {
-      "source": "USDA Agricultural Research Service",
-      "error": "连续 2 次请求失败（1407ms）：HTTP Error 502: Bad Gateway"
+      "source": "科普中国",
+      "error": "订阅未返回可解析条目"
     },
     {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（970ms）：HTTP Error 429: Too Many Requests"
+      "source": "中华人民共和国农业农村部",
+      "error": "连续 2 次请求失败（2023ms）：HTTP Error 403: Forbidden"
     }
   ],
   "collection": {
-    "id": "2026-09-20T00:10:29.611664+00:00",
-    "startedAt": "2026-09-20T00:10:10.421717+00:00",
-    "finishedAt": "2026-09-20T00:10:29.611664+00:00",
+    "id": "2026-09-20T04:58:31.547573+00:00",
+    "startedAt": "2026-09-20T04:58:11.545479+00:00",
+    "finishedAt": "2026-09-20T04:58:31.547573+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 34,
     "sourcesFailed": 2,
-    "fetched": 327,
-    "added": 248,
-    "duplicates": 47,
+    "fetched": 336,
+    "added": 259,
+    "duplicates": 37,
     "invalid": 2,
-    "staleSkipped": 30,
+    "staleSkipped": 38,
     "maxSourceAgeDays": 45,
     "errors": [
       {
-        "source": "USDA Agricultural Research Service",
-        "error": "连续 2 次请求失败（1407ms）：HTTP Error 502: Bad Gateway"
+        "source": "科普中国",
+        "error": "订阅未返回可解析条目"
       },
       {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（970ms）：HTTP Error 429: Too Many Requests"
+        "source": "中华人民共和国农业农村部",
+        "error": "连续 2 次请求失败（2023ms）：HTTP Error 403: Forbidden"
       }
     ],
     "sourceResults": [
@@ -4018,7 +4019,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1229,
+        "durationMs": 4096,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4028,17 +4029,17 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1214,
+        "durationMs": 976,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-cas-science",
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2243,
+        "durationMs": 1822,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4048,7 +4049,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 706,
+        "durationMs": 597,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4058,7 +4059,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1258,
+        "durationMs": 1163,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4068,7 +4069,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 989,
+        "durationMs": 986,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4078,7 +4079,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1173,
+        "durationMs": 1161,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4088,7 +4089,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1105,
+        "durationMs": 1150,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4098,7 +4099,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 560,
+        "durationMs": 808,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4106,19 +4107,20 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "success",
+        "status": "failed",
         "attempts": 1,
-        "durationMs": 3095,
-        "fetched": 1,
+        "durationMs": 3013,
+        "fetched": 0,
         "added": 0,
-        "duplicates": 1
+        "duplicates": 0,
+        "error": "订阅未返回可解析条目"
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1086,
+        "durationMs": 918,
         "fetched": 6,
         "added": 2,
         "duplicates": 2
@@ -4128,7 +4130,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3521,
+        "durationMs": 2704,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4138,7 +4140,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1554,
+        "durationMs": 1475,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4146,19 +4148,20 @@
       {
         "sourceId": "china-moa-news",
         "source": "中华人民共和国农业农村部",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 2307,
-        "fetched": 10,
-        "added": 2,
-        "duplicates": 8
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 2023,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（2023ms）：HTTP Error 403: Forbidden"
       },
       {
         "sourceId": "china-mct-culture-news",
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1509,
+        "durationMs": 1519,
         "fetched": 10,
         "added": 2,
         "duplicates": 5
@@ -4168,7 +4171,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 78,
+        "durationMs": 257,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4178,7 +4181,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 214,
+        "durationMs": 280,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4188,7 +4191,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 88,
+        "durationMs": 110,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4198,7 +4201,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1045,
+        "durationMs": 1157,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4208,7 +4211,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 299,
+        "durationMs": 237,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4218,7 +4221,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1367,
+        "durationMs": 812,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4228,7 +4231,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 930,
+        "durationMs": 1130,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4238,7 +4241,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 187,
+        "durationMs": 141,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4248,7 +4251,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 87,
+        "durationMs": 130,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4258,7 +4261,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 805,
+        "durationMs": 774,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4268,7 +4271,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 132,
+        "durationMs": 183,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4278,7 +4281,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 113,
+        "durationMs": 52,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4288,7 +4291,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 65,
+        "durationMs": 155,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4296,20 +4299,19 @@
       {
         "sourceId": "usda-agricultural-research-service",
         "source": "USDA Agricultural Research Service",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 1407,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（1407ms）：HTTP Error 502: Bad Gateway"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 783,
+        "fetched": 10,
+        "added": 2,
+        "duplicates": 0
       },
       {
         "sourceId": "national-association-manufacturers",
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 319,
+        "durationMs": 577,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4319,7 +4321,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 210,
+        "durationMs": 331,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4327,20 +4329,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 970,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（970ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 306,
+        "fetched": 10,
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1099,
+        "durationMs": 565,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4350,7 +4351,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 410,
+        "durationMs": 461,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4360,7 +4361,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1362,
+        "durationMs": 1520,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4370,7 +4371,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 335,
+        "durationMs": 125,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4387,11 +4388,11 @@
     },
     "articleGeneration": {
       "requested": 32,
-      "generated": 31,
-      "translated": 0,
-      "failed": 1,
+      "generated": 32,
+      "translated": 1,
+      "failed": 0,
       "chineseArticlesPrepared": 30,
-      "foreignArticlesPrepared": 1,
+      "foreignArticlesPrepared": 2,
       "videosPrepared": 0,
       "minimumCharacters": 800
     }
