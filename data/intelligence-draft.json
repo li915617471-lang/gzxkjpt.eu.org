@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T21:23:32.107520+00:00",
+  "generatedAt": "2026-09-23T00:38:48.072309+00:00",
   "stories": [
     {
       "id": 1,
@@ -2657,9 +2657,9 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 3
+        "人文": 1
       },
-      "categoryClassificationMargin": 4,
+      "categoryClassificationMargin": 6,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "科技前沿观察：西班牙首位宇航员佩德罗·杜克（ Pedro Duque ）被任命为IEEE荣誉会员",
       "excerpt": "许多年轻人着迷于探索外太空，梦想成为一名宇航员，但很少有人这样做。佩德罗·杜克（ Pedro Duque ）拥有正确的东西，他是西班牙的第一位宇航员。这位航空工程师搭乘发现号航天飞机和国际空间站。作为一名宇航员退休后，他领导了西班牙的科学、创新和大学部。 如今，他是西班牙卫星公司HispaSat的董事长。马德里Pedro…",
@@ -2704,34 +2704,34 @@
       "contentCharacterCount": 1260
     },
     {
-      "id": 122,
+      "id": 207,
       "category": "工业",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
-        "工业": 7,
+        "工业": 8,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "工业前沿观察：韩华防务将在阿肯色州建立$ 22亿制造业园区",
-      "excerpt": "这家总部位于韩国的企业集团的子公司将在美国陆军松布拉夫兵工厂的设施上为155毫米火炮和基础引流装置生产推进剂。工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。",
-      "body": "核心进展 这家总部位于韩国的企业集团的子公司将在美国陆军松布拉夫兵工厂的设施上为155毫米火炮和基础引流装置生产推进剂。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。 关键内容 分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://imgproxy.divecdn.com/YNUXaIz4EXythqJduJnly712kxDNt-pgDRPqXvbqjDw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9IYW53aGEtRGVmZW5zZS1BcmthbnNhcy1kc2MwMDAwMS5KUEc=.webp",
+      "title": "工业前沿观察：2025年美国铀产量增长三倍",
+      "excerpt": "2025年美国铀产量增加三倍后，首次出现在美国制造商协会上。工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。",
+      "body": "核心进展\n\n2025年美国铀产量增加三倍后，首次出现在美国制造商协会上。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。\n\n关键内容\n\n分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://nam.org/wp-content/uploads/2026/09/quickbuild-3-9.jpg",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "Manufacturing Dive",
-      "originalTitle": "Hanwha Defense to establish $2.2B manufacturing campus in Arkansas",
-      "originalExcerpt": "The South Korea-based conglomerate’s subsidiary will produce propellant charges for 155mm artillery and base bleed units on the U.S. Army’s Pine Bluff Arsenal installation.",
-      "source": "Manufacturing Dive",
-      "sourceUrl": "https://www.manufacturingdive.com/news/hanwha-defense-army-pine-bluff-arsenal-arkansas-manufacturing-campus/830927/",
+      "imageAttribution": "National Association of Manufacturers",
+      "originalTitle": "U.S. Uranium Production Rose Threefold in 2025",
+      "originalExcerpt": "The post U.S. Uranium Production Rose Threefold in 2025 appeared first on NAM .",
+      "source": "National Association of Manufacturers",
+      "sourceUrl": "https://nam.org/u-s-uranium-production-rose-threefold-in-2025/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 82,
+      "confidence": 86,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -2740,24 +2740,24 @@
         "工业"
       ],
       "status": "review",
-      "collectionSourceId": "manufacturing-dive",
-      "sourceType": "professional",
+      "collectionSourceId": "national-association-manufacturers",
+      "sourceType": "industry",
       "sourceRegion": "北美",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Tue, 22 Sep 2026 12:14:43 -0400",
-      "sourcePublishedAt": "2026-09-22T16:14:43+00:00",
-      "collectedAt": "2026-09-22T17:01:43.378118+00:00",
-      "freshnessDays": 0,
+      "originalPublishedAt": "Tue, 22 Sep 2026 21:21:55 +0000",
+      "sourcePublishedAt": "2026-09-22T21:21:55+00:00",
+      "collectedAt": "2026-09-23T00:38:47.862560+00:00",
+      "freshnessDays": 1,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "The South Korea-based conglomerate’s subsidiary will produce propellant charges for 155mm artillery and base bleed units on the U.S. Army’s Pine Bluff Arsenal installation.",
+      "sourceMaterial": "The post U.S. Uranium Production Rose Threefold in 2025 appeared first on NAM .",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "韩华防务将在阿肯色州建立$ 22亿制造业园区",
-      "translatedSourceMaterial": "这家总部位于韩国的企业集团的子公司将在美国陆军松布拉夫兵工厂的设施上为155毫米火炮和基础引流装置生产推进剂。",
+      "translatedSourceTitle": "2025年美国铀产量增长三倍",
+      "translatedSourceMaterial": "2025年美国铀产量增加三倍后，首次出现在美国制造商协会上。",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
-      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
+      "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 910
+      "contentCharacterCount": 884
     },
     {
       "id": 168,
@@ -2877,7 +2877,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "人文前沿观察：多年来，史密森尼学会一直致力于将非裔美国人历史和文化博物馆带到国家广场。现在，它庆祝了作为理解、社区和复原力灯塔的十年",
       "excerpt": "该博物馆被亲切地称为“Blacksonian” ，记录了过去和现在，并设想未来讲述美国黑人生活的故事人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
-      "body": "核心进展\n\n该博物馆被亲切地称为“Blacksonian” ，记录了过去和现在，并设想未来讲述美国黑人生活的故事。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 该博物馆被亲切地称为“Blacksonian” ，记录了过去和现在，并设想未来讲述美国黑人生活的故事。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "assets/semiconductor.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "category-cover",
@@ -2985,7 +2985,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Wafer-Scale Sub-5nm Channel Monolayer MoS2 Transistors (CMU, UF, MIT et al.)",
       "excerpt": "Researchers at Carnegie Mellon University, University of Florida, MIT, Texas A&M University et al. published a technical paper titled “Wafer-scale 2D MoS₂ transistors with sub-5 nm channel length and subthreshold performance beyond the silicon limit.” Abstract Excerpt “Here, we…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -3016,10 +3016,12 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Researchers at Carnegie Mellon University, University of Florida, MIT, Texas A&M University et al. published a technical paper titled “Wafer-scale 2D MoS₂ transistors with sub-5 nm channel length and subthreshold performance beyond the silicon limit.” Abstract Excerpt “Here, we report monolayer MoS₂ transistors with physical channel lengths below 5 nm, achieving a subthreshold swing of 88 mV/dec... » read more The post Wafer-Scale Sub-5nm Channel Monolayer MoS2 Transistors (CMU, UF, MIT et al.) appeared first on Semiconductor Engineering .",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
-      "id": 123,
+      "id": 122,
       "category": "工业",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -3032,23 +3034,23 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Boston Dynamics begins robotics testing at Hyundai, outlines expansion",
-      "excerpt": "The company is training its Atlas humanoids to take over repetitive and heavy tasks at the automaker’s factories, with plans to begin component assembly by 2030.",
-      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://imgproxy.divecdn.com/F-C_JxO1CR2oQVBg2RIm3pF6sggYTBUeSQzqY49tg9A/g:nowe:0:0/c:1024:578/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9ybWFjLTE0NDAtMTAyNHg3MjIuanBn.webp",
+      "title": "工业前沿观察：韩华防务将在阿肯色州建立$ 22亿制造业园区",
+      "excerpt": "这家总部位于韩国的企业集团的子公司将在美国陆军松布拉夫兵工厂的设施上为155毫米火炮和基础引流装置生产推进剂。工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。",
+      "body": "核心进展 这家总部位于韩国的企业集团的子公司将在美国陆军松布拉夫兵工厂的设施上为155毫米火炮和基础引流装置生产推进剂。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。 关键内容 分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://imgproxy.divecdn.com/YNUXaIz4EXythqJduJnly712kxDNt-pgDRPqXvbqjDw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9IYW53aGEtRGVmZW5zZS1BcmthbnNhcy1kc2MwMDAwMS5KUEc=.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "Manufacturing Dive",
-      "originalTitle": "Boston Dynamics begins robotics testing at Hyundai, outlines expansion",
-      "originalExcerpt": "The company is training its Atlas humanoids to take over repetitive and heavy tasks at the automaker’s factories, with plans to begin component assembly by 2030.",
+      "originalTitle": "Hanwha Defense to establish $2.2B manufacturing campus in Arkansas",
+      "originalExcerpt": "The South Korea-based conglomerate’s subsidiary will produce propellant charges for 155mm artillery and base bleed units on the U.S. Army’s Pine Bluff Arsenal installation.",
       "source": "Manufacturing Dive",
-      "sourceUrl": "https://www.manufacturingdive.com/news/boston-dynamics-begins-robotics-testing-hyundai-atlas-humanoid/831000/",
+      "sourceUrl": "https://www.manufacturingdive.com/news/hanwha-defense-army-pine-bluff-arsenal-arkansas-manufacturing-campus/830927/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 82,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-09-22",
       "tags": [
@@ -3059,15 +3061,20 @@
       "sourceType": "professional",
       "sourceRegion": "北美",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Tue, 22 Sep 2026 11:30:00 -0400",
-      "sourcePublishedAt": "2026-09-22T15:30:00+00:00",
-      "collectedAt": "2026-09-22T17:01:43.380662+00:00",
+      "originalPublishedAt": "Tue, 22 Sep 2026 12:14:43 -0400",
+      "sourcePublishedAt": "2026-09-22T16:14:43+00:00",
+      "collectedAt": "2026-09-22T17:01:43.378118+00:00",
       "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "The company is training its Atlas humanoids to take over repetitive and heavy tasks at the automaker’s factories, with plans to begin component assembly by 2030.",
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "The South Korea-based conglomerate’s subsidiary will produce propellant charges for 155mm artillery and base bleed units on the U.S. Army’s Pine Bluff Arsenal installation.",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "translatedSourceTitle": "韩华防务将在阿肯色州建立$ 22亿制造业园区",
+      "translatedSourceMaterial": "这家总部位于韩国的企业集团的子公司将在美国陆军松布拉夫兵工厂的设施上为155毫米火炮和基础引流装置生产推进剂。",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 910
     },
     {
       "id": 208,
@@ -3978,27 +3985,27 @@
   "errors": [
     {
       "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（862ms）：HTTP Error 429: Too Many Requests"
+      "error": "连续 2 次请求失败（858ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-09-22T21:23:32.107520+00:00",
-    "startedAt": "2026-09-22T21:23:09.888760+00:00",
-    "finishedAt": "2026-09-22T21:23:32.107520+00:00",
+    "id": "2026-09-23T00:38:48.072309+00:00",
+    "startedAt": "2026-09-23T00:38:24.833768+00:00",
+    "finishedAt": "2026-09-23T00:38:48.072309+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 35,
     "sourcesFailed": 1,
-    "fetched": 339,
+    "fetched": 337,
     "added": 256,
-    "duplicates": 45,
+    "duplicates": 43,
     "invalid": 2,
     "staleSkipped": 36,
     "maxSourceAgeDays": 45,
     "errors": [
       {
         "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（862ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（858ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4007,7 +4014,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1961,
+        "durationMs": 1985,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4017,7 +4024,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1483,
+        "durationMs": 1586,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4027,7 +4034,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2514,
+        "durationMs": 3104,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4037,7 +4044,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 746,
+        "durationMs": 1194,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4047,7 +4054,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 790,
+        "durationMs": 1238,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4057,7 +4064,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 812,
+        "durationMs": 1243,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4067,7 +4074,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 744,
+        "durationMs": 1286,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4077,7 +4084,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 743,
+        "durationMs": 1448,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4087,7 +4094,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 896,
+        "durationMs": 454,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4097,27 +4104,27 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3313,
-        "fetched": 3,
-        "added": 2,
-        "duplicates": 1
+        "durationMs": 2895,
+        "fetched": 1,
+        "added": 1,
+        "duplicates": 0
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1172,
+        "durationMs": 1775,
         "fetched": 6,
-        "added": 1,
-        "duplicates": 3
+        "added": 2,
+        "duplicates": 2
       },
       {
         "sourceId": "china-stats-releases",
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 6381,
+        "durationMs": 6129,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4127,7 +4134,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2682,
+        "durationMs": 1530,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4137,7 +4144,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2450,
+        "durationMs": 2164,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4147,7 +4154,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1759,
+        "durationMs": 2693,
         "fetched": 10,
         "added": 4,
         "duplicates": 5
@@ -4157,7 +4164,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 132,
+        "durationMs": 124,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4167,7 +4174,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 368,
+        "durationMs": 648,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4177,7 +4184,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 83,
+        "durationMs": 89,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4187,7 +4194,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 800,
+        "durationMs": 941,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4197,7 +4204,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 218,
+        "durationMs": 84,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4207,7 +4214,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 609,
+        "durationMs": 542,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4217,7 +4224,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 814,
+        "durationMs": 863,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4227,7 +4234,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 83,
+        "durationMs": 109,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4237,7 +4244,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 73,
+        "durationMs": 65,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4247,7 +4254,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 598,
+        "durationMs": 577,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4257,7 +4264,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 106,
+        "durationMs": 247,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4267,7 +4274,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 47,
+        "durationMs": 64,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4277,7 +4284,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 104,
+        "durationMs": 84,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4287,7 +4294,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 636,
+        "durationMs": 577,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4297,17 +4304,17 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 451,
+        "durationMs": 380,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1187,
+        "durationMs": 1407,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4317,18 +4324,18 @@
         "source": "NASA Breaking News",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 862,
+        "durationMs": 858,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（862ms）：HTTP Error 429: Too Many Requests"
+        "error": "连续 2 次请求失败（858ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 800,
+        "durationMs": 694,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4338,7 +4345,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 535,
+        "durationMs": 831,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4348,7 +4355,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1265,
+        "durationMs": 1095,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4358,10 +4365,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 122,
+        "durationMs": 72,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       }
     ],
     "queueCount": 72,
@@ -4376,7 +4383,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
