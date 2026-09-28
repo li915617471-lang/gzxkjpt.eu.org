@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T23:06:33.087102+00:00",
+  "generatedAt": "2026-09-28T05:30:25.492682+00:00",
   "stories": [
     {
       "id": 1,
@@ -2380,30 +2380,30 @@
       "contentCharacterCount": 862
     },
     {
-      "id": 83,
+      "id": 85,
       "category": "工业",
-      "categoryEvidenceScore": 1,
+      "categoryEvidenceScore": 0,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
-        "工业": 4,
+        "工业": 3,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 4,
+      "categoryClassificationMargin": 3,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "8月份国民经济运行平稳、发展向新向优",
-      "excerpt": "（ 2026 年 9 月 15 日） 8 月份，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，坚持稳中求进工作总基调，着力发挥宏观政策效能，深化改革扩大开放，加快推动新旧动能转换，持续推进高质量发展，生产供给平稳增长，就业物价总体稳定，对外贸易快速增长，新动能支撑作用增强，国民经济运行延续总体平稳、向新向优发展态势…",
-      "body": "核心信息 （ 2026 年 9 月 15 日） 8 月份，在以习近平同志为核心的党中央坚强领导下，各地区各部门认真贯彻落实党中央、国务院决策部署，坚持稳中求进工作总基调，着力发挥宏观政策效能，深化改革扩大开放，加快推动新旧动能转换，持续推进高质量发展，生产供给平稳增长，就业物价总体稳定，对外贸易快速增长，新动能支撑作用增强，国民经济运行延续总体平稳、向新向优发展态势… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中华人民共和国国家统计局”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中华人民共和国国家统计局”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/factory.jpg",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "8月份国民经济运行平稳、发展向新向优",
+      "originalTitle": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
       "originalExcerpt": "",
       "source": "中华人民共和国国家统计局",
-      "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965307.html",
+      "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202609/t20260928_1965425.html",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -2411,7 +2411,7 @@
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-09-15",
+      "date": "2026-09-28",
       "tags": [
         "工业"
       ],
@@ -2420,16 +2420,13 @@
       "sourceType": "official",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-09-15",
-      "sourcePublishedAt": "2026-09-15T00:00:00+00:00",
-      "collectedAt": "2026-09-27T00:40:29.594021+00:00",
-      "freshnessDays": 12,
+      "originalPublishedAt": "2026-09-28",
+      "sourcePublishedAt": "2026-09-28T00:00:00+00:00",
+      "collectedAt": "2026-09-28T05:30:24.606975+00:00",
+      "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "summarySourceType": "source-page",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "sourceMaterialType": "rss"
     },
     {
       "id": 85,
@@ -3243,6 +3240,65 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 83,
+      "category": "能源",
+      "categoryEvidenceScore": 3,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 3,
+        "工业": 0,
+        "能源": 4,
+        "农业": 0,
+        "人文": 0
+      },
+      "categoryClassificationMargin": 1,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "【榕哥烙科】第633期：清洁如氢能，也得分三六九等",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国数字科技馆”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20267/ddcffb515df04d0f818a39a93f121ce4.png",
+      "imageFallback": "assets/energy.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "中国数字科技馆",
+      "originalTitle": "【榕哥烙科】第633期：清洁如氢能，也得分三六九等",
+      "originalExcerpt": "",
+      "source": "中国数字科技馆",
+      "sourceUrl": "https://www.cdstm.cn/videos/Tops/v600/art/2026/art_ff37128a66804c0d90deabe870549e60.html",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 96,
+      "time": "待审核",
+      "readMinutes": 6,
+      "heat": 78,
+      "date": "2026-09-28",
+      "tags": [
+        "能源"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-digital-science-museum-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "",
+      "sourcePublishedAt": "",
+      "collectedAt": "2026-09-28T05:30:24.577685+00:00",
+      "freshnessDays": null,
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "sourceMaterial": "",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://www.cdstm.cn/videos/Tops/v600/art/2026/art_ff37128a66804c0d90deabe870549e60.html",
+      "videoPoster": "https://www.cdstm.cn/cms_files/filemanager/396489973/picture/20267/ddcffb515df04d0f818a39a93f121ce4.png",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 70,
+      "videoDuration": "",
+      "videoExternalId": ""
+    },
+    {
       "id": 78,
       "category": "农业",
       "categoryEvidenceScore": 4,
@@ -3924,102 +3980,31 @@
       "summarySourceType": "source-page",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 81,
-      "category": "科技",
-      "categoryEvidenceScore": 3,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 7,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 7,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "AI时代 人车交互为什么越来越聪明了？",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/09/18/14/1789624255370.png",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "科普中国",
-      "originalTitle": "AI时代 人车交互为什么越来越聪明了？",
-      "originalExcerpt": "",
-      "source": "科普中国",
-      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=738384",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 6,
-      "heat": 78,
-      "date": "2026-09-17",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-kepuchina-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-09-17T07:45:04.385698+00:00",
-      "freshnessDays": null,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=738384",
-      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/09/18/14/1789624255370.png",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 72,
-      "videoDuration": "",
-      "videoExternalId": "738384",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
-  "errors": [
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（854ms）：HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-09-27T23:06:33.087102+00:00",
-    "startedAt": "2026-09-27T23:06:13.844680+00:00",
-    "finishedAt": "2026-09-27T23:06:33.087102+00:00",
-    "status": "partial",
+    "id": "2026-09-28T05:30:25.492682+00:00",
+    "startedAt": "2026-09-28T05:30:04.137585+00:00",
+    "finishedAt": "2026-09-28T05:30:25.492682+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 339,
-    "added": 253,
-    "duplicates": 47,
-    "invalid": 2,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 349,
+    "added": 263,
+    "duplicates": 48,
+    "invalid": 1,
     "staleSkipped": 37,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（854ms）：HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1669,
+        "durationMs": 1734,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4029,7 +4014,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1546,
+        "durationMs": 1551,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4039,7 +4024,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3019,
+        "durationMs": 2444,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4049,7 +4034,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1065,
+        "durationMs": 892,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4059,7 +4044,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 715,
+        "durationMs": 990,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4069,7 +4054,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 709,
+        "durationMs": 939,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4079,7 +4064,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 708,
+        "durationMs": 1050,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4089,7 +4074,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 729,
+        "durationMs": 941,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4099,7 +4084,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 610,
+        "durationMs": 567,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4109,7 +4094,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3120,
+        "durationMs": 3945,
         "fetched": 3,
         "added": 3,
         "duplicates": 0
@@ -4119,17 +4104,17 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1303,
+        "durationMs": 1448,
         "fetched": 6,
-        "added": 2,
-        "duplicates": 2
+        "added": 4,
+        "duplicates": 1
       },
       {
         "sourceId": "china-stats-releases",
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4927,
+        "durationMs": 7227,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4139,7 +4124,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1101,
+        "durationMs": 772,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4149,7 +4134,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2067,
+        "durationMs": 2184,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4159,7 +4144,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1580,
+        "durationMs": 1661,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4169,7 +4154,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 176,
+        "durationMs": 32,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4179,7 +4164,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 186,
+        "durationMs": 144,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4189,7 +4174,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 37,
+        "durationMs": 56,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4199,7 +4184,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 967,
+        "durationMs": 949,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4209,7 +4194,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 221,
+        "durationMs": 189,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4219,7 +4204,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 397,
+        "durationMs": 507,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4229,7 +4214,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 367,
+        "durationMs": 594,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4239,7 +4224,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 366,
+        "durationMs": 58,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4249,7 +4234,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 63,
+        "durationMs": 42,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4259,7 +4244,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 582,
+        "durationMs": 607,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4269,7 +4254,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 113,
+        "durationMs": 164,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4279,7 +4264,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 47,
+        "durationMs": 66,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4289,7 +4274,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 83,
+        "durationMs": 270,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4299,7 +4284,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 345,
+        "durationMs": 356,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4309,7 +4294,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 427,
+        "durationMs": 213,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4319,7 +4304,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 358,
+        "durationMs": 251,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4327,20 +4312,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 854,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（854ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 40,
+        "fetched": 10,
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 381,
+        "durationMs": 194,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4350,7 +4334,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 289,
+        "durationMs": 381,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4360,7 +4344,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 826,
+        "durationMs": 521,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4370,7 +4354,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 73,
+        "durationMs": 74,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4379,9 +4363,9 @@
     "queueCount": 72,
     "categoryCounts": {
       "金融": 10,
-      "科技": 15,
+      "科技": 14,
       "工业": 12,
-      "能源": 11,
+      "能源": 12,
       "农业": 13,
       "人文": 11
     },
