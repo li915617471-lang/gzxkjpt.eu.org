@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T23:54:46.808147+00:00",
+  "generatedAt": "2026-10-01T06:04:04.469524+00:00",
   "stories": [
     {
       "id": 1,
@@ -2380,38 +2380,38 @@
       "contentCharacterCount": 862
     },
     {
-      "id": 78,
+      "id": 86,
       "category": "工业",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 0,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
-        "工业": 7,
-        "能源": 4,
+        "工业": 3,
+        "能源": 0,
         "农业": 0,
         "人文": 0
       },
       "categoryClassificationMargin": 3,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "工业前沿观察：2026年7月份能源生产情况",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。",
-      "body": "核心进展 来自公开来源的前沿信息，等待后台进一步编辑摘要。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。 关键内容 分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：中华人民共和国国家统计局公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.stats.gov.cn/sj/zxfb/202608/assets/factory.jpg",
+      "title": "2026年9月中国采购经理指数运行情况",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中华人民共和国国家统计局”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "assets/factory.jpg",
       "imageFallback": "assets/factory.jpg",
-      "imageSourceType": "source-page",
-      "imageAttribution": "中华人民共和国国家统计局",
-      "originalTitle": "2026年7月份能源生产情况",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "2026年9月中国采购经理指数运行情况",
       "originalExcerpt": "",
       "source": "中华人民共和国国家统计局",
-      "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965051.html",
+      "sourceUrl": "https://www.stats.gov.cn/sj/zxfb/202609/t20260930_1965449.html",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
       "confidence": 97,
       "time": "待审核",
-      "readMinutes": 4,
+      "readMinutes": 6,
       "heat": 78,
-      "date": "2026-08-17",
+      "date": "2026-09-30",
       "tags": [
         "工业"
       ],
@@ -2420,18 +2420,13 @@
       "sourceType": "official",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-08-17",
-      "sourcePublishedAt": "2026-08-17T00:00:00+00:00",
-      "collectedAt": "2026-08-17T08:26:14.332111+00:00",
-      "freshnessDays": 0,
-      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "sourceMaterialType": "rss",
-      "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
-      "translatedSourceTitle": "2026年7月份能源生产情况",
-      "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 883
+      "originalPublishedAt": "2026-09-30",
+      "sourcePublishedAt": "2026-09-30T00:00:00+00:00",
+      "collectedAt": "2026-10-01T06:04:03.648805+00:00",
+      "freshnessDays": 1,
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "sourceMaterial": "",
+      "sourceMaterialType": "rss"
     },
     {
       "id": 93,
@@ -2648,30 +2643,30 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 223,
+      "id": 205,
       "category": "科技",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
-        "科技": 8,
+        "科技": 5,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 8,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：美国宇航局为月球基地增加了新的科学调查",
-      "excerpt": "编者按：此版本于2026年9月30日更新，以更正迪斯科有效载荷的名称。美国宇航局选择了三项新的科学调查及其有效载荷套件，以促进我们对月球的了解，并为建造人类第一个月球前哨基地月球基地铺平道路。科学仪器和技术套件[…]编者注：此版本于 30 ， 2026 ，以更正迪斯科有效载荷的名称。技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件…",
-      "body": "核心进展\n\n编者按：此版本于2026年9月30日更新，以更正迪斯科有效载荷的名称。美国宇航局选择了三项新的科学调查及其有效载荷套件，以促进我们对月球的了解，并为建造人类第一个月球前哨基地月球基地铺平道路。科学仪器和技术套件[…]编者注：此版本于 30 ， 2026 ，以更正迪斯科有效载荷的名称。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/09/stmd-exteriorlunarbase-hdlandscapeversion-2026-0521-1.png?w=2048",
+      "title": "科技前沿观察：APOD ： 2026年10月1日–与埃特纳火山一起收获月亮",
+      "excerpt": "APOD Science APOD APOD ： 2026年10月1日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。收获月亮与[…]技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来…",
+      "body": "核心进展\n\nAPOD Science APOD APOD ： 2026年10月1日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。收获月亮与[…]。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/Harvest%20Moon%20Trail%20With%20Venus%20Belt%20and%20Erupting%20Mount%20Etna%204%20LD.jpg?w=1600&h=1067&fit=clip&crop=faces%2Cfocalpoint",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "NASA Breaking News",
-      "originalTitle": "NASA Adds New Science Investigations for Moon Base",
-      "originalExcerpt": "Editor’s note: This release was updated on Sept. 30, 2026, to correct the name of the DISCO payload. NASA selected three new scientific investigations and their payload suites to advance our knowledge of the Moon and help pave the way for building humanity’s first lunar outpost, Moon Base. The suite of science instruments and technologies […]",
+      "originalTitle": "APOD: 2026 October 1 – Harvest Moon with Erupting Mount Etna",
+      "originalExcerpt": "APOD Science APOD APOD: 2026 October 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Harvest Moon with […]",
       "source": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-adds-new-science-investigations-for-moon-base/",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -2679,7 +2674,7 @@
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "tags": [
         "科技"
       ],
@@ -2688,20 +2683,20 @@
       "sourceType": "official",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Wed, 30 Sep 2026 21:11:23 +0000",
-      "sourcePublishedAt": "2026-09-30T21:11:23+00:00",
-      "collectedAt": "2026-09-30T23:54:46.622256+00:00",
+      "originalPublishedAt": "Thu, 01 Oct 2026 04:05:00 +0000",
+      "sourcePublishedAt": "2026-10-01T04:05:00+00:00",
+      "collectedAt": "2026-10-01T06:04:04.280122+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Editor’s note: This release was updated on Sept. 30, 2026, to correct the name of the DISCO payload. NASA selected three new scientific investigations and their payload suites to advance our knowledge of the Moon and help pave the way for building humanity’s first lunar outpost, Moon Base. The suite of science instruments and technologies […] Editor's note: This release was updated on Sept. 30, 2026, to correct the name of the DISCO payload.",
+      "sourceMaterial": "APOD Science APOD APOD: 2026 October 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Harvest Moon with […]",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "美国宇航局为月球基地增加了新的科学调查",
-      "translatedSourceMaterial": "编者按：此版本于2026年9月30日更新，以更正迪斯科有效载荷的名称。美国宇航局选择了三项新的科学调查及其有效载荷套件，以促进我们对月球的了解，并为建造人类第一个月球前哨基地月球基地铺平道路。科学仪器和技术套件[…]编者注：此版本于 30 ， 2026 ，以更正迪斯科有效载荷的名称。",
+      "translatedSourceTitle": "APOD ： 2026年10月1日–与埃特纳火山一起收获月亮",
+      "translatedSourceMaterial": "APOD Science APOD APOD ： 2026年10月1日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。收获月亮与[…]",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 969
+      "contentCharacterCount": 955
     },
     {
       "id": 118,
@@ -2877,7 +2872,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "人文前沿观察：密歇根州的Carolyn Lee在“MFG Talk Radio”上谈论劳动力、教育和培训",
       "excerpt": "“MFG Talk Radio”播客的一集。Lee告诉节目主持人Lewis A. Weiss ： “我们几乎每个月都有大约45万个空缺职位。” “因此，对我们来说，这不仅是‘我们如何从世界各地引进最优秀、最聪明的人才？’ ，而且是‘谁在旁观者？谁在看……密歇根大学的Carolyn Lee Talks Workforce, Education and…",
-      "body": "核心进展\n\n“MFG Talk Radio”播客的一集。Lee告诉节目主持人Lewis A. Weiss ： “我们几乎每个月都有大约45万个空缺职位。” “因此，对我们来说，这不仅是‘我们如何从世界各地引进最优秀、最聪明的人才？’ ，而且是‘谁在旁观者？谁在看……密歇根大学的Carolyn Lee Talks Workforce, Education and Training在“ MFG Talk Radio ”上首次出现在NAM上。 “MFG Talk Radio”播客的一集。Lee告诉节目主持人Lewis A. Weiss ： “我们几乎每个月都有大约45万个空缺职位。” “因此，对我们来说，这不仅是‘我们如何从世界各地引进最优秀、最聪明的人才？’ ，而且是‘谁在旁观者？谁在看……。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 “MFG Talk Radio”播客的一集。Lee告诉节目主持人Lewis A. Weiss ： “我们几乎每个月都有大约45万个空缺职位。” “因此，对我们来说，这不仅是‘我们如何从世界各地引进最优秀、最聪明的人才？’ ，而且是‘谁在旁观者？谁在看……密歇根大学的Carolyn Lee Talks Workforce, Education and Training在“ MFG Talk Radio ”上首次出现在NAM上。 “MFG Talk Radio”播客的一集。Lee告诉节目主持人Lewis A. Weiss ： “我们几乎每个月都有大约45万个空缺职位。” “因此，对我们来说，这不仅是‘我们如何从世界各地引进最优秀、最聪明的人才？’ ，而且是‘谁在旁观者？谁在看……。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://nam.org/wp-content/uploads/2026/09/quickbuild-2-2.png",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2974,59 +2969,60 @@
       "contentCharacterCount": 960
     },
     {
-      "id": 109,
+      "id": 223,
       "category": "科技",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
-        "科技": 9,
+        "科技": 8,
         "工业": 0,
-        "能源": 1,
+        "能源": 0,
         "农业": 0,
-        "人文": 2
+        "人文": 0
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "IEEE Celebrates Innovators Shaping the Future",
-      "excerpt": "Every year, IEEE recognizes individual researchers, innovators, and collaborative teams whose technical achievements and leadership have made a lasting impact on technology, engineering, and society worldwide with its Technical Field Awards . The honorees are selected by the IEEE…",
-      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“电气电子工程师学会科技观察”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://spectrum.ieee.org/media-library/photo-of-several-ieee-medals.jpg?id=25592000&width=980",
+      "title": "科技前沿观察：美国宇航局为月球基地增加了新的科学调查",
+      "excerpt": "编者按：此版本于2026年9月30日更新，以更正迪斯科有效载荷的名称。美国宇航局选择了三项新的科学调查及其有效载荷套件，以促进我们对月球的了解，并为建造人类第一个月球前哨基地月球基地铺平道路。科学仪器和技术套件[…]编者注：此版本于 30 ， 2026 ，以更正迪斯科有效载荷的名称。技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件…",
+      "body": "核心进展\n\n编者按：此版本于2026年9月30日更新，以更正迪斯科有效载荷的名称。美国宇航局选择了三项新的科学调查及其有效载荷套件，以促进我们对月球的了解，并为建造人类第一个月球前哨基地月球基地铺平道路。科学仪器和技术套件[…]编者注：此版本于 30 ， 2026 ，以更正迪斯科有效载荷的名称。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/09/stmd-exteriorlunarbase-hdlandscapeversion-2026-0521-1.png?w=2048",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "IEEE Spectrum",
-      "originalTitle": "IEEE Celebrates Innovators Shaping the Future",
-      "originalExcerpt": "Every year, IEEE recognizes individual researchers, innovators, and collaborative teams whose technical achievements and leadership have made a lasting impact on technology, engineering, and society worldwide with its Technical Field Awards . The honorees are selected by the IEEE Awards Board based on their extraordinary technical achievements, societal impact, and leadership in specialized engineering disciplines and are approved by the IEEE Board of Directors . “The 2027 IEEE Technical Field Award recipients embody the relentless spirit of innovation and ingenuity that defines our global community,” said Mary Ellen Randall , 2026 IEEE president and CEO in a news release . “Across microelectronics, artificial intelligence, medical robotics, wireless networks, energy conversion, and technical education, their groundbreaking accomplishments continue to push the boundaries of science and solve critical challenges for the benefit of humanity.” IEEE Technical Field Award recipients IEEE Biomedical Engineering Award Sponsors: IEEE Engineering in Medicine and Biology , IEEE Circuits and Systems , and IEEE Signal Processing societies IEEE Life Fellow Kullervo Hynynen Sunnybrook Research Institute in Toronto, and the University of Toronto “For pioneering contributions to the development, advancement, and clinical translation of therapeutic ultrasound.” IEEE Cledo Brunetti Award Sponsor: The Brunetti Bequest IEEE Member Edward Charles Gage IEEE Fellow Ganping Ju IEEE Fellow Jan-Ulrich Thiele Seagate Technology in Cupertino, Calif. “For contributions to heat-assisted magnetic technology powering ultra-high-capacity hard disk drives and enabling greater storage of digital information.” IEEE Roger W. Brockett Control Systems Award Sponsors: IEEE Control Systems Society and Friends and Family of Roger W. Brockett IEEE Life Fellow Arjan van der Schaft Bernoulli Institute at the University of Groningen in the Netherlands (Retired) “For contributions to robust and geometric…",
-      "source": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/ieee-technical-field-awards-2027",
+      "imageAttribution": "NASA Breaking News",
+      "originalTitle": "NASA Adds New Science Investigations for Moon Base",
+      "originalExcerpt": "Editor’s note: This release was updated on Sept. 30, 2026, to correct the name of the DISCO payload. NASA selected three new scientific investigations and their payload suites to advance our knowledge of the Moon and help pave the way for building humanity’s first lunar outpost, Moon Base. The suite of science instruments and technologies […]",
+      "source": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-adds-new-science-investigations-for-moon-base/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 90,
+      "confidence": 95,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-09-30",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "ieee-spectrum",
-      "sourceType": "research",
+      "collectionSourceId": "nasa-breaking-news",
+      "sourceType": "official",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Wed, 30 Sep 2026 18:00:02 +0000",
-      "sourcePublishedAt": "2026-09-30T18:00:02+00:00",
-      "collectedAt": "2026-09-30T19:25:57.662516+00:00",
+      "originalPublishedAt": "Wed, 30 Sep 2026 21:11:23 +0000",
+      "sourcePublishedAt": "2026-09-30T21:11:23+00:00",
+      "collectedAt": "2026-09-30T23:54:46.622256+00:00",
       "freshnessDays": 0,
-      "reviewNote": "正文未达到 800 字公开标准，仅保留在待审核区",
-      "sourceMaterial": "Every year, IEEE recognizes individual researchers, innovators, and collaborative teams whose technical achievements and leadership have made a lasting impact on technology, engineering, and society worldwide with its Technical Field Awards . The honorees are selected by the IEEE Awards Board based on their extraordinary technical achievements, societal impact, and leadership in specialized engineering disciplines and are approved by the IEEE Board of Directors . “The 2027 IEEE Technical Field Award recipients embody the relentless spirit of innovation and ingenuity that defines our global community,” said Mary Ellen Randall , 2026 IEEE president and CEO in a news release . “Across microelectronics, artificial intelligence, medical robotics, wireless networks, energy conversion, and technical education, their groundbreaking accomplishments continue to push the boundaries of science and solve critical challenges for the benefit of humanity.” IEEE Technical Field Award recipients IEEE Biomedical Engineering Award Sponsors: IEEE Engineering in Medicine and Biology , IEEE Circuits and Systems , and IEEE Signal Processing societies IEEE Life Fellow Kullervo Hynynen Sunnybrook Research Institute in Toronto, and the University of Toronto “For pioneering contributions to the development, advancement, and clinical translation of therapeutic ultrasound.” IEEE Cledo Brunetti Award Sponsor: The Brunetti Bequest IEEE Member Edward Charles Gage IEEE Fellow Ganping Ju IEEE Fellow Jan-Ulrich Thiele Seagate Technology in Cupertino, Calif. “For contributions to heat-assisted magnetic technology powering ultra-high-capacity hard disk drives and enabling greater storage of digital information.” IEEE Roger W. Brockett Control Systems Award Sponsors: IEEE Control Systems Society and Friends and Family of Roger W. Brockett IEEE Life Fellow Arjan van der Schaft Bernoulli Institute at the University of Groningen in the Netherlands (Retired) “For contributions to robust and geometric approaches to nonlinear control, hybrid systems, and the control of physical systems.” IEEE Electromagnetics Award Sponsors: IEEE Antennas and Propagation , IEEE Electromagnetic Compatibility , IEEE Geoscience and Remote Sensing , and IEEE Microwave Theory and Technology societies IEEE Fellow Zoya Popović University of Colorado Boulder “For contributions to microwave and millimeter-wave circuit designs, including power amplifiers, power-combining, and wireless power systems.” IEEE James L. Flanagan Speech and Audio Processing Award Sponsor: Mitsubishi Electric Research Laboratories (MERL) IEEE Life Fellow Chin-Hui Lee Georgia Tech “For contributions to and leadership in technologies that enable automatic speech and speaker recognition, including innovations in adaptive learning and discriminative training.” IEEE Fourier Award for Signal Processing Sponsor: Mitsubishi Electric Research Laboratories (MERL) IEEE Fellow Nicholas Dimitrios Sidiropoulos University of Virginia in Charlottesville “For contributions to signal processing methods for analyzing complex data and identifying patterns in multiple dimensions.” IEEE Andrew S. Grove Award Sponsor: IEEE Electron Devices Society IEEE Fellow John Robert Brews University of Arizona in Tucson (Retired) “For foundational contributions to the physics and technology underlying MOS devices and circuits.” IEEE Masaru Ibuka Consumer Technology Award Sponsor: Sony Group Corporation IEEE Honorary Member Mike Lazaridis Quantum Valley Investments in Waterloo, Ont., Canada “For transformative contributions to mobile communication through visionary leadership that reshaped global consumer technology.” IEEE Internet Award Sponsor: Google LLC IEEE Fellow Matthew Roughan Adelaide University in Australia “For foundational contributions to analyzing Internet traffic and network structures, enabling better network management and understanding.” IEEE Richard Harold Kaufmann Award Sponsor: IEEE Industry Applications Society IEEE Fellow Akshay Kumar Rathore National University of Singapore “For developing innovative current-fed and multilevel power electronics converters.” IEEE Joseph F. Keithley Award in Instrumentation and Measurement Sponsors: Tektronix Inc. and the IEEE Instrumentation and Measurement Society IEEE Life Fellow Pasquale Daponte University of Sannio in Benevento, Italy “For contributions to the measurement and standardization of analog-to-digital and digital-to-analog converters.” IEEE Gustav Robert Kirchhoff Award Sponsor: IEEE Circuits and Systems Society IEEE Life Fellow Janusz Rajski Siemens Digital Industries Software in Wilsonville, Ore. “For contributions to testing digital integrated circuits at the silicon level.” IEEE Leon K. Kirchmayer Graduate Teaching Award Sponsor: The IEEE Leon K. Kirchmayer Memorial Fund IEEE Life Fellow Rama Chellappa Johns Hopkins University in Baltimore “For contributions to multi-disciplinary graduate education and mentoring of doctoral students in image processing, computer vision, and pattern recognition.” IEEE Koji Kobayashi Computers and Communications Award Sponsor: NEC Corporation IEEE Member Amin Vahdat Google in Mountain View, Calif. “For developing network systems that scale data centers to support modern cloud computing and machine learning.” IEEE Arun N. Netravali Video Analytics, Technology, and Systems Award Sponsor: Nokia Bell Labs IEEE Life Member Jens-Rainer Ohm RWTH Aachen University in Germany (Professor Emeritus) IEEE Life Fellow Gary J. Sullivan Dolby Laboratories in San Francisco IEEE Member Benjamin Bross Fraunhofer Institute for Telecommunications Heinrich-Hertz-Institut in Berlin “For leadership in and contributions to developing the High Efficiency Video Coding (HEVC) international standard, which improves the efficiency of digital video compression.” IEEE William E. Newell Power Electronics Award Sponsor: IEEE Power Electronics Society IEEE Fellow Paolo Mattavelli University of Padova in Padua, Italy “For contributions to advanced…",
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "Editor’s note: This release was updated on Sept. 30, 2026, to correct the name of the DISCO payload. NASA selected three new scientific investigations and their payload suites to advance our knowledge of the Moon and help pave the way for building humanity’s first lunar outpost, Moon Base. The suite of science instruments and technologies […] Editor's note: This release was updated on Sept. 30, 2026, to correct the name of the DISCO payload. Editor's note: This release was updated on Sept. 30, 2026, to correct the name of the DISCO payload.",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "IEEE庆祝创新者塑造未来",
-      "translatedSourceMaterial": "每年， IEEE都会颁发技术领域奖，表彰其技术成就和领导力对全球技术、工程和社会产生持久影响的个人研究人员、创新者和协作团队。 获奖者由IEEE奖励委员会根据其非凡的技术成就、社会影响力和专业工程学科的领导力选出，并经IEEE董事会批准。 2026年IEEE总裁兼首席执行官玛丽·埃伦·兰德尔（ Mary Ellen Randall ）在一份新闻稿中表示： “2027年IEEE技术领域奖获得者体现了定义我们全球社区的不懈创新和创造精神。 “在微电子、人工智能、医疗机器人、无线网络、能量转换和技术教育等领域，他们的突破性成就不断突破科学的界限，为人类的福祉解决关键挑战。“ IEEE技术领域奖获得者IEEE生物医学工程奖赞助商： IEEE医学和生物工程、IEEE电路和SYSTE mS和IEEE信号处理协会IEEE Life Fellow Kullervo Hynynen Sunnybrook研究所和多伦多大学“为治疗性超声的发展、进步和临床转化做出了开创性的贡献。“ IEEE Cledo Brunetti奖赞助商： The Brunetti Bequest IEEE会员Edward Charles Gage IEEE Fellow Ganping Ju IEEE Fellow Jan-Ulrich……",
+      "translatedSourceTitle": "美国宇航局为月球基地增加了新的科学调查",
+      "translatedSourceMaterial": "编者按：此版本于2026年9月30日更新，以更正迪斯科有效载荷的名称。美国宇航局选择了三项新的科学调查及其有效载荷套件，以促进我们对月球的了解，并为建造人类第一个月球前哨基地月球基地铺平道路。科学仪器和技术套件[…]编者注：此版本于 30 ， 2026 ，以更正迪斯科有效载荷的名称。",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
-      "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "结构化整理正文未达到 800 字标准"
+      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 969
     },
     {
       "id": 120,
@@ -3994,28 +3990,36 @@
   ],
   "errors": [
     {
-      "source": "科普中国",
-      "error": "订阅未返回可解析条目"
+      "source": "Semiconductor Engineering",
+      "error": "连续 2 次请求失败（40891ms）：The read operation timed out"
+    },
+    {
+      "source": "National Association of Manufacturers",
+      "error": "连续 2 次请求失败（1235ms）：HTTP Error 503: Service Unavailable"
     }
   ],
   "collection": {
-    "id": "2026-09-30T23:54:46.808147+00:00",
-    "startedAt": "2026-09-30T23:54:31.852688+00:00",
-    "finishedAt": "2026-09-30T23:54:46.808147+00:00",
+    "id": "2026-10-01T06:04:04.469524+00:00",
+    "startedAt": "2026-10-01T06:03:09.069920+00:00",
+    "finishedAt": "2026-10-01T06:04:04.469524+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 346,
-    "added": 262,
-    "duplicates": 48,
+    "sourcesSucceeded": 34,
+    "sourcesFailed": 2,
+    "fetched": 328,
+    "added": 245,
+    "duplicates": 47,
     "invalid": 1,
     "staleSkipped": 35,
     "maxSourceAgeDays": 45,
     "errors": [
       {
-        "source": "科普中国",
-        "error": "订阅未返回可解析条目"
+        "source": "Semiconductor Engineering",
+        "error": "连续 2 次请求失败（40891ms）：The read operation timed out"
+      },
+      {
+        "source": "National Association of Manufacturers",
+        "error": "连续 2 次请求失败（1235ms）：HTTP Error 503: Service Unavailable"
       }
     ],
     "sourceResults": [
@@ -4024,7 +4028,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1441,
+        "durationMs": 2425,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4034,7 +4038,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1181,
+        "durationMs": 1424,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4044,7 +4048,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1924,
+        "durationMs": 2217,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4054,7 +4058,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 683,
+        "durationMs": 1002,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4064,7 +4068,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 590,
+        "durationMs": 698,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4074,7 +4078,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 706,
+        "durationMs": 899,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4084,7 +4088,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 587,
+        "durationMs": 732,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4094,7 +4098,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 698,
+        "durationMs": 728,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4104,7 +4108,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 466,
+        "durationMs": 577,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4112,20 +4116,19 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "failed",
+        "status": "success",
         "attempts": 1,
-        "durationMs": 2516,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "订阅未返回可解析条目"
+        "durationMs": 3572,
+        "fetched": 2,
+        "added": 2,
+        "duplicates": 0
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1049,
+        "durationMs": 1467,
         "fetched": 6,
         "added": 3,
         "duplicates": 2
@@ -4135,7 +4138,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3446,
+        "durationMs": 5154,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4145,7 +4148,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1333,
+        "durationMs": 1180,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4155,7 +4158,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1828,
+        "durationMs": 1795,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4165,7 +4168,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1400,
+        "durationMs": 1443,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4175,7 +4178,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 73,
+        "durationMs": 117,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4185,7 +4188,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 130,
+        "durationMs": 159,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4195,7 +4198,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 60,
+        "durationMs": 125,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4203,19 +4206,20 @@
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 989,
-        "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 40891,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（40891ms）：The read operation timed out"
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 206,
+        "durationMs": 154,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4225,17 +4229,17 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 828,
+        "durationMs": 479,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 747,
+        "durationMs": 1015,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4245,7 +4249,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 154,
+        "durationMs": 163,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4255,7 +4259,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 64,
+        "durationMs": 181,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4265,7 +4269,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 883,
+        "durationMs": 2634,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4275,17 +4279,17 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 106,
+        "durationMs": 151,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "us-national-institute-standards-technology",
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 33,
+        "durationMs": 32,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4295,7 +4299,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 42,
+        "durationMs": 127,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4305,7 +4309,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 908,
+        "durationMs": 565,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4313,19 +4317,20 @@
       {
         "sourceId": "national-association-manufacturers",
         "source": "National Association of Manufacturers",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 487,
-        "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 1235,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（1235ms）：HTTP Error 503: Service Unavailable"
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1228,
+        "durationMs": 1269,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4335,17 +4340,17 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 105,
+        "durationMs": 43,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 499,
+        "durationMs": 638,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4355,7 +4360,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 227,
+        "durationMs": 313,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4365,7 +4370,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1282,
+        "durationMs": 1127,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4375,7 +4380,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 138,
+        "durationMs": 137,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4393,7 +4398,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
