@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T19:22:19.659789+00:00",
+  "generatedAt": "2026-10-02T23:49:56.709329+00:00",
   "stories": [
     {
       "id": 1,
@@ -2596,24 +2596,24 @@
     {
       "id": 155,
       "category": "金融",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 10,
       "categoryScores": {
-        "金融": 11,
+        "金融": 15,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 11,
+      "categoryClassificationMargin": 15,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“欧洲中央银行”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/network.jpg",
+      "excerpt": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“欧洲中央银行”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://www.ecb.europa.eu/press/govcdec/shared/img/socialmedia/social-default.jpg?1b07e3d68efd7f29f4771d75b50bd667",
       "imageFallback": "assets/network.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
+      "imageSourceType": "source-page",
+      "imageAttribution": "European Central Bank",
       "originalTitle": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
       "originalExcerpt": "",
       "source": "European Central Bank",
@@ -2640,33 +2640,36 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
-      "id": 126,
+      "id": 127,
       "category": "科技",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
-        "科技": 9,
+        "科技": 5,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 9,
+      "categoryClassificationMargin": 5,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：CAN XL的正式汽车安全分析（佐治亚理工学院、QCRI、普渡大学）",
-      "excerpt": "佐治亚理工学院、卡塔尔计算机研究所和普渡大学的研究人员发表了一篇题为“A Formal Security Analysis of CAN XL.摘要：“几十年来，控制器局域网（ CAN ）一直是车载通信的支柱。随着现代车辆集成摄像头、激光雷达和人工智能组件，经典的CAN （ CAN CC ）人脸... »阅读更多CAN XL （乔治亚理工学院， QCRI…",
-      "body": "核心进展\n\n佐治亚理工学院、卡塔尔计算机研究所和普渡大学的研究人员发表了一篇题为“A Formal Security Analysis of CAN XL.摘要：“几十年来，控制器局域网（ CAN ）一直是车载通信的支柱。随着现代车辆集成摄像头、激光雷达和人工智能组件，经典的CAN （ CAN CC ）人脸... »阅读更多CAN XL （乔治亚理工学院， QCRI ，普渡大学）的正式汽车安全分析文章首次出现在半导体工程上。佐治亚理工学院、卡塔尔计算机研究所和普渡大学的研究人员发表了一篇题为“ A Formal Security Analysis of CAN XL.摘要： “几十年来，控制器区域网络（ CAN ）一直是in-veh的支柱 iCLE通信。随着现代车辆集成摄像头、激光雷达和人工智能组件，经典的CAN （ CAN CC ）人脸... »阅读更多。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://semiengineering.com/wp-content/uploads/AdobeStock_58591465-Car-scaled.jpeg",
+      "title": "科技前沿观察：从物理设备到RTL的硬件设计追踪（英飞凌、慕尼黑工业大学）",
+      "excerpt": "英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多文章Tracing Hardware Design From Physical Devices to RTL…",
+      "body": "核心进展\n\n英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多文章Tracing Hardware Design From Physical Devices to RTL （英飞凌，慕尼黑工业大学）首次出现在半导体工程杂志上。 英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://semiengineering.com/wp-content/uploads/2026/06/AdobeStock_183702829-scaled.jpeg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "source-page",
       "imageAttribution": "Semiconductor Engineering",
-      "originalTitle": "Formal Automotive Security Analysis Of CAN XL (Georgia Tech, QCRI, Purdue)",
-      "originalExcerpt": "Researchers at Georgia Institute of Technology, Qatar Computing Research Institute, and Purdue University published a technical paper titled “A Formal Security Analysis of CAN XL.” Abstract Excerpt: “For decades, the Controller Area Network (CAN) has been the backbone of in-vehicle communication. As modern vehicles integrate cameras, LiDARs, and AI components, classic CAN (CAN CC) faces... » read more The post Formal Automotive Security Analysis Of CAN XL (Georgia Tech, QCRI, Purdue) appeared first on Semiconductor Engineering .",
+      "originalTitle": "Tracing Hardware Design From Physical Devices to RTL (Infineon, TU Munich)",
+      "originalExcerpt": "Researchers at Infineon Technologies and Technical University of Munich published a technical paper titled “From Physical Devices to RTL Models: Abstraction and Validation in Hardware Engineering.” Abstract: “This paper introduces the foundational principles underlying hardware engineering models and argues that abstraction is their defining characteristic. Because abstraction necessarily omits detail and constrains what engineers can... » read more The post Tracing Hardware Design From Physical Devices to RTL (Infineon, TU Munich) appeared first on Semiconductor Engineering .",
       "source": "Semiconductor Engineering",
-      "sourceUrl": "https://semiengineering.com/formal-analysis-uncovers-security-flaws-in-can-xl-georgia-tech-qcri-purdue/",
+      "sourceUrl": "https://semiengineering.com/tracing-hardware-design-from-physical-devices-to-rtl-infineon-tu-munich/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -2683,20 +2686,20 @@
       "sourceType": "industry",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 02 Oct 2026 19:05:52 +0000",
-      "sourcePublishedAt": "2026-10-02T19:05:52+00:00",
-      "collectedAt": "2026-10-02T19:22:19.141844+00:00",
+      "originalPublishedAt": "Fri, 02 Oct 2026 22:46:46 +0000",
+      "sourcePublishedAt": "2026-10-02T22:46:46+00:00",
+      "collectedAt": "2026-10-02T23:49:56.185226+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Researchers at Georgia Institute of Technology, Qatar Computing Research Institute, and Purdue University published a technical paper titled “A Formal Security Analysis of CAN XL.” Abstract Excerpt: “For decades, the Controller Area Network (CAN) has been the backbone of in-vehicle communication. As modern vehicles integrate cameras, LiDARs, and AI components, classic CAN (CAN CC) faces... » read more The post Formal Automotive Security Analysis Of CAN XL (Georgia Tech, QCRI, Purdue) appeared first on Semiconductor Engineering . Researchers at Georgia Institute of Technology, Qatar Computing Research Institute, and Purdue University published a technical paper titled “A Formal Security Analysis of CAN XL.” Abstract Excerpt: “For decades, the Controller Area Network (CAN) has been the backbone of in-vehicle communication. As modern vehicles integrate cameras, LiDARs, and AI components, classic CAN (CAN CC) faces... » read more",
+      "sourceMaterial": "Researchers at Infineon Technologies and Technical University of Munich published a technical paper titled “From Physical Devices to RTL Models: Abstraction and Validation in Hardware Engineering.” Abstract: “This paper introduces the foundational principles underlying hardware engineering models and argues that abstraction is their defining characteristic. Because abstraction necessarily omits detail and constrains what engineers can... » read more The post Tracing Hardware Design From Physical Devices to RTL (Infineon, TU Munich) appeared first on Semiconductor Engineering . Researchers at Infineon Technologies and Technical University of Munich published a technical paper titled “From Physical Devices to RTL Models: Abstraction and Validation in Hardware Engineering.” Abstract: “This paper introduces the foundational principles underlying hardware engineering models and argues that abstraction is their defining characteristic. Because abstraction necessarily omits detail and constrains what engineers can... » read more",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "CAN XL的正式汽车安全分析（佐治亚理工学院、QCRI、普渡大学）",
-      "translatedSourceMaterial": "佐治亚理工学院、卡塔尔计算机研究所和普渡大学的研究人员发表了一篇题为“A Formal Security Analysis of CAN XL.摘要：“几十年来，控制器局域网（ CAN ）一直是车载通信的支柱。随着现代车辆集成摄像头、激光雷达和人工智能组件，经典的CAN （ CAN CC ）人脸... »阅读更多CAN XL （乔治亚理工学院， QCRI ，普渡大学）的正式汽车安全分析文章首次出现在半导体工程上。佐治亚理工学院、卡塔尔计算机研究所和普渡大学的研究人员发表了一篇题为“ A Formal Security Analysis of CAN XL.摘要： “几十年来，控制器区域网络（ CAN ）一直是in-veh的支柱 iCLE通信。随着现代车辆集成摄像头、激光雷达和人工智能组件，经典的CAN （ CAN CC ）人脸... »阅读更多",
+      "translatedSourceTitle": "从物理设备到RTL的硬件设计追踪（英飞凌、慕尼黑工业大学）",
+      "translatedSourceMaterial": "英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多文章Tracing Hardware Design From Physical Devices to RTL （英飞凌，慕尼黑工业大学）首次出现在半导体工程杂志上。 英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1146
+      "contentCharacterCount": 1124
     },
     {
       "id": 208,
@@ -2714,7 +2717,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "工业前沿观察：亚马逊将机器人制造工厂数量增加一倍",
       "excerpt": "，订阅）。亚马逊到双倍数量的机器人制造设施的帖子首先出现在NAM上。工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。",
-      "body": "核心进展\n\n，订阅）。亚马逊到双倍数量的机器人制造设施的帖子首先出现在NAM上。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。\n\n关键内容\n\n分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 ，订阅）。亚马逊到双倍数量的机器人制造设施的帖子首先出现在NAM上。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。 关键内容 分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://nam.org/wp-content/uploads/2026/10/GettyImages-1317474419.jpg",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -2770,7 +2773,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "U.S. natural gas production reached a record high in July 2026",
       "excerpt": "U.S. natural gas production hit an all-time high in July 2026, driven primarily by increased output in the Permian Basin, according to our latest Natural Gas Monthly.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国能源信息署”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“美国能源信息署”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/energy.jpg",
       "imageFallback": "assets/energy.jpg",
       "imageSourceType": "category-cover",
@@ -2801,7 +2804,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "U.S. natural gas production hit an all-time high in July 2026, driven primarily by increased output in the Permian Basin, according to our latest Natural Gas Monthly.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 239,
@@ -2819,7 +2824,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Food systems are big in carbon markets but major farm emissions are being left behind",
       "excerpt": "Food systems already account for a significant share of carbon market activity, but major sources of farm emissions remain underrepresented. A new CIFOR-ICRAF analysis shows where carbon credits are concentrated, where the gaps remain, and what this means for smallholder…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "category-cover",
@@ -2850,7 +2855,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Food systems already account for a significant share of carbon market activity, but major sources of farm emissions remain underrepresented. A new CIFOR-ICRAF analysis shows where carbon credits are concentrated, where the gaps remain, and what this means for smallholder agriculture.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 249,
@@ -2868,7 +2875,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Ancient Pottery Reveals the Earliest Known Traces of Chocolate East of the Mississippi, Painting a Picture of Connection in the Americas",
       "excerpt": "A new archaeological discovery suggests that people in present-day Georgia have feasted with cacao for 1,000 years",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/oIw6E2xT4MnjAKXsluvUPvukwNY=/420x240/filters:focal(386x271:387x272)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/08/8b/088beb9a-0b0e-46e9-9a99-ec284db573b4/ezgif-79ce7fc33c96a2a6.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2899,7 +2906,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "A new archaeological discovery suggests that people in present-day Georgia have feasted with cacao for 1,000 years",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 127,
@@ -2953,53 +2962,60 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 100,
+      "id": 128,
       "category": "科技",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 6,
       "categoryScores": {
         "金融": 0,
-        "科技": 8,
+        "科技": 10,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 8,
+      "categoryClassificationMargin": 10,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Redefining enterprise intelligence with autonomous AI",
-      "excerpt": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/Uniphore-Report-2026-UPDATE-cover.png",
+      "title": "科技前沿观察：高通量LLM服务的HBF （加州大学伯克利分校， FuriosaAI ）",
+      "excerpt": "加州大学伯克利分校和FuriosaAI的研究人员发表了一篇名为“Characterizing High Bandwidth Flash for LLM Serving”的技术论文。“摘要”大型语言模型（ LLM ）服务需要大量内存来存储模型权重和KV缓存。随着模型越来越大，上下文越来越长，内存容量和带宽越来越成为提供性能的瓶颈。代理工作负载...…",
+      "body": "核心进展\n\n加州大学伯克利分校和FuriosaAI的研究人员发表了一篇名为“Characterizing High Bandwidth Flash for LLM Serving”的技术论文。“摘要”大型语言模型（ LLM ）服务需要大量内存来存储模型权重和KV缓存。随着模型越来越大，上下文越来越长，内存容量和带宽越来越成为提供性能的瓶颈。代理工作负载... »阅读更多高通量LLM服务的POST HBF （加州大学伯克利分校， FuriosaAI ）首次出现在半导体工程上。加州大学伯克利分校和FuriosaAI的研究人员发表了一篇名为“ Characterizing High Bandwidth Flash for LLM Serving ”的技术论文。“摘要”大型语言模型（ LLM ）服务需要大量内存来存储模型权重和KV缓存。 随着模型越来越大，上下文越来越长，内存容量和带宽越来越成为提供性能的瓶颈。代理工作量... »阅读更多。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://semiengineering.com/wp-content/uploads/2026/06/AdobeStock_532528757-scaled.jpeg",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "MIT Technology Review",
-      "originalTitle": "Redefining enterprise intelligence with autonomous AI",
-      "originalExcerpt": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has…",
-      "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+      "imageSourceType": "source-page",
+      "imageAttribution": "Semiconductor Engineering",
+      "originalTitle": "HBF for High-Throughput LLM Serving (UC Berkeley, FuriosaAI)",
+      "originalExcerpt": "Researchers at the UC Berkeley and FuriosaAI published a technical paper titled “Characterizing High Bandwidth Flash for LLM Serving.” Abstract “Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts become longer, memory capacity and bandwidth increasingly become bottlenecks for serving performance. Agentic workloads... » read more The post HBF for High-Throughput LLM Serving (UC Berkeley, FuriosaAI) appeared first on Semiconductor Engineering .",
+      "source": "Semiconductor Engineering",
+      "sourceUrl": "https://semiengineering.com/hbf-for-high-throughput-llm-serving-uc-berkeley-furiosaai/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 88,
+      "confidence": 86,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-10-02",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "mit-technology-review",
-      "sourceType": "professional",
+      "collectionSourceId": "semiconductor-engineering",
+      "sourceType": "industry",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 02 Oct 2026 15:49:04 +0000",
-      "sourcePublishedAt": "2026-10-02T15:49:04+00:00",
-      "collectedAt": "2026-10-02T19:22:18.824554+00:00",
+      "originalPublishedAt": "Fri, 02 Oct 2026 20:15:40 +0000",
+      "sourcePublishedAt": "2026-10-02T20:15:40+00:00",
+      "collectedAt": "2026-10-02T23:49:56.188987+00:00",
       "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has…",
-      "sourceMaterialType": "rss"
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "Researchers at the UC Berkeley and FuriosaAI published a technical paper titled “Characterizing High Bandwidth Flash for LLM Serving.” Abstract “Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts become longer, memory capacity and bandwidth increasingly become bottlenecks for serving performance. Agentic workloads... » read more The post HBF for High-Throughput LLM Serving (UC Berkeley, FuriosaAI) appeared first on Semiconductor Engineering . Researchers at the UC Berkeley and FuriosaAI published a technical paper titled “Characterizing High Bandwidth Flash for LLM Serving.” Abstract “Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts become longer, memory capacity and bandwidth increasingly become bottlenecks for serving performance. Agentic workloads... » read more",
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "高通量LLM服务的HBF （加州大学伯克利分校， FuriosaAI ）",
+      "translatedSourceMaterial": "加州大学伯克利分校和FuriosaAI的研究人员发表了一篇名为“Characterizing High Bandwidth Flash for LLM Serving”的技术论文。“摘要”大型语言模型（ LLM ）服务需要大量内存来存储模型权重和KV缓存。随着模型越来越大，上下文越来越长，内存容量和带宽越来越成为提供性能的瓶颈。代理工作负载... »阅读更多高通量LLM服务的POST HBF （加州大学伯克利分校， FuriosaAI ）首次出现在半导体工程上。加州大学伯克利分校和FuriosaAI的研究人员发表了一篇名为“ Characterizing High Bandwidth Flash for LLM Serving ”的技术论文。“摘要”大型语言模型（ LLM ）服务需要大量内存来存储模型权重和KV缓存。 随着模型越来越大，上下文越来越长，内存容量和带宽越来越成为提供性能的瓶颈。代理工作量... »阅读更多",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 1198
     },
     {
       "id": 117,
@@ -3017,7 +3033,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Manufacturing industry adds 9K jobs in September",
       "excerpt": "The plastics and rubber products sector added the most jobs last month with 4,600, while paper, furniture and related segments each lost at least 2,000, according to BLS. August’s adjusted new jobs count dropped to 15,000.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://imgproxy.divecdn.com/WFk0xSc2Bv68dv7tKJ4tjDN9flw6r4563pLQW82IC94/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMTM3Mzg3NTUuanBn.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -3048,7 +3064,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The plastics and rubber products sector added the most jobs last month with 4,600, while paper, furniture and related segments each lost at least 2,000, according to BLS. August’s adjusted new jobs count dropped to 15,000.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 112,
@@ -3959,39 +3977,29 @@
       "translatedSourceMaterial": ""
     }
   ],
-  "errors": [
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（1135ms）：HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-10-02T19:22:19.659789+00:00",
-    "startedAt": "2026-10-02T19:22:01.047107+00:00",
-    "finishedAt": "2026-10-02T19:22:19.659789+00:00",
-    "status": "partial",
+    "id": "2026-10-02T23:49:56.709329+00:00",
+    "startedAt": "2026-10-02T23:49:38.392713+00:00",
+    "finishedAt": "2026-10-02T23:49:56.709329+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 337,
-    "added": 258,
-    "duplicates": 45,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 347,
+    "added": 266,
+    "duplicates": 47,
     "invalid": 1,
     "staleSkipped": 33,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（1135ms）：HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1806,
+        "durationMs": 1763,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4001,7 +4009,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1959,
+        "durationMs": 1464,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4011,7 +4019,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2433,
+        "durationMs": 2444,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4021,7 +4029,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 943,
+        "durationMs": 435,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4031,7 +4039,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1042,
+        "durationMs": 1071,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4041,7 +4049,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1414,
+        "durationMs": 1102,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4051,7 +4059,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1341,
+        "durationMs": 1078,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4061,7 +4069,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1046,
+        "durationMs": 1223,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4071,7 +4079,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 609,
+        "durationMs": 848,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4081,7 +4089,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3730,
+        "durationMs": 3406,
         "fetched": 1,
         "added": 1,
         "duplicates": 0
@@ -4091,7 +4099,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1115,
+        "durationMs": 1281,
         "fetched": 6,
         "added": 3,
         "duplicates": 2
@@ -4101,7 +4109,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4871,
+        "durationMs": 4617,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4111,7 +4119,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 866,
+        "durationMs": 1235,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4121,7 +4129,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2218,
+        "durationMs": 1901,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4131,7 +4139,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2203,
+        "durationMs": 1679,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4141,47 +4149,47 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 125,
+        "durationMs": 51,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 133,
+        "durationMs": 780,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 49,
+        "durationMs": 151,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1009,
+        "durationMs": 918,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 96,
+        "durationMs": 133,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4191,7 +4199,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 503,
+        "durationMs": 522,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4201,7 +4209,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 896,
+        "durationMs": 625,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4211,17 +4219,17 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 60,
+        "durationMs": 166,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "us-federal-reserve",
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 65,
+        "durationMs": 62,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4231,7 +4239,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 607,
+        "durationMs": 597,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4241,7 +4249,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 144,
+        "durationMs": 131,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4251,7 +4259,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 103,
+        "durationMs": 54,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4261,7 +4269,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 117,
+        "durationMs": 88,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4271,7 +4279,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 360,
+        "durationMs": 564,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4281,17 +4289,17 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 161,
+        "durationMs": 374,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 247,
+        "durationMs": 1193,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4299,20 +4307,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 1135,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（1135ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 42,
+        "fetched": 10,
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 765,
+        "durationMs": 550,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4322,17 +4329,17 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 325,
+        "durationMs": 400,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "ipcc",
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 852,
+        "durationMs": 968,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4342,10 +4349,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 83,
+        "durationMs": 138,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       }
     ],
     "queueCount": 72,
