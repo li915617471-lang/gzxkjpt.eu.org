@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T05:23:50.425081+00:00",
+  "generatedAt": "2026-10-03T11:44:56.489465+00:00",
   "stories": [
     {
       "id": 1,
@@ -2335,13 +2335,13 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 3,
+      "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "研究阐明乳酸调控程序性细胞坏死新机制",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
+      "body": "核心信息 人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -2372,7 +2372,10 @@
       "freshnessDays": 4,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 86,
@@ -2641,7 +2644,7 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 127,
+      "id": 225,
       "category": "科技",
       "categoryEvidenceScore": 2,
       "categoryScores": {
@@ -2650,51 +2653,51 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 5,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：从物理设备到RTL的硬件设计追踪（英飞凌、慕尼黑工业大学）",
-      "excerpt": "英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多文章Tracing Hardware Design From Physical Devices to RTL…",
-      "body": "核心进展\n\n英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多文章Tracing Hardware Design From Physical Devices to RTL （英飞凌，慕尼黑工业大学）首次出现在半导体工程杂志上。 英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://semiengineering.com/wp-content/uploads/2026/06/AdobeStock_183702829-scaled.jpeg",
+      "title": "科技前沿观察：APOD ： 2026年10月3日– Vera Rubin Ridge自拍",
+      "excerpt": "APOD Science APOD APOD ： 2026年10月3日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。在Vera拍摄自拍照[…]技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来…",
+      "body": "核心进展\n\nAPOD Science APOD APOD ： 2026年10月3日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。在Vera拍摄自拍照[…]。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/Sol1943CuriosityBodrov.jpg?w=1600&h=800&fit=clip&crop=faces%2Cfocalpoint",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "source-page",
-      "imageAttribution": "Semiconductor Engineering",
-      "originalTitle": "Tracing Hardware Design From Physical Devices to RTL (Infineon, TU Munich)",
-      "originalExcerpt": "Researchers at Infineon Technologies and Technical University of Munich published a technical paper titled “From Physical Devices to RTL Models: Abstraction and Validation in Hardware Engineering.” Abstract: “This paper introduces the foundational principles underlying hardware engineering models and argues that abstraction is their defining characteristic. Because abstraction necessarily omits detail and constrains what engineers can... » read more The post Tracing Hardware Design From Physical Devices to RTL (Infineon, TU Munich) appeared first on Semiconductor Engineering .",
-      "source": "Semiconductor Engineering",
-      "sourceUrl": "https://semiengineering.com/tracing-hardware-design-from-physical-devices-to-rtl-infineon-tu-munich/",
+      "imageSourceType": "rss",
+      "imageAttribution": "NASA Breaking News",
+      "originalTitle": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
+      "originalExcerpt": "APOD Science APOD APOD: 2026 October 3 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Selfie at Vera […]",
+      "source": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 86,
+      "confidence": 95,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "semiconductor-engineering",
-      "sourceType": "industry",
+      "collectionSourceId": "nasa-breaking-news",
+      "sourceType": "official",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 02 Oct 2026 22:46:46 +0000",
-      "sourcePublishedAt": "2026-10-02T22:46:46+00:00",
-      "collectedAt": "2026-10-02T23:49:56.185226+00:00",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "Sat, 03 Oct 2026 04:05:00 +0000",
+      "sourcePublishedAt": "2026-10-03T04:05:00+00:00",
+      "collectedAt": "2026-10-03T11:44:56.365890+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Researchers at Infineon Technologies and Technical University of Munich published a technical paper titled “From Physical Devices to RTL Models: Abstraction and Validation in Hardware Engineering.” Abstract: “This paper introduces the foundational principles underlying hardware engineering models and argues that abstraction is their defining characteristic. Because abstraction necessarily omits detail and constrains what engineers can... » read more The post Tracing Hardware Design From Physical Devices to RTL (Infineon, TU Munich) appeared first on Semiconductor Engineering . Researchers at Infineon Technologies and Technical University of Munich published a technical paper titled “From Physical Devices to RTL Models: Abstraction and Validation in Hardware Engineering.” Abstract: “This paper introduces the foundational principles underlying hardware engineering models and argues that abstraction is their defining characteristic. Because abstraction necessarily omits detail and constrains what engineers can... » read more",
+      "sourceMaterial": "APOD Science APOD APOD: 2026 October 3 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Selfie at Vera […]",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "从物理设备到RTL的硬件设计追踪（英飞凌、慕尼黑工业大学）",
-      "translatedSourceMaterial": "英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多文章Tracing Hardware Design From Physical Devices to RTL （英飞凌，慕尼黑工业大学）首次出现在半导体工程杂志上。 英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多",
+      "translatedSourceTitle": "APOD ： 2026年10月3日– Vera Rubin Ridge自拍",
+      "translatedSourceMaterial": "APOD Science APOD APOD ： 2026年10月3日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。在Vera拍摄自拍照[…]",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1124
+      "contentCharacterCount": 960
     },
     {
       "id": 208,
@@ -2957,30 +2960,30 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 128,
+      "id": 127,
       "category": "科技",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
-        "科技": 10,
+        "科技": 5,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 10,
+      "categoryClassificationMargin": 5,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：高通量LLM服务的HBF （加州大学伯克利分校， FuriosaAI ）",
-      "excerpt": "加州大学伯克利分校和FuriosaAI的研究人员发表了一篇名为“Characterizing High Bandwidth Flash for LLM Serving”的技术论文。“摘要”大型语言模型（ LLM ）服务需要大量内存来存储模型权重和KV缓存。随着模型越来越大，上下文越来越长，内存容量和带宽越来越成为提供性能的瓶颈。代理工作负载...…",
-      "body": "核心进展\n\n加州大学伯克利分校和FuriosaAI的研究人员发表了一篇名为“Characterizing High Bandwidth Flash for LLM Serving”的技术论文。“摘要”大型语言模型（ LLM ）服务需要大量内存来存储模型权重和KV缓存。随着模型越来越大，上下文越来越长，内存容量和带宽越来越成为提供性能的瓶颈。代理工作负载... »阅读更多高通量LLM服务的POST HBF （加州大学伯克利分校， FuriosaAI ）首次出现在半导体工程上。加州大学伯克利分校和FuriosaAI的研究人员发表了一篇名为“ Characterizing High Bandwidth Flash for LLM Serving ”的技术论文。“摘要”大型语言模型（ LLM ）服务需要大量内存来存储模型权重和KV缓存。 随着模型越来越大，上下文越来越长，内存容量和带宽越来越成为提供性能的瓶颈。代理工作量... »阅读更多。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://semiengineering.com/wp-content/uploads/2026/06/AdobeStock_532528757-scaled.jpeg",
+      "title": "科技前沿观察：从物理设备到RTL的硬件设计追踪（英飞凌、慕尼黑工业大学）",
+      "excerpt": "英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多文章Tracing Hardware Design From Physical Devices to RTL…",
+      "body": "核心进展\n\n英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多文章Tracing Hardware Design From Physical Devices to RTL （英飞凌，慕尼黑工业大学）首次出现在半导体工程杂志上。 英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://semiengineering.com/wp-content/uploads/2026/06/AdobeStock_183702829-scaled.jpeg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "source-page",
       "imageAttribution": "Semiconductor Engineering",
-      "originalTitle": "HBF for High-Throughput LLM Serving (UC Berkeley, FuriosaAI)",
-      "originalExcerpt": "Researchers at the UC Berkeley and FuriosaAI published a technical paper titled “Characterizing High Bandwidth Flash for LLM Serving.” Abstract “Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts become longer, memory capacity and bandwidth increasingly become bottlenecks for serving performance. Agentic workloads... » read more The post HBF for High-Throughput LLM Serving (UC Berkeley, FuriosaAI) appeared first on Semiconductor Engineering .",
+      "originalTitle": "Tracing Hardware Design From Physical Devices to RTL (Infineon, TU Munich)",
+      "originalExcerpt": "Researchers at Infineon Technologies and Technical University of Munich published a technical paper titled “From Physical Devices to RTL Models: Abstraction and Validation in Hardware Engineering.” Abstract: “This paper introduces the foundational principles underlying hardware engineering models and argues that abstraction is their defining characteristic. Because abstraction necessarily omits detail and constrains what engineers can... » read more The post Tracing Hardware Design From Physical Devices to RTL (Infineon, TU Munich) appeared first on Semiconductor Engineering .",
       "source": "Semiconductor Engineering",
-      "sourceUrl": "https://semiengineering.com/hbf-for-high-throughput-llm-serving-uc-berkeley-furiosaai/",
+      "sourceUrl": "https://semiengineering.com/tracing-hardware-design-from-physical-devices-to-rtl-infineon-tu-munich/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -2997,20 +3000,20 @@
       "sourceType": "industry",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 02 Oct 2026 20:15:40 +0000",
-      "sourcePublishedAt": "2026-10-02T20:15:40+00:00",
-      "collectedAt": "2026-10-02T23:49:56.188987+00:00",
+      "originalPublishedAt": "Fri, 02 Oct 2026 22:46:46 +0000",
+      "sourcePublishedAt": "2026-10-02T22:46:46+00:00",
+      "collectedAt": "2026-10-02T23:49:56.185226+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Researchers at the UC Berkeley and FuriosaAI published a technical paper titled “Characterizing High Bandwidth Flash for LLM Serving.” Abstract “Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts become longer, memory capacity and bandwidth increasingly become bottlenecks for serving performance. Agentic workloads... » read more The post HBF for High-Throughput LLM Serving (UC Berkeley, FuriosaAI) appeared first on Semiconductor Engineering . Researchers at the UC Berkeley and FuriosaAI published a technical paper titled “Characterizing High Bandwidth Flash for LLM Serving.” Abstract “Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts become longer, memory capacity and bandwidth increasingly become bottlenecks for serving performance. Agentic workloads... » read more",
+      "sourceMaterial": "Researchers at Infineon Technologies and Technical University of Munich published a technical paper titled “From Physical Devices to RTL Models: Abstraction and Validation in Hardware Engineering.” Abstract: “This paper introduces the foundational principles underlying hardware engineering models and argues that abstraction is their defining characteristic. Because abstraction necessarily omits detail and constrains what engineers can... » read more The post Tracing Hardware Design From Physical Devices to RTL (Infineon, TU Munich) appeared first on Semiconductor Engineering . Researchers at Infineon Technologies and Technical University of Munich published a technical paper titled “From Physical Devices to RTL Models: Abstraction and Validation in Hardware Engineering.” Abstract: “This paper introduces the foundational principles underlying hardware engineering models and argues that abstraction is their defining characteristic. Because abstraction necessarily omits detail and constrains what engineers can... » read more",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "高通量LLM服务的HBF （加州大学伯克利分校， FuriosaAI ）",
-      "translatedSourceMaterial": "加州大学伯克利分校和FuriosaAI的研究人员发表了一篇名为“Characterizing High Bandwidth Flash for LLM Serving”的技术论文。“摘要”大型语言模型（ LLM ）服务需要大量内存来存储模型权重和KV缓存。随着模型越来越大，上下文越来越长，内存容量和带宽越来越成为提供性能的瓶颈。代理工作负载... »阅读更多高通量LLM服务的POST HBF （加州大学伯克利分校， FuriosaAI ）首次出现在半导体工程上。加州大学伯克利分校和FuriosaAI的研究人员发表了一篇名为“ Characterizing High Bandwidth Flash for LLM Serving ”的技术论文。“摘要”大型语言模型（ LLM ）服务需要大量内存来存储模型权重和KV缓存。 随着模型越来越大，上下文越来越长，内存容量和带宽越来越成为提供性能的瓶颈。代理工作量... »阅读更多",
+      "translatedSourceTitle": "从物理设备到RTL的硬件设计追踪（英飞凌、慕尼黑工业大学）",
+      "translatedSourceMaterial": "英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多文章Tracing Hardware Design From Physical Devices to RTL （英飞凌，慕尼黑工业大学）首次出现在半导体工程杂志上。 英飞凌技术和慕尼黑技术大学的研究人员发表了一篇名为“从物理设备到RTL模型：硬件工程中的抽象和验证”的技术论文。摘要： “本文介绍了硬件工程模型的基本原理，并认为抽象是他们的定义特征。 因为抽象必然会省略细节，并限制工程师可以... »阅读更多",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1198
+      "contentCharacterCount": 1124
     },
     {
       "id": 117,
@@ -3972,39 +3975,29 @@
       "translatedSourceMaterial": ""
     }
   ],
-  "errors": [
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（982ms）：HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-10-03T05:23:50.425081+00:00",
-    "startedAt": "2026-10-03T05:23:31.602742+00:00",
-    "finishedAt": "2026-10-03T05:23:50.425081+00:00",
-    "status": "partial",
+    "id": "2026-10-03T11:44:56.489465+00:00",
+    "startedAt": "2026-10-03T11:44:39.029639+00:00",
+    "finishedAt": "2026-10-03T11:44:56.489465+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 339,
-    "added": 258,
-    "duplicates": 47,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 349,
+    "added": 267,
+    "duplicates": 48,
     "invalid": 1,
     "staleSkipped": 33,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（982ms）：HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 987,
+        "durationMs": 3140,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4014,7 +4007,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1020,
+        "durationMs": 1480,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4024,17 +4017,17 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1590,
+        "durationMs": 1612,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "china-ndrc-releases",
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 805,
+        "durationMs": 660,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4044,7 +4037,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 582,
+        "durationMs": 2151,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4054,7 +4047,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 507,
+        "durationMs": 1022,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4064,7 +4057,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 988,
+        "durationMs": 1209,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4074,7 +4067,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 629,
+        "durationMs": 1240,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4084,7 +4077,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 466,
+        "durationMs": 679,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4094,7 +4087,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2984,
+        "durationMs": 3011,
         "fetched": 3,
         "added": 3,
         "duplicates": 0
@@ -4104,7 +4097,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1143,
+        "durationMs": 1281,
         "fetched": 6,
         "added": 3,
         "duplicates": 2
@@ -4114,7 +4107,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 6782,
+        "durationMs": 3644,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4124,7 +4117,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1217,
+        "durationMs": 1196,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4134,7 +4127,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1657,
+        "durationMs": 2255,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4144,7 +4137,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2448,
+        "durationMs": 1903,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4154,7 +4147,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 70,
+        "durationMs": 95,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4164,7 +4157,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 742,
+        "durationMs": 188,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4174,7 +4167,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 97,
+        "durationMs": 156,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4184,7 +4177,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1066,
+        "durationMs": 983,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4194,7 +4187,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 192,
+        "durationMs": 191,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4204,7 +4197,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 783,
+        "durationMs": 654,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4214,7 +4207,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 920,
+        "durationMs": 680,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4224,7 +4217,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 94,
+        "durationMs": 241,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4234,7 +4227,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 48,
+        "durationMs": 83,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4244,7 +4237,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 661,
+        "durationMs": 510,
         "fetched": 10,
         "added": 4,
         "duplicates": 0
@@ -4254,7 +4247,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 94,
+        "durationMs": 139,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4264,7 +4257,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 41,
+        "durationMs": 157,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4274,7 +4267,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 29,
+        "durationMs": 151,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4284,7 +4277,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 916,
+        "durationMs": 598,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4294,7 +4287,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 262,
+        "durationMs": 222,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4304,7 +4297,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1067,
+        "durationMs": 252,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4312,20 +4305,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
+        "status": "success",
         "attempts": 2,
-        "durationMs": 982,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（982ms）：HTTP Error 429: Too Many Requests"
+        "durationMs": 1033,
+        "fetched": 10,
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 860,
+        "durationMs": 878,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4335,7 +4327,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 427,
+        "durationMs": 284,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4345,7 +4337,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1319,
+        "durationMs": 937,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4355,7 +4347,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 96,
+        "durationMs": 183,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4373,7 +4365,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 0,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
