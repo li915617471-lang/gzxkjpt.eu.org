@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T22:42:19.733794+00:00",
+  "generatedAt": "2026-10-06T06:27:56.911875+00:00",
   "stories": [
     {
       "id": 1,
@@ -2635,7 +2635,7 @@
       "collectedAt": "2026-10-05T22:42:19.322182+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Federal Reserve Board announces approval of application by Isabella Bank Corporation The Federal Reserve Board on Monday announced its approval of the application by Isabella Bank Corporation, of Mount Pleasant, Michigan, to acquire Grand River",
+      "sourceMaterial": "Federal Reserve Board announces approval of application by Isabella Bank Corporation The Federal Reserve Board on Monday announced its approval of the application by Isabella Bank Corporation, of Mount Pleasant, Michigan, to acquire Grand River The Federal Reserve Board on Monday announced its approval of the application by Isabella Bank Corporation, of Mount Pleasant, Michigan, to acquire Grand River",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "联邦储备委员会宣布批准伊莎贝拉银行公司的申请",
       "translatedSourceMaterial": "联邦储备委员会宣布批准伊莎贝拉银行公司的申请联邦储备委员会周一宣布批准密歇根州Mount Pleasant的伊莎贝拉银行公司收购Grand River的申请",
@@ -2717,7 +2717,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Leaders from Corning, General Motors Join Manufacturing Leadership Council Board of Governors",
       "excerpt": "Washington, D.C. – The Manufacturing Leadership Council, the digital transformation division of the National Association of Manufacturers, today announced the election of Kristen DellaVecchia, Corporate Sustainability Project Manager at Corning Incorporated, and Mike Trevorrow…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国制造商协会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“美国制造商协会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/factory.jpg",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "category-cover",
@@ -2748,7 +2748,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Washington, D.C. – The Manufacturing Leadership Council, the digital transformation division of the National Association of Manufacturers, today announced the election of Kristen DellaVecchia, Corporate Sustainability Project Manager at Corning Incorporated, and Mike Trevorrow, Senior Vice President of Global Manufacturing at General Motors, to the MLC’s Board of Governors. The MLC Board of Governors is … The post Leaders from Corning, General Motors Join Manufacturing Leadership Council Board of Governors appeared first on NAM .",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 163,
@@ -2822,7 +2824,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "The evolution of an idea: 15 years of the water–energy–food–environment nexus",
       "excerpt": "Experts at Stockholm World Water Week showcased how digital tools, evidence-based interventions, and innovative finance are breaking down silos to secure Asia’s future – moving the WEFE nexus from theory to reality.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "category-cover",
@@ -2853,7 +2855,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Experts at Stockholm World Water Week showcased how digital tools, evidence-based interventions, and innovative finance are breaking down silos to secure Asia’s future – moving the WEFE nexus from theory to reality.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 259,
@@ -2871,7 +2875,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "These Five Birds Have Disappeared Forever. Their History Offers a Valuable Lesson for the Future",
       "excerpt": "In an exhibition celebrating the natural history of the United States, a small group of taxidermy birds stands as a reminder of loss—and a symbol of hope",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/cJ5HgU7WJQbNslL3SZ_uhAPEu_s=/420x240/filters:focal(3000x2057:3001x2058)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/59/b8/59b82100-4e7b-4b5d-93fd-67208e88cb7e/nhb2012-00536_copy.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2902,7 +2906,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "In an exhibition celebrating the natural history of the United States, a small group of taxidermy birds stands as a reminder of loss—and a symbol of hope",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 154,
@@ -2972,7 +2978,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Backside Clock Meshes Cut Skew and Power in 2nm Nanosheets (UCSC)",
       "excerpt": "Researchers at the University of California, Santa Cruz published a technical paper titled “Design Space Exploration of Backside Clock Meshes for 2 nm GAAFET BSPDN Technology.” Abstract Excerpt: “Clock meshes are used in high-performance VLSI designs to minimize skew and tolerate…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -3003,7 +3009,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Researchers at the University of California, Santa Cruz published a technical paper titled “Design Space Exploration of Backside Clock Meshes for 2 nm GAAFET BSPDN Technology.” Abstract Excerpt: “Clock meshes are used in high-performance VLSI designs to minimize skew and tolerate on-chip variation, but they spend scarce routing resources on premium metal layers. Backside power... » read more The post Backside Clock Meshes Cut Skew and Power in 2nm Nanosheets (UCSC) appeared first on Semiconductor Engineering .",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 116,
@@ -3021,7 +3029,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Defense, data centers and AI driving private equity manufacturing investments",
       "excerpt": "Defense-related companies made up 29% of private equity-led acquisitions in the first half of 2026. Another 29% came from data center and AI-related companies, according to the Private Equity Stakeholder project.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://imgproxy.divecdn.com/kUeN6JrEVoA0drmDXpR_O_8nK-Ah3eGIUYL5pmhavvE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjkxODU4ODgxLmpwZw==.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -3052,7 +3060,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Defense-related companies made up 29% of private equity-led acquisitions in the first half of 2026. Another 29% came from data center and AI-related companies, according to the Private Equity Stakeholder project.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 164,
@@ -3951,29 +3961,39 @@
       "translatedSourceMaterial": ""
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（855ms）：HTTP Error 429: Too Many Requests"
+    }
+  ],
   "collection": {
-    "id": "2026-10-05T22:42:19.733794+00:00",
-    "startedAt": "2026-10-05T22:41:58.171878+00:00",
-    "finishedAt": "2026-10-05T22:42:19.733794+00:00",
-    "status": "success",
+    "id": "2026-10-06T06:27:56.911875+00:00",
+    "startedAt": "2026-10-06T06:27:32.641798+00:00",
+    "finishedAt": "2026-10-06T06:27:56.911875+00:00",
+    "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 36,
-    "sourcesFailed": 0,
-    "fetched": 347,
-    "added": 265,
-    "duplicates": 49,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 337,
+    "added": 254,
+    "duplicates": 50,
     "invalid": 1,
     "staleSkipped": 32,
     "maxSourceAgeDays": 45,
-    "errors": [],
+    "errors": [
+      {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（855ms）：HTTP Error 429: Too Many Requests"
+      }
+    ],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1803,
+        "durationMs": 1335,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -3983,7 +4003,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1463,
+        "durationMs": 1339,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -3993,7 +4013,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2734,
+        "durationMs": 2267,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4003,7 +4023,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 666,
+        "durationMs": 238,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4013,7 +4033,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1597,
+        "durationMs": 791,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4023,7 +4043,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1358,
+        "durationMs": 531,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4033,7 +4053,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1532,
+        "durationMs": 814,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4043,7 +4063,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1547,
+        "durationMs": 496,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4053,7 +4073,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 964,
+        "durationMs": 781,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4063,17 +4083,17 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3986,
+        "durationMs": 3617,
         "fetched": 1,
-        "added": 0,
-        "duplicates": 1
+        "added": 1,
+        "duplicates": 0
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1046,
+        "durationMs": 1446,
         "fetched": 6,
         "added": 3,
         "duplicates": 2
@@ -4083,7 +4103,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4987,
+        "durationMs": 4650,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4093,7 +4113,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1058,
+        "durationMs": 1137,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4103,7 +4123,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2226,
+        "durationMs": 3370,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4113,7 +4133,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1922,
+        "durationMs": 2848,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4123,17 +4143,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 20,
+        "durationMs": 23,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 668,
+        "durationMs": 72,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4143,27 +4163,27 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 77,
+        "durationMs": 59,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 936,
+        "durationMs": 876,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 129,
+        "durationMs": 137,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4173,7 +4193,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 633,
+        "durationMs": 363,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4183,17 +4203,17 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 426,
+        "durationMs": 492,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "us-energy-information-administration",
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 86,
+        "durationMs": 45,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4203,17 +4223,17 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 81,
+        "durationMs": 48,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "bank-for-international-settlements",
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 471,
+        "durationMs": 579,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4223,7 +4243,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 453,
+        "durationMs": 157,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4233,7 +4253,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 41,
+        "durationMs": 35,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4243,7 +4263,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 93,
+        "durationMs": 149,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4253,7 +4273,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 464,
+        "durationMs": 361,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4263,17 +4283,17 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 306,
+        "durationMs": 368,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1357,
+        "durationMs": 970,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4281,19 +4301,20 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 50,
-        "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 855,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（855ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 472,
+        "durationMs": 574,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4303,17 +4324,17 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 342,
+        "durationMs": 163,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "ipcc",
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1007,
+        "durationMs": 833,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4323,10 +4344,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 162,
+        "durationMs": 85,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       }
     ],
     "queueCount": 72,
@@ -4341,7 +4362,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 0,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
