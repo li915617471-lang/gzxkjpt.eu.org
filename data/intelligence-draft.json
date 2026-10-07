@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T21:01:47.404626+00:00",
+  "generatedAt": "2026-10-07T01:36:37.813317+00:00",
   "stories": [
     {
       "id": 1,
@@ -2646,36 +2646,36 @@
       "contentCharacterCount": 960
     },
     {
-      "id": 125,
+      "id": 128,
       "category": "科技",
-      "categoryEvidenceScore": 2,
+      "categoryEvidenceScore": 3,
       "categoryScores": {
         "金融": 0,
-        "科技": 5,
+        "科技": 6,
         "工业": 0,
-        "能源": 1,
+        "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 4,
+      "categoryClassificationMargin": 6,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Programmable Memory Controller Eases Adoption of New DRAM Techniques (ETH Zürich, CISPA, NYU)",
-      "excerpt": "Researchers at ETH Zürich, CISPA, and New York University published a technical paper titled “Terracotta: Enabling the Adoption of New DRAM Techniques via a Flexible DRAM Interface and Memory Controller.” Abstract Excerpt: “DRAM continues to limit the performance, energy…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://semiengineering.com/wp-content/uploads/2025/08/AdobeStock_596228503-wafer-scaled.jpeg",
+      "title": "科技前沿观察：超紧凑型光子弯曲在满足铸造规则的同时减少损耗（佐治亚理工学院）",
+      "excerpt": "佐治亚理工学院的研究人员发表了一篇名为“低损耗超紧凑型光子弯曲，增强了商业铸造工艺的制造公差。摘要：“我们提出了一种方法，并通过在极其紧凑的尺寸（ 2.3微米半径）中设计高性能集成光子波导弯曲进行了实验验证。 这种方法使用了我们的信念... »阅读更多超紧凑型光子弯曲减少损失，同时满足铸造规则（佐治亚理工学院）首次出现在半导体工程…",
+      "body": "核心进展\n\n佐治亚理工学院的研究人员发表了一篇名为“低损耗超紧凑型光子弯曲，增强了商业铸造工艺的制造公差。摘要：“我们提出了一种方法，并通过在极其紧凑的尺寸（ 2.3微米半径）中设计高性能集成光子波导弯曲进行了实验验证。 这种方法使用了我们的信念... »阅读更多超紧凑型光子弯曲减少损失，同时满足铸造规则（佐治亚理工学院）首次出现在半导体工程。佐治亚理工学院的研究人员发表了一篇名为“低损耗超紧凑型光子弯曲，增强了商业铸造工艺的制造公差。”摘要摘要：“我们提出了一种方法 通过在极其紧凑的尺寸（ 2.3 µm半径）中设计高性能集成光子波导弯曲进行实验验证。这种方法使用了我们的信念…… »阅读更多。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://semiengineering.com/wp-content/uploads/2026/06/wafer-06-26-AdobeStock_414995950-scaled.jpeg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "source-page",
       "imageAttribution": "Semiconductor Engineering",
-      "originalTitle": "Programmable Memory Controller Eases Adoption of New DRAM Techniques (ETH Zürich, CISPA, NYU)",
-      "originalExcerpt": "Researchers at ETH Zürich, CISPA, and New York University published a technical paper titled “Terracotta: Enabling the Adoption of New DRAM Techniques via a Flexible DRAM Interface and Memory Controller.” Abstract Excerpt: “DRAM continues to limit the performance, energy efficiency, and robustness of modern systems. Many prior works propose DRAM techniques that support in-DRAM computation,... » read more The post Programmable Memory Controller Eases Adoption of New DRAM Techniques (ETH Zürich, CISPA, NYU) appeared first on Semiconductor Engineering .",
+      "originalTitle": "Ultra-Compact Photonic Bends Reduce Loss While Meeting Foundry Rules (Georgia Tech)",
+      "originalExcerpt": "Researchers at Georgia Institute of Technology published a technical paper titled “Low-loss ultra-compact photonic bends with enhanced fabrication tolerance for commercial foundry processes.” Abstract Excerpt: “We present a methodology and experimentally validate it with the design of high-performance integrated photonic waveguide bends in extremely compact footprints (2.3 µm radius). The approach uses what we believe... » read more The post Ultra-Compact Photonic Bends Reduce Loss While Meeting Foundry Rules (Georgia Tech) appeared first on Semiconductor Engineering .",
       "source": "Semiconductor Engineering",
-      "sourceUrl": "https://semiengineering.com/programmable-memory-controller-eases-adoption-of-new-dram-techniques-eth-zurich-cispa-nyu/",
+      "sourceUrl": "https://semiengineering.com/ultra-compact-photonic-bends-reduce-loss-while-meeting-foundry-rules-georgia-tech/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 86,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-10-06",
       "tags": [
@@ -2686,19 +2686,20 @@
       "sourceType": "industry",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Tue, 06 Oct 2026 20:58:05 +0000",
-      "sourcePublishedAt": "2026-10-06T20:58:05+00:00",
-      "collectedAt": "2026-10-06T21:01:46.847347+00:00",
-      "freshnessDays": 0,
-      "reviewNote": "正文未达到 800 字公开标准，仅保留在待审核区",
-      "sourceMaterial": "Researchers at ETH Zürich, CISPA, and New York University published a technical paper titled “Terracotta: Enabling the Adoption of New DRAM Techniques via a Flexible DRAM Interface and Memory Controller.” Abstract Excerpt: “DRAM continues to limit the performance, energy efficiency, and robustness of modern systems. Many prior works propose DRAM techniques that support in-DRAM computation,... » read more The post Programmable Memory Controller Eases Adoption of New DRAM Techniques (ETH Zürich, CISPA, NYU) appeared first on Semiconductor Engineering . Researchers at ETH Zürich, CISPA, and New York University published a technical paper titled “Terracotta: Enabling the Adoption of New DRAM Techniques via a Flexible DRAM Interface and Memory Controller.” Abstract Excerpt: “DRAM continues to limit the performance, energy efficiency, and robustness of modern systems. Many prior works propose DRAM techniques that support in-DRAM computation,... » read more",
+      "originalPublishedAt": "Tue, 06 Oct 2026 21:45:13 +0000",
+      "sourcePublishedAt": "2026-10-06T21:45:13+00:00",
+      "collectedAt": "2026-10-07T01:36:37.363742+00:00",
+      "freshnessDays": 1,
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "Researchers at Georgia Institute of Technology published a technical paper titled “Low-loss ultra-compact photonic bends with enhanced fabrication tolerance for commercial foundry processes.” Abstract Excerpt: “We present a methodology and experimentally validate it with the design of high-performance integrated photonic waveguide bends in extremely compact footprints (2.3 µm radius). The approach uses what we believe... » read more The post Ultra-Compact Photonic Bends Reduce Loss While Meeting Foundry Rules (Georgia Tech) appeared first on Semiconductor Engineering . Researchers at Georgia Institute of Technology published a technical paper titled “Low-loss ultra-compact photonic bends with enhanced fabrication tolerance for commercial foundry processes.” Abstract Excerpt: “We present a methodology and experimentally validate it with the design of high-performance integrated photonic waveguide bends in extremely compact footprints (2.3 µm radius). The approach uses what we believe... » read more",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "可编程内存控制器便于采用新的DRAM技术（苏黎世联邦理工学院、CISPA、纽约大学）",
-      "translatedSourceMaterial": "苏黎世联邦理工学院、CISPA和纽约大学的研究人员发表了一篇名为“Terracotta: Enabling the Adoption of New DRAM Techniques via a Flexible DRAM Interface and Memory Controller”的技术论文。摘要摘要： “DRAM继续限制现代系统的性能、能效和稳健性。许多先前的工作提出了支持DRAM内计算的DRAM技术，... »阅读更多POST可编程存储器控制器易于采用新的DRAM技术（苏黎世联邦理工学院， CISPA ，纽约大学）首次出现在半导体工程上。苏黎世联邦理工学院、CISPA和纽约大学的研究人员发表了一篇名为“ Terracotta: Enabling the Adoption of New DRAM Techniques via a Flexible DRAM Interface and Memory Controller ”的技术论文。”摘要摘要： “DRAM继续限制性能 、能源效率和现代系统的稳健性。许多先前的作品提出了支持DRAM内计算的DRAM技术，... »阅读更多",
+      "translatedSourceTitle": "超紧凑型光子弯曲在满足铸造规则的同时减少损耗（佐治亚理工学院）",
+      "translatedSourceMaterial": "佐治亚理工学院的研究人员发表了一篇名为“低损耗超紧凑型光子弯曲，增强了商业铸造工艺的制造公差。摘要：“我们提出了一种方法，并通过在极其紧凑的尺寸（ 2.3微米半径）中设计高性能集成光子波导弯曲进行了实验验证。 这种方法使用了我们的信念... »阅读更多超紧凑型光子弯曲减少损失，同时满足铸造规则（佐治亚理工学院）首次出现在半导体工程。佐治亚理工学院的研究人员发表了一篇名为“低损耗超紧凑型光子弯曲，增强了商业铸造工艺的制造公差。”摘要摘要：“我们提出了一种方法 通过在极其紧凑的尺寸（ 2.3 µm半径）中设计高性能集成光子波导弯曲进行实验验证。这种方法使用了我们的信念…… »阅读更多",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
-      "contentGenerationMode": "pending-editorial-expansion",
-      "contentGenerationError": "结构化整理正文未达到 800 字标准"
+      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 1096
     },
     {
       "id": 206,
@@ -2716,7 +2717,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "工业前沿观察：美国制造商协会的维多利亚之花：制造业获得蒸汽，但逆风持续存在",
       "excerpt": "美国制造商协会的《Victoria Bloom: Manufacturing Gains Steam》一文首次出现在NAM上。工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。",
-      "body": "核心进展\n\n美国制造商协会的《Victoria Bloom: Manufacturing Gains Steam》一文首次出现在NAM上。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。\n\n关键内容\n\n分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 美国制造商协会的《Victoria Bloom: Manufacturing Gains Steam》一文首次出现在NAM上。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。 关键内容 分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://nam.org/wp-content/uploads/2026/10/quickbuild-2-2.jpg",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -2823,7 +2824,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Food is always close by: Why availability alone doesn’t explain adolescent diets in Viet Nam",
       "excerpt": "Healthy and unhealthy foods are equally accessible to adolescents in Viet Nam, a study shows. Food options were available close to adolescents’ homes and schools",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "category-cover",
@@ -2854,7 +2855,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Healthy and unhealthy foods are equally accessible to adolescents in Viet Nam, a study shows. Food options were available close to adolescents’ homes and schools",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 260,
@@ -2872,7 +2875,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "New Research Shows That These Ancient Egyptian Servants May Have Been Brutally Sacrificed and Buried Alongside Their Pharaohs",
       "excerpt": "Forensic research has identified deliberate and fatal wounds on skulls from simple grave sites near First Dynasty royal tombs in Upper Egypt",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/semiconductor.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "category-cover",
@@ -2903,7 +2906,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Forensic research has identified deliberate and fatal wounds on skulls from simple grave sites near First Dynasty royal tombs in Upper Egypt",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 172,
@@ -2962,36 +2967,36 @@
       "contentCharacterCount": 963
     },
     {
-      "id": 125,
+      "id": 129,
       "category": "科技",
-      "categoryEvidenceScore": 7,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
-        "科技": 11,
+        "科技": 5,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 11,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Chip Industry Technical Paper Roundup: Oct. 6",
-      "excerpt": "Low-contact-resistance WSe₂ transistors; backside clock meshes for 2nm GAAFETs; row-parallel processing in DRAM; HBF for high-throughput LLM serving; formal security analysis of CAN XL; abstraction and validation from physical devices to RTL. The post Chip Industry Technical…",
-      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "科技前沿观察：用于可编程神经形态计算的单片3D忆阻器-TFT堆栈（ SNU ，延世）",
+      "excerpt": "首尔国立大学和延世大学的研究人员发表了一篇题为“用于电可编程多模储能计算的单片三维集成忆阻薄膜晶体管”的技术论文。摘要摘要： “储层计算为处理时间信息提供了一个有效的框架，但大多数硬件储层表现出固定或狭窄可调的动态决定 由内在材料弛豫时间决定。单片集成... »阅读更多用于可编程神经形态计算（ SNU…",
+      "body": "核心进展\n\n首尔国立大学和延世大学的研究人员发表了一篇题为“用于电可编程多模储能计算的单片三维集成忆阻薄膜晶体管”的技术论文。摘要摘要： “储层计算为处理时间信息提供了一个有效的框架，但大多数硬件储层表现出固定或狭窄可调的动态决定 由内在材料弛豫时间决定。单片集成... »阅读更多用于可编程神经形态计算（ SNU ，延世）的POST单片3D忆阻器-TFT堆栈首次出现在半导体工程上。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "Chip Industry Technical Paper Roundup: Oct. 6",
-      "originalExcerpt": "Low-contact-resistance WSe₂ transistors; backside clock meshes for 2nm GAAFETs; row-parallel processing in DRAM; HBF for high-throughput LLM serving; formal security analysis of CAN XL; abstraction and validation from physical devices to RTL. The post Chip Industry Technical Paper Roundup: Oct. 6 appeared first on Semiconductor Engineering .",
+      "originalTitle": "Monolithic 3D Memristor-TFT Stack For Programmable Neuromorphic Computing (SNU, Yonsei)",
+      "originalExcerpt": "Researchers at Seoul National University and Yonsei University published a technical paper titled “Monolithic three-dimensionally integrated memristor-thin-film transistor for electrically programmable multimode reservoir computing.” Abstract Excerpt: “Reservoir computing offers an efficient framework for processing temporal information, but most hardware reservoirs exhibit fixed or narrowly tunable dynamics determined by intrinsic material relaxation time. A monolithically integrated... » read more The post Monolithic 3D Memristor-TFT Stack For Programmable Neuromorphic Computing (SNU, Yonsei) appeared first on Semiconductor Engineering .",
       "source": "Semiconductor Engineering",
-      "sourceUrl": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-6/",
+      "sourceUrl": "https://semiengineering.com/monolithic-3d-memristor-tft-stack-for-programmable-neuromorphic-computing-snu-yonsei/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 86,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-10-06",
       "tags": [
@@ -3002,15 +3007,20 @@
       "sourceType": "industry",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Tue, 06 Oct 2026 07:01:55 +0000",
-      "sourcePublishedAt": "2026-10-06T07:01:55+00:00",
-      "collectedAt": "2026-10-06T15:15:34.273983+00:00",
-      "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "Low-contact-resistance WSe₂ transistors; backside clock meshes for 2nm GAAFETs; row-parallel processing in DRAM; HBF for high-throughput LLM serving; formal security analysis of CAN XL; abstraction and validation from physical devices to RTL. The post Chip Industry Technical Paper Roundup: Oct. 6 appeared first on Semiconductor Engineering .",
+      "originalPublishedAt": "Tue, 06 Oct 2026 21:29:31 +0000",
+      "sourcePublishedAt": "2026-10-06T21:29:31+00:00",
+      "collectedAt": "2026-10-07T01:36:37.367399+00:00",
+      "freshnessDays": 1,
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "Researchers at Seoul National University and Yonsei University published a technical paper titled “Monolithic three-dimensionally integrated memristor-thin-film transistor for electrically programmable multimode reservoir computing.” Abstract Excerpt: “Reservoir computing offers an efficient framework for processing temporal information, but most hardware reservoirs exhibit fixed or narrowly tunable dynamics determined by intrinsic material relaxation time. A monolithically integrated... » read more The post Monolithic 3D Memristor-TFT Stack For Programmable Neuromorphic Computing (SNU, Yonsei) appeared first on Semiconductor Engineering .",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "translatedSourceTitle": "用于可编程神经形态计算的单片3D忆阻器-TFT堆栈（ SNU ，延世）",
+      "translatedSourceMaterial": "首尔国立大学和延世大学的研究人员发表了一篇题为“用于电可编程多模储能计算的单片三维集成忆阻薄膜晶体管”的技术论文。摘要摘要： “储层计算为处理时间信息提供了一个有效的框架，但大多数硬件储层表现出固定或狭窄可调的动态决定 由内在材料弛豫时间决定。单片集成... »阅读更多用于可编程神经形态计算（ SNU ，延世）的POST单片3D忆阻器-TFT堆栈首次出现在半导体工程上。",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 1007
     },
     {
       "id": 207,
@@ -3026,9 +3036,9 @@
       },
       "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "NAM: Manufacturing Needs Industry-Led Safety Standards",
-      "excerpt": "The post NAM: Manufacturing Needs Industry-Led Safety Standards appeared first on NAM .",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国制造商协会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "美国制造商协会: Manufacturing Needs Industry-Led Safety Standards",
+      "excerpt": "The 美国制造商协会: Manufacturing Needs Industry-Led Safety Standards appeared first on 美国制造商协会.",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“美国制造商协会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://nam.org/wp-content/uploads/2026/10/quickbuild-3-2.jpg",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -3059,7 +3069,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The post NAM: Manufacturing Needs Industry-Led Safety Standards appeared first on NAM .",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 100,
@@ -3958,39 +3970,29 @@
       "translatedSourceMaterial": ""
     }
   ],
-  "errors": [
-    {
-      "source": "科普中国",
-      "error": "订阅未返回可解析条目"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-10-06T21:01:47.404626+00:00",
-    "startedAt": "2026-10-06T21:01:19.273796+00:00",
-    "finishedAt": "2026-10-06T21:01:47.404626+00:00",
-    "status": "partial",
+    "id": "2026-10-07T01:36:37.813317+00:00",
+    "startedAt": "2026-10-07T01:36:15.586233+00:00",
+    "finishedAt": "2026-10-07T01:36:37.813317+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 346,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 348,
     "added": 265,
-    "duplicates": 48,
+    "duplicates": 50,
     "invalid": 1,
     "staleSkipped": 32,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "科普中国",
-        "error": "订阅未返回可解析条目"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1783,
+        "durationMs": 1211,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4000,7 +4002,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1576,
+        "durationMs": 1404,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4010,7 +4012,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2482,
+        "durationMs": 2522,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4020,7 +4022,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 918,
+        "durationMs": 982,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4030,7 +4032,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 922,
+        "durationMs": 1056,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4040,7 +4042,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1043,
+        "durationMs": 1059,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4050,7 +4052,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1005,
+        "durationMs": 907,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4060,7 +4062,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1107,
+        "durationMs": 1027,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4070,7 +4072,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1206,
+        "durationMs": 744,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4078,20 +4080,19 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "failed",
+        "status": "success",
         "attempts": 1,
-        "durationMs": 4086,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "订阅未返回可解析条目"
+        "durationMs": 3186,
+        "fetched": 2,
+        "added": 2,
+        "duplicates": 0
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1354,
+        "durationMs": 1313,
         "fetched": 6,
         "added": 3,
         "duplicates": 2
@@ -4101,7 +4102,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 5238,
+        "durationMs": 3538,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4111,7 +4112,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 892,
+        "durationMs": 1060,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4121,7 +4122,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2762,
+        "durationMs": 2211,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4131,7 +4132,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1409,
+        "durationMs": 1702,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4141,7 +4142,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 93,
+        "durationMs": 68,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4151,7 +4152,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 508,
+        "durationMs": 181,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4161,17 +4162,17 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 40,
+        "durationMs": 150,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 891,
+        "durationMs": 1089,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4181,7 +4182,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 106,
+        "durationMs": 555,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4191,7 +4192,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 613,
+        "durationMs": 772,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4201,7 +4202,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 965,
+        "durationMs": 601,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4211,7 +4212,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 89,
+        "durationMs": 165,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4221,7 +4222,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 51,
+        "durationMs": 127,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4231,7 +4232,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 596,
+        "durationMs": 1208,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4241,7 +4242,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 168,
+        "durationMs": 111,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4251,7 +4252,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 54,
+        "durationMs": 204,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4261,7 +4262,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 164,
+        "durationMs": 136,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4271,7 +4272,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 478,
+        "durationMs": 629,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4281,17 +4282,17 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 679,
+        "durationMs": 380,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 61,
+        "durationMs": 1404,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4301,7 +4302,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 66,
+        "durationMs": 149,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4311,7 +4312,7 @@
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 480,
+        "durationMs": 673,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4321,7 +4322,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 265,
+        "durationMs": 423,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4331,7 +4332,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 841,
+        "durationMs": 1047,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4341,10 +4342,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 50,
+        "durationMs": 260,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       }
     ],
     "queueCount": 72,
@@ -4358,11 +4359,11 @@
     },
     "articleGeneration": {
       "requested": 32,
-      "generated": 31,
+      "generated": 32,
       "translated": 2,
-      "failed": 1,
+      "failed": 0,
       "chineseArticlesPrepared": 30,
-      "foreignArticlesPrepared": 1,
+      "foreignArticlesPrepared": 2,
       "videosPrepared": 2,
       "minimumCharacters": 800
     }
