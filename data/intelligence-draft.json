@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T19:59:01.686681+00:00",
+  "generatedAt": "2026-10-09T00:26:06.667666+00:00",
   "stories": [
     {
       "id": 1,
@@ -47,7 +47,7 @@
       "collectedAt": "2026-10-08T13:37:38.336215+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 人民币汇率作为金融市场的一个重要价格。人民币汇率经历了多轮升贬值周期。中国贸易发展根源于产业国际竞争力的提升。汇率受经济增长、货币政策、金融市场、地缘政治、突发风险事件等多种因素影响。中国为全球经济多轮动态平衡作出积极贡献。中国推进人民币汇率市场化改革的方向是坚定、一贯的。国际清算银行测算的人民币名义有效汇率升值超50%。每轮升贬值周期人民币汇率波动幅度均在10%以上。过去人民币多轮升值并未影响中国贸易发展。 人民币汇率作为金融市场的一个重要价格。人民币汇率经历了多轮升贬值周期。中国贸易发展根源于产业国际竞争力的提升。汇率受经济增长、货币政策、金融市场、地缘政治、突发风险事件等多种因素影响。中国为全球经济多轮动态平衡作出积极贡献。中国推进人民币汇率市场化改革的方向是坚定、一贯的。国际清算银行测算的人民币名义有效汇率升值超50%。每轮升贬值周期人民币汇率波动幅度均在10%以上。过去人民币多轮升值并未影响中国贸易发展。",
+      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 人民币汇率作为金融市场的一个重要价格。人民币汇率经历了多轮升贬值周期。中国贸易发展根源于产业国际竞争力的提升。汇率受经济增长、货币政策、金融市场、地缘政治、突发风险事件等多种因素影响。中国为全球经济多轮动态平衡作出积极贡献。中国推进人民币汇率市场化改革的方向是坚定、一贯的。国际清算银行测算的人民币名义有效汇率升值超50%。每轮升贬值周期人民币汇率波动幅度均在10%以上。过去人民币多轮升值并未影响中国贸易发展。 人民币汇率作为金融市场的一个重要价格。人民币汇率经历了多轮升贬值周期。中国贸易发展根源于产业国际竞争力的提升。汇率受经济增长、货币政策、金融市场、地缘政治、突发风险事件等多种因素影响。中国为全球经济多轮动态平衡作出积极贡献。中国推进人民币汇率市场化改革的方向是坚定、一贯的。国际清算银行测算的人民币名义有效汇率升值超50%。每轮升贬值周期人民币汇率波动幅度均在10%以上。过去人民币多轮升值并未影响中国贸易发展。 人民币汇率作为金融市场的一个重要价格。人民币汇率经历了多轮升贬值周期。中国贸易发展根源于产业国际竞争力的提升。汇率受经济增长、货币政策、金融市场、地缘政治、突发风险事件等多种因素影响。中国为全球经济多轮动态平衡作出积极贡献。中国推进人民币汇率市场化改革的方向是坚定、一贯的。国际清算银行测算的人民币名义有效汇率升值超50%。每轮升贬值周期人民币汇率波动幅度均在10%以上。过去人民币多轮升值并未影响中国贸易发展。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "translatedSourceTitle": "中国人民银行关于人民币汇率的政策立场",
@@ -2646,60 +2646,60 @@
       "contentCharacterCount": 960
     },
     {
-      "id": 216,
+      "id": 101,
       "category": "科技",
-      "categoryEvidenceScore": 5,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
-        "科技": 9,
+        "科技": 8,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 9,
+      "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：美国国家航空航天局宣布为美国黄金时代峰会提出大胆的科学倡议",
-      "excerpt": "美国宇航局正在推出两项新的科学技术计划，以加深对科学的理解，并加速将塑造美国太空未来的创新。这些举措将于周四与白宫科技政策办公室（ OSTP ）在华盛顿举行的“黄金时代峰会” （ Golden Age Summit ）上宣布。 这些计划[…]美国宇航局正在推出两项新的科学技术计划，以加深科学理解并加速将塑造美国未来的创新技术是否产生行业影响…",
-      "body": "核心进展\n\n美国宇航局正在推出两项新的科学技术计划，以加深对科学的理解，并加速将塑造美国太空未来的创新。这些举措将于周四与白宫科技政策办公室（ OSTP ）在华盛顿举行的“黄金时代峰会” （ Golden Age Summit ）上宣布。 这些计划[…]美国宇航局正在推出两项新的科学技术计划，以加深科学理解并加速将塑造美国未来的创新。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg?w=2048",
+      "title": "科技前沿观察：圆桌会议：与人工智能设计病毒的创造者对话",
+      "excerpt": "2026年10月16日（星期五）人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（ Samuel King ）在使用生成人工智能模型提出微观病毒的遗传蓝图时提出了初步答案。它还不是人工智能生成生命的一个例子，但这可能是下一个例子。加入高级人工智能记者……技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件…",
+      "body": "核心进展\n\n2026年10月16日（星期五）人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（ Samuel King ）在使用生成人工智能模型提出微观病毒的遗传蓝图时提出了初步答案。它还不是人工智能生成生命的一个例子，但这可能是下一个例子。加入高级人工智能记者……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：麻省理工科技评论公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/01/MIT-TR-Roundtables_Oct-2-Thumbnail.png?resize=1200,600",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "NASA Breaking News",
-      "originalTitle": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
-      "originalExcerpt": "NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are announced in conjunction with the White House Office of Science and Technology Policy’s (OSTP) “Golden Age Summit” in Washington on Thursday with top U.S. agency leaders. The programs […]",
-      "source": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+      "imageSourceType": "source-page",
+      "imageAttribution": "MIT Technology Review",
+      "originalTitle": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "originalExcerpt": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter…",
+      "source": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 95,
+      "confidence": 88,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "nasa-breaking-news",
-      "sourceType": "official",
+      "collectionSourceId": "mit-technology-review",
+      "sourceType": "professional",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Thu, 08 Oct 2026 19:40:00 +0000",
-      "sourcePublishedAt": "2026-10-08T19:40:00+00:00",
-      "collectedAt": "2026-10-08T19:59:01.504354+00:00",
+      "sourceTrustLevel": "professional",
+      "originalPublishedAt": "Fri, 09 Oct 2026 00:08:24 +0000",
+      "sourcePublishedAt": "2026-10-09T00:08:24+00:00",
+      "collectedAt": "2026-10-09T00:26:05.872989+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are announced in conjunction with the White House Office of Science and Technology Policy’s (OSTP) “Golden Age Summit” in Washington on Thursday with top U.S. agency leaders. The programs […] NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future",
+      "sourceMaterial": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter…",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "美国国家航空航天局宣布为美国黄金时代峰会提出大胆的科学倡议",
-      "translatedSourceMaterial": "美国宇航局正在推出两项新的科学技术计划，以加深对科学的理解，并加速将塑造美国太空未来的创新。这些举措将于周四与白宫科技政策办公室（ OSTP ）在华盛顿举行的“黄金时代峰会” （ Golden Age Summit ）上宣布。 这些计划[…]美国宇航局正在推出两项新的科学技术计划，以加深科学理解并加速将塑造美国未来的创新",
+      "translatedSourceTitle": "圆桌会议：与人工智能设计病毒的创造者对话",
+      "translatedSourceMaterial": "2026年10月16日（星期五）人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（ Samuel King ）在使用生成人工智能模型提出微观病毒的遗传蓝图时提出了初步答案。它还不是人工智能生成生命的一个例子，但这可能是下一个例子。加入高级人工智能记者……",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 983
+      "contentCharacterCount": 966
     },
     {
       "id": 119,
@@ -2717,7 +2717,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Wolfspeed signs $1.5B DOD loan for semiconductor production, R&D",
       "excerpt": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://imgproxy.divecdn.com/QMh1TOrMxNve_aIdwAIeO3FDS3SmmbBkevTiHn2BP0o/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9XT0xGU1BFRUQtTW9oYXdrX1ZhbGxleS5wbmc=.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -2748,7 +2748,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The semiconductor maker intends to increase volume at its Mohawk Valley Fab in Marcy, New York, and its Research Triangle Park location in Durham, North Carolina. DOD also committed a $150 millon to PsyQuantum.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 222,
@@ -2766,7 +2768,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "NASA, Energy Department Advance New Era of Nuclear-Powered Exploration",
       "excerpt": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国国家航空航天局”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“美国国家航空航天局”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/nasa-doe-mou-release-smaller-image-oct-8.jpg?w=800",
       "imageFallback": "assets/energy.jpg",
       "imageSourceType": "rss",
@@ -2797,7 +2799,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "As the Golden Age of deep-space exploration begins, NASA and the U.S. Department of Energy are advancing the development of safe, reliable, next-generation nuclear technologies for space. Together, the agencies will supercharge civil space exploration, unlock bold scientific discovery, and solidify American leadership in space nuclear power and propulsion. “We are entering the ‘Nuclear NASA-era,’ […]",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 243,
@@ -2866,7 +2870,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "人文前沿观察：加拿大诗人安妮·卡森（ Anne Carson ）为现代观众带来了古老的智慧。现在，她是诺贝尔文学奖获得者",
       "excerpt": "这位76岁的诗人、翻译和散文家以“大胆和创造性”的方式融合诗歌、散文和介于两者之间的一切而闻名，导致瑞典学院称之为“当代文学的新形式”人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
-      "body": "核心进展\n\n这位76岁的诗人、翻译和散文家以“大胆和创造性”的方式融合诗歌、散文和介于两者之间的一切而闻名，导致瑞典学院称之为“当代文学的新形式”。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 这位76岁的诗人、翻译和散文家以“大胆和创造性”的方式融合诗歌、散文和介于两者之间的一切而闻名，导致瑞典学院称之为“当代文学的新形式”。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/3nQWvxe26S_ldExOzsPk53w0SNU=/420x240/filters:focal(3153x1424:3154x1425)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/0f/73/0f73ec3d-c197-40ef-87b4-f79a097a5919/gettyimages-2298578783.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2963,53 +2967,60 @@
       "contentCharacterCount": 960
     },
     {
-      "id": 180,
+      "id": 216,
       "category": "科技",
-      "categoryEvidenceScore": 2,
+      "categoryEvidenceScore": 5,
       "categoryScores": {
         "金融": 0,
-        "科技": 5,
+        "科技": 9,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 5,
+      "categoryClassificationMargin": 9,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "NSF–UKRI metascience statement",
-      "excerpt": "The United States National Science Foundation (NSF) and United Kingdom Research and Innovation (UKRI) have long advanced knowledge through the ingenuity of our researchers and the institutions that enable them. Both UKRI and NSF intend to build on…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国国家科学基金会”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/datacenter.jpg",
+      "title": "科技前沿观察：美国国家航空航天局宣布为美国黄金时代峰会提出大胆的科学倡议",
+      "excerpt": "美国宇航局正在推出两项新的科学技术计划，以加深对科学的理解，并加速将塑造美国太空未来的创新。这些举措将于周四与白宫科技政策办公室（ OSTP ）在华盛顿举行的“黄金时代峰会” （ Golden Age Summit ）上宣布。 这些计划[…]美国宇航局正在推出两项新的科学技术计划，以加深科学理解并加速将塑造美国未来的创新技术是否产生行业影响…",
+      "body": "核心进展\n\n美国宇航局正在推出两项新的科学技术计划，以加深对科学的理解，并加速将塑造美国太空未来的创新。这些举措将于周四与白宫科技政策办公室（ OSTP ）在华盛顿举行的“黄金时代峰会” （ Golden Age Summit ）上宣布。 这些计划[…]美国宇航局正在推出两项新的科学技术计划，以加深科学理解并加速将塑造美国未来的创新。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg?w=2048",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
-      "originalTitle": "NSF–UKRI metascience statement",
-      "originalExcerpt": "The United States National Science Foundation (NSF) and United Kingdom Research and Innovation (UKRI) have long advanced knowledge through the ingenuity of our researchers and the institutions that enable them. Both UKRI and NSF intend to build on…",
-      "source": "U.S. National Science Foundation",
-      "sourceUrl": "https://www.nsf.gov/news/nsf-ukri-metascience-statement",
+      "imageSourceType": "rss",
+      "imageAttribution": "NASA Breaking News",
+      "originalTitle": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
+      "originalExcerpt": "NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are announced in conjunction with the White House Office of Science and Technology Policy’s (OSTP) “Golden Age Summit” in Washington on Thursday with top U.S. agency leaders. The programs […]",
+      "source": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 94,
+      "confidence": 95,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-10-08",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "us-national-science-foundation",
-      "sourceType": "research",
-      "sourceRegion": "北美",
+      "collectionSourceId": "nasa-breaking-news",
+      "sourceType": "official",
+      "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Thu, 08 Oct 2026 09:26:57 -0400",
-      "sourcePublishedAt": "2026-10-08T13:26:57+00:00",
-      "collectedAt": "2026-10-08T19:59:01.362867+00:00",
+      "originalPublishedAt": "Thu, 08 Oct 2026 19:40:00 +0000",
+      "sourcePublishedAt": "2026-10-08T19:40:00+00:00",
+      "collectedAt": "2026-10-08T19:59:01.504354+00:00",
       "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "The United States National Science Foundation (NSF) and United Kingdom Research and Innovation (UKRI) have long advanced knowledge through the ingenuity of our researchers and the institutions that enable them. Both UKRI and NSF intend to build on…",
-      "sourceMaterialType": "rss"
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future in space. The initiatives are announced in conjunction with the White House Office of Science and Technology Policy’s (OSTP) “Golden Age Summit” in Washington on Thursday with top U.S. agency leaders. The programs […] NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future NASA is launching two new science and technology initiatives to deepen scientific understanding and accelerate the innovation that will shape America’s future",
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "美国国家航空航天局宣布为美国黄金时代峰会提出大胆的科学倡议",
+      "translatedSourceMaterial": "美国宇航局正在推出两项新的科学技术计划，以加深对科学的理解，并加速将塑造美国太空未来的创新。这些举措将于周四与白宫科技政策办公室（ OSTP ）在华盛顿举行的“黄金时代峰会” （ Golden Age Summit ）上宣布。 这些计划[…]美国宇航局正在推出两项新的科学技术计划，以加深科学理解并加速将塑造美国未来的创新",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 983
     },
     {
       "id": 209,
@@ -3971,28 +3982,28 @@
   ],
   "errors": [
     {
-      "source": "Semiconductor Engineering",
-      "error": "连续 2 次请求失败（1052ms）：HTTP Error 403: Forbidden"
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（975ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-10-08T19:59:01.686681+00:00",
-    "startedAt": "2026-10-08T19:58:44.991186+00:00",
-    "finishedAt": "2026-10-08T19:59:01.686681+00:00",
+    "id": "2026-10-09T00:26:06.667666+00:00",
+    "startedAt": "2026-10-09T00:25:49.786248+00:00",
+    "finishedAt": "2026-10-09T00:26:06.667666+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 35,
     "sourcesFailed": 1,
-    "fetched": 338,
-    "added": 256,
-    "duplicates": 49,
+    "fetched": 339,
+    "added": 258,
+    "duplicates": 48,
     "invalid": 1,
     "staleSkipped": 32,
     "maxSourceAgeDays": 45,
     "errors": [
       {
-        "source": "Semiconductor Engineering",
-        "error": "连续 2 次请求失败（1052ms）：HTTP Error 403: Forbidden"
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（975ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4001,7 +4012,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 963,
+        "durationMs": 1667,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4011,7 +4022,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1130,
+        "durationMs": 1195,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4021,7 +4032,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1564,
+        "durationMs": 1855,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4031,7 +4042,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 640,
+        "durationMs": 757,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4041,7 +4052,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 864,
+        "durationMs": 911,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4051,7 +4062,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1167,
+        "durationMs": 939,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4061,7 +4072,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1142,
+        "durationMs": 785,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4071,7 +4082,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 911,
+        "durationMs": 784,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4081,7 +4092,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1237,
+        "durationMs": 737,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4091,9 +4102,9 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3101,
-        "fetched": 2,
-        "added": 2,
+        "durationMs": 3206,
+        "fetched": 3,
+        "added": 3,
         "duplicates": 0
       },
       {
@@ -4101,7 +4112,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 796,
+        "durationMs": 1147,
         "fetched": 6,
         "added": 3,
         "duplicates": 2
@@ -4111,7 +4122,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4366,
+        "durationMs": 3927,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4121,7 +4132,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1539,
+        "durationMs": 1719,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4131,7 +4142,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1910,
+        "durationMs": 2081,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4141,7 +4152,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1162,
+        "durationMs": 1278,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4151,17 +4162,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 230,
+        "durationMs": 122,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 170,
+        "durationMs": 135,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4171,7 +4182,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 156,
+        "durationMs": 345,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4179,20 +4190,19 @@
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 1052,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（1052ms）：HTTP Error 403: Forbidden"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 1029,
+        "fetched": 10,
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 355,
+        "durationMs": 138,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4202,7 +4212,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 869,
+        "durationMs": 950,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4212,7 +4222,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 969,
+        "durationMs": 841,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4222,17 +4232,17 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 180,
+        "durationMs": 257,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "us-federal-reserve",
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 83,
+        "durationMs": 39,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4242,7 +4252,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 909,
+        "durationMs": 619,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4252,17 +4262,17 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 86,
+        "durationMs": 52,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "us-national-institute-standards-technology",
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 71,
+        "durationMs": 80,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4272,7 +4282,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 105,
+        "durationMs": 32,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4282,7 +4292,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 778,
+        "durationMs": 1298,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4292,7 +4302,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 657,
+        "durationMs": 150,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4302,7 +4312,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1396,
+        "durationMs": 134,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4310,19 +4320,20 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 368,
-        "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 975,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（975ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 680,
+        "durationMs": 618,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4332,17 +4343,17 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 501,
+        "durationMs": 447,
         "fetched": 10,
-        "added": 7,
-        "duplicates": 3
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "ipcc",
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1369,
+        "durationMs": 1298,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4352,10 +4363,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 221,
+        "durationMs": 65,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       }
     ],
     "queueCount": 72,
@@ -4370,7 +4381,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
