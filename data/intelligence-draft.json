@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T05:54:23.898623+00:00",
+  "generatedAt": "2026-10-11T12:58:39.189951+00:00",
   "stories": [
     {
       "id": 1,
@@ -1686,13 +1686,13 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 3,
+      "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "“中国天眼”发现首例演化阶段三体脉冲星",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
+      "body": "核心信息 人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -1723,7 +1723,10 @@
       "freshnessDays": 1,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 82,
@@ -2005,13 +2008,13 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 3,
+      "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "研究揭示水稻驯化与微生物组选择耦合机制",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
+      "body": "核心信息 人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -2042,7 +2045,10 @@
       "freshnessDays": 2,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 81,
@@ -2325,13 +2331,13 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 3,
+      "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "研究以“刷上刷”共价结构实现多肽药物的有序胞内激活",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
+      "body": "核心信息 人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -2362,7 +2368,10 @@
       "freshnessDays": 3,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 78,
@@ -3971,29 +3980,39 @@
       "translatedSourceMaterial": ""
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "USDA Agricultural Research Service",
+      "error": "连续 2 次请求失败（20845ms）：<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
   "collection": {
-    "id": "2026-10-11T05:54:23.898623+00:00",
-    "startedAt": "2026-10-11T05:54:04.667025+00:00",
-    "finishedAt": "2026-10-11T05:54:23.898623+00:00",
-    "status": "success",
+    "id": "2026-10-11T12:58:39.189951+00:00",
+    "startedAt": "2026-10-11T12:57:55.524055+00:00",
+    "finishedAt": "2026-10-11T12:58:39.189951+00:00",
+    "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 36,
-    "sourcesFailed": 0,
-    "fetched": 348,
-    "added": 273,
-    "duplicates": 43,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 338,
+    "added": 268,
+    "duplicates": 47,
     "invalid": 1,
-    "staleSkipped": 31,
+    "staleSkipped": 22,
     "maxSourceAgeDays": 45,
-    "errors": [],
+    "errors": [
+      {
+        "source": "USDA Agricultural Research Service",
+        "error": "连续 2 次请求失败（20845ms）：<urlopen error [Errno -3] Temporary failure in name resolution>"
+      }
+    ],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3169,
+        "durationMs": 1332,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4003,7 +4022,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1367,
+        "durationMs": 3097,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4013,17 +4032,17 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3794,
+        "durationMs": 1753,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 6,
+        "duplicates": 4
       },
       {
         "sourceId": "china-ndrc-releases",
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 645,
+        "durationMs": 553,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4033,7 +4052,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1317,
+        "durationMs": 1229,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4043,7 +4062,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1489,
+        "durationMs": 1637,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4053,7 +4072,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1318,
+        "durationMs": 1262,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4063,7 +4082,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1253,
+        "durationMs": 1230,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4073,7 +4092,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 562,
+        "durationMs": 700,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4083,7 +4102,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3127,
+        "durationMs": 5353,
         "fetched": 2,
         "added": 2,
         "duplicates": 0
@@ -4093,7 +4112,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 860,
+        "durationMs": 1230,
         "fetched": 6,
         "added": 3,
         "duplicates": 2
@@ -4103,7 +4122,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 5941,
+        "durationMs": 5828,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4113,7 +4132,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1361,
+        "durationMs": 1180,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4123,17 +4142,17 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2173,
+        "durationMs": 2222,
         "fetched": 10,
-        "added": 5,
-        "duplicates": 5
+        "added": 4,
+        "duplicates": 6
       },
       {
         "sourceId": "china-mct-culture-news",
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3089,
+        "durationMs": 2286,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4143,7 +4162,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 93,
+        "durationMs": 143,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4153,7 +4172,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 278,
+        "durationMs": 247,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4163,7 +4182,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 160,
+        "durationMs": 165,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4173,7 +4192,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1026,
+        "durationMs": 978,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4183,7 +4202,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 196,
+        "durationMs": 218,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4193,7 +4212,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 633,
+        "durationMs": 691,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4203,7 +4222,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 711,
+        "durationMs": 1267,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4213,7 +4232,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 258,
+        "durationMs": 100,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4223,7 +4242,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 153,
+        "durationMs": 103,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4233,7 +4252,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 868,
+        "durationMs": 540,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4243,7 +4262,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 71,
+        "durationMs": 131,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4253,7 +4272,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 68,
+        "durationMs": 103,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4263,7 +4282,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 58,
+        "durationMs": 154,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4271,19 +4290,20 @@
       {
         "sourceId": "usda-agricultural-research-service",
         "source": "USDA Agricultural Research Service",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 856,
-        "fetched": 10,
-        "added": 1,
-        "duplicates": 0
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 20845,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（20845ms）：<urlopen error [Errno -3] Temporary failure in name resolution>"
       },
       {
         "sourceId": "national-association-manufacturers",
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 495,
+        "durationMs": 312,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4293,7 +4313,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 559,
+        "durationMs": 331,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4303,17 +4323,17 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 193,
+        "durationMs": 182,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 568,
+        "durationMs": 679,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4323,7 +4343,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 413,
+        "durationMs": 573,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4333,7 +4353,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1440,
+        "durationMs": 1129,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4343,10 +4363,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 136,
+        "durationMs": 139,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       }
     ],
     "queueCount": 72,
@@ -4361,7 +4381,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 1,
+      "translated": 0,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
