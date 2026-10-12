@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T15:35:59.040209+00:00",
+  "generatedAt": "2026-10-12T23:02:29.939526+00:00",
   "stories": [
     {
       "id": 1,
@@ -1686,13 +1686,13 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 2
       },
-      "categoryClassificationMargin": 3,
+      "categoryClassificationMargin": 1,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "人体蛋白质组导航国际大科学计划全球日活动在新加坡成功举办",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "2026年9月28日，在新加坡召开的第二十五届人类蛋白质组组织大会期间，人体蛋白质组导航国际大科学计划成功举办全球日活动。科学技术部国际科技合作中心主任赵静、中国驻新加坡使馆教育处公使衔参赞韩骏、中国科学院院士贺福初，人类蛋白质组组织（HUPO）主席乌韦·福尔克尔（Uwe Völker）、美国国家科学院院士马蒂亚斯·曼（Matthias Mann）、荷兰皇家艺术与科学院院士阿尔伯特·赫克（Albert Heck）、加拿大皇家学会科学院院士克里斯托弗·奥弗尔（Christopher Overall）等来自不同国家和地区的科研人员及相关机构代表参加活动…",
+      "body": "核心信息 2026年9月28日，在新加坡召开的第二十五届人类蛋白质组组织大会期间，人体蛋白质组导航国际大科学计划成功举办全球日活动。科学技术部国际科技合作中心主任赵静、中国驻新加坡使馆教育处公使衔参赞韩骏、中国科学院院士贺福初，人类蛋白质组组织（HUPO）主席乌韦·福尔克尔（Uwe Völker）、美国国家科学院院士马蒂亚斯·曼（Matthias Mann）、荷兰皇家艺术与科学院院士阿尔伯特·赫克（Albert Heck）、加拿大皇家学会科学院院士克里斯托弗·奥弗尔（Christopher Overall）等来自不同国家和地区的科研人员及相关机构代表参加活动… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -1723,7 +1723,10 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 82,
@@ -2005,13 +2008,13 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 3,
+      "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "第八次全国科技援疆工作会议在乌鲁木齐召开",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "10月10日上午，第八次全国科技援疆工作会议在乌鲁木齐召开，深入学习贯彻习近平总书记关于科技创新的重要论述，落实第十次全国对口支援新疆工作会议精神，谋划推动“十五五”时期科技援疆工作走深走实，更好支撑引领新疆经济社会高质量发展。科技部党组书记、部长阴和俊，新疆维吾尔自治区党委书记、兵团党委第一书记、第一政委陈小江出席会议并讲话。自治区党委副书记、自治区主席艾尔肯·吐尼亚孜，自治区党委副书记、兵团政委何忠友，自治区党委副书记、自治区常务副主席张迎春，自治区和兵团领导哈丹·卡宾、凯赛尔·阿不都克热木、薛斌、杨宏斌出席会议。科技部副部长林新主持会议…",
+      "body": "核心信息 10月10日上午，第八次全国科技援疆工作会议在乌鲁木齐召开，深入学习贯彻习近平总书记关于科技创新的重要论述，落实第十次全国对口支援新疆工作会议精神，谋划推动“十五五”时期科技援疆工作走深走实，更好支撑引领新疆经济社会高质量发展。科技部党组书记、部长阴和俊，新疆维吾尔自治区党委书记、兵团党委第一书记、第一政委陈小江出席会议并讲话。自治区党委副书记、自治区主席艾尔肯·吐尼亚孜，自治区党委副书记、兵团政委何忠友，自治区党委副书记、自治区常务副主席张迎春，自治区和兵团领导哈丹·卡宾、凯赛尔·阿不都克热木、薛斌、杨宏斌出席会议。科技部副部长林新主持会议… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -2042,7 +2045,10 @@
       "freshnessDays": 1,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 81,
@@ -2330,8 +2336,8 @@
       "categoryClassificationMargin": 3,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "科技部党组书记、部长阴和俊出席第三次新疆科考成果发布会并讲话",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "excerpt": "10月10日下午，第三次新疆科考成果发布会在乌鲁木齐召开。科技部党组书记、部长阴和俊，新疆维吾尔自治区党委书记、兵团党委第一书记、第一政委陈小江，中国科学院副院长何宏平出席会议并讲话。自治区党委副书记、自治区主席艾尔肯·吐尼亚孜主持。自治区党委副书记、兵团政委何忠友出席会议。 阴和俊指出，第三次新疆综合科考以习近平总书记关于新疆工作的重要指示精神和关于科技创新的重要论述为战略指引，着力打造重大标志性科学工程，服务新疆绿色发展和生态文明建设。五年来，科考工作践行新型举国体制，央地联动、部际协同推进全域综合调查，取得一批重大成果…",
+      "body": "核心信息 10月10日下午，第三次新疆科考成果发布会在乌鲁木齐召开。科技部党组书记、部长阴和俊，新疆维吾尔自治区党委书记、兵团党委第一书记、第一政委陈小江，中国科学院副院长何宏平出席会议并讲话。自治区党委副书记、自治区主席艾尔肯·吐尼亚孜主持。自治区党委副书记、兵团政委何忠友出席会议。 阴和俊指出，第三次新疆综合科考以习近平总书记关于新疆工作的重要指示精神和关于科技创新的重要论述为战略指引，着力打造重大标志性科学工程，服务新疆绿色发展和生态文明建设。五年来，科考工作践行新型举国体制，央地联动、部际协同推进全域综合调查，取得一批重大成果… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -2362,7 +2368,10 @@
       "freshnessDays": 1,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 78,
@@ -2637,36 +2646,36 @@
       "contentCharacterCount": 960
     },
     {
-      "id": 130,
+      "id": 129,
       "category": "科技",
-      "categoryEvidenceScore": 2,
+      "categoryEvidenceScore": 3,
       "categoryScores": {
         "金融": 0,
-        "科技": 5,
+        "科技": 6,
         "工业": 0,
-        "能源": 0,
+        "能源": 1,
         "农业": 0,
         "人文": 0
       },
       "categoryClassificationMargin": 5,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Startup Funding: Q3 2026",
-      "excerpt": "80 startups raised $8.5B in Q3, with big hauls by companies tackling data movement and memory. The post Startup Funding: Q3 2026 appeared first on Semiconductor Engineering .",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“半导体工程资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/datacenter.jpg",
+      "title": "科技前沿观察：碳点接口在2D半导体（ UIUC、NETL、Argonne、Monash ）上实现超薄高κ电介质",
+      "excerpt": "伊利诺伊大学香槟分校（ University of Illinois Urbana-Champaign ）、国家能源技术实验室（ National Energy Technology Laboratory ）、阿贡国家实验室（ Argonne National Laboratory ）和莫纳什大学（ Monash University…",
+      "body": "核心进展\n\n伊利诺伊大学香槟分校（ University of Illinois Urbana-Champaign ）、国家能源技术实验室（ National Energy Technology Laboratory ）、阿贡国家实验室（ Argonne National Laboratory ）和莫纳什大学（ Monash University ）的研究人员发表了一篇题为《2D半导体上的高κ氧化物与碳点单层组件作为范德华界面层的集成》（ Integration of highκ oxide on 2D semiconductors with摘要： “这种原子薄的组件形成了范德华界面层，可以实现沉积。 .. »阅读更多文章Carbon-Dot Interface Enables Ultrathin High-κ Dielectrics on 2D Semiconductors (UIUC, NETL, Argonne, Monash)首次出现在半导体工程上。伊利诺伊大学厄巴纳-香槟分校、国家能源技术实验室、阿贡国家实验室和莫纳什大学的研究人员发表了一篇题为“ 2D半导体上高κ氧化物与 arbon-dot单层组件作为van der Waals界面层。摘要： “这种原子薄的组件形成了范德华界面层…。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://semiengineering.com/wp-content/uploads/2026/02/AdobeStock_617037143-scaled.jpeg",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
-      "originalTitle": "Startup Funding: Q3 2026",
-      "originalExcerpt": "80 startups raised $8.5B in Q3, with big hauls by companies tackling data movement and memory. The post Startup Funding: Q3 2026 appeared first on Semiconductor Engineering .",
+      "imageSourceType": "source-page",
+      "imageAttribution": "Semiconductor Engineering",
+      "originalTitle": "Carbon-Dot Interface Enables Ultrathin High-κ Dielectrics on 2D Semiconductors (UIUC, NETL, Argonne, Monash)",
+      "originalExcerpt": "Researchers at the University of Illinois Urbana-Champaign, National Energy Technology Laboratory, Argonne National Laboratory, and Monash University published a technical paper titled “Integration of high-κ oxide on 2D semiconductors with carbon-dot monolayer assembly as van der Waals interfacial layer.” Abstract Excerpt: “This atomically thin assembly forms a van der Waals interfacial layer that enables deposition... » read more The post Carbon-Dot Interface Enables Ultrathin High-κ Dielectrics on 2D Semiconductors (UIUC, NETL, Argonne, Monash) appeared first on Semiconductor Engineering .",
       "source": "Semiconductor Engineering",
-      "sourceUrl": "https://semiengineering.com/startup-funding-q3-2026/",
+      "sourceUrl": "https://semiengineering.com/carbon-dot-interface-enables-ultrathin-high-%ce%ba-dielectrics-on-2d-semiconductors-uiuc-netl-argonne-monash/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 86,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-10-12",
       "tags": [
@@ -2677,13 +2686,20 @@
       "sourceType": "industry",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Mon, 12 Oct 2026 07:01:27 +0000",
-      "sourcePublishedAt": "2026-10-12T07:01:27+00:00",
-      "collectedAt": "2026-10-12T15:35:58.728736+00:00",
+      "originalPublishedAt": "Mon, 12 Oct 2026 22:55:48 +0000",
+      "sourcePublishedAt": "2026-10-12T22:55:48+00:00",
+      "collectedAt": "2026-10-12T23:02:29.650417+00:00",
       "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "80 startups raised $8.5B in Q3, with big hauls by companies tackling data movement and memory. The post Startup Funding: Q3 2026 appeared first on Semiconductor Engineering .",
-      "sourceMaterialType": "rss"
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "Researchers at the University of Illinois Urbana-Champaign, National Energy Technology Laboratory, Argonne National Laboratory, and Monash University published a technical paper titled “Integration of high-κ oxide on 2D semiconductors with carbon-dot monolayer assembly as van der Waals interfacial layer.” Abstract Excerpt: “This atomically thin assembly forms a van der Waals interfacial layer that enables deposition... » read more The post Carbon-Dot Interface Enables Ultrathin High-κ Dielectrics on 2D Semiconductors (UIUC, NETL, Argonne, Monash) appeared first on Semiconductor Engineering . Researchers at the University of Illinois Urbana-Champaign, National Energy Technology Laboratory, Argonne National Laboratory, and Monash University published a technical paper titled “Integration of high-κ oxide on 2D semiconductors with carbon-dot monolayer assembly as van der Waals interfacial layer.” Abstract Excerpt: “This atomically thin assembly forms a van der Waals interfacial layer that enables deposition... » read more",
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "碳点接口在2D半导体（ UIUC、NETL、Argonne、Monash ）上实现超薄高κ电介质",
+      "translatedSourceMaterial": "伊利诺伊大学香槟分校（ University of Illinois Urbana-Champaign ）、国家能源技术实验室（ National Energy Technology Laboratory ）、阿贡国家实验室（ Argonne National Laboratory ）和莫纳什大学（ Monash University ）的研究人员发表了一篇题为《2D半导体上的高κ氧化物与碳点单层组件作为范德华界面层的集成》（ Integration of highκ oxide on 2D semiconductors with摘要： “这种原子薄的组件形成了范德华界面层，可以实现沉积。 .. »阅读更多文章Carbon-Dot Interface Enables Ultrathin High-κ Dielectrics on 2D Semiconductors (UIUC, NETL, Argonne, Monash)首次出现在半导体工程上。伊利诺伊大学厄巴纳-香槟分校、国家能源技术实验室、阿贡国家实验室和莫纳什大学的研究人员发表了一篇题为“ 2D半导体上高κ氧化物与 arbon-dot单层组件作为van der Waals界面层。摘要： “这种原子薄的组件形成了范德华界面层…",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 1304
     },
     {
       "id": 121,
@@ -2701,7 +2717,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "工业前沿观察：您是否需要首席制造官？",
       "excerpt": "一些公司、政府机构和贸易团体已经投资了这一角色，但专家表示，扩大规模仍然具有挑战性。拥有该头衔的两个人对首席营销官的价值进行了权衡。工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。",
-      "body": "核心进展\n\n一些公司、政府机构和贸易团体已经投资了这一角色，但专家表示，扩大规模仍然具有挑战性。拥有该头衔的两个人对首席营销官的价值进行了权衡。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。\n\n关键内容\n\n分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 一些公司、政府机构和贸易团体已经投资了这一角色，但专家表示，扩大规模仍然具有挑战性。拥有该头衔的两个人对首席营销官的价值进行了权衡。。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。 关键内容 分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：制造业行业资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://imgproxy.divecdn.com/YJONwVXQErlm03qSsUtQMgpFbHZQEPjsVqlgBm6rk-I/g:nowe:0:0/c:2800:1581/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTUwMjc2MDM4Mi5qcGVn.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -2864,7 +2880,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "The Biggest Ship in History Was Built in China 600 Years Ago—Or Was It?",
       "excerpt": "In 2002, the retired British submarine lieutenant-commander turned amateur historian Gavin Menzies created a stir with a book about Chinese seafaring in the fifteenth century. 1421: The Year China Discovered the World (tellingly titled 1421: The Year China Discovered America in…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“开放文化资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“开放文化资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://i.ytimg.com/vi/dNvYhm6wT-0/maxresdefault.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2895,7 +2911,9 @@
       "freshnessDays": 0,
       "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
       "sourceMaterial": "In 2002, the retired British submarine lieutenant-commander turned amateur historian Gavin Menzies created a stir with a book about Chinese seafaring in the fifteenth century. 1421: The Year China Discovered the World (tellingly titled 1421: The Year China Discovered America in the United States) began as a global history of that year, only coming to focus […]",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 154,
@@ -2954,34 +2972,34 @@
       "contentCharacterCount": 960
     },
     {
-      "id": 227,
+      "id": 130,
       "category": "科技",
-      "categoryEvidenceScore": 2,
+      "categoryEvidenceScore": 10,
       "categoryScores": {
         "金融": 0,
-        "科技": 5,
+        "科技": 15,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 1
+        "人文": 0
       },
-      "categoryClassificationMargin": 4,
+      "categoryClassificationMargin": 15,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：APOD ： 2026年10月12日–木星和月亮",
-      "excerpt": "APOD Science APOD APOD ： 2026年10月12日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。木星和[…]技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来…",
-      "body": "核心进展 APOD Science APOD APOD ： 2026年10月12日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。木星和[…]。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。 关键内容 理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/JupiterMoons_Upreti_3105.jpg?w=0&h=0&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "科技前沿观察：芯片内监视器检测AI加速器（ UF ， UT Dallas ， RPI ）中的位翻转攻击",
+      "excerpt": "佛罗里达大学、德克萨斯大学达拉斯分校和伦斯勒理工学院的研究人员发表了一篇名为“BARE-AI ：通过内置性能监视器实现人工智能硬件的位翻转攻击弹性”的技术论文。摘要摘要： “深度神经网络（ DNN ）是许多安全关键系统不可或缺的一部分，但它们仍然非常容易受到位翻转攻击（ BFA ）的影响，其中... »阅读更多POST片上监视器检测AI加速器（ UF…",
+      "body": "核心进展\n\n佛罗里达大学、德克萨斯大学达拉斯分校和伦斯勒理工学院的研究人员发表了一篇名为“BARE-AI ：通过内置性能监视器实现人工智能硬件的位翻转攻击弹性”的技术论文。摘要摘要： “深度神经网络（ DNN ）是许多安全关键系统不可或缺的一部分，但它们仍然非常容易受到位翻转攻击（ BFA ）的影响，其中... »阅读更多POST片上监视器检测AI加速器（ UF ， UT Dallas ， RPI ）中的位翻转攻击首次出现在半导体工程上。佛罗里达大学、德克萨斯大学达拉斯分校和伦斯勒理工学院的研究人员发表了一篇名为“ BARE-AI ：通过内置性能监视器实现人工智能硬件的位翻转攻击弹性”的技术论文。”摘要摘要： “深度神经网络 oRKS （ DNN ）是许多安全关键系统不可或缺的一部分，但它们仍然非常容易受到位翻转攻击（ BFA ） ，其中... »阅读更多。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://semiengineering.com/wp-content/uploads/Security-AdobeStock_328668955-01-29-25-scaled.jpeg",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "NASA Breaking News",
-      "originalTitle": "APOD: 2026 October 12 – Jupiter and the Moons",
-      "originalExcerpt": "APOD Science APOD APOD: 2026 October 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Jupiter and the […]",
-      "source": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-12-jupiter-and-the-moons/",
+      "imageSourceType": "source-page",
+      "imageAttribution": "Semiconductor Engineering",
+      "originalTitle": "On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)",
+      "originalExcerpt": "Researchers at the University of Florida, University of Texas at Dallas, and Rensselaer Polytechnic Institute published a technical paper titled “BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors.” Abstract Excerpt: “Deep Neural Networks (DNNs) are integral to many safety critical systems, yet they remain highly vulnerable to bit-flip attacks (BFAs), where a... » read more The post On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI) appeared first on Semiconductor Engineering .",
+      "source": "Semiconductor Engineering",
+      "sourceUrl": "https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 95,
+      "confidence": 86,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -2990,24 +3008,24 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "nasa-breaking-news",
-      "sourceType": "official",
+      "collectionSourceId": "semiconductor-engineering",
+      "sourceType": "industry",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Mon, 12 Oct 2026 04:05:00 +0000",
-      "sourcePublishedAt": "2026-10-12T04:05:00+00:00",
-      "collectedAt": "2026-10-12T06:05:37.805308+00:00",
+      "sourceTrustLevel": "professional",
+      "originalPublishedAt": "Mon, 12 Oct 2026 22:34:47 +0000",
+      "sourcePublishedAt": "2026-10-12T22:34:47+00:00",
+      "collectedAt": "2026-10-12T23:02:29.652779+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "APOD Science APOD APOD: 2026 October 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Jupiter and the […]",
+      "sourceMaterial": "Researchers at the University of Florida, University of Texas at Dallas, and Rensselaer Polytechnic Institute published a technical paper titled “BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors.” Abstract Excerpt: “Deep Neural Networks (DNNs) are integral to many safety critical systems, yet they remain highly vulnerable to bit-flip attacks (BFAs), where a... » read more The post On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI) appeared first on Semiconductor Engineering . Researchers at the University of Florida, University of Texas at Dallas, and Rensselaer Polytechnic Institute published a technical paper titled “BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors.” Abstract Excerpt: “Deep Neural Networks (DNNs) are integral to many safety critical systems, yet they remain highly vulnerable to bit-flip attacks (BFAs), where a... » read more",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "APOD ： 2026年10月12日–木星和月亮",
-      "translatedSourceMaterial": "APOD Science APOD APOD ： 2026年10月12日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。木星和[…]",
+      "translatedSourceTitle": "芯片内监视器检测AI加速器（ UF ， UT Dallas ， RPI ）中的位翻转攻击",
+      "translatedSourceMaterial": "佛罗里达大学、德克萨斯大学达拉斯分校和伦斯勒理工学院的研究人员发表了一篇名为“BARE-AI ：通过内置性能监视器实现人工智能硬件的位翻转攻击弹性”的技术论文。摘要摘要： “深度神经网络（ DNN ）是许多安全关键系统不可或缺的一部分，但它们仍然非常容易受到位翻转攻击（ BFA ）的影响，其中... »阅读更多POST片上监视器检测AI加速器（ UF ， UT Dallas ， RPI ）中的位翻转攻击首次出现在半导体工程上。佛罗里达大学、德克萨斯大学达拉斯分校和伦斯勒理工学院的研究人员发表了一篇名为“ BARE-AI ：通过内置性能监视器实现人工智能硬件的位翻转攻击弹性”的技术论文。”摘要摘要： “深度神经网络 oRKS （ DNN ）是许多安全关键系统不可或缺的一部分，但它们仍然非常容易受到位翻转攻击（ BFA ） ，其中... »阅读更多",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 954
+      "contentCharacterCount": 1152
     },
     {
       "id": 111,
@@ -3025,7 +3043,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "工业前沿观察：首个公用事业规模的增强型地热发电厂投入使用",
       "excerpt": "本文最初由Canary Media发布。地热初创公司Fervo Energy现在正在犹他州的Cape Station项目中向电网出售电力，这标志着公用事业规模的下一代地热设施首次在全球范围内实现了这一壮举。这家总部位于休斯顿的公司上周末开启了最初的33兆瓦机组，此后一直在测试和提高产量。 周四， Fervo将正式开始商业运营…",
-      "body": "核心进展\n\n本文最初由Canary Media发布。地热初创公司Fervo Energy现在正在犹他州的Cape Station项目中向电网出售电力，这标志着公用事业规模的下一代地热设施首次在全球范围内实现了这一壮举。这家总部位于休斯顿的公司上周末开启了最初的33兆瓦机组，此后一直在测试和提高产量。 周四， Fervo将正式开始商业运营，为加利福尼亚州的零售电力供应商壳牌能源公司提供无碳电力。Cape Station是一个耗资20亿美元的项目，最终将达到500兆瓦，在世界商业地热发电厂中独树一帜。虽然其他设施利用自然产生的热水和蒸汽，但Fervo已经在地下深处设计了自己的地热资源。 这家初创公司使用石油和天然气行业的钻井技术，在热、干燥的岩石中建造储层，产生蒸汽发电。Fervo高级副总裁兼开发和商业市场负责人Dawn Owens表示： “在犹他州南部，传统的地热发电永远不会完成。” 随着第一台机组上线， Fervo公司正在努力在2027年1月1日之前再调试两个33兆瓦的功率块。该项目剩余的400兆瓦（由与谷歌达成的新协议提供支持）正在建设中，预计将于2028年上线。Fervo的下一代地热之旅Fervo已经运营了一个3.5兆瓦的商业试点工厂……。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。\n\n关键内容\n\n分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 本文最初由Canary Media发布。地热初创公司Fervo Energy现在正在犹他州的Cape Station项目中向电网出售电力，这标志着公用事业规模的下一代地热设施首次在全球范围内实现了这一壮举。这家总部位于休斯顿的公司上周末开启了最初的33兆瓦机组，此后一直在测试和提高产量。 周四， Fervo将正式开始商业运营，为加利福尼亚州的零售电力供应商壳牌能源公司提供无碳电力。Cape Station是一个耗资20亿美元的项目，最终将达到500兆瓦，在世界商业地热发电厂中独树一帜。虽然其他设施利用自然产生的热水和蒸汽，但Fervo已经在地下深处设计了自己的地热资源。 这家初创公司使用石油和天然气行业的钻井技术，在热、干燥的岩石中建造储层，产生蒸汽发电。Fervo高级副总裁兼开发和商业市场负责人Dawn Owens表示： “在犹他州南部，传统的地热发电永远不会完成。” 随着第一台机组上线， Fervo公司正在努力在2027年1月1日之前再调试两个33兆瓦的功率块。该项目剩余的400兆瓦（由与谷歌达成的新协议提供支持）正在建设中，预计将于2028年上线。Fervo的下一代地热之旅Fervo已经运营了一个3.5兆瓦的商业试点工厂……。这一进展属于工业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 工业信息既包含订单、产量和投资，也包含设备、工艺、质量和供应链。单一工厂的扩产消息不能代表整个行业，单月产量也不能直接说明长期趋势，因此需要把企业公告、行业统计和现场条件放在同一时间尺度上比较。分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。 关键内容 分析制造业进展时，可按原料、设备、工艺、人员、质量和交付六个环节追踪。自动化或数字化项目只有在停机时间、良率、能耗、维护和安全等指标上形成可重复改善，才可能从展示项目变成可复制的生产能力。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 工业技术的价值常常体现为流程稳定、资源利用率提升和风险下降，而不是一个醒目的发布会数字。读者还应留意项目处于试点、建设、投产还是持续运营阶段，以及数据是否由独立机构验证。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://spectrum.ieee.org/media-library/large-industrial-structure-in-the-desert-with-4-rows-of-16-large-fans.jpg?id=68403579&width=980",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -3965,26 +3983,34 @@
     {
       "source": "科普中国",
       "error": "订阅未返回可解析条目"
+    },
+    {
+      "source": "USDA Agricultural Research Service",
+      "error": "连续 2 次请求失败（16746ms）：<urlopen error [Errno -3] Temporary failure in name resolution>"
     }
   ],
   "collection": {
-    "id": "2026-10-12T15:35:59.040209+00:00",
-    "startedAt": "2026-10-12T15:35:42.743544+00:00",
-    "finishedAt": "2026-10-12T15:35:59.040209+00:00",
+    "id": "2026-10-12T23:02:29.939526+00:00",
+    "startedAt": "2026-10-12T23:01:53.024356+00:00",
+    "finishedAt": "2026-10-12T23:02:29.939526+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 346,
-    "added": 270,
+    "sourcesSucceeded": 34,
+    "sourcesFailed": 2,
+    "fetched": 336,
+    "added": 269,
     "duplicates": 46,
     "invalid": 1,
-    "staleSkipped": 29,
+    "staleSkipped": 20,
     "maxSourceAgeDays": 45,
     "errors": [
       {
         "source": "科普中国",
         "error": "订阅未返回可解析条目"
+      },
+      {
+        "source": "USDA Agricultural Research Service",
+        "error": "连续 2 次请求失败（16746ms）：<urlopen error [Errno -3] Temporary failure in name resolution>"
       }
     ],
     "sourceResults": [
@@ -3993,7 +4019,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1431,
+        "durationMs": 1628,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4003,27 +4029,27 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1189,
+        "durationMs": 1202,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 7,
+        "duplicates": 3
       },
       {
         "sourceId": "china-cas-science",
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2040,
+        "durationMs": 2300,
         "fetched": 10,
-        "added": 6,
-        "duplicates": 4
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-ndrc-releases",
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 462,
+        "durationMs": 828,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4033,7 +4059,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 669,
+        "durationMs": 1088,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4043,7 +4069,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 622,
+        "durationMs": 1115,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4053,7 +4079,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 699,
+        "durationMs": 1294,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4063,7 +4089,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 785,
+        "durationMs": 1310,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4073,7 +4099,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 518,
+        "durationMs": 688,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4083,7 +4109,7 @@
         "source": "科普中国",
         "status": "failed",
         "attempts": 1,
-        "durationMs": 3381,
+        "durationMs": 3070,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
@@ -4094,7 +4120,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1218,
+        "durationMs": 1396,
         "fetched": 6,
         "added": 3,
         "duplicates": 2
@@ -4104,7 +4130,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3176,
+        "durationMs": 4059,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4114,7 +4140,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1258,
+        "durationMs": 1166,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4124,7 +4150,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1924,
+        "durationMs": 2275,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4134,7 +4160,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2634,
+        "durationMs": 2343,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4144,7 +4170,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 133,
+        "durationMs": 144,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4154,17 +4180,17 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 331,
+        "durationMs": 702,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 79,
+        "durationMs": 133,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4174,17 +4200,17 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1125,
+        "durationMs": 1225,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 245,
+        "durationMs": 204,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4194,7 +4220,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 718,
+        "durationMs": 654,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4204,7 +4230,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 894,
+        "durationMs": 630,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4214,7 +4240,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 140,
+        "durationMs": 135,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4224,7 +4250,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 68,
+        "durationMs": 146,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4234,7 +4260,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 556,
+        "durationMs": 2291,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4244,7 +4270,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 128,
+        "durationMs": 125,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4254,7 +4280,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 139,
+        "durationMs": 158,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4264,7 +4290,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 118,
+        "durationMs": 164,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4272,29 +4298,30 @@
       {
         "sourceId": "usda-agricultural-research-service",
         "source": "USDA Agricultural Research Service",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 607,
-        "fetched": 10,
-        "added": 1,
-        "duplicates": 0
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 16746,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（16746ms）：<urlopen error [Errno -3] Temporary failure in name resolution>"
       },
       {
         "sourceId": "national-association-manufacturers",
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 290,
+        "durationMs": 524,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 398,
+        "durationMs": 123,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4304,17 +4331,17 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 180,
+        "durationMs": 184,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 386,
+        "durationMs": 1016,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4324,7 +4351,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 340,
+        "durationMs": 311,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4334,7 +4361,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1109,
+        "durationMs": 1123,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4344,7 +4371,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 207,
+        "durationMs": 202,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
