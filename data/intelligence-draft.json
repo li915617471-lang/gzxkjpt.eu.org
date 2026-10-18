@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T04:40:21.262711+00:00",
+  "generatedAt": "2026-10-18T11:15:31.382261+00:00",
   "stories": [
     {
       "id": 1,
@@ -653,16 +653,16 @@
     {
       "id": 1,
       "category": "金融",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 6,
       "categoryScores": {
-        "金融": 7,
+        "金融": 10,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 10,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "金融前沿观察：中国人民银行副行长宣昌能出席全球主权债务圆桌会等会议并会见相关机构负责...",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行副行长宣昌能出席全球主权债务圆桌会等会议并会见相关机构负责人。中国人民银行副行长宣昌能出席了全球主权债务圆桌会、国际货币与金融委员会（IMFC）经济形势介绍会、国际金融协会托管委员会年会等会议。共同行动、公平负担。各方应继续推动完善全球主权债务治理体系…",
@@ -696,7 +696,7 @@
       "collectedAt": "2026-10-18T04:40:20.046511+00:00",
       "freshnessDays": 1,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行副行长宣昌能出席全球主权债务圆桌会等会议并会见相关机构负责人。中国人民银行副行长宣昌能出席了全球主权债务圆桌会、国际货币与金融委员会（IMFC）经济形势介绍会、国际金融协会托管委员会年会等会议。共同行动、公平负担。各方应继续推动完善全球主权债务治理体系。改进基金组织和世界银行的低收入国家债务可持续性分析框架。当前世界经济发展和全球金融体系面临诸多挑战。坚持投资于物和投资于人紧密结合。",
+      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行副行长宣昌能出席全球主权债务圆桌会等会议并会见相关机构负责人。中国人民银行副行长宣昌能出席了全球主权债务圆桌会、国际货币与金融委员会（IMFC）经济形势介绍会、国际金融协会托管委员会年会等会议。共同行动、公平负担。各方应继续推动完善全球主权债务治理体系。改进基金组织和世界银行的低收入国家债务可持续性分析框架。当前世界经济发展和全球金融体系面临诸多挑战。坚持投资于物和投资于人紧密结合。 中国人民银行副行长宣昌能出席全球主权债务圆桌会等会议并会见相关机构负责人。中国人民银行副行长宣昌能出席了全球主权债务圆桌会、国际货币与金融委员会（IMFC）经济形势介绍会、国际金融协会托管委员会年会等会议。共同行动、公平负担。各方应继续推动完善全球主权债务治理体系。改进基金组织和世界银行的低收入国家债务可持续性分析框架。当前世界经济发展和全球金融体系面临诸多挑战。坚持投资于物和投资于人紧密结合。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "translatedSourceTitle": "中国人民银行副行长宣昌能出席全球主权债务圆桌会等会议并会见相关机构负责...",
@@ -3985,39 +3985,49 @@
       "translatedSourceMaterial": ""
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（1103ms）：HTTP Error 429: Too Many Requests"
+    }
+  ],
   "collection": {
-    "id": "2026-10-18T04:40:21.262711+00:00",
-    "startedAt": "2026-10-18T04:40:04.923142+00:00",
-    "finishedAt": "2026-10-18T04:40:21.262711+00:00",
-    "status": "success",
+    "id": "2026-10-18T11:15:31.382261+00:00",
+    "startedAt": "2026-10-18T11:15:11.499526+00:00",
+    "finishedAt": "2026-10-18T11:15:31.382261+00:00",
+    "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 36,
-    "sourcesFailed": 0,
-    "fetched": 347,
-    "added": 273,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 337,
+    "added": 262,
     "duplicates": 48,
     "invalid": 1,
-    "staleSkipped": 25,
+    "staleSkipped": 26,
     "maxSourceAgeDays": 45,
-    "errors": [],
+    "errors": [
+      {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（1103ms）：HTTP Error 429: Too Many Requests"
+      }
+    ],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1706,
+        "durationMs": 1802,
         "fetched": 10,
-        "added": 3,
-        "duplicates": 7
+        "added": 2,
+        "duplicates": 8
       },
       {
         "sourceId": "china-most-news",
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1436,
+        "durationMs": 1560,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4027,7 +4037,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2403,
+        "durationMs": 2206,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4037,7 +4047,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 459,
+        "durationMs": 823,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4047,7 +4057,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1612,
+        "durationMs": 1752,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4057,7 +4067,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1417,
+        "durationMs": 1623,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4067,7 +4077,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1645,
+        "durationMs": 1624,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4077,7 +4087,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2761,
+        "durationMs": 1807,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4087,7 +4097,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3447,
+        "durationMs": 801,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4097,7 +4107,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3695,
+        "durationMs": 3177,
         "fetched": 1,
         "added": 1,
         "duplicates": 0
@@ -4107,7 +4117,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1030,
+        "durationMs": 1095,
         "fetched": 6,
         "added": 3,
         "duplicates": 2
@@ -4117,7 +4127,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4684,
+        "durationMs": 8411,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4127,7 +4137,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1384,
+        "durationMs": 1639,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4137,7 +4147,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2406,
+        "durationMs": 1696,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4147,7 +4157,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3700,
+        "durationMs": 3089,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4157,7 +4167,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 23,
+        "durationMs": 172,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4167,7 +4177,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 769,
+        "durationMs": 372,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4177,7 +4187,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 66,
+        "durationMs": 132,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4187,7 +4197,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 885,
+        "durationMs": 857,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4197,7 +4207,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 123,
+        "durationMs": 216,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4207,7 +4217,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 605,
+        "durationMs": 782,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4217,7 +4227,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 681,
+        "durationMs": 1377,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4227,7 +4237,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 144,
+        "durationMs": 188,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4237,7 +4247,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 45,
+        "durationMs": 128,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4247,7 +4257,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1642,
+        "durationMs": 698,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4257,7 +4267,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 125,
+        "durationMs": 164,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4267,7 +4277,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 50,
+        "durationMs": 147,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4277,7 +4287,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 71,
+        "durationMs": 152,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4287,7 +4297,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 584,
+        "durationMs": 641,
         "fetched": 10,
         "added": 1,
         "duplicates": 0
@@ -4297,7 +4307,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 397,
+        "durationMs": 454,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4307,7 +4317,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1219,
+        "durationMs": 593,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4315,21 +4325,22 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 101,
-        "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 1103,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（1103ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 605,
+        "durationMs": 756,
         "fetched": 10,
-        "added": 10,
+        "added": 9,
         "duplicates": 0
       },
       {
@@ -4337,7 +4348,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 340,
+        "durationMs": 431,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4347,7 +4358,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 881,
+        "durationMs": 1171,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4357,7 +4368,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 121,
+        "durationMs": 166,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
