@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T21:41:14.759229+00:00",
+  "generatedAt": "2026-10-21T00:41:11.410774+00:00",
   "stories": [
     {
       "id": 4,
@@ -2689,7 +2689,7 @@
       "collectedAt": "2026-10-20T21:41:14.511663+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Manufacturing Tax Wins Across America” flipbook, which highlights how manufacturers in all 50 states are benefitting from H.R. 1. Learn more about the NAM’s ongoing tax advocacy The post Tax Law Helped Ketchie Inc. Invest in Technology appeared first on NAM . Manufacturing Tax Wins Across America” flipbook, which highlights how manufacturers in all 50 states are benefitting from H.R. 1. Learn more about the NAM’s ongoing tax advocacy",
+      "sourceMaterial": "Manufacturing Tax Wins Across America” flipbook, which highlights how manufacturers in all 50 states are benefitting from H.R. 1. Learn more about the NAM’s ongoing tax advocacy The post Tax Law Helped Ketchie Inc. Invest in Technology appeared first on NAM . Manufacturing Tax Wins Across America” flipbook, which highlights how manufacturers in all 50 states are benefitting from H.R. 1. Learn more about the NAM’s ongoing tax advocacy Manufacturing Tax Wins Across America” flipbook, which highlights how manufacturers in all 50 states are benefitting from H.R. 1. Learn more about the NAM’s ongoing tax advocacy",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "税法帮助Ketchie Inc.投资技术",
       "translatedSourceMaterial": "制造业税在整个美国赢得胜利”的flipbook ，其中强调了所有50个州的制造商如何从人力资源1中受益。了解更多有关美国制造商协会正在进行的税收倡导的信息税法帮助Ketchie Inc.投资技术首次出现在美国制造商协会上。制造业税在整个美国赢得胜利”的flipbook ，其中强调了所有50个州的制造商如何从人力资源1中受益。 进一步了解美国制造商协会正在开展的税务宣传活动",
@@ -3041,7 +3041,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "US semiconductor supply chain relies on vulnerable, hidden inputs: SIA",
       "excerpt": "To guard against disruptions, the Semiconductor Industry Association called for closer government-industry collaboration to address targets for onshoring and stockpiling.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://imgproxy.divecdn.com/VicIHyET5S3GLFpFvZgelaExvrvq-2jAUmhUTWjzF4A/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMjEwNzQyMzQ0X0RlczJEQnYuanBn.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -3072,7 +3072,9 @@
       "freshnessDays": 1,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "To guard against disruptions, the Semiconductor Industry Association called for closer government-industry collaboration to address targets for onshoring and stockpiling.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 110,
@@ -3236,6 +3238,65 @@
       "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
       "contentGenerationMode": "source-grounded-structured-fallback",
       "contentCharacterCount": 849
+    },
+    {
+      "id": 80,
+      "category": "人文",
+      "categoryEvidenceScore": 3,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 3,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 4
+      },
+      "categoryClassificationMargin": 1,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "跟着地博出野外｜密云的演化历史",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/10/21/17/1792485328714.png",
+      "imageFallback": "assets/semiconductor.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "科普中国",
+      "originalTitle": "跟着地博出野外｜密云的演化历史",
+      "originalExcerpt": "",
+      "source": "科普中国",
+      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=748358",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 96,
+      "time": "待审核",
+      "readMinutes": 6,
+      "heat": 78,
+      "date": "2026-10-21",
+      "tags": [
+        "人文"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-kepuchina-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "",
+      "sourcePublishedAt": "",
+      "collectedAt": "2026-10-21T00:41:10.616826+00:00",
+      "freshnessDays": null,
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "sourceMaterial": "",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=748358",
+      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/10/21/17/1792485328714.png",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 72,
+      "videoDuration": "",
+      "videoExternalId": "748358"
     },
     {
       "id": 79,
@@ -3915,93 +3976,41 @@
       "videoExternalId": "",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 78,
-      "category": "农业",
-      "categoryEvidenceScore": 4,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 3,
-        "工业": 0,
-        "能源": 0,
-        "农业": 5,
-        "人文": 0
-      },
-      "categoryClassificationMargin": 2,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "向空气借氮肥，一场跨越百年的农业科研长征",
-      "excerpt": "从发现豆科植物能够生物固氮，到改造固氮微生物，再到尝试让水稻、玉米等主粮作物自主固氮，人类已经为这个目标探索了一百多年。联合固氮、非豆科结瘤、自主固氮，三条技术路线不断向前推进。如果庄稼有一天真能直接从空气中获得氮，农业用肥方式也可能随之改变。",
-      "body": "核心信息 从发现豆科植物能够生物固氮，到改造固氮微生物，再到尝试让水稻、玉米等主粮作物自主固氮，人类已经为这个目标探索了一百多年。联合固氮、非豆科结瘤、自主固氮，三条技术路线不断向前推进。如果庄稼有一天真能直接从空气中获得氮，农业用肥方式也可能随之改变。 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/09/25/08/1790207470684.png",
-      "imageFallback": "assets/solar.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "科普中国",
-      "originalTitle": "向空气借氮肥，一场跨越百年的农业科研长征",
-      "originalExcerpt": "",
-      "source": "科普中国",
-      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=740524",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 6,
-      "heat": 78,
-      "date": "2026-09-25",
-      "tags": [
-        "农业"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-kepuchina-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-09-25T07:55:35.630611+00:00",
-      "freshnessDays": null,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=740524",
-      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/09/25/08/1790207470684.png",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 72,
-      "videoDuration": "",
-      "videoExternalId": "740524",
-      "summarySourceType": "source-page",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "中国数字科技馆",
+      "error": "连续 2 次请求失败（42488ms）：<urlopen error _ssl.c:993: The handshake operation timed out>"
+    }
+  ],
   "collection": {
-    "id": "2026-10-20T21:41:14.759229+00:00",
-    "startedAt": "2026-10-20T21:40:56.629228+00:00",
-    "finishedAt": "2026-10-20T21:41:14.759229+00:00",
-    "status": "success",
+    "id": "2026-10-21T00:41:11.410774+00:00",
+    "startedAt": "2026-10-21T00:39:37.265578+00:00",
+    "finishedAt": "2026-10-21T00:41:11.410774+00:00",
+    "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 36,
-    "sourcesFailed": 0,
-    "fetched": 348,
-    "added": 283,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 343,
+    "added": 280,
     "duplicates": 41,
-    "invalid": 2,
+    "invalid": 0,
     "staleSkipped": 22,
     "maxSourceAgeDays": 45,
-    "errors": [],
+    "errors": [
+      {
+        "source": "中国数字科技馆",
+        "error": "连续 2 次请求失败（42488ms）：<urlopen error _ssl.c:993: The handshake operation timed out>"
+      }
+    ],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1672,
+        "durationMs": 1093,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4011,7 +4020,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1505,
+        "durationMs": 1226,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4021,7 +4030,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2583,
+        "durationMs": 2233,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4031,7 +4040,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 674,
+        "durationMs": 918,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4041,7 +4050,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1062,
+        "durationMs": 1480,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4051,7 +4060,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1257,
+        "durationMs": 1462,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4061,7 +4070,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1058,
+        "durationMs": 1313,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4071,7 +4080,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1079,
+        "durationMs": 1510,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4081,7 +4090,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1014,
+        "durationMs": 692,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4091,27 +4100,28 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3830,
-        "fetched": 2,
-        "added": 2,
+        "durationMs": 3433,
+        "fetched": 3,
+        "added": 3,
         "duplicates": 0
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 1279,
-        "fetched": 6,
-        "added": 3,
-        "duplicates": 1
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 42488,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（42488ms）：<urlopen error _ssl.c:993: The handshake operation timed out>"
       },
       {
         "sourceId": "china-stats-releases",
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4855,
+        "durationMs": 4123,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4121,7 +4131,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1168,
+        "durationMs": 1691,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4131,7 +4141,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2733,
+        "durationMs": 2199,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4141,7 +4151,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1785,
+        "durationMs": 1984,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4151,7 +4161,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 23,
+        "durationMs": 43,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4161,7 +4171,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 267,
+        "durationMs": 352,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4171,17 +4181,17 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 80,
+        "durationMs": 105,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1045,
+        "durationMs": 1014,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4191,7 +4201,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 182,
+        "durationMs": 258,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4201,7 +4211,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 393,
+        "durationMs": 586,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4211,7 +4221,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 666,
+        "durationMs": 661,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4221,7 +4231,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 72,
+        "durationMs": 167,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4231,7 +4241,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 84,
+        "durationMs": 85,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4241,7 +4251,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 499,
+        "durationMs": 616,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4251,7 +4261,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 125,
+        "durationMs": 64,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4261,7 +4271,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 94,
+        "durationMs": 198,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4271,7 +4281,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 125,
+        "durationMs": 68,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4281,7 +4291,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 664,
+        "durationMs": 653,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4291,7 +4301,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 622,
+        "durationMs": 600,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4301,7 +4311,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1054,
+        "durationMs": 1150,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4311,7 +4321,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 342,
+        "durationMs": 286,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4321,7 +4331,7 @@
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 462,
+        "durationMs": 756,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4331,7 +4341,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 364,
+        "durationMs": 260,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4341,7 +4351,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 904,
+        "durationMs": 1265,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4351,7 +4361,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 100,
+        "durationMs": 123,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4363,13 +4373,13 @@
       "科技": 13,
       "工业": 11,
       "能源": 12,
-      "农业": 15,
-      "人文": 11
+      "农业": 14,
+      "人文": 12
     },
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 0,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
