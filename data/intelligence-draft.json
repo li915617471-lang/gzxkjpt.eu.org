@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T21:41:40.210644+00:00",
+  "generatedAt": "2026-10-23T00:42:37.966519+00:00",
   "stories": [
     {
       "id": 1,
@@ -235,10 +235,10 @@
       "title": "农业前沿观察：农业农村部召开国家乡村振兴重点帮扶县工作推进会",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 本网讯10月22日，农业农村部在甘肃省平凉市庄浪县召开国家乡村振兴重点帮扶县工作推进会。国家卫生健康委等7部委有关司局负责同志，西部10省（区、市）农业农...农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验…",
       "body": "核心进展\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。 本网讯10月22日，农业农村部在甘肃省平凉市庄浪县召开国家乡村振兴重点帮扶县工作推进会。国家卫生健康委等7部委有关司局负责同志，西部10省（区、市）农业农...。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。\n\n关键内容\n\n分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：中华人民共和国农业农村部公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "assets/solar.jpg",
+      "image": "https://www.moa.gov.cn/xw/zwdt/202610/assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
+      "imageSourceType": "source-page",
+      "imageAttribution": "中华人民共和国农业农村部",
       "originalTitle": "农业农村部召开国家乡村振兴重点帮扶县工作推进会",
       "originalExcerpt": "",
       "source": "中华人民共和国农业农村部",
@@ -2001,58 +2001,56 @@
       "contentCharacterCount": 1091
     },
     {
-      "id": 9,
+      "id": 13,
       "category": "科技",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 0,
       "categoryScores": {
         "金融": 0,
-        "科技": 7,
+        "科技": 3,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：科技部副部长张光军会见平方公里阵列天文台（SKAO）总干事杰西卡·登浦西",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。",
-      "body": "核心进展 来自公开来源的前沿信息，等待后台进一步编辑摘要。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。 关键内容 理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：中华人民共和国科学技术部公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.most.gov.cn/kjbgz/202609/assets/datacenter.jpg",
+      "title": "科研人员实现分子筛催化低碳烯烃羰基化新反应",
+      "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
+      "body": "核心信息 人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "source-page",
-      "imageAttribution": "中华人民共和国科学技术部",
-      "originalTitle": "科技部副部长张光军会见平方公里阵列天文台（SKAO）总干事杰西卡·登浦西",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "科研人员实现分子筛催化低碳烯烃羰基化新反应",
       "originalExcerpt": "",
-      "source": "中华人民共和国科学技术部",
-      "sourceUrl": "https://www.most.gov.cn/kjbgz/202609/t20260908_197350.html",
+      "source": "中国科学院",
+      "sourceUrl": "https://www.cas.cn/syky/202610/t20261022_5122670.shtml",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
-      "confidence": 96,
+      "confidence": 97,
       "time": "待审核",
-      "readMinutes": 4,
+      "readMinutes": 6,
       "heat": 78,
-      "date": "2026-09-08",
+      "date": "2026-10-22",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "china-most-news",
-      "sourceType": "official",
+      "collectionSourceId": "china-cas-science",
+      "sourceType": "research",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-09-08",
-      "sourcePublishedAt": "2026-09-08T00:00:00+00:00",
-      "collectedAt": "2026-09-14T12:56:15.971402+00:00",
-      "freshnessDays": 6,
-      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "originalPublishedAt": "2026-10-22",
+      "sourcePublishedAt": "2026-10-22T00:00:00+00:00",
+      "collectedAt": "2026-10-22T04:56:47.261758+00:00",
+      "freshnessDays": 0,
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "sourceMaterial": "",
       "sourceMaterialType": "rss",
-      "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
-      "translatedSourceTitle": "科技部副部长张光军会见平方公里阵列天文台（SKAO）总干事杰西卡·登浦西",
-      "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 869
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 82,
@@ -2325,7 +2323,7 @@
       "contentCharacterCount": 1099
     },
     {
-      "id": 13,
+      "id": 17,
       "category": "科技",
       "categoryEvidenceScore": 0,
       "categoryScores": {
@@ -2334,21 +2332,21 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 1
+        "人文": 0
       },
-      "categoryClassificationMargin": 2,
+      "categoryClassificationMargin": 3,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科研人员实现分子筛催化低碳烯烃羰基化新反应",
-      "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
-      "body": "核心信息 人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "有序图案化面板光解水制氢研究取得进展",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "科研人员实现分子筛催化低碳烯烃羰基化新反应",
+      "originalTitle": "有序图案化面板光解水制氢研究取得进展",
       "originalExcerpt": "",
       "source": "中国科学院",
-      "sourceUrl": "https://www.cas.cn/syky/202610/t20261022_5122670.shtml",
+      "sourceUrl": "https://www.cas.cn/syky/202610/t20261021_5122627.shtml",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -2356,7 +2354,7 @@
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-10-22",
+      "date": "2026-10-21",
       "tags": [
         "科技"
       ],
@@ -2365,16 +2363,13 @@
       "sourceType": "research",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-10-22",
-      "sourcePublishedAt": "2026-10-22T00:00:00+00:00",
-      "collectedAt": "2026-10-22T04:56:47.261758+00:00",
-      "freshnessDays": 0,
+      "originalPublishedAt": "2026-10-21",
+      "sourcePublishedAt": "2026-10-21T00:00:00+00:00",
+      "collectedAt": "2026-10-23T00:42:36.819902+00:00",
+      "freshnessDays": 2,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "summarySourceType": "source-page",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "sourceMaterialType": "rss"
     },
     {
       "id": 88,
@@ -2828,7 +2823,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "New Global Coalition Calls for Action as Funding for Critical Food and Nutrition Security Data Systems Declines",
       "excerpt": "With a historic El Niño intensifying and global fertilizer supplies disrupted by conflict in the Middle East, the new Intentional Data Community for Food and Nutrition Security aims to help the world anticipate and prevent food and nutrition crises. The initiative responds to a…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "category-cover",
@@ -2859,7 +2854,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "With a historic El Niño intensifying and global fertilizer supplies disrupted by conflict in the Middle East, the new Intentional Data Community for Food and Nutrition Security aims to help the world anticipate and prevent food and nutrition crises. The initiative responds to a 31% drop in funding for 41 priority data systems, including FEWS NET and the IPC, in 2025",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 272,
@@ -2877,7 +2874,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "This Mysterious Medieval Manuscript Has Stumped Scholars for Well Over a Century. Could Its Pages Have Been Bound Out of Order This Whole Time?",
       "excerpt": "A new study claims that the pages of the Voynich Manuscript, thought to be written by several different scribes in 16th-century Europe, alternate irregularly. It may change the way codebreakers approach the text",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/kgUXBIjVn444Ql2TsFJEh4rNMuw=/420x240/filters:focal(1068x712:1069x713)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/0c/ac/0cacc58a-8c86-4612-a351-0db89b5818c5/screenshot_2026-10-22_at_124158pm.jpeg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2908,7 +2905,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "A new study claims that the pages of the Voynich Manuscript, thought to be written by several different scribes in 16th-century Europe, alternate irregularly. It may change the way codebreakers approach the text",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 216,
@@ -2977,7 +2976,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "The Foundations of Scalable AI",
       "excerpt": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Wang_forweb.png",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3008,7 +3007,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 121,
@@ -3189,7 +3190,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "The Canadian Artist Jean Paul Riopelle Was 'Completely Absorbed by the Act of Painting.' His Abstract Works Finally Have Their Own Home in a Quebec Museum",
       "excerpt": "Home to the world’s largest public collection of his artworks, a new pavilion at Quebec's Musée National des Beaux-Arts showcases the more than 50-year career of Riopelle, who was a key member of the avant-garde Automatistes movement",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/semiconductor.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "category-cover",
@@ -3220,7 +3221,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Home to the world’s largest public collection of his artworks, a new pavilion at Quebec's Musée National des Beaux-Arts showcases the more than 50-year career of Riopelle, who was a key member of the avant-garde Automatistes movement",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 80,
@@ -3965,28 +3968,28 @@
   ],
   "errors": [
     {
-      "source": "科普中国",
-      "error": "订阅未返回可解析条目"
+      "source": "中华人民共和国农业农村部",
+      "error": "连续 2 次请求失败（1862ms）：HTTP Error 403: Forbidden"
     }
   ],
   "collection": {
-    "id": "2026-10-22T21:41:40.210644+00:00",
-    "startedAt": "2026-10-22T21:41:18.769507+00:00",
-    "finishedAt": "2026-10-22T21:41:40.210644+00:00",
+    "id": "2026-10-23T00:42:37.966519+00:00",
+    "startedAt": "2026-10-23T00:42:15.705516+00:00",
+    "finishedAt": "2026-10-23T00:42:37.966519+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 35,
     "sourcesFailed": 1,
-    "fetched": 346,
-    "added": 281,
-    "duplicates": 41,
+    "fetched": 337,
+    "added": 275,
+    "duplicates": 37,
     "invalid": 2,
-    "staleSkipped": 22,
+    "staleSkipped": 23,
     "maxSourceAgeDays": 45,
     "errors": [
       {
-        "source": "科普中国",
-        "error": "订阅未返回可解析条目"
+        "source": "中华人民共和国农业农村部",
+        "error": "连续 2 次请求失败（1862ms）：HTTP Error 403: Forbidden"
       }
     ],
     "sourceResults": [
@@ -3995,7 +3998,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1488,
+        "durationMs": 1762,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4005,7 +4008,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1402,
+        "durationMs": 1544,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4015,7 +4018,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2474,
+        "durationMs": 2139,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4025,7 +4028,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 552,
+        "durationMs": 344,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4035,7 +4038,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1211,
+        "durationMs": 948,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4045,7 +4048,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1044,
+        "durationMs": 894,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4055,7 +4058,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1219,
+        "durationMs": 886,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4065,7 +4068,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1243,
+        "durationMs": 919,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4075,7 +4078,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 659,
+        "durationMs": 648,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4083,20 +4086,19 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "failed",
+        "status": "success",
         "attempts": 1,
-        "durationMs": 3317,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "订阅未返回可解析条目"
+        "durationMs": 3671,
+        "fetched": 1,
+        "added": 1,
+        "duplicates": 0
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1155,
+        "durationMs": 1107,
         "fetched": 6,
         "added": 3,
         "duplicates": 1
@@ -4106,7 +4108,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4899,
+        "durationMs": 5306,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4116,7 +4118,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1027,
+        "durationMs": 1045,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4124,19 +4126,20 @@
       {
         "sourceId": "china-moa-news",
         "source": "中华人民共和国农业农村部",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 1726,
-        "fetched": 10,
-        "added": 3,
-        "duplicates": 7
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 1862,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（1862ms）：HTTP Error 403: Forbidden"
       },
       {
         "sourceId": "china-mct-culture-news",
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1638,
+        "durationMs": 3175,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4146,17 +4149,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 96,
+        "durationMs": 53,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 246,
+        "durationMs": 445,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4166,17 +4169,17 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 204,
+        "durationMs": 83,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1003,
+        "durationMs": 935,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4186,7 +4189,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 645,
+        "durationMs": 87,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4196,17 +4199,17 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 466,
+        "durationMs": 296,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 705,
+        "durationMs": 425,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4216,7 +4219,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 189,
+        "durationMs": 72,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4226,7 +4229,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 69,
+        "durationMs": 64,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4236,9 +4239,9 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 680,
+        "durationMs": 410,
         "fetched": 10,
-        "added": 8,
+        "added": 7,
         "duplicates": 0
       },
       {
@@ -4246,7 +4249,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 128,
+        "durationMs": 84,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4256,7 +4259,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 130,
+        "durationMs": 68,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4266,7 +4269,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 144,
+        "durationMs": 53,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4276,7 +4279,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 646,
+        "durationMs": 1469,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4286,17 +4289,17 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 197,
+        "durationMs": 354,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1528,
+        "durationMs": 37,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4306,17 +4309,17 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 165,
+        "durationMs": 39,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 575,
+        "durationMs": 312,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4326,17 +4329,17 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 228,
+        "durationMs": 220,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "ipcc",
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 907,
+        "durationMs": 1123,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4346,10 +4349,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 197,
+        "durationMs": 137,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       }
     ],
     "queueCount": 72,
@@ -4364,7 +4367,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 0,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
