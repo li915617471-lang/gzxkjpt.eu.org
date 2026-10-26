@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T20:55:34.104216+00:00",
+  "generatedAt": "2026-10-26T00:26:11.690879+00:00",
   "stories": [
     {
       "id": 1,
@@ -2649,28 +2649,28 @@
     {
       "id": 130,
       "category": "科技",
-      "categoryEvidenceScore": 8,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
-        "科技": 12,
-        "工业": 0,
-        "能源": 1,
+        "科技": 5,
+        "工业": 1,
+        "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 11,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：采用减速DSP的硅光子调制器达到200 Gb/s PAM4 （ Science Tokyo、Yokohama、AIST、PETRA ）",
-      "excerpt": "东京科学研究所、横滨国立大学、AIST和光电子技术研究协会（ PETRA ）的研究人员发表了一篇名为“由内置EO均衡器实现的减速DSP 200G/λ低压慢光硅调制器”的技术论文。摘要摘要： “人工智能数据中心的多Tb/s光互连需要高速、节能和 pACT收发器。然而，传统的硅Mach-Zehnder调制器是... »阅读更多POST硅光子调制器达到200…",
-      "body": "核心进展\n\n东京科学研究所、横滨国立大学、AIST和光电子技术研究协会（ PETRA ）的研究人员发表了一篇名为“由内置EO均衡器实现的减速DSP 200G/λ低压慢光硅调制器”的技术论文。摘要摘要： “人工智能数据中心的多Tb/s光互连需要高速、节能和 pACT收发器。然而，传统的硅Mach-Zehnder调制器是... »阅读更多POST硅光子调制器达到200 Gb/s PAM4具有降低的DSP （科学东京，横滨， AIST ，佩特拉）首次出现在半导体工程。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "assets/datacenter.jpg",
+      "title": "科技前沿观察：PT-W合金显示出更薄的高NA EUV面罩吸收剂的潜力（中国科学院等）",
+      "excerpt": "中国科学院、吉林大学、光学系统先进制造国家重点实验室和中国科学院大学的研究人员发表了题为《评价替代Pt-W合金作为低氮EUV掩模吸收剂：薄膜性能和成像性能》的技术论文。“在这项研究中，我们研究了一种替代的Pt-W合金，作为…… »阅读更多帖子Pt-W合金显示出更薄的高NA EUV掩模吸收剂的潜力（中国科学院等）首先出现在半导体工程上…",
+      "body": "核心进展\n\n中国科学院、吉林大学、光学系统先进制造国家重点实验室和中国科学院大学的研究人员发表了题为《评价替代Pt-W合金作为低氮EUV掩模吸收剂：薄膜性能和成像性能》的技术论文。“在这项研究中，我们研究了一种替代的Pt-W合金，作为…… »阅读更多帖子Pt-W合金显示出更薄的高NA EUV掩模吸收剂的潜力（中国科学院等）首先出现在半导体工程上。中国科学院、吉林大学、光学系统先进制造国家重点实验室和中国科学院大学的研究人员发表了题为“评估替代Pt-W合金 低n EUV掩模吸收剂：胶片性能和成像性能。“在这项研究中，我们研究了一种替代的Pt-W合金，作为……”阅读更多。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://semiengineering.com/wp-content/uploads/2026/02/AdobeStock_617037593-02-27-2026-scaled.jpeg",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
-      "originalTitle": "Silicon Photonic Modulator Reaches 200 Gb/s PAM4 With Reduced DSP (Science Tokyo, Yokohama, AIST, PETRA)",
-      "originalExcerpt": "Researchers from Institute of Science Tokyo, Yokohama National University, AIST, and Photonics Electronics Technology Research Association (PETRA) published a technical paper titled “Reduced-DSP 200G/λ Low-Voltage Slow-Light Silicon Modulator Enabled by Built-In EO Equalizer.” Abstract Excerpt: “Multi-Tb/s optical interconnects for artificial intelligence data centers necessitate high-speed, energy-efficient, and compact transceivers. However, conventional silicon Mach-Zehnder modulators are... » read more The post Silicon Photonic Modulator Reaches 200 Gb/s PAM4 With Reduced DSP (Science Tokyo, Yokohama, AIST, PETRA) appeared first on Semiconductor Engineering .",
+      "imageSourceType": "source-page",
+      "imageAttribution": "Semiconductor Engineering",
+      "originalTitle": "Pt-W Alloy Shows Potential For Thinner High-NA EUV Mask Absorbers (Chinese Academy of Sciences et al.)",
+      "originalExcerpt": "Researchers at Chinese Academy of Sciences, Jilin University, State Key Laboratory of Advanced Manufacturing for Optical Systems, and University of Chinese Academy of Sciences published a technical paper titled “Evaluating an alternative Pt-W alloy as a low-n EUV mask absorber: Film properties and imaging performance.” “In this study, we investigate an alternative Pt-W alloy as... » read more The post Pt-W Alloy Shows Potential For Thinner High-NA EUV Mask Absorbers (Chinese Academy of Sciences et al.) appeared first on Semiconductor Engineering .",
       "source": "Semiconductor Engineering",
-      "sourceUrl": "https://semiengineering.com/silicon-photonic-modulator-reaches-200-gb-s-pam4-with-reduced-dsp-science-tokyo-yokohama-aist-petra/",
+      "sourceUrl": "https://semiengineering.com/pt-w-alloy-shows-potential-for-thinner-high-na-euv-mask-absorbers-chinese-academy-of-sciences-et-al/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -2687,20 +2687,20 @@
       "sourceType": "industry",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Sun, 25 Oct 2026 20:49:45 +0000",
-      "sourcePublishedAt": "2026-10-25T20:49:45+00:00",
-      "collectedAt": "2026-10-25T20:55:33.608196+00:00",
-      "freshnessDays": 0,
+      "originalPublishedAt": "Sun, 25 Oct 2026 21:17:41 +0000",
+      "sourcePublishedAt": "2026-10-25T21:17:41+00:00",
+      "collectedAt": "2026-10-26T00:26:11.289621+00:00",
+      "freshnessDays": 1,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Researchers from Institute of Science Tokyo, Yokohama National University, AIST, and Photonics Electronics Technology Research Association (PETRA) published a technical paper titled “Reduced-DSP 200G/λ Low-Voltage Slow-Light Silicon Modulator Enabled by Built-In EO Equalizer.” Abstract Excerpt: “Multi-Tb/s optical interconnects for artificial intelligence data centers necessitate high-speed, energy-efficient, and compact transceivers. However, conventional silicon Mach-Zehnder modulators are... » read more The post Silicon Photonic Modulator Reaches 200 Gb/s PAM4 With Reduced DSP (Science Tokyo, Yokohama, AIST, PETRA) appeared first on Semiconductor Engineering .",
+      "sourceMaterial": "Researchers at Chinese Academy of Sciences, Jilin University, State Key Laboratory of Advanced Manufacturing for Optical Systems, and University of Chinese Academy of Sciences published a technical paper titled “Evaluating an alternative Pt-W alloy as a low-n EUV mask absorber: Film properties and imaging performance.” “In this study, we investigate an alternative Pt-W alloy as... » read more The post Pt-W Alloy Shows Potential For Thinner High-NA EUV Mask Absorbers (Chinese Academy of Sciences et al.) appeared first on Semiconductor Engineering . Researchers at Chinese Academy of Sciences, Jilin University, State Key Laboratory of Advanced Manufacturing for Optical Systems, and University of Chinese Academy of Sciences published a technical paper titled “Evaluating an alternative Pt-W alloy as a low-n EUV mask absorber: Film properties and imaging performance.” “In this study, we investigate an alternative Pt-W alloy as... » read more",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "采用减速DSP的硅光子调制器达到200 Gb/s PAM4 （ Science Tokyo、Yokohama、AIST、PETRA ）",
-      "translatedSourceMaterial": "东京科学研究所、横滨国立大学、AIST和光电子技术研究协会（ PETRA ）的研究人员发表了一篇名为“由内置EO均衡器实现的减速DSP 200G/λ低压慢光硅调制器”的技术论文。摘要摘要： “人工智能数据中心的多Tb/s光互连需要高速、节能和 pACT收发器。然而，传统的硅Mach-Zehnder调制器是... »阅读更多POST硅光子调制器达到200 Gb/s PAM4具有降低的DSP （科学东京，横滨， AIST ，佩特拉）首次出现在半导体工程。",
+      "translatedSourceTitle": "PT-W合金显示出更薄的高NA EUV面罩吸收剂的潜力（中国科学院等）",
+      "translatedSourceMaterial": "中国科学院、吉林大学、光学系统先进制造国家重点实验室和中国科学院大学的研究人员发表了题为《评价替代Pt-W合金作为低氮EUV掩模吸收剂：薄膜性能和成像性能》的技术论文。“在这项研究中，我们研究了一种替代的Pt-W合金，作为…… »阅读更多帖子Pt-W合金显示出更薄的高NA EUV掩模吸收剂的潜力（中国科学院等）首先出现在半导体工程上。中国科学院、吉林大学、光学系统先进制造国家重点实验室和中国科学院大学的研究人员发表了题为“评估替代Pt-W合金 低n EUV掩模吸收剂：胶片性能和成像性能。“在这项研究中，我们研究了一种替代的Pt-W合金，作为……”阅读更多",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1031
+      "contentCharacterCount": 1087
     },
     {
       "id": 214,
@@ -2971,28 +2971,28 @@
     {
       "id": 131,
       "category": "科技",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
-        "科技": 6,
-        "工业": 0,
+        "科技": 5,
+        "工业": 1,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 6,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：安全感知层映射降低了3D内存计算中的故障漏洞（马里兰州亚利桑那州立大学）",
-      "excerpt": "亚利桑那州立大学和马里兰大学的研究人员发表了“SEAL ：异构3D CiM加速器的多租户安全感知层映射”。摘要： “异构3-D内存计算架构可以跨堆叠层组合不同的内存技术来加速深度神经网络推理，但多租户部署通过共享功率传输引入了安全风险， tworks。研究人员开发了SEAL ，这是一种安全感知... »阅读更多文章安全感知层映射降低了3D内存计算（马里兰州…",
-      "body": "核心进展\n\n亚利桑那州立大学和马里兰大学的研究人员发表了“SEAL ：异构3D CiM加速器的多租户安全感知层映射”。摘要： “异构3-D内存计算架构可以跨堆叠层组合不同的内存技术来加速深度神经网络推理，但多租户部署通过共享功率传输引入了安全风险， tworks。研究人员开发了SEAL ，这是一种安全感知... »阅读更多文章安全感知层映射降低了3D内存计算（马里兰州， ASU ）中的故障漏洞，首次出现在半导体工程上。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "title": "科技前沿观察：干沉积抗蚀剂在EUV和电子束曝光下表现出不同的色调行为（ KU Leuven、Kunsan、VUB、Imec ）",
+      "excerpt": "KU Leuven ，昆山国立大学， Vrije Universiteit Brussel ， imec等人的研究人员发表了“干沉积卤化无定形沸石咪唑酸盐框架抗电子束和极紫外光刻中的辐照-源-依赖色调转换。摘要摘要：“干法沉积的金属有机抗蚀剂是下一代半导体先进图案化工艺的关键推动因素 制造。在这里，我们报告了卤化非晶沸石咪唑酸盐框架...…",
+      "body": "核心进展\n\nKU Leuven ，昆山国立大学， Vrije Universiteit Brussel ， imec等人的研究人员发表了“干沉积卤化无定形沸石咪唑酸盐框架抗电子束和极紫外光刻中的辐照-源-依赖色调转换。摘要摘要：“干法沉积的金属有机抗蚀剂是下一代半导体先进图案化工艺的关键推动因素 制造。在这里，我们报告了卤化非晶沸石咪唑酸盐框架... »阅读更多POST干沉积抗蚀剂在EUV和电子束曝光下表现出不同的色调行为（ KU Leuven ， Kunsan ， VUB ， Imec ）首先出现在半导体工程上。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：半导体工程资讯公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "Security-Aware Layer Mapping Reduces Fault Vulnerability In 3D Compute-In-Memory (ASU, U. of Maryland)",
-      "originalExcerpt": "Researchers at Arizona State University and University of Maryland published “SEAL: Multitenant Security-Aware Layer Mapping for Heterogeneous 3-D CiM Accelerators.” Abstract: “Heterogeneous 3-D compute-in-memory architectures can combine different memory technologies across stacked tiers to accelerate deep neural network inference, but multitenant deployments introduce security risks through shared power delivery networks. The researchers developed SEAL, a security-aware... » read more The post Security-Aware Layer Mapping Reduces Fault Vulnerability In 3D Compute-In-Memory (ASU, U. of Maryland) appeared first on Semiconductor Engineering .",
+      "originalTitle": "Dry-Deposited Resist Shows Different Tone Behavior Under EUV And E-Beam Exposure (KU Leuven, Kunsan, VUB, Imec)",
+      "originalExcerpt": "Researchers at KU Leuven, Kunsan National University, Vrije Universiteit Brussel, imec, et al. published “Irradiation-Source-Dependent Tone Conversion in Dry-Deposited Halogenated Amorphous Zeolitic Imidazolate Framework Resists for Electron-Beam and Extreme Ultraviolet Lithography.” Abstract Excerpt: “Dry-deposited metal–organic resists are key enablers for advanced patterning processes in next-generation semiconductor manufacturing. Here, we report halogenated amorphous zeolitic imidazolate framework... » read more The post Dry-Deposited Resist Shows Different Tone Behavior Under EUV And E-Beam Exposure (KU Leuven, Kunsan, VUB, Imec) appeared first on Semiconductor Engineering .",
       "source": "Semiconductor Engineering",
-      "sourceUrl": "https://semiengineering.com/security-aware-layer-mapping-reduces-fault-vulnerability-in-3d-compute-in-memory-asu-u-of-maryland/",
+      "sourceUrl": "https://semiengineering.com/dry-deposited-resist-shows-different-tone-behavior-under-euv-and-e-beam-exposure-ku-leuven-kunsan-vub-imec/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -3009,20 +3009,20 @@
       "sourceType": "industry",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Sun, 25 Oct 2026 20:30:42 +0000",
-      "sourcePublishedAt": "2026-10-25T20:30:42+00:00",
-      "collectedAt": "2026-10-25T20:55:33.612918+00:00",
-      "freshnessDays": 0,
+      "originalPublishedAt": "Sun, 25 Oct 2026 21:08:26 +0000",
+      "sourcePublishedAt": "2026-10-25T21:08:26+00:00",
+      "collectedAt": "2026-10-26T00:26:11.293025+00:00",
+      "freshnessDays": 1,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Researchers at Arizona State University and University of Maryland published “SEAL: Multitenant Security-Aware Layer Mapping for Heterogeneous 3-D CiM Accelerators.” Abstract: “Heterogeneous 3-D compute-in-memory architectures can combine different memory technologies across stacked tiers to accelerate deep neural network inference, but multitenant deployments introduce security risks through shared power delivery networks. The researchers developed SEAL, a security-aware... » read more The post Security-Aware Layer Mapping Reduces Fault Vulnerability In 3D Compute-In-Memory (ASU, U. of Maryland) appeared first on Semiconductor Engineering .",
+      "sourceMaterial": "Researchers at KU Leuven, Kunsan National University, Vrije Universiteit Brussel, imec, et al. published “Irradiation-Source-Dependent Tone Conversion in Dry-Deposited Halogenated Amorphous Zeolitic Imidazolate Framework Resists for Electron-Beam and Extreme Ultraviolet Lithography.” Abstract Excerpt: “Dry-deposited metal–organic resists are key enablers for advanced patterning processes in next-generation semiconductor manufacturing. Here, we report halogenated amorphous zeolitic imidazolate framework... » read more The post Dry-Deposited Resist Shows Different Tone Behavior Under EUV And E-Beam Exposure (KU Leuven, Kunsan, VUB, Imec) appeared first on Semiconductor Engineering .",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "安全感知层映射降低了3D内存计算中的故障漏洞（马里兰州亚利桑那州立大学）",
-      "translatedSourceMaterial": "亚利桑那州立大学和马里兰大学的研究人员发表了“SEAL ：异构3D CiM加速器的多租户安全感知层映射”。摘要： “异构3-D内存计算架构可以跨堆叠层组合不同的内存技术来加速深度神经网络推理，但多租户部署通过共享功率传输引入了安全风险， tworks。研究人员开发了SEAL ，这是一种安全感知... »阅读更多文章安全感知层映射降低了3D内存计算（马里兰州， ASU ）中的故障漏洞，首次出现在半导体工程上。",
+      "translatedSourceTitle": "干沉积抗蚀剂在EUV和电子束曝光下表现出不同的色调行为（ KU Leuven、Kunsan、VUB、Imec ）",
+      "translatedSourceMaterial": "KU Leuven ，昆山国立大学， Vrije Universiteit Brussel ， imec等人的研究人员发表了“干沉积卤化无定形沸石咪唑酸盐框架抗电子束和极紫外光刻中的辐照-源-依赖色调转换。摘要摘要：“干法沉积的金属有机抗蚀剂是下一代半导体先进图案化工艺的关键推动因素 制造。在这里，我们报告了卤化非晶沸石咪唑酸盐框架... »阅读更多POST干沉积抗蚀剂在EUV和电子束曝光下表现出不同的色调行为（ KU Leuven ， Kunsan ， VUB ， Imec ）首先出现在半导体工程上。",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1019
+      "contentCharacterCount": 1057
     },
     {
       "id": 215,
@@ -3978,39 +3978,29 @@
       "translatedSourceMaterial": ""
     }
   ],
-  "errors": [
-    {
-      "source": "NASA Breaking News",
-      "error": "连续 2 次请求失败（1398ms）：HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-10-25T20:55:34.104216+00:00",
-    "startedAt": "2026-10-25T20:55:14.172727+00:00",
-    "finishedAt": "2026-10-25T20:55:34.104216+00:00",
-    "status": "partial",
+    "id": "2026-10-26T00:26:11.690879+00:00",
+    "startedAt": "2026-10-26T00:25:50.336792+00:00",
+    "finishedAt": "2026-10-26T00:26:11.690879+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 338,
-    "added": 267,
-    "duplicates": 45,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 347,
+    "added": 274,
+    "duplicates": 47,
     "invalid": 2,
     "staleSkipped": 24,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "NASA Breaking News",
-        "error": "连续 2 次请求失败（1398ms）：HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1556,
+        "durationMs": 1564,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4020,7 +4010,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1130,
+        "durationMs": 1230,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4030,7 +4020,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1941,
+        "durationMs": 2235,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4040,7 +4030,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 752,
+        "durationMs": 817,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4050,7 +4040,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1178,
+        "durationMs": 1131,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4060,7 +4050,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1195,
+        "durationMs": 1219,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4070,7 +4060,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1426,
+        "durationMs": 1200,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4080,7 +4070,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1275,
+        "durationMs": 1176,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4090,7 +4080,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 640,
+        "durationMs": 853,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4100,17 +4090,17 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3254,
-        "fetched": 2,
+        "durationMs": 3457,
+        "fetched": 1,
         "added": 1,
-        "duplicates": 1
+        "duplicates": 0
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 950,
+        "durationMs": 1052,
         "fetched": 6,
         "added": 3,
         "duplicates": 1
@@ -4120,7 +4110,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4074,
+        "durationMs": 4755,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4130,7 +4120,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1787,
+        "durationMs": 1679,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4140,7 +4130,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2328,
+        "durationMs": 2318,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4150,7 +4140,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2138,
+        "durationMs": 2141,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4160,7 +4150,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 226,
+        "durationMs": 56,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4170,7 +4160,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 154,
+        "durationMs": 157,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4180,7 +4170,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 89,
+        "durationMs": 78,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4190,17 +4180,17 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1190,
+        "durationMs": 1006,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "global-ag-tech-initiative",
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 251,
+        "durationMs": 681,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4210,7 +4200,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 596,
+        "durationMs": 604,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4220,7 +4210,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1151,
+        "durationMs": 625,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4230,7 +4220,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 174,
+        "durationMs": 175,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4240,7 +4230,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 148,
+        "durationMs": 75,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4250,7 +4240,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 640,
+        "durationMs": 607,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4260,7 +4250,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 103,
+        "durationMs": 72,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4270,7 +4260,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 59,
+        "durationMs": 232,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4280,7 +4270,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 98,
+        "durationMs": 87,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4290,7 +4280,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 835,
+        "durationMs": 661,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4300,7 +4290,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 612,
+        "durationMs": 235,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4310,7 +4300,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 336,
+        "durationMs": 156,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4318,20 +4308,19 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 1398,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（1398ms）：HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 129,
+        "fetched": 10,
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 544,
+        "durationMs": 513,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4341,7 +4330,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 519,
+        "durationMs": 257,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4351,7 +4340,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1372,
+        "durationMs": 1692,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4361,7 +4350,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 122,
+        "durationMs": 140,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
