@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T13:11:22.853121+00:00",
+  "generatedAt": "2026-10-29T19:42:15.429013+00:00",
   "stories": [
     {
       "id": 2,
@@ -2599,7 +2599,7 @@
       "contentCharacterCount": 900
     },
     {
-      "id": 142,
+      "id": 155,
       "category": "金融",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -2612,23 +2612,23 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "ECB President Lagarde to step down on 7 February 2027",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“欧洲中央银行”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/network.jpg",
+      "title": "金融前沿观察：Christine Lagarde、Boris Vujčić ：货币政策声明",
+      "excerpt": "来自公开来源的前沿信息等待后台进一步编辑摘要。 欧洲中央银行（ ECB ）是采用欧元的欧盟国家的中央银行。我们的主要任务是维持欧元区的价格稳定，从而保持单一货币的购买力。对普通读者而言，重点不是预测涨跌，而是识别谁会受到影响、影响通过什么渠道传递、是否存在新的合规要求，以及公开材料是否给出了可复核的时间表、样本和定义。",
+      "body": "核心进展\n\n来自公开来源的前沿信息等待后台进一步编辑摘要。 欧洲中央银行（ ECB ）是采用欧元的欧盟国家的中央银行。我们的主要任务是维持欧元区的价格稳定，从而保持单一货币的购买力。。这一进展属于金融领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n金融新闻需要同时看政策目标、传导渠道和受影响主体。利率、支付、资本充足率、流动性和风险管理并不是孤立指标，任何单一数字都不能直接等同于市场结果。阅读这类材料时，应先区分监管公告、机构研究和媒体解释，再确认统计口径、时间窗口与适用地区。分析金融进展可以沿着政策工具、机构行为和实体经济三个层次展开：政策改变规则或价格，机构根据成本与风险调整业务，企业和居民再通过融资、支付、储蓄和投资感受到变化。这个框架有助于避免把相关关系误读成因果关系。\n\n关键内容\n\n分析金融进展可以沿着政策工具、机构行为和实体经济三个层次展开：政策改变规则或价格，机构根据成本与风险调整业务，企业和居民再通过融资、支付、储蓄和投资感受到变化。这个框架有助于避免把相关关系误读成因果关系。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n对普通读者而言，重点不是预测涨跌，而是识别谁会受到影响、影响通过什么渠道传递、是否存在新的合规要求，以及公开材料是否给出了可复核的时间表、样本和定义。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：欧洲中央银行公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/shared/img/socialmedia/social-default.jpg?1b07e3d68efd7f29f4771d75b50bd667",
       "imageFallback": "assets/network.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
-      "originalTitle": "ECB President Lagarde to step down on 7 February 2027",
+      "imageSourceType": "source-page",
+      "imageAttribution": "European Central Bank",
+      "originalTitle": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
       "originalExcerpt": "",
       "source": "European Central Bank",
-      "sourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+      "sourceUrl": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 94,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
       "date": "2026-10-29",
       "tags": [
@@ -2639,13 +2639,20 @@
       "sourceType": "official",
       "sourceRegion": "欧洲",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Thu, 29 Oct 2026 11:00:00 +0100",
-      "sourcePublishedAt": "2026-10-29T10:00:00+00:00",
-      "collectedAt": "2026-10-29T13:11:22.518638+00:00",
+      "originalPublishedAt": "Thu, 29 Oct 2026 15:00:00 +0100",
+      "sourcePublishedAt": "2026-10-29T14:00:00+00:00",
+      "collectedAt": "2026-10-29T19:42:15.028266+00:00",
       "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "Christine Lagarde、Boris Vujčić ：货币政策声明",
+      "translatedSourceMaterial": "来自公开来源的前沿信息等待后台进一步编辑摘要。 欧洲中央银行（ ECB ）是采用欧元的欧盟国家的中央银行。我们的主要任务是维持欧元区的价格稳定，从而保持单一货币的购买力。",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 960
     },
     {
       "id": 95,
@@ -2663,7 +2670,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "The Download: AI agent tracking and climate feedback loops",
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2025/04/250404_kathleenhicks_hero.jpg?fit=2128,1196",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -2694,7 +2701,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit advancing best practices in AI governance. AI…",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 259,
@@ -2712,7 +2721,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "The World's Newest Carnivorous Plant Is a Red Sundew That 'Death Hugs' Its Insect Prey. Its Survival Depends on a Rare and Disappearing Florida Habitat",
       "excerpt": "Confined to hidden sinkhole lakes in the Panhandle, the Florida threadleaf sundew is both a discovery and a warning bell for a vanishing ecosystem that’s long been ignored",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/mzj-un4lMmZMYVGo3YZcA0IR8W0=/420x240/filters:focal(585x501:586x502)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/0b/e3/0be39cbe-d2e2-4a44-b1c2-f1c74ae3501d/ezgif-5b77062c295e61b3.jpg",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -2743,21 +2752,23 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Confined to hidden sinkhole lakes in the Panhandle, the Florida threadleaf sundew is both a discovery and a warning bell for a vanishing ecosystem that’s long been ignored",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 150,
       "category": "能源",
-      "categoryEvidenceScore": 8,
+      "categoryEvidenceScore": 9,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
         "工业": 1,
-        "能源": 13,
+        "能源": 14,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 12,
+      "categoryClassificationMargin": 13,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "能源前沿观察：LNG进口在哥伦比亚天然气供应中所占份额不断增加",
       "excerpt": "随着国内产量持续下降，哥伦比亚正在进口更多液化天然气（ LNG ）。今年秋季和冬季可能发生的干旱可能会限制水力发电的可用性，并增加该国对天然气发电的需求。哥伦比亚政府已宣布发生全国性灾难，预计将发生强厄尔尼诺现象导致干旱。 能源信息管理局- EIA -美国政府官方能源统计能源技术能否扩大应用，往往取决于系统成本、峰谷匹配、并网条件、备用能力和当地规则…",
@@ -2791,7 +2802,7 @@
       "collectedAt": "2026-10-29T13:11:22.532283+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Colombia is importing more liquefied natural gas (LNG) as domestic production continues to fall. A potential drought this fall and winter could limit the availability of hydroelectric generation and boost the country's demand for natural gas power generation. Colombia's government has declared a national disaster in anticipation of a drought resulting from an expected strong El Niño. Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government",
+      "sourceMaterial": "Colombia is importing more liquefied natural gas (LNG) as domestic production continues to fall. A potential drought this fall and winter could limit the availability of hydroelectric generation and boost the country's demand for natural gas power generation. Colombia's government has declared a national disaster in anticipation of a drought resulting from an expected strong El Niño. Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "LNG进口在哥伦比亚天然气供应中所占份额不断增加",
       "translatedSourceMaterial": "随着国内产量持续下降，哥伦比亚正在进口更多液化天然气（ LNG ）。今年秋季和冬季可能发生的干旱可能会限制水力发电的可用性，并增加该国对天然气发电的需求。哥伦比亚政府已宣布发生全国性灾难，预计将发生强厄尔尼诺现象导致干旱。 能源信息管理局- EIA -美国政府官方能源统计",
@@ -2817,7 +2828,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "From Wild Potatoes to Resilient Varieties: Crop Trust and International Potato Centre Expand Potato Work in East Africa",
       "excerpt": "The International Potato Center (CIP) is partnering with the Crop Trust to launch a new phase of the BOLD project. It aims to turn useful traits from potato wild relatives into a resilient new variety, while strengthening seed systems to get better potatoes into farmers’ fields.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "category-cover",
@@ -2848,7 +2859,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The International Potato Center (CIP) is partnering with the Crop Trust to launch a new phase of the BOLD project. It aims to turn useful traits from potato wild relatives into a resilient new variety, while strengthening seed systems to get better potatoes into farmers’ fields.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 256,
@@ -2866,7 +2879,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "人文前沿观察：公元前27年，一个邪教在罗马第一位皇帝周围成长。一本新书争辩说，他的追随者可能为基督教创造了模板",
       "excerpt": "奥古斯都被视为众神的后裔，他们将继续重新定义权威。新的研究认为，他的统治为耶稣铺平了道路人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。",
-      "body": "核心进展\n\n奥古斯都被视为众神的后裔，他们将继续重新定义权威。新的研究认为，他的统治为耶稣铺平了道路。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。\n\n关键内容\n\n理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 奥古斯都被视为众神的后裔，他们将继续重新定义权威。新的研究认为，他的统治为耶稣铺平了道路。这一进展属于人文领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 人文研究关注文本、物件、记忆、制度和社会经验，证据往往来自档案、考古、访谈、图像或多种版本的比较。不同研究者可能采用不同解释框架，读者应把来源事实、研究观点和个人评论分开阅读。理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。 关键内容 理解人文材料可以追问对象是什么、由谁保存、在什么语境中产生、后来如何流传，以及哪些群体的声音被记录或遗漏。数字化工具能扩大访问范围，但不能自动解决出处、语境和代表性问题。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 人文成果的公共价值常体现在教育、博物馆、社区记忆、文化遗产保护和跨文化理解。评价一项新发现时，除了新颖性，还要关注版权、隐私、原住民或社区权益以及展示方式。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/zifwrXvYP_JMOh_zXgevbcAPOJc=/420x240/filters:focal(450x300:451x301)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/87/34/8734f777-d19f-4694-8645-752a7552e351/smithmag-augustus-nov2026-v2.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2907,34 +2920,34 @@
       "contentCharacterCount": 865
     },
     {
-      "id": 170,
+      "id": 156,
       "category": "金融",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 3,
       "categoryScores": {
-        "金融": 8,
+        "金融": 7,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 8,
+      "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "CPMI publishes analysis on how central banks support payment system safety and efficiency and trust in money in the rapidly changing payments ecosystem",
-      "excerpt": "A new report by the BIS Committee on Payments and Market Infrastructures (CPMI) examines how technological innovation, changing user demand and the emergence of new types of payment service providers and arrangements are transforming payment systems.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“国际清算银行”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "Monetary policy decisions",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“欧洲中央银行”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/network.jpg",
       "imageFallback": "assets/network.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "CPMI publishes analysis on how central banks support payment system safety and efficiency and trust in money in the rapidly changing payments ecosystem",
-      "originalExcerpt": "A new report by the BIS Committee on Payments and Market Infrastructures (CPMI) examines how technological innovation, changing user demand and the emergence of new types of payment service providers and arrangements are transforming payment systems.",
-      "source": "Bank for International Settlements",
-      "sourceUrl": "https://www.bis.org/media-releases/20261029-cpmi-publishes-analysis-how-central-banks-support-payment-system-safety-and-efficiency-and",
+      "originalTitle": "Monetary policy decisions",
+      "originalExcerpt": "",
+      "source": "European Central Bank",
+      "sourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
       "author": "",
       "language": "en",
       "sourceLanguage": "en",
-      "confidence": 95,
+      "confidence": 94,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
@@ -2943,16 +2956,16 @@
         "金融"
       ],
       "status": "review",
-      "collectionSourceId": "bank-for-international-settlements",
+      "collectionSourceId": "european-central-bank",
       "sourceType": "official",
-      "sourceRegion": "全球",
+      "sourceRegion": "欧洲",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-10-29T00:00:00Z",
-      "sourcePublishedAt": "2026-10-29T00:00:00+00:00",
-      "collectedAt": "2026-10-29T13:11:22.575459+00:00",
+      "originalPublishedAt": "Thu, 29 Oct 2026 14:15:00 +0100",
+      "sourcePublishedAt": "2026-10-29T13:15:00+00:00",
+      "collectedAt": "2026-10-29T19:42:15.030552+00:00",
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "A new report by the BIS Committee on Payments and Market Infrastructures (CPMI) examines how technological innovation, changing user demand and the emergence of new types of payment service providers and arrangements are transforming payment systems.",
+      "sourceMaterial": "",
       "sourceMaterialType": "rss"
     },
     {
@@ -2971,7 +2984,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "We urgently need to monitor AI agents’ actions in real time",
       "excerpt": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
@@ -3002,7 +3015,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem…",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 215,
@@ -3132,7 +3147,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "From innovations to impact: CGIAR Scaling Fund selects eight promising innovations",
       "excerpt": "From restoring forests in Kenya to improving livestock services in Nepal and fish processing on Lake Victoria, the 2026 CGIAR Scaling Fund winners show what agricultural innovation can offer when it reaches the people who need it. Eight innovations across seven CGIAR Centers and…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "category-cover",
@@ -3163,7 +3178,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "From restoring forests in Kenya to improving livestock services in Nepal and fish processing on Lake Victoria, the 2026 CGIAR Scaling Fund winners show what agricultural innovation can offer when it reaches the people who need it. Eight innovations across seven CGIAR Centers and ten countries span crop advice, irrigation, livestock, fisheries, rice processing, fertilizer recommendations, restoration and integrated health services.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 275,
@@ -3959,43 +3976,43 @@
   "errors": [
     {
       "source": "科普中国",
-      "error": "连续 2 次请求失败（3690ms）：HTTP Error 405: Not Allowed"
+      "error": "连续 2 次请求失败（2706ms）：HTTP Error 405: Not Allowed"
     },
     {
-      "source": "中华人民共和国农业农村部",
-      "error": "连续 2 次请求失败（2353ms）：HTTP Error 403: Forbidden"
+      "source": "中国数字科技馆",
+      "error": "连续 2 次请求失败（41692ms）：<urlopen error _ssl.c:993: The handshake operation timed out>"
     },
     {
-      "source": "Open Culture",
-      "error": "连续 2 次请求失败（41135ms）：The read operation timed out"
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（857ms）：HTTP Error 429: Too Many Requests"
     }
   ],
   "collection": {
-    "id": "2026-10-29T13:11:22.853121+00:00",
-    "startedAt": "2026-10-29T13:10:27.925209+00:00",
-    "finishedAt": "2026-10-29T13:11:22.853121+00:00",
+    "id": "2026-10-29T19:42:15.429013+00:00",
+    "startedAt": "2026-10-29T19:41:02.328807+00:00",
+    "finishedAt": "2026-10-29T19:42:15.429013+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 33,
     "sourcesFailed": 3,
-    "fetched": 326,
+    "fetched": 330,
     "added": 265,
-    "duplicates": 37,
-    "invalid": 2,
-    "staleSkipped": 22,
+    "duplicates": 44,
+    "invalid": 0,
+    "staleSkipped": 21,
     "maxSourceAgeDays": 45,
     "errors": [
       {
         "source": "科普中国",
-        "error": "连续 2 次请求失败（3690ms）：HTTP Error 405: Not Allowed"
+        "error": "连续 2 次请求失败（2706ms）：HTTP Error 405: Not Allowed"
       },
       {
-        "source": "中华人民共和国农业农村部",
-        "error": "连续 2 次请求失败（2353ms）：HTTP Error 403: Forbidden"
+        "source": "中国数字科技馆",
+        "error": "连续 2 次请求失败（41692ms）：<urlopen error _ssl.c:993: The handshake operation timed out>"
       },
       {
-        "source": "Open Culture",
-        "error": "连续 2 次请求失败（41135ms）：The read operation timed out"
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（857ms）：HTTP Error 429: Too Many Requests"
       }
     ],
     "sourceResults": [
@@ -4004,7 +4021,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2448,
+        "durationMs": 1616,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4014,7 +4031,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1335,
+        "durationMs": 1582,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4024,7 +4041,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2145,
+        "durationMs": 2504,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4034,7 +4051,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 773,
+        "durationMs": 501,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4044,7 +4061,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1264,
+        "durationMs": 1360,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4054,7 +4071,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1209,
+        "durationMs": 1321,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4064,7 +4081,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1571,
+        "durationMs": 1211,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4074,7 +4091,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1274,
+        "durationMs": 1252,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4084,7 +4101,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3071,
+        "durationMs": 648,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4094,28 +4111,29 @@
         "source": "科普中国",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 3690,
+        "durationMs": 2706,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（3690ms）：HTTP Error 405: Not Allowed"
+        "error": "连续 2 次请求失败（2706ms）：HTTP Error 405: Not Allowed"
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 1296,
-        "fetched": 6,
-        "added": 3,
-        "duplicates": 1
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 41692,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（41692ms）：<urlopen error _ssl.c:993: The handshake operation timed out>"
       },
       {
         "sourceId": "china-stats-releases",
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 5492,
+        "durationMs": 3858,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4125,7 +4143,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1632,
+        "durationMs": 1117,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4133,20 +4151,19 @@
       {
         "sourceId": "china-moa-news",
         "source": "中华人民共和国农业农村部",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 2353,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（2353ms）：HTTP Error 403: Forbidden"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 1937,
+        "fetched": 10,
+        "added": 4,
+        "duplicates": 6
       },
       {
         "sourceId": "china-mct-culture-news",
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2051,
+        "durationMs": 2110,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4156,17 +4173,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 146,
+        "durationMs": 35,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 259,
+        "durationMs": 177,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4176,17 +4193,17 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 155,
+        "durationMs": 129,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 892,
+        "durationMs": 7859,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4196,48 +4213,47 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 264,
+        "durationMs": 104,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "open-culture",
         "source": "Open Culture",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 41135,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（41135ms）：The read operation timed out"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 587,
+        "fetched": 10,
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 446,
+        "durationMs": 254,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "us-energy-information-administration",
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 250,
+        "durationMs": 78,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "us-federal-reserve",
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 120,
+        "durationMs": 149,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4247,17 +4263,17 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 716,
+        "durationMs": 555,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 0
+        "added": 7,
+        "duplicates": 1
       },
       {
         "sourceId": "us-national-science-foundation",
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 218,
+        "durationMs": 293,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4267,7 +4283,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 126,
+        "durationMs": 1230,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4277,7 +4293,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 156,
+        "durationMs": 43,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4287,7 +4303,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 728,
+        "durationMs": 481,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4297,7 +4313,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 751,
+        "durationMs": 1618,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4307,7 +4323,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1394,
+        "durationMs": 1250,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4315,19 +4331,20 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 438,
-        "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 857,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（857ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 548,
+        "durationMs": 374,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4337,19 +4354,19 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 345,
+        "durationMs": 2151,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "ipcc",
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1195,
+        "durationMs": 3056,
         "fetched": 10,
-        "added": 9,
+        "added": 10,
         "duplicates": 0
       },
       {
@@ -4357,10 +4374,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 172,
+        "durationMs": 1052,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 8,
+        "duplicates": 2
       }
     ],
     "queueCount": 72,
@@ -4375,7 +4392,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
