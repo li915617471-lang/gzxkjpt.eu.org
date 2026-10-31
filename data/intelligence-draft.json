@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T12:41:50.711181+00:00",
+  "generatedAt": "2026-10-31T18:37:01.535070+00:00",
   "stories": [
     {
       "id": 2,
@@ -2657,34 +2657,34 @@
       "contentCharacterCount": 938
     },
     {
-      "id": 222,
+      "id": 112,
       "category": "科技",
       "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
         "科技": 5,
-        "工业": 0,
-        "能源": 0,
+        "工业": 2,
+        "能源": 4,
         "农业": 0,
-        "人文": 1
+        "人文": 3
       },
-      "categoryClassificationMargin": 4,
+      "categoryClassificationMargin": 1,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：APOD ： 2026年10月31日–幽灵星球之夜",
-      "excerpt": "APOD Science APOD APOD ： 2026年10月31日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。晚上在[…]技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来…",
-      "body": "核心进展\n\nAPOD Science APOD APOD ： 2026年10月31日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。晚上在[…]。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/Hverir_Vetter_1300.jpg?w=1300&h=867&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "科技前沿观察：当电动汽车是为女性设计的",
+      "excerpt": "在上个世纪初，汽车工业仍然是新兴的，发展迅速。1898年，美国大约有50家汽车制造商。十年后，这个数字增加了五倍。1901年，两家公司生产了7000辆汽车。到1910年，产量已达到18.1万辆。 几十年来，电动汽车与蒸汽和内燃机驱动的汽车竞争，没有人确定哪种技术会名列前茅。蒸汽背后是机车技术的遗产，但却有着火灾的风险。蒸汽动力车辆也可能变得非常热…",
+      "body": "核心进展\n\n在上个世纪初，汽车工业仍然是新兴的，发展迅速。1898年，美国大约有50家汽车制造商。十年后，这个数字增加了五倍。1901年，两家公司生产了7000辆汽车。到1910年，产量已达到18.1万辆。 几十年来，电动汽车与蒸汽和内燃机驱动的汽车竞争，没有人确定哪种技术会名列前茅。蒸汽背后是机车技术的遗产，但却有着火灾的风险。蒸汽动力车辆也可能变得非常热，这取决于锅炉和蒸汽管道的位置。 汽油车和电动车都面临物流挑战：如果不加油或充电，你能走多远？您可以随时在车后扔一罐额外的汽油，但为电池充电需要更多的计划。长途旅行的基础设施尚未到位。在1911年发明电动起动机之前，汽油动力发动机必须用手动曲柄起动； 一旦运行，它们就会大声喧哗并排放出有害烟雾。相比之下，全电动汽车很容易启动；您只需打开主电池开关，通常使用钥匙，并且没有污垢排气需要处理。寻求差异化产品的电动汽车制造商认为，这些特性使他们的汽车非常适合女性。 （电动汽车也被推销给医生，这样他们就可以制造……。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：电气电子工程师学会科技观察公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://spectrum.ieee.org/media-library/black-and-white-photo-of-a-woman-standing-in-an-early-20th-century-car-next-to-an-upright-electrical-apparatus.jpg?id=68537019&width=980",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "NASA Breaking News",
-      "originalTitle": "APOD: 2026 October 31 – Night on a Spooky Planet",
-      "originalExcerpt": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a […]",
-      "source": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
+      "imageAttribution": "IEEE Spectrum",
+      "originalTitle": "When Electric Cars Were for Women",
+      "originalExcerpt": "At the turn of the last century, the automobile industry was still new and evolving rapidly. In 1898, there were about 50 carmakers in the United States. A decade later, that number had increased fivefold. In 1901, the companies produced 7,000 vehicles. By 1910, production had reached 181,000. For several decades, electric cars vied with those powered by steam and internal combustion, and nobody was sure which technology would come out on top. Steam had the legacy of locomotive technology behind it but came with a risk of fire. Steam-powered vehicles could also become exceedingly hot, depending on the placement of the boiler and the steam piping. Both gasoline and electric cars faced logistical challenges: How far could you travel without refueling or charging? You could always throw an extra can of gasoline in the back of the car, but charging a battery involved more planning. The infrastructure for long-distance travel was not yet in place. Before the invention of the electric starter in 1911, gasoline-powered engines had to be started with a hand crank; once running, they were loud and emitted noxious fumes. Fully electric vehicles, by contrast, were easy to start; you just turned on the main battery switch, often with a key, and there was no foul exhaust to deal with. Electric carmakers looking for a way to differentiate their products decided that these attributes made their vehicles perfect for women. (Electric cars were also marketed to doctors so that they could make house calls in the middle of the night without waking the neighbors.) General Electric, which made car chargers based on mercury-arc rectifiers , was so captivated by the idea of women driving electric cars that the company created a series of advertisements featuring stylishly dressed women plugging in their cars and posing with their charging stations. In ads for its electric car chargers, General Electric featured women using the equipment. miSci—Museum of Innovation and Science A young woman…",
+      "source": "IEEE Spectrum",
+      "sourceUrl": "https://spectrum.ieee.org/early-electric-vehicles",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 95,
+      "confidence": 90,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -2693,24 +2693,24 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "nasa-breaking-news",
-      "sourceType": "official",
+      "collectionSourceId": "ieee-spectrum",
+      "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Sat, 31 Oct 2026 04:05:00 +0000",
-      "sourcePublishedAt": "2026-10-31T04:05:00+00:00",
-      "collectedAt": "2026-10-31T05:52:00.034123+00:00",
+      "originalPublishedAt": "Sat, 31 Oct 2026 13:00:02 +0000",
+      "sourcePublishedAt": "2026-10-31T13:00:02+00:00",
+      "collectedAt": "2026-10-31T18:37:00.641702+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a […]",
+      "sourceMaterial": "At the turn of the last century, the automobile industry was still new and evolving rapidly. In 1898, there were about 50 carmakers in the United States. A decade later, that number had increased fivefold. In 1901, the companies produced 7,000 vehicles. By 1910, production had reached 181,000. For several decades, electric cars vied with those powered by steam and internal combustion, and nobody was sure which technology would come out on top. Steam had the legacy of locomotive technology behind it but came with a risk of fire. Steam-powered vehicles could also become exceedingly hot, depending on the placement of the boiler and the steam piping. Both gasoline and electric cars faced logistical challenges: How far could you travel without refueling or charging? You could always throw an extra can of gasoline in the back of the car, but charging a battery involved more planning. The infrastructure for long-distance travel was not yet in place. Before the invention of the electric starter in 1911, gasoline-powered engines had to be started with a hand crank; once running, they were loud and emitted noxious fumes. Fully electric vehicles, by contrast, were easy to start; you just turned on the main battery switch, often with a key, and there was no foul exhaust to deal with. Electric carmakers looking for a way to differentiate their products decided that these attributes made their vehicles perfect for women. (Electric cars were also marketed to doctors so that they could make house calls in the middle of the night without waking the neighbors.) General Electric, which made car chargers based on mercury-arc rectifiers , was so captivated by the idea of women driving electric cars that the company created a series of advertisements featuring stylishly dressed women plugging in their cars and posing with their charging stations. In ads for its electric car chargers, General Electric featured women using the equipment. miSci—Museum of Innovation and Science A young woman named Fannie Goodnow was an early EV adopter. She owned a 1908 Bailey Victoria Phaeton, an open two-seater that really did look like a horseless carriage, and she used a GE mercury-arc rectifier to charge it. Who Invented the Mercury-Arc Rectifier? Electrical engineer Peter Cooper Hewitt invented the mercury vapor lamp, which became the basis for the mercury-arc rectifier used in car-charging systems. Bettmann/Getty Images Electrical engineer Peter Cooper Hewitt is generally credited with the invention of the mercury-arc rectifier. During the first decade of the 20th century, Hewitt received several U.S. patents for electric lamps and other apparatus for transmitting and using electric currents. U.S. patents 968,896 and 1,163,706 , granted to Percy H. Thomas , advanced Hewitt’s designs. Thomas was chief electrician for the Cooper Hewitt Electric Co., which Hewitt had cofounded with George Westinghouse to manufacture and sell his lamps. The mercury-arc rectifier functioned as a diode. In a car charger like the one Fannie Goodnow used, it converted alternating current from the power grid into direct current needed to charge the car’s battery. A small amount of liquid mercury contained in a glass tube would vaporize and glow as electricity passed through it. Coupled with the carbon anodes, the vapor allowed current to flow in only one direction. This unit took about 12 hours to charge a drained battery. A Carriage Maker Pivots to Electric Cars I couldn’t find any records as to why Fannie Goodnow opted for an electric car. But as a well-to-do woman living in the Boston area, she had more than a half dozen automobile producers to choose from. The one she chose was S.R. Bailey & Co. of Amesbury, Mass. This early electric car charger used a mercury-arc rectifier to convert AC to DC. Heritage Museums & Gardens According to Galen Handy, who maintains the Early Electric Vehicles website, Samuel Robinson Bailey started in the carriage and sleigh business as a teenager, winning a best-in-show prize at a carriage exhibition in Portland, Maine, in 1855. Bailey developed a reputation as an inventor and designed processes to streamline the manufacture of his vehicles. He went into business for himself in 1882. Just over a decade later, one of Bailey’s carriages won a gold medal at the 1893 World’s Columbian Exposition in Chicago. Bailey’s son Edwin attended the exposition, where he likely would have seen a vision of the future: the Morrison electric wagon. This six-passenger, battery-powered vehicle ferried visitors and VIPs around the fairgrounds. It wasn’t long before automobiles began eating into the carriage business. In December 1906, with the carriage industry collapsing, S.R. Bailey & Co. announced it was getting into electric vehicles. Thomas Edison Designed a Bad Battery Bailey’s first model, the Victoria Phaeton, used an Edison alkaline battery . Thomas Edison had been working on a lighter, more reliable, and more powerful battery for the auto industry since the 1890s, and announced the achievement with great fanfare in 1903. Unfortunately for Bailey and other carmakers who deployed it, the battery leaked and wouldn’t hold a charge. Edison was forced to go back to the drawing board. By 1910, he had a better battery in production, but by then his friend Henry Ford had introduced the Model T, setting the stage for the internal combustion engine to take over the market. While Edison toiled to improve his tech, Bailey pivoted to a battery from the Gould Storage Battery Co. of Depew, N.Y. Gould also supplied batteries for railroads, utilities, subways, elevators, and farms. Goodnow’s Victoria Phaeton used a 30-cell lead-acid battery housed in a wooden box that was suspended under the chassis. The standard battery had a range of 64 to 80 kilometers; a larger battery with 50 percent more capacity was available for an upcharge. With the standard battery, the Victoria Phaeton cost US $2,000 (about $73,000 today, or about the list price of…",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "APOD ： 2026年10月31日–幽灵星球之夜",
-      "translatedSourceMaterial": "APOD Science APOD APOD ： 2026年10月31日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。晚上在[…]",
+      "translatedSourceTitle": "当电动汽车是为女性设计的",
+      "translatedSourceMaterial": "在上个世纪初，汽车工业仍然是新兴的，发展迅速。1898年，美国大约有50家汽车制造商。十年后，这个数字增加了五倍。1901年，两家公司生产了7000辆汽车。到1910年，产量已达到18.1万辆。 几十年来，电动汽车与蒸汽和内燃机驱动的汽车竞争，没有人确定哪种技术会名列前茅。蒸汽背后是机车技术的遗产，但却有着火灾的风险。蒸汽动力车辆也可能变得非常热，这取决于锅炉和蒸汽管道的位置。 汽油车和电动车都面临物流挑战：如果不加油或充电，你能走多远？您可以随时在车后扔一罐额外的汽油，但为电池充电需要更多的计划。长途旅行的基础设施尚未到位。在1911年发明电动起动机之前，汽油动力发动机必须用手动曲柄起动； 一旦运行，它们就会大声喧哗并排放出有害烟雾。相比之下，全电动汽车很容易启动；您只需打开主电池开关，通常使用钥匙，并且没有污垢排气需要处理。寻求差异化产品的电动汽车制造商认为，这些特性使他们的汽车非常适合女性。 （电动汽车也被推销给医生，这样他们就可以制造……",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 954
+      "contentCharacterCount": 1233
     },
     {
       "id": 116,
@@ -2779,7 +2779,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "能源前沿观察：国会联盟：直接向能源部提供能源之星资金",
       "excerpt": "后国会联盟：向能源部直接提供能源之星资金首次出现在美国制造商协会上。能源技术能否扩大应用，往往取决于系统成本、峰谷匹配、并网条件、备用能力和当地规则。关注这些约束，可以避免把一次性项目成功误认为所有地区都能复制。",
-      "body": "核心进展\n\n后国会联盟：向能源部直接提供能源之星资金首次出现在美国制造商协会上。。这一进展属于能源领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n能源信息同时受到资源禀赋、基础设施、政策、气候、价格和国际贸易影响。装机容量、发电量、储能时长、利用率和碳排放是不同概念，不能直接互换。报道中的同比、环比和预测值也必须确认各自的基期。理解能源项目可以拆成资源端、转换端、网络端和消费端：资源决定可获得性，设备决定转换效率，电网或管网决定可调度性，终端需求决定商业价值。储能、氢能和可再生能源还要考虑材料、寿命、回收和安全。\n\n关键内容\n\n理解能源项目可以拆成资源端、转换端、网络端和消费端：资源决定可获得性，设备决定转换效率，电网或管网决定可调度性，终端需求决定商业价值。储能、氢能和可再生能源还要考虑材料、寿命、回收和安全。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n能源技术能否扩大应用，往往取决于系统成本、峰谷匹配、并网条件、备用能力和当地规则。关注这些约束，可以避免把一次性项目成功误认为所有地区都能复制。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 后国会联盟：向能源部直接提供能源之星资金首次出现在美国制造商协会上。。这一进展属于能源领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 能源信息同时受到资源禀赋、基础设施、政策、气候、价格和国际贸易影响。装机容量、发电量、储能时长、利用率和碳排放是不同概念，不能直接互换。报道中的同比、环比和预测值也必须确认各自的基期。理解能源项目可以拆成资源端、转换端、网络端和消费端：资源决定可获得性，设备决定转换效率，电网或管网决定可调度性，终端需求决定商业价值。储能、氢能和可再生能源还要考虑材料、寿命、回收和安全。 关键内容 理解能源项目可以拆成资源端、转换端、网络端和消费端：资源决定可获得性，设备决定转换效率，电网或管网决定可调度性，终端需求决定商业价值。储能、氢能和可再生能源还要考虑材料、寿命、回收和安全。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 能源技术能否扩大应用，往往取决于系统成本、峰谷匹配、并网条件、备用能力和当地规则。关注这些约束，可以避免把一次性项目成功误认为所有地区都能复制。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://nam.org/wp-content/uploads/2026/10/quickbuild-2-15.jpg",
       "imageFallback": "assets/energy.jpg",
       "imageSourceType": "rss",
@@ -2979,55 +2979,60 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 118,
+      "id": 222,
       "category": "科技",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
         "科技": 5,
-        "工业": 4,
+        "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 1,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "North American robot orders grew nearly 25% in Q3",
-      "excerpt": "The Association for Advancing Automation said this was the strongest quarter of 2026, driven by “substantial increases” in orders from the semiconductor, biopharmaceutical and automotive industries.",
-      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://imgproxy.divecdn.com/dOYO8ZgagKkgY7L6Y_EVtRH2TrzwuIRvUk6ng5q_VK4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9BZGRsLUltYWdlX1RNTUtfSW52ZXN0bWVudC1SZWxlYXNlLTMuMjMuMjZfUkVTSVpFRC5qcGc=.webp",
+      "title": "科技前沿观察：APOD ： 2026年10月31日–幽灵星球之夜",
+      "excerpt": "APOD Science APOD APOD ： 2026年10月31日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。晚上在[…]技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来…",
+      "body": "核心进展\n\nAPOD Science APOD APOD ： 2026年10月31日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。晚上在[…]。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/Hverir_Vetter_1300.jpg?w=1300&h=867&fit=clip&crop=faces%2Cfocalpoint",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "Manufacturing Dive",
-      "originalTitle": "North American robot orders grew nearly 25% in Q3",
-      "originalExcerpt": "The Association for Advancing Automation said this was the strongest quarter of 2026, driven by “substantial increases” in orders from the semiconductor, biopharmaceutical and automotive industries.",
-      "source": "Manufacturing Dive",
-      "sourceUrl": "https://www.manufacturingdive.com/news/north-american-robot-orders-grew-nearly-25-percent-q3-2026-a3/873300/",
+      "imageAttribution": "NASA Breaking News",
+      "originalTitle": "APOD: 2026 October 31 – Night on a Spooky Planet",
+      "originalExcerpt": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a […]",
+      "source": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 82,
+      "confidence": 95,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "manufacturing-dive",
-      "sourceType": "professional",
-      "sourceRegion": "北美",
-      "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 30 Oct 2026 12:30:00 -0400",
-      "sourcePublishedAt": "2026-10-30T16:30:00+00:00",
-      "collectedAt": "2026-10-30T19:26:59.517431+00:00",
+      "collectionSourceId": "nasa-breaking-news",
+      "sourceType": "official",
+      "sourceRegion": "全球",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "Sat, 31 Oct 2026 04:05:00 +0000",
+      "sourcePublishedAt": "2026-10-31T04:05:00+00:00",
+      "collectedAt": "2026-10-31T05:52:00.034123+00:00",
       "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "The Association for Advancing Automation said this was the strongest quarter of 2026, driven by “substantial increases” in orders from the semiconductor, biopharmaceutical and automotive industries.",
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a […]",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "translatedSourceTitle": "APOD ： 2026年10月31日–幽灵星球之夜",
+      "translatedSourceMaterial": "APOD Science APOD APOD ： 2026年10月31日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片发现宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。晚上在[…]",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 954
     },
     {
       "id": 117,
@@ -3984,39 +3989,29 @@
       "translatedSourceMaterial": ""
     }
   ],
-  "errors": [
-    {
-      "source": "中华人民共和国农业农村部",
-      "error": "连续 2 次请求失败（2267ms）：HTTP Error 403: Forbidden"
-    }
-  ],
+  "errors": [],
   "collection": {
-    "id": "2026-10-31T12:41:50.711181+00:00",
-    "startedAt": "2026-10-31T12:41:27.968778+00:00",
-    "finishedAt": "2026-10-31T12:41:50.711181+00:00",
-    "status": "partial",
+    "id": "2026-10-31T18:37:01.535070+00:00",
+    "startedAt": "2026-10-31T18:36:40.334091+00:00",
+    "finishedAt": "2026-10-31T18:37:01.535070+00:00",
+    "status": "success",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 338,
-    "added": 272,
-    "duplicates": 40,
+    "sourcesSucceeded": 36,
+    "sourcesFailed": 0,
+    "fetched": 348,
+    "added": 276,
+    "duplicates": 46,
     "invalid": 2,
     "staleSkipped": 24,
     "maxSourceAgeDays": 45,
-    "errors": [
-      {
-        "source": "中华人民共和国农业农村部",
-        "error": "连续 2 次请求失败（2267ms）：HTTP Error 403: Forbidden"
-      }
-    ],
+    "errors": [],
     "sourceResults": [
       {
         "sourceId": "china-pbc-news",
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1965,
+        "durationMs": 1859,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4026,17 +4021,17 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1157,
+        "durationMs": 1279,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-cas-science",
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2049,
+        "durationMs": 2662,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4046,7 +4041,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 540,
+        "durationMs": 735,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4056,7 +4051,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 6633,
+        "durationMs": 1175,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4066,7 +4061,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 6809,
+        "durationMs": 1331,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4076,7 +4071,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 7002,
+        "durationMs": 1307,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4086,7 +4081,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 6969,
+        "durationMs": 981,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4096,7 +4091,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 7547,
+        "durationMs": 796,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4106,7 +4101,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3038,
+        "durationMs": 3503,
         "fetched": 2,
         "added": 2,
         "duplicates": 0
@@ -4116,7 +4111,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 934,
+        "durationMs": 1074,
         "fetched": 6,
         "added": 3,
         "duplicates": 1
@@ -4126,7 +4121,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3244,
+        "durationMs": 5745,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4136,7 +4131,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1209,
+        "durationMs": 1635,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4144,30 +4139,29 @@
       {
         "sourceId": "china-moa-news",
         "source": "中华人民共和国农业农村部",
-        "status": "failed",
-        "attempts": 2,
-        "durationMs": 2267,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "连续 2 次请求失败（2267ms）：HTTP Error 403: Forbidden"
+        "status": "success",
+        "attempts": 1,
+        "durationMs": 1773,
+        "fetched": 10,
+        "added": 4,
+        "duplicates": 6
       },
       {
         "sourceId": "china-mct-culture-news",
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2094,
+        "durationMs": 2238,
         "fetched": 10,
-        "added": 7,
-        "duplicates": 3
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "mit-technology-review",
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 209,
+        "durationMs": 162,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4177,7 +4171,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 172,
+        "durationMs": 370,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4187,7 +4181,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 106,
+        "durationMs": 140,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4197,7 +4191,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1151,
+        "durationMs": 915,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4207,7 +4201,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 233,
+        "durationMs": 209,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4217,7 +4211,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 688,
+        "durationMs": 554,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4227,7 +4221,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3149,
+        "durationMs": 904,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4237,7 +4231,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 306,
+        "durationMs": 220,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4247,7 +4241,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 67,
+        "durationMs": 120,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4257,7 +4251,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 869,
+        "durationMs": 562,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4267,7 +4261,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 91,
+        "durationMs": 155,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4277,7 +4271,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 60,
+        "durationMs": 112,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4287,7 +4281,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 192,
+        "durationMs": 164,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4297,7 +4291,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 887,
+        "durationMs": 727,
         "fetched": 10,
         "added": 2,
         "duplicates": 0
@@ -4307,7 +4301,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 481,
+        "durationMs": 671,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4317,7 +4311,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 280,
+        "durationMs": 395,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4327,7 +4321,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 363,
+        "durationMs": 247,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4337,7 +4331,7 @@
         "source": "European Space Agency Science & Exploration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 643,
+        "durationMs": 1013,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4347,7 +4341,7 @@
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 478,
+        "durationMs": 439,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4357,7 +4351,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1478,
+        "durationMs": 1065,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4367,7 +4361,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 124,
+        "durationMs": 159,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4385,7 +4379,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 0,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
