@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T01:58:39.183469+00:00",
+  "generatedAt": "2026-11-07T08:52:06.467840+00:00",
   "stories": [
     {
       "id": 2,
@@ -2648,34 +2648,34 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 108,
+      "id": 102,
       "category": "科技",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 5,
       "categoryScores": {
         "金融": 0,
-        "科技": 7,
+        "科技": 9,
         "工业": 0,
-        "能源": 1,
+        "能源": 0,
         "农业": 0,
-        "人文": 3
+        "人文": 0
       },
-      "categoryClassificationMargin": 4,
+      "categoryClassificationMargin": 9,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "How Do You Land on a Moon With Almost No Gravity?",
-      "excerpt": "Last August, looking up from the edge of an ancient river delta on Mars, the Perseverance rover ’s electronic eye spied an oblong shadow crossing the distant, glowing Sun. Phobos , the Martian moon named for the Greek god of fear and panic, was transiting the solar disk. Too…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“电气电子工程师学会科技观察”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://spectrum.ieee.org/media-library/an-illustration-shows-a-spacecraft-near-a-lumpy-moon-and-a-large-red-planet.jpg?id=68582408&width=980",
+      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new…",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/2026_BA_Reno_15.jpg?w=840",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "IEEE Spectrum",
-      "originalTitle": "How Do You Land on a Moon With Almost No Gravity?",
-      "originalExcerpt": "Last August, looking up from the edge of an ancient river delta on Mars, the Perseverance rover ’s electronic eye spied an oblong shadow crossing the distant, glowing Sun. Phobos , the Martian moon named for the Greek god of fear and panic, was transiting the solar disk. Too small to darken the pale, dust-tinged sky, but orbiting close enough to eclipse a significant fraction of the Sun, Phobos passed in less than a minute. NASA’s Perseverance rover captured Phobos passing in front of the Sun from the surface of Mars. ASU/MSSS/SSI/JPL-Caltech/NASA The tiny moon, with its murky origins, is an enigma, and one whose makeup and history could tell us much about Mars and the wider solar system. And now the international Martian Moons eXploration (MMX) mission, which successfully launched on 20 October , seeks to explore that mystery with an unprecedented series of landings on the unknown surface of Phobos. This mission brings unusual challenges—for example, designing an orbit to study a microgravity moon orbiting a much larger planet. Engineers also had to figure out how to assess and land on this low-gravity pile of loosely assembled dirt and rock, how a rover might rove across it, and how the spacecraft might take samples and return them to Earth. “I often say that landing on Phobos is like trying to land a balloon,” says Yasuhiro Kawakatsu , project manager of MMX at the Japan Aerospace Exploration Agency (JAXA). “It’s very difficult to drop a balloon to the ground and prevent it from tilting or bouncing.” Why Phobos Is Such a Strange Moon Phobos is one of two small Martian moons; the other is Deimos , named after the Greek god of dread and terror. Their cosmic origins are unknown, though there are two prevailing theories. One holds that the moons were once asteroids from the belt between Mars and Jupiter, captured by the smaller planet’s gravity. In the other theory, Phobos and Deimos formed when a large celestial body slammed into Mars, sending debris into orbit.…",
-      "source": "IEEE Spectrum",
-      "sourceUrl": "https://spectrum.ieee.org/mmx-mission-to-phobos",
+      "imageAttribution": "MIT Technology Review",
+      "originalTitle": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "originalExcerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in…",
+      "source": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
       "author": "",
       "language": "en",
       "sourceLanguage": "en",
-      "confidence": 90,
+      "confidence": 88,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
@@ -2684,17 +2684,19 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "ieee-spectrum",
-      "sourceType": "research",
+      "collectionSourceId": "mit-technology-review",
+      "sourceType": "professional",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Fri, 06 Nov 2026 15:00:02 +0000",
-      "sourcePublishedAt": "2026-11-06T15:00:02+00:00",
-      "collectedAt": "2026-11-07T01:58:38.784770+00:00",
-      "freshnessDays": 1,
+      "sourceTrustLevel": "professional",
+      "originalPublishedAt": "Fri, 06 Nov 2026 13:10:00 +0000",
+      "sourcePublishedAt": "2026-11-06T13:10:00+00:00",
+      "collectedAt": "2026-11-06T15:58:13.978921+00:00",
+      "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "Last August, looking up from the edge of an ancient river delta on Mars, the Perseverance rover ’s electronic eye spied an oblong shadow crossing the distant, glowing Sun. Phobos , the Martian moon named for the Greek god of fear and panic, was transiting the solar disk. Too small to darken the pale, dust-tinged sky, but orbiting close enough to eclipse a significant fraction of the Sun, Phobos passed in less than a minute. NASA’s Perseverance rover captured Phobos passing in front of the Sun from the surface of Mars. ASU/MSSS/SSI/JPL-Caltech/NASA The tiny moon, with its murky origins, is an enigma, and one whose makeup and history could tell us much about Mars and the wider solar system. And now the international Martian Moons eXploration (MMX) mission, which successfully launched on 20 October , seeks to explore that mystery with an unprecedented series of landings on the unknown surface of Phobos. This mission brings unusual challenges—for example, designing an orbit to study a microgravity moon orbiting a much larger planet. Engineers also had to figure out how to assess and land on this low-gravity pile of loosely assembled dirt and rock, how a rover might rove across it, and how the spacecraft might take samples and return them to Earth. “I often say that landing on Phobos is like trying to land a balloon,” says Yasuhiro Kawakatsu , project manager of MMX at the Japan Aerospace Exploration Agency (JAXA). “It’s very difficult to drop a balloon to the ground and prevent it from tilting or bouncing.” Why Phobos Is Such a Strange Moon Phobos is one of two small Martian moons; the other is Deimos , named after the Greek god of dread and terror. Their cosmic origins are unknown, though there are two prevailing theories. One holds that the moons were once asteroids from the belt between Mars and Jupiter, captured by the smaller planet’s gravity. In the other theory, Phobos and Deimos formed when a large celestial body slammed into Mars, sending debris into orbit. Some models suggest the pair are the last survivors from a cluster of satellites. The enormous Stickney crater, roughly 9 kilometers across, dominates this view of Phobos taken by NASA’s Mars Reconnaissance Orbiter. University of Arizona/JPL-Caltech/NASA Scientifically speaking, Phobos is considered a rubble pile, a loosely consolidated aggregate of rock and dust. Far too small to become spherical under its own mass, it’s shaped like a lumpy potato, roughly 27 kilometers in length, with only 1/1,800 th of Earth’s gravity. On Phobos, a typical adult would weigh about as much as a tennis ball does on Earth. More than 10 years in the making, MMX launched on Japan’s flagship H3 rocket from Tanegashima spaceport on 20 October local time. It will arrive at Mars in 2027 carrying scientific payloads from several space agencies, including NASA, and a new rover called Idefix developed by the French and German space agencies (CNES and DLR) in collaboration with JAXA. Engineers assembled MMX’s modules at Japan’s Tanegashima Space Center before the spacecraft’s October 2026 launch. JAXA MMX consists of three modules: a propulsion module to power its journey to Mars and apply the brakes to enter orbit around the red planet; an exploration module carrying the rover, sampling gear, and other scientific instruments; and a return module, attached to the exploration module, that harbors the capsule destined for a high-speed reentry into Earth’s atmosphere. After collecting samples on Phobos, the exploration and return modules will lift off together. The exploration module will then be jettisoned while the return module sets a course back home. If all goes according to plan, MMX will deliver a 10-gram sample to Earth in the second half of 2031. But the mission will face a series of daunting challenges to reach that end point, including navigating complex orbits around Phobos and landing on its surface while Mars periodically blocks communications with Earth. The MMX’s modular design includes the propulsion module [left] and the exploration and return modules [right]. Kyodo News/Getty Images “It’s the most complex mission I have ever seen,” says Patrick Michel , director of research at CNRS (the French National Center for Scientific Research) and co-principal investigator on Idefix. How MMX Will Orbit Phobos An H3 rocket carried MMX into space on 20 October 2026, beginning the mission’s five-year journey to Phobos and back. The Asahi Shimbun/Getty Images Once MMX reached low Earth orbit, its propulsion module’s engine fired, kicking off a nearly year-long deep-space cruise to Mars. On arrival, the spacecraft will need to fire its engines in an extended, carefully timed burn to slow down enough to be captured by Mars gravity. The propulsion module will then be jettisoned, leaving the exploration and return modules to orbit Mars. “If something doesn’t go according to plan, MMX will fly by Mars and get catapulted into the solar system,” says Nicola Baresi , an astrodynamicist who coauthored a paper on specially designed orbits for MMX. From that initial orbit, MMX will transition into a specially designed quasi-satellite orbit that allows it to keep pace with the small moon but also move around it. Since Phobos is too small to orbit in the conventional sense, the spacecraft will orbit Mars alongside the moon, following a clever egg-shaped path that slings MMX alternately ahead of and behind the moon. “When you’re closer to Mars, you’re accelerating with respect to Phobos, and when you’re farther from Mars, you’re decelerating. So you essentially go back and forth,” explains Baresi. Martian Maneuvers The best existing images of Phobos, from spacecraft such as NASA’s Mars Reconnaissance Orbiter and ESA’s Mars Express , have resolutions of only a few meters per pixel. That’s larger than Idefix, the mission’s rover, itself about the size of a microwave oven. To map the surface in greater detail, MMX will loop in front of and behind Phobos at distances…",
-      "sourceMaterialType": "rss"
+      "sourceMaterial": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in…",
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 115,
@@ -2958,30 +2960,30 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 102,
+      "id": 101,
       "category": "科技",
-      "categoryEvidenceScore": 5,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
-        "科技": 9,
+        "科技": 8,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 9,
+      "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
-      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new…",
-      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/2026_BA_Reno_15.jpg?w=840",
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "excerpt": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately…",
+      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "MIT Technology Review",
-      "originalTitle": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
-      "originalExcerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in…",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "originalExcerpt": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
       "source": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
       "author": "",
       "language": "en",
       "sourceLanguage": "en",
@@ -2998,15 +3000,13 @@
       "sourceType": "professional",
       "sourceRegion": "全球",
       "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 06 Nov 2026 13:10:00 +0000",
-      "sourcePublishedAt": "2026-11-06T13:10:00+00:00",
-      "collectedAt": "2026-11-06T15:58:13.978921+00:00",
-      "freshnessDays": 0,
+      "originalPublishedAt": "Fri, 06 Nov 2026 10:00:00 +0000",
+      "sourcePublishedAt": "2026-11-06T10:00:00+00:00",
+      "collectedAt": "2026-11-07T08:52:05.743946+00:00",
+      "freshnessDays": 1,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in…",
-      "sourceMaterialType": "rss",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "sourceMaterial": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+      "sourceMaterialType": "rss"
     },
     {
       "id": 116,
@@ -3105,7 +3105,7 @@
       "collectedAt": "2026-11-06T21:33:14.646111+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "The post Energy Transfer Invests $1.6 Billion in South Mississippi Pipeline appeared first on NAM . Energy Transfer has announced a final investment decision to move forward with its $1.6 billion South Mississippi Pipeline Project (Yahoo Finance).The details: The planned 215-mile, 36-inch pipeline will be able... Energy Transfer has announced a final investment decision to move forward with its $1.6 billion South Mississippi Pipeline Project (Yahoo Finance).The details: The planned 215-mile, 36-inch pipeline will be able...",
+      "sourceMaterial": "The post Energy Transfer Invests $1.6 Billion in South Mississippi Pipeline appeared first on NAM . Energy Transfer has announced a final investment decision to move forward with its $1.6 billion South Mississippi Pipeline Project (Yahoo Finance).The details: The planned 215-mile, 36-inch pipeline will be able... Energy Transfer has announced a final investment decision to move forward with its $1.6 billion South Mississippi Pipeline Project (Yahoo Finance).The details: The planned 215-mile, 36-inch pipeline will be able... Energy Transfer has announced a final investment decision to move forward with its $1.6 billion South Mississippi Pipeline Project (Yahoo Finance).The details: The planned 215-mile, 36-inch pipeline will be able...",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "Energy Transfer向南密西西比管道投资$ 16亿",
       "translatedSourceMaterial": "南密西西比管道的能源转移投资16亿美元首次出现在NAM上。Energy Transfer宣布了一项最终投资决定，以推进其16亿美元的南密西西比管道项目（雅虎财经）。详情：计划中的215英里， 36英寸管道将能够...",
@@ -3966,20 +3966,24 @@
       "error": "订阅未返回可解析条目"
     },
     {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（985ms）：HTTP Error 429: Too Many Requests"
+    },
+    {
       "source": "European Space Agency Science & Exploration",
-      "error": "连续 2 次请求失败（2366ms）：HTTP Error 404: Not Found"
+      "error": "连续 2 次请求失败（1972ms）：HTTP Error 404: Not Found"
     }
   ],
   "collection": {
-    "id": "2026-11-07T01:58:39.183469+00:00",
-    "startedAt": "2026-11-07T01:58:17.539326+00:00",
-    "finishedAt": "2026-11-07T01:58:39.183469+00:00",
+    "id": "2026-11-07T08:52:06.467840+00:00",
+    "startedAt": "2026-11-07T08:51:39.275816+00:00",
+    "finishedAt": "2026-11-07T08:52:06.467840+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 34,
-    "sourcesFailed": 2,
-    "fetched": 327,
-    "added": 256,
+    "sourcesSucceeded": 33,
+    "sourcesFailed": 3,
+    "fetched": 318,
+    "added": 247,
     "duplicates": 49,
     "invalid": 1,
     "staleSkipped": 21,
@@ -3990,8 +3994,12 @@
         "error": "订阅未返回可解析条目"
       },
       {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（985ms）：HTTP Error 429: Too Many Requests"
+      },
+      {
         "source": "European Space Agency Science & Exploration",
-        "error": "连续 2 次请求失败（2366ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（1972ms）：HTTP Error 404: Not Found"
       }
     ],
     "sourceResults": [
@@ -4000,7 +4008,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1639,
+        "durationMs": 2967,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4010,7 +4018,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1472,
+        "durationMs": 1521,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4020,7 +4028,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2450,
+        "durationMs": 3084,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4030,7 +4038,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 737,
+        "durationMs": 525,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4040,7 +4048,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 891,
+        "durationMs": 816,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4050,7 +4058,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1012,
+        "durationMs": 783,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4060,7 +4068,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 940,
+        "durationMs": 829,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4070,7 +4078,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 891,
+        "durationMs": 627,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4080,7 +4088,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 714,
+        "durationMs": 858,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4090,9 +4098,9 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2684,
-        "fetched": 1,
-        "added": 1,
+        "durationMs": 3591,
+        "fetched": 2,
+        "added": 2,
         "duplicates": 0
       },
       {
@@ -4100,7 +4108,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1236,
+        "durationMs": 1286,
         "fetched": 6,
         "added": 4,
         "duplicates": 1
@@ -4110,7 +4118,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3841,
+        "durationMs": 5661,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4120,7 +4128,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1216,
+        "durationMs": 867,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4130,7 +4138,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2253,
+        "durationMs": 1908,
         "fetched": 10,
         "added": 1,
         "duplicates": 9
@@ -4140,7 +4148,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2753,
+        "durationMs": 2125,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4150,27 +4158,27 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 140,
+        "durationMs": 69,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 720,
+        "durationMs": 132,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 144,
+        "durationMs": 76,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4180,7 +4188,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1002,
+        "durationMs": 1111,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4190,7 +4198,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 201,
+        "durationMs": 606,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4200,7 +4208,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 525,
+        "durationMs": 325,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4210,7 +4218,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 693,
+        "durationMs": 574,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4220,7 +4228,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 119,
+        "durationMs": 137,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4230,7 +4238,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 129,
+        "durationMs": 49,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4240,7 +4248,7 @@
         "source": "Bank for International Settlements",
         "status": "failed",
         "attempts": 1,
-        "durationMs": 411,
+        "durationMs": 774,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
@@ -4251,7 +4259,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 123,
+        "durationMs": 120,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4261,7 +4269,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 107,
+        "durationMs": 45,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4271,7 +4279,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 153,
+        "durationMs": 106,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4281,7 +4289,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 816,
+        "durationMs": 402,
         "fetched": 10,
         "added": 2,
         "duplicates": 1
@@ -4291,7 +4299,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 312,
+        "durationMs": 230,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4301,7 +4309,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1331,
+        "durationMs": 1227,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4309,30 +4317,31 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 191,
-        "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 985,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（985ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 2366,
+        "durationMs": 1972,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（2366ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（1972ms）：HTTP Error 404: Not Found"
       },
       {
         "sourceId": "cgiar",
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 299,
+        "durationMs": 229,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4342,7 +4351,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 976,
+        "durationMs": 752,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4352,7 +4361,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 166,
+        "durationMs": 60,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
