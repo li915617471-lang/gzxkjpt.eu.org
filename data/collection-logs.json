@@ -1,6 +1,395 @@
 {
   "logs": [
     {
+      "id": "2026-11-08T22:12:22.785929+00:00",
+      "startedAt": "2026-11-08T22:12:02.990016+00:00",
+      "finishedAt": "2026-11-08T22:12:22.785929+00:00",
+      "status": "partial",
+      "sourcesTotal": 36,
+      "sourcesSucceeded": 34,
+      "sourcesFailed": 2,
+      "fetched": 328,
+      "added": 256,
+      "duplicates": 49,
+      "invalid": 1,
+      "staleSkipped": 22,
+      "maxSourceAgeDays": 45,
+      "errors": [
+        {
+          "source": "Bank for International Settlements",
+          "error": "订阅未返回可解析条目"
+        },
+        {
+          "source": "European Space Agency Science & Exploration",
+          "error": "连续 2 次请求失败（2364ms）：HTTP Error 404: Not Found"
+        }
+      ],
+      "sourceResults": [
+        {
+          "sourceId": "china-pbc-news",
+          "source": "中国人民银行",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 1431,
+          "fetched": 10,
+          "added": 2,
+          "duplicates": 8
+        },
+        {
+          "sourceId": "china-most-news",
+          "source": "中华人民共和国科学技术部",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 976,
+          "fetched": 10,
+          "added": 9,
+          "duplicates": 1
+        },
+        {
+          "sourceId": "china-cas-science",
+          "source": "中国科学院",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2204,
+          "fetched": 10,
+          "added": 7,
+          "duplicates": 3
+        },
+        {
+          "sourceId": "china-ndrc-releases",
+          "source": "中华人民共和国国家发展和改革委员会",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 554,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "china-cctv-innovation-video",
+          "source": "中央广播电视总台《创新进行时》",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 1019,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "china-cctv-new-technology-video",
+          "source": "中央广播电视总台《透视新科技》",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 896,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "china-cctv-geography-video",
+          "source": "中央广播电视总台《地理·中国》",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 1035,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "china-cctv-discovery-video",
+          "source": "中央广播电视总台《探索·发现》",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 1044,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "china-cctv-humanities-video",
+          "source": "中央广播电视总台《百家讲坛》",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 848,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "china-kepuchina-video",
+          "source": "科普中国",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 2369,
+          "fetched": 2,
+          "added": 2,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "china-digital-science-museum-video",
+          "source": "中国数字科技馆",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 993,
+          "fetched": 6,
+          "added": 4,
+          "duplicates": 1
+        },
+        {
+          "sourceId": "china-stats-releases",
+          "source": "中华人民共和国国家统计局",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 1910,
+          "fetched": 10,
+          "added": 5,
+          "duplicates": 5
+        },
+        {
+          "sourceId": "china-nea-news",
+          "source": "中华人民共和国国家能源局",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 1415,
+          "fetched": 10,
+          "added": 2,
+          "duplicates": 8
+        },
+        {
+          "sourceId": "china-moa-news",
+          "source": "中华人民共和国农业农村部",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 1688,
+          "fetched": 10,
+          "added": 1,
+          "duplicates": 9
+        },
+        {
+          "sourceId": "china-mct-culture-news",
+          "source": "中华人民共和国文化和旅游部",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 1014,
+          "fetched": 10,
+          "added": 7,
+          "duplicates": 2
+        },
+        {
+          "sourceId": "mit-technology-review",
+          "source": "MIT Technology Review",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 229,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "ieee-spectrum",
+          "source": "IEEE Spectrum",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 144,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "manufacturing-dive",
+          "source": "Manufacturing Dive",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 172,
+          "fetched": 10,
+          "added": 8,
+          "duplicates": 2
+        },
+        {
+          "sourceId": "semiconductor-engineering",
+          "source": "Semiconductor Engineering",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 1243,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "global-ag-tech-initiative",
+          "source": "Global Ag Tech Initiative",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 253,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "open-culture",
+          "source": "Open Culture",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 577,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "european-central-bank",
+          "source": "European Central Bank",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 691,
+          "fetched": 10,
+          "added": 8,
+          "duplicates": 2
+        },
+        {
+          "sourceId": "us-energy-information-administration",
+          "source": "U.S. Energy Information Administration",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 126,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "us-federal-reserve",
+          "source": "U.S. Federal Reserve",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 68,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "bank-for-international-settlements",
+          "source": "Bank for International Settlements",
+          "status": "failed",
+          "attempts": 1,
+          "durationMs": 508,
+          "fetched": 0,
+          "added": 0,
+          "duplicates": 0,
+          "error": "订阅未返回可解析条目"
+        },
+        {
+          "sourceId": "us-national-science-foundation",
+          "source": "U.S. National Science Foundation",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 120,
+          "fetched": 10,
+          "added": 9,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "us-national-institute-standards-technology",
+          "source": "U.S. National Institute of Standards and Technology",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 58,
+          "fetched": 10,
+          "added": 7,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "us-department-energy",
+          "source": "U.S. Department of Energy",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 110,
+          "fetched": 10,
+          "added": 0,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "usda-agricultural-research-service",
+          "source": "USDA Agricultural Research Service",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 878,
+          "fetched": 10,
+          "added": 2,
+          "duplicates": 1
+        },
+        {
+          "sourceId": "national-association-manufacturers",
+          "source": "National Association of Manufacturers",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 575,
+          "fetched": 10,
+          "added": 8,
+          "duplicates": 2
+        },
+        {
+          "sourceId": "harvard-gazette-arts-humanities",
+          "source": "Harvard Gazette Arts & Humanities",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 504,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "nasa-breaking-news",
+          "source": "NASA Breaking News",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 476,
+          "fetched": 10,
+          "added": 8,
+          "duplicates": 2
+        },
+        {
+          "sourceId": "esa-science-exploration",
+          "source": "European Space Agency Science & Exploration",
+          "status": "failed",
+          "attempts": 2,
+          "durationMs": 2364,
+          "fetched": 0,
+          "added": 0,
+          "duplicates": 0,
+          "error": "连续 2 次请求失败（2364ms）：HTTP Error 404: Not Found"
+        },
+        {
+          "sourceId": "cgiar",
+          "source": "CGIAR",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 301,
+          "fetched": 10,
+          "added": 8,
+          "duplicates": 2
+        },
+        {
+          "sourceId": "ipcc",
+          "source": "Intergovernmental Panel on Climate Change",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 1514,
+          "fetched": 10,
+          "added": 10,
+          "duplicates": 0
+        },
+        {
+          "sourceId": "smithsonian-magazine",
+          "source": "Smithsonian Magazine",
+          "status": "success",
+          "attempts": 1,
+          "durationMs": 163,
+          "fetched": 10,
+          "added": 9,
+          "duplicates": 1
+        }
+      ]
+    },
+    {
       "id": "2026-11-08T16:42:45.782909+00:00",
       "startedAt": "2026-11-08T16:42:20.017206+00:00",
       "finishedAt": "2026-11-08T16:42:45.782909+00:00",
@@ -18931,384 +19320,6 @@
           "status": "success",
           "attempts": 1,
           "durationMs": 142,
-          "fetched": 10,
-          "added": 8,
-          "duplicates": 2
-        }
-      ]
-    },
-    {
-      "id": "2026-10-26T00:26:11.690879+00:00",
-      "startedAt": "2026-10-26T00:25:50.336792+00:00",
-      "finishedAt": "2026-10-26T00:26:11.690879+00:00",
-      "status": "success",
-      "sourcesTotal": 36,
-      "sourcesSucceeded": 36,
-      "sourcesFailed": 0,
-      "fetched": 347,
-      "added": 274,
-      "duplicates": 47,
-      "invalid": 2,
-      "staleSkipped": 24,
-      "maxSourceAgeDays": 45,
-      "errors": [],
-      "sourceResults": [
-        {
-          "sourceId": "china-pbc-news",
-          "source": "中国人民银行",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 1564,
-          "fetched": 10,
-          "added": 3,
-          "duplicates": 7
-        },
-        {
-          "sourceId": "china-most-news",
-          "source": "中华人民共和国科学技术部",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 1230,
-          "fetched": 10,
-          "added": 9,
-          "duplicates": 1
-        },
-        {
-          "sourceId": "china-cas-science",
-          "source": "中国科学院",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 2235,
-          "fetched": 10,
-          "added": 7,
-          "duplicates": 2
-        },
-        {
-          "sourceId": "china-ndrc-releases",
-          "source": "中华人民共和国国家发展和改革委员会",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 817,
-          "fetched": 10,
-          "added": 9,
-          "duplicates": 1
-        },
-        {
-          "sourceId": "china-cctv-innovation-video",
-          "source": "中央广播电视总台《创新进行时》",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 1131,
-          "fetched": 10,
-          "added": 9,
-          "duplicates": 1
-        },
-        {
-          "sourceId": "china-cctv-new-technology-video",
-          "source": "中央广播电视总台《透视新科技》",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 1219,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "china-cctv-geography-video",
-          "source": "中央广播电视总台《地理·中国》",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 1200,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "china-cctv-discovery-video",
-          "source": "中央广播电视总台《探索·发现》",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 1176,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "china-cctv-humanities-video",
-          "source": "中央广播电视总台《百家讲坛》",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 853,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "china-kepuchina-video",
-          "source": "科普中国",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 3457,
-          "fetched": 1,
-          "added": 1,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "china-digital-science-museum-video",
-          "source": "中国数字科技馆",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 1052,
-          "fetched": 6,
-          "added": 3,
-          "duplicates": 1
-        },
-        {
-          "sourceId": "china-stats-releases",
-          "source": "中华人民共和国国家统计局",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 4755,
-          "fetched": 10,
-          "added": 6,
-          "duplicates": 4
-        },
-        {
-          "sourceId": "china-nea-news",
-          "source": "中华人民共和国国家能源局",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 1679,
-          "fetched": 10,
-          "added": 3,
-          "duplicates": 7
-        },
-        {
-          "sourceId": "china-moa-news",
-          "source": "中华人民共和国农业农村部",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 2318,
-          "fetched": 10,
-          "added": 4,
-          "duplicates": 6
-        },
-        {
-          "sourceId": "china-mct-culture-news",
-          "source": "中华人民共和国文化和旅游部",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 2141,
-          "fetched": 10,
-          "added": 5,
-          "duplicates": 5
-        },
-        {
-          "sourceId": "mit-technology-review",
-          "source": "MIT Technology Review",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 56,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "ieee-spectrum",
-          "source": "IEEE Spectrum",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 157,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "manufacturing-dive",
-          "source": "Manufacturing Dive",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 78,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "semiconductor-engineering",
-          "source": "Semiconductor Engineering",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 1006,
-          "fetched": 10,
-          "added": 8,
-          "duplicates": 2
-        },
-        {
-          "sourceId": "global-ag-tech-initiative",
-          "source": "Global Ag Tech Initiative",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 681,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "open-culture",
-          "source": "Open Culture",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 604,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "european-central-bank",
-          "source": "European Central Bank",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 625,
-          "fetched": 10,
-          "added": 8,
-          "duplicates": 2
-        },
-        {
-          "sourceId": "us-energy-information-administration",
-          "source": "U.S. Energy Information Administration",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 175,
-          "fetched": 10,
-          "added": 9,
-          "duplicates": 1
-        },
-        {
-          "sourceId": "us-federal-reserve",
-          "source": "U.S. Federal Reserve",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 75,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "bank-for-international-settlements",
-          "source": "Bank for International Settlements",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 607,
-          "fetched": 10,
-          "added": 7,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "us-national-science-foundation",
-          "source": "U.S. National Science Foundation",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 72,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "us-national-institute-standards-technology",
-          "source": "U.S. National Institute of Standards and Technology",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 232,
-          "fetched": 10,
-          "added": 8,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "us-department-energy",
-          "source": "U.S. Department of Energy",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 87,
-          "fetched": 10,
-          "added": 0,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "usda-agricultural-research-service",
-          "source": "USDA Agricultural Research Service",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 661,
-          "fetched": 10,
-          "added": 2,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "national-association-manufacturers",
-          "source": "National Association of Manufacturers",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 235,
-          "fetched": 10,
-          "added": 8,
-          "duplicates": 2
-        },
-        {
-          "sourceId": "harvard-gazette-arts-humanities",
-          "source": "Harvard Gazette Arts & Humanities",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 156,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "nasa-breaking-news",
-          "source": "NASA Breaking News",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 129,
-          "fetched": 10,
-          "added": 9,
-          "duplicates": 1
-        },
-        {
-          "sourceId": "esa-science-exploration",
-          "source": "European Space Agency Science & Exploration",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 513,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "cgiar",
-          "source": "CGIAR",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 257,
-          "fetched": 10,
-          "added": 8,
-          "duplicates": 2
-        },
-        {
-          "sourceId": "ipcc",
-          "source": "Intergovernmental Panel on Climate Change",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 1692,
-          "fetched": 10,
-          "added": 10,
-          "duplicates": 0
-        },
-        {
-          "sourceId": "smithsonian-magazine",
-          "source": "Smithsonian Magazine",
-          "status": "success",
-          "attempts": 1,
-          "durationMs": 140,
           "fetched": 10,
           "added": 8,
           "duplicates": 2
