@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T09:05:06.061136+00:00",
+  "generatedAt": "2026-11-08T16:42:45.782909+00:00",
   "stories": [
     {
       "id": 2,
@@ -219,7 +219,7 @@
       "contentCharacterCount": 890
     },
     {
-      "id": 91,
+      "id": 92,
       "category": "农业",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -232,17 +232,17 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "农业前沿观察：第九届虹桥国际经济论坛农业分论坛在上海举办",
+      "title": "农业前沿观察：张柱在山西调研时强调 扎实推动农业发展全面绿色转型 加快构...",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
       "body": "核心进展\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。\n\n关键内容\n\n分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：中华人民共和国农业农村部公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.moa.gov.cn/xw/zwdt/202611/assets/solar.jpg",
+      "image": "assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
-      "imageSourceType": "source-page",
-      "imageAttribution": "中华人民共和国农业农村部",
-      "originalTitle": "第九届虹桥国际经济论坛农业分论坛在上海举办",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "张柱在山西调研时强调 扎实推动农业发展全面绿色转型 加快构...",
       "originalExcerpt": "",
       "source": "中华人民共和国农业农村部",
-      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261106_6489276.htm",
+      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261108_6489283.htm",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -250,7 +250,7 @@
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-11-06",
+      "date": "2026-11-08",
       "tags": [
         "农业"
       ],
@@ -259,15 +259,15 @@
       "sourceType": "official",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-11-06",
-      "sourcePublishedAt": "2026-11-06T00:00:00+00:00",
-      "collectedAt": "2026-11-06T15:58:13.946492+00:00",
+      "originalPublishedAt": "2026-11-08",
+      "sourcePublishedAt": "2026-11-08T00:00:00+00:00",
+      "collectedAt": "2026-11-08T16:42:44.948796+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
       "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
-      "translatedSourceTitle": "第九届虹桥国际经济论坛农业分论坛在上海举办",
+      "translatedSourceTitle": "张柱在山西调研时强调 扎实推动农业发展全面绿色转型 加快构...",
       "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "contentGenerationMode": "source-grounded-structured-fallback",
       "contentCharacterCount": 846
@@ -545,7 +545,7 @@
       "contentCharacterCount": 932
     },
     {
-      "id": 92,
+      "id": 91,
       "category": "农业",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -558,17 +558,17 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "农业前沿观察：农业农村部举办深入学习贯彻习近平生态文明思想每月讲坛",
+      "title": "农业前沿观察：第九届虹桥国际经济论坛农业分论坛在上海举办",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
       "body": "核心进展\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。\n\n关键内容\n\n分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：中华人民共和国农业农村部公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://www.moa.gov.cn/xw/zwdt/202611/assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "source-page",
       "imageAttribution": "中华人民共和国农业农村部",
-      "originalTitle": "农业农村部举办深入学习贯彻习近平生态文明思想每月讲坛",
+      "originalTitle": "第九届虹桥国际经济论坛农业分论坛在上海举办",
       "originalExcerpt": "",
       "source": "中华人民共和国农业农村部",
-      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261106_6489274.htm",
+      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261106_6489276.htm",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -587,13 +587,13 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "2026-11-06",
       "sourcePublishedAt": "2026-11-06T00:00:00+00:00",
-      "collectedAt": "2026-11-06T15:58:13.948715+00:00",
+      "collectedAt": "2026-11-06T15:58:13.946492+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
       "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
-      "translatedSourceTitle": "农业农村部举办深入学习贯彻习近平生态文明思想每月讲坛",
+      "translatedSourceTitle": "第九届虹桥国际经济论坛农业分论坛在上海举办",
       "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "contentGenerationMode": "source-grounded-structured-fallback",
       "contentCharacterCount": 846
@@ -869,30 +869,30 @@
       "contentCharacterCount": 1028
     },
     {
-      "id": 93,
+      "id": 92,
       "category": "农业",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 3,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
         "工业": 0,
         "能源": 0,
-        "农业": 8,
-        "人文": 1
+        "农业": 7,
+        "人文": 0
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "农业前沿观察：第七届全国农业行业职业技能大赛决赛在重庆举行",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 本网讯11月5日，由农业农村部、人力资源社会保障部、中华全国总工会联合举办的第七届全国农业行业职业技能大赛决赛在重庆市永川区启动。杨振海指出，农业农村...农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
-      "body": "核心进展\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。 本网讯11月5日，由农业农村部、人力资源社会保障部、中华全国总工会联合举办的第七届全国农业行业职业技能大赛决赛在重庆市永川区启动。杨振海指出，农业农村...。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。\n\n关键内容\n\n分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：中华人民共和国农业农村部公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "title": "农业前沿观察：农业农村部举办深入学习贯彻习近平生态文明思想每月讲坛",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
+      "body": "核心进展\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。\n\n关键内容\n\n分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：中华人民共和国农业农村部公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://www.moa.gov.cn/xw/zwdt/202611/assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "source-page",
       "imageAttribution": "中华人民共和国农业农村部",
-      "originalTitle": "第七届全国农业行业职业技能大赛决赛在重庆举行",
+      "originalTitle": "农业农村部举办深入学习贯彻习近平生态文明思想每月讲坛",
       "originalExcerpt": "",
       "source": "中华人民共和国农业农村部",
-      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261105_6489243.htm",
+      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261106_6489274.htm",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -900,7 +900,7 @@
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "tags": [
         "农业"
       ],
@@ -909,18 +909,18 @@
       "sourceType": "official",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-11-05",
-      "sourcePublishedAt": "2026-11-05T00:00:00+00:00",
-      "collectedAt": "2026-11-05T16:30:39.139296+00:00",
+      "originalPublishedAt": "2026-11-06",
+      "sourcePublishedAt": "2026-11-06T00:00:00+00:00",
+      "collectedAt": "2026-11-06T15:58:13.948715+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "本网讯11月5日，由农业农村部、人力资源社会保障部、中华全国总工会联合举办的第七届全国农业行业职业技能大赛决赛在重庆市永川区启动。杨振海指出，农业农村...",
+      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
-      "translatedSourceTitle": "第七届全国农业行业职业技能大赛决赛在重庆举行",
-      "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 本网讯11月5日，由农业农村部、人力资源社会保障部、中华全国总工会联合举办的第七届全国农业行业职业技能大赛决赛在重庆市永川区启动。杨振海指出，农业农村...",
+      "translatedSourceTitle": "农业农村部举办深入学习贯彻习近平生态文明思想每月讲坛",
+      "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 916
+      "contentCharacterCount": 846
     },
     {
       "id": 4,
@@ -1193,30 +1193,30 @@
       "contentCharacterCount": 937
     },
     {
-      "id": 92,
+      "id": 93,
       "category": "农业",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
         "金融": 0,
         "科技": 0,
         "工业": 0,
         "能源": 0,
-        "农业": 7,
-        "人文": 0
+        "农业": 8,
+        "人文": 1
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "农业前沿观察：农业农村部召开第二轮土地承包到期后再延长30年试点工作视频...",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
-      "body": "核心进展\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。\n\n关键内容\n\n分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：中华人民共和国农业农村部公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "title": "农业前沿观察：第七届全国农业行业职业技能大赛决赛在重庆举行",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 本网讯11月5日，由农业农村部、人力资源社会保障部、中华全国总工会联合举办的第七届全国农业行业职业技能大赛决赛在重庆市永川区启动。杨振海指出，农业农村...农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
+      "body": "核心进展\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。 本网讯11月5日，由农业农村部、人力资源社会保障部、中华全国总工会联合举办的第七届全国农业行业职业技能大赛决赛在重庆市永川区启动。杨振海指出，农业农村...。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。\n\n关键内容\n\n分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：中华人民共和国农业农村部公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://www.moa.gov.cn/xw/zwdt/202611/assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "source-page",
       "imageAttribution": "中华人民共和国农业农村部",
-      "originalTitle": "农业农村部召开第二轮土地承包到期后再延长30年试点工作视频...",
+      "originalTitle": "第七届全国农业行业职业技能大赛决赛在重庆举行",
       "originalExcerpt": "",
       "source": "中华人民共和国农业农村部",
-      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261105_6489241.htm",
+      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261105_6489243.htm",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -1235,16 +1235,16 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "2026-11-05",
       "sourcePublishedAt": "2026-11-05T00:00:00+00:00",
-      "collectedAt": "2026-11-05T16:30:39.137172+00:00",
+      "collectedAt": "2026-11-05T16:30:39.139296+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "sourceMaterial": "本网讯11月5日，由农业农村部、人力资源社会保障部、中华全国总工会联合举办的第七届全国农业行业职业技能大赛决赛在重庆市永川区启动。杨振海指出，农业农村...",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
-      "translatedSourceTitle": "农业农村部召开第二轮土地承包到期后再延长30年试点工作视频...",
-      "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "translatedSourceTitle": "第七届全国农业行业职业技能大赛决赛在重庆举行",
+      "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 本网讯11月5日，由农业农村部、人力资源社会保障部、中华全国总工会联合举办的第七届全国农业行业职业技能大赛决赛在重庆市永川区启动。杨振海指出，农业农村...",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 846
+      "contentCharacterCount": 916
     },
     {
       "id": 82,
@@ -1518,7 +1518,7 @@
       "contentCharacterCount": 874
     },
     {
-      "id": 90,
+      "id": 92,
       "category": "农业",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -1531,17 +1531,17 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "农业前沿观察：张柱在农业农村部直属单位调研时强调 深入学习贯彻习近平生态...",
+      "title": "农业前沿观察：农业农村部召开第二轮土地承包到期后再延长30年试点工作视频...",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
       "body": "核心进展\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。\n\n关键内容\n\n分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：中华人民共和国农业农村部公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://www.moa.gov.cn/xw/zwdt/202611/assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "source-page",
       "imageAttribution": "中华人民共和国农业农村部",
-      "originalTitle": "张柱在农业农村部直属单位调研时强调 深入学习贯彻习近平生态...",
+      "originalTitle": "农业农村部召开第二轮土地承包到期后再延长30年试点工作视频...",
       "originalExcerpt": "",
       "source": "中华人民共和国农业农村部",
-      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261104_6489216.htm",
+      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261105_6489241.htm",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -1549,7 +1549,7 @@
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "tags": [
         "农业"
       ],
@@ -1558,15 +1558,15 @@
       "sourceType": "official",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-11-04",
-      "sourcePublishedAt": "2026-11-04T00:00:00+00:00",
-      "collectedAt": "2026-11-04T16:22:58.843584+00:00",
+      "originalPublishedAt": "2026-11-05",
+      "sourcePublishedAt": "2026-11-05T00:00:00+00:00",
+      "collectedAt": "2026-11-05T16:30:39.137172+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
       "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
-      "translatedSourceTitle": "张柱在农业农村部直属单位调研时强调 深入学习贯彻习近平生态...",
+      "translatedSourceTitle": "农业农村部召开第二轮土地承包到期后再延长30年试点工作视频...",
       "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "contentGenerationMode": "source-grounded-structured-fallback",
       "contentCharacterCount": 846
@@ -1842,7 +1842,7 @@
       "contentCharacterCount": 895
     },
     {
-      "id": 91,
+      "id": 90,
       "category": "农业",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -1855,17 +1855,17 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "农业前沿观察：2026年前三季度农业农村经济运行总体平稳、基础持续夯实",
+      "title": "农业前沿观察：张柱在农业农村部直属单位调研时强调 深入学习贯彻习近平生态...",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
       "body": "核心进展 来自公开来源的前沿信息，等待后台进一步编辑摘要。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。 关键内容 分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：中华人民共和国农业农村部公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://www.moa.gov.cn/xw/zwdt/202611/assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "source-page",
       "imageAttribution": "中华人民共和国农业农村部",
-      "originalTitle": "2026年前三季度农业农村经济运行总体平稳、基础持续夯实",
+      "originalTitle": "张柱在农业农村部直属单位调研时强调 深入学习贯彻习近平生态...",
       "originalExcerpt": "",
       "source": "中华人民共和国农业农村部",
-      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261104_6489208.htm",
+      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261104_6489216.htm",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -1884,13 +1884,13 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "2026-11-04",
       "sourcePublishedAt": "2026-11-04T00:00:00+00:00",
-      "collectedAt": "2026-11-04T16:22:58.844819+00:00",
+      "collectedAt": "2026-11-04T16:22:58.843584+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
       "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
-      "translatedSourceTitle": "2026年前三季度农业农村经济运行总体平稳、基础持续夯实",
+      "translatedSourceTitle": "张柱在农业农村部直属单位调研时强调 深入学习贯彻习近平生态...",
       "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "contentGenerationMode": "source-grounded-structured-fallback",
       "contentCharacterCount": 846
@@ -2165,7 +2165,7 @@
       "contentCharacterCount": 870
     },
     {
-      "id": 92,
+      "id": 91,
       "category": "农业",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -2178,17 +2178,17 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "农业前沿观察：张柱分别会见加拿大农业及农业食品部部长和澳大利亚农渔林业...",
+      "title": "农业前沿观察：2026年前三季度农业农村经济运行总体平稳、基础持续夯实",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
       "body": "核心进展 来自公开来源的前沿信息，等待后台进一步编辑摘要。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。 关键内容 分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：中华人民共和国农业农村部公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://www.moa.gov.cn/xw/zwdt/202611/assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "source-page",
       "imageAttribution": "中华人民共和国农业农村部",
-      "originalTitle": "张柱分别会见加拿大农业及农业食品部部长和澳大利亚农渔林业...",
+      "originalTitle": "2026年前三季度农业农村经济运行总体平稳、基础持续夯实",
       "originalExcerpt": "",
       "source": "中华人民共和国农业农村部",
-      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261104_6489204.htm",
+      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261104_6489208.htm",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -2207,13 +2207,13 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "2026-11-04",
       "sourcePublishedAt": "2026-11-04T00:00:00+00:00",
-      "collectedAt": "2026-11-04T16:22:58.845984+00:00",
+      "collectedAt": "2026-11-04T16:22:58.844819+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
       "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
-      "translatedSourceTitle": "张柱分别会见加拿大农业及农业食品部部长和澳大利亚农渔林业...",
+      "translatedSourceTitle": "2026年前三季度农业农村经济运行总体平稳、基础持续夯实",
       "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "contentGenerationMode": "source-grounded-structured-fallback",
       "contentCharacterCount": 846
@@ -2488,7 +2488,7 @@
       "contentCharacterCount": 855
     },
     {
-      "id": 94,
+      "id": 92,
       "category": "农业",
       "categoryEvidenceScore": 3,
       "categoryScores": {
@@ -2501,17 +2501,17 @@
       },
       "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "农业前沿观察：农业农村部与河南省政府举行工作会谈",
+      "title": "农业前沿观察：张柱分别会见加拿大农业及农业食品部部长和澳大利亚农渔林业...",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
       "body": "核心进展 来自公开来源的前沿信息，等待后台进一步编辑摘要。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。 关键内容 分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：中华人民共和国农业农村部公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "assets/solar.jpg",
+      "image": "https://www.moa.gov.cn/xw/zwdt/202611/assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
-      "originalTitle": "农业农村部与河南省政府举行工作会谈",
+      "imageSourceType": "source-page",
+      "imageAttribution": "中华人民共和国农业农村部",
+      "originalTitle": "张柱分别会见加拿大农业及农业食品部部长和澳大利亚农渔林业...",
       "originalExcerpt": "",
       "source": "中华人民共和国农业农村部",
-      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261104_6489186.htm",
+      "sourceUrl": "https://www.moa.gov.cn/xw/zwdt/202611/t20261104_6489204.htm",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -2530,13 +2530,13 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "2026-11-04",
       "sourcePublishedAt": "2026-11-04T00:00:00+00:00",
-      "collectedAt": "2026-11-04T16:22:58.848011+00:00",
+      "collectedAt": "2026-11-04T16:22:58.845984+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
       "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
-      "translatedSourceTitle": "农业农村部与河南省政府举行工作会谈",
+      "translatedSourceTitle": "张柱分别会见加拿大农业及农业食品部部长和澳大利亚农渔林业...",
       "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
       "contentGenerationMode": "source-grounded-structured-fallback",
       "contentCharacterCount": 846
@@ -3973,21 +3973,25 @@
       "error": "订阅未返回可解析条目"
     },
     {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（851ms）：HTTP Error 429: Too Many Requests"
+    },
+    {
       "source": "European Space Agency Science & Exploration",
-      "error": "连续 2 次请求失败（3174ms）：HTTP Error 404: Not Found"
+      "error": "连续 2 次请求失败（1906ms）：HTTP Error 404: Not Found"
     }
   ],
   "collection": {
-    "id": "2026-11-08T09:05:06.061136+00:00",
-    "startedAt": "2026-11-08T09:04:42.866157+00:00",
-    "finishedAt": "2026-11-08T09:05:06.061136+00:00",
+    "id": "2026-11-08T16:42:45.782909+00:00",
+    "startedAt": "2026-11-08T16:42:20.017206+00:00",
+    "finishedAt": "2026-11-08T16:42:45.782909+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 34,
-    "sourcesFailed": 2,
-    "fetched": 328,
-    "added": 256,
-    "duplicates": 49,
+    "sourcesSucceeded": 33,
+    "sourcesFailed": 3,
+    "fetched": 318,
+    "added": 249,
+    "duplicates": 46,
     "invalid": 1,
     "staleSkipped": 22,
     "maxSourceAgeDays": 45,
@@ -3997,8 +4001,12 @@
         "error": "订阅未返回可解析条目"
       },
       {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（851ms）：HTTP Error 429: Too Many Requests"
+      },
+      {
         "source": "European Space Agency Science & Exploration",
-        "error": "连续 2 次请求失败（3174ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（1906ms）：HTTP Error 404: Not Found"
       }
     ],
     "sourceResults": [
@@ -4007,7 +4015,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1563,
+        "durationMs": 2320,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4017,7 +4025,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1136,
+        "durationMs": 1552,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4027,7 +4035,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1534,
+        "durationMs": 2207,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4037,7 +4045,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 594,
+        "durationMs": 574,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4047,7 +4055,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 910,
+        "durationMs": 988,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4057,7 +4065,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 964,
+        "durationMs": 946,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4067,7 +4075,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1078,
+        "durationMs": 936,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4077,7 +4085,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 859,
+        "durationMs": 916,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4087,7 +4095,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 962,
+        "durationMs": 925,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4097,7 +4105,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2301,
+        "durationMs": 3653,
         "fetched": 2,
         "added": 2,
         "duplicates": 0
@@ -4107,7 +4115,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1128,
+        "durationMs": 1375,
         "fetched": 6,
         "added": 4,
         "duplicates": 1
@@ -4117,7 +4125,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3113,
+        "durationMs": 4976,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4127,7 +4135,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1265,
+        "durationMs": 1167,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4137,17 +4145,17 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1965,
+        "durationMs": 2106,
         "fetched": 10,
-        "added": 1,
-        "duplicates": 9
+        "added": 2,
+        "duplicates": 8
       },
       {
         "sourceId": "china-mct-culture-news",
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1148,
+        "durationMs": 2961,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4157,7 +4165,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 218,
+        "durationMs": 45,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4167,7 +4175,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 711,
+        "durationMs": 121,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4177,7 +4185,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 159,
+        "durationMs": 76,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4187,7 +4195,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1128,
+        "durationMs": 1004,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4197,7 +4205,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 293,
+        "durationMs": 84,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4207,7 +4215,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 668,
+        "durationMs": 326,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4217,7 +4225,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 574,
+        "durationMs": 471,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4227,7 +4235,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 120,
+        "durationMs": 72,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4237,7 +4245,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 144,
+        "durationMs": 62,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4247,7 +4255,7 @@
         "source": "Bank for International Settlements",
         "status": "failed",
         "attempts": 1,
-        "durationMs": 742,
+        "durationMs": 431,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
@@ -4258,7 +4266,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 111,
+        "durationMs": 151,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4268,7 +4276,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 44,
+        "durationMs": 66,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4278,7 +4286,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 104,
+        "durationMs": 159,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4288,7 +4296,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 814,
+        "durationMs": 360,
         "fetched": 10,
         "added": 2,
         "duplicates": 1
@@ -4298,7 +4306,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 588,
+        "durationMs": 213,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4308,7 +4316,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1477,
+        "durationMs": 189,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4316,30 +4324,31 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 330,
-        "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 851,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（851ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 3174,
+        "durationMs": 1906,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（3174ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（1906ms）：HTTP Error 404: Not Found"
       },
       {
         "sourceId": "cgiar",
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 500,
+        "durationMs": 257,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4349,7 +4358,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1334,
+        "durationMs": 959,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4359,7 +4368,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 139,
+        "durationMs": 106,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4377,7 +4386,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 1,
+      "translated": 0,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
