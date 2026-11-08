@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T01:28:34.097048+00:00",
+  "generatedAt": "2026-11-08T09:05:06.061136+00:00",
   "stories": [
     {
       "id": 2,
@@ -2648,30 +2648,30 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 221,
+      "id": 222,
       "category": "科技",
-      "categoryEvidenceScore": 7,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
-        "科技": 12,
+        "科技": 5,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 12,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：NASA授予月球基地运输、技术、科学项目奖项",
-      "excerpt": "美国宇航局周六宣布了一系列奖项和任务更新，以扩大该机构的月球基地勘探、科学和基础设施能力。这些投资将推动商业机器人交付、名为PROMISE的核动力漫游车、发射和轨道转移服务以及地面基础设施，因为该机构与美国工业界合作，在[...]美国宇航局宣布了一项 周六的奖项和任务更新，以扩大该机构的月球基地勘探、科学和基础设施能力。技术是否产生行业影响…",
-      "body": "核心进展\n\n美国宇航局周六宣布了一系列奖项和任务更新，以扩大该机构的月球基地勘探、科学和基础设施能力。这些投资将推动商业机器人交付、名为PROMISE的核动力漫游车、发射和轨道转移服务以及地面基础设施，因为该机构与美国工业界合作，在[...]美国宇航局宣布了一项 周六的奖项和任务更新，以扩大该机构的月球基地勘探、科学和基础设施能力。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/11/moon-base-artists-concept.jpg?w=1936",
+      "title": "科技前沿观察：APOD ： 2026年11月8日–主要火球流星",
+      "excerpt": "APOD Science APOD APOD ： 2026年11月8日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片探索宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。大型火球流星[…]技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来…",
+      "body": "核心进展\n\nAPOD Science APOD APOD ： 2026年11月8日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片探索宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。大型火球流星[…]。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/meteor2017_Taylor_1200.jpg?w=0&h=0&fit=clip&crop=faces%2Cfocalpoint",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "NASA Breaking News",
-      "originalTitle": "NASA Awards Moon Base Transportation, Technology, Science Projects",
-      "originalExcerpt": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as the agency works with American industry to establish a sustained presence on […]",
+      "originalTitle": "APOD: 2026 November 8 – Major Fireball Meteor",
+      "originalExcerpt": "APOD Science APOD APOD: 2026 November 8 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Major Fireball Meteor […]",
       "source": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -2679,7 +2679,7 @@
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "tags": [
         "科技"
       ],
@@ -2688,20 +2688,20 @@
       "sourceType": "official",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Sat, 07 Nov 2026 22:47:03 +0000",
-      "sourcePublishedAt": "2026-11-07T22:47:03+00:00",
-      "collectedAt": "2026-11-08T01:28:34.028772+00:00",
-      "freshnessDays": 1,
+      "originalPublishedAt": "Sun, 08 Nov 2026 05:05:00 +0000",
+      "sourcePublishedAt": "2026-11-08T05:05:00+00:00",
+      "collectedAt": "2026-11-08T09:05:05.970826+00:00",
+      "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as the agency works with American industry to establish a sustained presence on […] NASA announced a suite of awards and mission updates on Saturday to expand the agency's Moon Base exploration, science, and infrastructure capabilities. The",
+      "sourceMaterial": "APOD Science APOD APOD: 2026 November 8 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Major Fireball Meteor […]",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "NASA授予月球基地运输、技术、科学项目奖项",
-      "translatedSourceMaterial": "美国宇航局周六宣布了一系列奖项和任务更新，以扩大该机构的月球基地勘探、科学和基础设施能力。这些投资将推动商业机器人交付、名为PROMISE的核动力漫游车、发射和轨道转移服务以及地面基础设施，因为该机构与美国工业界合作，在[...]美国宇航局宣布了一项 周六的奖项和任务更新，以扩大该机构的月球基地勘探、科学和基础设施能力。",
+      "translatedSourceTitle": "APOD ： 2026年11月8日–主要火球流星",
+      "translatedSourceMaterial": "APOD Science APOD APOD ： 2026年11月8日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片探索宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。大型火球流星[…]",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 989
+      "contentCharacterCount": 956
     },
     {
       "id": 115,
@@ -2967,28 +2967,28 @@
     {
       "id": 221,
       "category": "科技",
-      "categoryEvidenceScore": 2,
+      "categoryEvidenceScore": 7,
       "categoryScores": {
         "金融": 0,
-        "科技": 5,
+        "科技": 12,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 1
+        "人文": 0
       },
-      "categoryClassificationMargin": 4,
+      "categoryClassificationMargin": 12,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：APOD ： 2026年11月7日– De Gerlache-Kocher Massif",
-      "excerpt": "APOD Science APOD APOD ： 2026年11月7日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片探索宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。De Gerlache-Kocher Massif […]技术是否产生行业影响…",
-      "body": "核心进展\n\nAPOD Science APOD APOD ： 2026年11月7日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片探索宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。De Gerlache-Kocher Massif […]。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/GerlacheKocherMassif_Sans.jpg?w=1500&h=1022&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "科技前沿观察：NASA授予月球基地运输、技术、科学项目奖项",
+      "excerpt": "美国宇航局周六宣布了一系列奖项和任务更新，以扩大该机构的月球基地勘探、科学和基础设施能力。这些投资将推动商业机器人交付、名为PROMISE的核动力漫游车、发射和轨道转移服务以及地面基础设施，因为该机构与美国工业界合作，在[...]美国宇航局宣布了一项 周六的奖项和任务更新，以扩大该机构的月球基地勘探、科学和基础设施能力。技术是否产生行业影响…",
+      "body": "核心进展\n\n美国宇航局周六宣布了一系列奖项和任务更新，以扩大该机构的月球基地勘探、科学和基础设施能力。这些投资将推动商业机器人交付、名为PROMISE的核动力漫游车、发射和轨道转移服务以及地面基础设施，因为该机构与美国工业界合作，在[...]美国宇航局宣布了一项 周六的奖项和任务更新，以扩大该机构的月球基地勘探、科学和基础设施能力。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/11/moon-base-artists-concept.jpg?w=1936",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
       "imageAttribution": "NASA Breaking News",
-      "originalTitle": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
-      "originalExcerpt": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. De Gerlache-Kocher Massif […]",
+      "originalTitle": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+      "originalExcerpt": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as the agency works with American industry to establish a sustained presence on […]",
       "source": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
@@ -3005,20 +3005,20 @@
       "sourceType": "official",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Sat, 07 Nov 2026 05:05:00 +0000",
-      "sourcePublishedAt": "2026-11-07T05:05:00+00:00",
-      "collectedAt": "2026-11-07T16:29:37.810021+00:00",
-      "freshnessDays": 0,
+      "originalPublishedAt": "Sat, 07 Nov 2026 22:47:03 +0000",
+      "sourcePublishedAt": "2026-11-07T22:47:03+00:00",
+      "collectedAt": "2026-11-08T01:28:34.028772+00:00",
+      "freshnessDays": 1,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. De Gerlache-Kocher Massif […]",
+      "sourceMaterial": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as the agency works with American industry to establish a sustained presence on […] NASA announced a suite of awards and mission updates on Saturday to expand the agency's Moon Base exploration, science, and infrastructure capabilities. The NASA announced a suite of awards and mission updates on Saturday to expand the agency's Moon Base exploration, science, and infrastructure capabilities. The",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "APOD ： 2026年11月7日– De Gerlache-Kocher Massif",
-      "translatedSourceMaterial": "APOD Science APOD APOD ： 2026年11月7日– ……今天的APOD档案提交索引搜索日历RSS教育关于讨论APOD当天天文图片探索宇宙！每天都有不同的图像或照片展示我们迷人的宇宙，以及由专业天文学家撰写的简短解释。De Gerlache-Kocher Massif […]",
+      "translatedSourceTitle": "NASA授予月球基地运输、技术、科学项目奖项",
+      "translatedSourceMaterial": "美国宇航局周六宣布了一系列奖项和任务更新，以扩大该机构的月球基地勘探、科学和基础设施能力。这些投资将推动商业机器人交付、名为PROMISE的核动力漫游车、发射和轨道转移服务以及地面基础设施，因为该机构与美国工业界合作，在[...]美国宇航局宣布了一项 周六的奖项和任务更新，以扩大该机构的月球基地勘探、科学和基础设施能力。",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 972
+      "contentCharacterCount": 989
     },
     {
       "id": 116,
@@ -3974,13 +3974,13 @@
     },
     {
       "source": "European Space Agency Science & Exploration",
-      "error": "连续 2 次请求失败（2256ms）：HTTP Error 404: Not Found"
+      "error": "连续 2 次请求失败（3174ms）：HTTP Error 404: Not Found"
     }
   ],
   "collection": {
-    "id": "2026-11-08T01:28:34.097048+00:00",
-    "startedAt": "2026-11-08T01:28:09.426859+00:00",
-    "finishedAt": "2026-11-08T01:28:34.097048+00:00",
+    "id": "2026-11-08T09:05:06.061136+00:00",
+    "startedAt": "2026-11-08T09:04:42.866157+00:00",
+    "finishedAt": "2026-11-08T09:05:06.061136+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 34,
@@ -3998,7 +3998,7 @@
       },
       {
         "source": "European Space Agency Science & Exploration",
-        "error": "连续 2 次请求失败（2256ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（3174ms）：HTTP Error 404: Not Found"
       }
     ],
     "sourceResults": [
@@ -4007,7 +4007,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1701,
+        "durationMs": 1563,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4017,7 +4017,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1514,
+        "durationMs": 1136,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4027,7 +4027,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2517,
+        "durationMs": 1534,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
@@ -4037,7 +4037,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 472,
+        "durationMs": 594,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4047,7 +4047,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1157,
+        "durationMs": 910,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4057,7 +4057,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1421,
+        "durationMs": 964,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4067,7 +4067,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1276,
+        "durationMs": 1078,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4077,7 +4077,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1287,
+        "durationMs": 859,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4087,7 +4087,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1020,
+        "durationMs": 962,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4097,7 +4097,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3362,
+        "durationMs": 2301,
         "fetched": 2,
         "added": 2,
         "duplicates": 0
@@ -4107,7 +4107,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1210,
+        "durationMs": 1128,
         "fetched": 6,
         "added": 4,
         "duplicates": 1
@@ -4117,7 +4117,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4446,
+        "durationMs": 3113,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4127,7 +4127,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 954,
+        "durationMs": 1265,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4137,7 +4137,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2314,
+        "durationMs": 1965,
         "fetched": 10,
         "added": 1,
         "duplicates": 9
@@ -4147,7 +4147,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4218,
+        "durationMs": 1148,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4157,17 +4157,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 52,
+        "durationMs": 218,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 176,
+        "durationMs": 711,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4177,7 +4177,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 74,
+        "durationMs": 159,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4187,7 +4187,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 933,
+        "durationMs": 1128,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4197,7 +4197,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 150,
+        "durationMs": 293,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4207,7 +4207,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 431,
+        "durationMs": 668,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4217,7 +4217,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 514,
+        "durationMs": 574,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4227,7 +4227,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 160,
+        "durationMs": 120,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4237,7 +4237,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 82,
+        "durationMs": 144,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4247,7 +4247,7 @@
         "source": "Bank for International Settlements",
         "status": "failed",
         "attempts": 1,
-        "durationMs": 387,
+        "durationMs": 742,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
@@ -4258,7 +4258,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 126,
+        "durationMs": 111,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4268,7 +4268,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 52,
+        "durationMs": 44,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4278,7 +4278,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 85,
+        "durationMs": 104,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4288,7 +4288,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 566,
+        "durationMs": 814,
         "fetched": 10,
         "added": 2,
         "duplicates": 1
@@ -4298,7 +4298,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 206,
+        "durationMs": 588,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4308,7 +4308,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 71,
+        "durationMs": 1477,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4318,28 +4318,28 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 182,
+        "durationMs": 330,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 2256,
+        "durationMs": 3174,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（2256ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（3174ms）：HTTP Error 404: Not Found"
       },
       {
         "sourceId": "cgiar",
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 200,
+        "durationMs": 500,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4349,7 +4349,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1418,
+        "durationMs": 1334,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4359,7 +4359,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 143,
+        "durationMs": 139,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
