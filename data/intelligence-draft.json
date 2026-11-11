@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T20:52:05.951496+00:00",
+  "generatedAt": "2026-11-11T01:57:56.113580+00:00",
   "stories": [
     {
       "id": 2,
@@ -2004,34 +2004,34 @@
       "contentCharacterCount": 1000
     },
     {
-      "id": 4,
+      "id": 11,
       "category": "科技",
       "categoryEvidenceScore": 0,
       "categoryScores": {
-        "金融": 1,
+        "金融": 0,
         "科技": 3,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 1
+        "人文": 0
       },
-      "categoryClassificationMargin": 2,
+      "categoryClassificationMargin": 3,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "中国—新加坡政府间科技合作联委会第17次会议在新加坡召开",
-      "excerpt": "2026年11月4至7日，科技部副部长张光军应邀率团访问新加坡，与新加坡国立研究基金会总裁林华恩共同主持中国—新加坡政府间科技合作联委会第17次会议。中国驻新加坡大使曹忠明出席会议。 张光军表示，在两国领导人战略引领下，中新科技合作机制不断深化，双方在联合研究项目、科技人文交流、共建创新合作平台等方面开展了一系列合作，取得了实实在在成果，为巩固中新全方位高质量的前瞻性伙伴关系提供了坚实科技支撑。中方愿同新方一道，继续深化合作机制，扩大科技人文交流，推进务实合作，为两国关系发展源源不断地注入创新动力。 林华恩表示，科技合作是中新关系的重要组成部分…",
-      "body": "核心信息 2026年11月4至7日，科技部副部长张光军应邀率团访问新加坡，与新加坡国立研究基金会总裁林华恩共同主持中国—新加坡政府间科技合作联委会第17次会议。中国驻新加坡大使曹忠明出席会议。 张光军表示，在两国领导人战略引领下，中新科技合作机制不断深化，双方在联合研究项目、科技人文交流、共建创新合作平台等方面开展了一系列合作，取得了实实在在成果，为巩固中新全方位高质量的前瞻性伙伴关系提供了坚实科技支撑。中方愿同新方一道，继续深化合作机制，扩大科技人文交流，推进务实合作，为两国关系发展源源不断地注入创新动力。 林华恩表示，科技合作是中新关系的重要组成部分… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "短波中断研究获进展",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "中国—新加坡政府间科技合作联委会第17次会议在新加坡召开",
+      "originalTitle": "短波中断研究获进展",
       "originalExcerpt": "",
-      "source": "中华人民共和国科学技术部",
-      "sourceUrl": "https://www.most.gov.cn/kjbgz/202611/t20261110_197688.html",
+      "source": "中国科学院",
+      "sourceUrl": "https://www.cas.cn/syky/202611/t20261110_5123860.shtml",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
-      "confidence": 96,
+      "confidence": 97,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
@@ -2040,20 +2040,17 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "china-most-news",
-      "sourceType": "official",
+      "collectionSourceId": "china-cas-science",
+      "sourceType": "research",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "2026-11-10",
       "sourcePublishedAt": "2026-11-10T00:00:00+00:00",
-      "collectedAt": "2026-11-10T04:09:49.876765+00:00",
-      "freshnessDays": 0,
+      "collectedAt": "2026-11-11T01:57:55.101646+00:00",
+      "freshnessDays": 1,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "summarySourceType": "source-page",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "sourceMaterialType": "rss"
     },
     {
       "id": 82,
@@ -2328,11 +2325,11 @@
       "contentCharacterCount": 1093
     },
     {
-      "id": 12,
+      "id": 4,
       "category": "科技",
       "categoryEvidenceScore": 0,
       "categoryScores": {
-        "金融": 0,
+        "金融": 1,
         "科技": 3,
         "工业": 0,
         "能源": 0,
@@ -2341,37 +2338,37 @@
       },
       "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "研究构建促进光合固碳的有机铁硫框架材料",
-      "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
-      "body": "核心信息 人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "中国—新加坡政府间科技合作联委会第17次会议在新加坡召开",
+      "excerpt": "2026年11月4至7日，科技部副部长张光军应邀率团访问新加坡，与新加坡国立研究基金会总裁林华恩共同主持中国—新加坡政府间科技合作联委会第17次会议。中国驻新加坡大使曹忠明出席会议。 张光军表示，在两国领导人战略引领下，中新科技合作机制不断深化，双方在联合研究项目、科技人文交流、共建创新合作平台等方面开展了一系列合作，取得了实实在在成果，为巩固中新全方位高质量的前瞻性伙伴关系提供了坚实科技支撑。中方愿同新方一道，继续深化合作机制，扩大科技人文交流，推进务实合作，为两国关系发展源源不断地注入创新动力。 林华恩表示，科技合作是中新关系的重要组成部分…",
+      "body": "核心信息 2026年11月4至7日，科技部副部长张光军应邀率团访问新加坡，与新加坡国立研究基金会总裁林华恩共同主持中国—新加坡政府间科技合作联委会第17次会议。中国驻新加坡大使曹忠明出席会议。 张光军表示，在两国领导人战略引领下，中新科技合作机制不断深化，双方在联合研究项目、科技人文交流、共建创新合作平台等方面开展了一系列合作，取得了实实在在成果，为巩固中新全方位高质量的前瞻性伙伴关系提供了坚实科技支撑。中方愿同新方一道，继续深化合作机制，扩大科技人文交流，推进务实合作，为两国关系发展源源不断地注入创新动力。 林华恩表示，科技合作是中新关系的重要组成部分… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中华人民共和国科学技术部”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "研究构建促进光合固碳的有机铁硫框架材料",
+      "originalTitle": "中国—新加坡政府间科技合作联委会第17次会议在新加坡召开",
       "originalExcerpt": "",
-      "source": "中国科学院",
-      "sourceUrl": "https://www.cas.cn/syky/202611/t20261109_5123749.shtml",
+      "source": "中华人民共和国科学技术部",
+      "sourceUrl": "https://www.most.gov.cn/kjbgz/202611/t20261110_197688.html",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
-      "confidence": 97,
+      "confidence": 96,
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "china-cas-science",
-      "sourceType": "research",
+      "collectionSourceId": "china-most-news",
+      "sourceType": "official",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-11-09",
-      "sourcePublishedAt": "2026-11-09T00:00:00+00:00",
-      "collectedAt": "2026-11-10T04:09:49.911221+00:00",
-      "freshnessDays": 1,
+      "originalPublishedAt": "2026-11-10",
+      "sourcePublishedAt": "2026-11-10T00:00:00+00:00",
+      "collectedAt": "2026-11-10T04:09:49.876765+00:00",
+      "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
       "sourceMaterialType": "rss",
@@ -2598,16 +2595,16 @@
     {
       "id": 158,
       "category": "金融",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 10,
       "categoryScores": {
-        "金融": 11,
+        "金融": 15,
         "科技": 4,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 11,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "金融前沿观察：Philip R. Lane ：货币政策沟通的科学与实践：欧洲央行的经验",
       "excerpt": "来自公开来源的前沿信息等待后台进一步编辑摘要。 欧洲中央银行（ ECB ）是采用欧元的欧盟国家的中央银行。我们的主要任务是维持欧元区的价格稳定，从而保持单一货币的购买力。对普通读者而言，重点不是预测涨跌，而是识别谁会受到影响、影响通过什么渠道传递、是否存在新的合规要求，以及公开材料是否给出了可复核的时间表、样本和定义。",
@@ -2641,7 +2638,7 @@
       "collectedAt": "2026-11-10T20:52:05.576985+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency. The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "Philip R. Lane ：货币政策沟通的科学与实践：欧洲央行的经验",
       "translatedSourceMaterial": "来自公开来源的前沿信息等待后台进一步编辑摘要。 欧洲中央银行（ ECB ）是采用欧元的欧盟国家的中央银行。我们的主要任务是维持欧元区的价格稳定，从而保持单一货币的购买力。",
@@ -2654,16 +2651,16 @@
     {
       "id": 110,
       "category": "科技",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 5,
       "categoryScores": {
         "金融": 0,
-        "科技": 9,
+        "科技": 8,
         "工业": 1,
         "能源": 1,
         "农业": 0,
-        "人文": 3
+        "人文": 1
       },
-      "categoryClassificationMargin": 6,
+      "categoryClassificationMargin": 7,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "科技前沿观察：语音处理先驱Bishnu Saroop Atal去世，享年93岁",
       "excerpt": "Bishnu Saroop Atal声学和信号处理先驱Life Fellow ， 93岁； 8月19日去世。Atal是新泽西州默里山贝尔实验室的声学和信号处理研究员，后来在新泽西州弗洛勒姆公园的AT&T香农实验室工作。他在语音编码技术方面的开创性工作成为通过蜂窝网络进行高效、高质量语音传输的基础。他获得了2013年IEEE Jack S…",
@@ -2723,7 +2720,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Honda to invest $3B in new Ohio hybrid vehicle plant",
       "excerpt": "The factory will create 2,000 jobs. As part of Honda’s focus on hybrids and swift development, it’s keeping close to the automaker’s existing U.S. footprint.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://imgproxy.divecdn.com/4OBGKM3EuXtL0ZuTiL4X0oNuv_mA66vANFctNdA8kIc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjYtMDUtMTRfYXRfMi4wOC41NFBNLnBuZw==.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -2754,7 +2751,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The factory will create 2,000 jobs. As part of Honda’s focus on hybrids and swift development, it’s keeping close to the automaker’s existing U.S. footprint.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 198,
@@ -2884,7 +2883,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "How Do Pandas Have Sex While in Human Care? As the National Zoo’s Director Details in Her New Book, It Takes a Village of Dedicated Keepers",
       "excerpt": "Brandie Smith, who leads the Smithsonian's National Zoo and Conservation Biology Institute, has seen more of pandas' private lives than most people ever will. With \"In the Company of Pandas,\" she explores the world of the lovable black-and-white bears",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/semiconductor.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "category-cover",
@@ -2915,29 +2914,31 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Brandie Smith, who leads the Smithsonian's National Zoo and Conservation Biology Institute, has seen more of pandas' private lives than most people ever will. With \"In the Company of Pandas,\" she explores the world of the lovable black-and-white bears",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 159,
       "category": "金融",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 7,
       "categoryScores": {
-        "金融": 7,
+        "金融": 11,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 11,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“欧洲中央银行”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/network.jpg",
+      "excerpt": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“欧洲中央银行”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://www.ecb.europa.eu/press/key/shared/img/socialmedia/social-default.jpg?0dbb2de262f4f1fcaeae410be132177a",
       "imageFallback": "assets/network.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
+      "imageSourceType": "source-page",
+      "imageAttribution": "European Central Bank",
       "originalTitle": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
       "originalExcerpt": "",
       "source": "European Central Bank",
@@ -2964,7 +2965,10 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 100,
@@ -2982,7 +2986,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Nancy Pelosi’s replacement is ready to regulate AI —Grace Huckins As a California state senator, Scott Wiener authored legislation aimed at…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2024/12/GettyImages-1252251768-SA.jpg?fit=1920,1280",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3013,7 +3017,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Nancy Pelosi’s replacement is ready to regulate AI —Grace Huckins As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a…",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 122,
@@ -3979,28 +3985,36 @@
   ],
   "errors": [
     {
+      "source": "科普中国",
+      "error": "订阅未返回可解析条目"
+    },
+    {
       "source": "European Space Agency Science & Exploration",
-      "error": "连续 2 次请求失败（2601ms）：HTTP Error 404: Not Found"
+      "error": "连续 2 次请求失败（2448ms）：HTTP Error 404: Not Found"
     }
   ],
   "collection": {
-    "id": "2026-11-10T20:52:05.951496+00:00",
-    "startedAt": "2026-11-10T20:51:49.087655+00:00",
-    "finishedAt": "2026-11-10T20:52:05.951496+00:00",
+    "id": "2026-11-11T01:57:56.113580+00:00",
+    "startedAt": "2026-11-11T01:57:34.611152+00:00",
+    "finishedAt": "2026-11-11T01:57:56.113580+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 329,
+    "sourcesSucceeded": 34,
+    "sourcesFailed": 2,
+    "fetched": 327,
     "added": 257,
-    "duplicates": 49,
+    "duplicates": 47,
     "invalid": 1,
     "staleSkipped": 22,
     "maxSourceAgeDays": 45,
     "errors": [
       {
+        "source": "科普中国",
+        "error": "订阅未返回可解析条目"
+      },
+      {
         "source": "European Space Agency Science & Exploration",
-        "error": "连续 2 次请求失败（2601ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（2448ms）：HTTP Error 404: Not Found"
       }
     ],
     "sourceResults": [
@@ -4009,7 +4023,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1334,
+        "durationMs": 4216,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4019,7 +4033,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1181,
+        "durationMs": 1620,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4029,7 +4043,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2131,
+        "durationMs": 3290,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4039,7 +4053,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 512,
+        "durationMs": 917,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4049,7 +4063,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 993,
+        "durationMs": 1513,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4059,7 +4073,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 916,
+        "durationMs": 1470,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4069,7 +4083,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 924,
+        "durationMs": 1493,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4079,7 +4093,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 915,
+        "durationMs": 1551,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4089,7 +4103,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 584,
+        "durationMs": 760,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4097,19 +4111,20 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "success",
+        "status": "failed",
         "attempts": 1,
-        "durationMs": 2961,
-        "fetched": 2,
-        "added": 2,
-        "duplicates": 0
+        "durationMs": 3980,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "订阅未返回可解析条目"
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1045,
+        "durationMs": 1243,
         "fetched": 6,
         "added": 5,
         "duplicates": 0
@@ -4119,7 +4134,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2230,
+        "durationMs": 5877,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4129,7 +4144,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 915,
+        "durationMs": 1694,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4139,7 +4154,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1774,
+        "durationMs": 4669,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4149,7 +4164,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1607,
+        "durationMs": 1812,
         "fetched": 10,
         "added": 7,
         "duplicates": 2
@@ -4159,37 +4174,37 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 52,
+        "durationMs": 34,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 722,
+        "durationMs": 423,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 102,
+        "durationMs": 46,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1058,
+        "durationMs": 935,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4199,7 +4214,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 199,
+        "durationMs": 86,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4209,7 +4224,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 686,
+        "durationMs": 297,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4219,7 +4234,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 748,
+        "durationMs": 390,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4229,7 +4244,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 118,
+        "durationMs": 172,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4239,7 +4254,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 158,
+        "durationMs": 50,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4249,7 +4264,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 481,
+        "durationMs": 374,
         "fetched": 1,
         "added": 1,
         "duplicates": 0
@@ -4259,7 +4274,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 25,
+        "durationMs": 123,
         "fetched": 10,
         "added": 9,
         "duplicates": 0
@@ -4269,7 +4284,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 46,
+        "durationMs": 28,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4279,7 +4294,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 48,
+        "durationMs": 76,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4289,7 +4304,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 755,
+        "durationMs": 397,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4299,17 +4314,17 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 402,
+        "durationMs": 341,
         "fetched": 10,
-        "added": 7,
-        "duplicates": 3
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 89,
+        "durationMs": 918,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4319,7 +4334,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 98,
+        "durationMs": 57,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4329,28 +4344,28 @@
         "source": "European Space Agency Science & Exploration",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 2601,
+        "durationMs": 2448,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（2601ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（2448ms）：HTTP Error 404: Not Found"
       },
       {
         "sourceId": "cgiar",
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 138,
+        "durationMs": 522,
         "fetched": 10,
-        "added": 7,
-        "duplicates": 3
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "ipcc",
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1189,
+        "durationMs": 1142,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4360,7 +4375,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 206,
+        "durationMs": 94,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4378,7 +4393,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 0,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
