@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T09:31:55.159993+00:00",
+  "generatedAt": "2026-11-15T17:14:29.810642+00:00",
   "stories": [
     {
       "id": 1,
@@ -2772,7 +2772,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "能源前沿观察：过去十年，美国的小型太阳能发电量翻了两番",
       "excerpt": "这篇题为《过去十年美国小规模太阳能发电量翻了两番》的文章最初发表在NAM上。根据美国能源信息署最近的估算，过去10年里，美国来自小型太阳能发电设施的发电量增加了四倍。最新情况：“我们估算，美国……能源技术能否扩大应用，往往取决于系统成本、峰谷匹配、并网条件、备用能力和当地规则。关注这些约束，可以避免把一次性项目成功误认为所有地区都能复制。",
-      "body": "核心进展\n\n这篇题为《过去十年美国小规模太阳能发电量翻了两番》的文章最初发表在NAM上。根据美国能源信息署最近的估算，过去10年里，美国来自小型太阳能发电设施的发电量增加了四倍。最新情况：“我们估算，美国……。这一进展属于能源领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n能源信息同时受到资源禀赋、基础设施、政策、气候、价格和国际贸易影响。装机容量、发电量、储能时长、利用率和碳排放是不同概念，不能直接互换。报道中的同比、环比和预测值也必须确认各自的基期。理解能源项目可以拆成资源端、转换端、网络端和消费端：资源决定可获得性，设备决定转换效率，电网或管网决定可调度性，终端需求决定商业价值。储能、氢能和可再生能源还要考虑材料、寿命、回收和安全。\n\n关键内容\n\n理解能源项目可以拆成资源端、转换端、网络端和消费端：资源决定可获得性，设备决定转换效率，电网或管网决定可调度性，终端需求决定商业价值。储能、氢能和可再生能源还要考虑材料、寿命、回收和安全。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n能源技术能否扩大应用，往往取决于系统成本、峰谷匹配、并网条件、备用能力和当地规则。关注这些约束，可以避免把一次性项目成功误认为所有地区都能复制。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "body": "核心进展 这篇题为《过去十年美国小规模太阳能发电量翻了两番》的文章最初发表在NAM上。根据美国能源信息署最近的估算，过去10年里，美国来自小型太阳能发电设施的发电量增加了四倍。最新情况：“我们估算，美国……。这一进展属于能源领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 能源信息同时受到资源禀赋、基础设施、政策、气候、价格和国际贸易影响。装机容量、发电量、储能时长、利用率和碳排放是不同概念，不能直接互换。报道中的同比、环比和预测值也必须确认各自的基期。理解能源项目可以拆成资源端、转换端、网络端和消费端：资源决定可获得性，设备决定转换效率，电网或管网决定可调度性，终端需求决定商业价值。储能、氢能和可再生能源还要考虑材料、寿命、回收和安全。 关键内容 理解能源项目可以拆成资源端、转换端、网络端和消费端：资源决定可获得性，设备决定转换效率，电网或管网决定可调度性，终端需求决定商业价值。储能、氢能和可再生能源还要考虑材料、寿命、回收和安全。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 能源技术能否扩大应用，往往取决于系统成本、峰谷匹配、并网条件、备用能力和当地规则。关注这些约束，可以避免把一次性项目成功误认为所有地区都能复制。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：美国制造商协会公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "https://nam.org/wp-content/uploads/2026/11/quickbuild-4-6.jpg",
       "imageFallback": "assets/energy.jpg",
       "imageSourceType": "rss",
@@ -2813,38 +2813,38 @@
       "contentCharacterCount": 922
     },
     {
-      "id": 231,
+      "id": 228,
       "category": "农业",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
-        "金融": 4,
-        "科技": 0,
+        "金融": 1,
+        "科技": 1,
         "工业": 0,
         "能源": 0,
-        "农业": 8,
+        "农业": 5,
         "人文": 0
       },
       "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "Measure it, finance it, share it: what Nigeria's livestock climate plan offers other countries",
-      "excerpt": "At a COP31 official side event in Antalya, Nigeria laid out one of the most ambitious livestock growth plans in Africa and was candid about the climate questions it raises. The lessons reach well beyond Nigeria.",
-      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/solar.jpg",
+      "title": "农业前沿观察：COP31 已过半程",
+      "excerpt": "在COP31会议过半之际，农业谈判和适应性融资问题仍未得到解决，而CGIAR及其合作伙伴正在推进新的举措、研究和伙伴关系，以加强粮食系统、支持农民并将气候承诺转化为行动。农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
+      "body": "核心进展\n\n在COP31会议过半之际，农业谈判和适应性融资问题仍未得到解决，而CGIAR及其合作伙伴正在推进新的举措、研究和伙伴关系，以加强粮食系统、支持农民并将气候承诺转化为行动。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。\n\n关键内容\n\n分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：国际农业研究磋商组织公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://www.cgiar.org/sites/g/files/fvypus371/files/styles/ogimage_1200x630/public/2026-11/UNFCCC-COP31-4344.jpg.webp?itok=oWx6K2fM",
       "imageFallback": "assets/solar.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
-      "originalTitle": "Measure it, finance it, share it: what Nigeria's livestock climate plan offers other countries",
-      "originalExcerpt": "At a COP31 official side event in Antalya, Nigeria laid out one of the most ambitious livestock growth plans in Africa and was candid about the climate questions it raises. The lessons reach well beyond Nigeria.",
+      "imageSourceType": "source-page",
+      "imageAttribution": "CGIAR",
+      "originalTitle": "COP31 at the halfway point",
+      "originalExcerpt": "At COP31’s halfway point, agriculture negotiations and adaptation finance remain unresolved, while CGIAR and partners advance new initiatives, research and partnerships to strengthen food systems, support farmers and turn climate commitments into action.",
       "source": "CGIAR",
-      "sourceUrl": "https://www.cgiar.org/news-events/news/measure-it-finance-it-share-it-what-nigerias-livestock-climate-plan-offers-other",
+      "sourceUrl": "https://www.cgiar.org/news-events/news/cop31-halfway-point",
       "author": "",
-      "language": "en",
+      "language": "zh-CN",
       "sourceLanguage": "en",
       "confidence": 93,
       "time": "待审核",
-      "readMinutes": 6,
+      "readMinutes": 4,
       "heat": 78,
-      "date": "2026-11-13",
+      "date": "2026-11-15",
       "tags": [
         "农业"
       ],
@@ -2853,15 +2853,20 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-11-13T12:00:00+0000",
-      "sourcePublishedAt": "2026-11-13T12:00:00+00:00",
-      "collectedAt": "2026-11-13T17:48:43.476364+00:00",
+      "originalPublishedAt": "2026-11-15T12:00:00+0000",
+      "sourcePublishedAt": "2026-11-15T12:00:00+00:00",
+      "collectedAt": "2026-11-15T17:14:29.722298+00:00",
       "freshnessDays": 0,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "At a COP31 official side event in Antalya, Nigeria laid out one of the most ambitious livestock growth plans in Africa and was candid about the climate questions it raises. The lessons reach well beyond Nigeria.",
+      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
+      "sourceMaterial": "At COP31’s halfway point, agriculture negotiations and adaptation finance remain unresolved, while CGIAR and partners advance new initiatives, research and partnerships to strengthen food systems, support farmers and turn climate commitments into action.",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "translatedSourceTitle": "COP31 已过半程",
+      "translatedSourceMaterial": "在COP31会议过半之际，农业谈判和适应性融资问题仍未得到解决，而CGIAR及其合作伙伴正在推进新的举措、研究和伙伴关系，以加强粮食系统、支持农民并将气候承诺转化为行动。",
+      "translationProvider": "MyMemory 公共翻译服务",
+      "translationMode": "machine-translation",
+      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
+      "contentGenerationMode": "source-grounded-structured-fallback",
+      "contentCharacterCount": 901
     },
     {
       "id": 255,
@@ -3129,38 +3134,38 @@
       "contentCharacterCount": 895
     },
     {
-      "id": 232,
+      "id": 231,
       "category": "农业",
-      "categoryEvidenceScore": 5,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
-        "金融": 0,
+        "金融": 4,
         "科技": 0,
         "工业": 0,
         "能源": 0,
-        "农业": 9,
+        "农业": 8,
         "人文": 0
       },
-      "categoryClassificationMargin": 9,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "农业前沿观察：在缔约方大会第三十一届会议上发布新的预警报告，以增强粮食系统的韧性",
-      "excerpt": "在COP31粮食与农业馆，CGIAR及其合作伙伴发布了一份新的全球报告，探讨各国如何在厄尔尼诺现象和化肥市场动荡威胁粮食系统的情况下，将早期预警转化为及时行动。农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。",
-      "body": "核心进展 在COP31粮食与农业馆，CGIAR及其合作伙伴发布了一份新的全球报告，探讨各国如何在厄尔尼诺现象和化肥市场动荡威胁粮食系统的情况下，将早期预警转化为及时行动。。这一进展属于农业领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 农业科技的效果受土壤、气候、品种、灌溉、劳动力和市场共同影响。同一套设备在不同地区的结果可能差异很大，短期试验也不一定代表完整生长季。阅读时应确认样本地块、作物种类、季节和对照组。分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。 关键内容 分析精准农业或生物育种，可以从数据采集、决策模型、田间执行和产后环节追踪。传感器与卫星数据只有转化为可操作的播种、施肥、灌溉或病虫害管理建议，才会真正改变生产流程。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 农业创新的评价除了产量，还包括水肥使用、风险、劳动投入、食品安全、农户负担和生态影响。任何宣传性的增产数字，都应与成本、适用范围和连续多年结果一起核验。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：国际农业研究磋商组织公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.cgiar.org/sites/g/files/fvypus371/files/styles/ogimage_1200x630/public/2026-11/DSC02261.jpg.webp?itok=-93PL4Dt",
+      "title": "Measure it, finance it, share it: what Nigeria's livestock climate plan offers other countries",
+      "excerpt": "At a COP31 official side event in Antalya, Nigeria laid out one of the most ambitious livestock growth plans in Africa and was candid about the climate questions it raises. The lessons reach well beyond Nigeria.",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“国际农业研究磋商组织”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "assets/solar.jpg",
       "imageFallback": "assets/solar.jpg",
-      "imageSourceType": "source-page",
-      "imageAttribution": "CGIAR",
-      "originalTitle": "New early warning report launched at COP31 to strengthen food system resilience",
-      "originalExcerpt": "At the COP31 Food & Agriculture Pavilion, CGIAR and partners launched a new global report examining how countries can turn early warnings into timely action as El Niño and disruptions to fertilizer markets threaten food systems.",
+      "imageSourceType": "category-cover",
+      "imageAttribution": "平台板块封面",
+      "originalTitle": "Measure it, finance it, share it: what Nigeria's livestock climate plan offers other countries",
+      "originalExcerpt": "At a COP31 official side event in Antalya, Nigeria laid out one of the most ambitious livestock growth plans in Africa and was candid about the climate questions it raises. The lessons reach well beyond Nigeria.",
       "source": "CGIAR",
-      "sourceUrl": "https://www.cgiar.org/news-events/news/new-early-warning-report-launched-cop31-strengthen-food-system-resilience",
+      "sourceUrl": "https://www.cgiar.org/news-events/news/measure-it-finance-it-share-it-what-nigerias-livestock-climate-plan-offers-other",
       "author": "",
-      "language": "zh-CN",
+      "language": "en",
       "sourceLanguage": "en",
       "confidence": 93,
       "time": "待审核",
-      "readMinutes": 4,
+      "readMinutes": 6,
       "heat": 78,
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "tags": [
         "农业"
       ],
@@ -3169,20 +3174,15 @@
       "sourceType": "research",
       "sourceRegion": "全球",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-11-12T12:00:00+0000",
-      "sourcePublishedAt": "2026-11-12T12:00:00+00:00",
-      "collectedAt": "2026-11-12T09:56:28.802129+00:00",
+      "originalPublishedAt": "2026-11-13T12:00:00+0000",
+      "sourcePublishedAt": "2026-11-13T12:00:00+00:00",
+      "collectedAt": "2026-11-13T17:48:43.476364+00:00",
       "freshnessDays": 0,
-      "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "At the COP31 Food & Agriculture Pavilion, CGIAR and partners launched a new global report examining how countries can turn early warnings into timely action as El Niño and disruptions to fertilizer markets threaten food systems.",
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "sourceMaterial": "At a COP31 official side event in Antalya, Nigeria laid out one of the most ambitious livestock growth plans in Africa and was candid about the climate questions it raises. The lessons reach well beyond Nigeria.",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "在缔约方大会第三十一届会议上发布新的预警报告，以增强粮食系统的韧性",
-      "translatedSourceMaterial": "在COP31粮食与农业馆，CGIAR及其合作伙伴发布了一份新的全球报告，探讨各国如何在厄尔尼诺现象和化肥市场动荡威胁粮食系统的情况下，将早期预警转化为及时行动。",
-      "translationProvider": "MyMemory 公共翻译服务",
-      "translationMode": "machine-translation",
-      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
-      "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 898
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 151,
@@ -3988,13 +3988,13 @@
   "errors": [
     {
       "source": "European Space Agency Science & Exploration",
-      "error": "连续 2 次请求失败（2418ms）：HTTP Error 404: Not Found"
+      "error": "连续 2 次请求失败（2114ms）：HTTP Error 404: Not Found"
     }
   ],
   "collection": {
-    "id": "2026-11-15T09:31:55.159993+00:00",
-    "startedAt": "2026-11-15T09:31:35.449682+00:00",
-    "finishedAt": "2026-11-15T09:31:55.159993+00:00",
+    "id": "2026-11-15T17:14:29.810642+00:00",
+    "startedAt": "2026-11-15T17:14:10.076273+00:00",
+    "finishedAt": "2026-11-15T17:14:29.810642+00:00",
     "status": "partial",
     "sourcesTotal": 36,
     "sourcesSucceeded": 35,
@@ -4008,7 +4008,7 @@
     "errors": [
       {
         "source": "European Space Agency Science & Exploration",
-        "error": "连续 2 次请求失败（2418ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（2114ms）：HTTP Error 404: Not Found"
       }
     ],
     "sourceResults": [
@@ -4017,7 +4017,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1859,
+        "durationMs": 1976,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4027,7 +4027,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1287,
+        "durationMs": 1406,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4037,7 +4037,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2640,
+        "durationMs": 2842,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4047,7 +4047,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1013,
+        "durationMs": 753,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4057,7 +4057,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1581,
+        "durationMs": 1555,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4067,7 +4067,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1710,
+        "durationMs": 1379,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4077,7 +4077,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1654,
+        "durationMs": 1504,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4087,7 +4087,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1524,
+        "durationMs": 1318,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4097,7 +4097,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 833,
+        "durationMs": 929,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4107,7 +4107,7 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3285,
+        "durationMs": 3615,
         "fetched": 1,
         "added": 1,
         "duplicates": 0
@@ -4117,7 +4117,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2121,
+        "durationMs": 1887,
         "fetched": 6,
         "added": 5,
         "duplicates": 0
@@ -4127,7 +4127,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2567,
+        "durationMs": 5827,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4137,7 +4137,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1099,
+        "durationMs": 1323,
         "fetched": 10,
         "added": 1,
         "duplicates": 9
@@ -4147,7 +4147,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1885,
+        "durationMs": 1426,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4157,7 +4157,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1963,
+        "durationMs": 2914,
         "fetched": 10,
         "added": 6,
         "duplicates": 2
@@ -4167,7 +4167,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 161,
+        "durationMs": 90,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4187,7 +4187,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 127,
+        "durationMs": 141,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4197,7 +4197,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 948,
+        "durationMs": 1007,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4207,7 +4207,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 219,
+        "durationMs": 170,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4217,7 +4217,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 517,
+        "durationMs": 534,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4227,7 +4227,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 849,
+        "durationMs": 682,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4237,7 +4237,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 181,
+        "durationMs": 229,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4247,7 +4247,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 123,
+        "durationMs": 137,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4257,7 +4257,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4412,
+        "durationMs": 420,
         "fetched": 1,
         "added": 1,
         "duplicates": 0
@@ -4267,7 +4267,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 152,
+        "durationMs": 136,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4277,7 +4277,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 116,
+        "durationMs": 102,
         "fetched": 10,
         "added": 6,
         "duplicates": 0
@@ -4287,7 +4287,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 153,
+        "durationMs": 121,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4297,7 +4297,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 784,
+        "durationMs": 535,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4307,7 +4307,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 291,
+        "durationMs": 250,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4317,7 +4317,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1162,
+        "durationMs": 160,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4326,8 +4326,8 @@
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
         "status": "success",
-        "attempts": 1,
-        "durationMs": 244,
+        "attempts": 2,
+        "durationMs": 1070,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4337,18 +4337,18 @@
         "source": "European Space Agency Science & Exploration",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 2418,
+        "durationMs": 2114,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（2418ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（2114ms）：HTTP Error 404: Not Found"
       },
       {
         "sourceId": "cgiar",
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 322,
+        "durationMs": 284,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4358,7 +4358,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1101,
+        "durationMs": 946,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4368,7 +4368,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 168,
+        "durationMs": 183,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4386,7 +4386,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 0,
+      "translated": 1,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
