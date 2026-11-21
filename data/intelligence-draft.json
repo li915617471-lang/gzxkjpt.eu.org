@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-21T03:15:14.822296+00:00",
+  "generatedAt": "2026-11-21T12:44:26.632662+00:00",
   "stories": [
     {
       "id": 1,
       "category": "金融",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 5,
       "categoryScores": {
-        "金融": 7,
+        "金融": 9,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 9,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "金融前沿观察：中国人民银行召开党的二十届五中全会精神宣讲报告会",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行召开党的二十届五中全会精神宣讲报告会。对全系统学习贯彻党的二十届五中全会精神提出要求。王江围绕学习贯彻习近平总书记重要讲话精神和全会通过的《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》。深入学习领会持之以恒推进全面从严治党的总体要求和战略任务等方面。要持续抓好全会精神的学习宣传贯彻…",
@@ -47,7 +47,7 @@
       "collectedAt": "2026-11-21T03:15:13.501258+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行召开党的二十届五中全会精神宣讲报告会。对全系统学习贯彻党的二十届五中全会精神提出要求。王江围绕学习贯彻习近平总书记重要讲话精神和全会通过的《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》。深入学习领会持之以恒推进全面从严治党的总体要求和战略任务等方面。要持续抓好全会精神的学习宣传贯彻。持之以恒推进金融系统全面从严治党。对于中国人民银行系统深入学习贯彻全会精神。全面贯彻落实新时代党的组织路线。",
+      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行召开党的二十届五中全会精神宣讲报告会。对全系统学习贯彻党的二十届五中全会精神提出要求。王江围绕学习贯彻习近平总书记重要讲话精神和全会通过的《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》。深入学习领会持之以恒推进全面从严治党的总体要求和战略任务等方面。要持续抓好全会精神的学习宣传贯彻。持之以恒推进金融系统全面从严治党。对于中国人民银行系统深入学习贯彻全会精神。全面贯彻落实新时代党的组织路线。 中国人民银行召开党的二十届五中全会精神宣讲报告会。对全系统学习贯彻党的二十届五中全会精神提出要求。王江围绕学习贯彻习近平总书记重要讲话精神和全会通过的《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》。深入学习领会持之以恒推进全面从严治党的总体要求和战略任务等方面。要持续抓好全会精神的学习宣传贯彻。持之以恒推进金融系统全面从严治党。对于中国人民银行系统深入学习贯彻全会精神。全面贯彻落实新时代党的组织路线。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "translatedSourceTitle": "中国人民银行召开党的二十届五中全会精神宣讲报告会",
@@ -2644,60 +2644,60 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 256,
+      "id": 229,
       "category": "科技",
-      "categoryEvidenceScore": 4,
+      "categoryEvidenceScore": 2,
       "categoryScores": {
         "金融": 0,
         "科技": 5,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 3
+        "人文": 1
       },
-      "categoryClassificationMargin": 2,
+      "categoryClassificationMargin": 4,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：寻找顶级暗物质候选者的工作正失去希望。然后，一个潜在的信号出现了。这是否足以为这个举步维艰的领域注入活力？",
-      "excerpt": "物理学家们对弱相互作用大质量粒子（WIMP）越来越感到厌倦，这种粒子曾被认为是构成暗物质的候选粒子之一。尽管他们抱有谨慎的乐观态度，但仍面临许多挑战。技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。",
-      "body": "核心进展\n\n物理学家们对弱相互作用大质量粒子（WIMP）越来越感到厌倦，这种粒子曾被认为是构成暗物质的候选粒子之一。尽管他们抱有谨慎的乐观态度，但仍面临许多挑战。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://th-thumbnailer.cdn-si-edu.com/p2im_76E7upKmMHONuqz2w2AEtA=/420x240/filters:focal(1368x912:1369x913)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/b9/fb/b9fbbcf1-9c5a-4a52-9688-1a24f8954445/laboratori_nazionali_del_gran_sasso_infn_tqb1_2014-02.jpg",
+      "title": "科技前沿观察：APOD：2026年11月21日 – 航海家号的海王星",
+      "excerpt": "APOD科学APODAPOD：2026年11月21日–…今日APOD存档投稿索引搜索日历RSS教育关于讨论APOD每日天文奇景探索宇宙！每天都会精选一张我们迷人宇宙的不同图像或照片，并附上一名专业天文学家撰写的简短说明。“旅行者”号的海王星 说明：[…]技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来…",
+      "body": "核心进展\n\nAPOD科学APODAPOD：2026年11月21日–…今日APOD存档投稿索引搜索日历RSS教育关于讨论APOD每日天文奇景探索宇宙！每天都会精选一张我们迷人宇宙的不同图像或照片，并附上一名专业天文学家撰写的简短说明。“旅行者”号的海王星 说明：[…]。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Neptune-South-Pole-Voyager-2_2327x1670.jpg?w=2048&h=1669&fit=clip",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "Smithsonian Magazine",
-      "originalTitle": "The Search for a Top Dark Matter Candidate Was Losing Hope. Then Came a Potential Signal. Will It Be Enough to Energize the Struggling Field?",
-      "originalExcerpt": "Physicists were growing weary with WIMPs, one proposed contender for the particles that make up dark matter. Despite their new cautious optimism, many challenges remain",
-      "source": "Smithsonian Magazine",
-      "sourceUrl": "https://www.smithsonianmag.com/science-nature/the-search-for-a-top-dark-matter-candidate-was-losing-hope-then-came-a-potential-signal-will-it-be-enough-to-energize-the-struggling-field-180989923/",
+      "imageAttribution": "NASA Breaking News",
+      "originalTitle": "APOD: 2026 November 21 – Voyager’s Neptune",
+      "originalExcerpt": "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Voyager’s Neptune Explanation: […]",
+      "source": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 89,
+      "confidence": 95,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "tags": [
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "smithsonian-magazine",
-      "sourceType": "research",
+      "collectionSourceId": "nasa-breaking-news",
+      "sourceType": "official",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "professional",
-      "originalPublishedAt": "Fri, 20 Nov 2026 20:50:38 +0000",
-      "sourcePublishedAt": "2026-11-20T20:50:38+00:00",
-      "collectedAt": "2026-11-20T21:51:09.786298+00:00",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "Sat, 21 Nov 2026 05:05:00 +0000",
+      "sourcePublishedAt": "2026-11-21T05:05:00+00:00",
+      "collectedAt": "2026-11-21T12:44:26.537418+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Physicists were growing weary with WIMPs, one proposed contender for the particles that make up dark matter. Despite their new cautious optimism, many challenges remain",
+      "sourceMaterial": "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Voyager’s Neptune Explanation: […]",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "寻找顶级暗物质候选者的工作正失去希望。然后，一个潜在的信号出现了。这是否足以为这个举步维艰的领域注入活力？",
-      "translatedSourceMaterial": "物理学家们对弱相互作用大质量粒子（WIMP）越来越感到厌倦，这种粒子曾被认为是构成暗物质的候选粒子之一。尽管他们抱有谨慎的乐观态度，但仍面临许多挑战。",
+      "translatedSourceTitle": "APOD：2026年11月21日 – 航海家号的海王星",
+      "translatedSourceMaterial": "APOD科学APODAPOD：2026年11月21日–…今日APOD存档投稿索引搜索日历RSS教育关于讨论APOD每日天文奇景探索宇宙！每天都会精选一张我们迷人宇宙的不同图像或照片，并附上一名专业天文学家撰写的简短说明。“旅行者”号的海王星 说明：[…]",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 911
+      "contentCharacterCount": 958
     },
     {
       "id": 213,
@@ -2745,7 +2745,7 @@
       "collectedAt": "2026-11-21T03:15:14.641499+00:00",
       "freshnessDays": 1,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "The post The 5th Manufacturing Legal Summit Was a Resounding Success appeared first on NAM . The NAM’s 2026 Manufacturing Legal Summit, held last week in Washington, D.C., earned rave reviews from attendees.What’s going on: The fifth annual event—the nation’s only legal conference designed exclusively for...",
+      "sourceMaterial": "The post The 5th Manufacturing Legal Summit Was a Resounding Success appeared first on NAM . The NAM’s 2026 Manufacturing Legal Summit, held last week in Washington, D.C., earned rave reviews from attendees.What’s going on: The fifth annual event—the nation’s only legal conference designed exclusively for... The NAM’s 2026 Manufacturing Legal Summit, held last week in Washington, D.C., earned rave reviews from attendees.What’s going on: The fifth annual event—the nation’s only legal conference designed exclusively for...",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "第五届制造业法律峰会圆满成功",
       "translatedSourceMaterial": "这篇文章《第五届制造业法律峰会圆满成功》最初发表在NAM网站上。美国制造商协会的2026年制造业法律峰会于上周在华盛顿特区举行，获得了与会者的好评。最新动态：这是第五届年度活动，也是全国唯一专门为……举办的法律会议。",
@@ -2965,34 +2965,34 @@
       "translatedSourceMaterial": ""
     },
     {
-      "id": 228,
+      "id": 256,
       "category": "科技",
-      "categoryEvidenceScore": 2,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
-        "金融": 1,
+        "金融": 0,
         "科技": 5,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 3
       },
-      "categoryClassificationMargin": 4,
+      "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：美国宇航局的新种子基金为小企业的创新做好准备",
-      "excerpt": "向全国各地的小企业颁发的奖项正在满足NASA在探索月球和火星方面的一些最关键的技术需求，同时也在推动美国太空经济的发展。美国宇航局的小企业创新研究/小企业技术转让（SBIR/STTR）计划最近选定了302个创新项目，总计投入高达1.71亿美元的种子资金……向全国各地的小企业颁发奖金。 正在努力满足美国宇航局在月球和火星探索方面的一些最关键的技术需求…",
-      "body": "核心进展 向全国各地的小企业颁发的奖项正在满足NASA在探索月球和火星方面的一些最关键的技术需求，同时也在推动美国太空经济的发展。美国宇航局的小企业创新研究/小企业技术转让（SBIR/STTR）计划最近选定了302个创新项目，总计投入高达1.71亿美元的种子资金……向全国各地的小企业颁发奖金。 正在努力满足美国宇航局在月球和火星探索方面的一些最关键的技术需求，同时为。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。 关键内容 理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：美国国家航空航天局公开资料。版权归原作者或发布机构所有，请以原文为准。",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/11/elementium-illustration.png?w=1064",
+      "title": "科技前沿观察：寻找顶级暗物质候选者的工作正失去希望。然后，一个潜在的信号出现了。这是否足以为这个举步维艰的领域注入活力？",
+      "excerpt": "物理学家们对弱相互作用大质量粒子（WIMP）越来越感到厌倦，这种粒子曾被认为是构成暗物质的候选粒子之一。尽管他们抱有谨慎的乐观态度，但仍面临许多挑战。技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。",
+      "body": "核心进展 物理学家们对弱相互作用大质量粒子（WIMP）越来越感到厌倦，这种粒子曾被认为是构成暗物质的候选粒子之一。尽管他们抱有谨慎的乐观态度，但仍面临许多挑战。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。 背景与原理 科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。 关键内容 理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。 应用与影响 技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。 简要来源 来源：史密森学会杂志公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "image": "https://th-thumbnailer.cdn-si-edu.com/p2im_76E7upKmMHONuqz2w2AEtA=/420x240/filters:focal(1368x912:1369x913)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/b9/fb/b9fbbcf1-9c5a-4a52-9688-1a24f8954445/laboratori_nazionali_del_gran_sasso_infn_tqb1_2014-02.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
-      "imageAttribution": "NASA Breaking News",
-      "originalTitle": "New NASA Seed Funding Primes Small Businesses for Innovation",
-      "originalExcerpt": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed […]",
-      "source": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
+      "imageAttribution": "Smithsonian Magazine",
+      "originalTitle": "The Search for a Top Dark Matter Candidate Was Losing Hope. Then Came a Potential Signal. Will It Be Enough to Energize the Struggling Field?",
+      "originalExcerpt": "Physicists were growing weary with WIMPs, one proposed contender for the particles that make up dark matter. Despite their new cautious optimism, many challenges remain",
+      "source": "Smithsonian Magazine",
+      "sourceUrl": "https://www.smithsonianmag.com/science-nature/the-search-for-a-top-dark-matter-candidate-was-losing-hope-then-came-a-potential-signal-will-it-be-enough-to-energize-the-struggling-field-180989923/",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "en",
-      "confidence": 95,
+      "confidence": 89,
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
@@ -3001,24 +3001,24 @@
         "科技"
       ],
       "status": "review",
-      "collectionSourceId": "nasa-breaking-news",
-      "sourceType": "official",
+      "collectionSourceId": "smithsonian-magazine",
+      "sourceType": "research",
       "sourceRegion": "全球",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "Fri, 20 Nov 2026 20:46:14 +0000",
-      "sourcePublishedAt": "2026-11-20T20:46:14+00:00",
-      "collectedAt": "2026-11-20T21:51:09.708072+00:00",
+      "sourceTrustLevel": "professional",
+      "originalPublishedAt": "Fri, 20 Nov 2026 20:50:38 +0000",
+      "sourcePublishedAt": "2026-11-20T20:50:38+00:00",
+      "collectedAt": "2026-11-20T21:51:09.786298+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed […] Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling",
+      "sourceMaterial": "Physicists were growing weary with WIMPs, one proposed contender for the particles that make up dark matter. Despite their new cautious optimism, many challenges remain",
       "sourceMaterialType": "rss",
-      "translatedSourceTitle": "美国宇航局的新种子基金为小企业的创新做好准备",
-      "translatedSourceMaterial": "向全国各地的小企业颁发的奖项正在满足NASA在探索月球和火星方面的一些最关键的技术需求，同时也在推动美国太空经济的发展。美国宇航局的小企业创新研究/小企业技术转让（SBIR/STTR）计划最近选定了302个创新项目，总计投入高达1.71亿美元的种子资金……向全国各地的小企业颁发奖金。 正在努力满足美国宇航局在月球和火星探索方面的一些最关键的技术需求，同时为",
+      "translatedSourceTitle": "寻找顶级暗物质候选者的工作正失去希望。然后，一个潜在的信号出现了。这是否足以为这个举步维艰的领域注入活力？",
+      "translatedSourceMaterial": "物理学家们对弱相互作用大质量粒子（WIMP）越来越感到厌倦，这种粒子曾被认为是构成暗物质的候选粒子之一。尽管他们抱有谨慎的乐观态度，但仍面临许多挑战。",
       "translationProvider": "MyMemory 公共翻译服务",
       "translationMode": "machine-translation",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 1010
+      "contentCharacterCount": 911
     },
     {
       "id": 211,
@@ -3976,28 +3976,36 @@
   ],
   "errors": [
     {
+      "source": "科普中国",
+      "error": "订阅未返回可解析条目"
+    },
+    {
       "source": "European Space Agency Science & Exploration",
-      "error": "连续 2 次请求失败（1587ms）：HTTP Error 404: Not Found"
+      "error": "连续 2 次请求失败（1673ms）：HTTP Error 404: Not Found"
     }
   ],
   "collection": {
-    "id": "2026-11-21T03:15:14.822296+00:00",
-    "startedAt": "2026-11-21T03:14:58.671837+00:00",
-    "finishedAt": "2026-11-21T03:15:14.822296+00:00",
+    "id": "2026-11-21T12:44:26.632662+00:00",
+    "startedAt": "2026-11-21T12:44:05.294598+00:00",
+    "finishedAt": "2026-11-21T12:44:26.632662+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 329,
-    "added": 264,
+    "sourcesSucceeded": 34,
+    "sourcesFailed": 2,
+    "fetched": 328,
+    "added": 263,
     "duplicates": 38,
     "invalid": 1,
     "staleSkipped": 26,
     "maxSourceAgeDays": 45,
     "errors": [
       {
+        "source": "科普中国",
+        "error": "订阅未返回可解析条目"
+      },
+      {
         "source": "European Space Agency Science & Exploration",
-        "error": "连续 2 次请求失败（1587ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（1673ms）：HTTP Error 404: Not Found"
       }
     ],
     "sourceResults": [
@@ -4006,7 +4014,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 980,
+        "durationMs": 4017,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4016,7 +4024,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1169,
+        "durationMs": 1254,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4026,7 +4034,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1724,
+        "durationMs": 1730,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4036,7 +4044,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 848,
+        "durationMs": 1079,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4046,7 +4054,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1302,
+        "durationMs": 1300,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4056,7 +4064,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1360,
+        "durationMs": 1262,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4066,7 +4074,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1152,
+        "durationMs": 1220,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4076,7 +4084,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1407,
+        "durationMs": 1264,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4086,7 +4094,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 494,
+        "durationMs": 747,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4094,19 +4102,20 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "success",
+        "status": "failed",
         "attempts": 1,
-        "durationMs": 2429,
-        "fetched": 1,
-        "added": 1,
-        "duplicates": 0
+        "durationMs": 3119,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "订阅未返回可解析条目"
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1897,
+        "durationMs": 1861,
         "fetched": 6,
         "added": 5,
         "duplicates": 0
@@ -4116,7 +4125,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3000,
+        "durationMs": 7615,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4126,7 +4135,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1197,
+        "durationMs": 2424,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4136,7 +4145,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1838,
+        "durationMs": 1751,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4146,7 +4155,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2073,
+        "durationMs": 1547,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4156,7 +4165,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 122,
+        "durationMs": 79,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4166,7 +4175,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 151,
+        "durationMs": 165,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4176,17 +4185,17 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 60,
+        "durationMs": 85,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "semiconductor-engineering",
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1066,
+        "durationMs": 1026,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4196,7 +4205,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 228,
+        "durationMs": 230,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4206,7 +4215,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 665,
+        "durationMs": 593,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4216,7 +4225,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 502,
+        "durationMs": 461,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4226,7 +4235,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 100,
+        "durationMs": 157,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4236,7 +4245,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 34,
+        "durationMs": 89,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4246,7 +4255,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 535,
+        "durationMs": 458,
         "fetched": 2,
         "added": 2,
         "duplicates": 0
@@ -4256,7 +4265,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 44,
+        "durationMs": 199,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4266,7 +4275,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 53,
+        "durationMs": 91,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4276,7 +4285,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 43,
+        "durationMs": 73,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4286,7 +4295,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 764,
+        "durationMs": 1020,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4296,17 +4305,17 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 255,
+        "durationMs": 223,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "harvard-gazette-arts-humanities",
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 97,
+        "durationMs": 191,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4316,7 +4325,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 102,
+        "durationMs": 292,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4326,18 +4335,18 @@
         "source": "European Space Agency Science & Exploration",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 1587,
+        "durationMs": 1673,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（1587ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（1673ms）：HTTP Error 404: Not Found"
       },
       {
         "sourceId": "cgiar",
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 227,
+        "durationMs": 296,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4347,7 +4356,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1259,
+        "durationMs": 1275,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4357,7 +4366,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 95,
+        "durationMs": 139,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
