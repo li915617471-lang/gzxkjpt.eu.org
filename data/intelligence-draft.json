@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T20:33:53.315866+00:00",
+  "generatedAt": "2026-11-22T02:17:51.397111+00:00",
   "stories": [
     {
       "id": 1,
@@ -1354,30 +1354,30 @@
       "contentCharacterCount": 1086
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "科技",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 0,
       "categoryScores": {
         "金融": 0,
-        "科技": 7,
+        "科技": 3,
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 0
+        "人文": 1
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科技前沿观察：晶圆级石墨烯量子整流研究取得进展",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。",
-      "body": "核心进展\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：中国科学院公开资料。版权归原作者或发布机构所有，请以原文为准。",
+      "title": "科技前沿观察：我国境内最晚直立人化石被发现",
+      "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究…",
+      "body": "核心进展\n\n人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…。这一进展属于科技领域近期公开信息的一部分，核心内容集中在上述主题本身及其所涉及的技术、制度或应用变化。\n\n背景与原理\n\n科技报道通常把研究成果、工程样机、产品发布和商业化结果放在同一条新闻流中，但它们的证据强度不同。实验室指标不等于规模化性能，演示系统也不等于稳定产品，阅读时应分辨论文、测试、专利、项目公告和企业宣传的边界。理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。\n\n关键内容\n\n理解技术进展可以从输入、处理过程、输出指标和限制条件四步拆解。芯片看制程、封装、功耗和良率，人工智能看数据、模型、算力、评测和部署成本，科研项目还要关注可重复性、同行评议和实验条件。这类进展通常由多个环节共同构成，既包括前端的研究、设计与资源投入，也包括中间环节的实施、测试和协作，还包括最终应用中的成本、效率、稳定性与实际需求。把这些环节联系起来，可以更清楚地理解一项进展在整个领域中的位置，以及它与既有方法之间的关系。具体案例中的目标、实施主体、所用方法、阶段性结果和应用对象共同构成信息主线，各个环节之间的衔接方式往往比单一指标更能说明其实际意义。参与者之间的分工也会影响成果的形成方式：研究机构提供知识与方法，企业负责工程化和运营，公共部门制定规则并建设基础条件，最终使用者则通过真实需求推动方案持续调整。一个项目从提出概念到稳定应用，通常会依次经历研究、试验、示范、部署和长期运行等阶段，每个阶段关注的问题和形成的价值都不相同。\n\n应用与影响\n\n技术是否产生行业影响，取决于可靠性、成本、供应链、标准、人才和监管等共同条件。把这些条件列出来，比只引用一个刷新纪录的指标更能帮助读者判断技术成熟度。从应用角度看，新的知识、技术或制度安排需要经过具体场景的使用，才能转化为持续的社会和产业价值。不同地区、组织和使用者具备的基础条件并不相同，实际影响往往会随着基础设施、专业能力、资源配置和应用方式而变化。围绕这些条件展开，可以把单条信息放进更完整的发展脉络中理解。\n\n简要来源\n\n来源：中国科学院公开资料。版权归原作者或发布机构所有，请以原文为准。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "晶圆级石墨烯量子整流研究取得进展",
+      "originalTitle": "我国境内最晚直立人化石被发现",
       "originalExcerpt": "",
       "source": "中国科学院",
-      "sourceUrl": "https://www.cas.cn/syky/202610/t20261008_5121513.shtml",
+      "sourceUrl": "https://www.cas.cn/syky/202611/t20261119_5124600.shtml",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -1385,7 +1385,7 @@
       "time": "待审核",
       "readMinutes": 4,
       "heat": 78,
-      "date": "2026-10-08",
+      "date": "2026-11-19",
       "tags": [
         "科技"
       ],
@@ -1394,18 +1394,19 @@
       "sourceType": "research",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-10-08",
-      "sourcePublishedAt": "2026-10-08T00:00:00+00:00",
-      "collectedAt": "2026-10-09T09:12:46.272115+00:00",
-      "freshnessDays": 1,
+      "originalPublishedAt": "2026-11-19",
+      "sourcePublishedAt": "2026-11-19T00:00:00+00:00",
+      "collectedAt": "2026-11-19T10:26:50.156946+00:00",
+      "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "sourceMaterial": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
       "sourceMaterialType": "rss",
-      "contentGenerationFallbackReason": "来源材料不足 120 字符，不能可靠扩写",
-      "translatedSourceTitle": "晶圆级石墨烯量子整流研究取得进展",
-      "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "我国境内最晚直立人化石被发现",
+      "translatedSourceMaterial": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
+      "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "contentGenerationMode": "source-grounded-structured-fallback",
-      "contentCharacterCount": 862
+      "contentCharacterCount": 1083
     },
     {
       "id": 89,
@@ -1679,7 +1680,7 @@
       "contentCharacterCount": 1089
     },
     {
-      "id": 12,
+      "id": 13,
       "category": "科技",
       "categoryEvidenceScore": 0,
       "categoryScores": {
@@ -1692,17 +1693,17 @@
       },
       "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "我国境内最晚直立人化石被发现",
+      "title": "研究实现神经毒剂超灵敏无线检测",
       "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
       "body": "核心信息 人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "我国境内最晚直立人化石被发现",
+      "originalTitle": "研究实现神经毒剂超灵敏无线检测",
       "originalExcerpt": "",
       "source": "中国科学院",
-      "sourceUrl": "https://www.cas.cn/syky/202611/t20261119_5124600.shtml",
+      "sourceUrl": "https://www.cas.cn/syky/202611/t20261119_5124599.shtml",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -1721,8 +1722,8 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "2026-11-19",
       "sourcePublishedAt": "2026-11-19T00:00:00+00:00",
-      "collectedAt": "2026-11-19T10:26:50.156946+00:00",
-      "freshnessDays": 0,
+      "collectedAt": "2026-11-20T03:25:19.181867+00:00",
+      "freshnessDays": 1,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
       "sourceMaterialType": "rss",
@@ -2003,7 +2004,7 @@
       "contentCharacterCount": 1102
     },
     {
-      "id": 13,
+      "id": 14,
       "category": "科技",
       "categoryEvidenceScore": 0,
       "categoryScores": {
@@ -2016,17 +2017,17 @@
       },
       "categoryClassificationMargin": 2,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "研究实现神经毒剂超灵敏无线检测",
+      "title": "自适应润滑体系研究取得进展",
       "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
       "body": "核心信息 人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "研究实现神经毒剂超灵敏无线检测",
+      "originalTitle": "自适应润滑体系研究取得进展",
       "originalExcerpt": "",
       "source": "中国科学院",
-      "sourceUrl": "https://www.cas.cn/syky/202611/t20261119_5124599.shtml",
+      "sourceUrl": "https://www.cas.cn/syky/202611/t20261118_5124528.shtml",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -2034,7 +2035,7 @@
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-11-19",
+      "date": "2026-11-18",
       "tags": [
         "科技"
       ],
@@ -2043,10 +2044,10 @@
       "sourceType": "research",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-11-19",
-      "sourcePublishedAt": "2026-11-19T00:00:00+00:00",
-      "collectedAt": "2026-11-20T03:25:19.181867+00:00",
-      "freshnessDays": 1,
+      "originalPublishedAt": "2026-11-18",
+      "sourcePublishedAt": "2026-11-18T00:00:00+00:00",
+      "collectedAt": "2026-11-18T07:37:11.446702+00:00",
+      "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
       "sourceMaterialType": "rss",
@@ -2334,21 +2335,21 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 1
+        "人文": 0
       },
-      "categoryClassificationMargin": 2,
+      "categoryClassificationMargin": 3,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "自适应润滑体系研究取得进展",
-      "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
-      "body": "核心信息 人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "植物MicroRNA综合研究平台PmiREN3.0发布",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "自适应润滑体系研究取得进展",
+      "originalTitle": "植物MicroRNA综合研究平台PmiREN3.0发布",
       "originalExcerpt": "",
       "source": "中国科学院",
-      "sourceUrl": "https://www.cas.cn/syky/202611/t20261118_5124528.shtml",
+      "sourceUrl": "https://www.cas.cn/syky/202611/t20261118_5124530.shtml",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -2367,14 +2368,11 @@
       "sourceTrustLevel": "authoritative",
       "originalPublishedAt": "2026-11-18",
       "sourcePublishedAt": "2026-11-18T00:00:00+00:00",
-      "collectedAt": "2026-11-18T07:37:11.446702+00:00",
-      "freshnessDays": 0,
+      "collectedAt": "2026-11-22T02:17:50.697443+00:00",
+      "freshnessDays": 4,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "summarySourceType": "source-page",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "sourceMaterialType": "rss"
     },
     {
       "id": 84,
@@ -3230,6 +3228,65 @@
       "translatedSourceMaterial": ""
     },
     {
+      "id": 79,
+      "category": "科技",
+      "categoryEvidenceScore": 3,
+      "categoryScores": {
+        "金融": 0,
+        "科技": 7,
+        "工业": 0,
+        "能源": 0,
+        "农业": 0,
+        "人文": 0
+      },
+      "categoryClassificationMargin": 7,
+      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
+      "title": "当AI开始设计基因组，如何守住伦理边界？",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/11/20/16/1795074922751.png",
+      "imageFallback": "assets/datacenter.jpg",
+      "imageSourceType": "rss",
+      "imageAttribution": "科普中国",
+      "originalTitle": "当AI开始设计基因组，如何守住伦理边界？",
+      "originalExcerpt": "",
+      "source": "科普中国",
+      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=763305",
+      "author": "",
+      "language": "zh-CN",
+      "sourceLanguage": "zh-CN",
+      "confidence": 96,
+      "time": "待审核",
+      "readMinutes": 6,
+      "heat": 78,
+      "date": "2026-11-22",
+      "tags": [
+        "科技"
+      ],
+      "status": "review",
+      "collectionSourceId": "china-kepuchina-video",
+      "sourceType": "official",
+      "sourceRegion": "中国",
+      "sourceTrustLevel": "authoritative",
+      "originalPublishedAt": "",
+      "sourcePublishedAt": "",
+      "collectedAt": "2026-11-22T02:17:50.791711+00:00",
+      "freshnessDays": null,
+      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
+      "sourceMaterial": "",
+      "sourceMaterialType": "rss",
+      "contentKind": "video",
+      "videoType": "external",
+      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=763305",
+      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/11/20/16/1795074922751.png",
+      "videoRightsConfirmed": true,
+      "videoLinkOnly": true,
+      "homeVideoFeatured": true,
+      "homeVideoPriority": 72,
+      "videoDuration": "",
+      "videoExternalId": "763305"
+    },
+    {
       "id": 80,
       "category": "科技",
       "categoryEvidenceScore": 5,
@@ -3911,101 +3968,32 @@
       "summarySourceType": "source-page",
       "translatedSourceTitle": "",
       "translatedSourceMaterial": ""
-    },
-    {
-      "id": 78,
-      "category": "科技",
-      "categoryEvidenceScore": 3,
-      "categoryScores": {
-        "金融": 0,
-        "科技": 7,
-        "工业": 0,
-        "能源": 0,
-        "农业": 0,
-        "人文": 4
-      },
-      "categoryClassificationMargin": 3,
-      "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "“会走的星星”是什么？跟天文学家一起仰望星空读懂宇宙",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息 来自公开来源的前沿信息，等待后台进一步编辑摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“科普中国”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "https://pqnoss.kepuchina.cn/kepuyun/2026/10/31/11/1793328258246.png",
-      "imageFallback": "assets/datacenter.jpg",
-      "imageSourceType": "rss",
-      "imageAttribution": "科普中国",
-      "originalTitle": "“会走的星星”是什么？跟天文学家一起仰望星空读懂宇宙",
-      "originalExcerpt": "",
-      "source": "科普中国",
-      "sourceUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=752584",
-      "author": "",
-      "language": "zh-CN",
-      "sourceLanguage": "zh-CN",
-      "confidence": 96,
-      "time": "待审核",
-      "readMinutes": 6,
-      "heat": 78,
-      "date": "2026-11-01",
-      "tags": [
-        "科技"
-      ],
-      "status": "review",
-      "collectionSourceId": "china-kepuchina-video",
-      "sourceType": "official",
-      "sourceRegion": "中国",
-      "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "",
-      "sourcePublishedAt": "",
-      "collectedAt": "2026-11-01T06:16:07.512684+00:00",
-      "freshnessDays": null,
-      "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
-      "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "contentKind": "video",
-      "videoType": "external",
-      "videoUrl": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=2&ar_id=752584",
-      "videoPoster": "https://pqnoss.kepuchina.cn/kepuyun/2026/10/31/11/1793328258246.png",
-      "videoRightsConfirmed": true,
-      "videoLinkOnly": true,
-      "homeVideoFeatured": true,
-      "homeVideoPriority": 72,
-      "videoDuration": "",
-      "videoExternalId": "752584",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
     }
   ],
   "errors": [
     {
-      "source": "科普中国",
-      "error": "订阅未返回可解析条目"
-    },
-    {
       "source": "European Space Agency Science & Exploration",
-      "error": "连续 2 次请求失败（1613ms）：HTTP Error 404: Not Found"
+      "error": "连续 2 次请求失败（1484ms）：HTTP Error 404: Not Found"
     }
   ],
   "collection": {
-    "id": "2026-11-21T20:33:53.315866+00:00",
-    "startedAt": "2026-11-21T20:33:34.222386+00:00",
-    "finishedAt": "2026-11-21T20:33:53.315866+00:00",
+    "id": "2026-11-22T02:17:51.397111+00:00",
+    "startedAt": "2026-11-22T02:17:36.794809+00:00",
+    "finishedAt": "2026-11-22T02:17:51.397111+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 34,
-    "sourcesFailed": 2,
-    "fetched": 328,
-    "added": 263,
+    "sourcesSucceeded": 35,
+    "sourcesFailed": 1,
+    "fetched": 332,
+    "added": 267,
     "duplicates": 38,
     "invalid": 1,
     "staleSkipped": 26,
     "maxSourceAgeDays": 45,
     "errors": [
       {
-        "source": "科普中国",
-        "error": "订阅未返回可解析条目"
-      },
-      {
         "source": "European Space Agency Science & Exploration",
-        "error": "连续 2 次请求失败（1613ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（1484ms）：HTTP Error 404: Not Found"
       }
     ],
     "sourceResults": [
@@ -4014,7 +4002,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1093,
+        "durationMs": 1194,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4024,7 +4012,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1416,
+        "durationMs": 967,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4034,7 +4022,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2505,
+        "durationMs": 1811,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4044,7 +4032,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1312,
+        "durationMs": 614,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4054,7 +4042,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1236,
+        "durationMs": 1194,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4064,7 +4052,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1307,
+        "durationMs": 988,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4074,7 +4062,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1299,
+        "durationMs": 1143,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4084,7 +4072,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1180,
+        "durationMs": 938,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4094,7 +4082,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 918,
+        "durationMs": 528,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4102,20 +4090,19 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "failed",
+        "status": "success",
         "attempts": 1,
-        "durationMs": 3665,
-        "fetched": 0,
-        "added": 0,
-        "duplicates": 0,
-        "error": "订阅未返回可解析条目"
+        "durationMs": 2276,
+        "fetched": 4,
+        "added": 4,
+        "duplicates": 0
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2283,
+        "durationMs": 1483,
         "fetched": 6,
         "added": 5,
         "duplicates": 0
@@ -4125,7 +4112,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3554,
+        "durationMs": 2030,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4135,7 +4122,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1302,
+        "durationMs": 1619,
         "fetched": 10,
         "added": 2,
         "duplicates": 8
@@ -4145,7 +4132,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2280,
+        "durationMs": 1565,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4155,7 +4142,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1451,
+        "durationMs": 1641,
         "fetched": 10,
         "added": 8,
         "duplicates": 1
@@ -4165,7 +4152,7 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 107,
+        "durationMs": 226,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4175,7 +4162,7 @@
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 213,
+        "durationMs": 169,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4185,7 +4172,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 160,
+        "durationMs": 274,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4195,7 +4182,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1062,
+        "durationMs": 1155,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4205,7 +4192,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 181,
+        "durationMs": 239,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4215,7 +4202,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 460,
+        "durationMs": 692,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4225,7 +4212,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 374,
+        "durationMs": 430,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4235,7 +4222,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 401,
+        "durationMs": 141,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4245,7 +4232,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 82,
+        "durationMs": 72,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4255,7 +4242,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 402,
+        "durationMs": 505,
         "fetched": 2,
         "added": 2,
         "duplicates": 0
@@ -4265,7 +4252,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 228,
+        "durationMs": 114,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4275,7 +4262,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 86,
+        "durationMs": 60,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4285,7 +4272,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 110,
+        "durationMs": 189,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4295,7 +4282,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 609,
+        "durationMs": 816,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4305,7 +4292,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 216,
+        "durationMs": 204,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4315,7 +4302,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1248,
+        "durationMs": 647,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4325,7 +4312,7 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 262,
+        "durationMs": 357,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4335,18 +4322,18 @@
         "source": "European Space Agency Science & Exploration",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 1613,
+        "durationMs": 1484,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（1613ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（1484ms）：HTTP Error 404: Not Found"
       },
       {
         "sourceId": "cgiar",
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 326,
+        "durationMs": 293,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4356,7 +4343,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1226,
+        "durationMs": 1538,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4366,7 +4353,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 112,
+        "durationMs": 133,
         "fetched": 10,
         "added": 7,
         "duplicates": 3
