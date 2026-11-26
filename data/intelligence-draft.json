@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T21:46:07.669467+00:00",
+  "generatedAt": "2026-11-26T04:11:28.574619+00:00",
   "stories": [
     {
       "id": 19,
@@ -2334,21 +2334,21 @@
         "工业": 0,
         "能源": 0,
         "农业": 0,
-        "人文": 1
+        "人文": 0
       },
-      "categoryClassificationMargin": 2,
+      "categoryClassificationMargin": 3,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
-      "title": "科学家绘制水稻胚乳发育的高分辨率时空转录图谱",
-      "excerpt": "人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展…",
-      "body": "核心信息 人才教育 中国科学院教育简介 中国科学技术大学 中国科学院大学 上海科技大学 工作动态 信息公开 信息公开规定 信息公开指南 信息公开目录 信息公开申请 信息公开联系方式 中国科学院贯彻落实党中央关于科技创新的方针政策和决策部署，在履行职责过程中坚持党中央对科技工作的集中统一领导。主要职责是： 一、开展使命导向的自然科学领域基础研究，承担国家重大基础研究、应用基础研究、前沿交叉共性技术研究和引领性颠覆性技术研究任务，打造原始创新策源地。 更多+ 面向世界科技前沿，面向经济主战场，面向国家重大需求，面向人民生命健康，率先实现科学技术跨越发展… 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "title": "研究揭示青藏高原东南缘旧石器中期基纳技术的区域性分布与景观适应",
+      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
+      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“中国科学院”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/datacenter.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "category-cover",
       "imageAttribution": "平台板块封面",
-      "originalTitle": "科学家绘制水稻胚乳发育的高分辨率时空转录图谱",
+      "originalTitle": "研究揭示青藏高原东南缘旧石器中期基纳技术的区域性分布与景观适应",
       "originalExcerpt": "",
       "source": "中国科学院",
-      "sourceUrl": "https://www.cas.cn/syky/202611/t20261120_5124674.shtml",
+      "sourceUrl": "https://www.cas.cn/syky/202611/t20261123_5124800.shtml",
       "author": "",
       "language": "zh-CN",
       "sourceLanguage": "zh-CN",
@@ -2356,7 +2356,7 @@
       "time": "待审核",
       "readMinutes": 6,
       "heat": 78,
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "tags": [
         "科技"
       ],
@@ -2365,16 +2365,13 @@
       "sourceType": "research",
       "sourceRegion": "中国",
       "sourceTrustLevel": "authoritative",
-      "originalPublishedAt": "2026-11-20",
-      "sourcePublishedAt": "2026-11-20T00:00:00+00:00",
-      "collectedAt": "2026-11-24T02:55:48.709846+00:00",
-      "freshnessDays": 4,
+      "originalPublishedAt": "2026-11-23",
+      "sourcePublishedAt": "2026-11-23T00:00:00+00:00",
+      "collectedAt": "2026-11-26T04:11:27.760475+00:00",
+      "freshnessDays": 3,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss",
-      "summarySourceType": "source-page",
-      "translatedSourceTitle": "",
-      "translatedSourceMaterial": ""
+      "sourceMaterialType": "rss"
     },
     {
       "id": 15,
@@ -2595,16 +2592,16 @@
     {
       "id": 153,
       "category": "金融",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 7,
       "categoryScores": {
-        "金融": 7,
+        "金融": 11,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 11,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "金融前沿观察：欧洲央行与瑞典央行达成协议，瑞典将加入T2系统",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。欧洲央行（ECB）是采用欧元的欧盟国家的中央银行。我们的主要任务是维持欧元区价格稳定，从而保持单一货币的购买力。对普通读者而言，重点不是预测涨跌，而是识别谁会受到影响、影响通过什么渠道传递、是否存在新的合规要求，以及公开材料是否给出了可复核的时间表、样本和定义。",
@@ -2638,7 +2635,7 @@
       "collectedAt": "2026-11-25T21:46:07.374949+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency. The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
       "sourceMaterialType": "rss",
       "translatedSourceTitle": "欧洲央行与瑞典央行达成协议，瑞典将加入T2系统",
       "translatedSourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。欧洲央行（ECB）是采用欧元的欧盟国家的中央银行。我们的主要任务是维持欧元区价格稳定，从而保持单一货币的购买力。",
@@ -2664,7 +2661,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Meet Earth's New 'Mini-Moon' 2026 QQ8, a Six-Foot-Wide Asteroid That's Temporarily Circling Our Planet",
       "excerpt": "An astronomer first spotted the object in August, but scientists needed several weeks to determine whether it was natural or human-made. Earth's gravity captured 2026 QQ8 in April, and the space rock will leave us in December or January",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/8jEJ5_eaKmyIxRmKOHDxvwumZsY=/420x240/filters:focal(513x342:514x343)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/a7/d5/a7d5befd-b0a5-4ccd-ad1b-207e488de380/asteroid.jpg",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -2695,7 +2692,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "An astronomer first spotted the object in August, but scientists needed several weeks to determine whether it was natural or human-made. Earth's gravity captured 2026 QQ8 in April, and the space rock will leave us in December or January",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 118,
@@ -2713,7 +2712,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "US readies tariffs over manufacturing capacity, production concerns",
       "excerpt": "The proposed levies, ranging from 15% to 35%, target goods from China, the European Union and 12 other partners following a Section 301 probe earlier this year.",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“工业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“制造业行业资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://imgproxy.divecdn.com/8Gw82sjdJ33g14uguhPZ0Wu0V2KzWdd2YltpuVELdUA/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMzA2NTY0Mjk2LmpwZw==.webp",
       "imageFallback": "assets/factory.jpg",
       "imageSourceType": "rss",
@@ -2744,7 +2743,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The proposed levies, ranging from 15% to 35%, target goods from China, the European Union and 12 other partners following a Section 301 probe earlier this year.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 168,
@@ -2809,7 +2810,7 @@
       "categoryScores": {
         "金融": 0,
         "科技": 3,
-        "工业": 0,
+        "工业": 1,
         "能源": 0,
         "农业": 6,
         "人文": 0
@@ -2981,7 +2982,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "The Download: AI swamping open records, and firefighting for permafrost",
       "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors’ interest in public records. Over the last few years…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“科技”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“麻省理工科技评论”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/3_HighChair-crop.jpg?w=840",
       "imageFallback": "assets/datacenter.jpg",
       "imageSourceType": "rss",
@@ -3012,7 +3013,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors’ interest in public records. Over the last few years, venture-backed startups have raised upwards of $100 million to collect data…",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 117,
@@ -3132,7 +3135,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "The Ten Best Books About Food of 2026",
       "excerpt": "Food can provide comfort, and so can cookbooks and food-related memoirs—especially this batch, many of which explore how food can be a salve for mental health",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“农业”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“史密森学会杂志”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://th-thumbnailer.cdn-si-edu.com/Ng_ocvNFSd6OK9WBrieJ1mVrLmI=/420x240/filters:focal(750x500:751x501)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/ac/82/ac828c89-5e99-4b34-9414-597401aa52fa/booklist-2026-food.jpg",
       "imageFallback": "assets/solar.jpg",
       "imageSourceType": "rss",
@@ -3163,7 +3166,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "Food can provide comfort, and so can cookbooks and food-related memoirs—especially this batch, many of which explore how food can be a salve for mental health",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 248,
@@ -3280,7 +3285,9 @@
       "videoDuration": "00:18:50",
       "videoExternalId": "32f05acae7d142bbb47ce75413429637",
       "contentGenerationMode": "official-video-metadata",
-      "contentCharacterCount": 145
+      "contentCharacterCount": 145,
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 49,
@@ -3966,28 +3973,36 @@
   ],
   "errors": [
     {
+      "source": "科普中国",
+      "error": "订阅未返回可解析条目"
+    },
+    {
       "source": "European Space Agency Science & Exploration",
-      "error": "连续 2 次请求失败（2041ms）：HTTP Error 404: Not Found"
+      "error": "连续 2 次请求失败（1891ms）：HTTP Error 404: Not Found"
     }
   ],
   "collection": {
-    "id": "2026-11-25T21:46:07.669467+00:00",
-    "startedAt": "2026-11-25T21:45:47.067765+00:00",
-    "finishedAt": "2026-11-25T21:46:07.669467+00:00",
+    "id": "2026-11-26T04:11:28.574619+00:00",
+    "startedAt": "2026-11-26T04:11:06.464157+00:00",
+    "finishedAt": "2026-11-26T04:11:28.574619+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 331,
-    "added": 253,
-    "duplicates": 47,
+    "sourcesSucceeded": 34,
+    "sourcesFailed": 2,
+    "fetched": 329,
+    "added": 250,
+    "duplicates": 48,
     "invalid": 1,
     "staleSkipped": 30,
     "maxSourceAgeDays": 45,
     "errors": [
       {
+        "source": "科普中国",
+        "error": "订阅未返回可解析条目"
+      },
+      {
         "source": "European Space Agency Science & Exploration",
-        "error": "连续 2 次请求失败（2041ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（1891ms）：HTTP Error 404: Not Found"
       }
     ],
     "sourceResults": [
@@ -3996,7 +4011,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1036,
+        "durationMs": 2655,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4006,7 +4021,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1553,
+        "durationMs": 1671,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4016,17 +4031,17 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2627,
+        "durationMs": 2355,
         "fetched": 10,
-        "added": 5,
-        "duplicates": 5
+        "added": 6,
+        "duplicates": 4
       },
       {
         "sourceId": "china-ndrc-releases",
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 532,
+        "durationMs": 1183,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4036,17 +4051,17 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1059,
+        "durationMs": 818,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "china-cctv-new-technology-video",
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1060,
+        "durationMs": 1017,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4056,7 +4071,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 893,
+        "durationMs": 812,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4066,7 +4081,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1097,
+        "durationMs": 938,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4076,7 +4091,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 615,
+        "durationMs": 611,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4084,19 +4099,20 @@
       {
         "sourceId": "china-kepuchina-video",
         "source": "科普中国",
-        "status": "success",
+        "status": "failed",
         "attempts": 1,
-        "durationMs": 3185,
-        "fetched": 2,
-        "added": 2,
-        "duplicates": 0
+        "durationMs": 3049,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "订阅未返回可解析条目"
       },
       {
         "sourceId": "china-digital-science-museum-video",
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2105,
+        "durationMs": 2416,
         "fetched": 6,
         "added": 5,
         "duplicates": 0
@@ -4106,7 +4122,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 4201,
+        "durationMs": 5735,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4116,7 +4132,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 838,
+        "durationMs": 1024,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4126,17 +4142,17 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1879,
+        "durationMs": 2116,
         "fetched": 10,
-        "added": 4,
-        "duplicates": 6
+        "added": 3,
+        "duplicates": 7
       },
       {
         "sourceId": "china-mct-culture-news",
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1337,
+        "durationMs": 2429,
         "fetched": 10,
         "added": 6,
         "duplicates": 1
@@ -4146,17 +4162,17 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 59,
+        "durationMs": 16,
         "fetched": 10,
-        "added": 7,
-        "duplicates": 3
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 872,
+        "durationMs": 486,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4166,7 +4182,7 @@
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 64,
+        "durationMs": 53,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4176,7 +4192,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1072,
+        "durationMs": 1071,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4186,7 +4202,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 639,
+        "durationMs": 59,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4196,7 +4212,7 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 321,
+        "durationMs": 291,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4206,7 +4222,7 @@
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 463,
+        "durationMs": 272,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4216,7 +4232,7 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 139,
+        "durationMs": 47,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4226,7 +4242,7 @@
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 67,
+        "durationMs": 38,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4236,7 +4252,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2954,
+        "durationMs": 350,
         "fetched": 3,
         "added": 3,
         "duplicates": 0
@@ -4246,7 +4262,7 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 107,
+        "durationMs": 23,
         "fetched": 10,
         "added": 7,
         "duplicates": 0
@@ -4256,7 +4272,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 56,
+        "durationMs": 36,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4266,7 +4282,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 99,
+        "durationMs": 20,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4276,7 +4292,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 374,
+        "durationMs": 358,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4286,7 +4302,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 489,
+        "durationMs": 72,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4296,7 +4312,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1187,
+        "durationMs": 26,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4306,38 +4322,38 @@
         "source": "NASA Breaking News",
         "status": "success",
         "attempts": 1,
-        "durationMs": 34,
+        "durationMs": 39,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 2041,
+        "durationMs": 1891,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（2041ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（1891ms）：HTTP Error 404: Not Found"
       },
       {
         "sourceId": "cgiar",
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 389,
+        "durationMs": 45,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "ipcc",
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1037,
+        "durationMs": 796,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4347,10 +4363,10 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 132,
+        "durationMs": 42,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 7,
+        "duplicates": 3
       }
     ],
     "queueCount": 72,
@@ -4365,7 +4381,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 0,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
