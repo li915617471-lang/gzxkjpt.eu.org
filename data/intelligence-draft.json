@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-27T19:30:11.641254+00:00",
+  "generatedAt": "2026-11-28T02:44:48.278814+00:00",
   "stories": [
     {
       "id": 1,
       "category": "金融",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 9,
       "categoryScores": {
-        "金融": 11,
+        "金融": 14,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 11,
+      "categoryClassificationMargin": 14,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "金融前沿观察：中国人民银行发布《中国金融稳定报告（2026）》",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行发布了《中国金融稳定报告（2026）》。金融系统坚持党中央对金融工作的集中统一领导。积极防范化解金融领域风险。有效维护金融稳定与安全。二是金融支持融资平台债务风险化解取得明显成效。完善房地产金融宏观审慎管理。优化两项支持资本市场的货币政策工具。支持资本市场稳健发展。六是推进金融稳定保障体系建设…",
@@ -47,7 +47,7 @@
       "collectedAt": "2026-11-27T19:30:10.899729+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行发布了《中国金融稳定报告（2026）》。金融系统坚持党中央对金融工作的集中统一领导。积极防范化解金融领域风险。有效维护金融稳定与安全。二是金融支持融资平台债务风险化解取得明显成效。完善房地产金融宏观审慎管理。优化两项支持资本市场的货币政策工具。支持资本市场稳健发展。六是推进金融稳定保障体系建设。整合设立中国人民银行宏观审慎和金融稳定委员会。加强对重点领域的金融支持。加强系统性金融风险的监测评估。",
+      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行发布了《中国金融稳定报告（2026）》。金融系统坚持党中央对金融工作的集中统一领导。积极防范化解金融领域风险。有效维护金融稳定与安全。二是金融支持融资平台债务风险化解取得明显成效。完善房地产金融宏观审慎管理。优化两项支持资本市场的货币政策工具。支持资本市场稳健发展。六是推进金融稳定保障体系建设。整合设立中国人民银行宏观审慎和金融稳定委员会。加强对重点领域的金融支持。加强系统性金融风险的监测评估。 中国人民银行发布了《中国金融稳定报告（2026）》。金融系统坚持党中央对金融工作的集中统一领导。积极防范化解金融领域风险。有效维护金融稳定与安全。二是金融支持融资平台债务风险化解取得明显成效。完善房地产金融宏观审慎管理。优化两项支持资本市场的货币政策工具。支持资本市场稳健发展。六是推进金融稳定保障体系建设。整合设立中国人民银行宏观审慎和金融稳定委员会。加强对重点领域的金融支持。加强系统性金融风险的监测评估。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "translatedSourceTitle": "中国人民银行发布《中国金融稳定报告（2026）》",
@@ -329,16 +329,16 @@
     {
       "id": 3,
       "category": "金融",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 9,
       "categoryScores": {
-        "金融": 11,
+        "金融": 14,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 11,
+      "categoryClassificationMargin": 14,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "金融前沿观察：中国人民银行有关部门负责人就 《人民币存贷款利率管理规定》答记者问",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行有关部门负责人就《人民币存贷款利率管理规定》答记者问。1、《人民币存贷款利率管理规定》（以下简称《规定》）出台背景是什么。各项存贷款利率由金融机构按市场化原则自主确定。中国人民银行以《人民币利率管理规定》为主体。2、《规定》中提到的金融机构…",
@@ -372,7 +372,7 @@
       "collectedAt": "2026-11-27T19:30:10.901967+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行有关部门负责人就《人民币存贷款利率管理规定》答记者问。1、《人民币存贷款利率管理规定》（以下简称《规定》）出台背景是什么。各项存贷款利率由金融机构按市场化原则自主确定。中国人民银行以《人民币利率管理规定》为主体。2、《规定》中提到的金融机构。金融机构存款利率公告方式已普遍采用电子显示屏、官方网站、手机银行等多种方式。金融机构在上述渠道上公告的存款利率同网点物理挂牌的利率具有相同的法律效力。",
+      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行有关部门负责人就《人民币存贷款利率管理规定》答记者问。1、《人民币存贷款利率管理规定》（以下简称《规定》）出台背景是什么。各项存贷款利率由金融机构按市场化原则自主确定。中国人民银行以《人民币利率管理规定》为主体。2、《规定》中提到的金融机构。金融机构存款利率公告方式已普遍采用电子显示屏、官方网站、手机银行等多种方式。金融机构在上述渠道上公告的存款利率同网点物理挂牌的利率具有相同的法律效力。 中国人民银行有关部门负责人就《人民币存贷款利率管理规定》答记者问。1、《人民币存贷款利率管理规定》（以下简称《规定》）出台背景是什么。各项存贷款利率由金融机构按市场化原则自主确定。中国人民银行以《人民币利率管理规定》为主体。2、《规定》中提到的金融机构。金融机构存款利率公告方式已普遍采用电子显示屏、官方网站、手机银行等多种方式。金融机构在上述渠道上公告的存款利率同网点物理挂牌的利率具有相同的法律效力。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "translatedSourceTitle": "中国人民银行有关部门负责人就 《人民币存贷款利率管理规定》答记者问",
@@ -653,16 +653,16 @@
     {
       "id": 2,
       "category": "金融",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 4,
       "categoryScores": {
-        "金融": 7,
+        "金融": 8,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 8,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "金融前沿观察：中国人民银行有关部门负责人就 《大额存单管理办法》答记者问",
       "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行有关部门负责人就《大额存单管理办法》答记者问。自2015年《大额存单管理暂行办法》（中国人民银行公告〔2015〕第13号）出台以来。进一步规范和完善大额存单转让市场运行机制。为推动大额存单市场持续健康发展提供更加完善的制度保障…",
@@ -696,7 +696,7 @@
       "collectedAt": "2026-11-27T19:30:10.900916+00:00",
       "freshnessDays": 0,
       "reviewNote": "已通过 800 字、来源可追溯、段落去重和中文结构检查",
-      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行有关部门负责人就《大额存单管理办法》答记者问。自2015年《大额存单管理暂行办法》（中国人民银行公告〔2015〕第13号）出台以来。进一步规范和完善大额存单转让市场运行机制。为推动大额存单市场持续健康发展提供更加完善的制度保障。将《大额存单管理暂行办法》第六条规定的个人认购起点金额从30万元调整为20万元。降低认购起点金额将为大额存单二级转让提供更为充裕的交易基础。进一步规范和完善转让市场。",
+      "sourceMaterial": "来自公开来源的前沿信息，等待后台进一步编辑摘要。 中国人民银行有关部门负责人就《大额存单管理办法》答记者问。自2015年《大额存单管理暂行办法》（中国人民银行公告〔2015〕第13号）出台以来。进一步规范和完善大额存单转让市场运行机制。为推动大额存单市场持续健康发展提供更加完善的制度保障。将《大额存单管理暂行办法》第六条规定的个人认购起点金额从30万元调整为20万元。降低认购起点金额将为大额存单二级转让提供更为充裕的交易基础。进一步规范和完善转让市场。 中国人民银行有关部门负责人就《大额存单管理办法》答记者问。自2015年《大额存单管理暂行办法》（中国人民银行公告〔2015〕第13号）出台以来。进一步规范和完善大额存单转让市场运行机制。为推动大额存单市场持续健康发展提供更加完善的制度保障。将《大额存单管理暂行办法》第六条规定的个人认购起点金额从30万元调整为20万元。降低认购起点金额将为大额存单二级转让提供更为充裕的交易基础。进一步规范和完善转让市场。",
       "sourceMaterialType": "rss",
       "contentGenerationFallbackReason": "Expecting value: line 1 column 1 (char 0)",
       "translatedSourceTitle": "中国人民银行有关部门负责人就 《大额存单管理办法》答记者问",
@@ -2597,24 +2597,24 @@
     {
       "id": 152,
       "category": "金融",
-      "categoryEvidenceScore": 6,
+      "categoryEvidenceScore": 10,
       "categoryScores": {
-        "金融": 11,
+        "金融": 15,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 11,
+      "categoryClassificationMargin": 15,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“欧洲中央银行”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/network.jpg",
+      "excerpt": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“欧洲中央银行”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://www.ecb.europa.eu/press/govcdec/shared/img/socialmedia/social-default.jpg?1b07e3d68efd7f29f4771d75b50bd667",
       "imageFallback": "assets/network.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
+      "imageSourceType": "source-page",
+      "imageAttribution": "European Central Bank",
       "originalTitle": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
       "originalExcerpt": "",
       "source": "European Central Bank",
@@ -2641,7 +2641,10 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 217,
@@ -2771,7 +2774,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Global electricity generation more than doubled from 2000 to 2025",
       "excerpt": "The world generated 31.8 trillion kilowatthours (kWh) of electricity in 2025, more than double the 15.1 trillion kWh generated in 2000, according to our recently updated International Energy Statistics data. This growth in global electricity generation is driven by increasing…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“美国能源信息署”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“能源”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“美国能源信息署”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "assets/energy.jpg",
       "imageFallback": "assets/energy.jpg",
       "imageSourceType": "category-cover",
@@ -2802,7 +2805,9 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "The world generated 31.8 trillion kilowatthours (kWh) of electricity in 2025, more than double the 15.1 trillion kWh generated in 2000, according to our recently updated International Energy Statistics data. This growth in global electricity generation is driven by increasing electricity demand from global population and economic growth, and an increase in global median household income.",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 230,
@@ -2876,7 +2881,7 @@
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "Listen to the Music of the Ancient World: From 40,000-Year-Old Flutes to Ancient Greek Songs",
       "excerpt": "There aren’t many ways to experience the ancient world. We can learn its languages, at least the ones that have left behind decipherable writings; we can behold its artifacts; we can visit its ruins. But nothing gets us quite as close to entering the consciousness of our distant…",
-      "body": "核心信息\n\n该条目来自公开订阅源，尚待编辑补充中文摘要。\n\n编辑状态\n\n这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“开放文化资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“人文”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“开放文化资讯”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
       "image": "https://i.ytimg.com/vi/2nWf_OXdKz8/maxresdefault.jpg",
       "imageFallback": "assets/semiconductor.jpg",
       "imageSourceType": "rss",
@@ -2907,29 +2912,31 @@
       "freshnessDays": 0,
       "reviewNote": "需要编辑核验来源、摘要与分类后再发布",
       "sourceMaterial": "There aren’t many ways to experience the ancient world. We can learn its languages, at least the ones that have left behind decipherable writings; we can behold its artifacts; we can visit its ruins. But nothing gets us quite as close to entering the consciousness of our distant forebears as hearing the music — or […]",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 153,
       "category": "金融",
-      "categoryEvidenceScore": 3,
+      "categoryEvidenceScore": 7,
       "categoryScores": {
-        "金融": 7,
+        "金融": 11,
         "科技": 0,
         "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 0
       },
-      "categoryClassificationMargin": 7,
+      "categoryClassificationMargin": 11,
       "categoryClassificationReason": "标题与摘要关键词加权，并结合来源默认板块",
       "title": "ECB Consumer Expectations Survey results – October 2026",
-      "excerpt": "来自公开来源的前沿信息，等待后台进一步编辑摘要。",
-      "body": "核心信息\n\n来自公开来源的前沿信息，等待后台进一步编辑摘要。\n\n编辑状态\n\n这是一条属于“金融”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。\n\n简要来源\n\n本资料来自“欧洲中央银行”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
-      "image": "assets/network.jpg",
+      "excerpt": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "body": "核心信息 该条目来自公开订阅源，尚待编辑补充中文摘要。 编辑状态 这是一条属于“待分类”板块的采集线索，正文尚未达到 800 字公开标准，当前只进入后台待审核区。 简要来源 本资料来自“欧洲中央银行”公开订阅摘要，仅用于线索发现和后台审核。正式发布前请编辑核对标题、事实、分类、图片使用边界及原始链接。",
+      "image": "https://www.ecb.europa.eu/press/shared/img/socialmedia/social-default.jpg?0ef1632c35edede913681bb76af694a4",
       "imageFallback": "assets/network.jpg",
-      "imageSourceType": "category-cover",
-      "imageAttribution": "平台板块封面",
+      "imageSourceType": "source-page",
+      "imageAttribution": "European Central Bank",
       "originalTitle": "ECB Consumer Expectations Survey results – October 2026",
       "originalExcerpt": "",
       "source": "European Central Bank",
@@ -2956,7 +2963,10 @@
       "freshnessDays": 0,
       "reviewNote": "来源可信度较高，仍需核对标题、摘要和原始链接",
       "sourceMaterial": "",
-      "sourceMaterialType": "rss"
+      "sourceMaterialType": "rss",
+      "summarySourceType": "source-page",
+      "translatedSourceTitle": "",
+      "translatedSourceMaterial": ""
     },
     {
       "id": 104,
@@ -2965,7 +2975,7 @@
       "categoryScores": {
         "金融": 0,
         "科技": 12,
-        "工业": 1,
+        "工业": 0,
         "能源": 0,
         "农业": 0,
         "人文": 2
@@ -3977,28 +3987,36 @@
   ],
   "errors": [
     {
+      "source": "NASA Breaking News",
+      "error": "连续 2 次请求失败（850ms）：HTTP Error 429: Too Many Requests"
+    },
+    {
       "source": "European Space Agency Science & Exploration",
-      "error": "连续 2 次请求失败（2532ms）：HTTP Error 404: Not Found"
+      "error": "连续 2 次请求失败（2144ms）：HTTP Error 404: Not Found"
     }
   ],
   "collection": {
-    "id": "2026-11-27T19:30:11.641254+00:00",
-    "startedAt": "2026-11-27T19:29:50.602354+00:00",
-    "finishedAt": "2026-11-27T19:30:11.641254+00:00",
+    "id": "2026-11-28T02:44:48.278814+00:00",
+    "startedAt": "2026-11-28T02:44:27.607910+00:00",
+    "finishedAt": "2026-11-28T02:44:48.278814+00:00",
     "status": "partial",
     "sourcesTotal": 36,
-    "sourcesSucceeded": 35,
-    "sourcesFailed": 1,
-    "fetched": 330,
-    "added": 251,
-    "duplicates": 48,
+    "sourcesSucceeded": 34,
+    "sourcesFailed": 2,
+    "fetched": 321,
+    "added": 242,
+    "duplicates": 47,
     "invalid": 1,
-    "staleSkipped": 30,
+    "staleSkipped": 31,
     "maxSourceAgeDays": 45,
     "errors": [
       {
+        "source": "NASA Breaking News",
+        "error": "连续 2 次请求失败（850ms）：HTTP Error 429: Too Many Requests"
+      },
+      {
         "source": "European Space Agency Science & Exploration",
-        "error": "连续 2 次请求失败（2532ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（2144ms）：HTTP Error 404: Not Found"
       }
     ],
     "sourceResults": [
@@ -4007,7 +4025,7 @@
         "source": "中国人民银行",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1891,
+        "durationMs": 2858,
         "fetched": 10,
         "added": 4,
         "duplicates": 6
@@ -4017,7 +4035,7 @@
         "source": "中华人民共和国科学技术部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1322,
+        "durationMs": 1558,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4027,7 +4045,7 @@
         "source": "中国科学院",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1577,
+        "durationMs": 2792,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4037,7 +4055,7 @@
         "source": "中华人民共和国国家发展和改革委员会",
         "status": "success",
         "attempts": 1,
-        "durationMs": 692,
+        "durationMs": 1104,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4047,7 +4065,7 @@
         "source": "中央广播电视总台《创新进行时》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1016,
+        "durationMs": 768,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4057,7 +4075,7 @@
         "source": "中央广播电视总台《透视新科技》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 999,
+        "durationMs": 830,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4067,7 +4085,7 @@
         "source": "中央广播电视总台《地理·中国》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1031,
+        "durationMs": 715,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4077,7 +4095,7 @@
         "source": "中央广播电视总台《探索·发现》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1253,
+        "durationMs": 794,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4087,7 +4105,7 @@
         "source": "中央广播电视总台《百家讲坛》",
         "status": "success",
         "attempts": 1,
-        "durationMs": 879,
+        "durationMs": 697,
         "fetched": 10,
         "added": 8,
         "duplicates": 0
@@ -4097,9 +4115,9 @@
         "source": "科普中国",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2752,
-        "fetched": 1,
-        "added": 1,
+        "durationMs": 3734,
+        "fetched": 2,
+        "added": 2,
         "duplicates": 0
       },
       {
@@ -4107,7 +4125,7 @@
         "source": "中国数字科技馆",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1976,
+        "durationMs": 2310,
         "fetched": 6,
         "added": 5,
         "duplicates": 0
@@ -4117,7 +4135,7 @@
         "source": "中华人民共和国国家统计局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 7225,
+        "durationMs": 7722,
         "fetched": 10,
         "added": 6,
         "duplicates": 4
@@ -4127,7 +4145,7 @@
         "source": "中华人民共和国国家能源局",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1323,
+        "durationMs": 747,
         "fetched": 10,
         "added": 5,
         "duplicates": 5
@@ -4137,7 +4155,7 @@
         "source": "中华人民共和国农业农村部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 2012,
+        "durationMs": 2651,
         "fetched": 10,
         "added": 3,
         "duplicates": 7
@@ -4147,7 +4165,7 @@
         "source": "中华人民共和国文化和旅游部",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1250,
+        "durationMs": 1500,
         "fetched": 10,
         "added": 5,
         "duplicates": 2
@@ -4157,27 +4175,27 @@
         "source": "MIT Technology Review",
         "status": "success",
         "attempts": 1,
-        "durationMs": 136,
+        "durationMs": 20,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 10,
+        "duplicates": 0
       },
       {
         "sourceId": "ieee-spectrum",
         "source": "IEEE Spectrum",
         "status": "success",
         "attempts": 1,
-        "durationMs": 274,
+        "durationMs": 997,
         "fetched": 10,
-        "added": 10,
-        "duplicates": 0
+        "added": 9,
+        "duplicates": 1
       },
       {
         "sourceId": "manufacturing-dive",
         "source": "Manufacturing Dive",
         "status": "success",
         "attempts": 1,
-        "durationMs": 78,
+        "durationMs": 59,
         "fetched": 10,
         "added": 9,
         "duplicates": 1
@@ -4187,7 +4205,7 @@
         "source": "Semiconductor Engineering",
         "status": "success",
         "attempts": 1,
-        "durationMs": 1020,
+        "durationMs": 972,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4197,7 +4215,7 @@
         "source": "Global Ag Tech Initiative",
         "status": "success",
         "attempts": 1,
-        "durationMs": 741,
+        "durationMs": 80,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4207,17 +4225,17 @@
         "source": "Open Culture",
         "status": "success",
         "attempts": 1,
-        "durationMs": 463,
+        "durationMs": 297,
         "fetched": 10,
-        "added": 9,
-        "duplicates": 1
+        "added": 8,
+        "duplicates": 2
       },
       {
         "sourceId": "european-central-bank",
         "source": "European Central Bank",
         "status": "success",
         "attempts": 1,
-        "durationMs": 400,
+        "durationMs": 264,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4227,17 +4245,17 @@
         "source": "U.S. Energy Information Administration",
         "status": "success",
         "attempts": 1,
-        "durationMs": 233,
+        "durationMs": 85,
         "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "added": 7,
+        "duplicates": 3
       },
       {
         "sourceId": "us-federal-reserve",
         "source": "U.S. Federal Reserve",
         "status": "success",
         "attempts": 1,
-        "durationMs": 84,
+        "durationMs": 53,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4247,7 +4265,7 @@
         "source": "Bank for International Settlements",
         "status": "success",
         "attempts": 1,
-        "durationMs": 453,
+        "durationMs": 482,
         "fetched": 3,
         "added": 3,
         "duplicates": 0
@@ -4257,9 +4275,9 @@
         "source": "U.S. National Science Foundation",
         "status": "success",
         "attempts": 1,
-        "durationMs": 150,
+        "durationMs": 90,
         "fetched": 10,
-        "added": 7,
+        "added": 6,
         "duplicates": 0
       },
       {
@@ -4267,7 +4285,7 @@
         "source": "U.S. National Institute of Standards and Technology",
         "status": "success",
         "attempts": 1,
-        "durationMs": 87,
+        "durationMs": 44,
         "fetched": 10,
         "added": 5,
         "duplicates": 0
@@ -4277,7 +4295,7 @@
         "source": "U.S. Department of Energy",
         "status": "success",
         "attempts": 1,
-        "durationMs": 144,
+        "durationMs": 160,
         "fetched": 10,
         "added": 0,
         "duplicates": 0
@@ -4287,7 +4305,7 @@
         "source": "USDA Agricultural Research Service",
         "status": "success",
         "attempts": 1,
-        "durationMs": 533,
+        "durationMs": 358,
         "fetched": 10,
         "added": 3,
         "duplicates": 0
@@ -4297,7 +4315,7 @@
         "source": "National Association of Manufacturers",
         "status": "success",
         "attempts": 1,
-        "durationMs": 326,
+        "durationMs": 276,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4307,7 +4325,7 @@
         "source": "Harvard Gazette Arts & Humanities",
         "status": "success",
         "attempts": 1,
-        "durationMs": 141,
+        "durationMs": 240,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4315,30 +4333,31 @@
       {
         "sourceId": "nasa-breaking-news",
         "source": "NASA Breaking News",
-        "status": "success",
-        "attempts": 1,
-        "durationMs": 171,
-        "fetched": 10,
-        "added": 8,
-        "duplicates": 2
+        "status": "failed",
+        "attempts": 2,
+        "durationMs": 850,
+        "fetched": 0,
+        "added": 0,
+        "duplicates": 0,
+        "error": "连续 2 次请求失败（850ms）：HTTP Error 429: Too Many Requests"
       },
       {
         "sourceId": "esa-science-exploration",
         "source": "European Space Agency Science & Exploration",
         "status": "failed",
         "attempts": 2,
-        "durationMs": 2532,
+        "durationMs": 2144,
         "fetched": 0,
         "added": 0,
         "duplicates": 0,
-        "error": "连续 2 次请求失败（2532ms）：HTTP Error 404: Not Found"
+        "error": "连续 2 次请求失败（2144ms）：HTTP Error 404: Not Found"
       },
       {
         "sourceId": "cgiar",
         "source": "CGIAR",
         "status": "success",
         "attempts": 1,
-        "durationMs": 348,
+        "durationMs": 190,
         "fetched": 10,
         "added": 8,
         "duplicates": 2
@@ -4348,7 +4367,7 @@
         "source": "Intergovernmental Panel on Climate Change",
         "status": "success",
         "attempts": 1,
-        "durationMs": 3534,
+        "durationMs": 897,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4358,7 +4377,7 @@
         "source": "Smithsonian Magazine",
         "status": "success",
         "attempts": 1,
-        "durationMs": 175,
+        "durationMs": 87,
         "fetched": 10,
         "added": 10,
         "duplicates": 0
@@ -4376,7 +4395,7 @@
     "articleGeneration": {
       "requested": 32,
       "generated": 32,
-      "translated": 2,
+      "translated": 0,
       "failed": 0,
       "chineseArticlesPrepared": 30,
       "foreignArticlesPrepared": 2,
